@@ -1,21 +1,5 @@
 {
-  "updated_at": "2026-03-12T16:53:40.525739+00:00",
-  "log": [
-    {
-      "event": "join",
-      "user_id": "1248970731849777152",
-      "name": "GijomLEMijom",
-      "avatar": "https://cdn.discordapp.com/avatars/1248970731849777152/1fac300843a6f5cc18d36b1e485a3084.png?size=1024",
-      "time": "2026-03-12T16:22:35.250211+00:00"
-    }
-  ],
-  "totals": {
-    "1248970731849777152": {
-      "joins": 1,
-      "leaves": 0,
-      "last_seen": "2026-03-12T16:22:35.250211+00:00",
-      "first_join": "2026-03-12T16:22:35.250211+00:00",
-      "name": "GijomLEMijom"
-    }
-  }
+  "updated_at": "2026-03-12T22:35:58.312602+00:00",
+  "log": [],
+  "totals": {}
 }
