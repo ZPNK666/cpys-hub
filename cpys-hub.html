@@ -172,6 +172,56 @@ canvas.lc{width:100%;height:70px;display:block;}
 .blink{animation:bk .8s steps(1) infinite;}
 @keyframes bk{0%,49%{opacity:1}50%,100%{opacity:0}}
 
+
+/* ===== SPLASH ===== */
+#splash{
+  position:fixed;inset:0;z-index:1000;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  background:var(--bg);
+  gap:20px;
+}
+#splash-logo{
+  font-family:'Press Start 2P',monospace;
+  font-size:18px;color:var(--gold);
+  text-align:center;line-height:1.6;
+  animation:logoGlow 3s ease-in-out infinite alternate;
+}
+#splash-logo small{font-size:7px;color:var(--muted);letter-spacing:4px;display:block;margin-top:6px;}
+#splash-sub{
+  font-family:'Press Start 2P',monospace;
+  font-size:8px;color:var(--muted);
+  letter-spacing:2px;margin-bottom:10px;
+}
+#splash-btns{display:flex;flex-direction:column;gap:14px;width:280px;}
+.splash-btn{
+  display:flex;align-items:center;gap:16px;
+  padding:18px 24px;
+  background:rgba(11,21,32,0.9);
+  border:1px solid var(--b);
+  border-left:3px solid;
+  cursor:pointer;
+  font-family:'Press Start 2P',monospace;font-size:11px;
+  color:var(--text);
+  opacity:0;transform:translateY(-40px);
+  transition:background .2s,transform .15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.splash-btn:active{transform:scale(0.97)!important;}
+.splash-btn.mcb{border-left-color:var(--green);}
+.splash-btn.dsb{border-left-color:var(--blue);}
+.splash-btn.rbb{border-left-color:#ff6b35;}
+.splash-btn.mcb:hover{background:rgba(0,210,106,0.08);box-shadow:0 0 20px rgba(0,210,106,0.15);}
+.splash-btn.dsb:hover{background:rgba(88,101,242,0.08);box-shadow:0 0 20px rgba(88,101,242,0.15);}
+.splash-btn.rbb:hover{background:rgba(255,107,53,0.08);box-shadow:0 0 20px rgba(255,107,53,0.15);}
+.sbi{font-size:26px;}
+/* drop-in animation */
+@keyframes dropIn{from{opacity:0;transform:translateY(-60px)}to{opacity:1;transform:translateY(0)}}
+.splash-btn.drop{animation:dropIn .45s cubic-bezier(.22,1,.36,1) forwards;}
+/* splash fade out */
+@keyframes splashOut{to{opacity:0;pointer-events:none}}
+#splash.hiding{animation:splashOut .4s ease forwards;}
+
 /* SCROLLBAR */
 ::-webkit-scrollbar{width:3px;}
 ::-webkit-scrollbar-track{background:#0a0a0a;}
@@ -236,7 +286,18 @@ canvas.lc{width:100%;height:70px;display:block;}
 <canvas id="particles"></canvas>
 <div id="cursor"></div>
 
-<div class="app">
+<!-- SPLASH SCREEN -->
+<div id="splash">
+  <div id="splash-logo">C.P.Y.S HUB<span class="blink"> _</span><br><small>STATISTICS DASHBOARD</small></div>
+  <div id="splash-sub">ВЫБЕРИ ПЛАТФОРМУ</div>
+  <div id="splash-btns">
+    <div class="splash-btn mcb" onclick="splashPick('mc')"><span class="sbi">⛏️</span><span>MINECRAFT</span></div>
+    <div class="splash-btn dsb" onclick="splashPick('ds')"><span class="sbi">💬</span><span>DISCORD</span></div>
+    <div class="splash-btn rbb" onclick="splashPick('rb')"><span class="sbi">🎮</span><span>ROBLOX</span></div>
+  </div>
+</div>
+
+<div class="app" id="mainapp" style="display:none">
   <header>
     <div class="logo">C.P.Y.S HUB<span class="blink"> _</span><small>STATISTICS DASHBOARD</small></div>
     <div class="hright">
@@ -249,7 +310,7 @@ canvas.lc{width:100%;height:70px;display:block;}
   <div class="center">
 
     <!-- MC -->
-    <div class="pane show" id="pn-mc">
+    <div class="pane" id="pn-mc">
       <div class="srow">
         <div class="sb g"><span class="sb-lbl">Онлайн</span><span class="sb-num g" id="mc-on">0</span><span class="sb-sub">игроков</span></div>
         <div class="sb o"><span class="sb-lbl">Рекорд</span><span class="sb-num o">47</span><span class="sb-sub">14.03.2025</span></div>
@@ -279,21 +340,9 @@ canvas.lc{width:100%;height:70px;display:block;}
       </div>
       <div class="stabs">
         <div class="st a" onclick="dst('members',this)">👥 Участники</div>
-        <div class="st" onclick="dst('media',this)">🖼️ Медиа</div>
-        <div class="st" onclick="dst('jl',this)">🚪 Входы/Выходы</div>
         <div class="st" onclick="dst('roles',this)">🛡️ Роли</div>
       </div>
       <div class="sc show" id="ds-sc-members"><div class="mgrid" id="ds-mg"></div></div>
-      <div class="sc" id="ds-sc-media">
-        <div class="mbtns" id="ds-mb"></div>
-        <div class="pnl"><div class="ph" id="ds-mt">КТО ОТПРАВЛЯЛ</div><div class="pbd scr" id="ds-md"></div></div>
-      </div>
-      <div class="sc" id="ds-sc-jl">
-        <div class="twocol">
-          <div class="pnl"><div class="ph">🚪 СОБЫТИЯ</div><div class="pbd scr" id="ds-jll"></div></div>
-          <div class="pnl"><div class="ph">📊 ТОП ПОСЕЩЕНИЙ</div><div class="pbd scr" id="ds-jlt"></div></div>
-        </div>
-      </div>
       <div class="sc" id="ds-sc-roles">
         <div class="pnl"><div class="ph">🛡️ РОЛИ</div><div class="pbd" id="ds-rl"></div></div>
       </div>
@@ -307,20 +356,29 @@ canvas.lc{width:100%;height:70px;display:block;}
   </div>
 
   <div class="btabs">
-    <div class="bt mcb a" onclick="sp('mc',this,'mcb')"><span class="bi">⛏️</span>MINECRAFT</div>
-    <div class="bt dsb" onclick="sp('ds',this,'dsb')"><span class="bi">💬</span>DISCORD</div>
-    <div class="bt rbb" onclick="sp('rb',this,'rbb')"><span class="bi">🎮</span>ROBLOX</div>
+    <div class="bt mcb" id="bt-mc" onclick="sp('mc',this,'mcb')"><span class="bi">⛏️</span>MINECRAFT</div>
+    <div class="bt dsb" id="bt-ds" onclick="sp('ds',this,'dsb')"><span class="bi">💬</span>DISCORD</div>
+    <div class="bt rbb" id="bt-rb" onclick="sp('rb',this,'rbb')"><span class="bi">🎮</span>ROBLOX</div>
   </div>
 </div>
 
-<!-- MODAL -->
+<!-- MEMBER MODAL -->
 <div class="mbg" id="mbg" onclick="cm(event)">
   <div class="modal">
     <button class="mcl" onclick="cm()">✕ ЗАКРЫТЬ</button>
-    <div class="mav" id="mav"></div>
-    <div class="mnm" id="mnm"></div>
-    <div style="font-size:12px;color:var(--muted)" id="mrl"></div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+      <div class="mav" id="mav"></div>
+      <div>
+        <div class="mnm" id="mnm"></div>
+        <div style="font-size:12px;color:var(--muted);margin-top:3px" id="mrl"></div>
+      </div>
+    </div>
     <div class="mgrd" id="mgr"></div>
+    <!-- MEDIA SECTION inside modal -->
+    <div id="modal-media" style="margin-top:12px;display:none;">
+      <div class="ph" style="border:1px solid var(--b);margin-bottom:6px;">📊 МЕДИА АКТИВНОСТЬ</div>
+      <div id="modal-media-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:5px;"></div>
+    </div>
   </div>
 </div>
 
@@ -605,50 +663,147 @@ function renderDS(){
       <div class="mc-nm">${m.name}</div>
       <div class="mc-rl" style="color:${rc[m.role]}">${m.role.toUpperCase()}</div>
     </div>`).join('');
-  const mt=[{k:'msgs',i:'💬',l:'Текст'},{k:'images',i:'🖼️',l:'Картинки'},{k:'gifs',i:'🎞️',l:'Гифки'},{k:'stickers',i:'😄',l:'Стикеры'},{k:'voice',i:'🎤',l:'Голос'},{k:'files',i:'📁',l:'Файлы'}];
-  document.getElementById('ds-mb').innerHTML=mt.map((t,i)=>`<div class="mbtn${i===0?' a':''}" onclick="showMed('${t.k}','${t.l}',this)"><span class="mi">${t.i}</span><div style="font-size:10px;color:var(--muted)">${t.l}</div><div class="mc2">${dsM.reduce((s,m)=>s+m[t.k],0)}</div></div>`).join('');
-  showMed('msgs','Текст',document.querySelector('.mbtn.a'));
-  document.getElementById('ds-jll').innerHTML=jlL.map(r=>`<div class="jlr"><span>${r.ev==='join'?'➕':'➖'}</span><span class="${r.ev==='join'?'jl-j':'jl-l'}" style="flex:1">${r.name}</span><span style="color:var(--muted);font-size:12px">${r.time}</span></div>`).join('');
-  document.getElementById('ds-jlt').innerHTML=[...dsM].sort((a,b)=>b.joins-a.joins).map((m,i)=>`<div class="row"><span style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--muted);width:16px">#${i+1}</span><div class="rav" style="background:${m.color}22;border-color:${m.color};color:${m.color}">${m.name[0]}</div><div class="ri"><div class="rn">${m.name}</div><div class="rs">${m.joins} входов · с ${m.joined}</div></div></div>`).join('');
   document.getElementById('ds-rl').innerHTML=[{n:'👑 Администраторы',c:3,col:'#ff4444'},{n:'🛡️ Модераторы',c:7,col:'#ffd700'},{n:'💎 VIP',c:24,col:'#4de6e6'},{n:'🟢 Участники',c:123,col:'#5865f2'}].map(r=>`<div class="pw"><div class="pi"><span>${r.n}</span><span style="color:var(--muted)">${r.c}</span></div><div class="pbb"><div class="pf" style="width:${Math.round(r.c/157*100)}%;background:${r.col}"></div></div></div>`).join('');
 }
 
-function showMed(k,lbl,el){
-  document.querySelectorAll('.mbtn').forEach(d=>d.classList.remove('a'));el.classList.add('a');
-  document.getElementById('ds-mt').textContent='КТО ОТПРАВЛЯЛ — '+lbl.toUpperCase();
-  document.getElementById('ds-md').innerHTML=[...dsM].filter(m=>m[k]>0).sort((a,b)=>b[k]-a[k]).map((m,i)=>`<div class="row"><span style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--muted);width:16px">#${i+1}</span><div class="rav" style="background:${m.color}22;border-color:${m.color};color:${m.color}">${m.name[0]}</div><div class="ri"><div class="rn">${m.name}</div></div><div class="rv">${m[k]} шт.</div></div>`).join('');
-}
-
 function openM(p){
-  document.getElementById('mav').style.cssText=`background:${p.color}22;border-color:${p.color};color:${p.color}`;
+  document.getElementById('mav').style.cssText=`width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:bold;border:2px solid;background:${p.color}22;border-color:${p.color};color:${p.color}`;
   document.getElementById('mav').textContent=p.name[0];
   document.getElementById('mnm').textContent=p.name;
   document.getElementById('mrl').textContent=(p.role||'ИГРОК').toUpperCase();
-  document.getElementById('mgr').innerHTML=p.type==='mc'?`
-    <div class="ms"><span class="ml">Статус</span><span class="mv" style="color:${p.on?'var(--green)':'var(--muted)'}">${p.on?'ONLINE':'OFFLINE'}</span></div>
-    <div class="ms"><span class="ml">Время</span><span class="mv">${p.time}</span></div>
-    <div class="ms"><span class="ml">Убийств</span><span class="mv" style="color:var(--red)">${p.kills}</span></div>
-    <div class="ms"><span class="ml">Смертей</span><span class="mv">${p.deaths}</span></div>`:`
-    <div class="ms"><span class="ml">Статус</span><span class="mv" style="color:${p.on?'var(--green)':'var(--muted)'}">${p.on?'ONLINE':'OFFLINE'}</span></div>
-    <div class="ms"><span class="ml">На сервере с</span><span class="mv">${p.joined}</span></div>
-    <div class="ms"><span class="ml">Сообщений</span><span class="mv">${p.msgs}</span></div>
-    <div class="ms"><span class="ml">Картинок</span><span class="mv">${p.images}</span></div>
-    <div class="ms"><span class="ml">Гифок</span><span class="mv">${p.gifs}</span></div>
-    <div class="ms"><span class="ml">Стикеров</span><span class="mv">${p.stickers}</span></div>
-    <div class="ms"><span class="ml">Голосовых</span><span class="mv">${p.voice}</span></div>
-    <div class="ms"><span class="ml">Входов</span><span class="mv">${p.joins}</span></div>`;
+
+  if(p.type==='mc'){
+    document.getElementById('mgr').innerHTML=`
+      <div class="ms"><span class="ml">Статус</span><span class="mv" style="color:${p.on?'var(--green)':'var(--muted)'}">${p.on?'ONLINE':'OFFLINE'}</span></div>
+      <div class="ms"><span class="ml">Время</span><span class="mv">${p.time}</span></div>
+      <div class="ms"><span class="ml">Убийств</span><span class="mv" style="color:var(--red)">${p.kills}</span></div>
+      <div class="ms"><span class="ml">Смертей</span><span class="mv">${p.deaths}</span></div>`;
+    document.getElementById('modal-media').style.display='none';
+  } else {
+    document.getElementById('mgr').innerHTML=`
+      <div class="ms"><span class="ml">Статус</span><span class="mv" style="color:${p.on?'var(--green)':'var(--muted)'}">${p.on?'ONLINE':'OFFLINE'}</span></div>
+      <div class="ms"><span class="ml">На сервере с</span><span class="mv">${p.joined}</span></div>
+      <div class="ms"><span class="ml">Входов</span><span class="mv">${p.joins}</span></div>`;
+    // Show media grid
+    const mt=[
+      {k:'msgs',i:'💬',l:'Сообщений'},
+      {k:'images',i:'🖼️',l:'Картинок'},
+      {k:'gifs',i:'🎞️',l:'Гифок'},
+      {k:'stickers',i:'😄',l:'Стикеров'},
+      {k:'voice',i:'🎤',l:'Голосовых'},
+      {k:'files',i:'📁',l:'Файлов'}
+    ];
+    document.getElementById('modal-media-grid').innerHTML=mt.map(t=>`
+      <div style="background:#0a1420;border:1px solid var(--b);padding:8px 6px;text-align:center;">
+        <div style="font-size:20px">${t.i}</div>
+        <div style="font-family:'Press Start 2P',monospace;font-size:10px;color:var(--cyan);margin:3px 0">${p[t.k]}</div>
+        <div style="font-size:10px;color:var(--muted)">${t.l}</div>
+      </div>`).join('');
+    document.getElementById('modal-media').style.display='block';
+  }
   document.getElementById('mbg').classList.add('show');
 }
 function cm(e){if(!e||e.target===document.getElementById('mbg'))document.getElementById('mbg').classList.remove('show');}
 
+const API = 'https://cpys-hub-api.onrender.com/api/discord'; // ← замени на свой URL с Render
+
 async function loadReal(){
-  try{const r=await fetch('discord_stats.json?t='+Date.now());if(!r.ok)return;const d=await r.json();
-  if(d.summary){cnt(document.getElementById('ds-tot'),d.summary.total_members||0);cnt(document.getElementById('ds-vc'),d.summary.in_voice_count||0);cnt(document.getElementById('ds-msg'),d.summary.messages_today||0);document.getElementById('ds-ons').textContent=`онлайн: ${d.summary.online_count||0}`;}}catch(e){}
+  try{
+    const r=await fetch(API+'?t='+Date.now());
+    if(!r.ok) return;
+    const d=await r.json();
+    if(!d.ok) return;
+
+    const s=d.summary;
+    // Summary
+    cnt(document.getElementById('ds-tot'), s.total);
+    cnt(document.getElementById('ds-vc'),  s.in_voice);
+    document.getElementById('ds-ons').textContent=`онлайн: ${s.online}`;
+    document.getElementById('ds-msg-val') && cnt(document.getElementById('ds-msg-val'), 0);
+
+    // Boost
+    const bEl=document.querySelector('.sb.c .sb-num');
+    if(bEl) bEl.textContent='Lv '+s.boost_level;
+    const bSub=document.querySelector('.sb.c .sb-sub');
+    if(bSub) bSub.textContent=s.boost_count+' бустера';
+
+    // Members grid
+    if(d.members && d.members.length){
+      const rc={admin:'var(--red)',mod:'var(--gold)',vip:'var(--cyan)',member:'var(--muted)'};
+      document.getElementById('ds-mg').innerHTML=d.members.map(m=>`
+        <div class="mc" onclick='openM(${JSON.stringify({...m,type:"ds"})})'>
+          <div class="mc-dot ${m.on?'on':'off'}"></div>
+          <div class="mc-av" style="background:${m.color}22;border-color:${m.color};color:${m.color}">${m.name[0]}</div>
+          <div class="mc-nm">${m.name}</div>
+          <div class="mc-rl" style="color:${rc[m.role]||'var(--muted)'};">${m.role.toUpperCase()}</div>
+        </div>`).join('');
+    }
+
+    // Roles
+    if(d.roles && d.roles.length){
+      const total=s.total||1;
+      document.getElementById('ds-rl').innerHTML=d.roles.map(r=>`
+        <div class="pw">
+          <div class="pi"><span style="color:${r.color}">${r.name}</span><span style="color:var(--muted)">${r.count}</span></div>
+          <div class="pbb"><div class="pf" style="width:${Math.min(100,Math.round(r.count/total*100))}%;background:${r.color}"></div></div>
+        </div>`).join('');
+    }
+
+    // Voice channels
+    if(d.voice_channels){
+      let inVoice=0;
+      document.getElementById('ds-vcl').innerHTML=d.voice_channels.map(vc=>{
+        inVoice+=vc.members.length;
+        return `<div style="margin-bottom:4px">
+          <span style="color:var(--blue)">🔊 ${vc.name}</span>
+          <span style="color:var(--muted);font-size:11px"> (${vc.members.length})</span>
+          <div>${vc.members.map(m=>`<span class="vcm">${m}</span>`).join('')||'<span style="color:var(--muted);font-size:11px">пусто</span>'}</div>
+        </div>`;
+      }).join('');
+      cnt(document.getElementById('ds-vc'), inVoice);
+    }
+
+  }catch(e){
+    console.warn('API недоступен, используем тестовые данные:', e.message);
+  }
 }
+
+// ===== SPLASH =====
+function splashPick(tab){
+  // Animate buttons dropping out
+  document.querySelectorAll('.splash-btn').forEach((b,i)=>{
+    b.style.animation='none';
+    b.style.opacity='1';
+    b.style.transform='translateY(0)';
+    setTimeout(()=>{
+      b.style.transition='transform .35s cubic-bezier(.55,0,1,.45), opacity .35s';
+      b.style.transform='translateY(120px)';
+      b.style.opacity='0';
+    }, i*60);
+  });
+  setTimeout(()=>{
+    const splash=document.getElementById('splash');
+    splash.classList.add('hiding');
+    setTimeout(()=>{
+      splash.style.display='none';
+      const app=document.getElementById('mainapp');
+      app.style.display='flex';
+      // activate chosen tab
+      const btn=document.getElementById('bt-'+tab);
+      sp(tab,btn,tab==='mc'?'mcb':tab==='ds'?'dsb':'rbb');
+    },400);
+  },300);
+}
+
+// Animate splash buttons dropping IN on load
+window.addEventListener('load',()=>{
+  document.querySelectorAll('.splash-btn').forEach((b,i)=>{
+    setTimeout(()=>{b.classList.add('drop');},200+i*140);
+  });
+});
 
 renderMC();renderDS();loadReal();
 setInterval(loadReal,30000);
-// Simulate MC online flicker
 setInterval(()=>{const el=document.getElementById('mc-on');const v=parseInt(el.textContent)||0;const d=Math.random()>.6?1:Math.random()>.6?-1:0;if(v+d>=0)el.textContent=v+d;},7000);
 </script>
 </body>
