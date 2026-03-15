@@ -259,9 +259,9 @@ body.cursor-ds #cursor{
 /* ===== MINECRAFT DIRT BACKGROUND ===== */
 /* Пиксельная текстура земли из Minecraft через CSS */
 #pn-mc{
-  background-image: url('dirt.png');
-    background-size: 64px 64px;
-      image-rendering: pixelated;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
       transparent,
       transparent 31px,
       rgba(0,0,0,0.15) 31px,
@@ -293,6 +293,18 @@ body.cursor-ds #cursor{
    3. Добавь: background-image: url('dirt.jpg'); background-size: 64px 64px;
 */
 
+
+/* ===== CALENDAR ===== */
+.cal-day{background:rgba(11,21,32,0.88);border:1px solid var(--b);margin-bottom:8px;border-radius:2px;}
+.cal-day-hdr{padding:6px 10px;font-family:"Press Start 2P",monospace;font-size:8px;color:var(--gold);cursor:pointer;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--b);}
+.cal-day-hdr:hover{background:rgba(255,215,0,0.05);}
+.cal-day-body{padding:6px 10px;}
+.cal-ev{display:flex;align-items:center;gap:8px;padding:3px 0;border-bottom:1px solid rgba(22,32,48,0.4);font-size:13px;}
+.cal-ev:last-child{border-bottom:none;}
+.cal-ev-icon{width:20px;text-align:center;flex-shrink:0;}
+.cal-ev-time{color:var(--muted);font-size:11px;width:42px;flex-shrink:0;}
+.cal-ev-text{flex:1;}
+.cal-count{font-family:"Press Start 2P",monospace;font-size:7px;color:var(--muted);background:#0a0f18;padding:2px 6px;}
 /* SCROLLBAR */
 ::-webkit-scrollbar{width:3px;}
 ::-webkit-scrollbar-track{background:#0a0a0a;}
@@ -414,11 +426,12 @@ body.cursor-ds #cursor{
         </div>
       </div>
 
-      <!-- 2 таба для MC -->
+      <!-- Табы MC -->
       <div class="stabs" style="margin-bottom:10px;">
         <div class="st a" onclick="dstMC('info',this)">🏠 Сервер</div>
         <div class="st" onclick="dstMC('players',this)">👥 Игроки</div>
         <div class="st" onclick="dstMC('events',this)">📜 События</div>
+        <div class="st" onclick="dstMC('calendar',this)">📅 Календарь</div>
       </div>
 
       <!-- ТАБ: ИНФО -->
@@ -465,6 +478,13 @@ body.cursor-ds #cursor{
           <div class="pbd" id="mc-events-list">
             <div style="color:var(--muted);font-size:13px;text-align:center;padding:20px 0">Ожидаем данные от бота...</div>
           </div>
+        </div>
+      </div>
+
+      <!-- ТАБ: КАЛЕНДАРЬ -->
+      <div class="sc" id="mc-sc-calendar">
+        <div id="mc-cal-wrap">
+          <div style="color:var(--muted);font-size:13px;text-align:center;padding:20px 0">Ожидаем данные от бота...</div>
         </div>
       </div>
     </div>
@@ -1071,21 +1091,34 @@ function _drawMultiChart(el, series, labels, hoverIdx){
 // ===== MC PLAYER MODAL =====
 function openMCPlayer(name){
   const mc=window._mcData||{};
-  const events=window._mcEvents||[];
-  const kills=mc.kills?.[name]||0;
-  const deaths=mc.deaths?.[name]||0;
-  const adv=mc.advancements?.[name]||[];
+  const pdata=(window._mcPlayers||{})[name]||{};
+  const kills=pdata.kills||mc.kills?.[name]||0;
+  const deaths=pdata.deaths||mc.deaths?.[name]||0;
+  const adv=pdata.advancements||mc.advancements?.[name]||[];
   const kd=deaths>0?(kills/deaths).toFixed(2):'∞';
+  const firstSeen=pdata.first_seen||'—';
+  const lastSeen=pdata.last_seen||'—';
+  const joinsCount=(pdata.joins||[]).length;
 
-  // Кого убивал
-  const killedBy=events.filter(e=>e.type==='death'&&e.killer===name).map(e=>e.player);
+  // Кого убивал (из kill_log)
+  const killLog=pdata.kill_log||[];
   const killedByCount={};
-  killedBy.forEach(p=>killedByCount[p]=(killedByCount[p]||0)+1);
+  killLog.forEach(k=>killedByCount[k.victim]=(killedByCount[k.victim]||0)+1);
 
-  // Кто убивал его
-  const diedTo=events.filter(e=>e.type==='death'&&e.player===name).map(e=>e.killer);
+  // Кто убивал его (из death_log)
+  const deathLog=pdata.death_log||[];
   const diedToCount={};
-  diedTo.forEach(p=>diedToCount[p]=(diedToCount[p]||0)+1);
+  deathLog.forEach(k=>diedToCount[k.killer]=(diedToCount[k.killer]||0)+1);
+
+  // Последние убийства с датой
+  const recentKills=killLog.slice(-5).reverse().map(k=>
+    `<div style="font-size:12px;color:var(--muted);padding:2px 0">⚔️ <b style="color:var(--text)">${k.victim}</b> — ${k.date} ${k.time}</div>`
+  ).join('') || '<div style="color:var(--muted);font-size:12px;">нет</div>';
+
+  // Последние смерти с датой
+  const recentDeaths=deathLog.slice(-5).reverse().map(k=>
+    `<div style="font-size:12px;color:var(--muted);padding:2px 0">💀 от <b style="color:var(--red)">${k.killer}</b> — ${k.date} ${k.time}</div>`
+  ).join('') || '<div style="color:var(--muted);font-size:12px;">нет</div>';
 
   // Достижения
   const advHtml=adv.length
@@ -1096,8 +1129,7 @@ function openMCPlayer(name){
   const killedHtml=Object.keys(killedByCount).length
     ? Object.entries(killedByCount).sort((a,b)=>b[1]-a[1]).map(([p,c])=>
         `<div class="mc-player-row" style="cursor:default;padding:4px 8px;">
-          <span style="font-size:13px">⚔️</span>
-          <div style="flex:1">${p}</div>
+          <span style="font-size:13px">⚔️</span><div style="flex:1">${p}</div>
           <b style="color:var(--red)">${c}x</b>
         </div>`).join('')
     : '<div style="color:var(--muted);font-size:12px;padding:8px">нет данных</div>';
@@ -1106,8 +1138,7 @@ function openMCPlayer(name){
   const diedHtml=Object.keys(diedToCount).length
     ? Object.entries(diedToCount).sort((a,b)=>b[1]-a[1]).map(([p,c])=>
         `<div class="mc-player-row" style="cursor:default;padding:4px 8px;">
-          <span style="font-size:13px">💀</span>
-          <div style="flex:1">${p}</div>
+          <span style="font-size:13px">💀</span><div style="flex:1">${p}</div>
           <b style="color:var(--muted)">${c}x</b>
         </div>`).join('')
     : '<div style="color:var(--muted);font-size:12px;padding:8px">нет данных</div>';
@@ -1123,17 +1154,21 @@ function openMCPlayer(name){
     <div class="ms"><span class="ml">Убийств</span><span class="mv" style="color:var(--red)">${kills}</span></div>
     <div class="ms"><span class="ml">Смертей</span><span class="mv">${deaths}</span></div>
     <div class="ms"><span class="ml">K/D</span><span class="mv" style="color:${kills>=deaths?'var(--green)':'var(--red)'}">${kd}</span></div>
-    <div class="ms"><span class="ml">Достижений</span><span class="mv" style="color:var(--gold)">${adv.length}</span></div>`;
+    <div class="ms"><span class="ml">Достижений</span><span class="mv" style="color:var(--gold)">${adv.length}</span></div>
+    <div class="ms"><span class="ml">Заходов</span><span class="mv">${joinsCount}</span></div>
+    <div class="ms"><span class="ml">Первый вход</span><span class="mv" style="font-size:9px">${firstSeen}</span></div>`;
 
   document.getElementById('modal-media').style.display='block';
   document.getElementById('modal-media').innerHTML=`
     <div style="margin-top:4px;">
       <div class="ph" style="border:1px solid var(--b);margin-bottom:6px;border-top:2px solid var(--red);">⚔️ КОГО УБИВАЛ</div>
       ${killedHtml}
+      <div style="padding:4px 10px;">${recentKills}</div>
     </div>
     <div style="margin-top:8px;">
       <div class="ph" style="border:1px solid var(--b);margin-bottom:6px;border-top:2px solid var(--muted);">💀 КТО УБИВАЛ ЕГО</div>
       ${diedHtml}
+      <div style="padding:4px 10px;">${recentDeaths}</div>
     </div>
     <div style="margin-top:8px;">
       <div class="ph" style="border:1px solid var(--b);margin-bottom:6px;border-top:2px solid var(--gold);">🏆 ДОСТИЖЕНИЯ</div>
@@ -1141,6 +1176,85 @@ function openMCPlayer(name){
     </div>`;
 
   document.getElementById('mbg').classList.add('show');
+}
+
+// ===== RENDER CALENDAR =====
+function renderCalendar(calendar){
+  const wrap=document.getElementById('mc-cal-wrap');
+  if(!wrap)return;
+  if(!calendar||!Object.keys(calendar).length){
+    wrap.innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:30px 0">📅 Нет данных — бот ещё не собрал статистику</div>';
+    return;
+  }
+
+  const icons={join:'🟢',join_first:'🌟',leave:'🔴',death:'💀',advancement:'🏆',
+               server_start:'✅',server_stop:'🛑',chat:'💬'};
+  const evColors={join:'var(--green)',join_first:'var(--gold)',leave:'var(--red)',
+                  death:'#ff6b35',advancement:'var(--gold)',
+                  server_start:'var(--green)',server_stop:'var(--red)',chat:'var(--muted)'};
+
+  // Сортируем даты новые вперёд
+  const dates=Object.keys(calendar).sort((a,b)=>{
+    const [da,ma,ya]=a.split('.').map(Number);
+    const [db,mb,yb]=b.split('.').map(Number);
+    return new Date(yb,mb-1,db)-new Date(ya,ma-1,da);
+  });
+
+  wrap.innerHTML=dates.map(date=>{
+    const evs=calendar[date]||[];
+    // Считаем статистику дня
+    const stats={join:0,leave:0,death:0,advancement:0};
+    evs.forEach(e=>{if(stats[e.type]!==undefined)stats[e.type]++;});
+    const summary=[
+      stats.join>0?`<span style="color:var(--green)">🟢${stats.join}</span>`:'',
+      stats.leave>0?`<span style="color:var(--red)">🔴${stats.leave}</span>`:'',
+      stats.death>0?`<span style="color:#ff6b35">💀${stats.death}</span>`:'',
+      stats.advancement>0?`<span style="color:var(--gold)">🏆${stats.advancement}</span>`:'',
+    ].filter(Boolean).join(' ');
+
+    // Показываем события (не чат, не более 30 на день)
+    const showEvs=evs.filter(e=>e.type!=='chat').slice(0,30);
+    const evHtml=showEvs.map(ev=>{
+      let text='';
+      const col=evColors[ev.type]||'var(--text)';
+      if(ev.type==='join'||ev.type==='join_first')
+        text=`<span style="color:${col}">${ev.player}</span> зашёл${ev.type==='join_first'?' <span style="color:var(--gold)">(впервые!)</span>':''}`;
+      else if(ev.type==='leave')
+        text=`<span style="color:${col}">${ev.player}</span> вышел`;
+      else if(ev.type==='death'){
+        const mob=ev.killer&&ev.killer.includes('|');
+        text=`<span style="color:var(--text)">${ev.player}</span> убит ${mob?'мобом':'игроком'} <span style="color:var(--red)">${ev.killer}</span>`;
+      }
+      else if(ev.type==='advancement')
+        text=`<span style="color:var(--text)">${ev.player}</span> 🏆 <span style="color:var(--gold)">${ev.advancement}</span>`;
+      else if(ev.type==='server_start') text='<span style="color:var(--green)">Сервер запущен</span>';
+      else if(ev.type==='server_stop')  text='<span style="color:var(--red)">Сервер остановлен</span>';
+
+      return `<div class="cal-ev">
+        <span class="cal-ev-icon">${icons[ev.type]||'•'}</span>
+        <span class="cal-ev-time">${ev.time||''}</span>
+        <span class="cal-ev-text">${text}</span>
+      </div>`;
+    }).join('');
+
+    const dayId='cal-'+date.replace(/\./g,'-');
+    return `<div class="cal-day">
+      <div class="cal-day-hdr" onclick="toggleCalDay('${dayId}')">
+        <span>📅 ${date}</span>
+        <span style="display:flex;gap:8px;align-items:center;">${summary}<span class="cal-count">${evs.length} событий</span></span>
+      </div>
+      <div class="cal-day-body" id="${dayId}" style="display:none">${evHtml||'<div style="color:var(--muted);font-size:12px;">нет событий</div>'}</div>
+    </div>`;
+  }).join('');
+
+  // Открываем первый день по умолчанию
+  const first=wrap.querySelector('.cal-day-body');
+  if(first)first.style.display='block';
+}
+
+function toggleCalDay(id){
+  const el=document.getElementById(id);
+  if(el) el.style.display=el.style.display==='none'?'block':'none';
 }
 
 // Копировать IP
@@ -1201,6 +1315,7 @@ function loadMC(d){
   // Сохраняем данные MC глобально для модалки
   window._mcData=mc;
   window._mcEvents=mc.recent_events||[];
+  window._mcPlayers=mc.players||{};
   if(playersList){
     const allPlayers=new Set([
       ...Object.keys(mc.kills||{}),
@@ -1320,7 +1435,10 @@ function cm(e){if(!e||e.target===document.getElementById('mbg'))document.getElem
 async function loadReal(){
   try{
     // Читаем discord_stats.json из того же репо
-    const r=await fetch('discord_stats.json?t='+Date.now());
+    const r=await fetch('discord_stats.json?t='+Date.now(),{
+      cache:'no-store',
+      headers:{'Cache-Control':'no-cache, no-store, must-revalidate','Pragma':'no-cache'}
+    });
     if(!r.ok) return;
     const d=await r.json();
 
@@ -1441,6 +1559,8 @@ async function loadReal(){
 
     // Загружаем MC данные
     loadMC(d);
+    // Календарь
+    if(d.minecraft&&d.minecraft.calendar) renderCalendar(d.minecraft.calendar);
 
     // Обновляем время последнего обновления
     if(d.updated_at){
@@ -1489,7 +1609,7 @@ window.addEventListener('load',()=>{
 });
 
 loadReal();
-setInterval(loadReal,30000);
+setInterval(loadReal,15000); // обновляем каждые 15 секунд
 </script>
 </body>
 </html>
