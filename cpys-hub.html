@@ -387,28 +387,59 @@ canvas.lc{width:100%;height:70px;display:block;}
 
     <!-- DS -->
     <div class="pane" id="pn-ds">
-      <div class="srow">
-        <div class="sb b"><span class="sb-lbl">Участников</span><span class="sb-num b" id="ds-tot">—</span><span class="sb-sub" id="ds-ons">онлайн: —</span></div>
-        <div class="sb g"><span class="sb-lbl">В голосе</span><span class="sb-num g" id="ds-vc">—</span><span class="sb-sub">прямо сейчас</span></div>
-        <div class="sb o"><span class="sb-lbl">Сообщений</span><span class="sb-num o" id="ds-msg">—</span><span class="sb-sub">сегодня</span></div>
-        <div class="sb c"><span class="sb-lbl">Буст</span><span class="sb-num c" id="ds-boost">—</span><span class="sb-sub" id="ds-boosters">загрузка...</span></div>
-      </div>
-      <!-- Tooltip для графиков -->
-      <div id="chart-tooltip" style="position:fixed;display:none;background:#0b1520;border:1px solid var(--cyan);padding:8px 12px;z-index:999;pointer-events:none;font-size:12px;min-width:160px;"></div>
 
-      <div class="crow" style="grid-template-columns:1fr 1fr;margin-bottom:6px;">
-        <div class="cp"><div class="cp-h">ОНЛАЙН <span style="color:var(--green);font-size:9px" id="ds-lc1-label">загрузка...</span></div><div class="cp-b" style="position:relative"><canvas class="lc" id="ds-lc1" style="height:100px"></canvas></div></div>
-        <div class="cp"><div class="cp-h">В ГОЛОСЕ <span style="color:var(--blue);font-size:9px" id="ds-lc2-label">загрузка...</span></div><div class="cp-b" style="position:relative"><canvas class="lc" id="ds-lc2" style="height:100px"></canvas></div></div>
-      </div>
-      <div class="cp" style="margin-bottom:8px;"><div class="cp-h">🔊 ГОЛОСОВЫЕ КАНАЛЫ</div><div class="cp-b" id="ds-vcl" style="padding:6px 8px;font-size:13px"></div></div>
-      <div class="stabs">
-        <div class="st a" onclick="dst('members',this)">👥 Участники</div>
+      <!-- 3 таба -->
+      <div class="stabs" style="margin-bottom:10px;">
+        <div class="st a" onclick="dst('stats',this)">📊 Статистика</div>
+        <div class="st" onclick="dst('members',this)">👥 Участники</div>
         <div class="st" onclick="dst('roles',this)">🛡️ Роли</div>
       </div>
-      <div class="sc show" id="ds-sc-members"><div class="mgrid" id="ds-mg"></div></div>
+
+      <!-- Tooltip -->
+      <div id="chart-tooltip" style="position:fixed;display:none;background:#0b1520;border:1px solid var(--cyan);padding:10px 14px;z-index:9999;pointer-events:none;font-size:12px;min-width:170px;box-shadow:0 4px 20px rgba(0,0,0,0.7);"></div>
+
+      <!-- ТАБ: СТАТИСТИКА -->
+      <div class="sc show" id="ds-sc-stats">
+        <!-- Карточки -->
+        <div class="srow" style="margin-bottom:10px;">
+          <div class="sb b"><span class="sb-lbl">Участников</span><span class="sb-num b" id="ds-tot">—</span><span class="sb-sub" id="ds-ons">онлайн: —</span></div>
+          <div class="sb g"><span class="sb-lbl">В голосе</span><span class="sb-num g" id="ds-vc">—</span><span class="sb-sub">прямо сейчас</span></div>
+          <div class="sb o"><span class="sb-lbl">Сообщений</span><span class="sb-num o" id="ds-msg">—</span><span class="sb-sub">сегодня</span></div>
+          <div class="sb c"><span class="sb-lbl">Буст</span><span class="sb-num c" id="ds-boost">—</span><span class="sb-sub" id="ds-boosters">...</span></div>
+        </div>
+
+        <!-- Графики на всю ширину, каждый отдельно -->
+        <div class="cp" style="margin-bottom:8px;">
+          <div class="cp-h">ОНЛАЙН ПО ВРЕМЕНИ <span style="color:var(--green);font-size:9px" id="ds-lc1-label"></span></div>
+          <div class="cp-b" style="padding:8px 8px 4px;position:relative;">
+            <canvas id="ds-lc1" style="width:100%;height:120px;display:block;cursor:crosshair;"></canvas>
+          </div>
+        </div>
+
+        <div class="cp" style="margin-bottom:8px;">
+          <div class="cp-h">В ГОЛОСЕ ПО ВРЕМЕНИ <span style="color:var(--blue);font-size:9px" id="ds-lc2-label"></span></div>
+          <div class="cp-b" style="padding:8px 8px 4px;position:relative;">
+            <canvas id="ds-lc2" style="width:100%;height:120px;display:block;cursor:crosshair;"></canvas>
+          </div>
+        </div>
+
+        <!-- Голосовые каналы с кликабельными участниками -->
+        <div class="pnl">
+          <div class="ph">🔊 ГОЛОСОВЫЕ КАНАЛЫ</div>
+          <div class="pbd" id="ds-vcl" style="font-size:13px;"></div>
+        </div>
+      </div>
+
+      <!-- ТАБ: УЧАСТНИКИ -->
+      <div class="sc" id="ds-sc-members">
+        <div class="mgrid" id="ds-mg"></div>
+      </div>
+
+      <!-- ТАБ: РОЛИ -->
       <div class="sc" id="ds-sc-roles">
         <div class="pnl"><div class="ph">🛡️ РОЛИ</div><div class="pbd" id="ds-rl"></div></div>
       </div>
+
     </div>
 
     <!-- RB -->
@@ -644,9 +675,18 @@ function sp(p,el,cls){
   });
 }
 function dst(k,el){
-  document.querySelectorAll('.st').forEach(s=>s.classList.remove('a'));el.classList.add('a');
-  document.querySelectorAll('.sc').forEach(c=>c.classList.remove('show'));
+  // Only toggle tabs within the same pane
+  const pane=el.closest('.pane');
+  pane.querySelectorAll('.st').forEach(s=>s.classList.remove('a'));
+  el.classList.add('a');
+  pane.querySelectorAll('.sc').forEach(c=>c.classList.remove('show'));
   document.getElementById('ds-sc-'+k).classList.add('show');
+  // Redraw charts when stats tab shown
+  if(k==='stats'){
+    setTimeout(()=>{
+      if(window._lastDsData) drawDsCharts(window._lastDsData);
+    },50);
+  }
 }
 
 // ===== COUNTER =====
@@ -771,6 +811,55 @@ function setupChartTooltip(id){
 function renderMC(){}
 function renderDS(){}
 
+function drawDsCharts(d){
+  if(!d||!d.hourly_history||d.hourly_history.length<1){
+    ['ds-lc1','ds-lc2'].forEach(id=>{
+      const el=document.getElementById(id);if(!el)return;
+      const dpr=window.devicePixelRatio||1;
+      const W=el.offsetWidth||300,H=120;
+      el.width=W*dpr;el.height=H*dpr;
+      const c=el.getContext('2d');c.scale(dpr,dpr);
+      c.fillStyle='#1a2a3a';c.font='12px VT323,monospace';c.textAlign='center';
+      c.fillText('Нет данных — бот ещё не обновил статистику',W/2,H/2+4);
+    });
+    return;
+  }
+  const hrs=d.hourly_history.slice(-10);
+  const labels=hrs.map(h=>h.time||(h.hour+':00'));
+  const onlineVals=hrs.map(h=>h.online||0);
+  const voiceVals=hrs.map(h=>h.in_voice||0);
+
+  const tips1=hrs.map(h=>`
+    <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:8px;">⏰ ${h.time||h.hour+':00'}</div>
+    <div style="display:flex;justify-content:space-between;gap:16px;margin-bottom:4px;">
+      <span style="color:var(--muted)">🟢 Онлайн</span><b style="color:var(--green)">${h.online||0}</b>
+    </div>
+    <div style="display:flex;justify-content:space-between;gap:16px;">
+      <span style="color:var(--muted)">🔊 В голосе</span><b style="color:var(--blue)">${h.in_voice||0}</b>
+    </div>`);
+
+  const tips2=hrs.map(h=>`
+    <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:8px;">⏰ ${h.time||h.hour+':00'}</div>
+    <div style="display:flex;justify-content:space-between;gap:16px;margin-bottom:4px;">
+      <span style="color:var(--muted)">🔊 В голосе</span><b style="color:var(--blue)">${h.in_voice||0}</b>
+    </div>
+    <div style="display:flex;justify-content:space-between;gap:16px;">
+      <span style="color:var(--muted)">🟢 Онлайн</span><b style="color:var(--green)">${h.online||0}</b>
+    </div>`);
+
+  setTimeout(()=>{
+    lineChart('ds-lc1',onlineVals,'#00d26a',labels,tips1);
+    setupChartTooltip('ds-lc1');
+    const l1=document.getElementById('ds-lc1-label');
+    if(l1)l1.textContent=labels[0]+' → '+labels[labels.length-1];
+
+    lineChart('ds-lc2',voiceVals,'#5865f2',labels,tips2);
+    setupChartTooltip('ds-lc2');
+    const l2=document.getElementById('ds-lc2-label');
+    if(l2)l2.textContent=labels[0]+' → '+labels[labels.length-1];
+  },80);
+}
+
 // Копировать IP
 function copyIP(){
   navigator.clipboard.writeText('CPYSHub.aternos.me:38096').then(()=>{
@@ -850,6 +939,7 @@ function loadMC(d){
 }
 
 function openM(p){
+  if(typeof p==='string'){try{p=JSON.parse(p);}catch(e){return;}}
   // Аватарка
   const mavEl=document.getElementById('mav');
   mavEl.style.cssText=`width:52px;height:52px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:bold;border:2px solid ${p.color};background:${p.color}22;color:${p.color};overflow:hidden;flex-shrink:0;border-radius:4px;`;
@@ -926,50 +1016,10 @@ async function loadReal(){
     const bSub=document.getElementById('ds-boosters');
     if(bSub) bSub.textContent=(d.guild?.boosters_count||0)+' бустера';
 
-    // --- ГРАФИКИ онлайн по часам ---
-    if(d.hourly_history && d.hourly_history.length>=1){
-      const hrs=d.hourly_history.slice(-7);
-      const labels=hrs.map(h=>h.time||(''+h.hour+':00'));
-      const onlineVals=hrs.map(h=>h.online||0);
-      const voiceVals=hrs.map(h=>h.in_voice||0);
+    window._lastDsData=d;
 
-      // Тултипы для графика онлайна
-      const tooltips1=hrs.map((h,i)=>`
-        <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:6px">${h.time||h.hour+':00'}</div>
-        <div style="color:var(--green)">🟢 Онлайн: <b>${h.online||0}</b></div>
-        <div style="color:var(--blue)">🔊 В голосе: <b>${h.in_voice||0}</b></div>
-      `);
-
-      lineChart('ds-lc1', onlineVals, '#00d26a', labels, tooltips1);
-      setupChartTooltip('ds-lc1');
-
-      // Обновить label
-      const lbl1=document.getElementById('ds-lc1-label');
-      if(lbl1) lbl1.textContent=labels[0]+' — '+labels[labels.length-1];
-
-      // График голосовых
-      const tooltips2=hrs.map(h=>`
-        <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:6px">${h.time||h.hour+':00'}</div>
-        <div style="color:var(--blue)">🔊 В голосе: <b>${h.in_voice||0}</b></div>
-        <div style="color:var(--green)">🟢 Всего онлайн: <b>${h.online||0}</b></div>
-      `);
-      lineChart('ds-lc2', voiceVals, '#5865f2', labels, tooltips2);
-      setupChartTooltip('ds-lc2');
-
-      const lbl2=document.getElementById('ds-lc2-label');
-      if(lbl2) lbl2.textContent=labels[0]+' — '+labels[labels.length-1];
-    } else {
-      // Нет данных — показываем заглушку
-      ['ds-lc1','ds-lc2'].forEach(id=>{
-        const el=document.getElementById(id);
-        if(!el)return;
-        const c=el.getContext('2d');
-        const W=el.offsetWidth||200,H=el.offsetHeight||70;
-        el.width=W;el.height=H;
-        c.fillStyle='#2a4055';c.font='11px VT323,monospace';c.textAlign='center';
-        c.fillText('нет данных',W/2,H/2+4);
-      });
-    }
+    // --- ГРАФИКИ ---
+    drawDsCharts(d);
 
     // --- УЧАСТНИКИ (онлайн + оффлайн) ---
     const allMembers=[
@@ -1023,13 +1073,38 @@ async function loadReal(){
       </div>`;
     }).join('');
 
-    // --- ГОЛОСОВЫЕ КАНАЛЫ ---
-    document.getElementById('ds-vcl').innerHTML=(d.voice_channels||[]).slice(0,6).map(vc=>`
-      <div style="margin-bottom:4px">
-        <span style="color:var(--blue)">${vc.name}</span>
-        <span style="color:var(--muted);font-size:11px"> (${vc.members_count||0})</span>
-        <div>${(vc.members||[]).map(m=>`<span class="vcm">${m}</span>`).join('')||'<span style="color:var(--muted);font-size:11px">пусто</span>'}</div>
-      </div>`).join('');
+    // --- ГОЛОСОВЫЕ КАНАЛЫ с кликабельными участниками ---
+    const allMembersMap={};
+    [...(d.online_members||[]),...(d.offline_members||[])].forEach(m=>{
+      allMembersMap[m.name]=m;
+    });
+    document.getElementById('ds-vcl').innerHTML=(d.voice_channels||[]).slice(0,8).map(vc=>{
+      const membersHtml=(vc.members||[]).length
+        ? (vc.members||[]).map(name=>{
+            const m=allMembersMap[name];
+            const color=m?getMemberColor(m):'#5865f2';
+            const av=m&&m.avatar?`<img src="${m&&m.avatar}" style="width:18px;height:18px;border-radius:50%;vertical-align:middle;margin-right:4px;" onerror="this.style.display='none'">`:'';
+            const safe=m?JSON.stringify({
+              name:m.name,color,on:m.on,status:m.status,
+              joined:(m.joined_at||'').slice(0,10).replace(/-/g,'.'),
+              roles:m.roles||[],top_role:m.top_role||'',
+              avatar:m.avatar||'',
+              msgs:m.stats_today?.text||0,images:m.stats_today?.images||0,
+              gifs:m.stats_today?.gifs||0,stickers:m.stats_today?.stickers||0,
+              voice:m.stats_today?.voice||0,files:m.stats_today?.files||0,
+              joins:m.join_leave?.joins||0,type:'ds'
+            }).replace(/'/g,"\'"):'';
+            return `<span class="vcm" style="cursor:${m?'pointer':'default'};color:${color};border-color:${color}44;background:${color}11;"
+              ${m?`onclick="openM('${safe}')"`:''}>${av}${name}</span>`;
+          }).join('')
+        :`<span style="color:var(--muted);font-size:11px">пусто</span>`;
+      return `<div style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--b);">
+        <div style="color:var(--blue);font-family:'Press Start 2P',monospace;font-size:7px;margin-bottom:5px;">
+          🔊 ${vc.name} <span style="color:var(--muted)">(${(vc.members||[]).length})</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:4px;">${membersHtml}</div>
+      </div>`;
+    }).join('') || '<div style="color:var(--muted);padding:10px;font-size:13px">Нет голосовых каналов</div>';
 
     // --- РОЛИ ---
     const rd=d.role_distribution||{};
