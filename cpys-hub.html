@@ -279,6 +279,9 @@ canvas.lc{width:100%;height:70px;display:block;}
   .ph{font-size:7px;padding:7px 10px;}
   .cp-h{font-size:7px;}
   .jlr{padding:7px 4px;font-size:14px;}
+  #mc-hero{flex-direction:column;}
+  #mc-hero > div:first-child{min-height:140px;}
+  #mc-hero > div:last-child{width:100%!important;}
   .modal{width:96vw;padding:16px;max-height:85vh;overflow-y:auto;-webkit-overflow-scrolling:touch;}
   .mnm{font-size:9px;}
   .mgrd{grid-template-columns:1fr 1fr;}
@@ -320,7 +323,66 @@ canvas.lc{width:100%;height:70px;display:block;}
 
     <!-- MC -->
     <div class="pane" id="pn-mc">
-      <div class="soon"><span class="si">⛏️</span><div class="soonlbl">MINECRAFT — СКОРО</div></div>
+      <!-- Верхний блок: фото спавна + IP -->
+      <div id="mc-hero" style="display:flex;gap:10px;margin-bottom:10px;align-items:stretch;">
+        <div style="flex:1;min-width:0;position:relative;overflow:hidden;border:1px solid var(--b);min-height:110px;background:#0a1018;">
+          <img src="spawn.png" id="mc-spawn-img"
+            style="width:100%;height:100%;object-fit:cover;display:block;opacity:0.85;"
+            onerror="this.style.display='none';document.getElementById('mc-spawn-placeholder').style.display='flex'">
+          <div id="mc-spawn-placeholder" style="display:none;position:absolute;inset:0;align-items:center;justify-content:center;flex-direction:column;gap:6px;color:var(--muted);">
+            <span style="font-size:32px">🏔️</span>
+            <span style="font-size:11px;font-family:'Press Start 2P',monospace">СПАВН</span>
+          </div>
+          <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(4,8,15,0.85));padding:6px 8px;font-family:'Press Start 2P',monospace;font-size:7px;color:var(--gold);">СПАВН СЕРВЕРА</div>
+        </div>
+        <div style="width:160px;flex-shrink:0;background:rgba(11,21,32,0.9);border:1px solid var(--b);border-left:2px solid #00d26a;padding:12px;display:flex;flex-direction:column;justify-content:center;gap:8px;">
+          <div style="font-family:'Press Start 2P',monospace;font-size:7px;color:var(--green);">⛏️ СЕРВЕР</div>
+          <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--gold);">C.P.Y.S Hub</div>
+          <div style="border-top:1px solid var(--b);padding-top:8px;">
+            <div style="font-size:10px;color:var(--muted);margin-bottom:3px;">IP АДРЕС</div>
+            <div id="mc-ip" style="font-family:'Press Start 2P',monospace;font-size:7px;color:var(--cyan);cursor:pointer;word-break:break-all;"
+              onclick="copyIP()" title="Нажми чтобы скопировать">CPYSHub.aternos.me</div>
+            <div style="font-family:'Press Start 2P',monospace;font-size:7px;color:var(--muted);margin-top:2px;">:38096</div>
+          </div>
+          <div id="mc-copy-msg" style="font-size:10px;color:var(--green);display:none;">✓ Скопировано!</div>
+          <div style="border-top:1px solid var(--b);padding-top:8px;">
+            <div style="font-size:10px;color:var(--muted);margin-bottom:2px;">СТАТУС</div>
+            <div id="mc-srv-status" style="font-family:'Press Start 2P',monospace;font-size:7px;color:var(--muted);">— нет данных</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Статистика MC -->
+      <div class="srow" id="mc-srow" style="display:none">
+        <div class="sb g"><span class="sb-lbl">Онлайн</span><span class="sb-num g" id="mc-online">0</span><span class="sb-sub">игроков</span></div>
+        <div class="sb o"><span class="sb-lbl">Убийств</span><span class="sb-num o" id="mc-kills">0</span><span class="sb-sub">всего</span></div>
+        <div class="sb c"><span class="sb-lbl">Достижений</span><span class="sb-num c" id="mc-adv">0</span><span class="sb-sub">получено</span></div>
+        <div class="sb b"><span class="sb-lbl">Игроков</span><span class="sb-num b" id="mc-players">0</span><span class="sb-sub">заходило</span></div>
+      </div>
+
+      <!-- График онлайна MC -->
+      <div id="mc-chart-wrap" style="display:none;margin-bottom:8px;">
+        <div class="cp">
+          <div class="cp-h">ОНЛАЙН ИСТОРИЯ <span style="color:var(--green)" id="mc-lc-label"></span></div>
+          <div class="cp-b"><canvas class="lc" id="mc-lc1" style="height:90px"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Топ убийств -->
+      <div id="mc-top-wrap" style="display:none">
+        <div class="pnl">
+          <div class="ph">⚔️ ТОП УБИЙСТВ</div>
+          <div class="pbd scr" id="mc-top-kills"></div>
+        </div>
+      </div>
+
+      <!-- Последние события -->
+      <div class="pnl" style="margin-top:6px">
+        <div class="ph">📜 СОБЫТИЯ <span id="mc-events-count" style="color:var(--muted);font-size:9px"></span></div>
+        <div class="pbd scr" id="mc-events-list">
+          <div style="color:var(--muted);font-size:13px;text-align:center;padding:20px 0">Ожидаем данные от бота...</div>
+        </div>
+      </div>
     </div>
 
     <!-- DS -->
@@ -334,11 +396,11 @@ canvas.lc{width:100%;height:70px;display:block;}
       <!-- Tooltip для графиков -->
       <div id="chart-tooltip" style="position:fixed;display:none;background:#0b1520;border:1px solid var(--cyan);padding:8px 12px;z-index:999;pointer-events:none;font-size:12px;min-width:160px;"></div>
 
-      <div class="crow">
-        <div class="cp"><div class="cp-h">ОНЛАЙН <span style="color:var(--green)" id="ds-lc1-label">загрузка...</span></div><div class="cp-b" style="position:relative"><canvas class="lc" id="ds-lc1"></canvas></div></div>
-        <div class="cp"><div class="cp-h">СООБЩЕНИЙ <span style="color:var(--blue)" id="ds-lc2-label">загрузка...</span></div><div class="cp-b" style="position:relative"><canvas class="lc" id="ds-lc2"></canvas></div></div>
-        <div class="cp"><div class="cp-h">🔊 ГОЛОСОВЫЕ</div><div class="cp-b" id="ds-vcl" style="padding:4px 2px;font-size:13px"></div></div>
+      <div class="crow" style="grid-template-columns:1fr 1fr;margin-bottom:6px;">
+        <div class="cp"><div class="cp-h">ОНЛАЙН <span style="color:var(--green);font-size:9px" id="ds-lc1-label">загрузка...</span></div><div class="cp-b" style="position:relative"><canvas class="lc" id="ds-lc1" style="height:100px"></canvas></div></div>
+        <div class="cp"><div class="cp-h">В ГОЛОСЕ <span style="color:var(--blue);font-size:9px" id="ds-lc2-label">загрузка...</span></div><div class="cp-b" style="position:relative"><canvas class="lc" id="ds-lc2" style="height:100px"></canvas></div></div>
       </div>
+      <div class="cp" style="margin-bottom:8px;"><div class="cp-h">🔊 ГОЛОСОВЫЕ КАНАЛЫ</div><div class="cp-b" id="ds-vcl" style="padding:6px 8px;font-size:13px"></div></div>
       <div class="stabs">
         <div class="st a" onclick="dst('members',this)">👥 Участники</div>
         <div class="st" onclick="dst('roles',this)">🛡️ Роли</div>
@@ -598,58 +660,194 @@ function lineChart(id, data, color, labels, tooltipData){
   const el=document.getElementById(id);if(!el)return;
   chartData[id]={data,labels:labels||[],tooltipData:tooltipData||[]};
   const dpr=window.devicePixelRatio||1;
-  const W=el.offsetWidth||200,H=el.offsetHeight||70;
+  const W=el.offsetWidth||300,H=el.offsetHeight||100;
   el.width=W*dpr;el.height=H*dpr;
   const c=el.getContext('2d');c.scale(dpr,dpr);
   const mn=Math.min(...data),mxx=Math.max(...data);
-  const pad=6,xStep=(W-pad*2)/(data.length-1);
-  const pts=data.map((v,i)=>({x:pad+i*xStep,y:pad+(1-(v-mn)/(mxx-mn||1))*(H-pad*2-8),v}));
-  const g=c.createLinearGradient(0,0,0,H);g.addColorStop(0,color+'44');g.addColorStop(1,color+'00');
-  c.beginPath();c.moveTo(pts[0].x,H-4);pts.forEach(p=>c.lineTo(p.x,p.y));c.lineTo(pts[pts.length-1].x,H-4);c.closePath();
-  c.fillStyle=g;c.fill();
-  c.beginPath();pts.forEach((p,i)=>i===0?c.moveTo(p.x,p.y):c.lineTo(p.x,p.y));
-  c.strokeStyle=color;c.lineWidth=1.5;c.lineJoin='round';c.lineCap='round';c.stroke();
-  pts.forEach(p=>{c.beginPath();c.arc(p.x,p.y,2.5,0,Math.PI*2);c.fillStyle='#04080f';c.fill();c.beginPath();c.arc(p.x,p.y,1.5,0,Math.PI*2);c.fillStyle=color;c.fill();});
+  const padX=12,padY=10,padB=16;
+  const xStep=(W-padX*2)/(Math.max(data.length-1,1));
+  const pts=data.map((v,i)=>({
+    x:padX+i*xStep,
+    y:padY+(1-(v-mn)/(mxx-mn||1))*(H-padY-padB),
+    v
+  }));
+  // Gradient fill
+  const g=c.createLinearGradient(0,0,0,H);
+  g.addColorStop(0,color+'55');g.addColorStop(1,color+'00');
+  c.beginPath();
+  c.moveTo(pts[0].x,H-padB);
+  pts.forEach(p=>c.lineTo(p.x,p.y));
+  c.lineTo(pts[pts.length-1].x,H-padB);
+  c.closePath();c.fillStyle=g;c.fill();
+  // Line
+  c.beginPath();
+  pts.forEach((p,i)=>i===0?c.moveTo(p.x,p.y):c.lineTo(p.x,p.y));
+  c.strokeStyle=color;c.lineWidth=2;c.lineJoin='round';c.lineCap='round';c.stroke();
+  // Dots
+  pts.forEach(p=>{
+    c.beginPath();c.arc(p.x,p.y,4,0,Math.PI*2);
+    c.fillStyle='#04080f';c.fill();
+    c.beginPath();c.arc(p.x,p.y,2.5,0,Math.PI*2);
+    c.fillStyle=color;c.fill();
+  });
+  // Labels
   if(labels&&labels.length){
-    c.fillStyle='#2a4055';c.font='8px VT323,monospace';c.textAlign='center';
-    pts.forEach((p,i)=>c.fillText(labels[i]||'',p.x,H-1));
+    c.fillStyle='#2a4055';c.font='9px VT323,monospace';c.textAlign='center';
+    pts.forEach((p,i)=>c.fillText(labels[i]||'',p.x,H-2));
   }
-  // Сохраняем точки для hover
-  el._pts=pts; el._color=color;
+  el._pts=pts;el._color=color;el._W=W;el._H=H;
 }
 
 // Тултип на графиках
-function setupChartTooltip(id, summary){
+function setupChartTooltip(id){
   const el=document.getElementById(id);
   if(!el)return;
   const tt=document.getElementById('chart-tooltip');
+  let activeIdx=-1;
+
+  function redrawHover(idx){
+    // Перерисовываем нужную точку увеличенной
+    const cd=chartData[id];
+    if(!cd||!el._pts)return;
+    const dpr=window.devicePixelRatio||1;
+    const color=el._color;
+    // Просто рисуем поверх большой dot + вертикальную линию
+    const c=el.getContext('2d');
+    // Восстановить: просто вызвать lineChart заново
+    lineChart(id,cd.data,color,cd.labels,cd.tooltipData);
+    if(idx<0||idx>=el._pts.length)return;
+    const p=el._pts[idx];
+    // Вертикальная линия
+    c.save();c.scale(dpr,dpr);
+    c.beginPath();c.moveTo(p.x,0);c.lineTo(p.x,el._H);
+    c.strokeStyle=color+'66';c.lineWidth=1;c.setLineDash([3,3]);c.stroke();
+    c.setLineDash([]);
+    // Большая точка
+    c.beginPath();c.arc(p.x,p.y,7,0,Math.PI*2);
+    c.fillStyle=color+'33';c.fill();
+    c.beginPath();c.arc(p.x,p.y,4,0,Math.PI*2);
+    c.fillStyle='#04080f';c.fill();
+    c.beginPath();c.arc(p.x,p.y,3,0,Math.PI*2);
+    c.fillStyle=color;c.shadowColor=color;c.shadowBlur=8;c.fill();
+    c.shadowBlur=0;c.restore();
+  }
 
   function showTip(clientX,clientY){
     if(!el._pts||!el._pts.length)return;
     const rect=el.getBoundingClientRect();
     const mx=(clientX-rect.left)*(el.width/rect.width)/(window.devicePixelRatio||1);
-    // найти ближайшую точку
     let best=0,bestD=9999;
     el._pts.forEach((p,i)=>{const d=Math.abs(p.x-mx);if(d<bestD){bestD=d;best=i;}});
-    if(bestD>30){tt.style.display='none';return;}
+    if(bestD>40){
+      tt.style.display='none';
+      if(activeIdx>=0){activeIdx=-1;redrawHover(-1);}
+      return;
+    }
+    if(activeIdx!==best){activeIdx=best;redrawHover(best);}
     const cd=chartData[id];
     const td=cd&&cd.tooltipData&&cd.tooltipData[best];
     if(!td){tt.style.display='none';return;}
     tt.innerHTML=td;
     tt.style.display='block';
-    let tx=clientX+14, ty=clientY-10;
-    if(tx+180>window.innerWidth)tx=clientX-180;
+    let tx=clientX+16,ty=clientY-20;
+    if(tx+200>window.innerWidth)tx=clientX-200;
+    if(ty<0)ty=clientY+10;
     tt.style.left=tx+'px';tt.style.top=ty+'px';
   }
 
   el.addEventListener('mousemove',e=>showTip(e.clientX,e.clientY));
-  el.addEventListener('mouseleave',()=>{tt.style.display='none';});
-  el.addEventListener('touchstart',e=>{if(e.touches[0])showTip(e.touches[0].clientX,e.touches[0].clientY);},{passive:true});
-  el.addEventListener('touchend',()=>setTimeout(()=>{tt.style.display='none';},1500));
+  el.addEventListener('mouseleave',()=>{
+    tt.style.display='none';
+    if(activeIdx>=0){activeIdx=-1;redrawHover(-1);}
+  });
+  el.addEventListener('touchstart',e=>{
+    if(e.touches[0])showTip(e.touches[0].clientX,e.touches[0].clientY);
+  },{passive:true});
+  el.addEventListener('touchend',()=>setTimeout(()=>{
+    tt.style.display='none';activeIdx=-1;redrawHover(-1);
+  },2000));
 }
 
-function renderMC(){}  // MC данные пока недоступны
-function renderDS(){}  // DS грузится через loadReal
+function renderMC(){}
+function renderDS(){}
+
+// Копировать IP
+function copyIP(){
+  navigator.clipboard.writeText('CPYSHub.aternos.me:38096').then(()=>{
+    const m=document.getElementById('mc-copy-msg');
+    m.style.display='block';
+    setTimeout(()=>m.style.display='none',2000);
+  });
+}
+
+// Загрузить MC данные из discord_stats.json
+function loadMC(d){
+  if(!d||!d.minecraft)return;
+  const mc=d.minecraft;
+
+  // Статус сервера
+  const srv=document.getElementById('mc-srv-status');
+  if(srv){
+    if(mc.server_started&&!mc.server_stopped){
+      srv.style.color='var(--green)';srv.textContent='🟢 ОНЛАЙН';
+    } else if(mc.server_stopped){
+      srv.style.color='var(--red)';srv.textContent='🔴 ОФФЛАЙН';
+    } else {
+      srv.textContent='— нет данных';
+    }
+  }
+
+  // Статистика
+  const totalKills=Object.values(mc.kills||{}).reduce((a,b)=>a+b,0);
+  const totalAdv=Object.values(mc.advancements||{}).reduce((a,b)=>a+b.length,0);
+  const totalPlayers=Object.keys(mc.kills||{}).length+Object.keys(mc.advancements||{}).length;
+  const srow=document.getElementById('mc-srow');
+  if(srow){
+    srow.style.display='grid';
+    const el=document.getElementById('mc-kills');if(el)cnt(el,totalKills);
+    const ea=document.getElementById('mc-adv');if(ea)cnt(ea,totalAdv);
+    const ep=document.getElementById('mc-players');if(ep)cnt(ep,totalPlayers);
+  }
+
+  // Топ убийств
+  if(mc.top_killers&&mc.top_killers.length){
+    const tw=document.getElementById('mc-top-wrap');
+    if(tw)tw.style.display='block';
+    const tl=document.getElementById('mc-top-kills');
+    if(tl)tl.innerHTML=mc.top_killers.map((k,i)=>`
+      <div class="row">
+        <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--muted);width:20px">#${i+1}</span>
+        <div class="rav" style="background:#ff444422;border-color:#ff4444;color:#ff4444">${(k.name||'?')[0]}</div>
+        <div class="ri"><div class="rn">${k.name}</div></div>
+        <div class="rv" style="color:var(--red)">⚔️ ${k.kills}</div>
+      </div>`).join('');
+  }
+
+  // Последние события
+  const evList=document.getElementById('mc-events-list');
+  const evCount=document.getElementById('mc-events-count');
+  if(evList&&mc.recent_events&&mc.recent_events.length){
+    const icons={join:'🟢',join_first:'🌟',leave:'🔴',death:'💀',advancement:'🏆',server_start:'✅',server_stop:'🛑',chat:'💬'};
+    evList.innerHTML=[...mc.recent_events].reverse().map(ev=>{
+      let text='';
+      if(ev.type==='join'||ev.type==='join_first') text=`<b>${ev.player}</b> зашёл на сервер${ev.type==='join_first'?' (впервые!)':''}`;
+      else if(ev.type==='leave') text=`<b>${ev.player}</b> вышел`;
+      else if(ev.type==='death'){
+        const mob=ev.killer&&ev.killer.includes('|');
+        text=`<b>${ev.player}</b> убит ${mob?'мобом':'игроком'} <b>${ev.killer}</b>`;
+      }
+      else if(ev.type==='advancement') text=`<b>${ev.player}</b> получил достижение: <i>${ev.advancement}</i>`;
+      else if(ev.type==='server_start') text='Сервер запущен';
+      else if(ev.type==='server_stop') text='Сервер остановлен';
+      else if(ev.type==='chat') text=`<b>${ev.player}</b>: ${ev.text}`;
+      else text=JSON.stringify(ev);
+      return `<div class="jlr"><span>${icons[ev.type]||'•'}</span><span style="flex:1;font-size:13px">${text}</span><span style="color:var(--muted);font-size:11px">${ev.time||''}</span></div>`;
+    }).join('');
+    if(evCount)evCount.textContent=`(${mc.recent_events.length})`;
+  } else if(evList){
+    evList.innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:16px 0">Событий пока нет</div>';
+  }
+}
 
 function openM(p){
   // Аватарка
@@ -843,6 +1041,9 @@ async function loadReal(){
         <div class="pi"><span style="color:${rColors[i%rColors.length]}">${name}</span><span style="color:var(--muted)">${count}</span></div>
         <div class="pbb"><div class="pf" style="width:${Math.min(100,Math.round(count/total*100))}%;background:${rColors[i%rColors.length]}"></div></div>
       </div>`).join('');
+
+    // Загружаем MC данные
+    loadMC(d);
 
     // Обновляем время последнего обновления
     if(d.updated_at){
