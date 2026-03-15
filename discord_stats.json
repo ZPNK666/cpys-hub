@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T11:49:53.692941+00:00",
+  "updated_at": "2026-03-15T11:50:20.454992+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 34,
     "online_count": 10,
     "offline_count": 24,
-    "in_voice_count": 2,
+    "in_voice_count": 1,
     "messages_today": 0,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1077,9 +1077,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
+      "members_count": 1,
       "members": [
-        "ZPNK666",
         "РЫ7БА"
       ],
       "user_limit": 0
@@ -1220,20 +1219,6 @@
       "messages": 0
     },
     {
-      "time": "15.03 16:47",
-      "hour": 16,
-      "online": 10,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 16:47",
-      "hour": 16,
-      "online": 10,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
       "time": "15.03 16:48",
       "hour": 16,
       "online": 10,
@@ -1378,6 +1363,20 @@
       "hour": 16,
       "online": 10,
       "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 16:49",
+      "hour": 16,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 16:50",
+      "hour": 16,
+      "online": 10,
+      "in_voice": 1,
       "messages": 0
     }
   ],
