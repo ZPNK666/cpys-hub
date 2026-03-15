@@ -392,6 +392,23 @@ body.cursor-ds #cursor{
 .ds-name{font-size:14px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:2px;}
 .ds-sub{font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .ds-sdot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:middle;flex-shrink:0;}
+
+/* MODAL TABS */
+.mtab{padding:4px 12px;font-family:'VT323',monospace;font-size:15px;color:var(--muted);cursor:pointer;border:1px solid transparent;transition:all .15s;}
+.mtab:hover{color:var(--text);}
+.mtab.a{color:var(--cyan);border-color:var(--cyan);background:rgba(0,80,100,0.15);}
+/* MSG items */
+.msg-item{padding:7px 0;border-bottom:1px solid rgba(22,32,48,0.5);}
+.msg-item:last-child{border-bottom:none;}
+.msg-meta{font-size:11px;color:var(--muted);margin-bottom:3px;display:flex;gap:8px;}
+.msg-ch{color:var(--blue);}
+.msg-text{font-size:14px;color:var(--text);word-break:break-word;white-space:pre-wrap;}
+.msg-img{max-width:100%;max-height:160px;border:1px solid var(--b);margin-top:4px;cursor:zoom-in;display:block;}
+.msg-file{font-size:12px;color:var(--cyan);padding:3px 8px;background:#04080f;border:1px solid var(--b);display:inline-block;margin-top:3px;}
+.media-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:6px;}
+.media-thumb{aspect-ratio:1;overflow:hidden;background:#0a0f18;border:1px solid var(--b);cursor:pointer;position:relative;}
+.media-thumb img{width:100%;height:100%;object-fit:cover;display:block;}
+.media-thumb .mt-lbl{position:absolute;bottom:0;left:0;right:0;font-size:10px;background:rgba(0,0,0,0.7);color:var(--muted);padding:1px 3px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
 </style>
 </head>
 <body>
@@ -415,7 +432,7 @@ body.cursor-ds #cursor{
   <header>
     <div class="logo">C.P.Y.S HUB<span class="blink"> _</span><small>STATISTICS DASHBOARD</small></div>
     <div class="hright">
-      <div class="pingw"><div class="pb"></div><div class="pb"></div><div class="pb"></div><div class="pb"></div><span id="pingms">12ms</span></div>
+      <div id="last-updated" style="font-size:11px;color:var(--muted)">обновление...</div>
       <div id="clk">00:00:00</div>
       <div class="live"><div class="dot"></div>LIVE</div>
     </div>
@@ -620,20 +637,30 @@ body.cursor-ds #cursor{
 
 <!-- MEMBER MODAL -->
 <div class="mbg" id="mbg" onclick="cm(event)">
-  <div class="modal">
-    <button class="mcl" onclick="cm()">✕ ЗАКРЫТЬ</button>
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+  <div class="modal" style="width:520px;max-height:90vh;display:flex;flex-direction:column;">
+    <button class="mcl" onclick="cm()">✕</button>
+    <!-- Шапка -->
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;flex-shrink:0;">
       <div class="mav" id="mav"></div>
-      <div>
+      <div style="flex:1;min-width:0;">
         <div class="mnm" id="mnm"></div>
-        <div style="font-size:12px;color:var(--muted);margin-top:3px" id="mrl"></div>
+        <div style="font-size:12px;color:var(--muted);margin-top:2px" id="mrl"></div>
       </div>
     </div>
-    <div class="mgrd" id="mgr"></div>
-    <!-- MEDIA SECTION inside modal -->
-    <div id="modal-media" style="margin-top:12px;display:none;">
-      <div class="ph" style="border:1px solid var(--b);margin-bottom:6px;">📊 МЕДИА АКТИВНОСТЬ</div>
-      <div id="modal-media-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:5px;"></div>
+    <!-- Вкладки модалки -->
+    <div id="modal-tabs" style="display:none;flex-shrink:0;">
+      <div style="display:flex;gap:3px;margin-bottom:8px;border-bottom:1px solid var(--b);padding-bottom:6px;">
+        <div class="mtab a" id="mtab-stats"  onclick="switchMTab('stats')">📊 Стата</div>
+        <div class="mtab"   id="mtab-msgs"   onclick="switchMTab('msgs')">💬 Сообщения</div>
+        <div class="mtab"   id="mtab-media"  onclick="switchMTab('media')">🖼️ Медиа</div>
+      </div>
+    </div>
+    <!-- Содержимое (скролл) -->
+    <div style="overflow-y:auto;flex:1;" id="modal-body">
+      <div id="mgr" class="mgrd"></div>
+      <div id="modal-media" style="display:none;"></div>
+      <div id="modal-msgs"  style="display:none;"></div>
+      <div id="modal-imgs"  style="display:none;"></div>
     </div>
   </div>
 </div>
@@ -810,13 +837,7 @@ document.addEventListener('click',e=>{
 // ===== CLOCK =====
 setInterval(()=>{document.getElementById('clk').textContent=new Date().toTimeString().slice(0,8);},1000);
 
-// ===== FAKE PING =====
-setInterval(()=>{
-  const p=7+Math.floor(Math.random()*35);
-  const el=document.getElementById('pingms');
-  el.textContent=p+'ms';
-  el.style.color=p<20?'var(--green)':p<40?'var(--gold)':'var(--red)';
-},3500);
+// ping показывается из реальных данных
 
 // ===== SWITCH =====
 function sp(p,el,cls){
@@ -978,228 +999,10 @@ function setupChartTooltip(id){
   let calMonth = now.getMonth(); // 0-based
   let selectedDay = null; // {y,m,d} string like "2025-03-15"
 
-  // Demo data: generate fake hourly stats for days that have data
-  // Keys: "YYYY-MM-DD", value: array of 24 hourly points + 60 minutely points per hour
+  // Реальные данные приходят из discord_stats.json через loadReal()
   window._calData = {};
 
-  function genDay(dateStr){
-    if(window._calData[dateStr]) return;
-    const hrs = [];
-    for(let h=0;h<24;h++){
-      const base = h>=9&&h<=23 ? 5+Math.floor(Math.random()*25) : Math.floor(Math.random()*5);
-      // minutely points for this hour (every 10 min = 6 pts, every 1 min = 60 pts)
-      const mins10=[], mins1=[];
-      for(let m=0;m<6;m++) mins10.push(base+Math.floor(Math.random()*4)-2);
-      for(let m=0;m<60;m++) mins1.push(base+Math.floor(Math.random()*6)-3);
-      hrs.push({
-        hour:h,
-        online: Math.max(0,base),
-        in_voice: Math.max(0,Math.floor(base*0.4+Math.random()*3)),
-        messages: Math.max(0,Math.floor(base*2+Math.random()*10)),
-        mins10, mins1
-      });
-    }
-    window._calData[dateStr] = hrs;
-  }
-
-  // Pre-generate last 30 days
-  for(let i=0;i<30;i++){
-    const d=new Date(); d.setDate(d.getDate()-i);
-    const key=d.toISOString().slice(0,10);
-    genDay(key);
-  }
-
-  function renderCal(){
-    const monthName = MONTHS_RU[calMonth]+' '+calYear;
-    document.getElementById('cal-month').textContent = monthName;
-
-    const container = document.getElementById('cal-days');
-    if(!container) return;
-    container.innerHTML = '';
-
-    // First day of month (Mon=0)
-    const first = new Date(calYear, calMonth, 1);
-    let startDow = first.getDay(); // 0=Sun
-    startDow = startDow===0 ? 6 : startDow-1; // convert to Mon=0
-
-    const daysInMonth = new Date(calYear, calMonth+1, 0).getDate();
-    const today = new Date();
-
-    // Empty cells before first
-    for(let i=0;i<startDow;i++){
-      const el=document.createElement('div');
-      container.appendChild(el);
-    }
-
-    for(let d=1;d<=daysInMonth;d++){
-      const dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-      const hasData = !!window._calData[dateStr];
-      const isToday = today.getFullYear()===calYear && today.getMonth()===calMonth && today.getDate()===d;
-      const isSel = selectedDay===dateStr;
-      const isFuture = new Date(calYear,calMonth,d) > today;
-      const dow = new Date(calYear,calMonth,d).getDay(); // 0=Sun,6=Sat
-      const isWeekend = dow===0||dow===6;
-
-      const el = document.createElement('div');
-      el.style.cssText = `
-        width:100%;aspect-ratio:1;border-radius:50%;display:flex;align-items:center;justify-content:center;
-        font-family:'VT323',monospace;font-size:13px;cursor:${isFuture?'default':'pointer'};
-        position:relative;transition:all .15s;
-        ${isSel ? 'background:var(--cyan);color:#04080f;font-weight:bold;box-shadow:0 0 8px rgba(77,230,230,0.6);' :
-          isToday ? 'border:1px solid var(--cyan);color:var(--cyan);' :
-          hasData&&!isFuture ? 'background:rgba(88,101,242,0.2);border:1px solid rgba(88,101,242,0.4);color:var(--text);' :
-          isFuture ? 'color:#1a2a3a;' :
-          'color:var(--muted);'}
-        ${isWeekend&&!isSel?'color:'+(isFuture?'#1a1a2a':'#ff6b6b')+';':''}
-      `;
-      el.textContent = d;
-
-      // Activity dot
-      if(hasData&&!isFuture&&!isSel){
-        const dot=document.createElement('div');
-        const msgs = window._calData[dateStr].reduce((s,h)=>s+h.messages,0);
-        const col = msgs>100?'#ffd700':msgs>50?'#00d26a':'#5865f2';
-        dot.style.cssText=`position:absolute;bottom:1px;left:50%;transform:translateX(-50%);width:3px;height:3px;border-radius:50%;background:${col};`;
-        el.appendChild(dot);
-      }
-
-      if(!isFuture){
-        el.onmouseenter = ()=>{ if(!isSel) el.style.background='rgba(77,230,230,0.1)'; };
-        el.onmouseleave = ()=>{ if(!isSel) el.style.background=hasData?'rgba(88,101,242,0.2)':''; };
-        el.onclick = ()=>{ selectedDay=dateStr; renderCal(); showDayChart(dateStr); };
-      }
-      container.appendChild(el);
-    }
-  }
-
-  window.calPrev = function(){ calMonth--; if(calMonth<0){calMonth=11;calYear--;} renderCal(); };
-  window.calNext = function(){ calMonth++; if(calMonth>11){calMonth=0;calYear++;} renderCal(); };
-
-  function showDayChart(dateStr){
-    const hrs = window._calData[dateStr];
-    if(!hrs) return;
-
-    // Format label
-    const [y,m,d]=dateStr.split('-');
-    const MONTHS_SHORT=['янв','фев','мар','апр','май','июн','июл','авг','сен','окт','ноя','дек'];
-    document.getElementById('chart-day-label').textContent = `${parseInt(d)} ${MONTHS_SHORT[parseInt(m)-1]} ${y}`;
-
-    const labels = hrs.map(h=>`${String(h.hour).padStart(2,'0')}:00`);
-    const series = [
-      {vals:hrs.map(h=>h.online),   color:'#00d26a', label:'Онлайн',    icon:'🟢'},
-      {vals:hrs.map(h=>h.in_voice), color:'#5865f2', label:'В голосе',  icon:'🔊'},
-      {vals:hrs.map(h=>h.messages), color:'#ffd700', label:'Сообщений', icon:'💬'},
-    ];
-    const tips = hrs.map((h,i)=>`
-      <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:6px;border-bottom:1px solid #1a2a3a;padding-bottom:5px;">${labels[i]}</div>
-      <div style="display:grid;grid-template-columns:auto 1fr auto;gap:3px 8px;align-items:center;">
-        ${series.map(s=>`<span>${s.icon}</span><span style="color:var(--muted)">${s.label}</span><b style="color:${s.color}">${s.vals[i]}</b>`).join('')}
-      </div>`);
-
-    setTimeout(()=>{
-      multiLineChart('ds-lc1', series, labels, tips);
-      drawTimelineDots(hrs, dateStr);
-    }, 60);
-  }
-
-  function drawTimelineDots(hrs, dateStr){
-    const container = document.getElementById('timeline-dots');
-    if(!container) return;
-    container.innerHTML='';
-
-    // We draw a mini timeline: 24 hours × dots
-    // Each hour = a segment, inside each segment: 6 dots (10min) colored by activity
-    // On hover show 1-min detail
-    const canvas = document.createElement('canvas');
-    canvas.style.cssText='width:100%;height:18px;display:block;cursor:crosshair;';
-    container.appendChild(canvas);
-
-    const tooltip = document.getElementById('chart-tooltip');
-
-    function drawDots(){
-      const dpr=window.devicePixelRatio||1;
-      const W=canvas.offsetWidth||300;
-      canvas.width=W*dpr; canvas.height=18*dpr;
-      const ctx=canvas.getContext('2d'); ctx.scale(dpr,dpr);
-
-      const segW = W/24;
-
-      hrs.forEach((hr,hi)=>{
-        const x0=hi*segW;
-        const mx=hr.messages||0;
-        const col=mx>15?'#ffd700':mx>5?'#00d26a':'#5865f2';
-        const alpha=mx>0?0.85:0.2;
-
-        // Hour label (every 3h)
-        if(hi%3===0||hi===23){
-          ctx.fillStyle='rgba(42,64,85,0.8)';
-          ctx.font='7px VT323,monospace';
-          ctx.textAlign='center';
-          ctx.fillText(String(hi).padStart(2,'0'),x0+segW/2,17);
-        }
-
-        // 6 dots per hour (every 10 min)
-        const dotSpacing = segW/6;
-        for(let m=0;m<6;m++){
-          const val=hr.mins10[m]||0;
-          const dotX=x0+m*dotSpacing+dotSpacing/2;
-          const dotY=8;
-          const r=val>3?2.5:val>0?2:1.2;
-          ctx.beginPath();
-          ctx.arc(dotX,dotY,r,0,Math.PI*2);
-          ctx.fillStyle=col.replace(')',`,${alpha})`).replace('rgb','rgba').replace('#',
-            (s)=>{
-              const n=parseInt(col.slice(1),16);
-              const r2=(n>>16)&255,g=(n>>8)&255,b=n&255;
-              return `rgba(${r2},${g},${b},${alpha})`;
-            });
-          ctx.fillStyle=col;
-          ctx.globalAlpha=alpha;
-          ctx.fill();
-          ctx.globalAlpha=1;
-        }
-      });
-    }
-    drawDots();
-    window.addEventListener('resize',drawDots);
-
-    // Hover → show 1-min detail for that hour
-    canvas.onmousemove=function(e){
-      const rect=canvas.getBoundingClientRect();
-      const xRel=(e.clientX-rect.left)/rect.width;
-      const hi=Math.min(23,Math.floor(xRel*24));
-      const hr=hrs[hi];
-      if(!hr){tooltip.style.display='none';return;}
-
-      // Build 1-min chart tooltip content
-      const maxM=Math.max(...hr.mins1,1);
-      const barW=130;
-      const bars=hr.mins1.map((v,i)=>{
-        const pct=Math.round(v/maxM*100);
-        const col=v>5?'#ffd700':v>2?'#00d26a':'#5865f2';
-        return `<div style="display:flex;align-items:center;gap:4px;margin-bottom:1px;">
-          <span style="color:var(--muted);font-size:9px;width:20px">${String(i).padStart(2,'0')}м</span>
-          <div style="flex:1;height:3px;background:#0a0f18;"><div style="width:${pct}%;height:100%;background:${col};"></div></div>
-          <span style="color:${col};font-size:9px;width:12px;text-align:right">${v}</span>
-        </div>`;
-      }).join('');
-
-      tooltip.innerHTML=`
-        <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:6px;border-bottom:1px solid #1a2a3a;padding-bottom:5px;">
-          ${String(hi).padStart(2,'0')}:00 — каждая минута
-        </div>
-        <div style="max-height:140px;overflow-y:auto;">${bars}</div>`;
-      tooltip.style.display='block';
-      let tx=e.clientX+14, ty=e.clientY-10;
-      if(tx+200>window.innerWidth) tx=e.clientX-210;
-      if(ty<0) ty=10;
-      tooltip.style.left=tx+'px'; tooltip.style.top=ty+'px';
-    };
-    canvas.onmouseleave=()=>tooltip.style.display='none';
-  }
-
-  // Auto-select today on load
-  window._initCalendar = function(){
+    window._initCalendar = function(){
     renderCal();
     const todayStr = new Date().toISOString().slice(0,10);
     selectedDay = todayStr;
@@ -1716,7 +1519,7 @@ function loadMC(d){
   window._mcData=mc;
   window._mcEvents=mc.recent_events||[];
   window._mcPlayers=mc.players||{};
-  // Рендерим игроков карточками
+  // Рендерим игроков карточками (только реальные данные от бота)
   renderMCPlayerCards(mc);
 
   // Последние события
@@ -1746,103 +1549,214 @@ function loadMC(d){
 }
 
 function openMb64(b64){
-  try{
-    const json=decodeURIComponent(escape(atob(b64)));
-    openM(JSON.parse(json));
-  }catch(e){ console.error('openMb64 error',e); }
+  try{ openM(JSON.parse(decodeURIComponent(escape(atob(b64))))); }
+  catch(e){ console.error('openMb64',e); }
 }
+
+// Глобальный текущий участник для переключения вкладок
+var _curMember = null;
+
+function switchMTab(tab){
+  document.querySelectorAll('.mtab').forEach(t=>t.classList.remove('a'));
+  document.getElementById('mtab-'+tab).classList.add('a');
+  document.getElementById('mgr').style.display          = tab==='stats' ?'grid':'none';
+  document.getElementById('modal-media').style.display  = tab==='stats' ?'block':'none';
+  document.getElementById('modal-msgs').style.display   = tab==='msgs'  ?'block':'none';
+  document.getElementById('modal-imgs').style.display   = tab==='media' ?'block':'none';
+  if(tab==='msgs'  && _curMember) renderModalMsgs(_curMember);
+  if(tab==='media' && _curMember) renderModalImgs(_curMember);
+}
+
 function openM(p){
   if(typeof p==='string'){try{p=JSON.parse(p);}catch(e){return;}}
-  // Аватарка
-  const mavEl=document.getElementById('mav');
-  mavEl.style.cssText=`width:52px;height:52px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:bold;border:2px solid ${p.color};background:${p.color}22;color:${p.color};overflow:hidden;flex-shrink:0;border-radius:4px;`;
-  if(p.avatar){
-    mavEl.innerHTML=`<img src="${p.avatar}" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentNode.textContent='${(p.name||'?')[0]}'">`;
-  } else {
-    mavEl.textContent=(p.name||'?')[0];
-  }
+  _curMember = p;
 
-  document.getElementById('mnm').textContent=p.name;
+  // Аватар
+  var mavEl = document.getElementById('mav');
+  mavEl.style.cssText = 'width:52px;height:52px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:bold;border:2px solid '+p.color+';background:'+p.color+'22;color:'+p.color+';overflow:hidden;flex-shrink:0;border-radius:4px;';
+  if(p.avatar){
+    mavEl.innerHTML = '<img src="'+p.avatar+'" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentNode.textContent=\''+(p.name||'?')[0]+'\'">';
+  } else {
+    mavEl.textContent = (p.name||'?')[0];
+  }
+  document.getElementById('mnm').textContent = p.name||'';
+  document.getElementById('mrl').textContent = (p.top_role||p.role||'участник').toUpperCase();
 
   if(p.type==='mc'){
-    document.getElementById('mrl').textContent='ИГРОК';
-    document.getElementById('mgr').innerHTML=`
-      <div class="ms"><span class="ml">Статус</span><span class="mv" style="color:${p.on?'var(--green)':'var(--muted)'}">${p.on?'ONLINE':'OFFLINE'}</span></div>
-      <div class="ms"><span class="ml">Время</span><span class="mv">${p.time||'—'}</span></div>
-      <div class="ms"><span class="ml">Убийств</span><span class="mv" style="color:var(--red)">${p.kills||0}</span></div>
-      <div class="ms"><span class="ml">Смертей</span><span class="mv">${p.deaths||0}</span></div>`;
+    // MC модалка — без вкладок
+    document.getElementById('modal-tabs').style.display='none';
+    document.getElementById('mgr').style.display='grid';
     document.getElementById('modal-media').style.display='none';
+    document.getElementById('modal-msgs').style.display='none';
+    document.getElementById('modal-imgs').style.display='none';
+    document.getElementById('mgr').innerHTML =
+      '<div class="ms"><span class="ml">Статус</span><span class="mv" style="color:'+(p.on?'var(--green)':'var(--muted)')+'">'+( p.on?'ONLINE':'OFFLINE')+'</span></div>'+
+      '<div class="ms"><span class="ml">Время</span><span class="mv">'+(p.time||'—')+'</span></div>'+
+      '<div class="ms"><span class="ml">⚔️ Убийств</span><span class="mv" style="color:var(--red)">'+(p.kills||0)+'</span></div>'+
+      '<div class="ms"><span class="ml">💀 Смертей</span><span class="mv">'+(p.deaths||0)+'</span></div>';
   } else {
-    // Статус
-    const statusLabel={online:'🟢 ОНЛАЙН',idle:'🟡 ОТОШЁЛ',dnd:'🔴 НЕ БЕСПОКОИТЬ',offline:'⚫ ОФФЛАЙН'}[p.status]||'⚫ ОФФЛАЙН';
-    document.getElementById('mrl').textContent=p.top_role||p.role||'участник';
+    // DS модалка — с вкладками
+    document.getElementById('modal-tabs').style.display='block';
+    // Сброс вкладок на Стату
+    document.querySelectorAll('.mtab').forEach(t=>t.classList.remove('a'));
+    document.getElementById('mtab-stats').classList.add('a');
+    document.getElementById('mgr').style.display='grid';
+    document.getElementById('modal-media').style.display='block';
+    document.getElementById('modal-msgs').style.display='none';
+    document.getElementById('modal-imgs').style.display='none';
 
-    // Все роли участника
-    const rolesHtml=(p.roles||[]).length
-      ? (p.roles||[]).map(r=>`<span style="background:#0a1420;border:1px solid var(--b);padding:1px 6px;margin:2px;display:inline-block;font-size:12px;color:var(--text)">${r}</span>`).join('')
+    var statusLabel = {online:'🟢 ОНЛАЙН',idle:'🟡 ОТОШЁЛ',dnd:'🔴 НЕ БЕСПОКОИТЬ',offline:'⚫ ОФФЛАЙН'}[p.status]||'⚫ ОФФЛАЙН';
+    var rolesHtml = (p.roles||[]).length
+      ? (p.roles||[]).map(function(r){ return '<span style="background:#0a1420;border:1px solid var(--b);padding:1px 6px;margin:2px;display:inline-block;font-size:12px;color:var(--text)">'+r+'</span>'; }).join('')
       : '<span style="color:var(--muted);font-size:12px">нет ролей</span>';
 
-    document.getElementById('mgr').innerHTML=`
-      <div class="ms"><span class="ml">Статус</span><span class="mv" style="font-size:10px">${statusLabel}</span></div>
-      <div class="ms"><span class="ml">На сервере с</span><span class="mv" style="font-size:9px">${p.joined||'—'}</span></div>
-      <div class="ms" style="grid-column:1/-1"><span class="ml">Роли</span><div style="margin-top:4px">${rolesHtml}</div></div>`;
+    document.getElementById('mgr').innerHTML =
+      '<div class="ms"><span class="ml">Статус</span><span class="mv" style="font-size:10px">'+statusLabel+'</span></div>'+
+      '<div class="ms"><span class="ml">На сервере с</span><span class="mv" style="font-size:9px">'+(p.joined||'—')+'</span></div>'+
+      '<div class="ms" style="grid-column:1/-1"><span class="ml">Роли</span><div style="margin-top:4px">'+rolesHtml+'</div></div>';
 
-    // Медиа — всё время + сегодня
-    const mt=[
-      {ka:'msgs_all',  kt:'msgs_today',  i:'💬', l:'Сообщений',  col:'#4de6e6'},
-      {ka:'imgs_all',  kt:'imgs_today',  i:'🖼️', l:'Картинок',   col:'#00d26a'},
-      {ka:'gifs_all',  kt:'gifs_today',  i:'🎞️', l:'Гифок',      col:'#5865f2'},
-      {ka:'stk_all',   kt:'stk_today',   i:'😄', l:'Стикеров',   col:'#ffd700'},
-      {ka:'vc_all',    kt:'vc_today',    i:'🎤', l:'Голосовых',  col:'#ff6b35'},
-      {ka:'files_all', kt:'files_today', i:'📁', l:'Файлов',     col:'#7c3aed'}
+    // Медиа статистика
+    var PX = "font-family:'Press Start 2P',monospace;";
+    var mt=[
+      {ka:'msgs_all',  kt:'msgs_today',  i:'💬', l:'Сообщений', col:'#4de6e6'},
+      {ka:'imgs_all',  kt:'imgs_today',  i:'🖼️', l:'Картинок',  col:'#00d26a'},
+      {ka:'gifs_all',  kt:'gifs_today',  i:'🎞️', l:'Гифок',     col:'#5865f2'},
+      {ka:'stk_all',   kt:'stk_today',   i:'😄', l:'Стикеров',  col:'#ffd700'},
+      {ka:'vc_all',    kt:'vc_today',    i:'🎤', l:'Голосовых', col:'#ff6b35'},
+      {ka:'files_all', kt:'files_today', i:'📁', l:'Файлов',    col:'#7c3aed'}
     ];
-    // Строим медиа-блок через строку (без вложенных backtick)
-    document.getElementById('modal-media').style.display='block';
-        var PX="font-family:'Press Start 2P',monospace;";
-    var mediaHtml='';
-    mediaHtml+='<div style="margin-top:10px;border-top:1px solid #162030;padding-top:8px;">';
-    mediaHtml+='<div style="'+PX+'font-size:7px;color:#4de6e6;margin-bottom:8px;">📊 МЕДИА АКТИВНОСТЬ</div>';
-    mediaHtml+='<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:5px;">';
+    var mh='<div style="margin-top:8px;">';
+    mh+='<div style="'+PX+'font-size:7px;color:#4de6e6;margin-bottom:6px;">📊 МЕДИА АКТИВНОСТЬ</div>';
+    mh+='<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:4px;">';
     mt.forEach(function(t){
-      var allVal=Number(p[t.ka])||0;
-      var todayVal=Number(p[t.kt])||0;
-      var todayColor=todayVal>0?t.col:'#2a4055';
-      mediaHtml+='<div style="background:#060d14;border:1px solid '+t.col+'44;padding:10px 6px;text-align:center;border-radius:2px;">';
-      mediaHtml+='<div style="font-size:20px;margin-bottom:4px">'+t.i+'</div>';
-      mediaHtml+='<div style="'+PX+'font-size:13px;color:'+t.col+'">'+allVal+'</div>';
-      mediaHtml+='<div style="font-size:10px;color:#2a4055;margin-top:2px">'+t.l+'</div>';
-      mediaHtml+='<div style="font-size:10px;color:#1e3a4a;margin-top:3px;border-top:1px solid #0d1824;padding-top:3px;">сегодня: <span style="color:'+todayColor+'">'+todayVal+'</span></div>';
-      mediaHtml+='</div>';
+      var av=Number(p[t.ka])||0, tv=Number(p[t.kt])||0;
+      mh+='<div style="background:#060d14;border:1px solid '+t.col+'44;padding:8px 4px;text-align:center;border-radius:2px;">';
+      mh+='<div style="font-size:18px">'+t.i+'</div>';
+      mh+='<div style="'+PX+'font-size:12px;color:'+t.col+'">'+av+'</div>';
+      mh+='<div style="font-size:10px;color:#2a4055">'+t.l+'</div>';
+      mh+='<div style="font-size:10px;color:#1e3a4a;border-top:1px solid #0d1824;margin-top:2px;padding-top:2px;">сегодня:<span style="color:'+(tv>0?t.col:'#2a4055')+'"> '+tv+'</span></div>';
+      mh+='</div>';
     });
-    mediaHtml+='</div>';
-    mediaHtml+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;margin-top:5px;">';
-    mediaHtml+='<div style="background:#060d14;border:1px solid #ffd70033;padding:8px;">';
-    mediaHtml+='<div style="font-size:10px;color:#2a4055;">🚪 Входов</div>';
-    mediaHtml+='<div style="'+PX+'font-size:12px;color:#ffd700;margin-top:3px">'+(p.joins||0)+'</div></div>';
-    mediaHtml+='<div style="background:#060d14;border:1px solid #5865f233;padding:8px;">';
-    mediaHtml+='<div style="font-size:10px;color:#2a4055;">📅 На сервере с</div>';
-    mediaHtml+='<div style="font-size:12px;color:#b8d4e8;margin-top:3px">'+(p.joined||'—')+'</div></div>';
-    mediaHtml+='<div style="background:#060d14;border:1px solid #00d26a33;padding:8px;">';
-    mediaHtml+='<div style="font-size:10px;color:#2a4055;">💬 Всего сообщ.</div>';
-    mediaHtml+='<div style="'+PX+'font-size:12px;color:#00d26a;margin-top:3px">'+(Number(p.msgs_all)||0)+'</div></div>';
-    mediaHtml+='</div></div>';
-    document.getElementById('modal-media').innerHTML=mediaHtml;
+    mh+='</div>';
+    mh+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-top:4px;">';
+    mh+='<div style="background:#060d14;border:1px solid #ffd70033;padding:6px;"><div style="font-size:10px;color:#2a4055">🚪 Входов</div><div style="'+PX+'font-size:11px;color:#ffd700;margin-top:2px">'+(p.joins||0)+'</div></div>';
+    mh+='<div style="background:#060d14;border:1px solid #5865f233;padding:6px;"><div style="font-size:10px;color:#2a4055">📅 На сервере с</div><div style="font-size:12px;color:#b8d4e8;margin-top:2px">'+(p.joined||'—')+'</div></div>';
+    mh+='<div style="background:#060d14;border:1px solid #00d26a33;padding:6px;"><div style="font-size:10px;color:#2a4055">💬 Всего</div><div style="'+PX+'font-size:11px;color:#00d26a;margin-top:2px">'+(Number(p.msgs_all)||0)+'</div></div>';
+    mh+='</div></div>';
+    document.getElementById('modal-media').innerHTML = mh;
   }
   document.getElementById('mbg').classList.add('show');
 }
-function cm(e){if(!e||e.target===document.getElementById('mbg'))document.getElementById('mbg').classList.remove('show');}
+
+function renderModalMsgs(p){
+  var el = document.getElementById('modal-msgs');
+  if(!el) return;
+  // Берём из _messagesCache если есть
+  var uid = p.id||p.uid||'';
+  var msgs = (window._messagesCache && uid && window._messagesCache[uid]) || p.recent_messages || [];
+  if(!msgs.length){
+    el.innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:20px">Сообщений нет<br><span style="font-size:11px">Бот пришлёт данные после старта</span></div>';
+    return;
+  }
+  var html='';
+  var reversed=[].concat(msgs).reverse();
+  reversed.forEach(function(m){
+    html+='<div class="msg-item">';
+    html+='<div class="msg-meta"><span class="msg-ch">#'+(m.channel||'?')+'</span><span>'+(m.time||'')+'</span>';
+    var typeIcons={text:'💬',images:'🖼️',gifs:'🎞️',stickers:'😄',voice:'🎤',files:'📁'};
+    html+='<span>'+(typeIcons[m.type]||'💬')+'</span></div>';
+    if(m.content) html+='<div class="msg-text">'+escHtml(m.content)+'</div>';
+    // Вложения
+    if(m.attachments && m.attachments.length){
+      m.attachments.forEach(function(a){
+        if(a.type==='images'||a.type==='gifs'){
+          html+='<img class="msg-img" src="'+a.url+'" loading="lazy" onclick="window.open(this.src,\'_blank\')">';
+        } else {
+          html+='<div class="msg-file">📁 '+escHtml(a.filename||'файл')+'</div>';
+        }
+      });
+    }
+    if(m.stickers && m.stickers.length){
+      m.stickers.forEach(function(s){
+        html+='<img class="msg-img" src="'+s.url+'" style="max-height:80px" loading="lazy">';
+      });
+    }
+    // preview_url fallback
+    if(!m.content && !(m.attachments&&m.attachments.length) && m.preview_url && m.type!=='text'){
+      if(m.type==='images'||m.type==='gifs'){
+        html+='<img class="msg-img" src="'+m.preview_url+'" loading="lazy" onclick="window.open(this.src,\'_blank\')">';
+      }
+    }
+    html+='</div>';
+  });
+  el.innerHTML=html;
+}
+
+function renderModalImgs(p){
+  var el = document.getElementById('modal-imgs');
+  if(!el) return;
+  var uid = p.id||p.uid||'';
+  var msgs = (window._messagesCache && uid && window._messagesCache[uid]) || p.recent_messages || [];
+  var items=[];
+  msgs.forEach(function(m){
+    if(m.attachments) m.attachments.forEach(function(a){
+      if(a.type==='images'||a.type==='gifs') items.push({url:a.url,name:a.filename||'',time:m.time,ch:m.channel,type:a.type});
+    });
+    if(m.preview_url && (m.type==='images'||m.type==='gifs') && !(m.attachments&&m.attachments.length)){
+      items.push({url:m.preview_url,name:'',time:m.time,ch:m.channel,type:m.type});
+    }
+    if(m.stickers) m.stickers.forEach(function(s){
+      items.push({url:s.url,name:s.name,time:m.time,ch:m.channel,type:'sticker'});
+    });
+  });
+  if(!items.length){
+    el.innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:20px">Фото и гифок нет</div>';
+    return;
+  }
+  var reversed=items.reverse();
+  var html='<div class="media-grid">';
+  reversed.forEach(function(it){
+    html+='<div class="media-thumb" onclick="window.open(\''+it.url+'\',\'_blank\')" title="'+escHtml(it.name)+' · #'+escHtml(it.ch)+' · '+escHtml(it.time)+'">';
+    html+='<img src="'+it.url+'" loading="lazy">';
+    html+='<div class="mt-lbl">'+(it.type==='gifs'?'🎞️ ':it.type==='sticker'?'😄 ':'🖼️ ')+(it.name||it.ch||'')+'</div>';
+    html+='</div>';
+  });
+  html+='</div>';
+  el.innerHTML=html;
+}
+
+function escHtml(s){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 
 async function loadReal(){
+  // Параллельно грузим stats + messages
   try{
-    // Читаем discord_stats.json из того же репо
-    const r=await fetch('discord_stats.json?t='+Date.now(),{
-      cache:'no-store',
-      headers:{'Cache-Control':'no-cache, no-store, must-revalidate','Pragma':'no-cache'}
-    });
+    const [r, rm] = await Promise.all([
+      fetch('discord_stats.json?t='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}}),
+      fetch('discord_messages.json?t='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).catch(()=>null)
+    ]);
     if(!r.ok) return;
     const d=await r.json();
 
+    // Кешируем сообщения
+    if(rm && rm.ok){
+      try{
+        const dm=await rm.json();
+        // dm.users: { "uid": [...msgs] }
+        window._messagesCache=dm.users||{};
+      }catch(e){}
+    }
+
     const s=d.summary;
+
+    // --- ВРЕМЯ ОБНОВЛЕНИЯ ---
+    if(d.updated_at){
+      const upd=new Date(d.updated_at);
+      const el=document.getElementById('last-updated');
+      if(el) el.textContent='↻ '+upd.toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    }
 
     // --- SUMMARY ---
     cnt(document.getElementById('ds-tot'), s.total_members||0);
@@ -1896,6 +1810,9 @@ async function loadReal(){
       return {online:'#00d26a',idle:'#ffd700',dnd:'#ff4444',offline:'#2a4055'}[status]||'#2a4055';
     }
 
+    if(!allMembers.length){
+      document.getElementById('ds-mg').innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:30px;grid-column:1/-1">Ждём данные от бота...<br><span style="font-size:11px">Запусти discord_bot.py</span></div>';
+    } else
     document.getElementById('ds-mg').innerHTML=allMembers.map(m=>{
       const color=getMemberColor(m);
       const sColor=getStatusColor(m.status);
@@ -1904,18 +1821,17 @@ async function loadReal(){
         : '';
       const initials=`<div style="width:28px;height:28px;display:${m.avatar?'none':'flex'};align-items:center;justify-content:center;font-size:14px;font-weight:bold;border:1px solid ${color};background:${color}22;color:${color};float:left;margin-right:7px;">${(m.name||'?')[0]}</div>`;
       const safe=JSON.stringify({
+        id:m.id||'',
         name:m.name,color,on:m.on,status:m.status,
         joined:(m.joined_at||'').slice(0,10).replace(/-/g,'.'),
         roles:m.roles||[],top_role:m.top_role||'',
         avatar:m.avatar||'',
-        // today stats
         msgs_today:m.stats_today?.text||0,
         imgs_today:m.stats_today?.images||0,
         gifs_today:m.stats_today?.gifs||0,
         stk_today:m.stats_today?.stickers||0,
         vc_today:m.stats_today?.voice||0,
         files_today:m.stats_today?.files||0,
-        // all-time stats
         msgs_all:m.stats_all?.text||m.total_messages||0,
         imgs_all:m.stats_all?.images||0,
         gifs_all:m.stats_all?.gifs||0,
@@ -1923,6 +1839,7 @@ async function loadReal(){
         vc_all:m.stats_all?.voice||0,
         files_all:m.stats_all?.files||0,
         joins:m.join_leave?.joins||0,
+        recent_messages:m.recent_messages||[],
         type:'ds'
       });
       // sub line: show all-time msgs if available, else today
@@ -2050,8 +1967,7 @@ loadReal();
 setInterval(loadReal,15000);
 // Init calendar after short delay
 setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
-// Show known players immediately on page load
-setTimeout(()=>{ if(window.renderMCPlayerCards) window.renderMCPlayerCards({}); },100);
+// Игроки MC отобразятся когда бот пришлёт данные
 </script>
 </body>
 </html>
