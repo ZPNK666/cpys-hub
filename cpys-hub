@@ -21,7 +21,7 @@ body{background:var(--bg);color:var(--text);font-family:'VT323',monospace;font-s
 #cursor{position:fixed;width:10px;height:10px;background:rgba(77,230,230,0.9);border-radius:50%;transform:translate(-50%,-50%);pointer-events:none;z-index:9999;box-shadow:0 0 8px var(--cyan),0 0 20px rgba(77,230,230,0.4);}
 
 /* LAYOUT */
-.app{position:relative;z-index:10;display:flex;flex-direction:column;height:100vh;}
+.app{position:fixed;inset:0;z-index:10;display:flex;flex-direction:column;}
 
 /* HEADER */
 header{display:flex;align-items:center;justify-content:space-between;padding:10px 20px;border-bottom:1px solid var(--b);background:rgba(4,8,15,0.7);backdrop-filter:blur(6px);}
@@ -44,7 +44,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:10p
 #pingms{font-size:11px;color:var(--green);}
 
 /* CENTER */
-.center{flex:1;display:flex;flex-direction:column;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;padding:10px 16px;}
+.center{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:10px 16px;min-height:0;}
 
 /* STAT BOXES */
 .srow{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:10px;}
@@ -75,7 +75,7 @@ canvas.lc{width:100%;height:70px;display:block;}
 .st{padding:4px 10px;background:rgba(11,21,32,0.88);border:1px solid var(--b);cursor:pointer;font-family:'VT323',monospace;font-size:15px;color:var(--muted);transition:all .15s;position:relative;}
 .st:hover{color:var(--text);}
 .st.a{color:var(--cyan);border-color:var(--cyan);background:rgba(0,80,100,0.15);}
-.sc{display:none;}.sc.show{display:block;animation:fi .15s ease;overflow:visible;}
+.sc{display:none;}.sc.show{display:block;animation:fi .15s ease;}
 @keyframes fi{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 
 /* MEMBERS GRID */
@@ -143,7 +143,7 @@ canvas.lc{width:100%;height:70px;display:block;}
 .ms .mv{font-family:'Press Start 2P',monospace;font-size:11px;color:var(--cyan);}
 
 /* PANES */
-.pane{display:none;}.pane.show{display:block;overflow:visible;}
+.pane{display:none;}.pane.show{display:block;}
 
 /* BOTTOM TABS */
 .btabs{border-top:1px solid var(--b);display:flex;background:rgba(4,8,15,0.92);backdrop-filter:blur(8px);}
@@ -254,6 +254,44 @@ body.cursor-ds #cursor{
 .mc-player-row{display:flex;align-items:center;gap:8px;padding:7px 10px;border-bottom:1px solid rgba(22,32,48,0.5);cursor:pointer;transition:background .15s;}
 .mc-player-row:hover{background:rgba(0,210,106,0.07);}
 .mc-player-row:last-child{border-bottom:none;}
+
+
+/* ===== MINECRAFT DIRT BACKGROUND ===== */
+/* Пиксельная текстура земли из Minecraft через CSS */
+#pn-mc{
+  background-image: url('dirt.png');
+    background-size: 64px 64px;
+      image-rendering: pixelated;
+      transparent,
+      transparent 31px,
+      rgba(0,0,0,0.15) 31px,
+      rgba(0,0,0,0.15) 32px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 31px,
+      rgba(0,0,0,0.15) 31px,
+      rgba(0,0,0,0.15) 32px
+    );
+  background-color:#1a0e07;
+  /* Менять фон просто: замени строку ниже на путь к своей картинке */
+  /* background-image: url('mc-bg.png'); background-size: cover; */
+}
+#pn-mc .pnl{background:rgba(8,5,2,0.82);}
+#pn-mc .cp{background:rgba(8,5,2,0.82);}
+#pn-mc .sb{background:rgba(8,5,2,0.82);}
+#pn-mc .st{background:rgba(8,5,2,0.82);}
+#pn-mc .st.a{background:rgba(60,35,5,0.6);border-color:#7a5230;color:#c8a878;}
+#pn-mc .ph{color:#c8a878;}
+#pn-mc .cp-h{color:#c8a878;}
+#pn-mc .mc-player-row:hover{background:rgba(90,55,15,0.3);}
+
+/* Если хочешь поставить СВОЮ картинку фоном вкладки Minecraft:
+   1. Добавь файл например dirt.jpg в папку репо на GitHub
+   2. Найди строку "#pn-mc{" в этом файле
+   3. Добавь: background-image: url('dirt.jpg'); background-size: 64px 64px;
+*/
 
 /* SCROLLBAR */
 ::-webkit-scrollbar{width:3px;}
@@ -1455,3 +1493,4 @@ setInterval(loadReal,30000);
 </script>
 </body>
 </html>
+
