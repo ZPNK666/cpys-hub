@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T13:48:55.855130+00:00",
+  "updated_at": "2026-03-15T13:50:58.825773+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,12 +11,12 @@
     "online_count": 9,
     "offline_count": 25,
     "in_voice_count": 2,
-    "messages_today": 21,
+    "messages_today": 22,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 21,
+    "text": 22,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -37,13 +37,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
       "joined_at": "2026-02-25T13:00:26.272000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "join_leave": {
         "joins": 0,
@@ -1132,6 +1132,13 @@
       "online": 9,
       "in_voice": 2,
       "messages": 0
+    },
+    {
+      "time": "15.03 18:50",
+      "hour": 18,
+      "online": 9,
+      "in_voice": 2,
+      "messages": 1
     }
   ],
   "top_chatters": [],
@@ -1141,55 +1148,6 @@
     "server_stopped": "2026-03-06T11:33:23.595000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "monolosska",
-        "text": "ХВАХАХВАХВАХВАХВХАХАВХАВХВХАХВАВХАВ",
-        "date": "06.03.2026",
-        "time": "12:44"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "монолошка",
-        "date": "06.03.2026",
-        "time": "12:47"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "монолошка",
-        "date": "06.03.2026",
-        "time": "12:48"
-      },
-      {
-        "type": "chat",
-        "player": "monolosska",
-        "text": "М?",
-        "date": "06.03.2026",
-        "time": "12:48"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "у меня есть блок который ты никогда в жизни не сломаешь",
-        "date": "06.03.2026",
-        "time": "12:48"
-      },
-      {
-        "type": "chat",
-        "player": "monolosska",
-        "text": "бедрок",
-        "date": "06.03.2026",
-        "time": "12:48"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "да",
-        "date": "06.03.2026",
-        "time": "12:49"
-      },
       {
         "type": "chat",
         "player": "loleybiolly",
@@ -1488,6 +1446,55 @@
         "text": "скравчу",
         "date": "15.03.2026",
         "time": "13:48"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ну ладно",
+        "date": "15.03.2026",
+        "time": "13:49"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "пока было приятно иметь с вами дело",
+        "date": "15.03.2026",
+        "time": "13:49"
+      },
+      {
+        "type": "chat",
+        "player": ".OpxeN4803",
+        "text": "все не проси меня больше Сэр Максимус фон Штрафенберг",
+        "date": "15.03.2026",
+        "time": "13:49"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "а ето дай еще по ебалу",
+        "date": "15.03.2026",
+        "time": "13:49"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "по ебалу етим",
+        "date": "15.03.2026",
+        "time": "13:49"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "все спс",
+        "date": "15.03.2026",
+        "time": "13:50"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "а топор",
+        "date": "15.03.2026",
+        "time": "13:50"
       }
     ],
     "kills": {},
