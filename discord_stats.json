@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T14:23:45.495268+00:00",
+  "updated_at": "2026-03-15T14:28:23.486959+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,12 +11,12 @@
     "online_count": 13,
     "offline_count": 21,
     "in_voice_count": 4,
-    "messages_today": 23,
+    "messages_today": 24,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 23,
+    "text": 24,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -37,13 +37,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
       "joined_at": "2026-02-25T13:00:26.272000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 4
       },
       "join_leave": {
         "joins": 0,
@@ -912,7 +912,7 @@
         "ZPNK666",
         "zelebobik",
         "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-        "кирпич"
+        "dark_soul"
       ],
       "user_limit": 0
     },
@@ -1044,20 +1044,6 @@
     "ислам": 5
   },
   "hourly_history": [
-    {
-      "time": "15.03 18:36",
-      "hour": 18,
-      "online": 10,
-      "in_voice": 2,
-      "messages": 1
-    },
-    {
-      "time": "15.03 18:38",
-      "hour": 18,
-      "online": 10,
-      "in_voice": 4,
-      "messages": 1
-    },
     {
       "time": "15.03 18:40",
       "hour": 18,
@@ -1211,22 +1197,29 @@
       "online": 13,
       "in_voice": 4,
       "messages": 0
+    },
+    {
+      "time": "15.03 19:25",
+      "hour": 19,
+      "online": 13,
+      "in_voice": 4,
+      "messages": 1
+    },
+    {
+      "time": "15.03 19:28",
+      "hour": 19,
+      "online": 13,
+      "in_voice": 4,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": "2026-03-15T13:28:21.408000",
+    "server_started": "2026-03-15T14:26:26.673000",
     "server_stopped": "2026-03-06T11:33:23.595000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ярик",
-        "date": "06.03.2026",
-        "time": "13:03"
-      },
       {
         "type": "chat",
         "player": "loleybiolly",
@@ -1567,6 +1560,11 @@
         "text": "если уж сломали мне спавн то уйди и не мешай",
         "date": "15.03.2026",
         "time": "14:22"
+      },
+      {
+        "type": "server_start",
+        "date": "15.03.2026",
+        "time": "14:26"
       }
     ],
     "kills": {},
@@ -1579,6 +1577,11 @@
           "type": "server_start",
           "date": "15.03.2026",
           "time": "13:28"
+        },
+        {
+          "type": "server_start",
+          "date": "15.03.2026",
+          "time": "14:26"
         }
       ],
       "06.03.2026": [
