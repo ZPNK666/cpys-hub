@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T13:09:13.068746+00:00",
+  "updated_at": "2026-03-15T13:09:21.123534+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -1077,9 +1077,10 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         "ZPNK666",
+        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
         "zelebobik"
       ],
       "user_limit": 0
@@ -1115,10 +1116,8 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 1,
-      "members": [
-        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 3
     },
     {
@@ -1224,13 +1223,6 @@
     {
       "time": "15.03 18:06",
       "hour": 18,
-      "online": 10,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 18:06",
-      "hour": 18,
       "online": 9,
       "in_voice": 2,
       "messages": 0
@@ -1363,6 +1355,13 @@
     },
     {
       "time": "15.03 18:08",
+      "hour": 18,
+      "online": 9,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "15.03 18:09",
       "hour": 18,
       "online": 9,
       "in_voice": 3,
