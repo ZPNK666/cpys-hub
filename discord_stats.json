@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T12:36:34.274955+00:00",
+  "updated_at": "2026-03-15T12:38:08.512507+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -1213,97 +1213,6 @@
   },
   "hourly_history": [
     {
-      "time": "15.03 17:33",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:33",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:34",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:35",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "15.03 17:35",
-      "hour": 17,
-      "online": 11,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
       "time": "15.03 17:35",
       "hour": 17,
       "online": 11,
@@ -1375,6 +1284,97 @@
     },
     {
       "time": "15.03 17:36",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:36",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:36",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:36",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:37",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:38",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:38",
       "hour": 17,
       "online": 10,
       "in_voice": 2,
