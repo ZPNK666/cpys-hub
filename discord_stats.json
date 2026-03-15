@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T13:24:19.721335+00:00",
+  "updated_at": "2026-03-15T13:26:22.212289+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -1049,19 +1049,447 @@
       "online": 9,
       "in_voice": 3,
       "messages": 0
+    },
+    {
+      "time": "15.03 18:26",
+      "hour": 18,
+      "online": 9,
+      "in_voice": 3,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": null,
-    "server_stopped": null,
+    "server_started": "2026-03-06T12:15:14.002000",
+    "server_stopped": "2026-03-06T11:33:23.595000",
     "top_killers": [],
-    "recent_events": [],
+    "recent_events": [
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "ась",
+        "date": "06.03.2026",
+        "time": "12:33"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "давай я тебе незер слиток 1 а ты мне ну отделку брони",
+        "date": "06.03.2026",
+        "time": "12:33"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "не",
+        "date": "06.03.2026",
+        "time": "12:33"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "2 незер слитка",
+        "date": "06.03.2026",
+        "time": "12:33"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "нахуй мне они",
+        "date": "06.03.2026",
+        "time": "12:33"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "я ливать собираюсь",
+        "date": "06.03.2026",
+        "time": "12:33"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "а ты сам добывай))))",
+        "date": "06.03.2026",
+        "time": "12:33"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "почему",
+        "date": "06.03.2026",
+        "time": "12:34"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ладно",
+        "date": "06.03.2026",
+        "time": "12:39"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "надеюсь",
+        "date": "06.03.2026",
+        "time": "12:39"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ты не против",
+        "date": "06.03.2026",
+        "time": "12:39"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "хотя мне похуй",
+        "date": "06.03.2026",
+        "time": "12:40"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "дай 8 алмазиков",
+        "date": "06.03.2026",
+        "time": "12:41"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "нет",
+        "date": "06.03.2026",
+        "time": "12:41"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "взамен на что ты мне дашь их?",
+        "date": "06.03.2026",
+        "time": "12:41"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "подорву базу",
+        "date": "06.03.2026",
+        "time": "12:41"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ех",
+        "date": "06.03.2026",
+        "time": "12:41"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "ХВАХАХВАХВАХВАХВХАХАВХАВХВХАХВАВХАВ",
+        "date": "06.03.2026",
+        "time": "12:44"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "монолошка",
+        "date": "06.03.2026",
+        "time": "12:47"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "монолошка",
+        "date": "06.03.2026",
+        "time": "12:48"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "М?",
+        "date": "06.03.2026",
+        "time": "12:48"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "у меня есть блок который ты никогда в жизни не сломаешь",
+        "date": "06.03.2026",
+        "time": "12:48"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "бедрок",
+        "date": "06.03.2026",
+        "time": "12:48"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "да",
+        "date": "06.03.2026",
+        "time": "12:49"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ем",
+        "date": "06.03.2026",
+        "time": "12:51"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "молодец",
+        "date": "06.03.2026",
+        "time": "12:57"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "но есть но",
+        "date": "06.03.2026",
+        "time": "12:58"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "СУКА ТВОЮ МАМУ",
+        "date": "06.03.2026",
+        "time": "12:59"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "хвахваххавхвхавхавххахвахвахвахвхахавхавххавхахвахвхвхавхавхавхахах",
+        "date": "06.03.2026",
+        "time": "12:59"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "все пизда твоему дому",
+        "date": "06.03.2026",
+        "time": "13:00"
+      },
+      {
+        "type": "chat",
+        "player": "monolosska",
+        "text": "ОК",
+        "date": "06.03.2026",
+        "time": "13:00"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "чекни дему",
+        "date": "06.03.2026",
+        "time": "13:01"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "угадай с 3 раз",
+        "date": "06.03.2026",
+        "time": "13:01"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "кто ето сделал",
+        "date": "06.03.2026",
+        "time": "13:01"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "я не могу",
+        "date": "06.03.2026",
+        "time": "13:02"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "все",
+        "date": "06.03.2026",
+        "time": "13:02"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ярик",
+        "date": "06.03.2026",
+        "time": "13:03"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ярик",
+        "date": "06.03.2026",
+        "time": "13:04"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "строй мне ферму",
+        "date": "06.03.2026",
+        "time": "13:04"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "Ярик",
+        "date": "06.03.2026",
+        "time": "13:06"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "дай креатив",
+        "date": "06.03.2026",
+        "time": "13:06"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "я дострою свой дом",
+        "date": "06.03.2026",
+        "time": "13:06"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ярик блять",
+        "date": "06.03.2026",
+        "time": "13:07"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "дострой мне дом",
+        "date": "06.03.2026",
+        "time": "13:07"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "дай кретив",
+        "date": "06.03.2026",
+        "time": "13:07"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "я все обратно построю",
+        "date": "06.03.2026",
+        "time": "13:07"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ох бля",
+        "date": "15.03.2026",
+        "time": "13:24"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "снаружи я ути пути",
+        "date": "15.03.2026",
+        "time": "13:24"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ну типа на картинке",
+        "date": "15.03.2026",
+        "time": "13:24"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "в майне",
+        "date": "15.03.2026",
+        "time": "13:25"
+      }
+    ],
     "kills": {},
     "deaths": {},
     "advancements": {},
     "players": {},
-    "calendar": {}
+    "calendar": {
+      "06.03.2026": [
+        {
+          "type": "server_start",
+          "date": "06.03.2026",
+          "time": "06:40"
+        },
+        {
+          "type": "server_stop",
+          "date": "06.03.2026",
+          "time": "10:54"
+        },
+        {
+          "type": "server_start",
+          "date": "06.03.2026",
+          "time": "10:56"
+        },
+        {
+          "type": "server_stop",
+          "date": "06.03.2026",
+          "time": "11:05"
+        },
+        {
+          "type": "server_start",
+          "date": "06.03.2026",
+          "time": "11:06"
+        },
+        {
+          "type": "server_stop",
+          "date": "06.03.2026",
+          "time": "11:33"
+        },
+        {
+          "type": "server_start",
+          "date": "06.03.2026",
+          "time": "12:15"
+        }
+      ],
+      "05.03.2026": [
+        {
+          "type": "server_start",
+          "date": "05.03.2026",
+          "time": "13:46"
+        },
+        {
+          "type": "server_stop",
+          "date": "05.03.2026",
+          "time": "15:36"
+        },
+        {
+          "type": "server_start",
+          "date": "05.03.2026",
+          "time": "15:37"
+        },
+        {
+          "type": "server_stop",
+          "date": "05.03.2026",
+          "time": "17:01"
+        },
+        {
+          "type": "server_start",
+          "date": "05.03.2026",
+          "time": "17:02"
+        },
+        {
+          "type": "server_stop",
+          "date": "05.03.2026",
+          "time": "21:14"
+        }
+      ]
+    }
   }
 }
