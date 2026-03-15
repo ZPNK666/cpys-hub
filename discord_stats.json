@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T14:03:15.600481+00:00",
+  "updated_at": "2026-03-15T14:05:18.677293+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -910,8 +910,8 @@
       "members_count": 3,
       "members": [
         "ZPNK666",
-        "zelebobik",
-        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
+        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+        "zelebobik"
       ],
       "user_limit": 0
     },
@@ -1182,6 +1182,13 @@
       "online": 11,
       "in_voice": 3,
       "messages": 0
+    },
+    {
+      "time": "15.03 19:05",
+      "hour": 19,
+      "online": 11,
+      "in_voice": 3,
+      "messages": 0
     }
   ],
   "top_chatters": [],
@@ -1191,20 +1198,6 @@
     "server_stopped": "2026-03-06T11:33:23.595000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "все пизда твоему дому",
-        "date": "06.03.2026",
-        "time": "13:00"
-      },
-      {
-        "type": "chat",
-        "player": "monolosska",
-        "text": "ОК",
-        "date": "06.03.2026",
-        "time": "13:00"
-      },
       {
         "type": "chat",
         "player": "loleybiolly",
@@ -1538,6 +1531,20 @@
         "text": "фонари",
         "date": "15.03.2026",
         "time": "13:54"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "бля",
+        "date": "15.03.2026",
+        "time": "14:04"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "как зделать 1 слой",
+        "date": "15.03.2026",
+        "time": "14:04"
       }
     ],
     "kills": {},
