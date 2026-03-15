@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T11:33:58.322957+00:00",
+  "updated_at": "2026-03-15T11:35:01.214065+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 34,
-    "online_count": 10,
-    "offline_count": 24,
+    "online_count": 11,
+    "offline_count": 23,
     "in_voice_count": 3,
     "messages_today": 0,
     "text_channels_count": 10,
@@ -69,6 +69,37 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      },
+      "mc": {
+        "kills": 0,
+        "deaths": 0,
+        "advancements": []
+      }
+    },
+    {
+      "id": "1354100925043703870",
+      "name": "bsods10",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1354100925043703870/ad551c04a38b7191e060d5eba724ee03.png?size=1024",
+      "joined_at": "2026-02-25T09:16:52.122000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -334,37 +365,6 @@
     }
   ],
   "offline_members": [
-    {
-      "id": "1354100925043703870",
-      "name": "bsods10",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1354100925043703870/ad551c04a38b7191e060d5eba724ee03.png?size=1024",
-      "joined_at": "2026-02-25T09:16:52.122000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      },
-      "mc": {
-        "kills": 0,
-        "deaths": 0,
-        "advancements": []
-      }
-    },
     {
       "id": "1211055468362072164",
       "name": "2 МАРТА",
