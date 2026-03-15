@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T13:38:42.365236+00:00",
+  "updated_at": "2026-03-15T13:40:44.908285+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,13 +10,13 @@
     "total_members": 34,
     "online_count": 10,
     "offline_count": 24,
-    "in_voice_count": 4,
-    "messages_today": 3,
+    "in_voice_count": 3,
+    "messages_today": 12,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 3,
+    "text": 12,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -37,13 +37,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
       "joined_at": "2026-02-25T13:00:26.272000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 2
       },
       "join_leave": {
         "joins": 0,
@@ -92,13 +92,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "join_leave": {
         "joins": 0,
@@ -144,13 +144,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/4fdf8d4678160d42bd76d7c8842ae2df.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 7,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 7
       },
       "join_leave": {
         "joins": 0,
@@ -158,17 +158,15 @@
       }
     },
     {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "status": "online",
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "idle",
       "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
+        "ОФИЧЕР СС"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
-      "joined_at": "2026-02-17T15:54:04.631000+00:00",
+      "top_role": "ОФИЧЕР СС",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-01-22T18:23:10.803000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -425,30 +423,6 @@
       }
     },
     {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
-      "status": "offline",
-      "roles": [
-        "ОФИЧЕР СС"
-      ],
-      "top_role": "ОФИЧЕР СС",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-01-22T18:23:10.803000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1264222387214483562",
       "name": "ポトゥジノ",
       "status": "offline",
@@ -486,6 +460,32 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1444371204424339506/3f6772504cda146f14ae8653ac488db9.png?size=1024",
       "joined_at": "2026-02-25T08:17:15.077000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1296770485421342731",
+      "name": "АБОБА",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
+      "joined_at": "2026-02-17T15:54:04.631000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -907,11 +907,10 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         "ZPNK666",
         "zelebobik",
-        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
         "ПИКМИ"
       ],
       "user_limit": 0
@@ -1099,6 +1098,13 @@
       "online": 10,
       "in_voice": 4,
       "messages": 1
+    },
+    {
+      "time": "15.03 18:40",
+      "hour": 18,
+      "online": 10,
+      "in_voice": 3,
+      "messages": 9
     }
   ],
   "top_chatters": [],
@@ -1108,41 +1114,6 @@
     "server_stopped": "2026-03-06T11:33:23.595000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "monolosska",
-        "text": "я ливать собираюсь",
-        "date": "06.03.2026",
-        "time": "12:33"
-      },
-      {
-        "type": "chat",
-        "player": "monolosska",
-        "text": "а ты сам добывай))))",
-        "date": "06.03.2026",
-        "time": "12:33"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "почему",
-        "date": "06.03.2026",
-        "time": "12:34"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ладно",
-        "date": "06.03.2026",
-        "time": "12:39"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "надеюсь",
-        "date": "06.03.2026",
-        "time": "12:39"
-      },
       {
         "type": "chat",
         "player": "loleybiolly",
@@ -1455,6 +1426,41 @@
         "text": "да но вы все рснво оьнаглели Сэр Максимус фон Штрафенберг",
         "date": "15.03.2026",
         "time": "13:38"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "ну пж(",
+        "date": "15.03.2026",
+        "time": "13:38"
+      },
+      {
+        "type": "chat",
+        "player": ".OpxeN4803",
+        "text": "ладно ладно не плачь только",
+        "date": "15.03.2026",
+        "time": "13:38"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "вэээ",
+        "date": "15.03.2026",
+        "time": "13:39"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "жди",
+        "date": "15.03.2026",
+        "time": "13:40"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "щяс шалкер",
+        "date": "15.03.2026",
+        "time": "13:40"
       }
     ],
     "kills": {},
