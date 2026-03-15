@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T12:49:03.812257+00:00",
+  "updated_at": "2026-03-15T12:49:10.938897+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 34,
     "online_count": 9,
     "offline_count": 25,
-    "in_voice_count": 2,
+    "in_voice_count": 1,
     "messages_today": 0,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1077,10 +1077,9 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
+      "members_count": 1,
       "members": [
-        "ZPNK666",
-        "РЫ7БА"
+        "ZPNK666"
       ],
       "user_limit": 0
     },
@@ -1212,13 +1211,6 @@
     "ислам": 5
   },
   "hourly_history": [
-    {
-      "time": "15.03 17:45",
-      "hour": 17,
-      "online": 10,
-      "in_voice": 2,
-      "messages": 0
-    },
     {
       "time": "15.03 17:45",
       "hour": 17,
@@ -1378,6 +1370,13 @@
       "hour": 17,
       "online": 9,
       "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:49",
+      "hour": 17,
+      "online": 9,
+      "in_voice": 1,
       "messages": 0
     }
   ],
