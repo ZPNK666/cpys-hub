@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T12:44:46.555533+00:00",
+  "updated_at": "2026-03-15T12:46:16.267384+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -1312,6 +1312,69 @@
     },
     {
       "time": "15.03 17:44",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:44",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:45",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:45",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:45",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:45",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:45",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:45",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:46",
+      "hour": 17,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:46",
       "hour": 17,
       "online": 10,
       "in_voice": 2,
