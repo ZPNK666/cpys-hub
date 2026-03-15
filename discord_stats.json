@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T12:53:41.713684+00:00",
+  "updated_at": "2026-03-15T12:53:48.137551+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 34,
     "online_count": 9,
     "offline_count": 25,
-    "in_voice_count": 1,
+    "in_voice_count": 2,
     "messages_today": 0,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1114,8 +1114,10 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 0,
-      "members": [],
+      "members_count": 1,
+      "members": [
+        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
+      ],
       "user_limit": 3
     },
     {
@@ -1219,13 +1221,6 @@
       "messages": 0
     },
     {
-      "time": "15.03 17:50",
-      "hour": 17,
-      "online": 9,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
       "time": "15.03 17:51",
       "hour": 17,
       "online": 8,
@@ -1377,6 +1372,13 @@
       "hour": 17,
       "online": 9,
       "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "15.03 17:53",
+      "hour": 17,
+      "online": 9,
+      "in_voice": 2,
       "messages": 0
     }
   ],
