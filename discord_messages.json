@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-03-16T18:39:49.830544+00:00",
+  "updated_at": "2026-03-16T18:40:49.840449+00:00",
   "users": {
+    "1292870612531937358": [
+      {
+        "id": "1483173151020941354",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "16.03.2026 18:40",
+        "content": "https://tenor.com/view/cat-dance-dance-cat-cat-ai-cat-ai-cat-dance-gif-16943432931705998786",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/cat-dance-dance-cat-cat-ai-cat-ai-cat-dance-gif-16943432931705998786",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483173192549011506",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "16.03.2026 18:40",
+        "content": "ужасно",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      }
+    ],
     "1264609602540929140": [
       {
         "id": "1483098978168868944",
