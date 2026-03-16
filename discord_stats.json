@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T20:08:49.823171+00:00",
+  "updated_at": "2026-03-16T20:09:49.832417+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 39,
     "online_count": 6,
     "offline_count": 28,
-    "in_voice_count": 2,
+    "in_voice_count": 0,
     "messages_today": 38,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -145,7 +145,7 @@
     {
       "id": "1396607687365754883",
       "name": "1 АПРЕЛЬ",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "атеист",
@@ -1459,17 +1459,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
-      "members": [
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "1 АПРЕЛЬ"
-        }
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 0
     },
     {
