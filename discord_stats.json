@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T18:16:49.834476+00:00",
+  "updated_at": "2026-03-16T18:17:49.833154+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 11,
-    "offline_count": 23,
-    "in_voice_count": 3,
+    "online_count": 12,
+    "offline_count": 22,
+    "in_voice_count": 4,
     "messages_today": 14,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -239,6 +239,46 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1160178094494203934/f819ba8e17e34ca99c54d5bf10194d64.png?size=1024",
       "joined_at": "2026-02-22T09:20:38.800000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -969,46 +1009,6 @@
       "recent_messages": []
     },
     {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
       "id": "1009475184090152961",
       "name": "майонез",
       "status": "offline",
@@ -1437,7 +1437,7 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 3,
+      "members_count": 4,
       "members": [
         {
           "id": "834060139006394368",
@@ -1450,6 +1450,10 @@
         {
           "id": "1396607687365754883",
           "name": "1 АПРЕЛЬ"
+        },
+        {
+          "id": "1286072101635100733",
+          "name": "били б билисимо"
         }
       ],
       "user_limit": 0
