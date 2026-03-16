@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T17:49:49.824767+00:00",
+  "updated_at": "2026-03-16T17:50:49.824008+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 11,
-    "offline_count": 23,
+    "online_count": 12,
+    "offline_count": 22,
     "in_voice_count": 5,
-    "messages_today": 12,
+    "messages_today": 14,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 12,
+    "text": 14,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -325,6 +325,45 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/935061338479263775/4b3989722708e236b50689f797c46371.png?size=1024",
       "joined_at": "2026-01-25T12:54:17.888000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1396607687365754883",
+      "name": "1 АПРЕЛЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
+      "joined_at": "2026-02-26T07:33:27.565000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1138,45 +1177,6 @@
       "recent_messages": []
     },
     {
-      "id": "1396607687365754883",
-      "name": "1 АПРЕЛЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
-      "joined_at": "2026-02-26T07:33:27.565000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
       "id": "1425903022629847200",
       "name": "аничка",
       "status": "offline",
@@ -1338,31 +1338,46 @@
       "avatar": "https://cdn.discordapp.com/avatars/1390304716570755096/28e41cfbf5c3b8eb8d47d7feb5e2c6f0.png?size=1024",
       "joined_at": "2026-01-07T21:15:36.206000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 2
       },
       "stats_all": {
-        "text": 0,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 2
       },
-      "total_messages": 0,
+      "total_messages": 2,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
         "first_join": null,
         "last_seen": null
       },
-      "recent_messages": []
+      "recent_messages": [
+        {
+          "time": "16.03.2026 17:50",
+          "channel": "💬-общий-чат",
+          "content": "нет",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "16.03.2026 17:50",
+          "channel": "💬-общий-чат",
+          "content": "нет",
+          "type": "text",
+          "preview": ""
+        }
+      ]
     },
     {
       "id": "1168859596899766352",
@@ -1434,8 +1449,8 @@
           "name": "dark_soul"
         },
         {
-          "id": "1390304716570755096",
-          "name": "dertix_zxc ⚜"
+          "id": "1396607687365754883",
+          "name": "1 АПРЕЛЬ"
         }
       ],
       "user_limit": 0
@@ -1662,6 +1677,17 @@
     {
       "id": "1009475184090152961",
       "name": "майонез",
+      "text": 2,
+      "images": 0,
+      "voice": 0,
+      "stickers": 0,
+      "gifs": 0,
+      "files": 0,
+      "total": 2
+    },
+    {
+      "id": "1390304716570755096",
+      "name": "dertix_zxc ⚜",
       "text": 2,
       "images": 0,
       "voice": 0,
