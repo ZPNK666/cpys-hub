@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T18:50:49.841206+00:00",
+  "updated_at": "2026-03-16T18:51:49.830796+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -94,6 +94,28 @@
         "content": "у меня в профиле ник",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483175901352169697",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "16.03.2026 18:51",
+        "content": "бля это серьезно бесит",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483175921023320247",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "16.03.2026 18:51",
+        "content": "https://tenor.com/view/anime-sleepy-tired-gif-10598302318222693731",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/anime-sleepy-tired-gif-10598302318222693731",
         "attachments": [],
         "stickers": []
       }
