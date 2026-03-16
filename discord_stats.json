@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T18:44:49.820406+00:00",
+  "updated_at": "2026-03-16T18:45:49.828579+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 39,
     "online_count": 12,
     "offline_count": 22,
-    "in_voice_count": 6,
+    "in_voice_count": 5,
     "messages_today": 19,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1459,8 +1459,17 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 0,
-      "members": [],
+      "members_count": 2,
+      "members": [
+        {
+          "id": "834060139006394368",
+          "name": "ZPNK666"
+        },
+        {
+          "id": "1396607687365754883",
+          "name": "1 АПРЕЛЬ"
+        }
+      ],
       "user_limit": 0
     },
     {
@@ -1473,16 +1482,8 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 6,
+      "members_count": 3,
       "members": [
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "1 АПРЕЛЬ"
-        },
         {
           "id": "1286072101635100733",
           "name": "били б билисимо"
@@ -1494,10 +1495,6 @@
         {
           "id": "1264609602540929140",
           "name": "dark_soul"
-        },
-        {
-          "id": "1292870612531937358",
-          "name": "ПИКМИ"
         }
       ],
       "user_limit": 0
