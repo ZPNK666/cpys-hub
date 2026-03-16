@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T16:45:49.831407+00:00",
+  "updated_at": "2026-03-16T16:46:49.828698+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 14,
-    "offline_count": 20,
+    "online_count": 15,
+    "offline_count": 19,
     "in_voice_count": 5,
     "messages_today": 12,
     "text_channels_count": 10,
@@ -515,6 +515,45 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
       "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1440792780233244835",
+      "name": "Карасик",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
+      "joined_at": "2026-02-25T16:13:26.997000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1256,45 +1295,6 @@
       "recent_messages": []
     },
     {
-      "id": "1440792780233244835",
-      "name": "Карасик",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "провославный",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
-      "joined_at": "2026-02-25T16:13:26.997000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
       "id": "1417825076685836361",
       "name": "apTeM",
       "status": "offline",
@@ -1408,7 +1408,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         {
           "id": "1264609602540929140",
@@ -1417,10 +1417,6 @@
         {
           "id": "1255232329362833409",
           "name": "кирпич"
-        },
-        {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
         }
       ],
       "user_limit": 0
@@ -1428,7 +1424,7 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         {
           "id": "1211055468362072164",
@@ -1437,6 +1433,10 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
+        },
+        {
+          "id": "1407789136965931088",
+          "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
         }
       ],
       "user_limit": 0
