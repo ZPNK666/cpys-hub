@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T16:44:49.830553+00:00",
+  "updated_at": "2026-03-16T16:45:49.831407+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -464,17 +464,18 @@
       "recent_messages": []
     },
     {
-      "id": "1311555070160277525",
-      "name": "TAMERLAN 12K (а чо? а хз)",
-      "status": "dnd",
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "idle",
       "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
+        "нету хента",
+        "Агностик",
+        "ОФИЧЕР СС",
+        "женщины"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
-      "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/772826344a081b9cc481d9ed44bb9ce7.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -503,17 +504,17 @@
       "recent_messages": []
     },
     {
-      "id": "1440792780233244835",
-      "name": "Карасик",
-      "status": "idle",
+      "id": "1311555070160277525",
+      "name": "TAMERLAN 12K (а чо? а хз)",
+      "status": "dnd",
       "roles": [
-        "нету хента",
-        "провославный",
-        "женщины"
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
       ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
-      "joined_at": "2026-02-25T16:13:26.997000+00:00",
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
+      "joined_at": "2026-02-26T17:27:51.190000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1255,18 +1256,17 @@
       "recent_messages": []
     },
     {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "id": "1440792780233244835",
+      "name": "Карасик",
       "status": "offline",
       "roles": [
         "нету хента",
-        "Агностик",
-        "ОФИЧЕР СС",
+        "провославный",
         "женщины"
       ],
       "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/772826344a081b9cc481d9ed44bb9ce7.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
+      "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
+      "joined_at": "2026-02-25T16:13:26.997000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
