@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T18:21:49.834404+00:00",
+  "updated_at": "2026-03-16T18:22:49.830484+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 39,
     "online_count": 12,
     "offline_count": 22,
-    "in_voice_count": 4,
+    "in_voice_count": 5,
     "messages_today": 14,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1437,7 +1437,7 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 4,
+      "members_count": 5,
       "members": [
         {
           "id": "834060139006394368",
@@ -1454,6 +1454,10 @@
         {
           "id": "1286072101635100733",
           "name": "били б билисимо"
+        },
+        {
+          "id": "1433504994824425640",
+          "name": "zelebobik"
         }
       ],
       "user_limit": 0
