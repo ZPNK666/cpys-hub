@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T08:53:49.820193+00:00",
+  "updated_at": "2026-03-16T08:54:49.821873+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -25,17 +25,15 @@
   },
   "online_members": [
     {
-      "id": "1433504994824425640",
-      "name": "zelebobik",
-      "status": "idle",
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "online",
       "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
+        "ОФИЧЕР СС"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
-      "joined_at": "2026-02-25T13:00:26.272000+00:00",
+      "top_role": "ОФИЧЕР СС",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-01-22T18:23:10.803000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -503,15 +501,17 @@
       "recent_messages": []
     },
     {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
+      "id": "1433504994824425640",
+      "name": "zelebobik",
       "status": "offline",
       "roles": [
-        "ОФИЧЕР СС"
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
       ],
-      "top_role": "ОФИЧЕР СС",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
+      "joined_at": "2026-02-25T13:00:26.272000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
