@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T15:12:30.640595+00:00",
+  "updated_at": "2026-03-16T00:59:46.163832+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -7,16 +7,16 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 34,
-    "online_count": 13,
-    "offline_count": 21,
-    "in_voice_count": 4,
-    "messages_today": 24,
+    "total_members": 39,
+    "online_count": 1,
+    "offline_count": 33,
+    "in_voice_count": 0,
+    "messages_today": 0,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 24,
+    "text": 0,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -24,59 +24,6 @@
     "files": 0
   },
   "online_members": [
-    {
-      "id": "1433504994824425640",
-      "name": "zelebobik",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
-      "joined_at": "2026-02-25T13:00:26.272000+00:00",
-      "stats_today": {
-        "text": 4,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 4
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "status": "idle",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "ОФИЧЕР СС",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/772826344a081b9cc481d9ed44bb9ce7.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
@@ -92,23 +39,38 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 4,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
-    },
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    }
+  ],
+  "offline_members": [
     {
       "id": "1354100925043703870",
       "name": "bsods10",
-      "status": "online",
+      "status": "offline",
       "roles": [
         "нету хента",
         "провославный",
@@ -126,15 +88,67 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "status": "online",
+      "status": "offline",
       "roles": [
         "нету хента",
         "Сциентизм",
@@ -144,23 +158,190 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/4fdf8d4678160d42bd76d7c8842ae2df.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 16,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 16
+        "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1451592083935592490",
+      "name": "KUTSI",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1451592083935592490/b3ca214729a78ba361b37d8e880ee88a.png?size=1024",
+      "joined_at": "2026-02-25T10:14:05.604000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1222900395647434864",
+      "name": "lamponyx321",
+      "status": "offline",
+      "roles": [
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
+      "joined_at": "2025-10-03T14:17:20.491000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Агностик",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-08T14:24:44.002000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1199379572861456485",
+      "name": "mrpines",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1199379572861456485/0b404789ce17d49df9ed4304acf3ffda.png?size=1024",
+      "joined_at": "2026-03-13T14:55:36.699000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "993900146930753606",
       "name": "АУДИТОР",
-      "status": "online",
+      "status": "offline",
       "roles": [
         "ОФИЧЕР СС"
       ],
@@ -176,15 +357,223 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1433504994824425640",
+      "name": "zelebobik",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
+      "joined_at": "2026-02-25T13:00:26.272000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1264222387214483562",
+      "name": "ポトゥジノ",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/f99c05ce7231da84dcff4024cf534fb6.png?size=1024",
+      "joined_at": "2026-03-04T19:17:28.533000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1444371204424339506",
+      "name": "Курбас",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "провославный",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1444371204424339506/3f6772504cda146f14ae8653ac488db9.png?size=1024",
+      "joined_at": "2026-02-25T08:17:15.077000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1296770485421342731",
+      "name": "АБОБА",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
+      "joined_at": "2026-02-17T15:54:04.631000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1248970731849777152",
+      "name": "GijomLEMijom",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1248970731849777152/1fac300843a6f5cc18d36b1e485a3084.png?size=1024",
+      "joined_at": "2026-03-12T16:22:34.089000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1255232329362833409",
       "name": "кирпич",
-      "status": "online",
+      "status": "offline",
       "roles": [
         "нету хента",
         "ОФИЧЕР СС",
@@ -202,15 +591,28 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
-      "status": "online",
+      "status": "offline",
       "roles": [
         "у меня есть хент",
         "провославный",
@@ -228,15 +630,67 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1322612563887915089",
+      "name": "АШРА",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "ислам"
+      ],
+      "top_role": "ислам",
+      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
+      "joined_at": "2026-02-12T18:01:19.943000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "841719455162564620",
       "name": "Heldy",
-      "status": "online",
+      "status": "offline",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -254,15 +708,181 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1160178094494203934",
+      "name": "РЫ7БА",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1160178094494203934/f819ba8e17e34ca99c54d5bf10194d64.png?size=1024",
+      "joined_at": "2026-02-22T09:20:38.800000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1009475184090152961",
+      "name": "майонез",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
+      "joined_at": "2026-01-12T09:11:19.082000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1382290164289896542",
+      "name": "Пуля",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1382290164289896542/dac5a4a087e2027ff3f62121476f0a8f.png?size=1024",
+      "joined_at": "2026-01-30T09:15:57.990000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "935061338479263775",
       "name": "monoloska UwU",
-      "status": "idle",
+      "status": "offline",
       "roles": [
         "у меня есть хент",
         "Агностик",
@@ -287,20 +907,7 @@
         "files": 0,
         "total": 0
       },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "525765291808915458",
-      "name": "MAX (вирус)",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
-      "joined_at": "2026-01-27T20:22:01.540000+00:00",
-      "stats_today": {
+      "stats_all": {
         "text": 0,
         "images": 0,
         "voice": 0,
@@ -309,423 +916,14 @@
         "files": 0,
         "total": 0
       },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1311555070160277525",
-      "name": "TAMERLAN 12K (а чо? а хз)",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
-      "joined_at": "2026-02-26T17:27:51.190000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
       },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "idle",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    }
-  ],
-  "offline_members": [
-    {
-      "id": "1211055468362072164",
-      "name": "2 МАРТА",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1451592083935592490",
-      "name": "KUTSI",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1451592083935592490/b3ca214729a78ba361b37d8e880ee88a.png?size=1024",
-      "joined_at": "2026-02-25T10:14:05.604000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1222900395647434864",
-      "name": "lamponyx321",
-      "status": "offline",
-      "roles": [
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
-      "joined_at": "2025-10-03T14:17:20.491000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1418873225596895284",
-      "name": "Rudy",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "Агностик",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
-      "joined_at": "2026-03-08T14:24:44.002000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1199379572861456485",
-      "name": "mrpines",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1199379572861456485/0b404789ce17d49df9ed4304acf3ffda.png?size=1024",
-      "joined_at": "2026-03-13T14:55:36.699000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1264222387214483562",
-      "name": "ポトゥジノ",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/f99c05ce7231da84dcff4024cf534fb6.png?size=1024",
-      "joined_at": "2026-03-04T19:17:28.533000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1444371204424339506",
-      "name": "Курбас",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1444371204424339506/3f6772504cda146f14ae8653ac488db9.png?size=1024",
-      "joined_at": "2026-02-25T08:17:15.077000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
-      "joined_at": "2026-02-17T15:54:04.631000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1248970731849777152",
-      "name": "GijomLEMijom",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1248970731849777152/1fac300843a6f5cc18d36b1e485a3084.png?size=1024",
-      "joined_at": "2026-03-12T16:22:34.089000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1322612563887915089",
-      "name": "АШРА",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "ислам"
-      ],
-      "top_role": "ислам",
-      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
-      "joined_at": "2026-02-12T18:01:19.943000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1160178094494203934",
-      "name": "РЫ7БА",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1160178094494203934/f819ba8e17e34ca99c54d5bf10194d64.png?size=1024",
-      "joined_at": "2026-02-22T09:20:38.800000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1009475184090152961",
-      "name": "майонез",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
-      "joined_at": "2026-01-12T09:11:19.082000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1382290164289896542",
-      "name": "Пуля",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1382290164289896542/dac5a4a087e2027ff3f62121476f0a8f.png?size=1024",
-      "joined_at": "2026-01-30T09:15:57.990000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
+      "recent_messages": []
     },
     {
       "id": "1104678557780803604",
@@ -748,10 +946,23 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1443164541126049965",
@@ -775,10 +986,23 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1396607687365754883",
@@ -801,10 +1025,23 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1425903022629847200",
@@ -827,10 +1064,137 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "525765291808915458",
+      "name": "MAX (вирус)",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
+      "joined_at": "2026-01-27T20:22:01.540000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "ОФИЧЕР СС",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/772826344a081b9cc481d9ed44bb9ce7.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1311555070160277525",
+      "name": "TAMERLAN 12K (а чо? а хз)",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
+      "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1440792780233244835",
@@ -853,10 +1217,23 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1417825076685836361",
@@ -875,10 +1252,23 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1390304716570755096",
@@ -897,23 +1287,70 @@
         "files": 0,
         "total": 0
       },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
-        "leaves": 0
-      }
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     }
   ],
   "voice_channels": [
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
-      "members": [
-        "ZPNK666",
-        "zelebobik",
-        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-        "dark_soul"
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 0
     },
     {
@@ -1030,629 +1467,20 @@
     }
   ],
   "role_distribution": {
-    "у меня есть хент": 13,
-    "Сциентизм": 5,
-    "мужчины": 15,
     "нету хента": 14,
+    "провославный": 8,
+    "мужчины": 15,
+    "католик": 3,
+    "женщины": 13,
+    "Сциентизм": 5,
+    "у меня есть хент": 13,
+    "атеист": 7,
     "Агностик": 6,
     "ОФИЧЕР СС": 6,
-    "женщины": 13,
-    "провославный": 8,
-    "iPhone": 3,
-    "католик": 3,
-    "атеист": 7,
-    "ислам": 5
+    "ислам": 5,
+    "iPhone": 3
   },
-  "hourly_history": [
-    {
-      "time": "15.03 19:19",
-      "hour": 19,
-      "online": 11,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:21",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:23",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:25",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 1
-    },
-    {
-      "time": "15.03 19:28",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:30",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:32",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:34",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:36",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:38",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:41",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:44",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:47",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:49",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:52",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:54",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:56",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 19:58",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 20:01",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 20:03",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 20:06",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 20:08",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 20:10",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "15.03 20:12",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    }
-  ],
-  "top_chatters": [],
+  "hourly_history": [],
   "recent_join_leave": [],
-  "minecraft": {
-    "server_started": "2026-03-15T14:26:26.673000",
-    "server_stopped": "2026-03-06T11:33:23.595000",
-    "top_killers": [],
-    "recent_events": [
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ярик",
-        "date": "06.03.2026",
-        "time": "13:04"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "строй мне ферму",
-        "date": "06.03.2026",
-        "time": "13:04"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "Ярик",
-        "date": "06.03.2026",
-        "time": "13:06"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "дай креатив",
-        "date": "06.03.2026",
-        "time": "13:06"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "я дострою свой дом",
-        "date": "06.03.2026",
-        "time": "13:06"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ярик блять",
-        "date": "06.03.2026",
-        "time": "13:07"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "дострой мне дом",
-        "date": "06.03.2026",
-        "time": "13:07"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "дай кретив",
-        "date": "06.03.2026",
-        "time": "13:07"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "я все обратно построю",
-        "date": "06.03.2026",
-        "time": "13:07"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ох бля",
-        "date": "15.03.2026",
-        "time": "13:24"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "снаружи я ути пути",
-        "date": "15.03.2026",
-        "time": "13:24"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ну типа на картинке",
-        "date": "15.03.2026",
-        "time": "13:24"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "в майне",
-        "date": "15.03.2026",
-        "time": "13:25"
-      },
-      {
-        "type": "server_start",
-        "date": "15.03.2026",
-        "time": "13:28"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "орхэй",
-        "date": "15.03.2026",
-        "time": "13:38"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "список материалов легкой?",
-        "date": "15.03.2026",
-        "time": "13:38"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "чем вот тот..",
-        "date": "15.03.2026",
-        "time": "13:38"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "да но вы все рснво оьнаглели Сэр Максимус фон Штрафенберг",
-        "date": "15.03.2026",
-        "time": "13:38"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ну пж(",
-        "date": "15.03.2026",
-        "time": "13:38"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "ладно ладно не плачь только",
-        "date": "15.03.2026",
-        "time": "13:38"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "вэээ",
-        "date": "15.03.2026",
-        "time": "13:39"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "жди",
-        "date": "15.03.2026",
-        "time": "13:40"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "щяс шалкер",
-        "date": "15.03.2026",
-        "time": "13:40"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "бля еще надо",
-        "date": "15.03.2026",
-        "time": "13:41"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "сундук пропустила",
-        "date": "15.03.2026",
-        "time": "13:47"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "саманные кирпичи",
-        "date": "15.03.2026",
-        "time": "13:48"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "че за хуйня",
-        "date": "15.03.2026",
-        "time": "13:48"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ладно удачи)",
-        "date": "15.03.2026",
-        "time": "13:48"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "сундуки сам скрафку",
-        "date": "15.03.2026",
-        "time": "13:48"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "скравчу",
-        "date": "15.03.2026",
-        "time": "13:48"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "ну ладно",
-        "date": "15.03.2026",
-        "time": "13:49"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "пока было приятно иметь с вами дело",
-        "date": "15.03.2026",
-        "time": "13:49"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "все не проси меня больше Сэр Максимус фон Штрафенберг",
-        "date": "15.03.2026",
-        "time": "13:49"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "а ето дай еще по ебалу",
-        "date": "15.03.2026",
-        "time": "13:49"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "по ебалу етим",
-        "date": "15.03.2026",
-        "time": "13:49"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "все спс",
-        "date": "15.03.2026",
-        "time": "13:50"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "а топор",
-        "date": "15.03.2026",
-        "time": "13:50"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "все бож закончила делать спавн",
-        "date": "15.03.2026",
-        "time": "13:53"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "все остальное чусть сами добавляют",
-        "date": "15.03.2026",
-        "time": "13:54"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "а нет",
-        "date": "15.03.2026",
-        "time": "13:54"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "ых",
-        "date": "15.03.2026",
-        "time": "13:54"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "фонари",
-        "date": "15.03.2026",
-        "time": "13:54"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "бля",
-        "date": "15.03.2026",
-        "time": "14:04"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "как зделать 1 слой",
-        "date": "15.03.2026",
-        "time": "14:04"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "айй я тцпой",
-        "date": "15.03.2026",
-        "time": "14:07"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "не в ту сторону фонари",
-        "date": "15.03.2026",
-        "time": "14:07"
-      },
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "а чо ты его убиваешь?",
-        "date": "15.03.2026",
-        "time": "14:21"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "потому что мне блять снова разъебали спавн",
-        "date": "15.03.2026",
-        "time": "14:21"
-      },
-      {
-        "type": "chat",
-        "player": ".OpxeN4803",
-        "text": "если уж сломали мне спавн то уйди и не мешай",
-        "date": "15.03.2026",
-        "time": "14:22"
-      },
-      {
-        "type": "server_start",
-        "date": "15.03.2026",
-        "time": "14:26"
-      }
-    ],
-    "kills": {},
-    "deaths": {},
-    "advancements": {},
-    "players": {},
-    "calendar": {
-      "15.03.2026": [
-        {
-          "type": "server_start",
-          "date": "15.03.2026",
-          "time": "13:28"
-        },
-        {
-          "type": "server_start",
-          "date": "15.03.2026",
-          "time": "14:26"
-        }
-      ],
-      "06.03.2026": [
-        {
-          "type": "server_start",
-          "date": "06.03.2026",
-          "time": "06:40"
-        },
-        {
-          "type": "server_stop",
-          "date": "06.03.2026",
-          "time": "10:54"
-        },
-        {
-          "type": "server_start",
-          "date": "06.03.2026",
-          "time": "10:56"
-        },
-        {
-          "type": "server_stop",
-          "date": "06.03.2026",
-          "time": "11:05"
-        },
-        {
-          "type": "server_start",
-          "date": "06.03.2026",
-          "time": "11:06"
-        },
-        {
-          "type": "server_stop",
-          "date": "06.03.2026",
-          "time": "11:33"
-        },
-        {
-          "type": "server_start",
-          "date": "06.03.2026",
-          "time": "12:15"
-        }
-      ],
-      "05.03.2026": [
-        {
-          "type": "server_start",
-          "date": "05.03.2026",
-          "time": "13:46"
-        },
-        {
-          "type": "server_stop",
-          "date": "05.03.2026",
-          "time": "15:36"
-        },
-        {
-          "type": "server_start",
-          "date": "05.03.2026",
-          "time": "15:37"
-        },
-        {
-          "type": "server_stop",
-          "date": "05.03.2026",
-          "time": "17:01"
-        },
-        {
-          "type": "server_start",
-          "date": "05.03.2026",
-          "time": "17:02"
-        },
-        {
-          "type": "server_stop",
-          "date": "05.03.2026",
-          "time": "21:14"
-        }
-      ]
-    }
-  }
+  "top_chatters": []
 }
