@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T19:33:49.829887+00:00",
+  "updated_at": "2026-03-16T19:34:49.826786+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,12 +11,12 @@
     "online_count": 13,
     "offline_count": 21,
     "in_voice_count": 7,
-    "messages_today": 37,
+    "messages_today": 38,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 34,
+    "text": 35,
     "images": 1,
     "gifs": 2,
     "stickers": 0,
@@ -37,24 +37,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/4fdf8d4678160d42bd76d7c8842ae2df.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 19,
+        "text": 20,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 22
+        "total": 23
       },
       "stats_all": {
-        "text": 19,
+        "text": 20,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 22
+        "total": 23
       },
-      "total_messages": 19,
+      "total_messages": 20,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -62,6 +62,13 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "16.03.2026 19:34",
+          "channel": "💬-общий-чат",
+          "content": "меня убили первой с бананом я даже играть не умею",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "16.03.2026 19:28",
           "channel": "💬-общий-чат",
@@ -87,13 +94,6 @@
           "time": "16.03.2026 19:15",
           "channel": "💬-общий-чат",
           "content": "пж",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "16.03.2026 19:15",
-          "channel": "💬-общий-чат",
-          "content": "h;",
           "type": "text",
           "preview": ""
         }
@@ -1725,13 +1725,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 19,
+      "text": 20,
       "images": 1,
       "voice": 0,
       "stickers": 0,
       "gifs": 2,
       "files": 0,
-      "total": 22
+      "total": 23
     },
     {
       "id": "834060139006394368",
