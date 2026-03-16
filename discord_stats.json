@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T17:46:49.833712+00:00",
+  "updated_at": "2026-03-16T17:47:49.821079+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 39,
     "online_count": 11,
     "offline_count": 23,
-    "in_voice_count": 4,
+    "in_voice_count": 2,
     "messages_today": 12,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1415,12 +1415,8 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 4,
+      "members_count": 2,
       "members": [
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
-        },
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
@@ -1428,10 +1424,6 @@
         {
           "id": "1160178094494203934",
           "name": "РЫ7БА"
-        },
-        {
-          "id": "1255232329362833409",
-          "name": "кирпич"
         }
       ],
       "user_limit": 0
