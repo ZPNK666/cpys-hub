@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T19:42:49.834682+00:00",
+  "updated_at": "2026-03-16T19:43:49.825431+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 39,
     "online_count": 13,
     "offline_count": 21,
-    "in_voice_count": 7,
+    "in_voice_count": 6,
     "messages_today": 38,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1459,7 +1459,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         {
           "id": "834060139006394368",
@@ -1468,10 +1468,6 @@
         {
           "id": "1255232329362833409",
           "name": "кирпич"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "1 АПРЕЛЬ"
         }
       ],
       "user_limit": 0
