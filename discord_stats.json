@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T09:53:49.830832+00:00",
+  "updated_at": "2026-03-16T09:54:49.823069+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 5,
-    "offline_count": 29,
-    "in_voice_count": 1,
-    "messages_today": 1,
+    "online_count": 6,
+    "offline_count": 28,
+    "in_voice_count": 0,
+    "messages_today": 2,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 1,
+    "text": 2,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -140,6 +140,53 @@
         "last_seen": null
       },
       "recent_messages": []
+    },
+    {
+      "id": "1009475184090152961",
+      "name": "майонез",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
+      "joined_at": "2026-01-12T09:11:19.082000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "stats_all": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "total_messages": 1,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "16.03.2026 09:54",
+          "channel": "💬-общий-чат",
+          "content": "шо уже произошло",
+          "type": "text",
+          "preview": ""
+        }
+      ]
     },
     {
       "id": "1311555070160277525",
@@ -853,45 +900,6 @@
       "recent_messages": []
     },
     {
-      "id": "1009475184090152961",
-      "name": "майонез",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
-      "joined_at": "2026-01-12T09:11:19.082000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
       "id": "1382290164289896542",
       "name": "Пуля",
       "status": "offline",
@@ -1357,13 +1365,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 1,
-      "members": [
-        {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
-        }
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 0
     },
     {
@@ -1525,6 +1528,17 @@
   ],
   "recent_join_leave": [],
   "top_chatters": [
+    {
+      "id": "1009475184090152961",
+      "name": "майонез",
+      "text": 1,
+      "images": 0,
+      "voice": 0,
+      "stickers": 0,
+      "gifs": 0,
+      "files": 0,
+      "total": 1
+    },
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
