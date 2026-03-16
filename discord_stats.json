@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T17:29:49.828481+00:00",
+  "updated_at": "2026-03-16T17:30:49.821563+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 14,
-    "offline_count": 20,
+    "online_count": 13,
+    "offline_count": 21,
     "in_voice_count": 6,
     "messages_today": 12,
     "text_channels_count": 10,
@@ -579,45 +579,6 @@
           "preview": ""
         }
       ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     }
   ],
   "offline_members": [
@@ -1402,6 +1363,45 @@
         "last_seen": null
       },
       "recent_messages": []
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     }
   ],
   "voice_channels": [
@@ -1434,12 +1434,12 @@
           "name": "РЫ7БА"
         },
         {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
-        },
-        {
           "id": "1255232329362833409",
           "name": "кирпич"
+        },
+        {
+          "id": "1433504994824425640",
+          "name": "zelebobik"
         }
       ],
       "user_limit": 0
