@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:59:49.855923+00:00",
+  "updated_at": "2026-03-17T22:00:49.849143+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -687,6 +687,17 @@
         "content": "долго",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483585825055838370",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 22:00",
+        "content": "https://tenor.com/view/anya-forger-spy-x-family-gif-16175494423033203390",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/anya-forger-spy-x-family-gif-16175494423033203390",
         "attachments": [],
         "stickers": []
       }
