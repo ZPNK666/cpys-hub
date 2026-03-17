@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T16:45:49.821317+00:00",
+  "updated_at": "2026-03-17T16:46:49.825458+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 39,
     "online_count": 15,
     "offline_count": 19,
-    "in_voice_count": 2,
+    "in_voice_count": 3,
     "messages_today": 2,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -197,7 +197,7 @@
     {
       "id": "993900146930753606",
       "name": "АУДИТОР",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "ОФИЧЕР СС"
       ],
@@ -1481,7 +1481,7 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         {
           "id": "834060139006394368",
@@ -1490,6 +1490,10 @@
         {
           "id": "1264609602540929140",
           "name": "dark_soul"
+        },
+        {
+          "id": "1255232329362833409",
+          "name": "кирпич"
         }
       ],
       "user_limit": 0
