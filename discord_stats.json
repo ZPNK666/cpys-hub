@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T18:13:49.827696+00:00",
+  "updated_at": "2026-03-17T18:14:49.832999+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,7 +10,7 @@
     "total_members": 40,
     "online_count": 15,
     "offline_count": 19,
-    "in_voice_count": 7,
+    "in_voice_count": 6,
     "messages_today": 5,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1496,7 +1496,7 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         {
           "id": "1286072101635100733",
@@ -1509,10 +1509,6 @@
         {
           "id": "1433504994824425640",
           "name": "zelebobik"
-        },
-        {
-          "id": "993900146930753606",
-          "name": "АУДИТОР"
         },
         {
           "id": "1407789136965931088",
