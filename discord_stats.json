@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T18:12:49.829667+00:00",
+  "updated_at": "2026-03-17T18:13:02.057926+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -7,10 +7,10 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 39,
+    "total_members": 40,
     "online_count": 15,
     "offline_count": 19,
-    "in_voice_count": 8,
+    "in_voice_count": 7,
     "messages_today": 5,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -1496,7 +1496,7 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 6,
+      "members_count": 5,
       "members": [
         {
           "id": "1286072101635100733",
@@ -1517,10 +1517,6 @@
         {
           "id": "1407789136965931088",
           "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
-        },
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
         }
       ],
       "user_limit": 0
@@ -1852,7 +1848,14 @@
       "messages": 2
     }
   ],
-  "recent_join_leave": [],
+  "recent_join_leave": [
+    {
+      "event": "join",
+      "user_id": "506186003816513538",
+      "name": "Lurkr",
+      "time": "2026-03-17T18:13:02.057149+00:00"
+    }
+  ],
   "top_chatters": [
     {
       "id": "1292870612531937358",
