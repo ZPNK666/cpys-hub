@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:13:49.830810+00:00",
+  "updated_at": "2026-03-17T21:14:49.831827+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 5,
-    "offline_count": 29,
+    "online_count": 6,
+    "offline_count": 28,
     "in_voice_count": 4,
     "messages_today": 24,
     "text_channels_count": 10,
@@ -274,6 +274,61 @@
           "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
           "type": "images",
           "preview": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif"
+        }
+      ]
+    },
+    {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "ОФИЧЕР СС",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
+      "stats_today": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "17.03.2026 18:12",
+          "channel": "🎲 Любые игры / кооп-стрим",
+          "content": "Ых почему у всех эффект эха",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "17.03.2026 18:05",
+          "channel": "🎲 Любые игры / кооп-стрим",
+          "content": "Ода Билли мой бро которому все равно на войны",
+          "type": "text",
+          "preview": ""
         }
       ]
     },
@@ -1308,61 +1363,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "ОФИЧЕР СС",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/1f4344a3fb38537e1b2868dff3a01ff1.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
-      "stats_today": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "17.03.2026 18:12",
-          "channel": "🎲 Любые игры / кооп-стрим",
-          "content": "Ых почему у всех эффект эха",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 18:05",
-          "channel": "🎲 Любые игры / кооп-стрим",
-          "content": "Ода Билли мой бро которому все равно на войны",
-          "type": "text",
-          "preview": ""
-        }
-      ]
     },
     {
       "id": "1311555070160277525",
