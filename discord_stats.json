@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:08:49.823493+00:00",
+  "updated_at": "2026-03-17T21:09:49.824544+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 7,
-    "offline_count": 27,
+    "online_count": 6,
+    "offline_count": 28,
     "in_voice_count": 4,
-    "messages_today": 21,
+    "messages_today": 22,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 20,
+    "text": 21,
     "images": 1,
     "gifs": 0,
     "stickers": 0,
@@ -114,24 +114,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 11,
+        "text": 12,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 11
+        "total": 12
       },
       "stats_all": {
-        "text": 31,
+        "text": 32,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 34
+        "total": 35
       },
-      "total_messages": 31,
+      "total_messages": 32,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -139,6 +139,13 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 21:09",
+          "channel": "💬-общий-чат",
+          "content": "вот это прикол апладирую",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "17.03.2026 21:06",
           "channel": "💬-общий-чат",
@@ -164,13 +171,6 @@
           "time": "17.03.2026 20:50",
           "channel": "💬-общий-чат",
           "content": "ноут",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 20:50",
-          "channel": "💬-общий-чат",
-          "content": "че та не загружает",
           "type": "text",
           "preview": ""
         }
@@ -324,45 +324,6 @@
           "preview": ""
         }
       ]
-    },
-    {
-      "id": "1311555070160277525",
-      "name": "TAMERLAN 12K (а чо? а хз)",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
-      "joined_at": "2026-02-26T17:27:51.190000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     },
     {
       "id": "1168859596899766352",
@@ -1397,6 +1358,45 @@
       "recent_messages": []
     },
     {
+      "id": "1311555070160277525",
+      "name": "TAMERLAN 12K (а чо? а хз)",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
+      "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
       "id": "1440792780233244835",
       "name": "Карасик",
       "status": "offline",
@@ -1904,13 +1904,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 31,
+      "text": 32,
       "images": 1,
       "voice": 0,
       "stickers": 0,
       "gifs": 2,
       "files": 0,
-      "total": 34
+      "total": 35
     },
     {
       "id": "834060139006394368",
