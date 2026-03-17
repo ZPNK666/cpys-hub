@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T20:29:49.834177+00:00",
+  "updated_at": "2026-03-17T20:30:49.831524+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 8,
-    "offline_count": 26,
-    "in_voice_count": 3,
+    "online_count": 9,
+    "offline_count": 25,
+    "in_voice_count": 4,
     "messages_today": 10,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -96,6 +96,81 @@
           "time": "16.03.2026 10:07",
           "channel": "💬-общий-чат",
           "content": "<:67:1460180104603766885>",
+          "type": "text",
+          "preview": ""
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/4fdf8d4678160d42bd76d7c8842ae2df.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 20,
+        "images": 1,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 2,
+        "files": 0,
+        "total": 23
+      },
+      "total_messages": 20,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "16.03.2026 19:34",
+          "channel": "💬-общий-чат",
+          "content": "меня убили первой с бананом я даже играть не умею",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "16.03.2026 19:28",
+          "channel": "💬-общий-чат",
+          "content": "у меня нет чата в рб",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "16.03.2026 19:28",
+          "channel": "💬-общий-чат",
+          "content": "как играть",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "16.03.2026 19:25",
+          "channel": "💬-общий-чат",
+          "content": "били твой микрофон ужасный",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "16.03.2026 19:15",
+          "channel": "💬-общий-чат",
+          "content": "пж",
           "type": "text",
           "preview": ""
         }
@@ -553,81 +628,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/4fdf8d4678160d42bd76d7c8842ae2df.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 20,
-        "images": 1,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 2,
-        "files": 0,
-        "total": 23
-      },
-      "total_messages": 20,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "16.03.2026 19:34",
-          "channel": "💬-общий-чат",
-          "content": "меня убили первой с бананом я даже играть не умею",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "16.03.2026 19:28",
-          "channel": "💬-общий-чат",
-          "content": "у меня нет чата в рб",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "16.03.2026 19:28",
-          "channel": "💬-общий-чат",
-          "content": "как играть",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "16.03.2026 19:25",
-          "channel": "💬-общий-чат",
-          "content": "били твой микрофон ужасный",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "16.03.2026 19:15",
-          "channel": "💬-общий-чат",
-          "content": "пж",
-          "type": "text",
-          "preview": ""
-        }
-      ]
     },
     {
       "id": "1451592083935592490",
@@ -1525,7 +1525,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 4,
       "members": [
         {
           "id": "1407789136965931088",
@@ -1538,6 +1538,10 @@
         {
           "id": "1168859596899766352",
           "name": "Scorpio_mal2"
+        },
+        {
+          "id": "1292870612531937358",
+          "name": "ПИКМИ"
         }
       ],
       "user_limit": 0
