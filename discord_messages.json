@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:49:49.830101+00:00",
+  "updated_at": "2026-03-17T21:50:49.846385+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -530,6 +530,22 @@
         "preview_url": "",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1483583254539010289",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:50",
+        "content": "",
+        "type": "sticker",
+        "preview_url": "https://cdn.discordapp.com/stickers/1477020684583702649.png",
+        "attachments": [],
+        "stickers": [
+          {
+            "name": "ну и хуйня",
+            "url": "https://cdn.discordapp.com/stickers/1477020684583702649.png"
+          }
+        ]
       }
     ],
     "1248970731849777152": [
