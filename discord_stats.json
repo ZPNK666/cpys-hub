@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T19:29:49.825579+00:00",
+  "updated_at": "2026-03-17T19:30:49.824643+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 15,
-    "offline_count": 19,
-    "in_voice_count": 4,
+    "online_count": 14,
+    "offline_count": 20,
+    "in_voice_count": 3,
     "messages_today": 5,
     "text_channels_count": 10,
     "voice_channels_count": 11
@@ -318,45 +318,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/f99c05ce7231da84dcff4024cf534fb6.png?size=1024",
       "joined_at": "2026-03-04T19:17:28.533000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
-      "joined_at": "2026-02-17T15:54:04.631000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -990,6 +951,45 @@
       "recent_messages": []
     },
     {
+      "id": "1296770485421342731",
+      "name": "АБОБА",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
+      "joined_at": "2026-02-17T15:54:04.631000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
       "id": "1248970731849777152",
       "name": "СОЛНЕШКО",
       "status": "offline",
@@ -1489,7 +1489,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         {
           "id": "1255232329362833409",
@@ -1502,10 +1502,6 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
         }
       ],
       "user_limit": 0
