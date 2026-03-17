@@ -409,6 +409,12 @@ body.cursor-ds #cursor{
 .media-thumb{aspect-ratio:1;overflow:hidden;background:#0a0f18;border:1px solid var(--b);cursor:pointer;position:relative;}
 .media-thumb img{width:100%;height:100%;object-fit:cover;display:block;}
 .media-thumb .mt-lbl{position:absolute;bottom:0;left:0;right:0;font-size:10px;background:rgba(0,0,0,0.7);color:var(--muted);padding:1px 3px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+.cscale-btn{background:#0a0f18;border:1px solid var(--muted);color:var(--muted);cursor:pointer;font-family:'VT323',monospace;font-size:13px;padding:1px 7px;transition:all .15s;}
+.cscale-btn:hover,.cscale-btn.a{border-color:var(--cyan);color:var(--cyan);background:rgba(0,80,100,0.15);}
+
+.msg-gif-wrap{position:relative;display:inline-block;margin-top:4px;}
+.msg-gif-badge{position:absolute;bottom:4px;left:4px;background:rgba(0,0,0,0.75);color:#fff;font-size:10px;padding:1px 5px;border-radius:2px;pointer-events:none;font-family:'VT323',monospace;}
 </style>
 </head>
 <body>
@@ -583,12 +589,13 @@ body.cursor-ds #cursor{
 
           <!-- ГРАФИК ЗА ВЫБРАННЫЙ ДЕНЬ -->
           <div class="cp">
-            <div class="cp-h" style="justify-content:space-between;">
+            <div class="cp-h" style="justify-content:space-between;flex-wrap:wrap;gap:4px;">
               <span>📈 <span id="chart-day-label" style="color:var(--gold)">← ВЫБЕРИ ДЕНЬ</span></span>
-              <span style="display:flex;gap:10px;font-size:9px;">
-                <span><span style="color:#00d26a">■</span> Онлайн</span>
-                <span><span style="color:#5865f2">■</span> Голос</span>
-                <span><span style="color:#ffd700">■</span> Сообщ.</span>
+              <span style="display:flex;gap:4px;align-items:center;">
+                <span style="font-size:9px;margin-right:4px;"><span style="color:#00d26a">■</span> Онлайн <span style="color:#5865f2">■</span> Голос <span style="color:#ffd700">■</span> Сообщ.</span>
+                <button class="cscale-btn a" onclick="setChartScale('hour',this)">1ч</button>
+                <button class="cscale-btn" onclick="setChartScale('10min',this)">10м</button>
+                <button class="cscale-btn" onclick="setChartScale('1min',this)">1м</button>
               </span>
             </div>
             <div style="padding:6px 8px 4px;position:relative;">
@@ -994,21 +1001,185 @@ function setupChartTooltip(id){
 // ===== CALENDAR =====
 (function(){
   const MONTHS_RU=['ЯНВАРЬ','ФЕВРАЛЬ','МАРТ','АПРЕЛЬ','МАЙ','ИЮНЬ','ИЮЛЬ','АВГУСТ','СЕНТЯБРЬ','ОКТЯБРЬ','НОЯБРЬ','ДЕКАБРЬ'];
+  const MONTHS_SHORT=['янв','фев','мар','апр','май','июн','июл','авг','сен','окт','ноя','дек'];
   const now = new Date();
   let calYear = now.getFullYear();
-  let calMonth = now.getMonth(); // 0-based
-  let selectedDay = null; // {y,m,d} string like "2025-03-15"
-
-  // Реальные данные приходят из discord_stats.json через loadReal()
+  let calMonth = now.getMonth();
+  let selectedDay = null;
+  // calData: { "YYYY-MM-DD": [ {hour,online,in_voice,messages,mins10:[],mins1:[]} x24 ] }
   window._calData = {};
+  // Current time scale: 'hour' | '10min' | '1min'
+  let chartScale = 'hour';
 
-    window._initCalendar = function(){
-    renderCal();
-    const todayStr = new Date().toISOString().slice(0,10);
-    selectedDay = todayStr;
-    renderCal();
-    showDayChart(todayStr);
+  function renderCal(){
+    const monthName = MONTHS_RU[calMonth]+' '+calYear;
+    document.getElementById('cal-month').textContent = monthName;
+    const container = document.getElementById('cal-days');
+    if(!container) return;
+    container.innerHTML='';
+    const first = new Date(calYear,calMonth,1);
+    let startDow = first.getDay(); startDow = startDow===0?6:startDow-1;
+    const daysInMonth = new Date(calYear,calMonth+1,0).getDate();
+    const today = new Date();
+    for(let i=0;i<startDow;i++) container.appendChild(document.createElement('div'));
+    for(let d=1;d<=daysInMonth;d++){
+      const dateStr=`${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+      const hasData = !!window._calData[dateStr];
+      const isToday = today.getFullYear()===calYear&&today.getMonth()===calMonth&&today.getDate()===d;
+      const isSel = selectedDay===dateStr;
+      const isFuture = new Date(calYear,calMonth,d)>today;
+      const dow = new Date(calYear,calMonth,d).getDay();
+      const isWeekend = dow===0||dow===6;
+      const el=document.createElement('div');
+      let bg='', border='', color=isWeekend?'#ff6b6b':'var(--muted)';
+      if(isSel){bg='var(--cyan)';border='var(--cyan)';color='#04080f';}
+      else if(isToday){border='var(--cyan)';color='var(--cyan)';}
+      else if(hasData&&!isFuture){bg='rgba(88,101,242,0.2)';border='rgba(88,101,242,0.4)';color=isWeekend?'#ff6b6b':'var(--text)';}
+      else if(isFuture){color='#1a2a3a';}
+      el.style.cssText=`width:100%;aspect-ratio:1;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'VT323',monospace;font-size:13px;cursor:${isFuture?'default':'pointer'};position:relative;transition:all .15s;${bg?'background:'+bg+';':''}${border?'border:1px solid '+border+';':''}color:${color};font-weight:${isSel?'bold':'normal'};${isSel?'box-shadow:0 0 8px rgba(77,230,230,0.5);':''}`;
+      el.textContent=d;
+      if(hasData&&!isFuture&&!isSel){
+        const dot=document.createElement('div');
+        const msgs=window._calData[dateStr].reduce((s,h)=>s+(h.messages||0),0);
+        const dc=msgs>100?'#ffd700':msgs>30?'#00d26a':'#5865f2';
+        dot.style.cssText=`position:absolute;bottom:1px;left:50%;transform:translateX(-50%);width:3px;height:3px;border-radius:50%;background:${dc};`;
+        el.appendChild(dot);
+      }
+      if(!isFuture){
+        el.onmouseenter=()=>{if(!isSel)el.style.background='rgba(77,230,230,0.1)';};
+        el.onmouseleave=()=>{if(!isSel)el.style.background=hasData?'rgba(88,101,242,0.2)':'';};
+        el.onclick=()=>{selectedDay=dateStr;renderCal();showDayChart(dateStr);};
+      }
+      container.appendChild(el);
+    }
+  }
+
+  window.calPrev=function(){calMonth--;if(calMonth<0){calMonth=11;calYear--;}renderCal();};
+  window.calNext=function(){calMonth++;if(calMonth>11){calMonth=0;calYear++;}renderCal();};
+  window.setChartScale=function(scale,btn){
+    chartScale=scale;
+    document.querySelectorAll('.cscale-btn').forEach(b=>b.classList.remove('a'));
+    if(btn) btn.classList.add('a');
+    if(selectedDay) showDayChart(selectedDay);
   };
+
+  function showDayChart(dateStr){
+    const hrs=window._calData[dateStr];
+    const lbl=document.getElementById('chart-day-label');
+    const[y,m,d]=dateStr.split('-');
+    if(lbl) lbl.textContent=parseInt(d)+' '+MONTHS_SHORT[parseInt(m)-1]+' '+y;
+
+    if(!hrs||!hrs.length){
+      const cv=document.getElementById('ds-lc1');
+      if(cv){
+        const dpr=window.devicePixelRatio||1;
+        cv.width=(cv.offsetWidth||300)*dpr; cv.height=130*dpr;
+        const c=cv.getContext('2d'); c.scale(dpr,dpr);
+        c.fillStyle='#1a2a3a'; c.font='13px VT323,monospace'; c.textAlign='center';
+        c.fillText('Нет данных — запусти бота',cv.width/dpr/2,65);
+      }
+      document.getElementById('timeline-dots').innerHTML='';
+      return;
+    }
+
+    // Build data by scale
+    let labels=[], seriesData=[[],[],[]]; // online, voice, msgs
+    if(chartScale==='hour'){
+      labels=hrs.map(h=>`${String(h.hour).padStart(2,'0')}:00`);
+      seriesData=[hrs.map(h=>h.online||0),hrs.map(h=>h.in_voice||0),hrs.map(h=>h.messages||0)];
+    } else if(chartScale==='10min'){
+      hrs.forEach(h=>{
+        (h.mins10||Array(6).fill(0)).forEach((v,i)=>{
+          labels.push(`${String(h.hour).padStart(2,'0')}:${String(i*10).padStart(2,'0')}`);
+          seriesData[0].push(h.online||0);
+          seriesData[1].push(h.in_voice||0);
+          seriesData[2].push(v||0);
+        });
+      });
+    } else { // 1min
+      hrs.slice(-6).forEach(h=>{ // last 6 hours for readability
+        (h.mins1||Array(60).fill(0)).forEach((v,mi)=>{
+          labels.push(`${String(h.hour).padStart(2,'0')}:${String(mi).padStart(2,'0')}`);
+          seriesData[0].push(h.online||0);
+          seriesData[1].push(h.in_voice||0);
+          seriesData[2].push(v||0);
+        });
+      });
+    }
+
+    const series=[
+      {vals:seriesData[0],color:'#00d26a',label:'Онлайн',  icon:'🟢'},
+      {vals:seriesData[1],color:'#5865f2',label:'В голосе', icon:'🔊'},
+      {vals:seriesData[2],color:'#ffd700',label:'Сообщений',icon:'💬'},
+    ];
+    const tips=labels.map((lbl2,i)=>`
+      <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:6px;border-bottom:1px solid #1a2a3a;padding-bottom:5px;">${lbl2}</div>
+      <div style="display:grid;grid-template-columns:auto 1fr auto;gap:3px 8px;align-items:center;">
+        ${series.map(s=>`<span>${s.icon}</span><span style="color:var(--muted)">${s.label}</span><b style="color:${s.color}">${s.vals[i]||0}</b>`).join('')}
+      </div>`);
+    setTimeout(()=>{
+      multiLineChart('ds-lc1',series,labels,tips);
+      drawTimelineDots(hrs);
+    },60);
+  }
+
+  function drawTimelineDots(hrs){
+    const container=document.getElementById('timeline-dots');
+    if(!container) return;
+    container.innerHTML='';
+    const canvas=document.createElement('canvas');
+    canvas.style.cssText='width:100%;height:18px;display:block;cursor:crosshair;';
+    container.appendChild(canvas);
+    const tt=document.getElementById('chart-tooltip');
+    function drawDots(){
+      const dpr=window.devicePixelRatio||1;
+      const W=canvas.offsetWidth||300;
+      canvas.width=W*dpr; canvas.height=18*dpr;
+      const ctx=canvas.getContext('2d'); ctx.scale(dpr,dpr);
+      const segW=W/24;
+      hrs.forEach((hr,hi)=>{
+        const mx=hr.messages||0;
+        const col=mx>15?'#ffd700':mx>5?'#00d26a':'#5865f2';
+        if(hi%3===0||hi===23){ctx.fillStyle='rgba(42,64,85,0.8)';ctx.font='7px VT323,monospace';ctx.textAlign='center';ctx.fillText(String(hi).padStart(2,'0'),hi*segW+segW/2,17);}
+        (hr.mins10||Array(6).fill(0)).forEach((v,m)=>{
+          const dotX=hi*segW+m*(segW/6)+segW/12;
+          ctx.beginPath();ctx.arc(dotX,8,v>3?2.5:v>0?2:1.2,0,Math.PI*2);
+          ctx.fillStyle=col; ctx.globalAlpha=v>0?0.85:0.2; ctx.fill(); ctx.globalAlpha=1;
+        });
+      });
+    }
+    drawDots();
+    canvas.onmousemove=function(e){
+      const rect=canvas.getBoundingClientRect();
+      const hi=Math.min(23,Math.floor((e.clientX-rect.left)/rect.width*24));
+      const hr=hrs[hi]; if(!hr){tt.style.display='none';return;}
+      const maxM=Math.max(...(hr.mins1||[1]),1);
+      const bars=(hr.mins1||[]).map((v,i)=>{
+        const pct=Math.round(v/maxM*100);
+        const col=v>5?'#ffd700':v>2?'#00d26a':'#5865f2';
+        return `<div style="display:flex;align-items:center;gap:4px;margin-bottom:1px;"><span style="color:var(--muted);font-size:9px;width:20px">${String(i).padStart(2,'0')}м</span><div style="flex:1;height:3px;background:#0a0f18;"><div style="width:${pct}%;height:100%;background:${col}"></div></div><span style="color:${col};font-size:9px;width:14px">${v}</span></div>`;
+      }).join('');
+      tt.innerHTML=`<div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);margin-bottom:6px;border-bottom:1px solid #1a2a3a;padding-bottom:5px;">${String(hi).padStart(2,'0')}:00 — каждая минута</div><div style="max-height:140px;overflow-y:auto;">${bars||'<span style="color:var(--muted)">нет данных</span>'}</div>`;
+      tt.style.display='block';
+      let tx=e.clientX+14,ty=e.clientY-10;
+      if(tx+200>window.innerWidth)tx=e.clientX-210;
+      tt.style.left=tx+'px';tt.style.top=ty+'px';
+    };
+    canvas.onmouseleave=()=>tt.style.display='none';
+  }
+
+  window._initCalendar=function(){
+    // Восстанавливаем данные из localStorage
+    try{
+      const saved=JSON.parse(localStorage.getItem('cpys_calData')||'{}');
+      Object.assign(window._calData, saved);
+    }catch(e){}
+    renderCal();
+    const todayStr=new Date().toISOString().slice(0,10);
+    selectedDay=todayStr; renderCal(); showDayChart(todayStr);
+  };
+  // Expose showDayChart for loadReal
+  window._showDayChart=showDayChart;
 })();
 
 
@@ -1649,43 +1820,65 @@ function openM(p){
 }
 
 function renderModalMsgs(p){
-  var el = document.getElementById('modal-msgs');
+  var el=document.getElementById('modal-msgs');
   if(!el) return;
-  // Берём из _messagesCache если есть
-  var uid = p.id||p.uid||'';
-  var msgs = (window._messagesCache && uid && window._messagesCache[uid]) || p.recent_messages || [];
+  var uid=p.id||p.uid||'';
+  var msgs=(window._messagesCache&&uid&&window._messagesCache[uid])||p.recent_messages||[];
   if(!msgs.length){
     el.innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:20px">Сообщений нет<br><span style="font-size:11px">Бот пришлёт данные после старта</span></div>';
     return;
   }
+  var typeIcons={text:'💬',images:'🖼️',gifs:'🎞️',stickers:'😄',voice:'🎤',files:'📁'};
   var html='';
-  var reversed=[].concat(msgs).reverse();
-  reversed.forEach(function(m){
+  [].concat(msgs).reverse().forEach(function(m){
     html+='<div class="msg-item">';
-    html+='<div class="msg-meta"><span class="msg-ch">#'+(m.channel||'?')+'</span><span>'+(m.time||'')+'</span>';
-    var typeIcons={text:'💬',images:'🖼️',gifs:'🎞️',stickers:'😄',voice:'🎤',files:'📁'};
+    html+='<div class="msg-meta"><span class="msg-ch">#'+escHtml(m.channel||'?')+'</span>';
+    html+='<span>'+escHtml(m.time||'')+'</span>';
     html+='<span>'+(typeIcons[m.type]||'💬')+'</span></div>';
-    if(m.content) html+='<div class="msg-text">'+escHtml(m.content)+'</div>';
-    // Вложения
-    if(m.attachments && m.attachments.length){
+    if(m.content){
+      var txt=escHtml(m.content);
+      // Discord custom emoji <:name:id>
+      txt=txt.replace(/&lt;(a?):([^:&]+):(\d+)&gt;/g,function(x,anim,en,eid){
+        var ext=anim==='a'?'gif':'webp';
+        return '<img src="https://cdn.discordapp.com/emojis/'+eid+'.'+ext+'?size=32" style="height:22px;vertical-align:middle;">';
+      });
+      // Giphy - extract gif id and show inline
+      txt=txt.replace(/https?:\/\/(?:giphy\.com\/gifs\/|media\.giphy\.com\/media\/)([a-zA-Z0-9\-]+)[^\s<>]*/g,function(url,gid){
+        var id=gid.split('-').pop();
+        var src='https://media.giphy.com/media/'+id+'/giphy.gif';
+        return '<div class="msg-gif-wrap"><img class="msg-img" src="'+src+'" loading="lazy" style="max-height:140px;cursor:pointer;" onclick="window.open(\''+url+'\')"><div class="msg-gif-badge">GIF</div></div>';
+      });
+      // Tenor
+      txt=txt.replace(/https?:\/\/(?:tenor\.com|media\.tenor\.com)[^\s<>]*/g,function(url){
+        return '<a href="'+url+'" target="_blank" style="color:var(--cyan)">🎞️ GIF (tenor)</a>';
+      });
+      // Direct image links
+      txt=txt.replace(/https?:\/\/[^\s<>"]+\.(?:png|jpg|jpeg|webp|gif)(?:\?[^\s<>"]*)?/gi,function(url){
+        return '<img class="msg-img" src="'+url+'" loading="lazy" style="max-height:140px;cursor:pointer;" onclick="window.open(\''+url+'\')">';
+      });
+      html+='<div class="msg-text">'+txt+'</div>';
+    }
+    if(m.attachments&&m.attachments.length){
       m.attachments.forEach(function(a){
         if(a.type==='images'||a.type==='gifs'){
-          html+='<img class="msg-img" src="'+a.url+'" loading="lazy" onclick="window.open(this.src,\'_blank\')">';
+          html+='<div class="msg-gif-wrap"><img class="msg-img" src="'+a.url+'" loading="lazy" style="max-height:160px;cursor:pointer;" onclick="window.open(\''+a.url+'\')">';
+          if(a.type==='gifs') html+='<div class="msg-gif-badge">GIF</div>';
+          html+='</div>';
         } else {
-          html+='<div class="msg-file">📁 '+escHtml(a.filename||'файл')+'</div>';
+          var kb=a.size?Math.round(a.size/1024)+'кб':'';
+          html+='<div class="msg-file">📁 '+escHtml(a.filename||'файл')+' <span style="color:var(--muted);font-size:10px;">'+kb+'</span></div>';
         }
       });
     }
-    if(m.stickers && m.stickers.length){
+    if(m.stickers&&m.stickers.length){
       m.stickers.forEach(function(s){
-        html+='<img class="msg-img" src="'+s.url+'" style="max-height:80px" loading="lazy">';
+        html+='<div class="msg-gif-wrap"><img class="msg-img" src="'+s.url+'" style="max-height:80px;" loading="lazy"><div class="msg-gif-badge">СТИКЕР</div></div>';
       });
     }
-    // preview_url fallback
-    if(!m.content && !(m.attachments&&m.attachments.length) && m.preview_url && m.type!=='text'){
-      if(m.type==='images'||m.type==='gifs'){
-        html+='<img class="msg-img" src="'+m.preview_url+'" loading="lazy" onclick="window.open(this.src,\'_blank\')">';
-      }
+    if(!m.content&&!(m.attachments&&m.attachments.length)&&m.preview_url&&(m.type==='images'||m.type==='gifs')){
+      html+='<div class="msg-gif-wrap"><img class="msg-img" src="'+m.preview_url+'" loading="lazy" style="max-height:160px;cursor:pointer;" onclick="window.open(\''+m.preview_url+'\')">';
+      if(m.type==='gifs') html+='<div class="msg-gif-badge">GIF</div>';
+      html+='</div>';
     }
     html+='</div>';
   });
@@ -1730,6 +1923,11 @@ function escHtml(s){
 }
 
 
+function cm(e){
+  if(!e || e.target===document.getElementById('mbg'))
+    document.getElementById('mbg').classList.remove('show');
+}
+
 async function loadReal(){
   // Параллельно грузим stats + messages
   try{
@@ -1772,16 +1970,34 @@ async function loadReal(){
 
     window._lastDsData=d;
 
-    // --- ВЛИТЬ РЕАЛЬНЫЕ ПОЧАСОВЫЕ ДАННЫЕ В КАЛЕНДАРЬ ---
+    // --- ВЛИТЬ РЕАЛЬНЫЕ ПОЧАСОВЫЕ ДАННЫЕ В КАЛЕНДАРЬ + сохранить в localStorage ---
     if(d.hourly_history && d.hourly_history.length>0){
       const todayStr=new Date().toISOString().slice(0,10);
+      // Загружаем сохранённые данные
+      try{
+        const saved=JSON.parse(localStorage.getItem('cpys_calData')||'{}');
+        Object.assign(window._calData, saved);
+      }catch(e){}
       const hrs=[];
       for(let h=0;h<24;h++){
         const found=d.hourly_history.find(x=>(x.hour||parseInt(x.time))==h)||{};
         const base=window._calData?.[todayStr]?.[h]||{hour:h,mins10:Array(6).fill(0),mins1:Array(60).fill(0)};
-        hrs.push({...base, hour:h, online:found.online||base.online||0, in_voice:found.in_voice||base.in_voice||0, messages:found.messages||base.messages||0});
+        hrs.push({...base, hour:h,
+          online:   found.online   ||base.online   ||0,
+          in_voice: found.in_voice ||base.in_voice ||0,
+          messages: found.messages ||base.messages ||0
+        });
       }
       if(window._calData) window._calData[todayStr]=hrs;
+      // Сохраняем в localStorage (последние 30 дней)
+      try{
+        const keys=Object.keys(window._calData).sort().slice(-30);
+        const toSave={};
+        keys.forEach(k=>toSave[k]=window._calData[k]);
+        localStorage.setItem('cpys_calData', JSON.stringify(toSave));
+      }catch(e){}
+      // Обновляем график если этот день выбран
+      if(window._showDayChart) window._showDayChart(todayStr);
     }
 
     // --- ГРАФИКИ (только если календарь НЕ инициализирован) ---
@@ -1865,8 +2081,10 @@ async function loadReal(){
     });
     document.getElementById('ds-vcl').innerHTML=(d.voice_channels||[]).slice(0,8).map(vc=>{
       const membersHtml=(vc.members||[]).length
-        ? (vc.members||[]).map(name=>{
-            const m=allMembersMap[name];
+        ? (vc.members||[]).map(memberObj=>{
+            const memberName=typeof memberObj==='object'?(memberObj.name||memberObj.id||'?'):memberObj;
+            const name=memberName;
+            const m=allMembersMap[memberName]||allMembersMap[memberObj?.name];
             const color=m?getMemberColor(m):'#5865f2';
             const av=m&&m.avatar?`<img src="${m&&m.avatar}" style="width:18px;height:18px;border-radius:50%;vertical-align:middle;margin-right:4px;" onerror="this.style.display='none'">`:'';
             const safeObj=m?{
