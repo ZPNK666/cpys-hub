@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:41:49.833853+00:00",
+  "updated_at": "2026-03-17T21:42:49.835925+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -460,6 +460,39 @@
         "channel_id": "1450428861836951674",
         "time": "17.03.2026 21:40",
         "content": "отправила",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483581324814975090",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:42",
+        "content": "каво\\",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483581334499622923",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:42",
+        "content": "каво",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483581342397759570",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:42",
+        "content": "чтоо",
         "type": "text",
         "preview_url": "",
         "attachments": [],
