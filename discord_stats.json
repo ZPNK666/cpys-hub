@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T14:25:49.824509+00:00",
+  "updated_at": "2026-03-17T14:26:49.822416+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -219,15 +219,17 @@
       "recent_messages": []
     },
     {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
-      "status": "idle",
+      "id": "1255232329362833409",
+      "name": "кирпич",
+      "status": "online",
       "roles": [
-        "ОФИЧЕР СС"
+        "нету хента",
+        "ОФИЧЕР СС",
+        "мужчины"
       ],
-      "top_role": "ОФИЧЕР СС",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
+      "joined_at": "2025-12-16T20:26:44.708000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -256,17 +258,17 @@
       "recent_messages": []
     },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич",
+      "id": "841719455162564620",
+      "name": "Heldy",
       "status": "online",
       "roles": [
-        "нету хента",
-        "ОФИЧЕР СС",
+        "у меня есть хент",
+        "атеист",
         "мужчины"
       ],
       "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
-      "joined_at": "2025-12-16T20:26:44.708000+00:00",
+      "avatar": "https://cdn.discordapp.com/avatars/841719455162564620/b84e09fb39f498f980bddd23e87bc58d.png?size=1024",
+      "joined_at": "2026-03-07T08:35:41.035000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -639,6 +641,43 @@
       "recent_messages": []
     },
     {
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "offline",
+      "roles": [
+        "ОФИЧЕР СС"
+      ],
+      "top_role": "ОФИЧЕР СС",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
       "id": "1433504994824425640",
       "name": "zelebobik",
       "status": "offline",
@@ -892,45 +931,6 @@
       "top_role": "ислам",
       "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
       "joined_at": "2026-02-12T18:01:19.943000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
-      "id": "841719455162564620",
-      "name": "Heldy",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/841719455162564620/b84e09fb39f498f980bddd23e87bc58d.png?size=1024",
-      "joined_at": "2026-03-07T08:35:41.035000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
