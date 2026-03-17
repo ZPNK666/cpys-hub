@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:09:49.842407+00:00",
+  "updated_at": "2026-03-17T21:10:49.838484+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -393,6 +393,22 @@
         "preview_url": "",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1483573249458835497",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:10",
+        "content": "",
+        "type": "sticker",
+        "preview_url": "https://cdn.discordapp.com/stickers/1451282762417049754.png",
+        "attachments": [],
+        "stickers": [
+          {
+            "name": "Еблан?",
+            "url": "https://cdn.discordapp.com/stickers/1451282762417049754.png"
+          }
+        ]
       }
     ],
     "1248970731849777152": [
@@ -483,6 +499,17 @@
         "channel_id": "1450428861836951674",
         "time": "17.03.2026 19:43",
         "content": "https://giphy.com/gifs/pot-greed-of-iyumu37OfXGzQALCLI",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483573218773172368",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:10",
+        "content": "<:aa85cfb3345045d681793ff60190b186:1458729037391462541>",
         "type": "text",
         "preview_url": "",
         "attachments": [],
