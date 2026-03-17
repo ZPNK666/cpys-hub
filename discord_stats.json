@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T18:03:49.819437+00:00",
+  "updated_at": "2026-03-17T18:04:49.833790+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 16,
-    "offline_count": 18,
-    "in_voice_count": 4,
-    "messages_today": 2,
+    "online_count": 17,
+    "offline_count": 17,
+    "in_voice_count": 6,
+    "messages_today": 3,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 2,
+    "text": 3,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -93,24 +93,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "stats_all": {
-        "text": 10,
+        "text": 11,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 10
+        "total": 11
       },
-      "total_messages": 10,
+      "total_messages": 11,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -118,6 +118,13 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 18:04",
+          "channel": "💬-общий-чат",
+          "content": "CPYSHub.aternos.me:38096",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "16.03.2026 18:55",
           "channel": "💬-общий-чат",
@@ -143,13 +150,6 @@
           "time": "16.03.2026 10:07",
           "channel": "💬-общий-чат",
           "content": "<:67:1460180104603766885>",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "16.03.2026 10:07",
-          "channel": "💬-общий-чат",
-          "content": "<:aa85cfb3345045d681793ff60190b186:1458729037391462541>",
           "type": "text",
           "preview": ""
         }
@@ -677,6 +677,45 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
       "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1429,45 +1468,6 @@
           "preview": ""
         }
       ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     }
   ],
   "voice_channels": [
@@ -1481,7 +1481,7 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         {
           "id": "1264609602540929140",
@@ -1490,10 +1490,6 @@
         {
           "id": "1286072101635100733",
           "name": "били б билисимо"
-        },
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
         },
         {
           "id": "1407789136965931088",
@@ -1505,8 +1501,21 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 0,
-      "members": [],
+      "members_count": 3,
+      "members": [
+        {
+          "id": "834060139006394368",
+          "name": "ZPNK666"
+        },
+        {
+          "id": "1311555070160277525",
+          "name": "TAMERLAN 12K (а чо? а хз)"
+        },
+        {
+          "id": "1255232329362833409",
+          "name": "кирпич"
+        }
+      ],
       "user_limit": 0
     },
     {
@@ -1836,13 +1845,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 10,
+      "text": 11,
       "images": 0,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 10
+      "total": 11
     },
     {
       "id": "1264609602540929140",
