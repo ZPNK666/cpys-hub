@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T18:03:49.827109+00:00",
+  "updated_at": "2026-03-17T18:04:49.840543+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -430,6 +430,17 @@
         "channel_id": "1450428861836951674",
         "time": "16.03.2026 18:55",
         "content": "❤️",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483526515584012348",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 18:04",
+        "content": "CPYSHub.aternos.me:38096",
         "type": "text",
         "preview_url": "",
         "attachments": [],
