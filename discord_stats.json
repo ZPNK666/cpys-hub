@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:59:49.833781+00:00",
+  "updated_at": "2026-03-17T22:00:49.831392+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,14 +11,14 @@
     "online_count": 5,
     "offline_count": 29,
     "in_voice_count": 3,
-    "messages_today": 50,
+    "messages_today": 51,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
     "text": 46,
     "images": 1,
-    "gifs": 1,
+    "gifs": 2,
     "stickers": 2,
     "voice": 0,
     "files": 0
@@ -118,18 +118,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 2,
-        "gifs": 1,
+        "gifs": 2,
         "files": 0,
-        "total": 38
+        "total": 39
       },
       "stats_all": {
         "text": 55,
         "images": 1,
         "voice": 0,
         "stickers": 2,
-        "gifs": 3,
+        "gifs": 4,
         "files": 0,
-        "total": 61
+        "total": 62
       },
       "total_messages": 55,
       "join_leave": {
@@ -139,6 +139,13 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 22:00",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/anya-forger-spy-x-family-gif-16175494423033203390",
+          "type": "gifs",
+          "preview": "https://tenor.com/view/anya-forger-spy-x-family-gif-16175494423033203390"
+        },
         {
           "time": "17.03.2026 21:59",
           "channel": "💬-общий-чат",
@@ -164,13 +171,6 @@
           "time": "17.03.2026 21:58",
           "channel": "💬-общий-чат",
           "content": "<:aa85cfb3345045d681793ff60190b186:1458729037391462541>",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 21:56",
-          "channel": "💬-общий-чат",
-          "content": "ахаххахаха",
           "type": "text",
           "preview": ""
         }
@@ -1893,6 +1893,13 @@
       "online": 9,
       "in_voice": 3,
       "messages": 19
+    },
+    {
+      "time": "17.03 22:00",
+      "hour": 22,
+      "online": 10,
+      "in_voice": 3,
+      "messages": 51
     }
   ],
   "recent_join_leave": [
@@ -1911,9 +1918,9 @@
       "images": 1,
       "voice": 0,
       "stickers": 2,
-      "gifs": 3,
+      "gifs": 4,
       "files": 0,
-      "total": 61
+      "total": 62
     },
     {
       "id": "834060139006394368",
