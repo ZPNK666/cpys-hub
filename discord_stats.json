@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:30:49.830703+00:00",
+  "updated_at": "2026-03-17T21:31:49.821702+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,14 +11,14 @@
     "online_count": 5,
     "offline_count": 29,
     "in_voice_count": 4,
-    "messages_today": 24,
+    "messages_today": 27,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 22,
+    "text": 24,
     "images": 1,
-    "gifs": 0,
+    "gifs": 1,
     "stickers": 1,
     "voice": 0,
     "files": 0
@@ -39,24 +39,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "stats_all": {
-        "text": 11,
+        "text": 12,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 11
+        "total": 12
       },
-      "total_messages": 11,
+      "total_messages": 12,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -64,6 +64,13 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 21:31",
+          "channel": "💬-общий-чат",
+          "content": "https://link.brawlstars.com/invite/friend/ru?tag=YUVVV9UYC&token=zdwgb83f",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "17.03.2026 18:04",
           "channel": "💬-общий-чат",
@@ -91,13 +98,6 @@
           "content": "<:__:1465009912223367208>",
           "type": "text",
           "preview": ""
-        },
-        {
-          "time": "16.03.2026 10:07",
-          "channel": "💬-общий-чат",
-          "content": "<:67:1460180104603766885>",
-          "type": "text",
-          "preview": ""
         }
       ]
     },
@@ -114,24 +114,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 12,
+        "text": 13,
         "images": 0,
         "voice": 0,
         "stickers": 1,
-        "gifs": 0,
+        "gifs": 1,
         "files": 0,
-        "total": 13
+        "total": 15
       },
       "stats_all": {
-        "text": 32,
+        "text": 33,
         "images": 1,
         "voice": 0,
         "stickers": 1,
-        "gifs": 2,
+        "gifs": 3,
         "files": 0,
-        "total": 36
+        "total": 38
       },
-      "total_messages": 32,
+      "total_messages": 33,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -139,6 +139,20 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 21:31",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/anime-sleepy-tired-gif-10598302318222693731",
+          "type": "gifs",
+          "preview": "https://tenor.com/view/anime-sleepy-tired-gif-10598302318222693731"
+        },
+        {
+          "time": "17.03.2026 21:31",
+          "channel": "💬-общий-чат",
+          "content": "почему меня никто не зовет в бравлик",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "17.03.2026 21:10",
           "channel": "💬-общий-чат",
@@ -157,20 +171,6 @@
           "time": "17.03.2026 21:06",
           "channel": "💬-общий-чат",
           "content": "бедная обиженка ярик",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 21:02",
-          "channel": "💬-общий-чат",
-          "content": "хаххах ярик а если тебя так убить ты обидешься",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 20:50",
-          "channel": "💬-общий-чат",
-          "content": "купили ахах",
           "type": "text",
           "preview": ""
         }
@@ -1911,24 +1911,24 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 32,
+      "text": 33,
       "images": 1,
       "voice": 0,
       "stickers": 1,
-      "gifs": 2,
+      "gifs": 3,
       "files": 0,
-      "total": 36
+      "total": 38
     },
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 11,
+      "text": 12,
       "images": 0,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 11
+      "total": 12
     },
     {
       "id": "1264609602540929140",
