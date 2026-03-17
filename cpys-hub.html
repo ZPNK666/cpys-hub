@@ -1825,48 +1825,30 @@ function renderModalMsgs(p){
   var uid=p.id||p.uid||'';
   var msgs=(window._messagesCache&&uid&&window._messagesCache[uid])||p.recent_messages||[];
   if(!msgs.length){
-    el.innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:20px">Сообщений нет<br><span style="font-size:11px">Бот пришлёт данные после старта</span></div>';
+    el.innerHTML='<div style="color:var(--muted);font-size:13px;text-align:center;padding:20px">Сообщений нет</div>';
     return;
   }
   var typeIcons={text:'💬',images:'🖼️',gifs:'🎞️',stickers:'😄',voice:'🎤',files:'📁'};
   var html='';
   [].concat(msgs).reverse().forEach(function(m){
     html+='<div class="msg-item">';
-    html+='<div class="msg-meta"><span class="msg-ch">#'+escHtml(m.channel||'?')+'</span>';
+    html+='<div class="msg-meta">';
+    html+='<span class="msg-ch">#'+escHtml(m.channel||'?')+'</span>';
     html+='<span>'+escHtml(m.time||'')+'</span>';
-    html+='<span>'+(typeIcons[m.type]||'💬')+'</span></div>';
+    html+='<span>'+(typeIcons[m.type]||'💬')+'</span>';
+    html+='</div>';
     if(m.content){
-      var txt=escHtml(m.content);
-      // Discord custom emoji <:name:id>
-      txt=txt.replace(/&lt;(a?):([^:&]+):(\d+)&gt;/g,function(x,anim,en,eid){
-        var ext=anim==='a'?'gif':'webp';
-        return '<img src="https://cdn.discordapp.com/emojis/'+eid+'.'+ext+'?size=32" style="height:22px;vertical-align:middle;">';
-      });
-      // Giphy - extract gif id and show inline
-      txt=txt.replace(/https?:\/\/(?:giphy\.com\/gifs\/|media\.giphy\.com\/media\/)([a-zA-Z0-9\-]+)[^\s<>]*/g,function(url,gid){
-        var id=gid.split('-').pop();
-        var src='https://media.giphy.com/media/'+id+'/giphy.gif';
-        return '<div class="msg-gif-wrap"><img class="msg-img" src="'+src+'" loading="lazy" style="max-height:140px;cursor:pointer;" onclick="window.open(\''+url+'\')"><div class="msg-gif-badge">GIF</div></div>';
-      });
-      // Tenor
-      txt=txt.replace(/https?:\/\/(?:tenor\.com|media\.tenor\.com)[^\s<>]*/g,function(url){
-        return '<a href="'+url+'" target="_blank" style="color:var(--cyan)">🎞️ GIF (tenor)</a>';
-      });
-      // Direct image links
-      txt=txt.replace(/https?:\/\/[^\s<>"]+\.(?:png|jpg|jpeg|webp|gif)(?:\?[^\s<>"]*)?/gi,function(url){
-        return '<img class="msg-img" src="'+url+'" loading="lazy" style="max-height:140px;cursor:pointer;" onclick="window.open(\''+url+'\')">';
-      });
-      html+='<div class="msg-text">'+txt+'</div>';
+      html+='<div class="msg-text">'+parseContent(m.content)+'</div>';
     }
     if(m.attachments&&m.attachments.length){
       m.attachments.forEach(function(a){
         if(a.type==='images'||a.type==='gifs'){
-          html+='<div class="msg-gif-wrap"><img class="msg-img" src="'+a.url+'" loading="lazy" style="max-height:160px;cursor:pointer;" onclick="window.open(\''+a.url+'\')">';
+          html+='<div class="msg-gif-wrap">';
+          html+='<img class="msg-img" src="'+a.url+'" loading="lazy" style="max-height:160px;cursor:pointer;display:block;">';
           if(a.type==='gifs') html+='<div class="msg-gif-badge">GIF</div>';
           html+='</div>';
         } else {
-          var kb=a.size?Math.round(a.size/1024)+'кб':'';
-          html+='<div class="msg-file">📁 '+escHtml(a.filename||'файл')+' <span style="color:var(--muted);font-size:10px;">'+kb+'</span></div>';
+          html+='<div class="msg-file">📁 '+escHtml(a.filename||'файл')+'</div>';
         }
       });
     }
@@ -1875,14 +1857,79 @@ function renderModalMsgs(p){
         html+='<div class="msg-gif-wrap"><img class="msg-img" src="'+s.url+'" style="max-height:80px;" loading="lazy"><div class="msg-gif-badge">СТИКЕР</div></div>';
       });
     }
-    if(!m.content&&!(m.attachments&&m.attachments.length)&&m.preview_url&&(m.type==='images'||m.type==='gifs')){
-      html+='<div class="msg-gif-wrap"><img class="msg-img" src="'+m.preview_url+'" loading="lazy" style="max-height:160px;cursor:pointer;" onclick="window.open(\''+m.preview_url+'\')">';
+    if(!m.content&&!(m.attachments&&m.attachments.length)&&m.preview_url){
+      html+='<div class="msg-gif-wrap">';
+      html+='<img class="msg-img" src="'+m.preview_url+'" loading="lazy" style="max-height:160px;cursor:pointer;display:block;">';
       if(m.type==='gifs') html+='<div class="msg-gif-badge">GIF</div>';
       html+='</div>';
     }
     html+='</div>';
   });
   el.innerHTML=html;
+}
+
+function parseContent(raw){
+  if(!raw) return '';
+  var out='';
+  var i=0;
+  while(i<raw.length){
+    // Discord emoji: <:name:id> or <a:name:id>
+    if(raw[i]==='<' && (raw[i+1]===':' || (raw[i+1]==='a' && raw[i+2]===':'))){
+      var end=raw.indexOf('>',i);
+      if(end>i){
+        var inner=raw.slice(i+1,end);
+        var parts=inner.split(':');
+        if(parts.length>=3){
+          var anim=parts[0]==='a';
+          var eid=parts[parts.length-1];
+          var ename=parts.slice(1,parts.length-1).join(':');
+          var ext=anim?'gif':'webp';
+          var eTitle=':'+escHtml(ename)+':';
+          out+='<img src="https://cdn.discordapp.com/emojis/'+eid+'.'+ext+'?size=32" style="height:22px;vertical-align:middle;margin:0 1px;" title="'+eTitle+'">';
+          i=end+1; continue;
+        }
+      }
+    }
+    // URL detection
+    if(raw.slice(i,i+4)==='http'){
+      var spaceIdx=raw.indexOf(' ',i);
+      var nlIdx=raw.indexOf('\n',i);
+      var endIdx=raw.length;
+      if(spaceIdx>i && spaceIdx<endIdx) endIdx=spaceIdx;
+      if(nlIdx>i && nlIdx<endIdx) endIdx=nlIdx;
+      var url=raw.slice(i,endIdx);
+      // Giphy
+      if(url.indexOf('giphy.com/gifs/')>-1 || url.indexOf('media.giphy.com/media/')>-1){
+        var gid=url.split('/');
+        var lastPart=gid[gid.length-1].split('-').pop().split('?')[0].split('#')[0];
+        var gifSrc='https://media.giphy.com/media/'+lastPart+'/giphy.gif';
+        out+='<div class="msg-gif-wrap"><img class="msg-img" src="'+gifSrc+'" loading="lazy" style="max-height:140px;cursor:pointer;display:block;"><div class="msg-gif-badge">GIF</div></div>';
+        i=endIdx; continue;
+      }
+      // Tenor
+      if(url.indexOf('tenor.com')>-1){
+        out+='<a href="'+url+'" target="_blank" style="color:var(--cyan)">🎞️ GIF (tenor)</a>';
+        i=endIdx; continue;
+      }
+      // Direct image
+      var lower=url.toLowerCase().split('?')[0];
+      if(lower.slice(-4)==='.png'||lower.slice(-4)==='.jpg'||lower.slice(-5)==='.jpeg'||lower.slice(-5)==='.webp'||lower.slice(-4)==='.gif'){
+        out+='<img class="msg-img" src="'+url+'" loading="lazy" style="max-height:140px;cursor:pointer;display:block;">';
+        i=endIdx; continue;
+      }
+      // Regular URL
+      out+='<a href="'+url+'" target="_blank" style="color:var(--cyan);font-size:12px;word-break:break-all;">'+escHtml(url.slice(0,60))+(url.length>60?'...':'')+'</a>';
+      i=endIdx; continue;
+    }
+    // Regular char
+    if(raw[i]==='<') out+='&lt;';
+    else if(raw[i]==='>') out+='&gt;';
+    else if(raw[i]==='&') out+='&amp;';
+    else if(raw[i]==='\n') out+='<br>';
+    else out+=raw[i];
+    i++;
+  }
+  return out;
 }
 
 function renderModalImgs(p){
