@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:55:49.824688+00:00",
+  "updated_at": "2026-03-17T21:56:49.821694+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,12 +11,12 @@
     "online_count": 5,
     "offline_count": 29,
     "in_voice_count": 3,
-    "messages_today": 38,
+    "messages_today": 46,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 34,
+    "text": 42,
     "images": 1,
     "gifs": 1,
     "stickers": 2,
@@ -114,24 +114,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 23,
+        "text": 31,
         "images": 0,
         "voice": 0,
         "stickers": 2,
         "gifs": 1,
         "files": 0,
-        "total": 26
+        "total": 34
       },
       "stats_all": {
-        "text": 43,
+        "text": 51,
         "images": 1,
         "voice": 0,
         "stickers": 2,
         "gifs": 3,
         "files": 0,
-        "total": 49
+        "total": 57
       },
-      "total_messages": 43,
+      "total_messages": 51,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -140,37 +140,37 @@
       },
       "recent_messages": [
         {
-          "time": "17.03.2026 21:55",
+          "time": "17.03.2026 21:56",
           "channel": "💬-общий-чат",
-          "content": "какой какой",
+          "content": "ахаххахаха",
           "type": "text",
           "preview": ""
         },
         {
-          "time": "17.03.2026 21:50",
+          "time": "17.03.2026 21:56",
           "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview": "https://cdn.discordapp.com/stickers/1477020684583702649.png"
-        },
-        {
-          "time": "17.03.2026 21:45",
-          "channel": "💬-общий-чат",
-          "content": "у меня всегда каникулы лол",
+          "content": "дада она она",
           "type": "text",
           "preview": ""
         },
         {
-          "time": "17.03.2026 21:44",
+          "time": "17.03.2026 21:56",
           "channel": "💬-общий-чат",
-          "content": "ай ай",
+          "content": "бля",
           "type": "text",
           "preview": ""
         },
         {
-          "time": "17.03.2026 21:44",
+          "time": "17.03.2026 21:56",
           "channel": "💬-общий-чат",
-          "content": "кто же сообщил тебе это все ярик",
+          "content": "ахахахахх",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "17.03.2026 21:56",
+          "channel": "💬-общий-чат",
+          "content": "давай",
           "type": "text",
           "preview": ""
         }
@@ -1907,13 +1907,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 43,
+      "text": 51,
       "images": 1,
       "voice": 0,
       "stickers": 2,
       "gifs": 3,
       "files": 0,
-      "total": 49
+      "total": 57
     },
     {
       "id": "834060139006394368",
