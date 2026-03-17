@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:49:49.821048+00:00",
+  "updated_at": "2026-03-17T21:50:49.833238+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,7 +11,7 @@
     "online_count": 4,
     "offline_count": 30,
     "in_voice_count": 3,
-    "messages_today": 36,
+    "messages_today": 37,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
@@ -19,7 +19,7 @@
     "text": 33,
     "images": 1,
     "gifs": 1,
-    "stickers": 1,
+    "stickers": 2,
     "voice": 0,
     "files": 0
   },
@@ -117,19 +117,19 @@
         "text": 22,
         "images": 0,
         "voice": 0,
-        "stickers": 1,
+        "stickers": 2,
         "gifs": 1,
         "files": 0,
-        "total": 24
+        "total": 25
       },
       "stats_all": {
         "text": 42,
         "images": 1,
         "voice": 0,
-        "stickers": 1,
+        "stickers": 2,
         "gifs": 3,
         "files": 0,
-        "total": 47
+        "total": 48
       },
       "total_messages": 42,
       "join_leave": {
@@ -139,6 +139,13 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 21:50",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview": "https://cdn.discordapp.com/stickers/1477020684583702649.png"
+        },
         {
           "time": "17.03.2026 21:45",
           "channel": "💬-общий-чат",
@@ -164,13 +171,6 @@
           "time": "17.03.2026 21:42",
           "channel": "💬-общий-чат",
           "content": "чтоо",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 21:42",
-          "channel": "💬-общий-чат",
-          "content": "каво",
           "type": "text",
           "preview": ""
         }
@@ -1910,10 +1910,10 @@
       "text": 42,
       "images": 1,
       "voice": 0,
-      "stickers": 1,
+      "stickers": 2,
       "gifs": 3,
       "files": 0,
-      "total": 47
+      "total": 48
     },
     {
       "id": "834060139006394368",
