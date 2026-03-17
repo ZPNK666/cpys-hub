@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T22:06:49.903272+00:00",
+  "updated_at": "2026-03-17T22:07:49.984540+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -835,6 +835,39 @@
         "channel_id": "1450428861836951674",
         "time": "17.03.2026 22:05",
         "content": "Нажми на ссылку, чтобы добавить игрока хаги ваги в друзья в Brawl Stars! https://link.brawlstars.com/invite/friend/ru?tag=8GPQL0PGC&token=g9e4dsca",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483587556141564038",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 22:07",
+        "content": "сыллку",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483587560549912711",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 22:07",
+        "content": "дай",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483587570200870982",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 22:07",
+        "content": "на сайт",
         "type": "text",
         "preview_url": "",
         "attachments": [],
