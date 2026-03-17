@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T18:11:49.828327+00:00",
+  "updated_at": "2026-03-17T18:12:49.829667+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -10,13 +10,13 @@
     "total_members": 39,
     "online_count": 15,
     "offline_count": 19,
-    "in_voice_count": 7,
-    "messages_today": 4,
+    "in_voice_count": 8,
+    "messages_today": 5,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 4,
+    "text": 5,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -600,24 +600,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/772826344a081b9cc481d9ed44bb9ce7.png?size=1024",
       "joined_at": "2025-10-11T10:24:47.750000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "stats_all": {
-        "text": 1,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
-      "total_messages": 1,
+      "total_messages": 2,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -625,6 +625,13 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 18:12",
+          "channel": "🎲 Любые игры / кооп-стрим",
+          "content": "Ых почему у всех эффект эха",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "17.03.2026 18:05",
           "channel": "🎲 Любые игры / кооп-стрим",
@@ -1489,15 +1496,15 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 4,
+      "members_count": 6,
       "members": [
         {
           "id": "1286072101635100733",
           "name": "били б билисимо"
         },
         {
-          "id": "1407789136965931088",
-          "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
+          "id": "834060139006394368",
+          "name": "ZPNK666"
         },
         {
           "id": "1433504994824425640",
@@ -1506,6 +1513,14 @@
         {
           "id": "993900146930753606",
           "name": "АУДИТОР"
+        },
+        {
+          "id": "1407789136965931088",
+          "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
+        },
+        {
+          "id": "1264609602540929140",
+          "name": "dark_soul"
         }
       ],
       "user_limit": 0
@@ -1513,12 +1528,8 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        },
         {
           "id": "1311555070160277525",
           "name": "TAMERLAN 12K (а чо? а хз)"
@@ -1888,6 +1899,17 @@
       "total": 2
     },
     {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "text": 2,
+      "images": 0,
+      "voice": 0,
+      "stickers": 0,
+      "gifs": 0,
+      "files": 0,
+      "total": 2
+    },
+    {
       "id": "1390304716570755096",
       "name": "dertix_zxc ⚜",
       "text": 2,
@@ -1901,17 +1923,6 @@
     {
       "id": "1248970731849777152",
       "name": "СОЛНЕШКО",
-      "text": 1,
-      "images": 0,
-      "voice": 0,
-      "stickers": 0,
-      "gifs": 0,
-      "files": 0,
-      "total": 1
-    },
-    {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
       "text": 1,
       "images": 0,
       "voice": 0,
