@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T22:03:49.827814+00:00",
+  "updated_at": "2026-03-17T22:04:49.834213+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,13 +11,13 @@
     "online_count": 5,
     "offline_count": 29,
     "in_voice_count": 3,
-    "messages_today": 54,
+    "messages_today": 61,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 49,
-    "images": 1,
+    "text": 55,
+    "images": 2,
     "gifs": 2,
     "stickers": 2,
     "voice": 0,
@@ -114,24 +114,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 38,
-        "images": 0,
+        "text": 44,
+        "images": 1,
         "voice": 0,
         "stickers": 2,
         "gifs": 2,
         "files": 0,
-        "total": 42
+        "total": 49
       },
       "stats_all": {
-        "text": 58,
-        "images": 1,
+        "text": 64,
+        "images": 2,
         "voice": 0,
         "stickers": 2,
         "gifs": 4,
         "files": 0,
-        "total": 65
+        "total": 72
       },
-      "total_messages": 58,
+      "total_messages": 64,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -140,37 +140,37 @@
       },
       "recent_messages": [
         {
-          "time": "17.03.2026 22:02",
+          "time": "17.03.2026 22:04",
           "channel": "💬-общий-чат",
-          "content": "или нет",
+          "content": "2021",
           "type": "text",
           "preview": ""
         },
         {
-          "time": "17.03.2026 22:02",
+          "time": "17.03.2026 22:04",
           "channel": "💬-общий-чат",
-          "content": "в др",
+          "content": "хаги ваги",
           "type": "text",
           "preview": ""
         },
         {
-          "time": "17.03.2026 22:02",
+          "time": "17.03.2026 22:04",
           "channel": "💬-общий-чат",
-          "content": "ты будешь принимать запрос",
+          "content": "хаххахбля",
           "type": "text",
           "preview": ""
         },
         {
-          "time": "17.03.2026 22:00",
+          "time": "17.03.2026 22:04",
           "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/anya-forger-spy-x-family-gif-16175494423033203390",
-          "type": "gifs",
-          "preview": "https://tenor.com/view/anya-forger-spy-x-family-gif-16175494423033203390"
+          "content": "я хаги вари",
+          "type": "text",
+          "preview": ""
         },
         {
-          "time": "17.03.2026 21:59",
+          "time": "17.03.2026 22:04",
           "channel": "💬-общий-чат",
-          "content": "долго",
+          "content": "кинула я",
           "type": "text",
           "preview": ""
         }
@@ -1914,13 +1914,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 58,
-      "images": 1,
+      "text": 64,
+      "images": 2,
       "voice": 0,
       "stickers": 2,
       "gifs": 4,
       "files": 0,
-      "total": 65
+      "total": 72
     },
     {
       "id": "834060139006394368",
