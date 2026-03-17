@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 02:56:55",
+  "updated_at": "18.03.2026 02:59:38",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -1469,15 +1469,7 @@
     "ислам": 5,
     "iPhone": 3
   },
-  "hourly_history": [
-    {
-      "time": "18.03 02:00",
-      "hour": 2,
-      "online": 7,
-      "in_voice": 0,
-      "messages": 0
-    }
-  ],
+  "hourly_history": [],
   "recent_join_leave": [],
   "top_chatters": [
     {
