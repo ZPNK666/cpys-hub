@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T22:01:49.834622+00:00",
+  "updated_at": "2026-03-17T22:02:49.835618+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,12 +11,12 @@
     "online_count": 5,
     "offline_count": 29,
     "in_voice_count": 3,
-    "messages_today": 51,
+    "messages_today": 54,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 46,
+    "text": 49,
     "images": 1,
     "gifs": 2,
     "stickers": 2,
@@ -114,24 +114,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 35,
+        "text": 38,
         "images": 0,
         "voice": 0,
         "stickers": 2,
         "gifs": 2,
         "files": 0,
-        "total": 39
+        "total": 42
       },
       "stats_all": {
-        "text": 55,
+        "text": 58,
         "images": 1,
         "voice": 0,
         "stickers": 2,
         "gifs": 4,
         "files": 0,
-        "total": 62
+        "total": 65
       },
-      "total_messages": 55,
+      "total_messages": 58,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -139,6 +139,27 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 22:02",
+          "channel": "💬-общий-чат",
+          "content": "или нет",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "17.03.2026 22:02",
+          "channel": "💬-общий-чат",
+          "content": "в др",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "17.03.2026 22:02",
+          "channel": "💬-общий-чат",
+          "content": "ты будешь принимать запрос",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "17.03.2026 22:00",
           "channel": "💬-общий-чат",
@@ -150,27 +171,6 @@
           "time": "17.03.2026 21:59",
           "channel": "💬-общий-чат",
           "content": "долго",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 21:59",
-          "channel": "💬-общий-чат",
-          "content": "которые не в сети",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 21:59",
-          "channel": "💬-общий-чат",
-          "content": "ярик тебе не пора ли чистить людей",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 21:58",
-          "channel": "💬-общий-чат",
-          "content": "<:aa85cfb3345045d681793ff60190b186:1458729037391462541>",
           "type": "text",
           "preview": ""
         }
@@ -1914,13 +1914,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 55,
+      "text": 58,
       "images": 1,
       "voice": 0,
       "stickers": 2,
       "gifs": 4,
       "files": 0,
-      "total": 62
+      "total": 65
     },
     {
       "id": "834060139006394368",
