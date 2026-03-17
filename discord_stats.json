@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T20:49:49.829198+00:00",
+  "updated_at": "2026-03-17T20:50:49.829070+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S Hub",
@@ -11,12 +11,12 @@
     "online_count": 6,
     "offline_count": 28,
     "in_voice_count": 4,
-    "messages_today": 16,
+    "messages_today": 19,
     "text_channels_count": 10,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 15,
+    "text": 18,
     "images": 1,
     "gifs": 0,
     "stickers": 0,
@@ -114,24 +114,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 6,
+        "text": 9,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 9
       },
       "stats_all": {
-        "text": 26,
+        "text": 29,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 29
+        "total": 32
       },
-      "total_messages": 26,
+      "total_messages": 29,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -139,6 +139,27 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "17.03.2026 20:50",
+          "channel": "💬-общий-чат",
+          "content": "купили ахах",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "17.03.2026 20:50",
+          "channel": "💬-общий-чат",
+          "content": "ноут",
+          "type": "text",
+          "preview": ""
+        },
+        {
+          "time": "17.03.2026 20:50",
+          "channel": "💬-общий-чат",
+          "content": "че та не загружает",
+          "type": "text",
+          "preview": ""
+        },
         {
           "time": "17.03.2026 20:47",
           "channel": "💬-общий-чат",
@@ -150,27 +171,6 @@
           "time": "17.03.2026 20:47",
           "channel": "💬-общий-чат",
           "content": "1x43l",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 20:47",
-          "channel": "💬-общий-чат",
-          "content": "как зайти то к вам",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 20:45",
-          "channel": "💬-общий-чат",
-          "content": "в профиле",
-          "type": "text",
-          "preview": ""
-        },
-        {
-          "time": "17.03.2026 20:44",
-          "channel": "💬-общий-чат",
-          "content": "а то скукчно",
           "type": "text",
           "preview": ""
         }
@@ -1897,13 +1897,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 26,
+      "text": 29,
       "images": 1,
       "voice": 0,
       "stickers": 0,
       "gifs": 2,
       "files": 0,
-      "total": 29
+      "total": 32
     },
     {
       "id": "834060139006394368",
