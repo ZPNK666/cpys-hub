@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T19:42:49.856433+00:00",
+  "updated_at": "2026-03-17T19:43:49.862953+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -309,6 +309,17 @@
         "preview_url": "",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1483551391732727981",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 19:43",
+        "content": "Что ты аж на сервере самого  мафаня",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
       }
     ],
     "1286072101635100733": [
@@ -320,6 +331,17 @@
         "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
         "type": "images",
         "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483551389643833415",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 19:43",
+        "content": "https://giphy.com/gifs/pot-greed-of-iyumu37OfXGzQALCLI",
+        "type": "text",
+        "preview_url": "",
         "attachments": [],
         "stickers": []
       }
