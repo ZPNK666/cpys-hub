@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T22:05:49.851194+00:00",
+  "updated_at": "2026-03-17T22:06:49.903272+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -824,6 +824,17 @@
         "channel_id": "1450428861836951674",
         "time": "17.03.2026 22:05",
         "content": "принимай ало",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483587230839734387",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 22:05",
+        "content": "Нажми на ссылку, чтобы добавить игрока хаги ваги в друзья в Brawl Stars! https://link.brawlstars.com/invite/friend/ru?tag=8GPQL0PGC&token=g9e4dsca",
         "type": "text",
         "preview_url": "",
         "attachments": [],
