@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T21:38:49.851474+00:00",
+  "updated_at": "2026-03-17T21:39:49.831852+00:00",
   "users": {
     "1292870612531937358": [
       {
@@ -429,6 +429,28 @@
         "content": "https://tenor.com/view/anime-sleepy-tired-gif-10598302318222693731",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/anime-sleepy-tired-gif-10598302318222693731",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483580579269316648",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:39",
+        "content": "ярик хватит говорить эту фразу",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483580598491811910",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "17.03.2026 21:39",
+        "content": "надоедает",
+        "type": "text",
+        "preview_url": "",
         "attachments": [],
         "stickers": []
       }
