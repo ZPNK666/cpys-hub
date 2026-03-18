@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 01:15:59",
+  "updated_at": "19.03.2026 01:16:59",
   "online_now": [],
   "online_count": 0,
   "total_players": 4,
@@ -13,7 +13,7 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     "t:1772817321:R": {
       "name": "t:1772817321:R",
@@ -24,12 +24,12 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     "ZPNK666": {
       "name": "ZPNK666",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -59,7 +59,7 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "t:1772817321:R",
@@ -70,12 +70,12 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "ZPNK666",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -105,7 +105,7 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "t:1772817321:R",
@@ -116,12 +116,12 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "ZPNK666",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -151,7 +151,7 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "t:1772817321:R",
@@ -162,12 +162,12 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "ZPNK666",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -197,7 +197,7 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "t:1772817321:R",
@@ -208,12 +208,12 @@
       "last_join": null,
       "last_quit": null,
       "joins": 0,
-      "messages": 3
+      "messages": 6
     },
     {
       "name": "ZPNK666",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -263,6 +263,36 @@
       "player": "t:1772817321:R",
       "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
       "time": "19.03.2026 01:11:01"
+    },
+    {
+      "player": "t:1772794470:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:44"
+    },
+    {
+      "player": "t:1772794470:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:44"
+    },
+    {
+      "player": "t:1772794470:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:44"
+    },
+    {
+      "player": "t:1772817321:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:45"
+    },
+    {
+      "player": "t:1772817321:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:45"
+    },
+    {
+      "player": "t:1772817321:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:45"
     }
   ],
   "events": [
@@ -315,6 +345,49 @@
       "killer": "",
       "time": "19.03.2026 01:12:18",
       "msg": ".OpxeN4803 » да че я себя не могу убить"
+    },
+    {
+      "type": "chat",
+      "player": "t:1772794470:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:44"
+    },
+    {
+      "type": "chat",
+      "player": "t:1772794470:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:44"
+    },
+    {
+      "type": "chat",
+      "player": "t:1772794470:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:44"
+    },
+    {
+      "type": "chat",
+      "player": "t:1772817321:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:45"
+    },
+    {
+      "type": "chat",
+      "player": "t:1772817321:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:45"
+    },
+    {
+      "type": "chat",
+      "player": "t:1772817321:R",
+      "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
+      "time": "19.03.2026 01:16:45"
+    },
+    {
+      "type": "death",
+      "player": "ZPNK666",
+      "killer": "",
+      "time": "19.03.2026 01:16:47",
+      "msg": "ZPNK666 » убить"
     }
   ],
   "first_ever": null,
