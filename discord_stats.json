@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 15:05:56",
+  "updated_at": "18.03.2026 15:06:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 4,
-    "offline_count": 30,
+    "online_count": 3,
+    "offline_count": 31,
     "in_voice_count": 1,
-    "messages_today": 2,
+    "messages_today": 3,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 2,
+    "text": 3,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -39,24 +39,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "stats_all": {
-        "text": 14,
+        "text": 15,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 14
+        "total": 15
       },
-      "total_messages": 14,
+      "total_messages": 15,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -64,6 +64,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "18.03.2026 15:06",
+          "channel": "💬-общий-чат",
+          "content": "https://www.avito.ru/ryazan/odezhda_obuv_aksessuary/nike_air_jordan_1_travis_scott_-_black_phantom_3",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "18.03.2026 14:05",
           "channel": "💬-общий-чат",
@@ -83,45 +92,6 @@
           "stickers": []
         }
       ]
-    },
-    {
-      "id": "1451592083935592490",
-      "name": "KUTSI",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1451592083935592490/b3ca214729a78ba361b37d8e880ee88a.png?size=1024",
-      "joined_at": "2026-02-25T10:14:05.604000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     },
     {
       "id": "1255232329362833409",
@@ -351,6 +321,45 @@
         "total": 78
       },
       "total_messages": 70,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1451592083935592490",
+      "name": "KUTSI",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1451592083935592490/b3ca214729a78ba361b37d8e880ee88a.png?size=1024",
+      "joined_at": "2026-02-25T10:14:05.604000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1525,13 +1534,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 14,
+      "text": 15,
       "images": 0,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 14
+      "total": 15
     },
     {
       "id": "1264609602540929140",
