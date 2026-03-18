@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 01:17:59",
+  "updated_at": "19.03.2026 01:18:22",
   "online_now": [],
   "online_count": 0,
   "total_players": 4,
@@ -40,7 +40,7 @@
     ".OpxeN4803": {
       "name": ".OpxeN4803",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -86,7 +86,7 @@
     {
       "name": ".OpxeN4803",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -132,7 +132,7 @@
     {
       "name": ".OpxeN4803",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -178,7 +178,7 @@
     {
       "name": ".OpxeN4803",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -224,7 +224,7 @@
     {
       "name": ".OpxeN4803",
       "kills": 0,
-      "deaths": 1,
+      "deaths": 2,
       "playtime_min": 0,
       "first_join": null,
       "last_join": null,
@@ -388,6 +388,13 @@
       "killer": "",
       "time": "19.03.2026 01:16:47",
       "msg": "ZPNK666 » убить"
+    },
+    {
+      "type": "death",
+      "player": ".OpxeN4803",
+      "killer": "",
+      "time": "19.03.2026 01:18:14",
+      "msg": ".OpxeN4803 » да че я себя не могу убить"
     }
   ],
   "first_ever": null,
