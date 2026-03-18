@@ -1,0 +1,18 @@
+{
+  "updated_at": "19.03.2026 01:10:21",
+  "banner": {
+    "enabled": false,
+    "image_url": "",
+    "title": "",
+    "text": "",
+    "link": ""
+  },
+  "spawn_image": "",
+  "announcements": [],
+  "pinned_photos": [],
+  "server_info": {
+    "ip": "CPYSHub.aternos.me",
+    "version": "",
+    "description": ""
+  }
+}
