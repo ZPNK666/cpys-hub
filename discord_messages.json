@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:33:56",
+  "updated_at": "18.03.2026 17:34:56",
   "users": {
     "834060139006394368": [
       {
@@ -158,6 +158,17 @@
         "channel_id": "1450428861836951674",
         "time": "18.03.2026 17:33",
         "content": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483836000903106590",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "18.03.2026 17:34",
+        "content": "",
         "type": "text",
         "preview_url": "",
         "attachments": [],
