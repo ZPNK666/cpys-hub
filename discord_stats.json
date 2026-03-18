@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 02:04:23",
+  "updated_at": "19.03.2026 02:04:32",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -4098,8 +4098,8 @@
       "hour": 2,
       "date": "2026-03-19",
       "messages": 0,
-      "online": 0,
-      "in_voice": 0
+      "online": 7,
+      "in_voice": 1
     }
   ],
   "recent_join_leave": [],
