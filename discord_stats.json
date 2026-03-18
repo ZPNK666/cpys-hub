@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:33:56",
+  "updated_at": "18.03.2026 17:34:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 8,
-    "offline_count": 26,
+    "online_count": 9,
+    "offline_count": 25,
     "in_voice_count": 3,
-    "messages_today": 7,
+    "messages_today": 8,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 5,
+    "text": 6,
     "images": 13,
     "gifs": 0,
     "stickers": 0,
@@ -308,6 +308,45 @@
       ]
     },
     {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-09T07:12:13.865000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 4,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 4
+      },
+      "total_messages": 4,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
       "id": "841719455162564620",
       "name": "Heldy",
       "status": "online",
@@ -360,24 +399,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
       "joined_at": "2026-03-08T20:22:22.892000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "stats_all": {
-        "text": 4,
+        "text": 5,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 5
+        "total": 6
       },
-      "total_messages": 4,
+      "total_messages": 5,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -385,6 +424,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "18.03.2026 17:34",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "18.03.2026 17:33",
           "channel": "💬-общий-чат",
@@ -943,45 +991,6 @@
         "total": 0
       },
       "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-09T07:12:13.865000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 4,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 4
-      },
-      "total_messages": 4,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1685,13 +1694,13 @@
     {
       "id": "1286072101635100733",
       "name": "били б билисимо",
-      "text": 4,
+      "text": 5,
       "images": 1,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 5
+      "total": 6
     },
     {
       "id": "1264609602540929140",
