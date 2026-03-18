@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:48:56",
+  "updated_at": "18.03.2026 17:49:56",
   "users": {
     "834060139006394368": [
       {
@@ -193,6 +193,17 @@
         "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483839778171650138",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "18.03.2026 17:49",
+        "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
         "attachments": [],
         "stickers": []
       }
