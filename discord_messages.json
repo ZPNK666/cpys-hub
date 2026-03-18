@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:56:56",
+  "updated_at": "18.03.2026 17:57:56",
   "users": {
     "834060139006394368": [
       {
@@ -204,6 +204,17 @@
         "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483841890800631828",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "18.03.2026 17:57",
+        "content": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
         "attachments": [],
         "stickers": []
       }
