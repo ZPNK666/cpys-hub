@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 14:46:56",
+  "updated_at": "18.03.2026 14:47:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 3,
-    "offline_count": 31,
+    "online_count": 2,
+    "offline_count": 32,
     "in_voice_count": 1,
     "messages_today": 2,
     "text_channels_count": 10
@@ -83,45 +83,6 @@
           "stickers": []
         }
       ]
-    },
-    {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-09T07:12:13.865000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 4,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 4
-      },
-      "total_messages": 4,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     },
     {
       "id": "1311555070160277525",
@@ -737,6 +698,45 @@
         "total": 0
       },
       "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-09T07:12:13.865000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 4,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 4
+      },
+      "total_messages": 4,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
