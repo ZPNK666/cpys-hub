@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 01:25:59",
+  "updated_at": "19.03.2026 02:04:23",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,19 +9,19 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 1,
-    "offline_count": 33,
-    "in_voice_count": 0,
+    "online_count": 2,
+    "offline_count": 32,
+    "in_voice_count": 1,
     "messages_today": 0,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 2613,
-    "images": 250,
-    "gifs": 137,
-    "stickers": 52,
-    "voice": 16,
-    "files": 49
+    "text": 0,
+    "images": 0,
+    "gifs": 0,
+    "stickers": 0,
+    "voice": 0,
+    "files": 0
   },
   "online_members": [
     {
@@ -46,24 +46,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 540,
-        "images": 60,
+        "text": 0,
+        "images": 0,
         "voice": 0,
-        "stickers": 13,
-        "gifs": 5,
-        "files": 17,
-        "total": 620
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
       },
       "stats_all": {
-        "text": 1096,
-        "images": 120,
+        "text": 1285,
+        "images": 179,
         "voice": 0,
-        "stickers": 26,
-        "gifs": 10,
-        "files": 34,
-        "total": 1256
+        "stickers": 28,
+        "gifs": 13,
+        "files": 41,
+        "total": 1491
       },
-      "total_messages": 1096,
+      "total_messages": 1285,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -72,47 +72,133 @@
       },
       "recent_messages": [
         {
-          "time": "15.03.2026 02:53",
-          "channel": "🔞хент-18",
-          "content": "https://hot.noodlemagazine.com/video/слив+девушек",
+          "time": "04.03.2026 19:34",
+          "channel": "💬-общий-чат",
+          "content": "<@1255232329362833409>захади срочно",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "15.03.2026 02:12",
-          "channel": "🔞хент-18",
-          "content": "https://www.newgrounds.com/portal/view/1018013",
+          "time": "04.03.2026 19:33",
+          "channel": "💬-общий-чат",
+          "content": "<@1168859596899766352>милад захади",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "09.03.2026 11:37",
-          "channel": "🔞хент-18",
-          "content": "https://cdn.videy.plus/W7FF1ph71.mp4\n\nhttps://cdn.videy.plus/T3Sd1m7e1.mp4\n\nhttps://cdn.videy.plus/S",
+          "time": "04.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "иди сасис с гаредем",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "09.03.2026 11:22",
-          "channel": "🔞хент-18",
-          "content": "https://cdn2.videy.co/zkFwSHEd1.mp4",
+          "time": "04.03.2026 18:12",
+          "channel": "💬-общий-чат",
+          "content": "<:vermelhoilustradordealarmeilustr:1478771396657156177>  @everyone \nC.P.Y.S MINECRAFT ОТКРЫТ! ГАНГ, ",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "09.03.2026 00:35",
-          "channel": "🔞хент-18",
-          "content": "Полиция и реальность\n@PoliceRealites\n·\n15 часов\n0:20 / 0:21\nОБНОВЛЕНИЕ СТИПП ХАРИ\n@bercgizi\n·\n3 часа",
+          "time": "04.03.2026 17:59",
+          "channel": "💬-общий-чат",
+          "content": "Скины по URL",
           "type": "text",
           "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 123,
+        "images": 148,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 122,
+        "files": 0,
+        "total": 393
+      },
+      "total_messages": 123,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "28.02.2026 22:05",
+          "channel": "💬-общий-чат",
+          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 18:59",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 18:59",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 18:59",
+          "channel": "💬-общий-чат",
+          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 14:43",
+          "channel": "💬-общий-чат",
+          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
           "attachments": [],
           "stickers": []
         }
@@ -133,24 +219,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1354100925043703870/66151768e8397ecd097fa1d554f3ab9d.png?size=1024",
       "joined_at": "2026-02-25T09:16:52.122000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
-        "stickers": 1,
+        "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 0
       },
       "stats_all": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
-        "stickers": 2,
+        "stickers": 3,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 6
       },
-      "total_messages": 2,
+      "total_messages": 3,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -203,6 +289,20 @@
           "preview_url": "",
           "attachments": [],
           "stickers": []
+        },
+        {
+          "time": "28.02.2026 09:13",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
+            }
+          ]
         }
       ]
     },
@@ -219,6 +319,15 @@
       "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
       "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
         "text": 1,
         "images": 0,
         "voice": 0,
@@ -227,16 +336,7 @@
         "files": 0,
         "total": 1
       },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
+      "total_messages": 1,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -244,15 +344,6 @@
         "last_seen": null
       },
       "recent_messages": [
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
         {
           "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
@@ -277,24 +368,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 975,
-        "images": 45,
-        "voice": 2,
-        "stickers": 30,
-        "gifs": 76,
-        "files": 24,
-        "total": 1146
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
       },
       "stats_all": {
-        "text": 2021,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 156,
-        "files": 48,
-        "total": 2371
+        "text": 2683,
+        "images": 148,
+        "voice": 5,
+        "stickers": 68,
+        "gifs": 203,
+        "files": 72,
+        "total": 3166
       },
-      "total_messages": 2021,
+      "total_messages": 2683,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -303,87 +394,63 @@
       },
       "recent_messages": [
         {
-          "time": "17.02.2026 06:52",
-          "channel": "📝-предложения-2026",
-          "content": "удалить все нахуй",
+          "time": "04.03.2026 19:36",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/1451282762417049754.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Еблан?",
+              "url": "https://cdn.discordapp.com/stickers/1451282762417049754.png"
+            }
+          ]
+        },
+        {
+          "time": "04.03.2026 19:35",
+          "channel": "💬-общий-чат",
+          "content": "ярик тебя никто не лубит",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "17.02.2026 06:57",
-          "channel": "🎧-включи-музыку",
+          "time": "04.03.2026 18:54",
+          "channel": "💬-общий-чат",
           "content": "",
-          "type": "voice",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473102516815134861/1473166511937163379/Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3?ex=69bc1cfa&is=69bacb7a&hm=3003237782780ea9f6f20563ab26a53eba67fb34eda14f1a3afc6fea62cc89f0&",
-          "attachments": [
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/1451282762417049754.png",
+          "attachments": [],
+          "stickers": [
             {
-              "type": "voice",
-              "url": "https://cdn.discordapp.com/attachments/1473102516815134861/1473166511937163379/Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3?ex=69bc1cfa&is=69bacb7a&hm=3003237782780ea9f6f20563ab26a53eba67fb34eda14f1a3afc6fea62cc89f0&",
-              "filename": "Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3",
-              "size": 2138496
+              "name": "Еблан?",
+              "url": "https://cdn.discordapp.com/stickers/1451282762417049754.png"
             }
-          ],
-          "stickers": []
+          ]
         },
         {
-          "time": "25.02.2026 19:31",
-          "channel": "🔞хент-18",
-          "content": "хуйня удаляй",
+          "time": "04.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/1451282762417049754.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Еблан?",
+              "url": "https://cdn.discordapp.com/stickers/1451282762417049754.png"
+            }
+          ]
+        },
+        {
+          "time": "04.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "завидуй",
           "type": "text",
           "preview_url": "",
           "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "16.03.2026 08:05",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "",
-          "type": "files",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1482967965472264274/v0f044gc0000csjjg7nog65v0jb8hir0.mov?ex=69bc2ccb&is=69badb4b&hm=a80f3023e295a2d35f3096f66dcc0840bc1625db5457982306210f020f2a470c&",
-          "attachments": [
-            {
-              "type": "files",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1482967965472264274/v0f044gc0000csjjg7nog65v0jb8hir0.mov?ex=69bc2ccb&is=69badb4b&hm=a80f3023e295a2d35f3096f66dcc0840bc1625db5457982306210f020f2a470c&",
-              "filename": "v0f044gc0000csjjg7nog65v0jb8hir0.mov",
-              "size": 5453925
-            },
-            {
-              "type": "files",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1482967966269308990/v12044gd0000d02ml2nog65qpmkv2bhg.mov?ex=69bc2ccb&is=69badb4b&hm=3156b0ad85fa58015b0602da4ab47fc1f93e183b02b58aa0f6764dd287a1d593&",
-              "filename": "v12044gd0000d02ml2nog65qpmkv2bhg.mov",
-              "size": 1933839
-            },
-            {
-              "type": "files",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1482967966931877949/v12044gd0000d4cv4snog65viai1esb0.mov?ex=69bc2ccb&is=69badb4b&hm=a43dd8f3fa9ffee3535e86a6c208445b18ec70a03d1ce3343f59ceb9e0f10087&",
-              "filename": "v12044gd0000d4cv4snog65viai1esb0.mov",
-              "size": 9032558
-            },
-            {
-              "type": "files",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1482967967993167992/v09044g40000d1hndt7og65v2c033d7g.mp4?ex=69bc2ccb&is=69badb4b&hm=15d67a3d15d8342eed9d472691c7e481449026d980c0a0f694a4a07906839f7e&",
-              "filename": "v09044g40000d1hndt7og65v2c033d7g.mp4",
-              "size": 1074239
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "19.02.2026 19:34",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1474081740141367449/77CA5907-900D-44B4-8ACE-8A02D9AE6DF2.jpg?ex=69bc2599&is=69bad419&hm=65bf676f0818ce7262371adafb33d762617189cae8c79786efc4f1c4a7db8d55&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1474081740141367449/77CA5907-900D-44B4-8ACE-8A02D9AE6DF2.jpg?ex=69bc2599&is=69bad419&hm=65bf676f0818ce7262371adafb33d762617189cae8c79786efc4f1c4a7db8d55&",
-              "filename": "77CA5907-900D-44B4-8ACE-8A02D9AE6DF2.jpg",
-              "size": 79859
-            }
-          ],
           "stickers": []
         }
       ]
@@ -477,13 +544,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
       "joined_at": "2026-03-08T14:24:44.002000+00:00",
       "stats_today": {
-        "text": 6,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 0
       },
       "stats_all": {
         "text": 12,
@@ -503,36 +570,36 @@
       },
       "recent_messages": [
         {
-          "time": "18.03.2026 02:16",
-          "channel": "🔞хент-18",
-          "content": "Твоя?",
+          "time": "20.02.2026 13:16",
+          "channel": "💬-общий-чат",
+          "content": "https://youtu.be/HnP7TjHyBdM?si=nMCUUCjn3U6vlaMf",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "08.03.2026 17:25",
+          "time": "17.02.2026 02:54",
           "channel": "💬-общий-чат",
-          "content": "",
+          "content": "Ярик, это ахуйтильно, чат крутой",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 21:35",
+          "time": "20.02.2026 13:16",
           "channel": "💬-общий-чат",
-          "content": "Что то давно не разговаривал в этой группе",
+          "content": "https://youtu.be/HnP7TjHyBdM?si=nMCUUCjn3U6vlaMf",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 21:35",
+          "time": "17.02.2026 02:54",
           "channel": "💬-общий-чат",
-          "content": "Крута",
+          "content": "Ярик, это ахуйтильно, чат крутой",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -562,6 +629,15 @@
       "avatar": "https://cdn.discordapp.com/avatars/1199379572861456485/0b404789ce17d49df9ed4304acf3ffda.png?size=1024",
       "joined_at": "2026-03-13T14:55:36.699000+00:00",
       "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
         "text": 2,
         "images": 0,
         "voice": 0,
@@ -570,16 +646,7 @@
         "files": 0,
         "total": 2
       },
-      "stats_all": {
-        "text": 4,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 4
-      },
-      "total_messages": 4,
+      "total_messages": 2,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -587,24 +654,6 @@
         "last_seen": null
       },
       "recent_messages": [
-        {
-          "time": "14.03.2026 22:32",
-          "channel": "💬-общий-чат",
-          "content": "Всем здарова",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 22:32",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
         {
           "time": "14.03.2026 22:32",
           "channel": "💬-общий-чат",
@@ -636,6 +685,15 @@
       "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
       "joined_at": "2026-01-22T18:23:10.803000+00:00",
       "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
         "text": 1,
         "images": 0,
         "voice": 0,
@@ -644,16 +702,7 @@
         "files": 0,
         "total": 1
       },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
+      "total_messages": 1,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -661,15 +710,6 @@
         "last_seen": null
       },
       "recent_messages": [
-        {
-          "time": "08.03.2026 21:04",
-          "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
         {
           "time": "08.03.2026 21:04",
           "channel": "💬-общий-чат",
@@ -694,24 +734,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
       "joined_at": "2026-02-25T13:00:26.272000+00:00",
       "stats_today": {
-        "text": 32,
-        "images": 45,
+        "text": 0,
+        "images": 0,
         "voice": 0,
-        "stickers": 3,
+        "stickers": 0,
         "gifs": 0,
-        "files": 5,
-        "total": 51
+        "files": 0,
+        "total": 0
       },
       "stats_all": {
-        "text": 64,
-        "images": 103,
+        "text": 61,
+        "images": 73,
         "voice": 0,
-        "stickers": 6,
+        "stickers": 7,
         "gifs": 0,
-        "files": 10,
-        "total": 104
+        "files": 9,
+        "total": 98
       },
-      "total_messages": 64,
+      "total_messages": 61,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -720,58 +760,65 @@
       },
       "recent_messages": [
         {
-          "time": "13.03.2026 19:21",
-          "channel": "🔞хент-18",
-          "content": "ДА",
+          "time": "04.03.2026 13:47",
+          "channel": "💬-общий-чат",
+          "content": "капец",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "13.03.2026 18:59",
-          "channel": "🔞хент-18",
+          "time": "03.03.2026 19:45",
+          "channel": "💬-общий-чат",
           "content": "",
           "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1482045396237943006/RobloxScreenShot20260312_165500805.png?ex=69bc1d55&is=69bacbd5&hm=20426d10d792aabd83f585b2d8f7ce2d259476460875f73f204833b3474db046&",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1478433158734287142/IMG_20260303_194503.jpg?ex=69bc282d&is=69bad6ad&hm=5bfad26a4ca142459cf651e87d653290b8e3ad5ce6aafdaae036c88c7cfc4ec3&",
           "attachments": [
             {
               "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1482045396237943006/RobloxScreenShot20260312_165500805.png?ex=69bc1d55&is=69bacbd5&hm=20426d10d792aabd83f585b2d8f7ce2d259476460875f73f204833b3474db046&",
-              "filename": "RobloxScreenShot20260312_165500805.png",
-              "size": 1065856
-            },
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1482045396930007142/RobloxScreenShot20260313_185758162.png?ex=69bc1d55&is=69bacbd5&hm=98c4f1fffaae0ca4665c61868bcfc79389c11c1c73bfbbbd1e34e3a63f622b8f&",
-              "filename": "RobloxScreenShot20260313_185758162.png",
-              "size": 2315381
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1478433158734287142/IMG_20260303_194503.jpg?ex=69bc282d&is=69bad6ad&hm=5bfad26a4ca142459cf651e87d653290b8e3ad5ce6aafdaae036c88c7cfc4ec3&",
+              "filename": "IMG_20260303_194503.jpg",
+              "size": 361718
             }
           ],
           "stickers": []
         },
         {
-          "time": "25.02.2026 23:15",
-          "channel": "🔞хент-18",
-          "content": "Правда?",
+          "time": "28.02.2026 23:19",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "files",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477399826953015306/83ffb3fd7c2f2a2ffeb474a9bbd5bfa7.mp4?ex=69bc5a4f&is=69bb08cf&hm=534c0e8f8763ba36ea859ed4e5085b31f2685d236844a11f13392b128791af05&",
+          "attachments": [
+            {
+              "type": "files",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477399826953015306/83ffb3fd7c2f2a2ffeb474a9bbd5bfa7.mp4?ex=69bc5a4f&is=69bb08cf&hm=534c0e8f8763ba36ea859ed4e5085b31f2685d236844a11f13392b128791af05&",
+              "filename": "83ffb3fd7c2f2a2ffeb474a9bbd5bfa7.mp4",
+              "size": 1259467
+            },
+            {
+              "type": "files",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477399827603259584/24251bf8f282d179624f48d7f61c08f5.mp4?ex=69bc5a4f&is=69bb08cf&hm=4b31a8c873c751c3c57d1ba55a41f34211ecefcb1e996ceacbbc30023eb96fd4&",
+              "filename": "24251bf8f282d179624f48d7f61c08f5.mp4",
+              "size": 4660327
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 23:19",
+          "channel": "💬-общий-чат",
+          "content": "Тож",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "16.03.2026 11:26",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "Хахаха 😂",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "15.03.2026 23:26",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "@V - Значит Вендетта:Ну чё ты несёшь, просто бред. Дети там были!!! Иначе кого бы ел Сталин?",
+          "time": "28.02.2026 13:51",
+          "channel": "💬-общий-чат",
+          "content": "чо не надо пж",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -792,6 +839,15 @@
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/f99c05ce7231da84dcff4024cf534fb6.png?size=1024",
       "joined_at": "2026-03-04T19:17:28.533000+00:00",
       "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
         "text": 1,
         "images": 2,
         "voice": 0,
@@ -800,16 +856,7 @@
         "files": 0,
         "total": 3
       },
-      "stats_all": {
-        "text": 2,
-        "images": 4,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 6
-      },
-      "total_messages": 2,
+      "total_messages": 1,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -822,11 +869,11 @@
           "channel": "💬-общий-чат",
           "content": "",
           "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bc75cd&is=69bb244d&hm=4ac94cd8b9601e404352303a5f4d0125c6944222edf907168e331b9636f576e0&",
           "attachments": [
             {
               "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bc75cd&is=69bb244d&hm=4ac94cd8b9601e404352303a5f4d0125c6944222edf907168e331b9636f576e0&",
               "filename": "image.png",
               "size": 148146
             }
@@ -850,31 +897,6 @@
           "preview_url": "",
           "attachments": [],
           "stickers": []
-        },
-        {
-          "time": "11.03.2026 13:16",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
-              "filename": "image.png",
-              "size": 148146
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 13:08",
-          "channel": "💬-общий-чат",
-          "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
-          "type": "images",
-          "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
-          "attachments": [],
-          "stickers": []
         }
       ]
     },
@@ -891,24 +913,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1444371204424339506/3f6772504cda146f14ae8653ac488db9.png?size=1024",
       "joined_at": "2026-02-25T08:17:15.077000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
       },
       "stats_all": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
-      "total_messages": 2,
+      "total_messages": 3,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -916,6 +938,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "25.02.2026 11:20",
+          "channel": "💬-общий-чат",
+          "content": "Привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "25.02.2026 11:20",
           "channel": "💬-общий-чат",
@@ -949,24 +980,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
       "joined_at": "2026-02-17T15:54:04.631000+00:00",
       "stats_today": {
-        "text": 108,
-        "images": 21,
-        "voice": 10,
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 185,
+        "images": 38,
+        "voice": 40,
         "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 132
+        "total": 232
       },
-      "stats_all": {
-        "text": 216,
-        "images": 42,
-        "voice": 20,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 264
-      },
-      "total_messages": 216,
+      "total_messages": 185,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -975,47 +1006,54 @@
       },
       "recent_messages": [
         {
-          "time": "17.02.2026 07:01",
-          "channel": "📝-предложения-2026",
-          "content": "согласен",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:22",
-          "channel": "🔞хент-18",
-          "content": "пупу",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:20",
-          "channel": "🔞хент-18",
-          "content": "кирпич?",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:21",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "разговаривают два самоубицы один говорит давай купим пистолет второй говорит дорого давай скинемся",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "17.02.2026 06:48",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps:",
+          "time": "04.03.2026 18:34",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "images",
-          "preview_url": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiy",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1478777740206538875/image.png?ex=69bc1797&is=69bac617&hm=8c2f797b4cc7061dc58fe933298a3e10f4d9b5b8fe4a2996eddec4dc93096ad9&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1478777740206538875/image.png?ex=69bc1797&is=69bac617&hm=8c2f797b4cc7061dc58fe933298a3e10f4d9b5b8fe4a2996eddec4dc93096ad9&",
+              "filename": "image.png",
+              "size": 18414
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 18:14",
+          "channel": "💬-общий-чат",
+          "content": "вы дураки",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 18:08",
+          "channel": "💬-общий-чат",
+          "content": "я пидарас",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 14:58",
+          "channel": "💬-общий-чат",
+          "content": "ёпт у меня клиенты свастун чуть не сделали",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 12:06",
+          "channel": "💬-общий-чат",
+          "content": "я люблю сосать клавиотурой",
+          "type": "text",
+          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -1034,6 +1072,15 @@
       "avatar": "https://cdn.discordapp.com/avatars/1248970731849777152/1fac300843a6f5cc18d36b1e485a3084.png?size=1024",
       "joined_at": "2026-03-12T16:22:34.089000+00:00",
       "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
         "text": 9,
         "images": 0,
         "voice": 0,
@@ -1042,16 +1089,7 @@
         "files": 0,
         "total": 9
       },
-      "stats_all": {
-        "text": 20,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 20
-      },
-      "total_messages": 20,
+      "total_messages": 9,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1119,24 +1157,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
       "joined_at": "2025-12-16T20:26:44.708000+00:00",
       "stats_today": {
-        "text": 111,
-        "images": 6,
+        "text": 0,
+        "images": 0,
         "voice": 0,
-        "stickers": 1,
-        "gifs": 8,
-        "files": 1,
-        "total": 127
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
       },
       "stats_all": {
-        "text": 222,
-        "images": 12,
+        "text": 149,
+        "images": 14,
         "voice": 0,
-        "stickers": 2,
-        "gifs": 16,
-        "files": 2,
-        "total": 254
+        "stickers": 1,
+        "gifs": 22,
+        "files": 1,
+        "total": 187
       },
-      "total_messages": 222,
+      "total_messages": 149,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1145,45 +1183,45 @@
       },
       "recent_messages": [
         {
-          "time": "15.03.2026 18:08",
-          "channel": "⛳майнкрафт",
-          "content": "так это ты даун",
+          "time": "02.03.2026 00:25",
+          "channel": "💬-общий-чат",
+          "content": "всем спокойной ночи",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "12.03.2026 19:58",
-          "channel": "⛳майнкрафт",
-          "content": "так ты могла не делать и никто тебя не заставляет",
+          "time": "01.03.2026 18:56",
+          "channel": "💬-общий-чат",
+          "content": "я думал ты пенис кушаешь",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "11.03.2026 19:55",
-          "channel": "⛳майнкрафт",
-          "content": "214",
+          "time": "28.02.2026 22:29",
+          "channel": "💬-общий-чат",
+          "content": "описала что мы будем делать завтра",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "11.03.2026 19:46",
-          "channel": "⛳майнкрафт",
-          "content": "180",
+          "time": "28.02.2026 22:25",
+          "channel": "💬-общий-чат",
+          "content": "🤦‍♂️",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "11.03.2026 19:44",
-          "channel": "⛳майнкрафт",
-          "content": "171",
+          "time": "28.02.2026 22:25",
+          "channel": "💬-общий-чат",
+          "content": "она итак закреплено",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1204,24 +1242,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
       "joined_at": "2026-03-09T07:12:13.865000+00:00",
       "stats_today": {
-        "text": 236,
-        "images": 10,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
-        "files": 2,
-        "total": 248
+        "files": 0,
+        "total": 0
       },
       "stats_all": {
-        "text": 502,
-        "images": 20,
+        "text": 524,
+        "images": 22,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
-        "files": 4,
-        "total": 526
+        "files": 6,
+        "total": 552
       },
-      "total_messages": 502,
+      "total_messages": 524,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1230,52 +1268,45 @@
       },
       "recent_messages": [
         {
-          "time": "01.03.2026 23:25",
-          "channel": "🔞хент-18",
-          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
+          "time": "04.03.2026 19:40",
+          "channel": "💬-общий-чат",
+          "content": "ну я отношусь к тебе нейтрально",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "19.02.2026 11:00",
-          "channel": "🔞хент-18",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
-              "size": 11211
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:41",
-          "channel": "⛳майнкрафт",
-          "content": "еще 2",
+          "time": "04.03.2026 19:40",
+          "channel": "💬-общий-чат",
+          "content": "ярик я тебя ...",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "14.03.2026 19:41",
-          "channel": "⛳майнкрафт",
-          "content": "дашь спавнера",
+          "time": "04.03.2026 18:15",
+          "channel": "💬-общий-чат",
+          "content": "да",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "14.03.2026 19:39",
-          "channel": "⛳майнкрафт",
-          "content": "она не достаточно эфективна",
+          "time": "04.03.2026 18:13",
+          "channel": "💬-общий-чат",
+          "content": "ПИКМИ",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 18:01",
+          "channel": "💬-общий-чат",
+          "content": "Пикми ты пикми?",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1296,24 +1327,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
       "joined_at": "2026-02-12T18:01:19.943000+00:00",
       "stats_today": {
-        "text": 8,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 8
+        "total": 0
       },
       "stats_all": {
-        "text": 16,
+        "text": 10,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 16
+        "total": 10
       },
-      "total_messages": 16,
+      "total_messages": 10,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1321,6 +1352,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "25.02.2026 17:03",
+          "channel": "💬-общий-чат",
+          "content": "Никнейм : imtotallynewyouguys1",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "25.02.2026 17:03",
+          "channel": "💬-общий-чат",
+          "content": "Никнейм : imtotallynewyouguys1",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "07.03.2026 12:20",
           "channel": "💬-общий-чат",
@@ -1347,24 +1396,6 @@
           "preview_url": "",
           "attachments": [],
           "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:18",
-          "channel": "💬-общий-чат",
-          "content": "всем привет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "06.03.2026 22:12",
-          "channel": "💬-общий-чат",
-          "content": "z ZPN666 ghjcnj e fihs gbie",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
         }
       ]
     },
@@ -1381,6 +1412,15 @@
       "avatar": "https://cdn.discordapp.com/avatars/841719455162564620/b84e09fb39f498f980bddd23e87bc58d.png?size=1024",
       "joined_at": "2026-03-07T08:35:41.035000+00:00",
       "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
         "text": 1,
         "images": 0,
         "voice": 0,
@@ -1389,16 +1429,7 @@
         "files": 0,
         "total": 1
       },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
+      "total_messages": 1,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1406,15 +1437,6 @@
         "last_seen": null
       },
       "recent_messages": [
-        {
-          "time": "08.03.2026 00:20",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
         {
           "time": "08.03.2026 00:20",
           "channel": "💬-общий-чат",
@@ -1466,92 +1488,6 @@
       "recent_messages": []
     },
     {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 37,
-        "images": 53,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 40,
-        "files": 0,
-        "total": 130
-      },
-      "stats_all": {
-        "text": 80,
-        "images": 107,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 82,
-        "files": 0,
-        "total": 269
-      },
-      "total_messages": 80,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "18.03.2026 17:57",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:49",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:43",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:34",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:33",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1009475184090152961",
       "name": "майонез",
       "status": "offline",
@@ -1564,24 +1500,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
       "joined_at": "2026-01-12T09:11:19.082000+00:00",
       "stats_today": {
-        "text": 29,
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 67,
         "images": 0,
         "voice": 0,
         "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 30
+        "total": 68
       },
-      "stats_all": {
-        "text": 60,
-        "images": 0,
-        "voice": 0,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 62
-      },
-      "total_messages": 60,
+      "total_messages": 67,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1590,45 +1526,45 @@
       },
       "recent_messages": [
         {
-          "time": "16.03.2026 12:55",
+          "time": "03.03.2026 14:13",
           "channel": "💬-общий-чат",
-          "content": "про всё",
+          "content": "чтооо? эта вообще законг????????????????????",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "16.03.2026 12:54",
+          "time": "03.03.2026 14:13",
           "channel": "💬-общий-чат",
-          "content": "шо уже произошло",
+          "content": "тип ливай с этой планеты",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "06.03.2026 16:02",
+          "time": "03.03.2026 14:12",
           "channel": "💬-общий-чат",
-          "content": "листья с дерева как в детстве",
+          "content": "иди порыгай в поудшку",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "05.03.2026 11:02",
+          "time": "03.03.2026 14:12",
           "channel": "💬-общий-чат",
-          "content": "э а чё у мя с микро",
+          "content": "о боше шо он вытворяет сукин сын",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "05.03.2026 10:55",
+          "time": "03.03.2026 14:11",
           "channel": "💬-общий-чат",
-          "content": "спс",
+          "content": "ты просто шутить не умеешь",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1645,24 +1581,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1382290164289896542/dac5a4a087e2027ff3f62121476f0a8f.png?size=1024",
       "joined_at": "2026-01-30T09:15:57.990000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
       },
       "stats_all": {
-        "text": 2,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 4
       },
-      "total_messages": 2,
+      "total_messages": 4,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1670,6 +1606,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.02.2026 09:19",
+          "channel": "💬-общий-чат",
+          "content": "Блять меня не Было2 недели что здесь произошло шо за хуйня   Все со стикерами пиздец",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.02.2026 09:19",
+          "channel": "💬-общий-чат",
+          "content": "Блять меня не Было2 недели что здесь произошло шо за хуйня   Все со стикерами пиздец",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.02.2026 09:19",
           "channel": "💬-общий-чат",
@@ -1710,24 +1664,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/935061338479263775/4b3989722708e236b50689f797c46371.png?size=1024",
       "joined_at": "2026-01-25T12:54:17.888000+00:00",
       "stats_today": {
-        "text": 10,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 10
+        "total": 0
       },
       "stats_all": {
-        "text": 20,
+        "text": 40,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 20
+        "total": 40
       },
-      "total_messages": 20,
+      "total_messages": 40,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1795,24 +1749,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1104678557780803604/0b4f2a114da70be78af12a05b156dbfa.png?size=1024",
       "joined_at": "2026-03-04T13:57:36.093000+00:00",
       "stats_today": {
-        "text": 30,
+        "text": 0,
         "images": 0,
         "voice": 0,
-        "stickers": 1,
+        "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 31
+        "total": 0
       },
       "stats_all": {
-        "text": 60,
+        "text": 42,
         "images": 0,
         "voice": 0,
         "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 62
+        "total": 44
       },
-      "total_messages": 60,
+      "total_messages": 42,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1821,16 +1775,16 @@
       },
       "recent_messages": [
         {
-          "time": "14.03.2026 20:10",
+          "time": "04.03.2026 17:19",
           "channel": "💬-общий-чат",
-          "content": "вы во что играете?",
+          "content": "как она скбя чуствое",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "14.03.2026 20:10",
+          "time": "04.03.2026 17:18",
           "channel": "💬-общий-чат",
           "content": "<:67:1460180104603766885>",
           "type": "text",
@@ -1839,27 +1793,27 @@
           "stickers": []
         },
         {
-          "time": "14.03.2026 20:09",
+          "time": "04.03.2026 17:18",
           "channel": "💬-общий-чат",
-          "content": "Нормально",
+          "content": "оксана",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "05.03.2026 20:27",
+          "time": "04.03.2026 17:17",
           "channel": "💬-общий-чат",
-          "content": "<:67:1460180104603766885>",
+          "content": "турная",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "05.03.2026 20:27",
+          "time": "04.03.2026 17:17",
           "channel": "💬-общий-чат",
-          "content": "лол",
+          "content": "????",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1881,24 +1835,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1443164541126049965/3c11e73370d2d23257792b784db1ae38.png?size=1024",
       "joined_at": "2026-01-05T18:38:39.881000+00:00",
       "stats_today": {
-        "text": 1,
-        "images": 1,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 0
       },
       "stats_all": {
-        "text": 2,
-        "images": 2,
+        "text": 4,
+        "images": 4,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 8
       },
-      "total_messages": 2,
+      "total_messages": 4,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1954,6 +1908,22 @@
           "type": "text",
           "preview_url": "",
           "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.02.2026 21:10",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1474105963500933262/IMG_3682.jpg?ex=69bc3c29&is=69baeaa9&hm=2e959a49f3c8438675bb76345d51b1da6edfbf659a57c810893cd6d766d09bb7&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1474105963500933262/IMG_3682.jpg?ex=69bc3c29&is=69baeaa9&hm=2e959a49f3c8438675bb76345d51b1da6edfbf659a57c810893cd6d766d09bb7&",
+              "filename": "IMG_3682.jpg",
+              "size": 523671
+            }
+          ],
           "stickers": []
         }
       ]
@@ -1971,24 +1941,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
       "joined_at": "2026-02-26T07:33:27.565000+00:00",
       "stats_today": {
-        "text": 51,
+        "text": 0,
         "images": 0,
         "voice": 0,
-        "stickers": 1,
+        "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 52
+        "total": 0
       },
       "stats_all": {
-        "text": 102,
+        "text": 116,
         "images": 0,
         "voice": 0,
-        "stickers": 2,
+        "stickers": 3,
         "gifs": 0,
         "files": 0,
-        "total": 104
+        "total": 119
       },
-      "total_messages": 102,
+      "total_messages": 116,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1997,45 +1967,45 @@
       },
       "recent_messages": [
         {
-          "time": "13.03.2026 19:23",
+          "time": "04.03.2026 16:58",
           "channel": "💬-общий-чат",
-          "content": "Ща буду говорить",
+          "content": "<:__:1460345102466547786> <:__:1460345102466547786> <:__:1460345102466547786>",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "13.03.2026 17:26",
+          "time": "03.03.2026 17:51",
           "channel": "💬-общий-чат",
-          "content": "Не было",
+          "content": "Чуть позже зайду",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "13.03.2026 17:23",
+          "time": "03.03.2026 17:42",
           "channel": "💬-общий-чат",
-          "content": "Слышим",
+          "content": "Ща я минут через 10 подключусь",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "13.03.2026 17:23",
+          "time": "03.03.2026 17:41",
           "channel": "💬-общий-чат",
-          "content": "Били",
+          "content": "Пикме привет",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "13.03.2026 17:04",
+          "time": "28.02.2026 22:06",
           "channel": "💬-общий-чат",
-          "content": "Билли тебя слышно",
+          "content": "<:__:1460345102466547786>",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2056,24 +2026,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/d172460d571257aaca9f713f8b274bca.png?size=1024",
       "joined_at": "2026-03-10T11:19:30.910000+00:00",
       "stats_today": {
-        "text": 11,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 11
+        "total": 0
       },
       "stats_all": {
-        "text": 22,
+        "text": 29,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 22
+        "total": 29
       },
-      "total_messages": 22,
+      "total_messages": 29,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2081,24 +2051,6 @@
         "last_seen": null
       },
       "recent_messages": [
-        {
-          "time": "10.03.2026 14:19",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 21:24",
-          "channel": "💬-общий-чат",
-          "content": "Чтоб жизнь малиной не закалось",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
         {
           "time": "26.02.2026 09:54",
           "channel": "💬-общий-чат",
@@ -2121,6 +2073,24 @@
           "time": "26.02.2026 09:44",
           "channel": "💬-общий-чат",
           "content": "Я не знаю почеиу так, но у меня в стане так надо",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "26.02.2026 09:44",
+          "channel": "💬-общий-чат",
+          "content": "Я аня уже 15 лет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "26.02.2026 09:43",
+          "channel": "💬-общий-чат",
+          "content": "Тут не надо денег, тут надо документы моих бабушек и дедушек",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2177,24 +2147,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
       "joined_at": "2025-10-11T10:24:47.750000+00:00",
       "stats_today": {
-        "text": 140,
-        "images": 1,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 141
+        "total": 0
       },
       "stats_all": {
-        "text": 282,
-        "images": 2,
+        "text": 446,
+        "images": 4,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 284
+        "total": 450
       },
-      "total_messages": 282,
+      "total_messages": 446,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2203,45 +2173,45 @@
       },
       "recent_messages": [
         {
-          "time": "15.03.2026 09:58",
-          "channel": "⛳майнкрафт",
-          "content": "Интересно",
+          "time": "21.02.2026 12:20",
+          "channel": "💬-общий-чат",
+          "content": "Хорошо, знаете что? Вы создали правила, но они буквально на некоторые пункты ни хуя не влияют, пикму",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "15.03.2026 01:02",
-          "channel": "⛳майнкрафт",
-          "content": "Все бай",
+          "time": "21.02.2026 12:05",
+          "channel": "💬-общий-чат",
+          "content": "Ого сам начал с ней ссориться и я виновата",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "14.03.2026 19:55",
-          "channel": "⛳майнкрафт",
-          "content": "Соус личку чекни",
+          "time": "21.02.2026 12:04",
+          "channel": "💬-общий-чат",
+          "content": "Я в принципе против всех возможных конфликтов и оскорблений, но нет, надо же кому-то посраться",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "14.03.2026 19:42",
-          "channel": "⛳майнкрафт",
-          "content": "Да подожди мне надо с шейдерами решиться",
+          "time": "21.02.2026 12:03",
+          "channel": "💬-общий-чат",
+          "content": "Мне напомнить, что я тебя мутила в Войсе, когда ты шутил над били",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "14.03.2026 19:38",
-          "channel": "⛳майнкрафт",
-          "content": "Ща я хочу включить шейдеры и красиво сфоткаться",
+          "time": "21.02.2026 12:03",
+          "channel": "💬-общий-чат",
+          "content": "Я никогда не на твоей стороне",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2262,24 +2232,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
       "joined_at": "2026-02-26T17:27:51.190000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
       },
       "stats_all": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
-      "total_messages": 2,
+      "total_messages": 3,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2287,6 +2257,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "26.02.2026 20:28",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "26.02.2026 20:28",
           "channel": "💬-общий-чат",
@@ -2320,24 +2299,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
       "joined_at": "2026-02-25T16:13:26.997000+00:00",
       "stats_today": {
-        "text": 170,
-        "images": 3,
-        "voice": 4,
+        "text": 0,
+        "images": 0,
+        "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 177
+        "total": 0
       },
       "stats_all": {
-        "text": 340,
-        "images": 6,
-        "voice": 8,
+        "text": 488,
+        "images": 9,
+        "voice": 12,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 354
+        "total": 509
       },
-      "total_messages": 340,
+      "total_messages": 488,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2346,45 +2325,45 @@
       },
       "recent_messages": [
         {
-          "time": "07.03.2026 10:19",
+          "time": "02.03.2026 22:29",
           "channel": "💬-общий-чат",
-          "content": "Нет я тебя ебала",
+          "content": "Я вас всех выебу",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 10:18",
+          "time": "02.03.2026 21:42",
           "channel": "💬-общий-чат",
-          "content": "Вот именно",
+          "content": "Всем привет",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 10:18",
+          "time": "01.03.2026 14:55",
           "channel": "💬-общий-чат",
-          "content": "Потом как то",
+          "content": "Фотка барашека имя карасика",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 10:17",
+          "time": "01.03.2026 14:55",
           "channel": "💬-общий-чат",
-          "content": "Нормально,а вы как?",
+          "content": "Буль буль буль",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 10:16",
+          "time": "01.03.2026 14:55",
           "channel": "💬-общий-чат",
-          "content": "Доброе утро всем",
+          "content": "Уже поняла",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2401,24 +2380,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1417825076685836361/0becb738f0138ea0f9dacccbceef06ae.png?size=1024",
       "joined_at": "2026-02-03T15:29:53.268000+00:00",
       "stats_today": {
-        "text": 76,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 3,
+        "gifs": 0,
         "files": 0,
-        "total": 79
+        "total": 0
       },
       "stats_all": {
-        "text": 152,
+        "text": 285,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 6,
+        "gifs": 9,
         "files": 0,
-        "total": 158
+        "total": 294
       },
-      "total_messages": 152,
+      "total_messages": 285,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2427,36 +2406,9 @@
       },
       "recent_messages": [
         {
-          "time": "22.02.2026 17:16",
-          "channel": "🎧-включи-музыку",
-          "content": "заходи в войс",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.02.2026 17:16",
-          "channel": "🎧-включи-музыку",
-          "content": "ярик",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.02.2026 14:52",
-          "channel": "🎧-включи-музыку",
-          "content": "mirors demo",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.02.2026 17:53",
-          "channel": "🎧-включи-музыку",
-          "content": "/play mirrors demo",
+          "time": "22.02.2026 14:43",
+          "channel": "💬-общий-чат",
+          "content": "вв войс",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2465,9 +2417,36 @@
         {
           "time": "22.02.2026 14:43",
           "channel": "💬-общий-чат",
-          "content": "вв войс",
+          "content": "ярик",
           "type": "text",
           "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.02.2026 09:44",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/totalno-poxui-totalno-poxui-%D1%82%D0%BE%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/totalno-poxui-totalno-poxui-%D1%82%D0%BE%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BF%D0%BE%D1%85%D1%83%D0%B9-gif-5993504248991961264",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.02.2026 09:08",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/totalno-poxui-totalno-poxui-%D1%82%D0%BE%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/totalno-poxui-totalno-poxui-%D1%82%D0%BE%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BF%D0%BE%D1%85%D1%83%D0%B9-gif-5993504248991961264",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.02.2026 09:07",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/totalno-poxui-totalno-poxui-%D1%82%D0%BE%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/totalno-poxui-totalno-poxui-%D1%82%D0%BE%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BF%D0%BE%D1%85%D1%83%D0%B9-gif-5993504248991961264",
           "attachments": [],
           "stickers": []
         }
@@ -2482,24 +2461,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1390304716570755096/28e41cfbf5c3b8eb8d47d7feb5e2c6f0.png?size=1024",
       "joined_at": "2026-01-07T21:15:36.206000+00:00",
       "stats_today": {
-        "text": 5,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 5
+        "total": 0
       },
       "stats_all": {
-        "text": 12,
+        "text": 7,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 12
+        "total": 7
       },
-      "total_messages": 12,
+      "total_messages": 7,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2507,6 +2486,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "01.03.2026 17:05",
+          "channel": "💬-общий-чат",
+          "content": "удачи вам",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "01.03.2026 17:05",
+          "channel": "💬-общий-чат",
+          "content": "удачи вам",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "16.03.2026 20:50",
           "channel": "💬-общий-чат",
@@ -2533,24 +2530,6 @@
           "preview_url": "",
           "attachments": [],
           "stickers": []
-        },
-        {
-          "time": "07.03.2026 21:21",
-          "channel": "💬-общий-чат",
-          "content": "че",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "01.03.2026 17:05",
-          "channel": "💬-общий-чат",
-          "content": "удачи вам",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
         }
       ]
     },
@@ -2567,24 +2546,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
       "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
-        "text": 18,
-        "images": 3,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 5,
+        "gifs": 0,
         "files": 0,
-        "total": 26
+        "total": 0
       },
       "stats_all": {
-        "text": 36,
-        "images": 6,
+        "text": 56,
+        "images": 9,
         "voice": 0,
         "stickers": 0,
-        "gifs": 10,
+        "gifs": 16,
         "files": 0,
-        "total": 52
+        "total": 81
       },
-      "total_messages": 36,
+      "total_messages": 56,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2592,31 +2571,6 @@
         "last_seen": null
       },
       "recent_messages": [
-        {
-          "time": "17.02.2026 01:53",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
-              "filename": "IMG-20260128-WA0025.jpg",
-              "size": 47720
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 22:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
         {
           "time": "04.03.2026 19:35",
           "channel": "💬-общий-чат",
@@ -2643,6 +2597,24 @@
           "preview_url": "",
           "attachments": [],
           "stickers": []
+        },
+        {
+          "time": "01.03.2026 14:51",
+          "channel": "💬-общий-чат",
+          "content": "Ок и чё",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "01.03.2026 14:50",
+          "channel": "💬-общий-чат",
+          "content": "Че не нравится что у меня есть религия",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
         }
       ]
     }
@@ -2651,8 +2623,13 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 0,
-      "members": []
+      "members_count": 1,
+      "members": [
+        {
+          "id": "834060139006394368",
+          "name": "ZPNK666"
+        }
+      ]
     },
     {
       "id": "1470014222401274019",
@@ -2759,27 +2736,19 @@
   ],
   "role_distribution": {
     "нету хента": 14,
-    "провославный": 8,
-    "мужчины": 15,
-    "католик": 4,
-    "женщины": 13,
-    "Сциентизм": 6,
     "у меня есть хент": 14,
-    "атеист": 8,
     "Агностик": 8,
-    "ОФИЧЕР СС": 6,
+    "провославный": 8,
+    "католик": 4,
+    "Сциентизм": 6,
     "ислам": 6,
-    "iPhone": 3
+    "атеист": 8,
+    "ОФИЧЕР СС": 6,
+    "iPhone": 3,
+    "мужчины": 15,
+    "женщины": 13
   },
   "hourly_history": [
-    {
-      "time": "12.03 01:00",
-      "hour": 1,
-      "date": "2026-03-12",
-      "messages": 0,
-      "online": 0,
-      "in_voice": 0
-    },
     {
       "time": "12.03 02:00",
       "hour": 2,
@@ -2872,7 +2841,7 @@
       "time": "12.03 13:00",
       "hour": 13,
       "date": "2026-03-12",
-      "messages": 38,
+      "messages": 19,
       "online": 0,
       "in_voice": 0
     },
@@ -2896,7 +2865,7 @@
       "time": "12.03 16:00",
       "hour": 16,
       "date": "2026-03-12",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -2920,7 +2889,7 @@
       "time": "12.03 19:00",
       "hour": 19,
       "date": "2026-03-12",
-      "messages": 18,
+      "messages": 9,
       "online": 0,
       "in_voice": 0
     },
@@ -2968,7 +2937,7 @@
       "time": "13.03 01:00",
       "hour": 1,
       "date": "2026-03-13",
-      "messages": 22,
+      "messages": 11,
       "online": 0,
       "in_voice": 0
     },
@@ -2984,7 +2953,7 @@
       "time": "13.03 03:00",
       "hour": 3,
       "date": "2026-03-13",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3024,7 +2993,7 @@
       "time": "13.03 08:00",
       "hour": 8,
       "date": "2026-03-13",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3064,7 +3033,7 @@
       "time": "13.03 13:00",
       "hour": 13,
       "date": "2026-03-13",
-      "messages": 58,
+      "messages": 29,
       "online": 0,
       "in_voice": 0
     },
@@ -3096,7 +3065,7 @@
       "time": "13.03 17:00",
       "hour": 17,
       "date": "2026-03-13",
-      "messages": 14,
+      "messages": 7,
       "online": 0,
       "in_voice": 0
     },
@@ -3104,7 +3073,7 @@
       "time": "13.03 18:00",
       "hour": 18,
       "date": "2026-03-13",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3112,7 +3081,7 @@
       "time": "13.03 19:00",
       "hour": 19,
       "date": "2026-03-13",
-      "messages": 64,
+      "messages": 32,
       "online": 0,
       "in_voice": 0
     },
@@ -3144,7 +3113,7 @@
       "time": "13.03 23:00",
       "hour": 23,
       "date": "2026-03-13",
-      "messages": 14,
+      "messages": 7,
       "online": 0,
       "in_voice": 0
     },
@@ -3256,7 +3225,7 @@
       "time": "14.03 13:00",
       "hour": 13,
       "date": "2026-03-14",
-      "messages": 8,
+      "messages": 4,
       "online": 0,
       "in_voice": 0
     },
@@ -3264,7 +3233,7 @@
       "time": "14.03 14:00",
       "hour": 14,
       "date": "2026-03-14",
-      "messages": 28,
+      "messages": 14,
       "online": 0,
       "in_voice": 0
     },
@@ -3280,7 +3249,7 @@
       "time": "14.03 16:00",
       "hour": 16,
       "date": "2026-03-14",
-      "messages": 84,
+      "messages": 42,
       "online": 0,
       "in_voice": 0
     },
@@ -3288,7 +3257,7 @@
       "time": "14.03 17:00",
       "hour": 17,
       "date": "2026-03-14",
-      "messages": 8,
+      "messages": 4,
       "online": 0,
       "in_voice": 0
     },
@@ -3304,7 +3273,7 @@
       "time": "14.03 19:00",
       "hour": 19,
       "date": "2026-03-14",
-      "messages": 32,
+      "messages": 16,
       "online": 0,
       "in_voice": 0
     },
@@ -3312,7 +3281,7 @@
       "time": "14.03 20:00",
       "hour": 20,
       "date": "2026-03-14",
-      "messages": 6,
+      "messages": 3,
       "online": 0,
       "in_voice": 0
     },
@@ -3328,7 +3297,7 @@
       "time": "14.03 22:00",
       "hour": 22,
       "date": "2026-03-14",
-      "messages": 8,
+      "messages": 4,
       "online": 0,
       "in_voice": 0
     },
@@ -3352,7 +3321,7 @@
       "time": "15.03 01:00",
       "hour": 1,
       "date": "2026-03-15",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3360,7 +3329,7 @@
       "time": "15.03 02:00",
       "hour": 2,
       "date": "2026-03-15",
-      "messages": 4,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -3416,7 +3385,7 @@
       "time": "15.03 09:00",
       "hour": 9,
       "date": "2026-03-15",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3448,7 +3417,7 @@
       "time": "15.03 13:00",
       "hour": 13,
       "date": "2026-03-15",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3456,7 +3425,7 @@
       "time": "15.03 14:00",
       "hour": 14,
       "date": "2026-03-15",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3464,7 +3433,7 @@
       "time": "15.03 15:00",
       "hour": 15,
       "date": "2026-03-15",
-      "messages": 4,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -3472,7 +3441,7 @@
       "time": "15.03 16:00",
       "hour": 16,
       "date": "2026-03-15",
-      "messages": 44,
+      "messages": 22,
       "online": 0,
       "in_voice": 0
     },
@@ -3480,7 +3449,7 @@
       "time": "15.03 17:00",
       "hour": 17,
       "date": "2026-03-15",
-      "messages": 22,
+      "messages": 11,
       "online": 0,
       "in_voice": 0
     },
@@ -3488,7 +3457,7 @@
       "time": "15.03 18:00",
       "hour": 18,
       "date": "2026-03-15",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3496,7 +3465,7 @@
       "time": "15.03 19:00",
       "hour": 19,
       "date": "2026-03-15",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3504,7 +3473,7 @@
       "time": "15.03 20:00",
       "hour": 20,
       "date": "2026-03-15",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3528,7 +3497,7 @@
       "time": "15.03 23:00",
       "hour": 23,
       "date": "2026-03-15",
-      "messages": 4,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -3568,7 +3537,7 @@
       "time": "16.03 04:00",
       "hour": 4,
       "date": "2026-03-16",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3600,7 +3569,7 @@
       "time": "16.03 08:00",
       "hour": 8,
       "date": "2026-03-16",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3624,7 +3593,7 @@
       "time": "16.03 11:00",
       "hour": 11,
       "date": "2026-03-16",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3632,7 +3601,7 @@
       "time": "16.03 12:00",
       "hour": 12,
       "date": "2026-03-16",
-      "messages": 10,
+      "messages": 5,
       "online": 0,
       "in_voice": 0
     },
@@ -3640,7 +3609,7 @@
       "time": "16.03 13:00",
       "hour": 13,
       "date": "2026-03-16",
-      "messages": 10,
+      "messages": 5,
       "online": 0,
       "in_voice": 0
     },
@@ -3664,7 +3633,7 @@
       "time": "16.03 16:00",
       "hour": 16,
       "date": "2026-03-16",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3696,7 +3665,7 @@
       "time": "16.03 20:00",
       "hour": 20,
       "date": "2026-03-16",
-      "messages": 4,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -3704,7 +3673,7 @@
       "time": "16.03 21:00",
       "hour": 21,
       "date": "2026-03-16",
-      "messages": 28,
+      "messages": 14,
       "online": 0,
       "in_voice": 0
     },
@@ -3712,7 +3681,7 @@
       "time": "16.03 22:00",
       "hour": 22,
       "date": "2026-03-16",
-      "messages": 20,
+      "messages": 10,
       "online": 0,
       "in_voice": 0
     },
@@ -3752,7 +3721,7 @@
       "time": "17.03 03:00",
       "hour": 3,
       "date": "2026-03-17",
-      "messages": 4,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -3792,7 +3761,7 @@
       "time": "17.03 08:00",
       "hour": 8,
       "date": "2026-03-17",
-      "messages": 6,
+      "messages": 3,
       "online": 0,
       "in_voice": 0
     },
@@ -3800,7 +3769,7 @@
       "time": "17.03 09:00",
       "hour": 9,
       "date": "2026-03-17",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3880,7 +3849,7 @@
       "time": "17.03 19:00",
       "hour": 19,
       "date": "2026-03-17",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3896,7 +3865,7 @@
       "time": "17.03 21:00",
       "hour": 21,
       "date": "2026-03-17",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -3904,7 +3873,7 @@
       "time": "17.03 22:00",
       "hour": 22,
       "date": "2026-03-17",
-      "messages": 10,
+      "messages": 5,
       "online": 0,
       "in_voice": 0
     },
@@ -3912,7 +3881,7 @@
       "time": "17.03 23:00",
       "hour": 23,
       "date": "2026-03-17",
-      "messages": 18,
+      "messages": 9,
       "online": 0,
       "in_voice": 0
     },
@@ -3920,7 +3889,7 @@
       "time": "18.03 00:00",
       "hour": 0,
       "date": "2026-03-18",
-      "messages": 62,
+      "messages": 31,
       "online": 0,
       "in_voice": 0
     },
@@ -3928,7 +3897,7 @@
       "time": "18.03 01:00",
       "hour": 1,
       "date": "2026-03-18",
-      "messages": 46,
+      "messages": 23,
       "online": 0,
       "in_voice": 0
     },
@@ -3936,7 +3905,7 @@
       "time": "18.03 02:00",
       "hour": 2,
       "date": "2026-03-18",
-      "messages": 6,
+      "messages": 3,
       "online": 0,
       "in_voice": 0
     },
@@ -4032,7 +4001,7 @@
       "time": "18.03 14:00",
       "hour": 14,
       "date": "2026-03-18",
-      "messages": 4,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -4040,7 +4009,7 @@
       "time": "18.03 15:00",
       "hour": 15,
       "date": "2026-03-18",
-      "messages": 2,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -4048,7 +4017,7 @@
       "time": "18.03 16:00",
       "hour": 16,
       "date": "2026-03-18",
-      "messages": 4,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -4056,7 +4025,7 @@
       "time": "18.03 17:00",
       "hour": 17,
       "date": "2026-03-18",
-      "messages": 14,
+      "messages": 7,
       "online": 0,
       "in_voice": 0
     },
@@ -4064,7 +4033,7 @@
       "time": "18.03 18:00",
       "hour": 18,
       "date": "2026-03-18",
-      "messages": 50,
+      "messages": 25,
       "online": 0,
       "in_voice": 0
     },
@@ -4121,7 +4090,15 @@
       "hour": 1,
       "date": "2026-03-19",
       "messages": 0,
-      "online": 6,
+      "online": 0,
+      "in_voice": 0
+    },
+    {
+      "time": "19.03 02:00",
+      "hour": 2,
+      "date": "2026-03-19",
+      "messages": 0,
+      "online": 0,
       "in_voice": 0
     }
   ],
@@ -4130,112 +4107,112 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2021,
-      "images": 92,
-      "voice": 4,
-      "stickers": 62,
-      "gifs": 156,
-      "files": 48,
-      "total": 2371
+      "text": 2683,
+      "images": 148,
+      "voice": 5,
+      "stickers": 68,
+      "gifs": 203,
+      "files": 72,
+      "total": 3166
     },
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1096,
-      "images": 120,
+      "text": 1285,
+      "images": 179,
       "voice": 0,
-      "stickers": 26,
-      "gifs": 10,
-      "files": 34,
-      "total": 1256
+      "stickers": 28,
+      "gifs": 13,
+      "files": 41,
+      "total": 1491
     },
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
-      "text": 502,
-      "images": 20,
+      "text": 524,
+      "images": 22,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
-      "files": 4,
-      "total": 526
+      "files": 6,
+      "total": 552
     },
     {
       "id": "1440792780233244835",
       "name": "Карасик",
-      "text": 340,
-      "images": 6,
-      "voice": 8,
+      "text": 488,
+      "images": 9,
+      "voice": 12,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 354
+      "total": 509
     },
     {
       "id": "1407789136965931088",
       "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "text": 282,
-      "images": 2,
+      "text": 446,
+      "images": 4,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 284
+      "total": 450
     },
     {
       "id": "1286072101635100733",
       "name": "били б билисимо",
-      "text": 80,
-      "images": 107,
+      "text": 123,
+      "images": 148,
       "voice": 0,
       "stickers": 0,
-      "gifs": 82,
+      "gifs": 122,
       "files": 0,
-      "total": 269
-    },
-    {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "text": 216,
-      "images": 42,
-      "voice": 20,
-      "stickers": 2,
-      "gifs": 0,
-      "files": 0,
-      "total": 264
-    },
-    {
-      "id": "1255232329362833409",
-      "name": "кирпич",
-      "text": 222,
-      "images": 12,
-      "voice": 0,
-      "stickers": 2,
-      "gifs": 16,
-      "files": 2,
-      "total": 254
+      "total": 393
     },
     {
       "id": "1417825076685836361",
       "name": "apTeM",
-      "text": 152,
+      "text": 285,
       "images": 0,
       "voice": 0,
       "stickers": 0,
-      "gifs": 6,
+      "gifs": 9,
       "files": 0,
-      "total": 158
+      "total": 294
     },
     {
-      "id": "1433504994824425640",
-      "name": "zelebobik",
-      "text": 64,
-      "images": 103,
-      "voice": 0,
-      "stickers": 6,
+      "id": "1296770485421342731",
+      "name": "АБОБА",
+      "text": 185,
+      "images": 38,
+      "voice": 40,
+      "stickers": 1,
       "gifs": 0,
-      "files": 10,
-      "total": 104
+      "files": 0,
+      "total": 232
+    },
+    {
+      "id": "1255232329362833409",
+      "name": "кирпич",
+      "text": 149,
+      "images": 14,
+      "voice": 0,
+      "stickers": 1,
+      "gifs": 22,
+      "files": 1,
+      "total": 187
+    },
+    {
+      "id": "1396607687365754883",
+      "name": "1 АПРЕЛЬ",
+      "text": 116,
+      "images": 0,
+      "voice": 0,
+      "stickers": 3,
+      "gifs": 0,
+      "files": 0,
+      "total": 119
     }
   ]
 }
