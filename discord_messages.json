@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:32:56",
+  "updated_at": "18.03.2026 17:33:56",
   "users": {
     "834060139006394368": [
       {
@@ -137,6 +137,30 @@
             "size": 1907082
           }
         ],
+        "stickers": []
+      }
+    ],
+    "1286072101635100733": [
+      {
+        "id": "1483835675479511201",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "18.03.2026 17:33",
+        "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483835781423431791",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "18.03.2026 17:33",
+        "content": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
         "stickers": []
       }
     ]
