@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 02:04:32",
+  "updated_at": "19.03.2026 02:05:02",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 2,
-    "offline_count": 32,
-    "in_voice_count": 1,
+    "online_count": 1,
+    "offline_count": 33,
+    "in_voice_count": 0,
     "messages_today": 0,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 0,
+    "text": 5,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -46,24 +46,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 5,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 5
       },
       "stats_all": {
-        "text": 1285,
+        "text": 1290,
         "images": 179,
         "voice": 0,
         "stickers": 28,
         "gifs": 13,
         "files": 41,
-        "total": 1491
+        "total": 1496
       },
-      "total_messages": 1285,
+      "total_messages": 1290,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -72,27 +72,9 @@
       },
       "recent_messages": [
         {
-          "time": "04.03.2026 19:34",
-          "channel": "💬-общий-чат",
-          "content": "<@1255232329362833409>захади срочно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "04.03.2026 19:33",
-          "channel": "💬-общий-чат",
-          "content": "<@1168859596899766352>милад захади",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "04.03.2026 18:53",
-          "channel": "💬-общий-чат",
-          "content": "иди сасис с гаредем",
+          "time": "05.03.2026 13:32",
+          "channel": "📃новости",
+          "content": "🚀 ВАЖНО! ТЕПЕРЬ МОЖНО ЗАЛЕТАТЬ С ТЕЛЕФОНА! 📱🔥\n\nBedrock 1.21.111 (Copper Age — всё летает на мобиле!)",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -100,7 +82,7 @@
         },
         {
           "time": "04.03.2026 18:12",
-          "channel": "💬-общий-чат",
+          "channel": "📃новости",
           "content": "<:vermelhoilustradordealarmeilustr:1478771396657156177>  @everyone \nC.P.Y.S MINECRAFT ОТКРЫТ! ГАНГ, ",
           "type": "text",
           "preview_url": "",
@@ -108,97 +90,29 @@
           "stickers": []
         },
         {
-          "time": "04.03.2026 17:59",
-          "channel": "💬-общий-чат",
-          "content": "Скины по URL",
+          "time": "04.03.2026 17:43",
+          "channel": "📃новости",
+          "content": "@everyone \n <:Pico1080p:1478763077712216094> И ГЛАВНОЕ: СКОРО ОТКРЫВАЕМ МАЙНКРАФТ СЕРВЕР! <:Pico1080",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 123,
-        "images": 148,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 122,
-        "files": 0,
-        "total": 393
-      },
-      "total_messages": 123,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
+        },
         {
-          "time": "28.02.2026 22:05",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "time": "04.03.2026 17:43",
+          "channel": "📃новости",
+          "content": "@everyone \n ОФИЦИАЛЬНО! НАШ КАНАЛ ТЕПЕРЬ C.P.Y.S <:67:1460180104603766885>    \nCola Pepsi You Sexy <",
+          "type": "text",
+          "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "28.02.2026 18:59",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "28.02.2026 18:59",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "28.02.2026 18:59",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "28.02.2026 14:43",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "time": "25.02.2026 16:25",
+          "channel": "📃новости",
+          "content": "✦ Добро пожаловать в центр обновлений! ✦\n\nЗдесь я кидаю всё самое важное про наш Discord:\n• новые фи",
+          "type": "text",
+          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -1488,6 +1402,92 @@
       "recent_messages": []
     },
     {
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 123,
+        "images": 148,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 122,
+        "files": 0,
+        "total": 393
+      },
+      "total_messages": 123,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "28.02.2026 22:05",
+          "channel": "💬-общий-чат",
+          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 18:59",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 18:59",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 18:59",
+          "channel": "💬-общий-чат",
+          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 14:43",
+          "channel": "💬-общий-чат",
+          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1009475184090152961",
       "name": "майонез",
       "status": "offline",
@@ -2623,13 +2623,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 1,
-      "members": [
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        }
-      ]
+      "members_count": 0,
+      "members": []
     },
     {
       "id": "1470014222401274019",
@@ -4118,13 +4113,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1285,
+      "text": 1290,
       "images": 179,
       "voice": 0,
       "stickers": 28,
       "gifs": 13,
       "files": 41,
-      "total": 1491
+      "total": 1496
     },
     {
       "id": "1264609602540929140",
