@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 15:05:56",
+  "updated_at": "18.03.2026 15:06:56",
   "users": {
     "834060139006394368": [
       {
@@ -19,6 +19,17 @@
         "channel_id": "1450428861836951674",
         "time": "18.03.2026 14:05",
         "content": "<:aa85cfb3345045d681793ff60190b186:1458729037391462541>",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1483798714442059857",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "18.03.2026 15:06",
+        "content": "https://www.avito.ru/ryazan/odezhda_obuv_aksessuary/nike_air_jordan_1_travis_scott_-_black_phantom_3283353952?slocation=659020&context=H4sIAAAAAAAA_wE_AMD_YToyOntzOjEzOiJsb2NhbFByaW9yaXR5IjtiOjA7czoxOiJ4IjtzOjE2OiJZaW1SNE92TnZ2UlQ4eElVIjt95EP8wz8AAAA скажите что имба",
         "type": "text",
         "preview_url": "",
         "attachments": [],
