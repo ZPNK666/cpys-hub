@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 18:38:56",
+  "updated_at": "18.03.2026 18:39:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 40,
     "online_count": 7,
     "offline_count": 27,
-    "in_voice_count": 3,
+    "in_voice_count": 2,
     "messages_today": 12,
     "text_channels_count": 10
   },
@@ -1558,13 +1558,8 @@
     {
       "id": "1473159658565931063",
       "name": "🍿 Смотрим мульты / аниме / сезоны",
-      "members_count": 1,
-      "members": [
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
-        }
-      ]
+      "members_count": 0,
+      "members": []
     },
     {
       "id": "1473159725054169310",
