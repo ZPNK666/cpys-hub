@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:42:56",
+  "updated_at": "18.03.2026 17:43:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 8,
-    "offline_count": 26,
+    "online_count": 9,
+    "offline_count": 25,
     "in_voice_count": 4,
-    "messages_today": 8,
+    "messages_today": 10,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 6,
+    "text": 8,
     "images": 13,
     "gifs": 0,
     "stickers": 0,
@@ -39,24 +39,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 4
       },
       "stats_all": {
-        "text": 15,
+        "text": 16,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 15
+        "total": 16
       },
-      "total_messages": 15,
+      "total_messages": 16,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -64,6 +64,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "18.03.2026 17:43",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/%D0%BA%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D0%BE%D0%BB%D1%83%D0%",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "18.03.2026 15:06",
           "channel": "💬-общий-чат",
@@ -135,7 +144,7 @@
     {
       "id": "993900146930753606",
       "name": "АУДИТОР",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "ОФИЧЕР СС"
       ],
@@ -399,24 +408,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
       "joined_at": "2026-03-08T20:22:22.892000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 4
       },
       "stats_all": {
-        "text": 5,
+        "text": 6,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 7
       },
-      "total_messages": 5,
+      "total_messages": 6,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -424,6 +433,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "18.03.2026 17:43",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "18.03.2026 17:34",
           "channel": "💬-общий-чат",
@@ -465,6 +483,45 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
       "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1459,45 +1516,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     }
   ],
   "voice_channels": [
@@ -1687,24 +1705,24 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 15,
+      "text": 16,
       "images": 0,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 15
+      "total": 16
     },
     {
       "id": "1286072101635100733",
       "name": "били б билисимо",
-      "text": 5,
+      "text": 6,
       "images": 1,
       "voice": 0,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 6
+      "total": 7
     },
     {
       "id": "1264609602540929140",
