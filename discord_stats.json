@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 19:37:56",
+  "updated_at": "18.03.2026 19:38:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 9,
-    "offline_count": 25,
+    "online_count": 10,
+    "offline_count": 24,
     "in_voice_count": 2,
     "messages_today": 38,
     "text_channels_count": 10
@@ -434,6 +434,45 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
       "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1525,45 +1564,6 @@
         "total": 2
       },
       "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
