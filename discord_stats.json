@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:56:56",
+  "updated_at": "18.03.2026 17:57:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 8,
     "offline_count": 26,
     "in_voice_count": 4,
-    "messages_today": 11,
+    "messages_today": 12,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 8,
     "images": 13,
-    "gifs": 1,
+    "gifs": 2,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -412,18 +412,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 1,
+        "gifs": 2,
         "files": 0,
-        "total": 5
+        "total": 6
       },
       "stats_all": {
         "text": 6,
         "images": 1,
         "voice": 0,
         "stickers": 0,
-        "gifs": 1,
+        "gifs": 2,
         "files": 0,
-        "total": 8
+        "total": 9
       },
       "total_messages": 6,
       "join_leave": {
@@ -433,6 +433,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "18.03.2026 17:57",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "18.03.2026 17:49",
           "channel": "💬-общий-чат",
@@ -464,15 +473,6 @@
           "time": "18.03.2026 17:33",
           "channel": "💬-общий-чат",
           "content": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:33",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1729,9 +1729,9 @@
       "images": 1,
       "voice": 0,
       "stickers": 0,
-      "gifs": 1,
+      "gifs": 2,
       "files": 0,
-      "total": 8
+      "total": 9
     },
     {
       "id": "1264609602540929140",
