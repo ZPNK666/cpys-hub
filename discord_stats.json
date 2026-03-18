@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 22:59:56",
+  "updated_at": "18.03.2026 23:00:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -1770,6 +1770,13 @@
     {
       "time": "18.03 22:00",
       "hour": 22,
+      "online": 17,
+      "in_voice": 3,
+      "messages": 38
+    },
+    {
+      "time": "18.03 23:00",
+      "hour": 23,
       "online": 17,
       "in_voice": 3,
       "messages": 38
