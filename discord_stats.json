@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 17:48:56",
+  "updated_at": "18.03.2026 17:49:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 8,
     "offline_count": 26,
     "in_voice_count": 4,
-    "messages_today": 10,
+    "messages_today": 11,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 8,
     "images": 13,
-    "gifs": 0,
+    "gifs": 1,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -412,18 +412,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 0,
+        "gifs": 1,
         "files": 0,
-        "total": 4
+        "total": 5
       },
       "stats_all": {
         "text": 6,
         "images": 1,
         "voice": 0,
         "stickers": 0,
-        "gifs": 0,
+        "gifs": 1,
         "files": 0,
-        "total": 7
+        "total": 8
       },
       "total_messages": 6,
       "join_leave": {
@@ -433,6 +433,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "18.03.2026 17:49",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "18.03.2026 17:43",
           "channel": "💬-общий-чат",
@@ -1720,9 +1729,9 @@
       "images": 1,
       "voice": 0,
       "stickers": 0,
-      "gifs": 0,
+      "gifs": 1,
       "files": 0,
-      "total": 7
+      "total": 8
     },
     {
       "id": "1264609602540929140",
