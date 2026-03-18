@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C.P.Y.S Hub — Админка</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+:root{--bg:#04080f;--p:#0b1520;--b:#162030;--green:#00d26a;--blue:#5865f2;--gold:#ffd700;--cyan:#4de6e6;--red:#ff4444;--muted:#2a4055;--text:#b8d4e8;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'VT323',monospace;font-size:15px;min-height:100vh;}
+a{color:var(--cyan);text-decoration:none;}
+
+/* HEADER */
+.adm-header{background:#0b1520;border-bottom:2px solid var(--gold);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;}
+.adm-logo{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--gold);}
+.adm-back{font-size:13px;color:var(--muted);padding:5px 12px;border:1px solid var(--b);}
+.adm-back:hover{color:var(--cyan);border-color:var(--cyan);}
+
+/* LAYOUT */
+.adm-body{max-width:860px;margin:0 auto;padding:24px 16px;}
+
+/* SECTION */
+.sec{background:#0b1520;border:1px solid var(--b);border-top:2px solid var(--cyan);margin-bottom:16px;}
+.sec-h{padding:10px 16px;border-bottom:1px solid var(--b);font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);display:flex;align-items:center;gap:8px;}
+.sec-b{padding:16px;}
+
+/* FORM */
+label{display:block;font-size:12px;color:var(--muted);margin-bottom:4px;margin-top:10px;}
+label:first-child{margin-top:0;}
+input[type=text],input[type=url],textarea,select{
+  width:100%;background:#060d14;border:1px solid var(--b);color:var(--text);
+  font-family:'VT323',monospace;font-size:15px;padding:7px 10px;outline:none;
+}
+input[type=text]:focus,input[type=url]:focus,textarea:focus{border-color:var(--cyan);}
+textarea{resize:vertical;min-height:70px;}
+input[type=checkbox]{width:16px;height:16px;accent-color:var(--cyan);}
+
+/* BUTTONS */
+.btn{display:inline-block;padding:8px 20px;border:1px solid;cursor:pointer;font-family:'Press Start 2P',monospace;font-size:8px;transition:all .15s;background:none;}
+.btn-green{color:var(--green);border-color:var(--green);}.btn-green:hover{background:rgba(0,210,106,0.1);}
+.btn-red{color:var(--red);border-color:var(--red);}.btn-red:hover{background:rgba(255,68,68,0.1);}
+.btn-blue{color:var(--blue);border-color:var(--blue);}.btn-blue:hover{background:rgba(88,101,242,0.1);}
+.btn-gold{color:var(--gold);border-color:var(--gold);}.btn-gold:hover{background:rgba(255,215,0,0.1);}
+
+/* PHOTO LIST */
+.photo-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin-top:10px;}
+.photo-item{background:#060d14;border:1px solid var(--b);position:relative;aspect-ratio:1;overflow:hidden;}
+.photo-item img{width:100%;height:100%;object-fit:cover;display:block;}
+.photo-del{position:absolute;top:4px;right:4px;background:rgba(255,68,68,0.85);border:none;color:#fff;cursor:pointer;font-size:12px;padding:2px 6px;font-family:'VT323',monospace;}
+.photo-caption{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,0.7);font-size:11px;color:var(--text);padding:3px 5px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+/* ANN LIST */
+.ann-item{background:#060d14;border:1px solid var(--b);border-left:3px solid var(--gold);padding:10px 12px;margin-bottom:6px;display:flex;gap:10px;align-items:flex-start;}
+.ann-item .at{flex:1;}
+.ann-title{font-size:14px;color:var(--gold);}
+.ann-text{font-size:13px;color:var(--muted);margin-top:2px;}
+.ann-time{font-size:11px;color:#1a3a4a;margin-top:3px;}
+
+/* STATUS */
+#save-status{font-size:13px;padding:6px 14px;margin-left:10px;}
+.status-ok{color:var(--green);border:1px solid var(--green);background:rgba(0,210,106,0.08);}
+.status-err{color:var(--red);border:1px solid var(--red);}
+
+/* PASSWORD */
+.pw-overlay{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;z-index:999;flex-direction:column;gap:16px;}
+.pw-box{background:#0b1520;border:1px solid var(--b);border-top:2px solid var(--gold);padding:30px;width:320px;text-align:center;}
+.pw-title{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--gold);margin-bottom:16px;}
+.pw-inp{width:100%;background:#060d14;border:1px solid var(--b);color:var(--text);font-family:'VT323',monospace;font-size:18px;padding:10px;text-align:center;letter-spacing:4px;outline:none;margin-bottom:12px;}
+.pw-inp:focus{border-color:var(--gold);}
+.pw-err{color:var(--red);font-size:13px;margin-top:6px;}
+</style>
+</head>
+<body>
+
+<!-- PASSWORD -->
+<div class="pw-overlay" id="pw-overlay">
+  <div class="pw-box">
+    <div class="pw-title">🔒 ADMIN PANEL</div>
+    <div style="font-size:13px;color:var(--muted);margin-bottom:12px;">C.P.Y.S Hub</div>
+    <input type="password" class="pw-inp" id="pw-inp" placeholder="••••••••" onkeydown="if(event.key==='Enter')checkPw()">
+    <button class="btn btn-gold" onclick="checkPw()" style="width:100%">ВОЙТИ</button>
+    <div class="pw-err" id="pw-err"></div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div id="adm-main" style="display:none">
+  <div class="adm-header">
+    <div class="adm-logo">⚙️ C.P.Y.S ADMIN</div>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <span id="save-status"></span>
+      <a href="cpys-hub.html" class="adm-back">← На сайт</a>
+    </div>
+  </div>
+
+  <div class="adm-body">
+
+    <!-- СПАВН -->
+    <div class="sec">
+      <div class="sec-h">🏔️ ФОТО СПАВНА</div>
+      <div class="sec-b">
+        <label>Ссылка на фото (imgur, discord CDN и т.д.)</label>
+        <input type="url" id="spawn-url" placeholder="https://i.imgur.com/...">
+        <div style="margin-top:8px" id="spawn-preview"></div>
+        <button class="btn btn-green" onclick="previewSpawn()" style="margin-top:8px;margin-right:6px">👁️ ПРЕВЬЮ</button>
+        <button class="btn btn-gold" onclick="save()" style="margin-top:8px">💾 СОХРАНИТЬ</button>
+      </div>
+    </div>
+
+    <!-- БАННЕР -->
+    <div class="sec">
+      <div class="sec-h">📢 БАННЕР НА ГЛАВНОЙ</div>
+      <div class="sec-b">
+        <label><input type="checkbox" id="banner-on"> Показывать баннер</label>
+        <label>Заголовок</label>
+        <input type="text" id="banner-title" placeholder="Например: ИВЕНТ СЕГОДНЯ!">
+        <label>Текст</label>
+        <textarea id="banner-text" placeholder="Описание..."></textarea>
+        <label>Ссылка на картинку (необязательно)</label>
+        <input type="url" id="banner-img" placeholder="https://...">
+        <label>Ссылка при клике (необязательно)</label>
+        <input type="url" id="banner-link" placeholder="https://...">
+        <button class="btn btn-gold" onclick="save()" style="margin-top:12px">💾 СОХРАНИТЬ</button>
+      </div>
+    </div>
+
+    <!-- ОБЪЯВЛЕНИЯ -->
+    <div class="sec">
+      <div class="sec-h">📌 ОБЪЯВЛЕНИЯ</div>
+      <div class="sec-b">
+        <label>Заголовок объявления</label>
+        <input type="text" id="ann-title" placeholder="Новое событие!">
+        <label>Текст</label>
+        <textarea id="ann-text" placeholder="Подробности..."></textarea>
+        <label>Цвет (hex)</label>
+        <input type="text" id="ann-color" value="#ffd700" style="width:120px">
+        <div style="margin-top:8px">
+          <button class="btn btn-green" onclick="addAnn()">➕ ДОБАВИТЬ</button>
+        </div>
+        <div id="ann-list" style="margin-top:12px"></div>
+      </div>
+    </div>
+
+    <!-- ЗАКРЕПЛЁННЫЕ ФОТО -->
+    <div class="sec">
+      <div class="sec-h">🖼️ ЗАКРЕПЛЁННЫЕ ФОТО</div>
+      <div class="sec-b">
+        <label>Ссылка на фото</label>
+        <input type="url" id="pin-url" placeholder="https://i.imgur.com/...">
+        <label>Подпись (необязательно)</label>
+        <input type="text" id="pin-cap" placeholder="Красивый закат на спавне">
+        <div style="margin-top:8px">
+          <button class="btn btn-green" onclick="addPhoto()">➕ ДОБАВИТЬ ФОТО</button>
+        </div>
+        <div class="photo-list" id="photo-list"></div>
+      </div>
+    </div>
+
+    <!-- ИНФО СЕРВЕРА -->
+    <div class="sec">
+      <div class="sec-h">⚙️ ИНФО СЕРВЕРА</div>
+      <div class="sec-b">
+        <label>IP сервера Minecraft</label>
+        <input type="text" id="mc-ip" placeholder="CPYSHub.aternos.me">
+        <label>Версия</label>
+        <input type="text" id="mc-ver" placeholder="1.20.1">
+        <label>Описание</label>
+        <textarea id="mc-desc" placeholder="Добро пожаловать на C.P.Y.S Hub!"></textarea>
+        <button class="btn btn-gold" onclick="save()" style="margin-top:12px">💾 СОХРАНИТЬ</button>
+      </div>
+    </div>
+
+    <!-- DANGER ZONE -->
+    <div class="sec" style="border-top-color:var(--red);">
+      <div class="sec-h" style="color:var(--red)">⚠️ СБРОС</div>
+      <div class="sec-b">
+        <button class="btn btn-red" onclick="clearAll()">🗑️ ОЧИСТИТЬ ВСЁ</button>
+        <span style="color:var(--muted);font-size:12px;margin-left:10px">Удалить все фото и объявления</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ===== PASSWORD =====
+const ADMIN_PASSWORD = "cpys2025";  // ← поменяй пароль!
+
+function checkPw(){
+  const v=document.getElementById('pw-inp').value;
+  if(v===ADMIN_PASSWORD){
+    document.getElementById('pw-overlay').style.display='none';
+    document.getElementById('adm-main').style.display='block';
+    loadData();
+  } else {
+    document.getElementById('pw-err').textContent='Неверный пароль';
+    document.getElementById('pw-inp').value='';
+  }
+}
+
+// ===== DATA =====
+let adminData = {
+  banner: {enabled:false, image_url:'', title:'', text:'', link:''},
+  spawn_image: '',
+  announcements: [],
+  pinned_photos: [],
+  server_info: {ip:'CPYSHub.aternos.me', version:'', description:''}
+};
+
+const GITHUB_TOKEN = "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";
+const GITHUB_USER  = "ZPNK666";
+const GITHUB_REPO  = "cpys-hub";
+const ADMIN_FILE   = "admin.json";
+
+async function loadData(){
+  try{
+    const r=await fetch('admin.json?t='+Date.now(),{cache:'no-store'});
+    if(r.ok){
+      adminData=await r.json();
+      renderForm();
+    }
+  }catch(e){ renderForm(); }
+}
+
+function renderForm(){
+  document.getElementById('spawn-url').value   = adminData.spawn_image||'';
+  document.getElementById('banner-on').checked = adminData.banner?.enabled||false;
+  document.getElementById('banner-title').value = adminData.banner?.title||'';
+  document.getElementById('banner-text').value  = adminData.banner?.text||'';
+  document.getElementById('banner-img').value   = adminData.banner?.image_url||'';
+  document.getElementById('banner-link').value  = adminData.banner?.link||'';
+  document.getElementById('mc-ip').value    = adminData.server_info?.ip||'';
+  document.getElementById('mc-ver').value   = adminData.server_info?.version||'';
+  document.getElementById('mc-desc').value  = adminData.server_info?.description||'';
+  renderAnnList();
+  renderPhotoList();
+}
+
+function previewSpawn(){
+  const url=document.getElementById('spawn-url').value;
+  const el=document.getElementById('spawn-preview');
+  if(url) el.innerHTML='<img src="'+url+'" style="max-width:100%;max-height:200px;border:1px solid var(--b);">';
+  else el.innerHTML='';
+}
+
+function addAnn(){
+  const title=document.getElementById('ann-title').value.trim();
+  const text=document.getElementById('ann-text').value.trim();
+  const color=document.getElementById('ann-color').value||'#ffd700';
+  if(!title) return alert('Введи заголовок!');
+  adminData.announcements.unshift({
+    title, text, color,
+    time: new Date().toLocaleString('ru-RU',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'}),
+    id: Date.now()
+  });
+  document.getElementById('ann-title').value='';
+  document.getElementById('ann-text').value='';
+  renderAnnList();
+  save();
+}
+
+function delAnn(id){
+  adminData.announcements=adminData.announcements.filter(a=>a.id!==id);
+  renderAnnList(); save();
+}
+
+function renderAnnList(){
+  const el=document.getElementById('ann-list');
+  if(!adminData.announcements.length){
+    el.innerHTML='<div style="color:var(--muted);font-size:12px">Объявлений нет</div>'; return;
+  }
+  el.innerHTML=adminData.announcements.map(a=>`
+    <div class="ann-item" style="border-left-color:${a.color||'var(--gold)'}">
+      <div class="at">
+        <div class="ann-title" style="color:${a.color||'var(--gold)'}">${escH(a.title)}</div>
+        <div class="ann-text">${escH(a.text||'')}</div>
+        <div class="ann-time">${escH(a.time||'')}</div>
+      </div>
+      <button class="btn btn-red" onclick="delAnn(${a.id})" style="padding:4px 8px;font-size:10px">✕</button>
+    </div>`).join('');
+}
+
+function addPhoto(){
+  const url=document.getElementById('pin-url').value.trim();
+  const cap=document.getElementById('pin-cap').value.trim();
+  if(!url) return alert('Введи ссылку на фото!');
+  adminData.pinned_photos.unshift({url, caption:cap, id:Date.now(),
+    time: new Date().toLocaleString('ru-RU',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})});
+  document.getElementById('pin-url').value='';
+  document.getElementById('pin-cap').value='';
+  renderPhotoList(); save();
+}
+
+function delPhoto(id){
+  adminData.pinned_photos=adminData.pinned_photos.filter(p=>p.id!==id);
+  renderPhotoList(); save();
+}
+
+function renderPhotoList(){
+  const el=document.getElementById('photo-list');
+  if(!adminData.pinned_photos.length){
+    el.innerHTML='<div style="color:var(--muted);font-size:12px">Фото нет</div>'; return;
+  }
+  el.innerHTML=adminData.pinned_photos.map(p=>`
+    <div class="photo-item">
+      <img src="${p.url}" onerror="this.src=''">
+      <button class="photo-del" onclick="delPhoto(${p.id})">✕</button>
+      ${p.caption?`<div class="photo-caption">${escH(p.caption)}</div>`:''}
+    </div>`).join('');
+}
+
+function clearAll(){
+  if(!confirm('Удалить все фото и объявления?')) return;
+  adminData.announcements=[];
+  adminData.pinned_photos=[];
+  renderAnnList(); renderPhotoList(); save();
+}
+
+async function save(){
+  // Собираем данные из формы
+  adminData.spawn_image = document.getElementById('spawn-url').value.trim();
+  adminData.banner = {
+    enabled:    document.getElementById('banner-on').checked,
+    title:      document.getElementById('banner-title').value.trim(),
+    text:       document.getElementById('banner-text').value.trim(),
+    image_url:  document.getElementById('banner-img').value.trim(),
+    link:       document.getElementById('banner-link').value.trim(),
+  };
+  adminData.server_info = {
+    ip:          document.getElementById('mc-ip').value.trim(),
+    version:     document.getElementById('mc-ver').value.trim(),
+    description: document.getElementById('mc-desc').value.trim(),
+  };
+  adminData.updated_at = new Date().toLocaleString('ru-RU');
+
+  const statusEl = document.getElementById('save-status');
+  statusEl.className=''; statusEl.textContent='Сохраняю...';
+
+  try{
+    // Получаем SHA
+    let sha = null;
+    const getResp = await fetch(
+      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${ADMIN_FILE}`,
+      {headers:{'Authorization':'token '+GITHUB_TOKEN,'Accept':'application/vnd.github.v3+json'}}
+    );
+    if(getResp.ok){ const gd=await getResp.json(); sha=gd.sha; }
+
+    const jsonStr = JSON.stringify(adminData, null, 2);
+    const b64 = btoa(unescape(encodeURIComponent(jsonStr)));
+    const body = {message:'update admin.json', content:b64};
+    if(sha) body.sha=sha;
+
+    const putResp = await fetch(
+      `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${ADMIN_FILE}`,
+      {method:'PUT', headers:{
+        'Authorization':'token '+GITHUB_TOKEN,
+        'Accept':'application/vnd.github.v3+json',
+        'Content-Type':'application/json'
+      }, body: JSON.stringify(body)}
+    );
+
+    if(putResp.ok){
+      statusEl.className='status-ok'; statusEl.textContent='✅ СОХРАНЕНО!';
+      setTimeout(()=>statusEl.textContent='',3000);
+    } else {
+      throw new Error(putResp.status);
+    }
+  } catch(e){
+    statusEl.className='status-err'; statusEl.textContent='❌ ОШИБКА: '+e.message;
+  }
+}
+
+function escH(s){
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+</script>
+</body>
+</html>
