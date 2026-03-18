@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 14:03:51",
+  "updated_at": "18.03.2026 14:03:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -1478,7 +1478,15 @@
     "Агностик": 6,
     "ислам": 5
   },
-  "hourly_history": [],
+  "hourly_history": [
+    {
+      "time": "18.03 14:00",
+      "hour": 14,
+      "online": 9,
+      "in_voice": 2,
+      "messages": 0
+    }
+  ],
   "recent_join_leave": [],
   "top_chatters": [
     {
