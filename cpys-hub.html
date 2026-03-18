@@ -438,11 +438,32 @@ body.cursor-ds #cursor{
   <header>
     <div class="logo">C.P.Y.S HUB<span class="blink"> _</span><small>STATISTICS DASHBOARD</small></div>
     <div class="hright">
+      <div style="display:flex;align-items:center;gap:8px;">
+      <select id="tz-select" onchange="setTZ(this.value)" style="background:#0b1520;border:1px solid var(--b);color:var(--muted);font-family:'VT323',monospace;font-size:13px;padding:2px 4px;cursor:pointer;">
+        <option value="3">МСК (UTC+3)</option>
+        <option value="0">UTC+0</option>
+        <option value="2">UTC+2</option>
+        <option value="4">UTC+4</option>
+        <option value="5">UTC+5</option>
+      </select>
       <div id="last-updated" style="font-size:11px;color:var(--muted)">обновление...</div>
+    </div>
       <div id="clk">00:00:00</div>
       <div class="live"><div class="dot"></div>LIVE</div>
     </div>
   </header>
+
+<!-- ADMIN BANNER (из admin.json) -->
+<div id="adm-banner" style="display:none;padding:10px 20px;border-bottom:1px solid var(--b);background:rgba(11,21,32,0.9);">
+  <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+    <img id="adm-banner-img" style="max-height:50px;display:none;border:1px solid var(--b);">
+    <div style="flex:1;">
+      <div id="adm-banner-title" style="font-family:'Press Start 2P',monospace;font-size:9px;color:var(--gold);margin-bottom:4px;"></div>
+      <div id="adm-banner-text" style="font-size:14px;color:var(--text);"></div>
+    </div>
+    <a id="adm-banner-link" href="#" target="_blank" style="display:none;font-size:13px;color:var(--cyan);border:1px solid var(--cyan);padding:4px 10px;">ПОДРОБНЕЕ →</a>
+  </div>
+</div>
 
   <div class="center">
 
@@ -503,11 +524,13 @@ body.cursor-ds #cursor{
           </div>
         </div>
 
-        <!-- Топ убийств -->
+        <!-- Топы -->
         <div id="mc-top-wrap" style="display:none;margin-top:6px;">
-          <div class="pnl">
-            <div class="ph">⚔️ ТОП УБИЙСТВ</div>
-            <div class="pbd scr" id="mc-top-kills"></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+            <div class="pnl"><div class="ph">⏱️ ТОП ВРЕМЕНИ</div><div class="pbd scr" id="mc-top-time"></div></div>
+            <div class="pnl"><div class="ph">⚔️ ТОП УБИЙСТВ</div><div class="pbd scr" id="mc-top-kills"></div></div>
+            <div class="pnl"><div class="ph">💬 ТОП ЧАТА</div><div class="pbd scr" id="mc-top-msgs"></div></div>
+            <div class="pnl"><div class="ph">🚪 ТОП ВХОДОВ</div><div class="pbd scr" id="mc-top-joins"></div></div>
           </div>
         </div>
       </div>
@@ -634,6 +657,12 @@ body.cursor-ds #cursor{
     </div>
 
   </div>
+
+  <!-- ОБЪЯВЛЕНИЯ (из admin.json) -->
+  <div id="adm-announcements" style="display:none;margin:0 0 0 0;padding:6px 16px;background:rgba(11,21,32,0.9);border-top:1px solid var(--b);"></div>
+
+  <!-- ЗАКРЕПЛЁННЫЕ ФОТО (из admin.json) -->
+  <div id="adm-photos" style="display:none;grid-template-columns:repeat(5,1fr);gap:4px;padding:6px 16px;background:rgba(11,21,32,0.9);border-top:1px solid var(--b);"></div>
 
   <div class="btabs">
     <div class="bt mcb" id="bt-mc" onclick="sp('mc',this,'mcb')"><span class="bi">⛏️</span>MINECRAFT</div>
@@ -1669,18 +1698,45 @@ function loadMC(d){
     const ep=document.getElementById('mc-players');if(ep)cnt(ep,totalPlayers);
   }
 
+  // Топы из mc_stats.json
+  const tw=document.getElementById('mc-top-wrap');
+  if(tw) tw.style.display='block';
+
+  function mcTopRow(p,i,icon,val){
+    const av=`https://mc-heads.net/avatar/${encodeURIComponent((p.name||'?').replace(/^\./,''))}/24`;
+    return `<div class="row">
+      <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--muted);width:18px">#${i+1}</span>
+      <img src="${av}" style="width:24px;height:24px;image-rendering:pixelated;" onerror="this.style.display='none'">
+      <div class="ri"><div class="rn">${p.name||'?'}</div></div>
+      <div class="rv">${icon} <b style="color:var(--cyan)">${val}</b></div>
+    </div>`;
+  }
+
+  // Топ времени
+  const ttEl=document.getElementById('mc-top-time');
+  if(ttEl&&mc.top_playtime&&mc.top_playtime.length){
+    ttEl.innerHTML=mc.top_playtime.map((p,i)=>{
+      const h=Math.floor((p.playtime_min||0)/60), m2=(p.playtime_min||0)%60;
+      return mcTopRow(p,i,'⏱️',h+'ч '+m2+'м');
+    }).join('');
+  }
+
   // Топ убийств
-  if(mc.top_killers&&mc.top_killers.length){
-    const tw=document.getElementById('mc-top-wrap');
-    if(tw)tw.style.display='block';
-    const tl=document.getElementById('mc-top-kills');
-    if(tl)tl.innerHTML=mc.top_killers.map((k,i)=>`
-      <div class="row">
-        <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--muted);width:20px">#${i+1}</span>
-        <div class="rav" style="background:#ff444422;border-color:#ff4444;color:#ff4444">${(k.name||'?')[0]}</div>
-        <div class="ri"><div class="rn">${k.name}</div></div>
-        <div class="rv" style="color:var(--red)">⚔️ ${k.kills}</div>
-      </div>`).join('');
+  const tkEl=document.getElementById('mc-top-kills');
+  if(tkEl&&mc.top_kills&&mc.top_kills.length){
+    tkEl.innerHTML=mc.top_kills.map((p,i)=>mcTopRow(p,i,'⚔️',p.kills||0)).join('');
+  }
+
+  // Топ чата
+  const tmEl=document.getElementById('mc-top-msgs');
+  if(tmEl&&mc.top_messages&&mc.top_messages.length){
+    tmEl.innerHTML=mc.top_messages.map((p,i)=>mcTopRow(p,i,'💬',p.messages||0)).join('');
+  }
+
+  // Топ входов
+  const tjEl=document.getElementById('mc-top-joins');
+  if(tjEl&&mc.top_joins&&mc.top_joins.length){
+    tjEl.innerHTML=mc.top_joins.map((p,i)=>mcTopRow(p,i,'🚪',p.joins||0)).join('');
   }
 
   // ---- СПИСОК ИГРОКОВ ----
@@ -1975,13 +2031,218 @@ function cm(e){
     document.getElementById('mbg').classList.remove('show');
 }
 
-async function loadReal(){
-  // Параллельно грузим stats + messages
+
+// ===== RENDER MC FROM mc_stats.json =====
+function renderMCFromStats(mc){
+  if(!mc) return;
+
+  // Summary cards
+  const srow=document.getElementById('mc-srow');
+  if(srow) srow.style.display='grid';
+  const eon=document.getElementById('mc-online');
+  if(eon) cnt(eon, mc.online_count||0);
+  const ep=document.getElementById('mc-players');
+  if(ep) cnt(ep, mc.total_players||0);
+
+  // First ever / last join info
+  const tw=document.getElementById('mc-top-wrap');
+  if(tw) tw.style.display='block';
+
+  function mcTopRow(p,i,icon,val){
+    const clean=(p.name||'?').replace(/^\./,'');
+    const av='https://mc-heads.net/avatar/'+encodeURIComponent(clean)+'/24';
+    return '<div class="row">'+
+      '<span style="font-size:8px;color:var(--muted);width:18px">#'+(i+1)+'</span>'+
+      '<img src="'+av+'" style="width:24px;height:24px;image-rendering:pixelated;">'+
+      '<div class="ri"><div class="rn">'+(p.name||'?')+'</div></div>'+
+      '<div class="rv">'+icon+' <b style="color:var(--cyan)">'+val+'</b></div>'+
+      '</div>';
+  }
+
+  var ttEl=document.getElementById('mc-top-time');
+  if(ttEl&&mc.top_playtime&&mc.top_playtime.length){
+    ttEl.innerHTML=mc.top_playtime.map(function(p,i){
+      var h=Math.floor((p.playtime_min||0)/60), m2=(p.playtime_min||0)%60;
+      return mcTopRow(p,i,'⏱️',h+'ч '+m2+'м');
+    }).join('');
+  } else if(ttEl){
+    ttEl.innerHTML='<div style="color:var(--muted);font-size:12px;padding:8px">Данных пока нет</div>';
+  }
+
+  var tkEl=document.getElementById('mc-top-kills');
+  if(tkEl&&mc.top_kills&&mc.top_kills.length){
+    tkEl.innerHTML=mc.top_kills.map(function(p,i){ return mcTopRow(p,i,'⚔️',p.kills||0); }).join('');
+  }
+
+  var tmEl=document.getElementById('mc-top-msgs');
+  if(tmEl&&mc.top_messages&&mc.top_messages.length){
+    tmEl.innerHTML=mc.top_messages.map(function(p,i){ return mcTopRow(p,i,'💬',p.messages||0); }).join('');
+  }
+
+  var tjEl=document.getElementById('mc-top-joins');
+  if(tjEl&&mc.top_joins&&mc.top_joins.length){
+    tjEl.innerHTML=mc.top_joins.map(function(p,i){ return mcTopRow(p,i,'🚪',p.joins||0); }).join('');
+  }
+
+  // Online now
+  var eonline=document.getElementById('mc-players-online-count');
+  if(eonline&&mc.online_now&&mc.online_now.length){
+    eonline.textContent='● '+mc.online_now.join(', ')+' онлайн';
+  }
+
+  // Events
+  var evList=document.getElementById('mc-events-list');
+  var evCount=document.getElementById('mc-events-count');
+  if(evList&&mc.events&&mc.events.length){
+    var icons={join:'🟢',quit:'🔴',death:'💀',chat:'💬'};
+    evList.innerHTML=[].concat(mc.events).reverse().slice(0,50).map(function(ev){
+      var icon=icons[ev.type]||'•';
+      var text='';
+      if(ev.type==='join') text='<b>'+escHtml(ev.player)+'</b> зашёл на сервер';
+      else if(ev.type==='quit') text='<b>'+escHtml(ev.player)+'</b> вышел';
+      else if(ev.type==='death') text='<b>'+escHtml(ev.player)+'</b> погиб'+(ev.killer?' от '+escHtml(ev.killer):'')+(ev.msg?' — '+escHtml(ev.msg.slice(0,50)):'');
+      else if(ev.type==='chat') text='<b>'+escHtml(ev.player)+'</b>: '+escHtml((ev.text||'').slice(0,80));
+      else text=escHtml(JSON.stringify(ev).slice(0,60));
+      return '<div class="jlr"><span>'+icon+'</span><span style="flex:1;font-size:13px">'+text+'</span><span style="color:var(--muted);font-size:11px">'+escHtml(ev.time||'')+'</span></div>';
+    }).join('');
+    if(evCount) evCount.textContent='('+mc.events.length+')';
+  }
+
+  // Save to window for player cards
+  window._mcData = window._mcData||{};
+  if(mc.players){
+    // Convert to format renderMCPlayerCards expects
+    var mcCompat={
+      kills:{}, deaths:{}, playtime:{}, advancements:{},
+      online_players: mc.online_now||[],
+      players: mc.players
+    };
+    Object.values(mc.players).forEach(function(p){
+      mcCompat.kills[p.name]    = p.kills||0;
+      mcCompat.deaths[p.name]   = p.deaths||0;
+      mcCompat.playtime[p.name] = p.playtime_min||0;
+    });
+    window._mcData=mcCompat;
+    renderMCPlayerCards(mcCompat);
+  }
+
+  // MC stats header
+  var chartWrap=document.getElementById('mc-chart-wrap');
+  if(mc.first_ever||mc.last_join){
+    var infoHtml='';
+    if(mc.first_ever) infoHtml+='<span style="color:var(--muted);font-size:11px">Первый вход: <b style="color:var(--gold)">'+escHtml(mc.first_ever)+'</b></span> ';
+    if(mc.last_join)  infoHtml+='<span style="color:var(--muted);font-size:11px">Последний: <b style="color:var(--green)">'+escHtml(mc.last_join)+'</b></span>';
+    var infoEl=document.getElementById('mc-first-last');
+    if(!infoEl){
+      var d=document.createElement('div');
+      d.id='mc-first-last';
+      d.style.cssText='padding:6px 10px;font-size:12px;border-bottom:1px solid var(--b);';
+      d.innerHTML=infoHtml;
+      var srow2=document.getElementById('mc-srow');
+      if(srow2&&srow2.parentNode) srow2.parentNode.insertBefore(d,srow2.nextSibling);
+    } else { infoEl.innerHTML=infoHtml; }
+  }
+}
+
+// ===== TIMEZONE =====
+var _tzOffset = parseInt(localStorage.getItem('cpys_tz')||'3');
+function setTZ(v){
+  _tzOffset=parseInt(v);
+  localStorage.setItem('cpys_tz',v);
+  document.getElementById('tz-select').value=v;
+}
+function fmtTime(isoStr){
+  if(!isoStr) return '—';
   try{
-    const [r, rm] = await Promise.all([
+    const d=new Date(isoStr);
+    if(isNaN(d)) return isoStr; // already formatted string
+    const utc=d.getTime()+d.getTimezoneOffset()*60000;
+    const local=new Date(utc+_tzOffset*3600000);
+    return local.toLocaleString('ru-RU',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+  }catch(e){ return isoStr; }
+}
+
+// ===== VISITORS =====
+(function(){
+  try{
+    var visits=JSON.parse(localStorage.getItem('cpys_visits')||'[]');
+    var now=new Date().toISOString();
+    visits.push(now);
+    if(visits.length>100) visits=visits.slice(-100);
+    localStorage.setItem('cpys_visits',JSON.stringify(visits));
+    window._myVisits=visits;
+  }catch(e){}
+})();
+
+async function loadReal(){
+  // Параллельно грузим stats + messages + mc_stats
+  try{
+    const [r, rm, rmc] = await Promise.all([
       fetch('discord_stats.json?t='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}}),
-      fetch('discord_messages.json?t='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).catch(()=>null)
+      fetch('discord_messages.json?t='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).catch(()=>null),
+      fetch('mc_stats.json?t='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).catch(()=>null)
     ]);
+    // Load admin.json
+    fetch('admin.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(function(adm){
+      if(!adm) return;
+      // Banner
+      var bn=adm.banner||{};
+      if(bn.enabled&&(bn.title||bn.text)){
+        document.getElementById('adm-banner').style.display='block';
+        document.getElementById('adm-banner-title').textContent=bn.title||'';
+        document.getElementById('adm-banner-text').textContent=bn.text||'';
+        if(bn.image_url){var bi=document.getElementById('adm-banner-img');bi.src=bn.image_url;bi.style.display='block';}
+        if(bn.link){var bl=document.getElementById('adm-banner-link');bl.href=bn.link;bl.style.display='block';}
+      } else {
+        document.getElementById('adm-banner').style.display='none';
+      }
+      // Spawn image
+      if(adm.spawn_image){
+        var si=document.getElementById('mc-spawn-img');
+        if(si&&adm.spawn_image){si.src=adm.spawn_image;si.style.display='block';}
+        var sp=document.getElementById('mc-spawn-placeholder');
+        if(sp) sp.style.display='none';
+      }
+      // Server info
+      if(adm.server_info){
+        var ipEl=document.querySelector('.mc-server-ip');
+        if(ipEl&&adm.server_info.ip) ipEl.textContent=adm.server_info.ip;
+        var verEl=document.querySelector('.mc-server-ver');
+        if(verEl&&adm.server_info.version) verEl.textContent=adm.server_info.version;
+      }
+      // Announcements
+      var annEl=document.getElementById('adm-announcements');
+      if(annEl&&adm.announcements&&adm.announcements.length){
+        annEl.style.display='block';
+        annEl.innerHTML=adm.announcements.slice(0,5).map(function(a){
+          return '<div style="border-left:3px solid '+(a.color||'var(--gold)')+';padding:6px 10px;margin-bottom:5px;background:#060d14;">'+
+            '<div style="font-size:14px;color:'+(a.color||'var(--gold)')+'">'+escHtml(a.title||'')+'</div>'+
+            (a.text?'<div style="font-size:12px;color:var(--muted);margin-top:2px;">'+escHtml(a.text)+'</div>':'')+
+            '<div style="font-size:10px;color:#1a3a4a;margin-top:2px;">'+escHtml(a.time||'')+'</div>'+
+            '</div>';
+        }).join('');
+      }
+      // Pinned photos
+      var photosEl=document.getElementById('adm-photos');
+      if(photosEl&&adm.pinned_photos&&adm.pinned_photos.length){
+        photosEl.style.display='grid';
+        photosEl.innerHTML=adm.pinned_photos.map(function(p){
+          return '<div style="position:relative;aspect-ratio:1;overflow:hidden;border:1px solid var(--b);cursor:pointer;" onclick="window.open(this.dataset.url)" data-url="'+p.url+'">'+
+            '<img src="'+p.url+'" style="width:100%;height:100%;object-fit:cover;">'+
+            (p.caption?'<div style="position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,0.7);font-size:11px;padding:2px 4px;">'+escHtml(p.caption)+'</div>':'')+
+            '</div>';
+        }).join('');
+      }
+    }).catch(function(){});
+
+    // Load MC stats
+    if(rmc&&rmc.ok){
+      try{
+        const mcData=await rmc.json();
+        window._mcStatsData=mcData;
+        renderMCFromStats(mcData);
+      }catch(e){}
+    }
     if(!r.ok) return;
     const d=await r.json();
 
