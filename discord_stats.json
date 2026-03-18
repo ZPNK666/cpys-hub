@@ -1,5 +1,5 @@
 {
-  "updated_at": "18.03.2026 18:54:56",
+  "updated_at": "18.03.2026 18:55:56",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,12 +11,12 @@
     "total_members": 40,
     "online_count": 7,
     "offline_count": 27,
-    "in_voice_count": 3,
-    "messages_today": 12,
+    "in_voice_count": 2,
+    "messages_today": 38,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 8,
+    "text": 34,
     "images": 13,
     "gifs": 2,
     "stickers": 0,
@@ -230,31 +230,77 @@
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
       "joined_at": "2026-03-09T07:12:13.865000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 26,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 26
       },
       "stats_all": {
-        "text": 4,
+        "text": 30,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 30
       },
-      "total_messages": 4,
+      "total_messages": 30,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
         "first_join": null,
         "last_seen": null
       },
-      "recent_messages": []
+      "recent_messages": [
+        {
+          "time": "18.03.2026 18:55",
+          "channel": "💬-общий-чат",
+          "content": "Кто пойдет ко мне в войс играть майнкрафт",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "18.03.2026 18:55",
+          "channel": "💬-общий-чат",
+          "content": "Кто пойдет ко мне в войс играть майнкрафт",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "18.03.2026 18:55",
+          "channel": "💬-общий-чат",
+          "content": "Кто пойдет ко мне в войс играть майнкрафт",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "18.03.2026 18:55",
+          "channel": "💬-общий-чат",
+          "content": "Кто пойдет ко мне в войс играть майнкрафт",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "18.03.2026 18:55",
+          "channel": "💬-общий-чат",
+          "content": "Кто пойдет ко мне в войс играть майнкрафт",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     },
     {
       "id": "935061338479263775",
@@ -1531,13 +1577,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 1,
-      "members": [
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
-        }
-      ]
+      "members_count": 0,
+      "members": []
     },
     {
       "id": "1470014222401274019",
@@ -1716,6 +1757,17 @@
       "total": 78
     },
     {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "text": 30,
+      "images": 0,
+      "voice": 0,
+      "stickers": 0,
+      "gifs": 0,
+      "files": 0,
+      "total": 30
+    },
+    {
       "id": "834060139006394368",
       "name": "ZPNK666",
       "text": 16,
@@ -1736,17 +1788,6 @@
       "gifs": 2,
       "files": 0,
       "total": 9
-    },
-    {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "text": 4,
-      "images": 0,
-      "voice": 0,
-      "stickers": 0,
-      "gifs": 0,
-      "files": 0,
-      "total": 4
     },
     {
       "id": "1433504994824425640",
