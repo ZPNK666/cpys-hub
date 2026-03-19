@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:28:22",
+  "updated_at": "19.03.2026 18:29:22",
   "users": {
     "1354100925043703870": [
       {
@@ -82,24 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477528129428783105",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "01.03.2026 07:49",
-        "content": "",
-        "type": "images",
-        "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477528129508737234/IMG_6066.png?ex=69bc290d&is=69bad78d&hm=3392e564c1cc0cff8fb56b83b70bba14a771457ab6ce0868ebe074e4a239514b&",
-        "attachments": [
-          {
-            "type": "images",
-            "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477528129508737234/IMG_6066.png?ex=69bc290d&is=69bad78d&hm=3392e564c1cc0cff8fb56b83b70bba14a771457ab6ce0868ebe074e4a239514b&",
-            "filename": "IMG_6066.png",
-            "size": 982112
-          }
-        ],
-        "stickers": []
-      },
       {
         "id": "1477528209904898138",
         "channel": "💬-общий-чат",
@@ -5817,6 +5799,17 @@
         "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1484212161852211200",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "19.03.2026 18:29",
+        "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
         "attachments": [],
         "stickers": []
       }
