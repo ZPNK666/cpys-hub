@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:26:22",
+  "updated_at": "19.03.2026 18:27:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 13,
     "offline_count": 21,
     "in_voice_count": 4,
-    "messages_today": 13,
+    "messages_today": 14,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 10,
+    "text": 11,
     "images": 4,
     "gifs": 2,
     "stickers": 0,
@@ -971,24 +971,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "stats_all": {
-        "text": 1103,
+        "text": 1104,
         "images": 120,
         "voice": 0,
         "stickers": 26,
         "gifs": 10,
         "files": 34,
-        "total": 1263
+        "total": 1264
       },
-      "total_messages": 1103,
+      "total_messages": 1104,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -996,6 +996,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 18:26",
+          "channel": "💬-общий-чат",
+          "content": "тоесть ты не можеш даказать что запрет лучше чем впн и вот",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 18:24",
           "channel": "💬-общий-чат",
@@ -1027,15 +1036,6 @@
           "time": "19.03.2026 13:19",
           "channel": "💬-общий-чат",
           "content": "<@1211055468362072164><:aa85cfb3345045d681793ff60190b186:1458729037391462541> секс свевен",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:19",
-          "channel": "💬-общий-чат",
-          "content": "ты топ 1 по сообщений",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4124,7 +4124,7 @@
       "time": "19.03 18:00",
       "hour": 18,
       "date": "2026-03-19",
-      "messages": 9,
+      "messages": 10,
       "online": 16,
       "in_voice": 2
     }
@@ -4145,13 +4145,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1103,
+      "text": 1104,
       "images": 120,
       "voice": 0,
       "stickers": 26,
       "gifs": 10,
       "files": 34,
-      "total": 1263
+      "total": 1264
     },
     {
       "id": "1264609602540929140",
