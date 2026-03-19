@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:18:22",
+  "updated_at": "19.03.2026 18:19:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 13,
-    "offline_count": 21,
+    "online_count": 15,
+    "offline_count": 19,
     "in_voice_count": 3,
     "messages_today": 4,
     "text_channels_count": 10
@@ -509,6 +509,91 @@
       ]
     },
     {
+      "id": "1296770485421342731",
+      "name": "АБОБА",
+      "status": "dnd",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
+      "joined_at": "2026-02-17T15:54:04.631000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 216,
+        "images": 42,
+        "voice": 20,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 264
+      },
+      "total_messages": 216,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "17.02.2026 07:01",
+          "channel": "📝-предложения-2026",
+          "content": "согласен",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 19:22",
+          "channel": "🔞хент-18",
+          "content": "пупу",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 19:20",
+          "channel": "🔞хент-18",
+          "content": "кирпич?",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 19:21",
+          "channel": "🔥-мемы-и-ржака",
+          "content": "разговаривают два самоубицы один говорит давай купим пистолет второй говорит дорого давай скинемся",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "17.02.2026 06:48",
+          "channel": "🔥-мемы-и-ржака",
+          "content": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps:",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiy",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1255232329362833409",
       "name": "кирпич",
       "status": "online",
@@ -940,6 +1025,41 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "525765291808915458",
+      "name": "MAX (вирус)",
+      "status": "idle",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
+      "joined_at": "2026-01-27T20:22:01.540000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1311555070160277525",
@@ -1408,91 +1528,6 @@
           "content": "Привет",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
-      "joined_at": "2026-02-17T15:54:04.631000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 216,
-        "images": 42,
-        "voice": 20,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 264
-      },
-      "total_messages": 216,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "17.02.2026 07:01",
-          "channel": "📝-предложения-2026",
-          "content": "согласен",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:22",
-          "channel": "🔞хент-18",
-          "content": "пупу",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:20",
-          "channel": "🔞хент-18",
-          "content": "кирпич?",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:21",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "разговаривают два самоубицы один говорит давай купим пистолет второй говорит дорого давай скинемся",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "17.02.2026 06:48",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps:",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiy",
           "attachments": [],
           "stickers": []
         }
@@ -2171,41 +2206,6 @@
           "stickers": []
         }
       ]
-    },
-    {
-      "id": "525765291808915458",
-      "name": "MAX (вирус)",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
-      "joined_at": "2026-01-27T20:22:01.540000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     },
     {
       "id": "1407789136965931088",
