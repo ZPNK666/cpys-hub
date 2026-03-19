@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 12:26:52",
+  "updated_at": "19.03.2026 12:27:52",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 4,
-    "offline_count": 30,
+    "online_count": 5,
+    "offline_count": 29,
     "in_voice_count": 0,
     "messages_today": 0,
     "text_channels_count": 10
@@ -296,6 +296,91 @@
           "time": "07.03.2026 12:18",
           "channel": "💬-общий-чат",
           "content": "Алло",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1396607687365754883",
+      "name": "1 АПРЕЛЬ",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
+      "joined_at": "2026-02-26T07:33:27.565000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 116,
+        "images": 0,
+        "voice": 0,
+        "stickers": 3,
+        "gifs": 0,
+        "files": 0,
+        "total": 119
+      },
+      "total_messages": 116,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "04.03.2026 16:58",
+          "channel": "💬-общий-чат",
+          "content": "<:__:1460345102466547786> <:__:1460345102466547786> <:__:1460345102466547786>",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "03.03.2026 17:51",
+          "channel": "💬-общий-чат",
+          "content": "Чуть позже зайду",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "03.03.2026 17:42",
+          "channel": "💬-общий-чат",
+          "content": "Ща я минут через 10 подключусь",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "03.03.2026 17:41",
+          "channel": "💬-общий-чат",
+          "content": "Пикме привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 22:06",
+          "channel": "💬-общий-чат",
+          "content": "<:__:1460345102466547786>",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1986,91 +2071,6 @@
               "size": 523671
             }
           ],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1396607687365754883",
-      "name": "1 АПРЕЛЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
-      "joined_at": "2026-02-26T07:33:27.565000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 116,
-        "images": 0,
-        "voice": 0,
-        "stickers": 3,
-        "gifs": 0,
-        "files": 0,
-        "total": 119
-      },
-      "total_messages": 116,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "04.03.2026 16:58",
-          "channel": "💬-общий-чат",
-          "content": "<:__:1460345102466547786> <:__:1460345102466547786> <:__:1460345102466547786>",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "03.03.2026 17:51",
-          "channel": "💬-общий-чат",
-          "content": "Чуть позже зайду",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "03.03.2026 17:42",
-          "channel": "💬-общий-чат",
-          "content": "Ща я минут через 10 подключусь",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "03.03.2026 17:41",
-          "channel": "💬-общий-чат",
-          "content": "Пикме привет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "28.02.2026 22:06",
-          "channel": "💬-общий-чат",
-          "content": "<:__:1460345102466547786>",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
           "stickers": []
         }
       ]
