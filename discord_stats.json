@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 13:01:29",
+  "updated_at": "19.03.2026 13:02:08",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 4,
     "offline_count": 30,
     "in_voice_count": 0,
-    "messages_today": 0,
+    "messages_today": 1,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 0,
+    "text": 1,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -27,7 +27,7 @@
     {
       "id": "1354100925043703870",
       "name": "bsods10",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "провославный",
@@ -308,24 +308,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "stats_all": {
-        "text": 1290,
+        "text": 1291,
         "images": 179,
         "voice": 0,
         "stickers": 28,
         "gifs": 13,
         "files": 41,
-        "total": 1496
+        "total": 1497
       },
-      "total_messages": 1290,
+      "total_messages": 1291,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -333,6 +333,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 13:01",
+          "channel": "💬-общий-чат",
+          "content": "доброе утро всем",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "05.03.2026 13:32",
           "channel": "📃новости",
@@ -364,15 +373,6 @@
           "time": "04.03.2026 17:43",
           "channel": "📃новости",
           "content": "@everyone \n ОФИЦИАЛЬНО! НАШ КАНАЛ ТЕПЕРЬ C.P.Y.S <:67:1460180104603766885>    \nCola Pepsi You Sexy <",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "25.02.2026 16:25",
-          "channel": "📃новости",
-          "content": "✦ Добро пожаловать в центр обновлений! ✦\n\nЗдесь я кидаю всё самое важное про наш Discord:\n• новые фи",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4087,7 +4087,7 @@
       "time": "19.03 13:00",
       "hour": 13,
       "date": "2026-03-19",
-      "messages": 0,
+      "messages": 1,
       "online": 9,
       "in_voice": 0
     }
@@ -4108,13 +4108,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1290,
+      "text": 1291,
       "images": 179,
       "voice": 0,
       "stickers": 28,
       "gifs": 13,
       "files": 41,
-      "total": 1496
+      "total": 1497
     },
     {
       "id": "1264609602540929140",
