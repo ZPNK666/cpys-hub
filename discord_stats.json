@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 13:22:26",
+  "updated_at": "19.03.2026 13:23:26",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,12 +11,12 @@
     "total_members": 40,
     "online_count": 8,
     "offline_count": 26,
-    "in_voice_count": 0,
-    "messages_today": 9,
+    "in_voice_count": 1,
+    "messages_today": 10,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 9,
+    "text": 10,
     "images": 0,
     "gifs": 1,
     "stickers": 0,
@@ -123,24 +123,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 5,
+        "text": 6,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 1,
         "files": 0,
-        "total": 6
+        "total": 7
       },
       "stats_all": {
-        "text": 2028,
+        "text": 2029,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 157,
         "files": 48,
-        "total": 2379
+        "total": 2380
       },
-      "total_messages": 2028,
+      "total_messages": 2029,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -148,6 +148,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 13:23",
+          "channel": "💬-общий-чат",
+          "content": "делай роблокс",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 13:20",
           "channel": "💬-общий-чат",
@@ -179,15 +188,6 @@
           "time": "19.03.2026 13:12",
           "channel": "💬-общий-чат",
           "content": "наша",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:12",
-          "channel": "💬-общий-чат",
-          "content": "и что",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2624,8 +2624,13 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 0,
-      "members": []
+      "members_count": 1,
+      "members": [
+        {
+          "id": "1433504994824425640",
+          "name": "zelebobik"
+        }
+      ]
     },
     {
       "id": "1473159658565931063",
@@ -4081,7 +4086,7 @@
       "time": "19.03 13:00",
       "hour": 13,
       "date": "2026-03-19",
-      "messages": 10,
+      "messages": 11,
       "online": 9,
       "in_voice": 0
     }
@@ -4091,13 +4096,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2028,
+      "text": 2029,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 157,
       "files": 48,
-      "total": 2379
+      "total": 2380
     },
     {
       "id": "834060139006394368",
