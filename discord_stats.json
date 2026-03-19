@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:25:22",
+  "updated_at": "19.03.2026 18:26:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 13,
     "offline_count": 21,
     "in_voice_count": 4,
-    "messages_today": 11,
+    "messages_today": 13,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 9,
+    "text": 10,
     "images": 4,
-    "gifs": 1,
+    "gifs": 2,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -41,18 +41,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 1,
+        "gifs": 2,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "stats_all": {
         "text": 2033,
         "images": 92,
         "voice": 4,
         "stickers": 62,
-        "gifs": 158,
+        "gifs": 159,
         "files": 48,
-        "total": 2385
+        "total": 2386
       },
       "total_messages": 2033,
       "join_leave": {
@@ -62,6 +62,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 18:26",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 18:23",
           "channel": "💬-общий-чат",
@@ -93,15 +102,6 @@
           "time": "19.03.2026 13:24",
           "channel": "💬-общий-чат",
           "content": "глупый",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:24",
-          "channel": "💬-общий-чат",
-          "content": "роблокс в сайт добавь",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -351,24 +351,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
       "joined_at": "2026-02-17T15:54:04.631000+00:00",
       "stats_today": {
-        "text": 4,
+        "text": 5,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 5
       },
       "stats_all": {
-        "text": 220,
+        "text": 221,
         "images": 42,
         "voice": 20,
         "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 268
+        "total": 269
       },
-      "total_messages": 220,
+      "total_messages": 221,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -376,6 +376,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 18:26",
+          "channel": "💬-общий-чат",
+          "content": "своим характером и впном",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 18:23",
           "channel": "💬-общий-чат",
@@ -407,15 +416,6 @@
           "time": "19.03.2026 18:19",
           "channel": "💬-общий-чат",
           "content": "хей кто хочет посидеть в войсе один на один",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "17.02.2026 07:01",
-          "channel": "📝-предложения-2026",
-          "content": "согласен",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4124,7 +4124,7 @@
       "time": "19.03 18:00",
       "hour": 18,
       "date": "2026-03-19",
-      "messages": 7,
+      "messages": 9,
       "online": 16,
       "in_voice": 2
     }
@@ -4138,9 +4138,9 @@
       "images": 92,
       "voice": 4,
       "stickers": 62,
-      "gifs": 158,
+      "gifs": 159,
       "files": 48,
-      "total": 2385
+      "total": 2386
     },
     {
       "id": "834060139006394368",
@@ -4187,6 +4187,17 @@
       "total": 284
     },
     {
+      "id": "1296770485421342731",
+      "name": "АБОБА",
+      "text": 221,
+      "images": 42,
+      "voice": 20,
+      "stickers": 2,
+      "gifs": 0,
+      "files": 0,
+      "total": 269
+    },
+    {
       "id": "1286072101635100733",
       "name": "били б билисимо",
       "text": 80,
@@ -4196,17 +4207,6 @@
       "gifs": 82,
       "files": 0,
       "total": 269
-    },
-    {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "text": 220,
-      "images": 42,
-      "voice": 20,
-      "stickers": 2,
-      "gifs": 0,
-      "files": 0,
-      "total": 268
     },
     {
       "id": "1255232329362833409",
