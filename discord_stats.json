@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:45:22",
+  "updated_at": "19.03.2026 18:46:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,9 +9,9 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 14,
-    "offline_count": 20,
-    "in_voice_count": 5,
+    "online_count": 15,
+    "offline_count": 19,
+    "in_voice_count": 6,
     "messages_today": 17,
     "text_channels_count": 10
   },
@@ -140,6 +140,91 @@
           "time": "16.03.2026 11:26",
           "channel": "🔥-мемы-и-ржака",
           "content": "Хахаха 😂",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 3,
+        "files": 0,
+        "total": 5
+      },
+      "stats_all": {
+        "text": 2034,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 160,
+        "files": 48,
+        "total": 2388
+      },
+      "total_messages": 2034,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "19.03.2026 18:29",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:27",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:26",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 13:53",
+          "channel": "💬-общий-чат",
+          "content": "наабарот",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1152,91 +1237,6 @@
     }
   ],
   "offline_members": [
-    {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 3,
-        "files": 0,
-        "total": 5
-      },
-      "stats_all": {
-        "text": 2034,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 160,
-        "files": 48,
-        "total": 2388
-      },
-      "total_messages": 2034,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "19.03.2026 18:29",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:27",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:26",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:53",
-          "channel": "💬-общий-чат",
-          "content": "наабарот",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
     {
       "id": "1451592083935592490",
       "name": "KUTSI",
@@ -2656,11 +2656,15 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 1,
+      "members_count": 2,
       "members": [
         {
           "id": "1433504994824425640",
           "name": "zelebobik"
+        },
+        {
+          "id": "1292870612531937358",
+          "name": "ПИКМИ"
         }
       ]
     },
