@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:28:22",
+  "updated_at": "19.03.2026 18:29:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 14,
     "offline_count": 20,
     "in_voice_count": 4,
-    "messages_today": 16,
+    "messages_today": 17,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 13,
     "images": 4,
-    "gifs": 2,
+    "gifs": 3,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -164,18 +164,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 2,
+        "gifs": 3,
         "files": 0,
-        "total": 4
+        "total": 5
       },
       "stats_all": {
         "text": 2034,
         "images": 92,
         "voice": 4,
         "stickers": 62,
-        "gifs": 159,
+        "gifs": 160,
         "files": 48,
-        "total": 2387
+        "total": 2388
       },
       "total_messages": 2034,
       "join_leave": {
@@ -185,6 +185,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 18:29",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 18:27",
           "channel": "💬-общий-чат",
@@ -216,15 +225,6 @@
           "time": "19.03.2026 13:53",
           "channel": "💬-общий-чат",
           "content": "наабарот",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:29",
-          "channel": "💬-общий-чат",
-          "content": "ЗА ЧТООО",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4124,7 +4124,7 @@
       "time": "19.03 18:00",
       "hour": 18,
       "date": "2026-03-19",
-      "messages": 12,
+      "messages": 13,
       "online": 16,
       "in_voice": 2
     }
@@ -4138,9 +4138,9 @@
       "images": 92,
       "voice": 4,
       "stickers": 62,
-      "gifs": 159,
+      "gifs": 160,
       "files": 48,
-      "total": 2387
+      "total": 2388
     },
     {
       "id": "834060139006394368",
