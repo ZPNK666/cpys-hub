@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 13:09:26",
+  "updated_at": "19.03.2026 13:10:26",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -111,98 +111,6 @@
       ]
     },
     {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2023,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 156,
-        "files": 48,
-        "total": 2373
-      },
-      "total_messages": 2023,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "19.03.2026 09:10",
-          "channel": "💬-общий-чат",
-          "content": "что",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 09:10",
-          "channel": "💬-общий-чат",
-          "content": "привет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "17.02.2026 06:52",
-          "channel": "📝-предложения-2026",
-          "content": "удалить все нахуй",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "17.02.2026 06:57",
-          "channel": "🎧-включи-музыку",
-          "content": "",
-          "type": "voice",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473102516815134861/1473166511937163379/Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3?ex=69bc1cfa&is=69bacb7a&hm=3003237782780ea9f6f20563ab26a53eba67fb34eda14f1a3afc6fea62cc89f0&",
-          "attachments": [
-            {
-              "type": "voice",
-              "url": "https://cdn.discordapp.com/attachments/1473102516815134861/1473166511937163379/Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3?ex=69bc1cfa&is=69bacb7a&hm=3003237782780ea9f6f20563ab26a53eba67fb34eda14f1a3afc6fea62cc89f0&",
-              "filename": "Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3",
-              "size": 2138496
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "25.02.2026 19:31",
-          "channel": "🔞хент-18",
-          "content": "хуйня удаляй",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1433504994824425640",
       "name": "zelebobik",
       "status": "online",
@@ -293,6 +201,91 @@
           "time": "15.03.2026 23:26",
           "channel": "🔥-мемы-и-ржака",
           "content": "@V - Значит Вендетта:Ну чё ты несёшь, просто бред. Дети там были!!! Иначе кого бы ел Сталин?",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1322612563887915089",
+      "name": "АШРА",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "ислам"
+      ],
+      "top_role": "ислам",
+      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
+      "joined_at": "2026-02-12T18:01:19.943000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 16,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 16
+      },
+      "total_messages": 16,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "07.03.2026 12:20",
+          "channel": "💬-общий-чат",
+          "content": "спасибо",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:19",
+          "channel": "💬-общий-чат",
+          "content": "Я в порядке, просто мне немного плохо",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:18",
+          "channel": "💬-общий-чат",
+          "content": "Алло",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:18",
+          "channel": "💬-общий-чат",
+          "content": "всем привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "06.03.2026 22:12",
+          "channel": "💬-общий-чат",
+          "content": "z ZPN666 ghjcnj e fihs gbie",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -505,6 +498,98 @@
           "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2023,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 156,
+        "files": 48,
+        "total": 2373
+      },
+      "total_messages": 2023,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "19.03.2026 09:10",
+          "channel": "💬-общий-чат",
+          "content": "что",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 09:10",
+          "channel": "💬-общий-чат",
+          "content": "привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "17.02.2026 06:52",
+          "channel": "📝-предложения-2026",
+          "content": "удалить все нахуй",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "17.02.2026 06:57",
+          "channel": "🎧-включи-музыку",
+          "content": "",
+          "type": "voice",
+          "preview_url": "https://cdn.discordapp.com/attachments/1473102516815134861/1473166511937163379/Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3?ex=69bc1cfa&is=69bacb7a&hm=3003237782780ea9f6f20563ab26a53eba67fb34eda14f1a3afc6fea62cc89f0&",
+          "attachments": [
+            {
+              "type": "voice",
+              "url": "https://cdn.discordapp.com/attachments/1473102516815134861/1473166511937163379/Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3?ex=69bc1cfa&is=69bacb7a&hm=3003237782780ea9f6f20563ab26a53eba67fb34eda14f1a3afc6fea62cc89f0&",
+              "filename": "Cypa_Cyp_-_Podo_mnojj_penis_bolshojj_ochen_77295633.mp3",
+              "size": 2138496
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "25.02.2026 19:31",
+          "channel": "🔞хент-18",
+          "content": "хуйня удаляй",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1302,91 +1387,6 @@
           "time": "14.03.2026 19:39",
           "channel": "⛳майнкрафт",
           "content": "она не достаточно эфективна",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1322612563887915089",
-      "name": "АШРА",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "ислам"
-      ],
-      "top_role": "ислам",
-      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
-      "joined_at": "2026-02-12T18:01:19.943000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 16,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 16
-      },
-      "total_messages": 16,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "07.03.2026 12:20",
-          "channel": "💬-общий-чат",
-          "content": "спасибо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:19",
-          "channel": "💬-общий-чат",
-          "content": "Я в порядке, просто мне немного плохо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:18",
-          "channel": "💬-общий-чат",
-          "content": "Алло",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:18",
-          "channel": "💬-общий-чат",
-          "content": "всем привет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "06.03.2026 22:12",
-          "channel": "💬-общий-чат",
-          "content": "z ZPN666 ghjcnj e fihs gbie",
           "type": "text",
           "preview_url": "",
           "attachments": [],
