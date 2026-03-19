@@ -1302,18 +1302,31 @@ function openMCPlayerFull(pJson){
   mavEl.innerHTML=`<img src="${avatarSrc}" onerror="this.src='${fallback}';this.onerror=null;" style="width:100%;height:100%;image-rendering:pixelated;">`;
   document.getElementById('mnm').textContent=p.name;
   document.getElementById('mrl').innerHTML=`<span style="color:${p.online?'var(--green)':'var(--muted)'}">● ${p.online?'ОНЛАЙН':'ОФФЛАЙН'}</span>`;
-  document.getElementById('mgr').innerHTML=`
-    <div class="ms"><span class="ml">⚔️ Убийств</span><span class="mv" style="color:var(--red)">${p.kills}</span></div>
-    <div class="ms"><span class="ml">💀 Смертей</span><span class="mv">${p.deaths}</span></div>
-    <div class="ms"><span class="ml">K/D</span><span class="mv" style="color:${p.kills>=p.deaths?'var(--green)':'var(--red)'}">${kd}</span></div>
-    <div class="ms"><span class="ml">🏆 Достижений</span><span class="mv" style="color:var(--gold)">${adv}</span></div>
-    <div class="ms"><span class="ml">💬 Сообщений</span><span class="mv" style="color:var(--cyan)">${msgs>0?msgs:'—'}</span></div>
-    <div class="ms"><span class="ml">⛏️ Блоков сломано</span><span class="mv">${blocks>0?blocks:'—'}</span></div>
-    <div class="ms"><span class="ml">🧱 Блоков поставлено</span><span class="mv">${placed>0?placed:'—'}</span></div>
-    <div class="ms"><span class="ml">🕐 Времени</span><span class="mv" style="color:var(--blue)">${ptStr}</span></div>
-    ${firstSeen!=='—'?`<div class="ms"><span class="ml">📅 Впервые</span><span class="mv" style="font-size:9px">${firstSeen}</span></div>`:''}
-    ${lastSeen!=='—'?`<div class="ms"><span class="ml">🕓 Последний раз</span><span class="mv" style="font-size:9px">${lastSeen}</span></div>`:''}
-  `;
+    // Build stats grid
+  var mgrHtml='';
+  var _mc=window._mcData||{};
+  var _kills=p.kills||(_mc.kills&&_mc.kills[p.name])||0;
+  var _deaths=p.deaths||(_mc.deaths&&_mc.deaths[p.name])||0;
+  var _pt=p.playtime_min||(_mc.playtime&&_mc.playtime[p.name])||0;
+  var _ph=Math.floor(_pt/60), _pm=_pt%60;
+  var _kd=_deaths>0?(_kills/_deaths).toFixed(2):'inf';
+  var _adv=p.advancements||0;
+  var _msgs=p.messages||0;
+  var _joins=p.joins||0;
+  var _fj=p.first_join||'';
+  var _lj=p.last_join||'';
+  var _online=(window._mcStatsData&&(window._mcStatsData.online_now||[]).indexOf(p.name)>=0)||p.on||false;
+  mgrHtml+='<div class="ms"><span class="ml">Статус</span><span class="mv" style="color:'+(_online?'var(--green)':'var(--muted)')+'">'+(_online?'ОНЛАЙН':'ОФФЛАЙН')+'</span></div>';
+  mgrHtml+='<div class="ms"><span class="ml">⚔️ Убийств</span><span class="mv" style="color:var(--red)">'+_kills+'</span></div>';
+  mgrHtml+='<div class="ms"><span class="ml">💀 Смертей</span><span class="mv">'+_deaths+'</span></div>';
+  mgrHtml+='<div class="ms"><span class="ml">⚖️ K/D</span><span class="mv" style="color:'+(_kills>=_deaths?'var(--green)':'var(--red)')+'">'+_kd+'</span></div>';
+  mgrHtml+='<div class="ms"><span class="ml">⏱️ Время</span><span class="mv" style="color:var(--blue)">'+_ph+'ч '+_pm+'м</span></div>';
+  mgrHtml+='<div class="ms"><span class="ml">💬 Сообщений</span><span class="mv">'+_msgs+'</span></div>';
+  mgrHtml+='<div class="ms"><span class="ml">🚪 Входов</span><span class="mv">'+_joins+'</span></div>';
+  mgrHtml+='<div class="ms"><span class="ml">🏆 Достижений</span><span class="mv" style="color:var(--gold)">'+_adv+'</span></div>';
+  if(_fj) mgrHtml+='<div class="ms"><span class="ml">📅 Первый вход</span><span class="mv" style="font-size:9px">'+escHtml(_fj)+'</span></div>';
+  if(_lj) mgrHtml+='<div class="ms"><span class="ml">🕓 Последний</span><span class="mv"  style="font-size:9px">'+escHtml(_lj)+'</span></div>';
+  document.getElementById('mgr').innerHTML=mgrHtml;
   document.getElementById('mbg').classList.add('show');
 }
 
@@ -2100,19 +2113,33 @@ function renderMCFromStats(mc){
   var tw=document.getElementById('mc-top-wrap');
   if(tw) tw.style.display='block';
 
+  function isBadMCName(name){
+    if(!name) return true;
+    // Фильтруем Discord ID формат t:12345:R
+    if(/^t:\d+:R$/.test(name)) return true;
+    // Фильтруем чисто числовые ID
+    if(/^\d{15,}$/.test(name)) return true;
+    return false;
+  }
+
   function mcTopRow(p,i,icon,val){
-    // Очищаем имя от мусора (Discord ID формат t:xxx:R)
-    var rawName=p.name||'?';
-    var clean=rawName.replace(/^t:\d+:R$/,'').replace(/^\./,'').trim()||rawName;
+    var rawName=p.name||'';
+    // Пропускаем мусорные имена
+    if(isBadMCName(rawName)) return '';
+    var clean=rawName.replace(/^\./,'').trim()||rawName;
     var av='https://mc-heads.net/avatar/'+encodeURIComponent(clean)+'/24';
     var ptStr='';
     if(p.playtime_min){
       var ph=Math.floor(p.playtime_min/60), pm=p.playtime_min%60;
-      ptStr='<span style="color:var(--muted);font-size:10px"> '+ph+'ч'+pm+'м</span>';
+      ptStr=' <span style="color:var(--muted);font-size:10px">'+ph+'ч '+pm+'м</span>';
     }
-    return '<div class="row">'+
+    var pJson=JSON.stringify({name:clean,kills:p.kills||0,deaths:p.deaths||0,
+      playtime_min:p.playtime_min||0,joins:p.joins||0,messages:p.messages||0,
+      advancements:p.advancements||0,first_join:p.first_join||'',last_join:p.last_join||''});
+    var b64=btoa(unescape(encodeURIComponent(pJson)));
+    return '<div class="row" style="cursor:pointer;" onclick="openMCPlayerFull(\''+b64+'\')">'+
       '<span style="font-size:8px;color:var(--muted);width:18px">#'+(i+1)+'</span>'+
-      '<img src="'+av+'" style="width:24px;height:24px;image-rendering:pixelated;" onerror="this.style.opacity=0">'+
+      '<img src="'+av+'" style="width:24px;height:24px;image-rendering:pixelated;" onerror="this.style.opacity=0.2">'+
       '<div class="ri"><div class="rn">'+escHtml(clean)+ptStr+'</div></div>'+
       '<div class="rv">'+icon+' <b style="color:var(--cyan)">'+val+'</b></div>'+
       '</div>';
