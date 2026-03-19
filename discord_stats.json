@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 14:47:22",
+  "updated_at": "19.03.2026 14:48:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 7,
-    "offline_count": 27,
+    "online_count": 8,
+    "offline_count": 26,
     "in_voice_count": 0,
     "messages_today": 3,
     "text_channels_count": 10
@@ -552,6 +552,98 @@
           "time": "19.03.2026 13:01",
           "channel": "💬-общий-чат",
           "content": "доброе утро всем",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 36,
+        "images": 6,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 10,
+        "files": 0,
+        "total": 52
+      },
+      "total_messages": 36,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "17.02.2026 01:53",
+          "channel": "🔥-мемы-и-ржака",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
+              "filename": "IMG-20260128-WA0025.jpg",
+              "size": 47720
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 22:28",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 19:35",
+          "channel": "💬-общий-чат",
+          "content": "Я не могу",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "01.03.2026 17:26",
+          "channel": "💬-общий-чат",
+          "content": "Извини но я не могу",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "01.03.2026 14:52",
+          "channel": "💬-общий-чат",
+          "content": "Так что не говори такую говно<@834060139006394368>",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2508,98 +2600,6 @@
           "time": "01.03.2026 17:05",
           "channel": "💬-общий-чат",
           "content": "удачи вам",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 36,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 10,
-        "files": 0,
-        "total": 52
-      },
-      "total_messages": 36,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "17.02.2026 01:53",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
-              "filename": "IMG-20260128-WA0025.jpg",
-              "size": 47720
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 22:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "04.03.2026 19:35",
-          "channel": "💬-общий-чат",
-          "content": "Я не могу",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "01.03.2026 17:26",
-          "channel": "💬-общий-чат",
-          "content": "Извини но я не могу",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "01.03.2026 14:52",
-          "channel": "💬-общий-чат",
-          "content": "Так что не говори такую говно<@834060139006394368>",
           "type": "text",
           "preview_url": "",
           "attachments": [],
