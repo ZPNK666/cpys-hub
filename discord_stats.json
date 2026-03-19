@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 13:11:26",
+  "updated_at": "19.03.2026 13:12:26",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 6,
     "offline_count": 28,
     "in_voice_count": 0,
-    "messages_today": 0,
+    "messages_today": 2,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 1,
+    "text": 3,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -123,24 +123,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "stats_all": {
-        "text": 2023,
+        "text": 2024,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 156,
         "files": 48,
-        "total": 2373
+        "total": 2374
       },
-      "total_messages": 2023,
+      "total_messages": 2024,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -148,6 +148,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 13:11",
+          "channel": "💬-общий-чат",
+          "content": "пр",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 09:10",
           "channel": "💬-общий-чат",
@@ -189,15 +198,6 @@
               "size": 2138496
             }
           ],
-          "stickers": []
-        },
-        {
-          "time": "25.02.2026 19:31",
-          "channel": "🔞хент-18",
-          "content": "хуйня удаляй",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
           "stickers": []
         }
       ]
@@ -465,24 +465,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "stats_all": {
-        "text": 1097,
+        "text": 1098,
         "images": 120,
         "voice": 0,
         "stickers": 26,
         "gifs": 10,
         "files": 34,
-        "total": 1257
+        "total": 1258
       },
-      "total_messages": 1097,
+      "total_messages": 1098,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -490,6 +490,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 13:12",
+          "channel": "💬-общий-чат",
+          "content": "https://zpnk666.github.io/cpys-hub/cpys-hub.html пикми найди там себя",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 13:01",
           "channel": "💬-общий-чат",
@@ -521,15 +530,6 @@
           "time": "09.03.2026 11:37",
           "channel": "🔞хент-18",
           "content": "https://cdn.videy.plus/W7FF1ph71.mp4\n\nhttps://cdn.videy.plus/T3Sd1m7e1.mp4\n\nhttps://cdn.videy.plus/S",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "09.03.2026 11:22",
-          "channel": "🔞хент-18",
-          "content": "https://cdn2.videy.co/zkFwSHEd1.mp4",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4088,7 +4088,7 @@
       "time": "19.03 13:00",
       "hour": 13,
       "date": "2026-03-19",
-      "messages": 1,
+      "messages": 3,
       "online": 9,
       "in_voice": 0
     }
@@ -4098,24 +4098,24 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2023,
+      "text": 2024,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 156,
       "files": 48,
-      "total": 2373
+      "total": 2374
     },
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1097,
+      "text": 1098,
       "images": 120,
       "voice": 0,
       "stickers": 26,
       "gifs": 10,
       "files": 34,
-      "total": 1257
+      "total": 1258
     },
     {
       "id": "1264609602540929140",
