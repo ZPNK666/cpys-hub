@@ -2036,25 +2036,84 @@ function cm(e){
 function renderMCFromStats(mc){
   if(!mc) return;
 
-  // Summary cards
-  const srow=document.getElementById('mc-srow');
-  if(srow) srow.style.display='grid';
-  const eon=document.getElementById('mc-online');
-  if(eon) cnt(eon, mc.online_count||0);
-  const ep=document.getElementById('mc-players');
-  if(ep) cnt(ep, mc.total_players||0);
+  // ── СТАТУС СЕРВЕРА ──────────────────────────────────────────
+  var srvEl=document.getElementById('mc-srv-status');
+  if(srvEl){
+    if(mc.server_online===true){
+      srvEl.style.color='var(--green)';
+      srvEl.textContent='ОНЛАЙН';
+    } else if(mc.server_online===false){
+      srvEl.style.color='var(--red)';
+      srvEl.textContent='ОФФЛАЙН';
+    } else {
+      srvEl.style.color='var(--muted)';
+      srvEl.textContent='— нет данных';
+    }
+  }
 
-  // First ever / last join info
-  const tw=document.getElementById('mc-top-wrap');
+  // ── КАРТОЧКИ ────────────────────────────────────────────────
+  var srow=document.getElementById('mc-srow');
+  if(srow) srow.style.display='grid';
+  var eon=document.getElementById('mc-online');
+  if(eon) cnt(eon, mc.online_count||0);
+  var ep=document.getElementById('mc-players');
+  if(ep) cnt(ep, mc.total_players||0);
+  var ekills=document.getElementById('mc-kills');
+  if(ekills){
+    var totalKills=Object.values(mc.players||{}).reduce(function(s,p){return s+(p.kills||0);},0);
+    cnt(ekills, totalKills);
+  }
+
+  // Кто сейчас онлайн
+  var eonline=document.getElementById('mc-players-online-count');
+  if(eonline){
+    var onNow=mc.online_now||[];
+    if(onNow.length){
+      eonline.textContent='● '+onNow.join(', ')+' онлайн';
+      eonline.style.color='var(--green)';
+    } else if(mc.server_online===false){
+      eonline.textContent='Сервер выключен';
+      eonline.style.color='var(--red)';
+    } else {
+      eonline.textContent='Никого нет онлайн';
+      eonline.style.color='var(--muted)';
+    }
+  }
+
+  // Первый/последний вход
+  var infoEl=document.getElementById('mc-first-last');
+  if(!infoEl && (mc.first_ever||mc.last_join)){
+    infoEl=document.createElement('div');
+    infoEl.id='mc-first-last';
+    infoEl.style.cssText='padding:6px 10px;font-size:12px;color:var(--muted);border-bottom:1px solid var(--b);';
+    var srow2=document.getElementById('mc-srow');
+    if(srow2&&srow2.parentNode) srow2.parentNode.insertBefore(infoEl,srow2.nextSibling);
+  }
+  if(infoEl){
+    var html='';
+    if(mc.first_ever) html+='Первый игрок: <b style="color:var(--gold)">'+escHtml(mc.first_ever)+'</b> &nbsp; ';
+    if(mc.last_join)  html+='Последний вход: <b style="color:var(--green)">'+escHtml(mc.last_join)+'</b>';
+    infoEl.innerHTML=html;
+  }
+
+  // ── ТОПЫ ────────────────────────────────────────────────────
+  var tw=document.getElementById('mc-top-wrap');
   if(tw) tw.style.display='block';
 
   function mcTopRow(p,i,icon,val){
-    const clean=(p.name||'?').replace(/^\./,'');
-    const av='https://mc-heads.net/avatar/'+encodeURIComponent(clean)+'/24';
+    // Очищаем имя от мусора (Discord ID формат t:xxx:R)
+    var rawName=p.name||'?';
+    var clean=rawName.replace(/^t:\d+:R$/,'').replace(/^\./,'').trim()||rawName;
+    var av='https://mc-heads.net/avatar/'+encodeURIComponent(clean)+'/24';
+    var ptStr='';
+    if(p.playtime_min){
+      var ph=Math.floor(p.playtime_min/60), pm=p.playtime_min%60;
+      ptStr='<span style="color:var(--muted);font-size:10px"> '+ph+'ч'+pm+'м</span>';
+    }
     return '<div class="row">'+
       '<span style="font-size:8px;color:var(--muted);width:18px">#'+(i+1)+'</span>'+
-      '<img src="'+av+'" style="width:24px;height:24px;image-rendering:pixelated;">'+
-      '<div class="ri"><div class="rn">'+(p.name||'?')+'</div></div>'+
+      '<img src="'+av+'" style="width:24px;height:24px;image-rendering:pixelated;" onerror="this.style.opacity=0">'+
+      '<div class="ri"><div class="rn">'+escHtml(clean)+ptStr+'</div></div>'+
       '<div class="rv">'+icon+' <b style="color:var(--cyan)">'+val+'</b></div>'+
       '</div>';
   }
@@ -2094,13 +2153,16 @@ function renderMCFromStats(mc){
   var evList=document.getElementById('mc-events-list');
   var evCount=document.getElementById('mc-events-count');
   if(evList&&mc.events&&mc.events.length){
-    var icons={join:'🟢',quit:'🔴',death:'💀',chat:'💬'};
+    var icons={join:'🟢',quit:'🔴',death:'💀',chat:'💬',server_start:'✅',server_stop:'🛑',advancement:'🏆'};
     evList.innerHTML=[].concat(mc.events).reverse().slice(0,50).map(function(ev){
       var icon=icons[ev.type]||'•';
       var text='';
-      if(ev.type==='join') text='<b>'+escHtml(ev.player)+'</b> зашёл на сервер';
+      if(ev.type==='server_start') text='<b style="color:var(--green)">Сервер запущен</b>';
+      else if(ev.type==='server_stop') text='<b style="color:var(--red)">Сервер выключен</b>';
+      else if(ev.type==='join') text='<b>'+escHtml(ev.player)+'</b> зашёл на сервер';
       else if(ev.type==='quit') text='<b>'+escHtml(ev.player)+'</b> вышел';
       else if(ev.type==='death') text='<b>'+escHtml(ev.player)+'</b> погиб'+(ev.killer?' от '+escHtml(ev.killer):'')+(ev.msg?' — '+escHtml(ev.msg.slice(0,50)):'');
+      else if(ev.type==='advancement') text='<b>'+escHtml(ev.player)+'</b> получил достижение: <span style="color:var(--gold)">'+escHtml(ev.advancement||'')+'</span>';
       else if(ev.type==='chat') text='<b>'+escHtml(ev.player)+'</b>: '+escHtml((ev.text||'').slice(0,80));
       else text=escHtml(JSON.stringify(ev).slice(0,60));
       return '<div class="jlr"><span>'+icon+'</span><span style="flex:1;font-size:13px">'+text+'</span><span style="color:var(--muted);font-size:11px">'+escHtml(ev.time||'')+'</span></div>';
