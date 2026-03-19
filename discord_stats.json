@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 13:20:26",
+  "updated_at": "19.03.2026 13:21:26",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 9,
     "offline_count": 25,
     "in_voice_count": 0,
-    "messages_today": 7,
+    "messages_today": 9,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 8,
+    "text": 9,
     "images": 0,
-    "gifs": 0,
+    "gifs": 1,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -181,24 +181,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 4,
+        "text": 5,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 0,
+        "gifs": 1,
         "files": 0,
-        "total": 4
+        "total": 6
       },
       "stats_all": {
-        "text": 2027,
+        "text": 2028,
         "images": 92,
         "voice": 4,
         "stickers": 62,
-        "gifs": 156,
+        "gifs": 157,
         "files": 48,
-        "total": 2377
+        "total": 2379
       },
-      "total_messages": 2027,
+      "total_messages": 2028,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -206,6 +206,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 13:20",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/anime-girl-gif-848912551340513",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/anime-girl-gif-848912551340513",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 13:20",
+          "channel": "💬-общий-чат",
+          "content": "пиздец",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 13:13",
           "channel": "💬-общий-чат",
@@ -228,24 +246,6 @@
           "time": "19.03.2026 13:12",
           "channel": "💬-общий-чат",
           "content": "и что",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:11",
-          "channel": "💬-общий-чат",
-          "content": "пр",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 09:10",
-          "channel": "💬-общий-чат",
-          "content": "что",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4081,7 +4081,7 @@
       "time": "19.03 13:00",
       "hour": 13,
       "date": "2026-03-19",
-      "messages": 8,
+      "messages": 10,
       "online": 9,
       "in_voice": 0
     }
@@ -4091,13 +4091,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2027,
+      "text": 2028,
       "images": 92,
       "voice": 4,
       "stickers": 62,
-      "gifs": 156,
+      "gifs": 157,
       "files": 48,
-      "total": 2377
+      "total": 2379
     },
     {
       "id": "834060139006394368",
