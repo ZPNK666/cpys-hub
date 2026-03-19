@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:23:22",
+  "updated_at": "19.03.2026 18:24:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 14,
     "offline_count": 20,
     "in_voice_count": 4,
-    "messages_today": 9,
+    "messages_today": 11,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 7,
+    "text": 9,
     "images": 4,
     "gifs": 1,
     "stickers": 0,
@@ -407,24 +407,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
       "joined_at": "2026-02-17T15:54:04.631000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 4
       },
       "stats_all": {
-        "text": 219,
+        "text": 220,
         "images": 42,
         "voice": 20,
         "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 267
+        "total": 268
       },
-      "total_messages": 219,
+      "total_messages": 220,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -432,6 +432,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 18:23",
+          "channel": "💬-общий-чат",
+          "content": "не кто не хочет ну ок",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 18:20",
           "channel": "💬-общий-чат",
@@ -463,15 +472,6 @@
           "time": "17.02.2026 07:01",
           "channel": "📝-предложения-2026",
           "content": "согласен",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:22",
-          "channel": "🔞хент-18",
-          "content": "пупу",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1027,24 +1027,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "stats_all": {
-        "text": 1102,
+        "text": 1103,
         "images": 120,
         "voice": 0,
         "stickers": 26,
         "gifs": 10,
         "files": 34,
-        "total": 1262
+        "total": 1263
       },
-      "total_messages": 1102,
+      "total_messages": 1103,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1052,6 +1052,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 18:24",
+          "channel": "💬-общий-чат",
+          "content": "чем",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "19.03.2026 18:20",
           "channel": "💬-общий-чат",
@@ -1083,15 +1092,6 @@
           "time": "19.03.2026 13:19",
           "channel": "💬-общий-чат",
           "content": "ты топ 1 по сообщений",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:12",
-          "channel": "💬-общий-чат",
-          "content": "https://zpnk666.github.io/cpys-hub/cpys-hub.html пикми найди там себя",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4124,7 +4124,7 @@
       "time": "19.03 18:00",
       "hour": 18,
       "date": "2026-03-19",
-      "messages": 5,
+      "messages": 7,
       "online": 16,
       "in_voice": 2
     }
@@ -4145,13 +4145,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1102,
+      "text": 1103,
       "images": 120,
       "voice": 0,
       "stickers": 26,
       "gifs": 10,
       "files": 34,
-      "total": 1262
+      "total": 1263
     },
     {
       "id": "1264609602540929140",
@@ -4200,13 +4200,13 @@
     {
       "id": "1296770485421342731",
       "name": "АБОБА",
-      "text": 219,
+      "text": 220,
       "images": 42,
       "voice": 20,
       "stickers": 2,
       "gifs": 0,
       "files": 0,
-      "total": 267
+      "total": 268
     },
     {
       "id": "1255232329362833409",
