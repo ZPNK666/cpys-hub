@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:19:22",
+  "updated_at": "19.03.2026 18:20:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 15,
-    "offline_count": 19,
-    "in_voice_count": 3,
-    "messages_today": 4,
+    "online_count": 16,
+    "offline_count": 18,
+    "in_voice_count": 4,
+    "messages_today": 6,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 3,
+    "text": 5,
     "images": 4,
     "gifs": 0,
     "stickers": 0,
@@ -27,7 +27,7 @@
     {
       "id": "1433504994824425640",
       "name": "zelebobik",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "Сциентизм",
@@ -455,7 +455,7 @@
     {
       "id": "993900146930753606",
       "name": "АУДИТОР",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "ОФИЧЕР СС"
       ],
@@ -521,24 +521,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
       "joined_at": "2026-02-17T15:54:04.631000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 2
       },
       "stats_all": {
-        "text": 216,
+        "text": 218,
         "images": 42,
         "voice": 20,
         "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 264
+        "total": 266
       },
-      "total_messages": 216,
+      "total_messages": 218,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -546,6 +546,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 18:20",
+          "channel": "💬-общий-чат",
+          "content": "если зайдет ярик я выйду с сервера",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:19",
+          "channel": "💬-общий-чат",
+          "content": "хей кто хочет посидеть в войсе один на один",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "17.02.2026 07:01",
           "channel": "📝-предложения-2026",
@@ -570,24 +588,6 @@
           "content": "кирпич?",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:21",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "разговаривают два самоубицы один говорит давай купим пистолет второй говорит дорого давай скинемся",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "17.02.2026 06:48",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps:",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiyhttps://cdn.discordapp.com/emojis/1231669990906921034.gif?size=48&animated=true&name=imbalutiy",
           "attachments": [],
           "stickers": []
         }
@@ -1206,6 +1206,98 @@
           "time": "19.03.2026 13:01",
           "channel": "💬-общий-чат",
           "content": "доброе утро всем",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 36,
+        "images": 6,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 10,
+        "files": 0,
+        "total": 52
+      },
+      "total_messages": 36,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "17.02.2026 01:53",
+          "channel": "🔥-мемы-и-ржака",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
+              "filename": "IMG-20260128-WA0025.jpg",
+              "size": 47720
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 22:28",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 19:35",
+          "channel": "💬-общий-чат",
+          "content": "Я не могу",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "01.03.2026 17:26",
+          "channel": "💬-общий-чат",
+          "content": "Извини но я не могу",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "01.03.2026 14:52",
+          "channel": "💬-общий-чат",
+          "content": "Так что не говори такую говно<@834060139006394368>",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2539,98 +2631,6 @@
           "stickers": []
         }
       ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 36,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 10,
-        "files": 0,
-        "total": 52
-      },
-      "total_messages": 36,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "17.02.2026 01:53",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1473089856816283870/IMG-20260128-WA0025.jpg?ex=69bbd596&is=69ba8416&hm=b472a7654da4c8d42d0cdcb652bfd2bf3f74a34c2b452af9929921dbbb96e087&",
-              "filename": "IMG-20260128-WA0025.jpg",
-              "size": 47720
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 22:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "04.03.2026 19:35",
-          "channel": "💬-общий-чат",
-          "content": "Я не могу",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "01.03.2026 17:26",
-          "channel": "💬-общий-чат",
-          "content": "Извини но я не могу",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "01.03.2026 14:52",
-          "channel": "💬-общий-чат",
-          "content": "Так что не говори такую говно<@834060139006394368>",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
     }
   ],
   "voice_channels": [
@@ -2698,8 +2698,13 @@
     {
       "id": "1479220112346058995",
       "name": "1v1",
-      "members_count": 0,
-      "members": []
+      "members_count": 1,
+      "members": [
+        {
+          "id": "1296770485421342731",
+          "name": "АБОБА"
+        }
+      ]
     },
     {
       "id": "1479220253593571328",
@@ -4119,7 +4124,7 @@
       "time": "19.03 18:00",
       "hour": 18,
       "date": "2026-03-19",
-      "messages": 0,
+      "messages": 2,
       "online": 16,
       "in_voice": 2
     }
@@ -4195,13 +4200,13 @@
     {
       "id": "1296770485421342731",
       "name": "АБОБА",
-      "text": 216,
+      "text": 218,
       "images": 42,
       "voice": 20,
       "stickers": 2,
       "gifs": 0,
       "files": 0,
-      "total": 264
+      "total": 266
     },
     {
       "id": "1255232329362833409",
