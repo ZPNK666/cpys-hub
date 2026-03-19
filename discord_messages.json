@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 18:22:22",
+  "updated_at": "19.03.2026 18:23:22",
   "users": {
     "1354100925043703870": [
       {
@@ -82,17 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477527992224976991",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "01.03.2026 07:48",
-        "content": "это шутка",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477527998050730138",
         "channel": "💬-общий-чат",
@@ -5817,6 +5806,17 @@
         "content": "наабарот",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1484210589751447703",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "19.03.2026 18:23",
+        "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
         "attachments": [],
         "stickers": []
       }
