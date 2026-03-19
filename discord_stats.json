@@ -1,5 +1,5 @@
 {
-  "updated_at": "19.03.2026 12:21:29",
+  "updated_at": "19.03.2026 12:21:54",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -16,7 +16,7 @@
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 0,
+    "text": 2,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -434,24 +434,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 2
       },
       "stats_all": {
-        "text": 2683,
+        "text": 2685,
         "images": 148,
         "voice": 5,
         "stickers": 68,
         "gifs": 203,
         "files": 72,
-        "total": 3166
+        "total": 3168
       },
-      "total_messages": 2683,
+      "total_messages": 2685,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -459,6 +459,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "19.03.2026 09:10",
+          "channel": "💬-общий-чат",
+          "content": "что",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 09:10",
+          "channel": "💬-общий-чат",
+          "content": "привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "04.03.2026 19:36",
           "channel": "💬-общий-чат",
@@ -495,29 +513,6 @@
               "url": "https://cdn.discordapp.com/stickers/1451282762417049754.png"
             }
           ]
-        },
-        {
-          "time": "04.03.2026 18:53",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/1451282762417049754.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Еблан?",
-              "url": "https://cdn.discordapp.com/stickers/1451282762417049754.png"
-            }
-          ]
-        },
-        {
-          "time": "04.03.2026 18:53",
-          "channel": "💬-общий-чат",
-          "content": "завидуй",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
         }
       ]
     },
@@ -4073,7 +4068,7 @@
       "time": "19.03 09:00",
       "hour": 9,
       "date": "2026-03-19",
-      "messages": 0,
+      "messages": 2,
       "online": 0,
       "in_voice": 0
     },
@@ -4107,13 +4102,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2683,
+      "text": 2685,
       "images": 148,
       "voice": 5,
       "stickers": 68,
       "gifs": 203,
       "files": 72,
-      "total": 3166
+      "total": 3168
     },
     {
       "id": "834060139006394368",
