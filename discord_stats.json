@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 22:41:22",
+  "updated_at": "20.03.2026 22:43:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,9 +9,9 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 9,
-    "offline_count": 24,
-    "in_voice_count": 4,
+    "online_count": 11,
+    "offline_count": 22,
+    "in_voice_count": 5,
     "messages_today": 17,
     "text_channels_count": 10
   },
@@ -24,6 +24,101 @@
     "files": 1
   },
   "online_members": [
+    {
+      "id": "1255232329362833409",
+      "name": "кирпич",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
+      "joined_at": "2025-12-16T20:26:44.708000+00:00",
+      "stats_today": {
+        "text": 89,
+        "images": 9,
+        "voice": 0,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 99
+      },
+      "stats_all": {
+        "text": 311,
+        "images": 21,
+        "voice": 0,
+        "stickers": 4,
+        "gifs": 16,
+        "files": 2,
+        "total": 353
+      },
+      "total_messages": 311,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "ыыы",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "я гений",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "все 1",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
@@ -724,40 +819,38 @@
           "stickers": []
         }
       ]
-    }
-  ],
-  "offline_members": [
+    },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич",
-      "status": "offline",
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "online",
       "roles": [
         "нету хента",
-        "ОФИЧЕР СС",
+        "ислам",
         "мужчины"
       ],
       "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
-      "joined_at": "2025-12-16T20:26:44.708000+00:00",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ffb508538d21dd60394d441d99b92457.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
-        "text": 89,
-        "images": 9,
+        "text": 3,
+        "images": 0,
         "voice": 0,
-        "stickers": 2,
-        "gifs": 0,
+        "stickers": 0,
+        "gifs": 3,
         "files": 0,
-        "total": 99
+        "total": 6
       },
       "stats_all": {
-        "text": 311,
-        "images": 21,
+        "text": 39,
+        "images": 6,
         "voice": 0,
-        "stickers": 4,
-        "gifs": 16,
-        "files": 2,
-        "total": 353
+        "stickers": 0,
+        "gifs": 13,
+        "files": 0,
+        "total": 58
       },
-      "total_messages": 311,
+      "total_messages": 39,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -766,62 +859,54 @@
       },
       "recent_messages": [
         {
-          "time": "20.03.2026 18:53",
+          "time": "20.03.2026 00:49",
           "channel": "💬-общий-чат",
-          "content": "ыыы",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:27",
+          "channel": "💬-общий-чат",
+          "content": "semi",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 18:53",
+          "time": "20.03.2026 00:27",
           "channel": "💬-общий-чат",
-          "content": "я гений",
-          "type": "text",
-          "preview_url": "",
+          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 18:52",
+          "time": "20.03.2026 00:25",
           "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
-            }
-          ]
+          "stickers": []
         },
         {
-          "time": "20.03.2026 18:52",
+          "time": "20.03.2026 00:13",
           "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
-            }
-          ]
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "все 1",
+          "content": "faggot",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         }
       ]
-    },
+    }
+  ],
+  "offline_members": [
     {
       "id": "1354100925043703870",
       "name": "bsods10",
@@ -2374,91 +2459,6 @@
       ]
     },
     {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ffb508538d21dd60394d441d99b92457.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 3,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 3,
-        "files": 0,
-        "total": 6
-      },
-      "stats_all": {
-        "text": 39,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 13,
-        "files": 0,
-        "total": 58
-      },
-      "total_messages": 39,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "20.03.2026 00:49",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "semi",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:25",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "faggot",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1264609602540929140",
       "name": "dark_soul",
       "status": "offline",
@@ -2555,7 +2555,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 5,
       "members": [
         {
           "id": "1160178094494203934",
@@ -2572,6 +2572,10 @@
         {
           "id": "1407789136965931088",
           "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
+        },
+        {
+          "id": "1255232329362833409",
+          "name": "кирпич"
         }
       ]
     },
