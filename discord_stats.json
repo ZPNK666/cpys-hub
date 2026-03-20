@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 15:22:22",
+  "updated_at": "20.03.2026 15:23:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 40,
     "online_count": 10,
     "offline_count": 24,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 0,
     "text_channels_count": 10
   },
@@ -2642,7 +2642,7 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         {
           "id": "834060139006394368",
@@ -2655,10 +2655,6 @@
         {
           "id": "1425903022629847200",
           "name": "аничка"
-        },
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
         }
       ]
     },
