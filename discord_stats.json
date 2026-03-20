@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 19:24:22",
+  "updated_at": "20.03.2026 19:25:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,12 +11,12 @@
     "total_members": 39,
     "online_count": 11,
     "offline_count": 22,
-    "in_voice_count": 3,
-    "messages_today": 11,
+    "in_voice_count": 2,
+    "messages_today": 17,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 151,
+    "text": 157,
     "images": 15,
     "gifs": 20,
     "stickers": 2,
@@ -46,24 +46,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 31,
+        "text": 37,
         "images": 5,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 1,
-        "total": 39
+        "total": 45
       },
       "stats_all": {
-        "text": 1135,
+        "text": 1141,
         "images": 125,
         "voice": 0,
         "stickers": 26,
         "gifs": 12,
         "files": 35,
-        "total": 1303
+        "total": 1309
       },
-      "total_messages": 1135,
+      "total_messages": 1141,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -72,45 +72,45 @@
       },
       "recent_messages": [
         {
-          "time": "20.03.2026 19:22",
+          "time": "20.03.2026 19:25",
           "channel": "⛳майнкрафт",
-          "content": "чё",
+          "content": "у меня есть твой дом востоновленый",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 01:39",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/brenton-tarrant-gif-12174372153583819888",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/brenton-tarrant-gif-12174372153583819888",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:38",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/brenton-tarrant-mosque-muslin-gif-4264909270679616407",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/brenton-tarrant-mosque-muslin-gif-4264909270679616407",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:25",
-          "channel": "💬-общий-чат",
-          "content": "зайди я это убрал",
+          "time": "20.03.2026 19:25",
+          "channel": "⛳майнкрафт",
+          "content": "я тебе дом вастанавлю",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 01:13",
-          "channel": "💬-общий-чат",
-          "content": "<@1286072101635100733> ты куда",
+          "time": "20.03.2026 19:25",
+          "channel": "⛳майнкрафт",
+          "content": "так ты забыл что было паследний раз кагда мы играли",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 19:24",
+          "channel": "⛳майнкрафт",
+          "content": "и скажи",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 19:24",
+          "channel": "⛳майнкрафт",
+          "content": "зайди в войс",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2555,7 +2555,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         {
           "id": "834060139006394368",
@@ -2564,10 +2564,6 @@
         {
           "id": "1211055468362072164",
           "name": "2 КВИТЕНЬ"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "1 АПРЕЛЬ"
         }
       ]
     },
@@ -4037,7 +4033,7 @@
       "time": "20.03 19:00",
       "hour": 19,
       "date": "2026-03-20",
-      "messages": 1,
+      "messages": 7,
       "online": 15,
       "in_voice": 2
     }
@@ -4077,13 +4073,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1135,
+      "text": 1141,
       "images": 125,
       "voice": 0,
       "stickers": 26,
       "gifs": 12,
       "files": 35,
-      "total": 1303
+      "total": 1309
     },
     {
       "id": "1264609602540929140",
