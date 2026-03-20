@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 15:41:22",
+  "updated_at": "20.03.2026 15:42:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 11,
-    "offline_count": 23,
+    "online_count": 10,
+    "offline_count": 24,
     "in_voice_count": 4,
     "messages_today": 0,
     "text_channels_count": 10
@@ -376,91 +376,6 @@
           "content": "",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 17,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 8,
-        "files": 0,
-        "total": 25
-      },
-      "stats_all": {
-        "text": 2051,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 168,
-        "files": 48,
-        "total": 2413
-      },
-      "total_messages": 2051,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "0",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "у меня",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "у меня 3",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/meme-gif-16129087838487316772",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/meme-gif-16129087838487316772",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:39",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
           "attachments": [],
           "stickers": []
         }
@@ -934,6 +849,91 @@
           "content": "",
           "type": "text",
           "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 17,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 8,
+        "files": 0,
+        "total": 25
+      },
+      "stats_all": {
+        "text": 2051,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 168,
+        "files": 48,
+        "total": 2413
+      },
+      "total_messages": 2051,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "0",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "у меня",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "у меня 3",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/meme-gif-16129087838487316772",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/meme-gif-16129087838487316772",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:39",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
           "attachments": [],
           "stickers": []
         }
