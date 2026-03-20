@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 00:28:40",
+  "updated_at": "21.03.2026 00:29:40",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 10,
     "offline_count": 23,
-    "in_voice_count": 7,
+    "in_voice_count": 5,
     "messages_today": 0,
     "text_channels_count": 10
   },
@@ -2559,7 +2559,7 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 7,
+      "members_count": 5,
       "members": [
         {
           "id": "834060139006394368",
@@ -2574,16 +2574,8 @@
           "name": "РЫ7БА"
         },
         {
-          "id": "1168859596899766352",
-          "name": "Scorpio_mal2"
-        },
-        {
           "id": "1255232329362833409",
           "name": "кирпич"
-        },
-        {
-          "id": "1286072101635100733",
-          "name": "били б билисимо"
         },
         {
           "id": "1292870612531937358",
