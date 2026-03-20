@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 17:20:22",
+  "updated_at": "20.03.2026 17:21:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 40,
     "online_count": 13,
     "offline_count": 21,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 5,
     "text_channels_count": 10
   },
@@ -2630,12 +2630,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
-        {
-          "id": "1255232329362833409",
-          "name": "кирпич"
-        },
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
