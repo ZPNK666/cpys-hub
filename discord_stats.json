@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 14:29:22",
+  "updated_at": "20.03.2026 14:30:12",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 40,
     "online_count": 12,
     "offline_count": 22,
-    "in_voice_count": 4,
+    "in_voice_count": 5,
     "messages_today": 0,
     "text_channels_count": 10
   },
@@ -233,75 +233,17 @@
       ]
     },
     {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1418873225596895284",
-      "name": "Rudy",
+      "id": "1264609602540929140",
+      "name": "dark_soul",
       "status": "online",
       "roles": [
         "у меня есть хент",
-        "Агностик",
+        "провославный",
         "мужчины"
       ],
       "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
-      "joined_at": "2026-03-08T14:24:44.002000+00:00",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-09T07:12:13.865000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -312,15 +254,15 @@
         "total": 0
       },
       "stats_all": {
-        "text": 12,
-        "images": 0,
+        "text": 502,
+        "images": 20,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
-        "files": 0,
-        "total": 12
+        "files": 4,
+        "total": 526
       },
-      "total_messages": 12,
+      "total_messages": 502,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -329,45 +271,52 @@
       },
       "recent_messages": [
         {
-          "time": "18.03.2026 02:16",
+          "time": "01.03.2026 23:25",
           "channel": "🔞хент-18",
-          "content": "Твоя?",
+          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "08.03.2026 17:25",
-          "channel": "💬-общий-чат",
+          "time": "19.02.2026 11:00",
+          "channel": "🔞хент-18",
           "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
+              "size": 11211
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:41",
+          "channel": "⛳майнкрафт",
+          "content": "еще 2",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 21:35",
-          "channel": "💬-общий-чат",
-          "content": "Что то давно не разговаривал в этой группе",
+          "time": "14.03.2026 19:41",
+          "channel": "⛳майнкрафт",
+          "content": "дашь спавнера",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "07.03.2026 21:35",
-          "channel": "💬-общий-чат",
-          "content": "Крута",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.02.2026 13:16",
-          "channel": "💬-общий-чат",
-          "content": "https://youtu.be/HnP7TjHyBdM?si=nMCUUCjn3U6vlaMf",
+          "time": "14.03.2026 19:39",
+          "channel": "⛳майнкрафт",
+          "content": "она не достаточно эфективна",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -376,15 +325,196 @@
       ]
     },
     {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
-      "status": "idle",
+      "id": "1255232329362833409",
+      "name": "кирпич",
+      "status": "online",
       "roles": [
-        "ОФИЧЕР СС"
+        "нету хента",
+        "ОФИЧЕР СС",
+        "мужчины"
       ],
-      "top_role": "ОФИЧЕР СС",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
+      "joined_at": "2025-12-16T20:26:44.708000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 222,
+        "images": 12,
+        "voice": 0,
+        "stickers": 2,
+        "gifs": 16,
+        "files": 2,
+        "total": 254
+      },
+      "total_messages": 222,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "15.03.2026 18:08",
+          "channel": "⛳майнкрафт",
+          "content": "так это ты даун",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "12.03.2026 19:58",
+          "channel": "⛳майнкрафт",
+          "content": "так ты могла не делать и никто тебя не заставляет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 19:55",
+          "channel": "⛳майнкрафт",
+          "content": "214",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 19:46",
+          "channel": "⛳майнкрафт",
+          "content": "180",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 19:44",
+          "channel": "⛳майнкрафт",
+          "content": "171",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "834060139006394368",
+      "name": "ZPNK666",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "у меня есть хент",
+        "Агностик",
+        "провославный",
+        "католик",
+        "Сциентизм",
+        "ислам",
+        "Агностик",
+        "атеист",
+        "ОФИЧЕР СС",
+        "iPhone",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
+      "joined_at": "2025-10-03T09:40:02.942000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 1104,
+        "images": 120,
+        "voice": 0,
+        "stickers": 26,
+        "gifs": 10,
+        "files": 34,
+        "total": 1264
+      },
+      "total_messages": 1104,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "19.03.2026 18:26",
+          "channel": "💬-общий-чат",
+          "content": "тоесть ты не можеш даказать что запрет лучше чем впн и вот",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:24",
+          "channel": "💬-общий-чат",
+          "content": "чем",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:20",
+          "channel": "💬-общий-чат",
+          "content": "охуел ?",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 13:23",
+          "channel": "💬-общий-чат",
+          "content": "окей только мне нужно сайт зделай так что бы идиальный был и буду роблокс",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 13:19",
+          "channel": "💬-общий-чат",
+          "content": "<@1211055468362072164><:aa85cfb3345045d681793ff60190b186:1458729037391462541> секс свевен",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1354100925043703870",
+      "name": "bsods10",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1354100925043703870/ad551c04a38b7191e060d5eba724ee03.png?size=1024",
+      "joined_at": "2026-02-25T09:16:52.122000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -398,10 +528,10 @@
         "text": 2,
         "images": 0,
         "voice": 0,
-        "stickers": 0,
+        "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 4
       },
       "total_messages": 2,
       "join_leave": {
@@ -412,18 +542,46 @@
       },
       "recent_messages": [
         {
-          "time": "08.03.2026 21:04",
+          "time": "28.02.2026 09:13",
           "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
+            }
+          ]
+        },
+        {
+          "time": "28.02.2026 09:09",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "08.03.2026 21:04",
+          "time": "28.02.2026 09:13",
           "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
+            }
+          ]
+        },
+        {
+          "time": "28.02.2026 09:09",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -531,17 +689,17 @@
       ]
     },
     {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "status": "dnd",
+      "id": "841719455162564620",
+      "name": "Heldy",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "атеист",
         "мужчины"
       ],
       "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
-      "joined_at": "2026-02-17T15:54:04.631000+00:00",
+      "avatar": "https://cdn.discordapp.com/avatars/841719455162564620/b84e09fb39f498f980bddd23e87bc58d.png?size=1024",
+      "joined_at": "2026-03-07T08:35:41.035000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -552,15 +710,15 @@
         "total": 0
       },
       "stats_all": {
-        "text": 222,
-        "images": 42,
-        "voice": 20,
-        "stickers": 2,
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 270
+        "total": 2
       },
-      "total_messages": 222,
+      "total_messages": 2,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -569,205 +727,7 @@
       },
       "recent_messages": [
         {
-          "time": "19.03.2026 18:28",
-          "channel": "💬-общий-чат",
-          "content": "мне впн не нравиться мне запрет по душе",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:26",
-          "channel": "💬-общий-чат",
-          "content": "своим характером и впном",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:23",
-          "channel": "💬-общий-чат",
-          "content": "не кто не хочет ну ок",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:20",
-          "channel": "💬-общий-чат",
-          "content": "ты заеб",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:20",
-          "channel": "💬-общий-чат",
-          "content": "если зайдет ярик я выйду с сервера",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1322612563887915089",
-      "name": "АШРА",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "ислам"
-      ],
-      "top_role": "ислам",
-      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
-      "joined_at": "2026-02-12T18:01:19.943000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 16,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 16
-      },
-      "total_messages": 16,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "07.03.2026 12:20",
-          "channel": "💬-общий-чат",
-          "content": "спасибо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:19",
-          "channel": "💬-общий-чат",
-          "content": "Я в порядке, просто мне немного плохо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:18",
-          "channel": "💬-общий-чат",
-          "content": "Алло",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:18",
-          "channel": "💬-общий-чат",
-          "content": "всем привет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "06.03.2026 22:12",
-          "channel": "💬-общий-чат",
-          "content": "z ZPN666 ghjcnj e fihs gbie",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 80,
-        "images": 107,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 82,
-        "files": 0,
-        "total": 269
-      },
-      "total_messages": 80,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "18.03.2026 17:57",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:49",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:43",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "18.03.2026 17:34",
+          "time": "08.03.2026 00:20",
           "channel": "💬-общий-чат",
           "content": "",
           "type": "text",
@@ -776,11 +736,96 @@
           "stickers": []
         },
         {
-          "time": "18.03.2026 17:33",
+          "time": "08.03.2026 00:20",
           "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1009475184090152961",
+      "name": "майонез",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
+      "joined_at": "2026-01-12T09:11:19.082000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 62,
+        "images": 0,
+        "voice": 0,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 64
+      },
+      "total_messages": 62,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "19.03.2026 13:53",
+          "channel": "💬-общий-чат",
+          "content": "та ты шо, шо она вытворет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 13:52",
+          "channel": "💬-общий-чат",
+          "content": "потому что ты грамотная DIVA",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "16.03.2026 12:55",
+          "channel": "💬-общий-чат",
+          "content": "про всё",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "16.03.2026 12:54",
+          "channel": "💬-общий-чат",
+          "content": "шо уже произошло",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "06.03.2026 16:02",
+          "channel": "💬-общий-чат",
+          "content": "листья с дерева как в детстве",
+          "type": "text",
+          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -879,6 +924,41 @@
       ]
     },
     {
+      "id": "525765291808915458",
+      "name": "MAX (вирус)",
+      "status": "idle",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
+      "joined_at": "2026-01-27T20:22:01.540000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "dnd",
@@ -935,115 +1015,21 @@
           "stickers": []
         }
       ]
-    },
-    {
-      "id": "834060139006394368",
-      "name": "ZPNK666",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "у меня есть хент",
-        "Агностик",
-        "провославный",
-        "католик",
-        "Сциентизм",
-        "ислам",
-        "Агностик",
-        "атеист",
-        "ОФИЧЕР СС",
-        "iPhone",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
-      "joined_at": "2025-10-03T09:40:02.942000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 1104,
-        "images": 120,
-        "voice": 0,
-        "stickers": 26,
-        "gifs": 10,
-        "files": 34,
-        "total": 1264
-      },
-      "total_messages": 1104,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "19.03.2026 18:26",
-          "channel": "💬-общий-чат",
-          "content": "тоесть ты не можеш даказать что запрет лучше чем впн и вот",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:24",
-          "channel": "💬-общий-чат",
-          "content": "чем",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:20",
-          "channel": "💬-общий-чат",
-          "content": "охуел ?",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:23",
-          "channel": "💬-общий-чат",
-          "content": "окей только мне нужно сайт зделай так что бы идиальный был и буду роблокс",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 13:19",
-          "channel": "💬-общий-чат",
-          "content": "<@1211055468362072164><:aa85cfb3345045d681793ff60190b186:1458729037391462541> секс свевен",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
     }
   ],
   "offline_members": [
     {
-      "id": "1354100925043703870",
-      "name": "bsods10",
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
       "status": "offline",
       "roles": [
         "нету хента",
-        "провославный",
-        "мужчины"
+        "католик",
+        "женщины"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1354100925043703870/ad551c04a38b7191e060d5eba724ee03.png?size=1024",
-      "joined_at": "2026-02-25T09:16:52.122000+00:00",
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1057,10 +1043,10 @@
         "text": 2,
         "images": 0,
         "voice": 0,
-        "stickers": 2,
+        "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 2
       },
       "total_messages": 2,
       "join_leave": {
@@ -1071,21 +1057,7 @@
       },
       "recent_messages": [
         {
-          "time": "28.02.2026 09:13",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
-            }
-          ]
-        },
-        {
-          "time": "28.02.2026 09:09",
+          "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
           "content": "",
           "type": "text",
@@ -1094,21 +1066,7 @@
           "stickers": []
         },
         {
-          "time": "28.02.2026 09:13",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
-            }
-          ]
-        },
-        {
-          "time": "28.02.2026 09:09",
+          "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
           "content": "",
           "type": "text",
@@ -1195,6 +1153,91 @@
       "recent_messages": []
     },
     {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Агностик",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-08T14:24:44.002000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 12,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 12
+      },
+      "total_messages": 12,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "18.03.2026 02:16",
+          "channel": "🔞хент-18",
+          "content": "Твоя?",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 17:25",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 21:35",
+          "channel": "💬-общий-чат",
+          "content": "Что то давно не разговаривал в этой группе",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 21:35",
+          "channel": "💬-общий-чат",
+          "content": "Крута",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.02.2026 13:16",
+          "channel": "💬-общий-чат",
+          "content": "https://youtu.be/HnP7TjHyBdM?si=nMCUUCjn3U6vlaMf",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1199379572861456485",
       "name": "mrpines",
       "status": "offline",
@@ -1271,6 +1314,62 @@
       ]
     },
     {
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "offline",
+      "roles": [
+        "ОФИЧЕР СС"
+      ],
+      "top_role": "ОФИЧЕР СС",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1444371204424339506",
       "name": "Курбас",
       "status": "offline",
@@ -1321,6 +1420,91 @@
           "time": "25.02.2026 11:20",
           "channel": "💬-общий-чат",
           "content": "Привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1296770485421342731",
+      "name": "АБОБА",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
+      "joined_at": "2026-02-17T15:54:04.631000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 222,
+        "images": 42,
+        "voice": 20,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 270
+      },
+      "total_messages": 222,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "19.03.2026 18:28",
+          "channel": "💬-общий-чат",
+          "content": "мне впн не нравиться мне запрет по душе",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:26",
+          "channel": "💬-общий-чат",
+          "content": "своим характером и впном",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:23",
+          "channel": "💬-общий-чат",
+          "content": "не кто не хочет ну ок",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:20",
+          "channel": "💬-общий-чат",
+          "content": "ты заеб",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 18:20",
+          "channel": "💬-общий-чат",
+          "content": "если зайдет ярик я выйду с сервера",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1414,17 +1598,17 @@
       ]
     },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич",
+      "id": "1322612563887915089",
+      "name": "АШРА",
       "status": "offline",
       "roles": [
         "нету хента",
-        "ОФИЧЕР СС",
-        "мужчины"
+        "Сциентизм",
+        "ислам"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
-      "joined_at": "2025-12-16T20:26:44.708000+00:00",
+      "top_role": "ислам",
+      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
+      "joined_at": "2026-02-12T18:01:19.943000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1435,15 +1619,15 @@
         "total": 0
       },
       "stats_all": {
-        "text": 222,
-        "images": 12,
+        "text": 16,
+        "images": 0,
         "voice": 0,
-        "stickers": 2,
-        "gifs": 16,
-        "files": 2,
-        "total": 254
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 16
       },
-      "total_messages": 222,
+      "total_messages": 16,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1452,195 +1636,45 @@
       },
       "recent_messages": [
         {
-          "time": "15.03.2026 18:08",
-          "channel": "⛳майнкрафт",
-          "content": "так это ты даун",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "12.03.2026 19:58",
-          "channel": "⛳майнкрафт",
-          "content": "так ты могла не делать и никто тебя не заставляет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 19:55",
-          "channel": "⛳майнкрафт",
-          "content": "214",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 19:46",
-          "channel": "⛳майнкрафт",
-          "content": "180",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 19:44",
-          "channel": "⛳майнкрафт",
-          "content": "171",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-09T07:12:13.865000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 502,
-        "images": 20,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 4,
-        "total": 526
-      },
-      "total_messages": 502,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "01.03.2026 23:25",
-          "channel": "🔞хент-18",
-          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.02.2026 11:00",
-          "channel": "🔞хент-18",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
-              "size": 11211
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:41",
-          "channel": "⛳майнкрафт",
-          "content": "еще 2",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:41",
-          "channel": "⛳майнкрафт",
-          "content": "дашь спавнера",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:39",
-          "channel": "⛳майнкрафт",
-          "content": "она не достаточно эфективна",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "841719455162564620",
-      "name": "Heldy",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/841719455162564620/b84e09fb39f498f980bddd23e87bc58d.png?size=1024",
-      "joined_at": "2026-03-07T08:35:41.035000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "08.03.2026 00:20",
+          "time": "07.03.2026 12:20",
           "channel": "💬-общий-чат",
-          "content": "",
+          "content": "спасибо",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "08.03.2026 00:20",
+          "time": "07.03.2026 12:19",
           "channel": "💬-общий-чат",
-          "content": "",
+          "content": "Я в порядке, просто мне немного плохо",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:18",
+          "channel": "💬-общий-чат",
+          "content": "Алло",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:18",
+          "channel": "💬-общий-чат",
+          "content": "всем привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "06.03.2026 22:12",
+          "channel": "💬-общий-чат",
+          "content": "z ZPN666 ghjcnj e fihs gbie",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1688,17 +1722,18 @@
       "recent_messages": []
     },
     {
-      "id": "1009475184090152961",
-      "name": "майонез",
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
       "status": "offline",
       "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
       ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
-      "joined_at": "2026-01-12T09:11:19.082000+00:00",
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1709,15 +1744,15 @@
         "total": 0
       },
       "stats_all": {
-        "text": 62,
-        "images": 0,
+        "text": 80,
+        "images": 107,
         "voice": 0,
-        "stickers": 2,
-        "gifs": 0,
+        "stickers": 0,
+        "gifs": 82,
         "files": 0,
-        "total": 64
+        "total": 269
       },
-      "total_messages": 62,
+      "total_messages": 80,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -1726,47 +1761,47 @@
       },
       "recent_messages": [
         {
-          "time": "19.03.2026 13:53",
+          "time": "18.03.2026 17:57",
           "channel": "💬-общий-чат",
-          "content": "та ты шо, шо она вытворет",
+          "content": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/roblox-memes-gif-75282624535994870",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "18.03.2026 17:49",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "18.03.2026 17:43",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-92163296047583267",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "18.03.2026 17:34",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "19.03.2026 13:52",
+          "time": "18.03.2026 17:33",
           "channel": "💬-общий-чат",
-          "content": "потому что ты грамотная DIVA",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "16.03.2026 12:55",
-          "channel": "💬-общий-чат",
-          "content": "про всё",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "16.03.2026 12:54",
-          "channel": "💬-общий-чат",
-          "content": "шо уже произошло",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "06.03.2026 16:02",
-          "channel": "💬-общий-чат",
-          "content": "листья с дерева как в детстве",
-          "type": "text",
-          "preview_url": "",
+          "content": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
           "attachments": [],
           "stickers": []
         }
@@ -2097,7 +2132,7 @@
         "женщины"
       ],
       "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/d172460d571257aaca9f713f8b274bca.png?size=1024",
+      "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/d3dcbb5218f399d7eb3a8bd790852159.png?size=1024",
       "joined_at": "2026-03-10T11:19:30.910000+00:00",
       "stats_today": {
         "text": 0,
@@ -2171,41 +2206,6 @@
           "stickers": []
         }
       ]
-    },
-    {
-      "id": "525765291808915458",
-      "name": "MAX (вирус)",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
-      "joined_at": "2026-01-27T20:22:01.540000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
     },
     {
       "id": "1407789136965931088",
@@ -2637,17 +2637,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
-      "members": [
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        },
-        {
-          "id": "1211055468362072164",
-          "name": "2 КВИТЕНЬ"
-        }
-      ]
+      "members_count": 0,
+      "members": []
     },
     {
       "id": "1470014222401274019",
@@ -2655,20 +2646,33 @@
       "members_count": 2,
       "members": [
         {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
-        },
-        {
           "id": "1292870612531937358",
           "name": "ПИКМИ"
+        },
+        {
+          "id": "1433504994824425640",
+          "name": "zelebobik"
         }
       ]
     },
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 0,
-      "members": []
+      "members_count": 3,
+      "members": [
+        {
+          "id": "834060139006394368",
+          "name": "ZPNK666"
+        },
+        {
+          "id": "1255232329362833409",
+          "name": "кирпич"
+        },
+        {
+          "id": "1264609602540929140",
+          "name": "dark_soul"
+        }
+      ]
     },
     {
       "id": "1473159658565931063",
@@ -2768,11 +2772,11 @@
     "нету хента": 14,
     "женщины": 13,
     "провославный": 8,
-    "католик": 4,
-    "атеист": 8,
-    "Агностик": 8,
     "ОФИЧЕР СС": 6,
+    "Агностик": 8,
+    "католик": 4,
     "ислам": 6,
+    "атеист": 8,
     "iPhone": 3
   },
   "hourly_history": [
