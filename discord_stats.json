@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 17:08:22",
+  "updated_at": "20.03.2026 17:09:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 11,
-    "offline_count": 23,
-    "in_voice_count": 4,
-    "messages_today": 0,
+    "online_count": 12,
+    "offline_count": 22,
+    "in_voice_count": 5,
+    "messages_today": 1,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 142,
+    "text": 143,
     "images": 15,
     "gifs": 20,
     "stickers": 0,
@@ -296,9 +296,94 @@
       ]
     },
     {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 18,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 8,
+        "files": 0,
+        "total": 26
+      },
+      "stats_all": {
+        "text": 2052,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 168,
+        "files": 48,
+        "total": 2414
+      },
+      "total_messages": 2052,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "20.03.2026 17:09",
+          "channel": "💬-общий-чат",
+          "content": "я знаю",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "0",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "у меня",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "у меня 3",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/meme-gif-16129087838487316772",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/meme-gif-16129087838487316772",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "993900146930753606",
       "name": "АУДИТОР",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "ОФИЧЕР СС"
       ],
@@ -1119,91 +1204,6 @@
           "content": "",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 17,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 8,
-        "files": 0,
-        "total": 25
-      },
-      "stats_all": {
-        "text": 2051,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 168,
-        "files": 48,
-        "total": 2413
-      },
-      "total_messages": 2051,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "0",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "у меня",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "у меня 3",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/meme-gif-16129087838487316772",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/meme-gif-16129087838487316772",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:39",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
           "attachments": [],
           "stickers": []
         }
@@ -2630,7 +2630,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 5,
       "members": [
         {
           "id": "1255232329362833409",
@@ -2647,6 +2647,10 @@
         {
           "id": "1433504994824425640",
           "name": "zelebobik"
+        },
+        {
+          "id": "1292870612531937358",
+          "name": "ПИКМИ"
         }
       ]
     },
@@ -4116,7 +4120,7 @@
       "time": "20.03 17:00",
       "hour": 17,
       "date": "2026-03-20",
-      "messages": 0,
+      "messages": 1,
       "online": 16,
       "in_voice": 5
     }
@@ -4126,13 +4130,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2051,
+      "text": 2052,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 168,
       "files": 48,
-      "total": 2413
+      "total": 2414
     },
     {
       "id": "834060139006394368",
