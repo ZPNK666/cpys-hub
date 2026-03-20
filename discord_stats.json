@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 02:34:40",
+  "updated_at": "21.03.2026 02:35:40",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 4,
     "offline_count": 29,
-    "in_voice_count": 1,
+    "in_voice_count": 0,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -2559,13 +2559,8 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 1,
-      "members": [
-        {
-          "id": "935061338479263775",
-          "name": "monoloska UwU"
-        }
-      ]
+      "members_count": 0,
+      "members": []
     },
     {
       "id": "1473159658565931063",
