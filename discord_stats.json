@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 00:25:38",
+  "updated_at": "21.03.2026 00:26:03",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -16,7 +16,7 @@
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 0,
+    "text": 5,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -37,24 +37,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 5,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 5
       },
       "stats_all": {
-        "text": 2056,
+        "text": 2061,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 168,
         "files": 48,
-        "total": 2418
+        "total": 2423
       },
-      "total_messages": 2056,
+      "total_messages": 2061,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -63,45 +63,45 @@
       },
       "recent_messages": [
         {
-          "time": "20.03.2026 17:14",
+          "time": "21.03.2026 00:13",
           "channel": "💬-общий-чат",
-          "content": "паха",
+          "content": "я просто не слушала изза музыки",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 17:14",
+          "time": "21.03.2026 00:13",
           "channel": "💬-общий-чат",
-          "content": "щас",
+          "content": "даа",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 17:09",
+          "time": "21.03.2026 00:13",
           "channel": "💬-общий-чат",
-          "content": "да конечно конечно",
+          "content": "а",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 17:09",
+          "time": "21.03.2026 00:13",
           "channel": "💬-общий-чат",
-          "content": "я просто решила сделать для своих друзей",
+          "content": "что",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 17:09",
+          "time": "20.03.2026 23:15",
           "channel": "💬-общий-чат",
-          "content": "я знаю",
+          "content": "во что вы играете",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4037,7 +4037,7 @@
       "time": "20.03 23:00",
       "hour": 23,
       "date": "2026-03-20",
-      "messages": 0,
+      "messages": 1,
       "online": 0,
       "in_voice": 0
     },
@@ -4045,9 +4045,9 @@
       "time": "21.03 00:00",
       "hour": 0,
       "date": "2026-03-21",
-      "messages": 0,
-      "online": 0,
-      "in_voice": 0
+      "messages": 4,
+      "online": 15,
+      "in_voice": 7
     }
   ],
   "recent_join_leave": [],
@@ -4055,13 +4055,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2056,
+      "text": 2061,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 168,
       "files": 48,
-      "total": 2418
+      "total": 2423
     },
     {
       "id": "834060139006394368",
