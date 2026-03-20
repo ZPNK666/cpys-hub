@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 18:51:22",
+  "updated_at": "20.03.2026 18:52:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,14 +12,14 @@
     "online_count": 12,
     "offline_count": 22,
     "in_voice_count": 5,
-    "messages_today": 6,
+    "messages_today": 8,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 148,
     "images": 15,
     "gifs": 20,
-    "stickers": 0,
+    "stickers": 2,
     "voice": 0,
     "files": 1
   },
@@ -40,19 +40,19 @@
         "text": 87,
         "images": 9,
         "voice": 0,
-        "stickers": 0,
+        "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 95
+        "total": 97
       },
       "stats_all": {
         "text": 309,
         "images": 21,
         "voice": 0,
-        "stickers": 2,
+        "stickers": 4,
         "gifs": 16,
         "files": 2,
-        "total": 349
+        "total": 351
       },
       "total_messages": 309,
       "join_leave": {
@@ -62,6 +62,34 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
         {
           "time": "20.03.2026 01:40",
           "channel": "💬-общий-чат",
@@ -84,24 +112,6 @@
           "time": "20.03.2026 01:40",
           "channel": "💬-общий-чат",
           "content": "все я спать потому что у меня 2 %",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "только тебе",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:39",
-          "channel": "💬-общий-чат",
-          "content": "нет в рот",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4121,7 +4131,7 @@
       "time": "20.03 18:00",
       "hour": 18,
       "date": "2026-03-20",
-      "messages": 0,
+      "messages": 2,
       "online": 16,
       "in_voice": 3
     }
@@ -4191,10 +4201,10 @@
       "text": 309,
       "images": 21,
       "voice": 0,
-      "stickers": 2,
+      "stickers": 4,
       "gifs": 16,
       "files": 2,
-      "total": 349
+      "total": 351
     },
     {
       "id": "1407789136965931088",
