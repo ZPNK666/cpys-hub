@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 18:52:22",
+  "updated_at": "20.03.2026 18:53:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 12,
     "offline_count": 22,
     "in_voice_count": 5,
-    "messages_today": 8,
+    "messages_today": 10,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 148,
+    "text": 150,
     "images": 15,
     "gifs": 20,
     "stickers": 2,
@@ -37,24 +37,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
       "joined_at": "2025-12-16T20:26:44.708000+00:00",
       "stats_today": {
-        "text": 87,
+        "text": 89,
         "images": 9,
         "voice": 0,
         "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 97
+        "total": 99
       },
       "stats_all": {
-        "text": 309,
+        "text": 311,
         "images": 21,
         "voice": 0,
         "stickers": 4,
         "gifs": 16,
         "files": 2,
-        "total": 351
+        "total": 353
       },
-      "total_messages": 309,
+      "total_messages": 311,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -62,6 +62,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "ыыы",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "я гений",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "20.03.2026 18:52",
           "channel": "💬-общий-чат",
@@ -94,24 +112,6 @@
           "time": "20.03.2026 01:40",
           "channel": "💬-общий-чат",
           "content": "все 1",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "и ярик гандон",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "все я спать потому что у меня 2 %",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4131,7 +4131,7 @@
       "time": "20.03 18:00",
       "hour": 18,
       "date": "2026-03-20",
-      "messages": 2,
+      "messages": 4,
       "online": 16,
       "in_voice": 3
     }
@@ -4198,13 +4198,13 @@
     {
       "id": "1255232329362833409",
       "name": "кирпич",
-      "text": 309,
+      "text": 311,
       "images": 21,
       "voice": 0,
       "stickers": 4,
       "gifs": 16,
       "files": 2,
-      "total": 351
+      "total": 353
     },
     {
       "id": "1407789136965931088",
