@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 19:22:22",
+  "updated_at": "20.03.2026 19:23:22",
   "users": {
     "1354100925043703870": [
       {
@@ -36508,17 +36508,6 @@
     ],
     "834060139006394368": [
       {
-        "id": "1476469515733962814",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "26.02.2026 09:42",
-        "content": "билеты",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
         "id": "1476469570536734732",
         "channel": "💬-общий-чат",
         "channel_id": "1450428861836951674",
@@ -42358,6 +42347,17 @@
         "content": "https://tenor.com/view/brenton-tarrant-gif-12174372153583819888",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/brenton-tarrant-gif-12174372153583819888",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1484588031808901223",
+        "channel": "⛳майнкрафт",
+        "channel_id": "1479112217134759966",
+        "time": "20.03.2026 19:22",
+        "content": "чё",
+        "type": "text",
+        "preview_url": "",
         "attachments": [],
         "stickers": []
       }
