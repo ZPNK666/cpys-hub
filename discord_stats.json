@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 17:07:22",
+  "updated_at": "20.03.2026 17:08:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 40,
     "online_count": 11,
     "offline_count": 23,
-    "in_voice_count": 5,
+    "in_voice_count": 4,
     "messages_today": 0,
     "text_channels_count": 10
   },
@@ -27,7 +27,7 @@
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "провославный",
@@ -2630,7 +2630,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         {
           "id": "1255232329362833409",
@@ -2639,10 +2639,6 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
         },
         {
           "id": "1396607687365754883",
