@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 16:53:22",
+  "updated_at": "20.03.2026 16:54:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,9 +9,9 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 10,
-    "offline_count": 24,
-    "in_voice_count": 5,
+    "online_count": 11,
+    "offline_count": 23,
+    "in_voice_count": 4,
     "messages_today": 0,
     "text_channels_count": 10
   },
@@ -705,6 +705,91 @@
           "time": "05.03.2026 23:37",
           "channel": "📜-правила-и-анонсы",
           "content": "Глава 3.\nВзаимодействие с Сервером.\n1. Запрещается использование дюпов. (Наказание - перманентный ба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1396607687365754883",
+      "name": "1 АПРЕЛЬ",
+      "status": "dnd",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
+      "joined_at": "2026-02-26T07:33:27.565000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 102,
+        "images": 0,
+        "voice": 0,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 104
+      },
+      "total_messages": 102,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "13.03.2026 19:23",
+          "channel": "💬-общий-чат",
+          "content": "Ща буду говорить",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:26",
+          "channel": "💬-общий-чат",
+          "content": "Не было",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "Слышим",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "Били",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:04",
+          "channel": "💬-общий-чат",
+          "content": "Билли тебя слышно",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2038,91 +2123,6 @@
       ]
     },
     {
-      "id": "1396607687365754883",
-      "name": "1 АПРЕЛЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
-      "joined_at": "2026-02-26T07:33:27.565000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 102,
-        "images": 0,
-        "voice": 0,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 104
-      },
-      "total_messages": 102,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "13.03.2026 19:23",
-          "channel": "💬-общий-чат",
-          "content": "Ща буду говорить",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:26",
-          "channel": "💬-общий-чат",
-          "content": "Не было",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "Слышим",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "Били",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:04",
-          "channel": "💬-общий-чат",
-          "content": "Билли тебя слышно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1425903022629847200",
       "name": "аничка",
       "status": "offline",
@@ -2630,7 +2630,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         {
           "id": "1255232329362833409",
@@ -2639,10 +2639,6 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "993900146930753606",
-          "name": "АУДИТОР"
         },
         {
           "id": "1425903022629847200",
