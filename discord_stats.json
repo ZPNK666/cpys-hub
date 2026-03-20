@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 18:40:22",
+  "updated_at": "20.03.2026 18:41:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 40,
     "online_count": 11,
     "offline_count": 23,
-    "in_voice_count": 3,
+    "in_voice_count": 4,
     "messages_today": 6,
     "text_channels_count": 10
   },
@@ -2649,8 +2649,13 @@
     {
       "id": "1470014222401274019",
       "name": "🎲 Любые игры / кооп-стрим",
-      "members_count": 0,
-      "members": []
+      "members_count": 1,
+      "members": [
+        {
+          "id": "1296770485421342731",
+          "name": "АБОБА"
+        }
+      ]
     },
     {
       "id": "1473159581990523062",
