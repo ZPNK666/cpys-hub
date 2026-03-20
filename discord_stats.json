@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 18:53:22",
+  "updated_at": "20.03.2026 18:53:49",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -8,10 +8,10 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 40,
-    "online_count": 12,
+    "total_members": 39,
+    "online_count": 11,
     "offline_count": 22,
-    "in_voice_count": 5,
+    "in_voice_count": 4,
     "messages_today": 10,
     "text_channels_count": 10
   },
@@ -614,91 +614,6 @@
           "time": "16.03.2026 11:26",
           "channel": "🔥-мемы-и-ржака",
           "content": "Хахаха 😂",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1296770485421342731",
-      "name": "АБОБА",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
-      "joined_at": "2026-02-17T15:54:04.631000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 222,
-        "images": 42,
-        "voice": 20,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 270
-      },
-      "total_messages": 222,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "19.03.2026 18:28",
-          "channel": "💬-общий-чат",
-          "content": "мне впн не нравиться мне запрет по душе",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:26",
-          "channel": "💬-общий-чат",
-          "content": "своим характером и впном",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:23",
-          "channel": "💬-общий-чат",
-          "content": "не кто не хочет ну ок",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:20",
-          "channel": "💬-общий-чат",
-          "content": "ты заеб",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 18:20",
-          "channel": "💬-общий-чат",
-          "content": "если зайдет ярик я выйду с сервера",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2640,12 +2555,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
+      "members_count": 1,
       "members": [
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        },
         {
           "id": "1211055468362072164",
           "name": "2 КВИТЕНЬ"
@@ -2658,12 +2569,12 @@
       "members_count": 3,
       "members": [
         {
-          "id": "1255232329362833409",
-          "name": "кирпич"
+          "id": "834060139006394368",
+          "name": "ZPNK666"
         },
         {
-          "id": "1296770485421342731",
-          "name": "АБОБА"
+          "id": "1255232329362833409",
+          "name": "кирпич"
         },
         {
           "id": "1264609602540929140",
@@ -2771,14 +2682,14 @@
   "role_distribution": {
     "нету хента": 15,
     "ОФИЧЕР СС": 6,
-    "мужчины": 15,
-    "у меня есть хент": 13,
+    "мужчины": 14,
+    "у меня есть хент": 12,
     "Агностик": 8,
     "провославный": 8,
     "католик": 4,
     "Сциентизм": 6,
     "ислам": 6,
-    "атеист": 8,
+    "атеист": 7,
     "iPhone": 3,
     "женщины": 13
   },
@@ -4148,6 +4059,12 @@
       "user_id": "1264609602540929140",
       "name": "dark_soul",
       "time": "20.03.2026 17:51:40"
+    },
+    {
+      "event": "leave",
+      "user_id": "1296770485421342731",
+      "name": "АБОБА",
+      "time": "20.03.2026 18:53:49"
     }
   ],
   "top_chatters": [
@@ -4230,7 +4147,7 @@
     },
     {
       "id": "1296770485421342731",
-      "name": "АБОБА",
+      "name": "1296770485421342731",
       "text": 222,
       "images": 42,
       "voice": 20,
