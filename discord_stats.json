@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 17:51:22",
+  "updated_at": "20.03.2026 17:51:40",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -8,9 +8,9 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 39,
+    "total_members": 40,
     "online_count": 10,
-    "offline_count": 23,
+    "offline_count": 24,
     "in_voice_count": 3,
     "messages_today": 5,
     "text_channels_count": 10
@@ -2532,6 +2532,94 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-20T14:51:40.688569+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 502,
+        "images": 20,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 4,
+        "total": 526
+      },
+      "total_messages": 502,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 1,
+        "first_join": "20.03.2026 17:51:40",
+        "last_seen": "20.03.2026 17:51:40"
+      },
+      "recent_messages": [
+        {
+          "time": "01.03.2026 23:25",
+          "channel": "🔞хент-18",
+          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.02.2026 11:00",
+          "channel": "🔞хент-18",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
+              "size": 11211
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:41",
+          "channel": "⛳майнкрафт",
+          "content": "еще 2",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:41",
+          "channel": "⛳майнкрафт",
+          "content": "дашь спавнера",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:39",
+          "channel": "⛳майнкрафт",
+          "content": "она не достаточно эфективна",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     }
   ],
   "voice_channels": [
@@ -4031,6 +4119,12 @@
       "user_id": "1264609602540929140",
       "name": "dark_soul",
       "time": "20.03.2026 17:28:19"
+    },
+    {
+      "event": "join",
+      "user_id": "1264609602540929140",
+      "name": "dark_soul",
+      "time": "20.03.2026 17:51:40"
     }
   ],
   "top_chatters": [
@@ -4058,7 +4152,7 @@
     },
     {
       "id": "1264609602540929140",
-      "name": "1264609602540929140",
+      "name": "dark_soul",
       "text": 502,
       "images": 20,
       "voice": 0,
