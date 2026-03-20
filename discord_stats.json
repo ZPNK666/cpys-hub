@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 17:14:22",
+  "updated_at": "20.03.2026 17:15:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,12 +11,12 @@
     "total_members": 40,
     "online_count": 12,
     "offline_count": 22,
-    "in_voice_count": 5,
-    "messages_today": 4,
+    "in_voice_count": 3,
+    "messages_today": 5,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 146,
+    "text": 147,
     "images": 15,
     "gifs": 20,
     "stickers": 0,
@@ -27,7 +27,7 @@
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "провославный",
@@ -308,24 +308,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 21,
+        "text": 22,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 8,
         "files": 0,
-        "total": 29
+        "total": 30
       },
       "stats_all": {
-        "text": 2055,
+        "text": 2056,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 168,
         "files": 48,
-        "total": 2417
+        "total": 2418
       },
-      "total_messages": 2055,
+      "total_messages": 2056,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -333,6 +333,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "20.03.2026 17:14",
+          "channel": "💬-общий-чат",
+          "content": "паха",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "20.03.2026 17:14",
           "channel": "💬-общий-чат",
@@ -364,15 +373,6 @@
           "time": "20.03.2026 17:09",
           "channel": "💬-общий-чат",
           "content": "я знаю",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "0",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2630,7 +2630,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 5,
+      "members_count": 3,
       "members": [
         {
           "id": "1255232329362833409",
@@ -2639,14 +2639,6 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
-        },
-        {
-          "id": "1292870612531937358",
-          "name": "ПИКМИ"
         },
         {
           "id": "1264609602540929140",
@@ -4120,7 +4112,7 @@
       "time": "20.03 17:00",
       "hour": 17,
       "date": "2026-03-20",
-      "messages": 4,
+      "messages": 5,
       "online": 16,
       "in_voice": 5
     }
@@ -4130,13 +4122,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2055,
+      "text": 2056,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 168,
       "files": 48,
-      "total": 2417
+      "total": 2418
     },
     {
       "id": "834060139006394368",
