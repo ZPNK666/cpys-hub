@@ -1,5 +1,5 @@
 {
-  "updated_at": "20.03.2026 18:44:22",
+  "updated_at": "20.03.2026 18:45:22",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -925,83 +925,90 @@
       ]
     },
     {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
+      "id": "1264609602540929140",
+      "name": "dark_soul",
       "status": "online",
       "roles": [
         "нету хента",
-        "ислам",
+        "провославный",
         "мужчины"
       ],
       "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-20T14:51:40.688000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 3,
+        "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 1
       },
       "stats_all": {
-        "text": 39,
-        "images": 6,
+        "text": 503,
+        "images": 20,
         "voice": 0,
         "stickers": 0,
-        "gifs": 13,
-        "files": 0,
-        "total": 58
+        "gifs": 0,
+        "files": 4,
+        "total": 527
       },
-      "total_messages": 39,
+      "total_messages": 503,
       "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
+        "joins": 1,
+        "leaves": 1,
+        "first_join": "20.03.2026 17:51:40",
+        "last_seen": "20.03.2026 17:51:40"
       },
       "recent_messages": [
         {
-          "time": "20.03.2026 00:49",
+          "time": "20.03.2026 17:52",
           "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "semi",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "time": "01.03.2026 23:25",
+          "channel": "🔞хент-18",
+          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
+          "type": "text",
+          "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 00:25",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "time": "19.02.2026 11:00",
+          "channel": "🔞хент-18",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
+              "size": 11211
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:41",
+          "channel": "⛳майнкрафт",
+          "content": "еще 2",
+          "type": "text",
+          "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "20.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "faggot",
+          "time": "14.03.2026 19:41",
+          "channel": "⛳майнкрафт",
+          "content": "дашь спавнера",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2534,90 +2541,83 @@
       ]
     },
     {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
       "status": "offline",
       "roles": [
         "нету хента",
-        "провославный",
+        "ислам",
         "мужчины"
       ],
       "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-20T14:51:40.688000+00:00",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 0,
+        "gifs": 3,
         "files": 0,
-        "total": 1
+        "total": 6
       },
       "stats_all": {
-        "text": 503,
-        "images": 20,
+        "text": 39,
+        "images": 6,
         "voice": 0,
         "stickers": 0,
-        "gifs": 0,
-        "files": 4,
-        "total": 527
+        "gifs": 13,
+        "files": 0,
+        "total": 58
       },
-      "total_messages": 503,
+      "total_messages": 39,
       "join_leave": {
-        "joins": 1,
-        "leaves": 1,
-        "first_join": "20.03.2026 17:51:40",
-        "last_seen": "20.03.2026 17:51:40"
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
       },
       "recent_messages": [
         {
-          "time": "20.03.2026 17:52",
+          "time": "20.03.2026 00:49",
           "channel": "💬-общий-чат",
-          "content": "",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:27",
+          "channel": "💬-общий-чат",
+          "content": "semi",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "01.03.2026 23:25",
-          "channel": "🔞хент-18",
-          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
-          "type": "text",
-          "preview_url": "",
+          "time": "20.03.2026 00:27",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "19.02.2026 11:00",
-          "channel": "🔞хент-18",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
-              "size": 11211
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:41",
-          "channel": "⛳майнкрафт",
-          "content": "еще 2",
-          "type": "text",
-          "preview_url": "",
+          "time": "20.03.2026 00:25",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "14.03.2026 19:41",
-          "channel": "⛳майнкрафт",
-          "content": "дашь спавнера",
+          "time": "20.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "faggot",
           "type": "text",
           "preview_url": "",
           "attachments": [],
