@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 21:04:13",
+  "updated_at": "21.03.2026 21:05:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 12,
-    "offline_count": 21,
+    "online_count": 11,
+    "offline_count": 22,
     "in_voice_count": 3,
     "messages_today": 1,
     "text_channels_count": 10
@@ -522,7 +522,7 @@
     {
       "id": "1255232329362833409",
       "name": "кирпич",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ОФИЧЕР СС",
@@ -785,41 +785,6 @@
       ]
     },
     {
-      "id": "525765291808915458",
-      "name": "MAX (вирус)",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
-      "joined_at": "2026-01-27T20:22:01.540000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "dnd",
@@ -880,7 +845,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ислам",
@@ -2216,6 +2181,41 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "525765291808915458",
+      "name": "MAX (вирус)",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
+      "joined_at": "2026-01-27T20:22:01.540000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1407789136965931088",
