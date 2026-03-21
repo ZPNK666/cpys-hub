@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 17:35:13",
+  "updated_at": "21.03.2026 17:36:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,9 +9,9 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 11,
-    "offline_count": 22,
-    "in_voice_count": 3,
+    "online_count": 10,
+    "offline_count": 23,
+    "in_voice_count": 2,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -102,98 +102,6 @@
           "time": "13.03.2026 17:04",
           "channel": "💬-общий-чат",
           "content": "Билли тебя слышно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-20T14:51:40.688000+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 1
-      },
-      "stats_all": {
-        "text": 504,
-        "images": 20,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 4,
-        "total": 528
-      },
-      "total_messages": 504,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "21.03.2026 11:09",
-          "channel": "💬-общий-чат",
-          "content": "ех какое красивое",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 17:52",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "01.03.2026 23:25",
-          "channel": "🔞хент-18",
-          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "19.02.2026 11:00",
-          "channel": "🔞хент-18",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
-              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
-              "size": 11211
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:41",
-          "channel": "⛳майнкрафт",
-          "content": "еще 2",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -911,6 +819,98 @@
     }
   ],
   "offline_members": [
+    {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-20T14:51:40.688000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "stats_all": {
+        "text": 504,
+        "images": 20,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 4,
+        "total": 528
+      },
+      "total_messages": 504,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "21.03.2026 11:09",
+          "channel": "💬-общий-чат",
+          "content": "ех какое красивое",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 17:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "01.03.2026 23:25",
+          "channel": "🔞хент-18",
+          "content": "https://rt.pornhub.com/view_video.php?viewkey=6410b3f464432",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "19.02.2026 11:00",
+          "channel": "🔞хент-18",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1473952462762283098/73e95357461340b203793549dec61d1a.16.jpg?ex=69bc55f3&is=69bb0473&hm=3e760c1fdffd5d4cdd4d7e6a5fc90e401037f7d16a9f461574f94ca43020ffcb&",
+              "filename": "73e95357461340b203793549dec61d1a.16.jpg",
+              "size": 11211
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:41",
+          "channel": "⛳майнкрафт",
+          "content": "еще 2",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
     {
       "id": "1211055468362072164",
       "name": "2 КВИТЕНЬ",
@@ -2554,7 +2554,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         {
           "id": "1396607687365754883",
@@ -2563,10 +2563,6 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
         }
       ]
     },
