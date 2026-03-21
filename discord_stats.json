@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 22:19:13",
+  "updated_at": "21.03.2026 22:23:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 11,
     "offline_count": 22,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -381,7 +381,7 @@
     {
       "id": "1255232329362833409",
       "name": "кирпич",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ОФИЧЕР СС",
@@ -2594,12 +2594,8 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 2,
+      "members_count": 1,
       "members": [
-        {
-          "id": "1255232329362833409",
-          "name": "кирпич"
-        },
         {
           "id": "1407789136965931088",
           "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
