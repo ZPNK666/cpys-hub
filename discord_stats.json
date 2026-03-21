@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 16:15:13",
+  "updated_at": "21.03.2026 16:16:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -338,7 +338,7 @@
     {
       "id": "993900146930753606",
       "name": "АУДИТОР",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "ОФИЧЕР СС"
       ],
@@ -621,6 +621,101 @@
       ]
     },
     {
+      "id": "1255232329362833409",
+      "name": "кирпич",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
+      "joined_at": "2025-12-16T20:26:44.708000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 311,
+        "images": 21,
+        "voice": 0,
+        "stickers": 4,
+        "gifs": 16,
+        "files": 2,
+        "total": 353
+      },
+      "total_messages": 311,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "ыыы",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "я гений",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "все 1",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1286072101635100733",
       "name": "били б билисимо",
       "status": "online",
@@ -824,64 +919,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "1311555070160277525",
-      "name": "TAMERLAN 12K (а чо? а хз)",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
-      "joined_at": "2026-02-26T17:27:51.190000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "26.02.2026 20:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "26.02.2026 20:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
     }
   ],
   "offline_members": [
@@ -1486,101 +1523,6 @@
           "time": "13.03.2026 03:19",
           "channel": "💬-общий-чат",
           "content": "ОУКЕЙ",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1255232329362833409",
-      "name": "кирпич",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
-      "joined_at": "2025-12-16T20:26:44.708000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 311,
-        "images": 21,
-        "voice": 0,
-        "stickers": 4,
-        "gifs": 16,
-        "files": 2,
-        "total": 353
-      },
-      "total_messages": 311,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "20.03.2026 18:53",
-          "channel": "💬-общий-чат",
-          "content": "ыыы",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 18:53",
-          "channel": "💬-общий-чат",
-          "content": "я гений",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 18:52",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
-            }
-          ]
-        },
-        {
-          "time": "20.03.2026 18:52",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
-            }
-          ]
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "все 1",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2210,6 +2152,64 @@
           "time": "14.03.2026 19:38",
           "channel": "⛳майнкрафт",
           "content": "Ща я хочу включить шейдеры и красиво сфоткаться",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1311555070160277525",
+      "name": "TAMERLAN 12K (а чо? а хз)",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
+      "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "26.02.2026 20:28",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "26.02.2026 20:28",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
