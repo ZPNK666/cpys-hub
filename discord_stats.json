@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 21:42:13",
+  "updated_at": "21.03.2026 21:43:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 13,
     "offline_count": 20,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -888,7 +888,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ислам",
@@ -2555,12 +2555,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
-        {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        },
         {
           "id": "1160178094494203934",
           "name": "РЫ7БА"
