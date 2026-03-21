@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 23:19:13",
+  "updated_at": "21.03.2026 23:20:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 9,
     "offline_count": 24,
-    "in_voice_count": 5,
+    "in_voice_count": 4,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -2602,13 +2602,8 @@
     {
       "id": "1479220379850641408",
       "name": "1v1",
-      "members_count": 1,
-      "members": [
-        {
-          "id": "1160178094494203934",
-          "name": "РЫ7БА"
-        }
-      ]
+      "members_count": 0,
+      "members": []
     },
     {
       "id": "1479220112346058995",
