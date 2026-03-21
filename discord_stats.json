@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 02:59:40",
+  "updated_at": "21.03.2026 03:00:40",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -2669,14 +2669,6 @@
   },
   "hourly_history": [
     {
-      "time": "14.03 02:00",
-      "hour": 2,
-      "date": "2026-03-14",
-      "messages": 0,
-      "online": 0,
-      "in_voice": 0
-    },
-    {
       "time": "14.03 03:00",
       "hour": 3,
       "date": "2026-03-14",
@@ -4019,6 +4011,14 @@
       "messages": 0,
       "online": 10,
       "in_voice": 2
+    },
+    {
+      "time": "21.03 03:00",
+      "hour": 3,
+      "date": "2026-03-21",
+      "messages": 0,
+      "online": 8,
+      "in_voice": 0
     }
   ],
   "recent_join_leave": [],
