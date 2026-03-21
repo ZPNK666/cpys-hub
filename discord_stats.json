@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 23:27:13",
+  "updated_at": "21.03.2026 23:28:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 8,
     "offline_count": 25,
-    "in_voice_count": 4,
+    "in_voice_count": 2,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -2614,19 +2614,11 @@
     {
       "id": "1479220253593571328",
       "name": "2v2",
-      "members_count": 3,
+      "members_count": 1,
       "members": [
-        {
-          "id": "1396607687365754883",
-          "name": "#!Apr๑ell꒱"
-        },
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1286072101635100733",
-          "name": "били б билисимо"
         }
       ]
     },
