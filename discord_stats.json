@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 18:24:13",
+  "updated_at": "21.03.2026 18:25:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 39,
-    "online_count": 12,
-    "offline_count": 21,
+    "online_count": 11,
+    "offline_count": 22,
     "in_voice_count": 4,
     "messages_today": 1,
     "text_channels_count": 10
@@ -413,91 +413,6 @@
           "time": "28.02.2026 09:09",
           "channel": "💬-общий-чат",
           "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2062,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 168,
-        "files": 48,
-        "total": 2424
-      },
-      "total_messages": 2062,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "21.03.2026 00:30",
-          "channel": "💬-общий-чат",
-          "content": "мне лень",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "я просто не слушала изза музыки",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "даа",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "а",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "что",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1057,6 +972,91 @@
           "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2062,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 168,
+        "files": 48,
+        "total": 2424
+      },
+      "total_messages": 2062,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "21.03.2026 00:30",
+          "channel": "💬-общий-чат",
+          "content": "мне лень",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "я просто не слушала изза музыки",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "даа",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "а",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "что",
           "type": "text",
           "preview_url": "",
           "attachments": [],
