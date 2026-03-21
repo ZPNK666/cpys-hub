@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 22:45:13",
+  "updated_at": "21.03.2026 22:46:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 9,
     "offline_count": 24,
-    "in_voice_count": 1,
+    "in_voice_count": 3,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -2585,11 +2585,19 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 1,
+      "members_count": 3,
       "members": [
         {
           "id": "1407789136965931088",
           "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
+        },
+        {
+          "id": "1286072101635100733",
+          "name": "били б билисимо"
+        },
+        {
+          "id": "1396607687365754883",
+          "name": "1 АПРЕЛЬ"
         }
       ]
     },
