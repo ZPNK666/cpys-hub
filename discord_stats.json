@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 13:48:13",
+  "updated_at": "21.03.2026 13:49:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 8,
     "offline_count": 25,
-    "in_voice_count": 4,
+    "in_voice_count": 2,
     "messages_today": 0,
     "text_channels_count": 10
   },
@@ -24,6 +24,91 @@
     "files": 0
   },
   "online_members": [
+    {
+      "id": "1396607687365754883",
+      "name": "1 АПРЕЛЬ",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
+      "joined_at": "2026-02-26T07:33:27.565000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 102,
+        "images": 0,
+        "voice": 0,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 104
+      },
+      "total_messages": 102,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "13.03.2026 19:23",
+          "channel": "💬-общий-чат",
+          "content": "Ща буду говорить",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:26",
+          "channel": "💬-общий-чат",
+          "content": "Не было",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "Слышим",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "Били",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "13.03.2026 17:04",
+          "channel": "💬-общий-чат",
+          "content": "Билли тебя слышно",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
@@ -336,91 +421,6 @@
       ]
     },
     {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2062,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 168,
-        "files": 48,
-        "total": 2424
-      },
-      "total_messages": 2062,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "21.03.2026 00:30",
-          "channel": "💬-общий-чат",
-          "content": "мне лень",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "я просто не слушала изза музыки",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "даа",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "а",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "21.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "что",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1264222387214483562",
       "name": "ポトゥジノ",
       "status": "online",
@@ -664,91 +664,6 @@
   ],
   "offline_members": [
     {
-      "id": "1396607687365754883",
-      "name": "1 АПРЕЛЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/b845c18db05798ef4b0c173daf96ce1f.png?size=1024",
-      "joined_at": "2026-02-26T07:33:27.565000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 102,
-        "images": 0,
-        "voice": 0,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 104
-      },
-      "total_messages": 102,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "13.03.2026 19:23",
-          "channel": "💬-общий-чат",
-          "content": "Ща буду говорить",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:26",
-          "channel": "💬-общий-чат",
-          "content": "Не было",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "Слышим",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "Били",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 17:04",
-          "channel": "💬-общий-чат",
-          "content": "Билли тебя слышно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1211055468362072164",
       "name": "2 КВИТЕНЬ",
       "status": "offline",
@@ -799,6 +714,91 @@
           "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/6960768bbc1920dbb30a7ec67bf3d0d2.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2062,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 168,
+        "files": 48,
+        "total": 2424
+      },
+      "total_messages": 2062,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "21.03.2026 00:30",
+          "channel": "💬-общий-чат",
+          "content": "мне лень",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "я просто не слушала изза музыки",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "даа",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "а",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "21.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "что",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2547,23 +2547,15 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 2,
       "members": [
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
         },
         {
-          "id": "1160178094494203934",
-          "name": "РЫ7БА"
-        },
-        {
           "id": "1264609602540929140",
           "name": "dark_soul"
-        },
-        {
-          "id": "1292870612531937358",
-          "name": "ПИКМИ"
         }
       ]
     },
