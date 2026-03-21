@@ -1,5 +1,5 @@
 {
-  "updated_at": "21.03.2026 22:59:13",
+  "updated_at": "21.03.2026 23:00:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 10,
     "offline_count": 23,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 1,
     "text_channels_count": 10
   },
@@ -2555,12 +2555,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
-        {
-          "id": "1286072101635100733",
-          "name": "били б билисимо"
-        },
         {
           "id": "1396607687365754883",
           "name": "#!Apr๑ell꒱"
@@ -2694,14 +2690,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "14.03 22:00",
-      "hour": 22,
-      "date": "2026-03-14",
-      "messages": 8,
-      "online": 0,
-      "in_voice": 0
-    },
     {
       "time": "14.03 23:00",
       "hour": 23,
@@ -4045,6 +4033,14 @@
       "messages": 0,
       "online": 19,
       "in_voice": 5
+    },
+    {
+      "time": "21.03 23:00",
+      "hour": 23,
+      "date": "2026-03-21",
+      "messages": 0,
+      "online": 16,
+      "in_voice": 3
     }
   ],
   "recent_join_leave": [],
