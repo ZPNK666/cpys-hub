@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:26:13",
+  "updated_at": "22.03.2026 21:27:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,15 +11,15 @@
     "total_members": 42,
     "online_count": 13,
     "offline_count": 23,
-    "in_voice_count": 7,
-    "messages_today": 79,
+    "in_voice_count": 4,
+    "messages_today": 80,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 67,
     "images": 3,
     "gifs": 5,
-    "stickers": 4,
+    "stickers": 5,
     "voice": 0,
     "files": 0
   },
@@ -1091,19 +1091,19 @@
         "text": 1,
         "images": 0,
         "voice": 0,
-        "stickers": 0,
+        "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "stats_all": {
         "text": 1,
         "images": 0,
         "voice": 0,
-        "stickers": 0,
+        "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "total_messages": 1,
       "join_leave": {
@@ -1113,6 +1113,20 @@
         "last_seen": "22.03.2026 21:22:04"
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 21:26",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/1451285197172772875.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "фак",
+              "url": "https://cdn.discordapp.com/stickers/1451285197172772875.png"
+            }
+          ]
+        },
         {
           "time": "22.03.2026 21:22",
           "channel": "💬-общий-чат",
@@ -2770,23 +2784,11 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 5,
+      "members_count": 2,
       "members": [
-        {
-          "id": "1292870612531937358",
-          "name": "ПИКМИ"
-        },
-        {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
-        },
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1160178094494203934",
-          "name": "РЫ7БА"
         },
         {
           "id": "961276531387297862",
@@ -4269,7 +4271,7 @@
       "time": "22.03 21:00",
       "hour": 21,
       "date": "2026-03-22",
-      "messages": 41,
+      "messages": 42,
       "online": 14,
       "in_voice": 3
     }
