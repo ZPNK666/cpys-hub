@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:53:14",
+  "updated_at": "22.03.2026 20:54:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -258,7 +258,7 @@
     "2026-03-22 16": 5,
     "2026-03-22 17": 2,
     "2026-03-22 18": 2,
-    "2026-03-22 20": 23
+    "2026-03-22 20": 25
   },
   "user_messages": {
     "1354100925043703870": [
@@ -342,28 +342,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477984833585287390",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:04",
-        "content": "пиздец",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477985958640226357",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:08",
-        "content": "https://tenor.com/view/miahsgifs-head-turn-spongebob-gif-19234132",
-        "type": "gifs",
-        "preview_url": "https://tenor.com/view/miahsgifs-head-turn-spongebob-gif-19234132",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477986250031104160",
         "channel": "💬-общий-чат",
@@ -6027,6 +6005,28 @@
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 20:52",
         "content": "го в это",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485335759681618022",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:54",
+        "content": "ага",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485335800156786730",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:54",
+        "content": "добавь в друзья",
         "type": "text",
         "preview_url": "",
         "attachments": [],
