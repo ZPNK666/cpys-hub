@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:30:13",
+  "updated_at": "22.03.2026 20:31:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 12,
     "offline_count": 22,
     "in_voice_count": 4,
-    "messages_today": 15,
+    "messages_today": 16,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 13,
     "images": 1,
-    "gifs": 1,
+    "gifs": 2,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -221,18 +221,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 1,
+        "gifs": 2,
         "files": 0,
-        "total": 8
+        "total": 9
       },
       "stats_all": {
         "text": 2069,
         "images": 92,
         "voice": 4,
         "stickers": 62,
-        "gifs": 169,
+        "gifs": 170,
         "files": 48,
-        "total": 2432
+        "total": 2433
       },
       "total_messages": 2069,
       "join_leave": {
@@ -242,6 +242,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 20:30",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 20:30",
           "channel": "💬-общий-чат",
@@ -273,15 +282,6 @@
           "time": "22.03.2026 20:26",
           "channel": "💬-общий-чат",
           "content": "надоело играть",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:24",
-          "channel": "💬-общий-чат",
-          "content": "айфон 7 никого не щадит",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -515,7 +515,7 @@
     {
       "id": "1264222387214483562",
       "name": "ポトゥジノ",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "ислам",
@@ -4133,7 +4133,7 @@
       "time": "22.03 20:00",
       "hour": 20,
       "date": "2026-03-22",
-      "messages": 6,
+      "messages": 7,
       "online": 18,
       "in_voice": 4
     }
@@ -4154,9 +4154,9 @@
       "images": 92,
       "voice": 4,
       "stickers": 62,
-      "gifs": 169,
+      "gifs": 170,
       "files": 48,
-      "total": 2432
+      "total": 2433
     },
     {
       "id": "834060139006394368",
