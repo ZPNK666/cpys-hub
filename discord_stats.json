@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 23:24:13",
+  "updated_at": "22.03.2026 23:25:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 10,
     "offline_count": 26,
     "in_voice_count": 2,
-    "messages_today": 92,
+    "messages_today": 93,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 79,
+    "text": 80,
     "images": 3,
     "gifs": 5,
     "stickers": 5,
@@ -132,24 +132,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 6,
+        "text": 7,
         "images": 0,
         "voice": 0,
         "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 7
+        "total": 8
       },
       "stats_all": {
-        "text": 1147,
+        "text": 1148,
         "images": 125,
         "voice": 0,
         "stickers": 27,
         "gifs": 12,
         "files": 35,
-        "total": 1316
+        "total": 1317
       },
-      "total_messages": 1147,
+      "total_messages": 1148,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -157,6 +157,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 23:24",
+          "channel": "💬-общий-чат",
+          "content": "щас сервак вклучу",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 23:24",
           "channel": "💬-общий-чат",
@@ -197,15 +206,6 @@
               "url": "https://cdn.discordapp.com/stickers/751606379340365864.json"
             }
           ]
-        },
-        {
-          "time": "22.03.2026 20:42",
-          "channel": "🔞хент-18",
-          "content": "https://yandex.ru/video/preview/11497972056017497998",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
         }
       ]
     },
@@ -4271,7 +4271,7 @@
       "time": "22.03 23:00",
       "hour": 23,
       "date": "2026-03-22",
-      "messages": 2,
+      "messages": 3,
       "online": 16,
       "in_voice": 3
     }
@@ -4311,13 +4311,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1147,
+      "text": 1148,
       "images": 125,
       "voice": 0,
       "stickers": 27,
       "gifs": 12,
       "files": 35,
-      "total": 1316
+      "total": 1317
     },
     {
       "id": "1264609602540929140",
