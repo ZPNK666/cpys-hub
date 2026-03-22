@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:14:13",
+  "updated_at": "22.03.2026 21:15:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 11,
     "offline_count": 24,
     "in_voice_count": 7,
-    "messages_today": 62,
+    "messages_today": 63,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 55,
+    "text": 56,
     "images": 1,
     "gifs": 4,
     "stickers": 2,
@@ -222,24 +222,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 47,
+        "text": 48,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 4,
         "files": 0,
-        "total": 51
+        "total": 52
       },
       "stats_all": {
-        "text": 2109,
+        "text": 2110,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 172,
         "files": 48,
-        "total": 2475
+        "total": 2476
       },
-      "total_messages": 2109,
+      "total_messages": 2110,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -247,6 +247,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 21:14",
+          "channel": "💬-общий-чат",
+          "content": "дай впн",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 21:14",
           "channel": "💬-общий-чат",
@@ -278,15 +287,6 @@
           "time": "22.03.2026 21:13",
           "channel": "💬-общий-чат",
           "content": "пж",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:13",
-          "channel": "💬-общий-чат",
-          "content": "и  я уйду",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4204,7 +4204,7 @@
       "time": "22.03 21:00",
       "hour": 21,
       "date": "2026-03-22",
-      "messages": 24,
+      "messages": 25,
       "online": 14,
       "in_voice": 3
     }
@@ -4227,13 +4227,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2109,
+      "text": 2110,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 172,
       "files": 48,
-      "total": 2475
+      "total": 2476
     },
     {
       "id": "834060139006394368",
