@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:42:16",
+  "updated_at": "22.03.2026 20:43:13",
   "users": {
     "1354100925043703870": [
       {
@@ -36575,17 +36575,6 @@
     ],
     "834060139006394368": [
       {
-        "id": "1476470492474114088",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "26.02.2026 09:46",
-        "content": "страна",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
         "id": "1476482500963602644",
         "channel": "💬-общий-чат",
         "channel_id": "1450428861836951674",
@@ -42423,6 +42412,17 @@
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 17:58",
         "content": "Нажми на ссылку, чтобы вступить в мой клуб в Brawl Stars! https://link.brawlstars.com/invite/band/ru?tag=CQ29J9YQ&token=9s6mjppz",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485332810519675010",
+        "channel": "🔞хент-18",
+        "channel_id": "1468564179135758399",
+        "time": "22.03.2026 20:42",
+        "content": "https://yandex.ru/video/preview/11497972056017497998",
         "type": "text",
         "preview_url": "",
         "attachments": [],
