@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:11:14",
+  "updated_at": "22.03.2026 21:12:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -259,7 +259,7 @@
     "2026-03-22 17": 2,
     "2026-03-22 18": 2,
     "2026-03-22 20": 29,
-    "2026-03-22 21": 12
+    "2026-03-22 21": 16
   },
   "user_messages": {
     "1354100925043703870": [
@@ -343,39 +343,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477988591899508817",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:19",
-        "content": "с моим ником",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477988597465354320",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:19",
-        "content": "хахаа",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477988623294005248",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:19",
-        "content": "привет гардей",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477988865024327813",
         "channel": "💬-общий-чат",
@@ -6028,6 +5995,39 @@
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 21:11",
         "content": "дай мне впн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340093416738959",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:11",
+        "content": "впнннннннннннннннннннн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340129445937253",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:11",
+        "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340264368439439",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:11",
+        "content": "впн мне дай",
         "type": "text",
         "preview_url": "",
         "attachments": [],
@@ -43480,6 +43480,19 @@
         "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+        "attachments": [],
+        "stickers": []
+      }
+    ],
+    "1089616774665867284": [
+      {
+        "id": "1485340269522976838",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:11",
+        "content": "",
+        "type": "text",
+        "preview_url": "",
         "attachments": [],
         "stickers": []
       }
