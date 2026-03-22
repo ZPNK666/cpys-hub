@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 12:38:13",
+  "updated_at": "22.03.2026 12:39:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 39,
     "online_count": 8,
     "offline_count": 25,
-    "in_voice_count": 2,
+    "in_voice_count": 1,
     "messages_today": 0,
     "text_channels_count": 10
   },
@@ -397,7 +397,7 @@
     {
       "id": "1396607687365754883",
       "name": "#!Apr๑ell꒱",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "атеист",
@@ -2555,15 +2555,11 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
+      "members_count": 1,
       "members": [
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "#!Apr๑ell꒱"
         }
       ]
     },
