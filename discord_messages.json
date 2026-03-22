@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:25:13",
+  "updated_at": "22.03.2026 21:26:13",
   "users": {
     "1354100925043703870": [
       {
@@ -7819,6 +7819,38 @@
           {
             "name": "Wave",
             "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+          }
+        ]
+      },
+      {
+        "id": "1485343830969679974",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:26",
+        "content": "",
+        "type": "sticker",
+        "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
+        "attachments": [],
+        "stickers": [
+          {
+            "name": "Scream",
+            "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
+          }
+        ]
+      },
+      {
+        "id": "1485343840884756613",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:26",
+        "content": "",
+        "type": "sticker",
+        "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
+        "attachments": [],
+        "stickers": [
+          {
+            "name": "Scream",
+            "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
           }
         ]
       }
