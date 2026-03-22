@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:25:13",
+  "updated_at": "22.03.2026 21:26:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,17 +9,17 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 14,
-    "offline_count": 22,
+    "online_count": 13,
+    "offline_count": 23,
     "in_voice_count": 7,
-    "messages_today": 77,
+    "messages_today": 79,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 67,
     "images": 3,
     "gifs": 5,
-    "stickers": 2,
+    "stickers": 4,
     "voice": 0,
     "files": 0
   },
@@ -381,43 +381,6 @@
       ]
     },
     {
-      "id": "1222900395647434864",
-      "name": "lamponyx321",
-      "status": "online",
-      "roles": [
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
-      "joined_at": "2025-10-03T14:17:20.491000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
       "id": "1433504994824425640",
       "name": "zelebobik",
       "status": "online",
@@ -433,19 +396,19 @@
         "text": 0,
         "images": 0,
         "voice": 0,
-        "stickers": 1,
+        "stickers": 3,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 3
       },
       "stats_all": {
         "text": 64,
         "images": 108,
         "voice": 0,
-        "stickers": 7,
+        "stickers": 9,
         "gifs": 0,
         "files": 10,
-        "total": 107
+        "total": 109
       },
       "total_messages": 64,
       "join_leave": {
@@ -455,6 +418,34 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 21:26",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Scream",
+              "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
+            }
+          ]
+        },
+        {
+          "time": "22.03.2026 21:26",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Scream",
+              "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
+            }
+          ]
+        },
         {
           "time": "22.03.2026 21:13",
           "channel": "💬-общий-чат",
@@ -515,37 +506,6 @@
               "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188760148148355/RobloxScreenShot20260319_165547811.png?ex=69bd51ff&is=69bc007f&hm=5030bd33a0fa4a1f5da80a01dea6364ac7ea602e8b23c4a11249f77036a29dc9&",
               "filename": "RobloxScreenShot20260319_165547811.png",
               "size": 2148918
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 19:21",
-          "channel": "🔞хент-18",
-          "content": "ДА",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "13.03.2026 18:59",
-          "channel": "🔞хент-18",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1482045396237943006/RobloxScreenShot20260312_165500805.png?ex=69bc1d55&is=69bacbd5&hm=20426d10d792aabd83f585b2d8f7ce2d259476460875f73f204833b3474db046&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1482045396237943006/RobloxScreenShot20260312_165500805.png?ex=69bc1d55&is=69bacbd5&hm=20426d10d792aabd83f585b2d8f7ce2d259476460875f73f204833b3474db046&",
-              "filename": "RobloxScreenShot20260312_165500805.png",
-              "size": 1065856
-            },
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1482045396930007142/RobloxScreenShot20260313_185758162.png?ex=69bc1d55&is=69bacbd5&hm=98c4f1fffaae0ca4665c61868bcfc79389c11c1c73bfbbbd1e34e3a63f622b8f&",
-              "filename": "RobloxScreenShot20260313_185758162.png",
-              "size": 2315381
             }
           ],
           "stickers": []
@@ -1236,6 +1196,43 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1451592083935592490/b3ca214729a78ba361b37d8e880ee88a.png?size=1024",
       "joined_at": "2026-02-25T10:14:05.604000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
+    },
+    {
+      "id": "1222900395647434864",
+      "name": "lamponyx321",
+      "status": "offline",
+      "roles": [
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
+      "joined_at": "2025-10-03T14:17:20.491000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -2773,7 +2770,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 7,
+      "members_count": 5,
       "members": [
         {
           "id": "1292870612531937358",
@@ -2790,14 +2787,6 @@
         {
           "id": "1160178094494203934",
           "name": "РЫ7БА"
-        },
-        {
-          "id": "1286072101635100733",
-          "name": "били б билисимо"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "#!Apr๑ell꒱"
         },
         {
           "id": "961276531387297862",
@@ -2850,8 +2839,17 @@
     {
       "id": "1479220112346058995",
       "name": "1v1",
-      "members_count": 0,
-      "members": []
+      "members_count": 2,
+      "members": [
+        {
+          "id": "1286072101635100733",
+          "name": "били б билисимо"
+        },
+        {
+          "id": "1396607687365754883",
+          "name": "#!Apr๑ell꒱"
+        }
+      ]
     },
     {
       "id": "1479220253593571328",
@@ -4271,7 +4269,7 @@
       "time": "22.03 21:00",
       "hour": 21,
       "date": "2026-03-22",
-      "messages": 39,
+      "messages": 41,
       "online": 14,
       "in_voice": 3
     }
@@ -4397,15 +4395,15 @@
       "total": 158
     },
     {
-      "id": "1396607687365754883",
-      "name": "#!Apr๑ell꒱",
-      "text": 106,
-      "images": 0,
+      "id": "1433504994824425640",
+      "name": "zelebobik",
+      "text": 64,
+      "images": 108,
       "voice": 0,
-      "stickers": 2,
+      "stickers": 9,
       "gifs": 0,
-      "files": 0,
-      "total": 108
+      "files": 10,
+      "total": 109
     }
   ]
 }
