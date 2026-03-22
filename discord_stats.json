@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 00:59:13",
+  "updated_at": "23.03.2026 01:00:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 42,
     "online_count": 9,
     "offline_count": 27,
-    "in_voice_count": 1,
+    "in_voice_count": 0,
     "messages_today": 4,
     "text_channels_count": 10
   },
@@ -2815,13 +2815,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 1,
-      "members": [
-        {
-          "id": "961276531387297862",
-          "name": "ЛОЛИ"
-        }
-      ]
+      "members_count": 0,
+      "members": []
     },
     {
       "id": "1470014222401274019",
@@ -2941,14 +2936,6 @@
     "мужчины": 15
   },
   "hourly_history": [
-    {
-      "time": "16.03 00:00",
-      "hour": 0,
-      "date": "2026-03-16",
-      "messages": 0,
-      "online": 0,
-      "in_voice": 0
-    },
     {
       "time": "16.03 01:00",
       "hour": 1,
@@ -4292,6 +4279,14 @@
       "messages": 4,
       "online": 15,
       "in_voice": 2
+    },
+    {
+      "time": "23.03 01:00",
+      "hour": 1,
+      "date": "2026-03-23",
+      "messages": 0,
+      "online": 15,
+      "in_voice": 0
     }
   ],
   "recent_join_leave": [
