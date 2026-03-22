@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:35:14",
+  "updated_at": "22.03.2026 20:36:13",
   "users": {
     "1354100925043703870": [
       {
@@ -82,44 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477982376071139338",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 13:54",
-        "content": "хули ты орешь",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477982973365190736",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 13:56",
-        "content": "",
-        "type": "sticker",
-        "preview_url": "https://cdn.discordapp.com/stickers/1477020684583702649.png",
-        "attachments": [],
-        "stickers": [
-          {
-            "name": "ну и хуйня",
-            "url": "https://cdn.discordapp.com/stickers/1477020684583702649.png"
-          }
-        ]
-      },
-      {
-        "id": "1477983169251639307",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 13:57",
-        "content": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-        "type": "gifs",
-        "preview_url": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477983459845607557",
         "channel": "💬-общий-чат",
@@ -5772,6 +5734,39 @@
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 20:34",
         "content": "фуууу бляяяя нахуя ты столько сыпешь",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485331036924805302",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:35",
+        "content": "как вообще можно пить чай с сахаром",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485331047393661068",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:35",
+        "content": "бля",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485331249546530907",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:36",
+        "content": "тогда ты и апрель",
         "type": "text",
         "preview_url": "",
         "attachments": [],
