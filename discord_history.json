@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:17:14",
+  "updated_at": "22.03.2026 21:18:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -259,7 +259,7 @@
     "2026-03-22 17": 2,
     "2026-03-22 18": 2,
     "2026-03-22 20": 29,
-    "2026-03-22 21": 25
+    "2026-03-22 21": 27
   },
   "user_messages": {
     "1354100925043703870": [
@@ -343,28 +343,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477992162229489714",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:33",
-        "content": "л",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477992307881017446",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:33",
-        "content": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-        "type": "gifs",
-        "preview_url": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477993144011198578",
         "channel": "💬-общий-чат",
@@ -6020,6 +5998,28 @@
         "content": "дай впн",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485341658655621140",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:17",
+        "content": "дай мне впн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485341670261395579",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:17",
+        "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
         "attachments": [],
         "stickers": []
       }
