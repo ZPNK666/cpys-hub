@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 01:25:13",
+  "updated_at": "23.03.2026 01:26:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 5,
-    "offline_count": 31,
+    "online_count": 4,
+    "offline_count": 32,
     "in_voice_count": 0,
     "messages_today": 4,
     "text_channels_count": 10
@@ -340,91 +340,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "961276531387297862",
-      "name": "ЛОЛИ",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
-      "joined_at": "2026-03-22T18:22:03.656000+00:00",
-      "stats_today": {
-        "text": 4,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 4
-      },
-      "stats_all": {
-        "text": 6,
-        "images": 0,
-        "voice": 0,
-        "stickers": 1,
-        "gifs": 0,
-        "files": 0,
-        "total": 7
-      },
-      "total_messages": 6,
-      "join_leave": {
-        "joins": 1,
-        "leaves": 0,
-        "first_join": "22.03.2026 21:22:04",
-        "last_seen": "22.03.2026 21:22:04"
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 00:28",
-          "channel": "2026(эта имба полная)",
-          "content": "Буль буль",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 00:27",
-          "channel": "2026(эта имба полная)",
-          "content": "Могу попробовать зайти",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 00:27",
-          "channel": "2026(эта имба полная)",
-          "content": "Есть такое",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 00:26",
-          "channel": "2026(эта имба полная)",
-          "content": "Надеюсь хорошо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 23:23",
-          "channel": "💬-общий-чат",
-          "content": "Бляя я стак земли проебала",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
     }
   ],
   "offline_members": [
@@ -2803,6 +2718,91 @@
           "time": "22.03.2026 21:11",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "961276531387297862",
+      "name": "ЛОЛИ",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
+      "joined_at": "2026-03-22T18:22:03.656000+00:00",
+      "stats_today": {
+        "text": 4,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 4
+      },
+      "stats_all": {
+        "text": 6,
+        "images": 0,
+        "voice": 0,
+        "stickers": 1,
+        "gifs": 0,
+        "files": 0,
+        "total": 7
+      },
+      "total_messages": 6,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "22.03.2026 21:22:04",
+        "last_seen": "22.03.2026 21:22:04"
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 00:28",
+          "channel": "2026(эта имба полная)",
+          "content": "Буль буль",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 00:27",
+          "channel": "2026(эта имба полная)",
+          "content": "Могу попробовать зайти",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 00:27",
+          "channel": "2026(эта имба полная)",
+          "content": "Есть такое",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 00:26",
+          "channel": "2026(эта имба полная)",
+          "content": "Надеюсь хорошо",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 23:23",
+          "channel": "💬-общий-чат",
+          "content": "Бляя я стак земли проебала",
           "type": "text",
           "preview_url": "",
           "attachments": [],
