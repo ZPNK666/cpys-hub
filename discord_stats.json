@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 23:45:13",
+  "updated_at": "22.03.2026 23:46:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,7 +12,7 @@
     "online_count": 8,
     "offline_count": 28,
     "in_voice_count": 2,
-    "messages_today": 93,
+    "messages_today": 95,
     "text_channels_count": 10
   },
   "media_today": {
@@ -21,7 +21,7 @@
     "gifs": 5,
     "stickers": 5,
     "voice": 0,
-    "files": 0
+    "files": 2
   },
   "online_members": [
     {
@@ -51,8 +51,8 @@
         "voice": 0,
         "stickers": 1,
         "gifs": 0,
-        "files": 0,
-        "total": 8
+        "files": 2,
+        "total": 10
       },
       "stats_all": {
         "text": 1148,
@@ -60,8 +60,8 @@
         "voice": 0,
         "stickers": 27,
         "gifs": 12,
-        "files": 35,
-        "total": 1317
+        "files": 37,
+        "total": 1319
       },
       "total_messages": 1148,
       "join_leave": {
@@ -71,6 +71,38 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 23:46",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "files",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485379088750481549/sssx.io_1774212333637.mp4?ex=69c1a693&is=69c05513&hm=a509a8df841205ea4c2e725605ca9f3e80a9ad5432730309975315d6db825ab6&",
+          "attachments": [
+            {
+              "type": "files",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485379088750481549/sssx.io_1774212333637.mp4?ex=69c1a693&is=69c05513&hm=a509a8df841205ea4c2e725605ca9f3e80a9ad5432730309975315d6db825ab6&",
+              "filename": "sssx.io_1774212333637.mp4",
+              "size": 1798346
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 23:46",
+          "channel": "🔥-мемы-и-ржака",
+          "content": "",
+          "type": "files",
+          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1485379057557442580/sssx.io_1774212333637.mp4?ex=69c1a68c&is=69c0550c&hm=0c369cd69be7dcf12bf8b9794284bd17bc70eb4bd28419eb5005ce716ba57f68&",
+          "attachments": [
+            {
+              "type": "files",
+              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1485379057557442580/sssx.io_1774212333637.mp4?ex=69c1a68c&is=69c0550c&hm=0c369cd69be7dcf12bf8b9794284bd17bc70eb4bd28419eb5005ce716ba57f68&",
+              "filename": "sssx.io_1774212333637.mp4",
+              "size": 1798346
+            }
+          ],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 23:24",
           "channel": "💬-общий-чат",
@@ -97,29 +129,6 @@
           "preview_url": "",
           "attachments": [],
           "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:21",
-          "channel": "💬-общий-чат",
-          "content": "лоли вы куда ?",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:12",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/751606379340365864.json",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/751606379340365864.json"
-            }
-          ]
         }
       ]
     },
@@ -4271,7 +4280,7 @@
       "time": "22.03 23:00",
       "hour": 23,
       "date": "2026-03-22",
-      "messages": 3,
+      "messages": 5,
       "online": 16,
       "in_voice": 3
     }
@@ -4316,8 +4325,8 @@
       "voice": 0,
       "stickers": 27,
       "gifs": 12,
-      "files": 35,
-      "total": 1317
+      "files": 37,
+      "total": 1319
     },
     {
       "id": "1264609602540929140",
