@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 22:41:13",
+  "updated_at": "22.03.2026 22:42:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 7,
-    "offline_count": 29,
+    "online_count": 8,
+    "offline_count": 28,
     "in_voice_count": 3,
     "messages_today": 90,
     "text_channels_count": 10
@@ -557,6 +557,92 @@
         "last_seen": null
       },
       "recent_messages": []
+    },
+    {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "ОФИЧЕР СС",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 282,
+        "images": 2,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 284
+      },
+      "total_messages": 282,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "15.03.2026 09:58",
+          "channel": "⛳майнкрафт",
+          "content": "Интересно",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "15.03.2026 01:02",
+          "channel": "⛳майнкрафт",
+          "content": "Все бай",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:55",
+          "channel": "⛳майнкрафт",
+          "content": "Соус личку чекни",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:42",
+          "channel": "⛳майнкрафт",
+          "content": "Да подожди мне надо с шейдерами решиться",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:38",
+          "channel": "⛳майнкрафт",
+          "content": "Ща я хочу включить шейдеры и красиво сфоткаться",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     },
     {
       "id": "961276531387297862",
@@ -2137,92 +2223,6 @@
           "time": "26.02.2026 09:44",
           "channel": "💬-общий-чат",
           "content": "Я не знаю почеиу так, но у меня в стане так надо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "ОФИЧЕР СС",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 282,
-        "images": 2,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 284
-      },
-      "total_messages": 282,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "15.03.2026 09:58",
-          "channel": "⛳майнкрафт",
-          "content": "Интересно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "15.03.2026 01:02",
-          "channel": "⛳майнкрафт",
-          "content": "Все бай",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:55",
-          "channel": "⛳майнкрафт",
-          "content": "Соус личку чекни",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:42",
-          "channel": "⛳майнкрафт",
-          "content": "Да подожди мне надо с шейдерами решиться",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:38",
-          "channel": "⛳майнкрафт",
-          "content": "Ща я хочу включить шейдеры и красиво сфоткаться",
           "type": "text",
           "preview_url": "",
           "attachments": [],
