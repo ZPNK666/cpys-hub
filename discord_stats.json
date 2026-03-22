@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:53:13",
+  "updated_at": "22.03.2026 20:54:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 9,
-    "offline_count": 25,
+    "online_count": 8,
+    "offline_count": 26,
     "in_voice_count": 3,
-    "messages_today": 32,
+    "messages_today": 34,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 29,
+    "text": 31,
     "images": 1,
     "gifs": 2,
     "stickers": 0,
@@ -131,24 +131,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 22,
+        "text": 24,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 24
+        "total": 26
       },
       "stats_all": {
-        "text": 2084,
+        "text": 2086,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 170,
         "files": 48,
-        "total": 2448
+        "total": 2450
       },
-      "total_messages": 2084,
+      "total_messages": 2086,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -156,6 +156,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 20:54",
+          "channel": "💬-общий-чат",
+          "content": "добавь в друзья",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 20:54",
+          "channel": "💬-общий-чат",
+          "content": "ага",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 20:52",
           "channel": "💬-общий-чат",
@@ -178,24 +196,6 @@
           "time": "22.03.2026 20:48",
           "channel": "💬-общий-чат",
           "content": "без понятия",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:38",
-          "channel": "💬-общий-чат",
-          "content": "без денеег без денеееег",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:38",
-          "channel": "💬-общий-чат",
-          "content": "хахахахха нашел утешение",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -239,62 +239,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
-      "status": "idle",
-      "roles": [
-        "ОФИЧЕР СС"
-      ],
-      "top_role": "ОФИЧЕР СС",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-01-22T18:23:10.803000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "08.03.2026 21:04",
-          "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 21:04",
-          "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
     },
     {
       "id": "1433504994824425640",
@@ -1158,6 +1102,62 @@
           "time": "14.03.2026 22:32",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "offline",
+      "roles": [
+        "ОФИЧЕР СС"
+      ],
+      "top_role": "ОФИЧЕР СС",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4129,7 +4129,7 @@
       "time": "22.03 20:00",
       "hour": 20,
       "date": "2026-03-22",
-      "messages": 23,
+      "messages": 25,
       "online": 18,
       "in_voice": 4
     }
@@ -4146,13 +4146,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2084,
+      "text": 2086,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 170,
       "files": 48,
-      "total": 2448
+      "total": 2450
     },
     {
       "id": "834060139006394368",
