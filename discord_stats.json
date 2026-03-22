@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:22:13",
+  "updated_at": "22.03.2026 21:23:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 13,
-    "offline_count": 23,
-    "in_voice_count": 6,
-    "messages_today": 76,
+    "online_count": 14,
+    "offline_count": 22,
+    "in_voice_count": 7,
+    "messages_today": 77,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 66,
+    "text": 67,
     "images": 3,
     "gifs": 5,
     "stickers": 2,
@@ -1031,13 +1031,17 @@
       ]
     },
     {
-      "id": "961276531387297862",
-      "name": "CykaHa",
-      "status": "dnd",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
-      "joined_at": "2026-03-22T18:22:03.656396+00:00",
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1048,22 +1052,117 @@
         "total": 0
       },
       "stats_all": {
-        "text": 0,
+        "text": 39,
+        "images": 6,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 13,
+        "files": 0,
+        "total": 58
+      },
+      "total_messages": 39,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "20.03.2026 00:49",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:27",
+          "channel": "💬-общий-чат",
+          "content": "semi",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:27",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:25",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "faggot",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "961276531387297862",
+      "name": "CykaHa",
+      "status": "dnd",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
+      "joined_at": "2026-03-22T18:22:03.656000+00:00",
+      "stats_today": {
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
-      "total_messages": 0,
+      "stats_all": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "total_messages": 1,
       "join_leave": {
         "joins": 1,
         "leaves": 0,
         "first_join": "22.03.2026 21:22:04",
         "last_seen": "22.03.2026 21:22:04"
       },
-      "recent_messages": []
+      "recent_messages": [
+        {
+          "time": "22.03.2026 21:22",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     }
   ],
   "offline_members": [
@@ -2511,91 +2610,6 @@
       ]
     },
     {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 39,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 13,
-        "files": 0,
-        "total": 58
-      },
-      "total_messages": 39,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "20.03.2026 00:49",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "semi",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:25",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "faggot",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1296770485421342731",
       "name": "ABOBA",
       "status": "offline",
@@ -2759,7 +2773,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 6,
+      "members_count": 5,
       "members": [
         {
           "id": "1292870612531937358",
@@ -2770,20 +2784,16 @@
           "name": "zelebobik"
         },
         {
-          "id": "834060139006394368",
-          "name": "ZPNK666"
-        },
-        {
           "id": "1160178094494203934",
           "name": "РЫ7БА"
         },
         {
-          "id": "1286072101635100733",
-          "name": "били б билисимо"
-        },
-        {
           "id": "1396607687365754883",
           "name": "#!Apr๑ell꒱"
+        },
+        {
+          "id": "961276531387297862",
+          "name": "CykaHa"
         }
       ]
     },
@@ -2796,8 +2806,17 @@
     {
       "id": "1473159581990523062",
       "name": "🟥 Roblox party",
-      "members_count": 0,
-      "members": []
+      "members_count": 2,
+      "members": [
+        {
+          "id": "834060139006394368",
+          "name": "ZPNK666"
+        },
+        {
+          "id": "1286072101635100733",
+          "name": "били б билисимо"
+        }
+      ]
     },
     {
       "id": "1473159658565931063",
@@ -2892,10 +2911,10 @@
   ],
   "role_distribution": {
     "нету хента": 15,
-    "атеист": 8,
+    "атеист": 9,
     "ОФИЧЕР СС": 7,
-    "женщины": 14,
-    "у меня есть хент": 14,
+    "женщины": 15,
+    "у меня есть хент": 15,
     "Агностик": 6,
     "провославный": 7,
     "католик": 3,
@@ -4253,7 +4272,7 @@
       "time": "22.03 21:00",
       "hour": 21,
       "date": "2026-03-22",
-      "messages": 38,
+      "messages": 39,
       "online": 14,
       "in_voice": 3
     }
