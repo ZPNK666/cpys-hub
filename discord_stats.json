@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:51:13",
+  "updated_at": "22.03.2026 20:52:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 10,
-    "offline_count": 24,
+    "online_count": 9,
+    "offline_count": 25,
     "in_voice_count": 3,
-    "messages_today": 31,
+    "messages_today": 32,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 28,
+    "text": 29,
     "images": 1,
     "gifs": 2,
     "stickers": 0,
@@ -131,24 +131,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 21,
+        "text": 22,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 23
+        "total": 24
       },
       "stats_all": {
-        "text": 2083,
+        "text": 2084,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 170,
         "files": 48,
-        "total": 2447
+        "total": 2448
       },
-      "total_messages": 2083,
+      "total_messages": 2084,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -156,6 +156,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 20:52",
+          "channel": "💬-общий-чат",
+          "content": "го в это",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 20:49",
           "channel": "💬-общий-чат",
@@ -187,15 +196,6 @@
           "time": "22.03.2026 20:38",
           "channel": "💬-общий-чат",
           "content": "хахахахха нашел утешение",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:38",
-          "channel": "💬-общий-чат",
-          "content": "ты просто без денег",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -520,101 +520,6 @@
           "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
           "type": "images",
           "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1255232329362833409",
-      "name": "кирпич",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
-      "joined_at": "2025-12-16T20:26:44.708000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 311,
-        "images": 21,
-        "voice": 0,
-        "stickers": 4,
-        "gifs": 16,
-        "files": 2,
-        "total": 353
-      },
-      "total_messages": 311,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "20.03.2026 18:53",
-          "channel": "💬-общий-чат",
-          "content": "ыыы",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 18:53",
-          "channel": "💬-общий-чат",
-          "content": "я гений",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 18:52",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
-            }
-          ]
-        },
-        {
-          "time": "20.03.2026 18:52",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
-            }
-          ]
-        },
-        {
-          "time": "20.03.2026 01:40",
-          "channel": "💬-общий-чат",
-          "content": "все 1",
-          "type": "text",
-          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -1396,6 +1301,101 @@
           "time": "13.03.2026 03:19",
           "channel": "💬-общий-чат",
           "content": "ОУКЕЙ",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1255232329362833409",
+      "name": "кирпич",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ad4de5f663c91bbdfb05164db41c5ae8.png?size=1024",
+      "joined_at": "2025-12-16T20:26:44.708000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 311,
+        "images": 21,
+        "voice": 0,
+        "stickers": 4,
+        "gifs": 16,
+        "files": 2,
+        "total": 353
+      },
+      "total_messages": 311,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "ыыы",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 18:53",
+          "channel": "💬-общий-чат",
+          "content": "я гений",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "20.03.2026 18:52",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "20.03.2026 01:40",
+          "channel": "💬-общий-чат",
+          "content": "все 1",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4129,7 +4129,7 @@
       "time": "22.03 20:00",
       "hour": 20,
       "date": "2026-03-22",
-      "messages": 22,
+      "messages": 23,
       "online": 18,
       "in_voice": 4
     }
@@ -4146,13 +4146,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2083,
+      "text": 2084,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 170,
       "files": 48,
-      "total": 2447
+      "total": 2448
     },
     {
       "id": "834060139006394368",
