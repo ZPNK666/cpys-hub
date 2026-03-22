@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:09:14",
+  "updated_at": "22.03.2026 21:10:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -259,7 +259,7 @@
     "2026-03-22 17": 2,
     "2026-03-22 18": 2,
     "2026-03-22 20": 29,
-    "2026-03-22 21": 7
+    "2026-03-22 21": 9
   },
   "user_messages": {
     "1354100925043703870": [
@@ -343,28 +343,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477988404124848208",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:18",
-        "content": "че",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477988459871211560",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:18",
-        "content": "где",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477988477172842546",
         "channel": "💬-общий-чат",
@@ -6030,6 +6008,28 @@
         "content": "бля так ты мне дашь впн",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485339688310149180",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:09",
+        "content": "бляяяяя давай быстрее",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485339709881450727",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:09",
+        "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
         "attachments": [],
         "stickers": []
       }
