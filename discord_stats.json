@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 00:27:13",
+  "updated_at": "23.03.2026 00:28:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 10,
     "offline_count": 26,
     "in_voice_count": 2,
-    "messages_today": 1,
+    "messages_today": 4,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 1,
+    "text": 4,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -739,24 +739,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
       "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 4
       },
       "stats_all": {
-        "text": 3,
+        "text": 6,
         "images": 0,
         "voice": 0,
         "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 7
       },
-      "total_messages": 3,
+      "total_messages": 6,
       "join_leave": {
         "joins": 1,
         "leaves": 0,
@@ -764,6 +764,33 @@
         "last_seen": "22.03.2026 21:22:04"
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 00:28",
+          "channel": "2026(эта имба полная)",
+          "content": "Буль буль",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 00:27",
+          "channel": "2026(эта имба полная)",
+          "content": "Могу попробовать зайти",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 00:27",
+          "channel": "2026(эта имба полная)",
+          "content": "Есть такое",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 00:26",
           "channel": "2026(эта имба полная)",
@@ -777,29 +804,6 @@
           "time": "22.03.2026 23:23",
           "channel": "💬-общий-чат",
           "content": "Бляя я стак земли проебала",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:26",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/1451285197172772875.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "фак",
-              "url": "https://cdn.discordapp.com/stickers/1451285197172772875.png"
-            }
-          ]
-        },
-        {
-          "time": "22.03.2026 21:22",
-          "channel": "💬-общий-чат",
-          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4289,7 +4293,7 @@
       "time": "23.03 00:00",
       "hour": 0,
       "date": "2026-03-23",
-      "messages": 1,
+      "messages": 4,
       "online": 15,
       "in_voice": 2
     }
