@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 18:32:13",
+  "updated_at": "22.03.2026 18:33:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 9,
-    "offline_count": 25,
+    "online_count": 10,
+    "offline_count": 24,
     "in_voice_count": 3,
     "messages_today": 7,
     "text_channels_count": 10
@@ -421,6 +421,91 @@
           "time": "20.03.2026 01:40",
           "channel": "💬-общий-чат",
           "content": "все 1",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1322612563887915089",
+      "name": "АШРА",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "ислам"
+      ],
+      "top_role": "ислам",
+      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
+      "joined_at": "2026-02-12T18:01:19.943000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 16,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 16
+      },
+      "total_messages": 16,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "07.03.2026 12:20",
+          "channel": "💬-общий-чат",
+          "content": "спасибо",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:19",
+          "channel": "💬-общий-чат",
+          "content": "Я в порядке, просто мне немного плохо",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:18",
+          "channel": "💬-общий-чат",
+          "content": "Алло",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 12:18",
+          "channel": "💬-общий-чат",
+          "content": "всем привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "06.03.2026 22:12",
+          "channel": "💬-общий-чат",
+          "content": "z ZPN666 ghjcnj e fihs gbie",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -1616,91 +1701,6 @@
           "time": "14.03.2026 19:41",
           "channel": "⛳майнкрафт",
           "content": "еще 2",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1322612563887915089",
-      "name": "АШРА",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "ислам"
-      ],
-      "top_role": "ислам",
-      "avatar": "https://cdn.discordapp.com/avatars/1322612563887915089/808a6d7993647d00c6f40d5f4e53595b.png?size=1024",
-      "joined_at": "2026-02-12T18:01:19.943000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 16,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 16
-      },
-      "total_messages": 16,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "07.03.2026 12:20",
-          "channel": "💬-общий-чат",
-          "content": "спасибо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:19",
-          "channel": "💬-общий-чат",
-          "content": "Я в порядке, просто мне немного плохо",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:18",
-          "channel": "💬-общий-чат",
-          "content": "Алло",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 12:18",
-          "channel": "💬-общий-чат",
-          "content": "всем привет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "06.03.2026 22:12",
-          "channel": "💬-общий-чат",
-          "content": "z ZPN666 ghjcnj e fihs gbie",
           "type": "text",
           "preview_url": "",
           "attachments": [],
