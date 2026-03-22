@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:55:13",
+  "updated_at": "22.03.2026 20:56:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 9,
     "offline_count": 25,
     "in_voice_count": 3,
-    "messages_today": 36,
+    "messages_today": 37,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 33,
+    "text": 34,
     "images": 1,
     "gifs": 2,
     "stickers": 0,
@@ -217,24 +217,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 26,
+        "text": 27,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 28
+        "total": 29
       },
       "stats_all": {
-        "text": 2088,
+        "text": 2089,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 170,
         "files": 48,
-        "total": 2452
+        "total": 2453
       },
-      "total_messages": 2088,
+      "total_messages": 2089,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -242,6 +242,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 20:56",
+          "channel": "💬-общий-чат",
+          "content": "я пытаюсь зайти на акк",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 20:54",
           "channel": "💬-общий-чат",
@@ -273,15 +282,6 @@
           "time": "22.03.2026 20:54",
           "channel": "💬-общий-чат",
           "content": "ага",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:52",
-          "channel": "💬-общий-чат",
-          "content": "го в это",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4129,7 +4129,7 @@
       "time": "22.03 20:00",
       "hour": 20,
       "date": "2026-03-22",
-      "messages": 27,
+      "messages": 28,
       "online": 18,
       "in_voice": 4
     }
@@ -4146,13 +4146,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2088,
+      "text": 2089,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 170,
       "files": 48,
-      "total": 2452
+      "total": 2453
     },
     {
       "id": "834060139006394368",
