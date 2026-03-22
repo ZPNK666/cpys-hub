@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 22:26:13",
+  "updated_at": "22.03.2026 22:27:13",
   "users": {
     "1354100925043703870": [
       {
@@ -82,46 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1478003792833286144",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 15:19",
-        "content": "я не такая уж и плохая и тупая",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1478004531873972224",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 15:22",
-        "content": "",
-        "type": "images",
-        "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1478004531622182994/61268E2B-958E-4E8A-85FE-CA2C0A712A1D.jpg?ex=69bbea7c&is=69ba98fc&hm=96ac52d7028d0a9e66e4d10c6d2344dfb16fa0e2855a6db3213842e2eeceaf92&",
-        "attachments": [
-          {
-            "type": "images",
-            "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1478004531622182994/61268E2B-958E-4E8A-85FE-CA2C0A712A1D.jpg?ex=69bbea7c&is=69ba98fc&hm=96ac52d7028d0a9e66e4d10c6d2344dfb16fa0e2855a6db3213842e2eeceaf92&",
-            "filename": "61268E2B-958E-4E8A-85FE-CA2C0A712A1D.jpg",
-            "size": 55371
-          }
-        ],
-        "stickers": []
-      },
-      {
-        "id": "1478004726170648758",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 15:23",
-        "content": "а мне рассказать",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1478019423314120868",
         "channel": "💬-общий-чат",
@@ -5750,6 +5710,39 @@
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 22:25",
         "content": "шо",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485359034948259870",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 22:26",
+        "content": "на телефон он мне не дает",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485359055408201979",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 22:26",
+        "content": "а на ноут дал",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485359125469597847",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 22:26",
+        "content": "ага",
         "type": "text",
         "preview_url": "",
         "attachments": [],
