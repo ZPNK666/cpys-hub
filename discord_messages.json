@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 22:25:13",
+  "updated_at": "22.03.2026 22:26:13",
   "users": {
     "1354100925043703870": [
       {
@@ -82,57 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477993144011198578",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:37",
-        "content": "ну не знаю мне нравятся парни которые решают все кулаками а не словами",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477993805234835591",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:39",
-        "content": "",
-        "type": "images",
-        "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477993805000081439/6CDABE2F-B00B-4B2B-B7E6-A7D53C939A9E.jpg?ex=69bbe07e&is=69ba8efe&hm=7428280264e676fd020ec8823b3d4f616978b7cb070fbe9e5ab29195933c4a8c&",
-        "attachments": [
-          {
-            "type": "images",
-            "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477993805000081439/6CDABE2F-B00B-4B2B-B7E6-A7D53C939A9E.jpg?ex=69bbe07e&is=69ba8efe&hm=7428280264e676fd020ec8823b3d4f616978b7cb070fbe9e5ab29195933c4a8c&",
-            "filename": "6CDABE2F-B00B-4B2B-B7E6-A7D53C939A9E.jpg",
-            "size": 169835
-          }
-        ],
-        "stickers": []
-      },
-      {
-        "id": "1477994325374668931",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:41",
-        "content": "ххахаха",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1478003758137999573",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 15:19",
-        "content": "я молчу",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1478003792833286144",
         "channel": "💬-общий-чат",
@@ -5759,6 +5708,50 @@
         "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485358716080488501",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 22:25",
+        "content": "ярик",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485358729879752716",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 22:25",
+        "content": "дай впн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485358737584816138",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 22:25",
+        "content": "пж",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485358897215705341",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 22:25",
+        "content": "шо",
+        "type": "text",
+        "preview_url": "",
         "attachments": [],
         "stickers": []
       }
