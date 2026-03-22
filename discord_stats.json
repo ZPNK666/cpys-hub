@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:54:13",
+  "updated_at": "22.03.2026 21:55:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 11,
-    "offline_count": 25,
+    "online_count": 10,
+    "offline_count": 26,
     "in_voice_count": 0,
     "messages_today": 80,
     "text_channels_count": 10
@@ -812,98 +812,6 @@
           "time": "05.03.2026 23:37",
           "channel": "📜-правила-и-анонсы",
           "content": "Глава 3.\nВзаимодействие с Сервером.\n1. Запрещается использование дюпов. (Наказание - перманентный ба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1296770485421342731",
-      "name": "ABOBA",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
-      "joined_at": "2026-03-22T13:52:32.310000+00:00",
-      "stats_today": {
-        "text": 4,
-        "images": 1,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 5
-      },
-      "stats_all": {
-        "text": 226,
-        "images": 43,
-        "voice": 20,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 275
-      },
-      "total_messages": 226,
-      "join_leave": {
-        "joins": 1,
-        "leaves": 0,
-        "first_join": "22.03.2026 16:52:32",
-        "last_seen": "22.03.2026 16:52:32"
-      },
-      "recent_messages": [
-        {
-          "time": "22.03.2026 17:38",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485286617458540574/image.png?ex=69c15074&is=69bffef4&hm=fca47c51629c2305ee163e0e4cf55ba5388ac6ae2488cc696e5ad9f94b0ab9a8&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485286617458540574/image.png?ex=69c15074&is=69bffef4&hm=fca47c51629c2305ee163e0e4cf55ba5388ac6ae2488cc696e5ad9f94b0ab9a8&",
-              "filename": "image.png",
-              "size": 108910
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 16:53",
-          "channel": "💬-общий-чат",
-          "content": "иди наху",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 16:53",
-          "channel": "💬-общий-чат",
-          "content": "почему я дикий",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 16:53",
-          "channel": "💬-общий-чат",
-          "content": "вопрос",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 16:52",
-          "channel": "💬-общий-чат",
-          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2705,6 +2613,98 @@
           "time": "20.03.2026 00:13",
           "channel": "💬-общий-чат",
           "content": "faggot",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1296770485421342731",
+      "name": "ABOBA",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
+      "joined_at": "2026-03-22T13:52:32.310000+00:00",
+      "stats_today": {
+        "text": 4,
+        "images": 1,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 5
+      },
+      "stats_all": {
+        "text": 226,
+        "images": 43,
+        "voice": 20,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 275
+      },
+      "total_messages": 226,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "22.03.2026 16:52:32",
+        "last_seen": "22.03.2026 16:52:32"
+      },
+      "recent_messages": [
+        {
+          "time": "22.03.2026 17:38",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485286617458540574/image.png?ex=69c15074&is=69bffef4&hm=fca47c51629c2305ee163e0e4cf55ba5388ac6ae2488cc696e5ad9f94b0ab9a8&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485286617458540574/image.png?ex=69c15074&is=69bffef4&hm=fca47c51629c2305ee163e0e4cf55ba5388ac6ae2488cc696e5ad9f94b0ab9a8&",
+              "filename": "image.png",
+              "size": 108910
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 16:53",
+          "channel": "💬-общий-чат",
+          "content": "иди наху",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 16:53",
+          "channel": "💬-общий-чат",
+          "content": "почему я дикий",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 16:53",
+          "channel": "💬-общий-чат",
+          "content": "вопрос",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 16:52",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
