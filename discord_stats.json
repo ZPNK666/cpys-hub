@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 17:57:13",
+  "updated_at": "22.03.2026 17:58:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 10,
     "offline_count": 24,
     "in_voice_count": 4,
-    "messages_today": 6,
+    "messages_today": 7,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 5,
+    "text": 6,
     "images": 1,
     "gifs": 0,
     "stickers": 0,
@@ -46,24 +46,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "stats_all": {
-        "text": 1142,
+        "text": 1143,
         "images": 125,
         "voice": 0,
         "stickers": 26,
         "gifs": 12,
         "files": 35,
-        "total": 1310
+        "total": 1311
       },
-      "total_messages": 1142,
+      "total_messages": 1143,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -71,6 +71,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 17:58",
+          "channel": "💬-общий-чат",
+          "content": "Нажми на ссылку, чтобы вступить в мой клуб в Brawl Stars! https://link.brawlstars.com/invite/band/ru",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 16:53",
           "channel": "💬-общий-чат",
@@ -102,15 +111,6 @@
           "time": "20.03.2026 19:25",
           "channel": "⛳майнкрафт",
           "content": "так ты забыл что было паследний раз кагда мы играли",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 19:24",
-          "channel": "⛳майнкрафт",
-          "content": "и скажи",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4133,7 +4133,7 @@
       "time": "22.03 17:00",
       "hour": 17,
       "date": "2026-03-22",
-      "messages": 1,
+      "messages": 2,
       "online": 16,
       "in_voice": 5
     }
@@ -4161,13 +4161,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1142,
+      "text": 1143,
       "images": 125,
       "voice": 0,
       "stickers": 26,
       "gifs": 12,
       "files": 35,
-      "total": 1310
+      "total": 1311
     },
     {
       "id": "1264609602540929140",
