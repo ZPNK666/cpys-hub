@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:13:15",
+  "updated_at": "22.03.2026 21:14:13",
   "users": {
     "1354100925043703870": [
       {
@@ -82,82 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477988865024327813",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:20",
-        "content": "хахаха",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477989108386369546",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:21",
-        "content": "комплимент \"твоя пизда самая сочная\"",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477989406987128854",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:22",
-        "content": "https://tenor.com/view/gawr-gura-eating-burger-animation-holo-en-gif-20123926",
-        "type": "gifs",
-        "preview_url": "https://tenor.com/view/gawr-gura-eating-burger-animation-holo-en-gif-20123926",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477990207973228716",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:25",
-        "content": "",
-        "type": "sticker",
-        "preview_url": "https://cdn.discordapp.com/stickers/1477020684583702649.png",
-        "attachments": [],
-        "stickers": [
-          {
-            "name": "ну и хуйня",
-            "url": "https://cdn.discordapp.com/stickers/1477020684583702649.png"
-          }
-        ]
-      },
-      {
-        "id": "1477991670715908106",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:31",
-        "content": "мама пришла",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477991677250506886",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:31",
-        "content": "",
-        "type": "sticker",
-        "preview_url": "https://cdn.discordapp.com/stickers/1477020684583702649.png",
-        "attachments": [],
-        "stickers": [
-          {
-            "name": "ну и хуйня",
-            "url": "https://cdn.discordapp.com/stickers/1477020684583702649.png"
-          }
-        ]
-      },
       {
         "id": "1477992151752376341",
         "channel": "💬-общий-чат",
@@ -5766,6 +5690,72 @@
         "channel": "💬-общий-чат",
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 21:11",
+        "content": "впн мне дай",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340677687607316",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:13",
+        "content": "дай мне впн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340693533692044",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:13",
+        "content": "и  я уйду",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340708066951390",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:13",
+        "content": "пж",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340724537851924",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:13",
+        "content": "дай впн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340768842416270",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:13",
+        "content": "дай мне впн и я пойду",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340837154914364",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:14",
         "content": "впн мне дай",
         "type": "text",
         "preview_url": "",
