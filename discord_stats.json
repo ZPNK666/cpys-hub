@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 22:46:13",
+  "updated_at": "22.03.2026 22:47:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 8,
-    "offline_count": 28,
+    "online_count": 9,
+    "offline_count": 27,
     "in_voice_count": 3,
     "messages_today": 90,
     "text_channels_count": 10
@@ -201,6 +201,91 @@
           "time": "22.03.2026 22:26",
           "channel": "💬-общий-чат",
           "content": "а на ноут дал",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "Агностик",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-08T14:24:44.002000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 12,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 12
+      },
+      "total_messages": 12,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "18.03.2026 02:16",
+          "channel": "🔞хент-18",
+          "content": "Твоя?",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 17:25",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 21:35",
+          "channel": "💬-общий-чат",
+          "content": "Что то давно не разговаривал в этой группе",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "07.03.2026 21:35",
+          "channel": "💬-общий-чат",
+          "content": "Крута",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.02.2026 13:16",
+          "channel": "💬-общий-чат",
+          "content": "https://youtu.be/HnP7TjHyBdM?si=nMCUUCjn3U6vlaMf",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -967,91 +1052,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "1418873225596895284",
-      "name": "Rudy",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "Агностик",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
-      "joined_at": "2026-03-08T14:24:44.002000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 12,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 12
-      },
-      "total_messages": 12,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "18.03.2026 02:16",
-          "channel": "🔞хент-18",
-          "content": "Твоя?",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 17:25",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 21:35",
-          "channel": "💬-общий-чат",
-          "content": "Что то давно не разговаривал в этой группе",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 21:35",
-          "channel": "💬-общий-чат",
-          "content": "Крута",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.02.2026 13:16",
-          "channel": "💬-общий-чат",
-          "content": "https://youtu.be/HnP7TjHyBdM?si=nMCUUCjn3U6vlaMf",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
     },
     {
       "id": "1199379572861456485",
