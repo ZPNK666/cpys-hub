@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:35:13",
+  "updated_at": "22.03.2026 20:36:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 12,
-    "offline_count": 22,
+    "online_count": 11,
+    "offline_count": 23,
     "in_voice_count": 4,
-    "messages_today": 21,
+    "messages_today": 24,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 18,
+    "text": 21,
     "images": 1,
     "gifs": 2,
     "stickers": 0,
@@ -217,24 +217,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 12,
+        "text": 15,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 14
+        "total": 17
       },
       "stats_all": {
-        "text": 2074,
+        "text": 2077,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 170,
         "files": 48,
-        "total": 2438
+        "total": 2441
       },
-      "total_messages": 2074,
+      "total_messages": 2077,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -242,6 +242,33 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 20:36",
+          "channel": "💬-общий-чат",
+          "content": "тогда ты и апрель",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 20:35",
+          "channel": "💬-общий-чат",
+          "content": "бля",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 20:35",
+          "channel": "💬-общий-чат",
+          "content": "как вообще можно пить чай с сахаром",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 20:34",
           "channel": "💬-общий-чат",
@@ -255,33 +282,6 @@
           "time": "22.03.2026 20:33",
           "channel": "💬-общий-чат",
           "content": "пиздец какой нормальный чайниу",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:32",
-          "channel": "💬-общий-чат",
-          "content": "купи себе нормальный",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:31",
-          "channel": "💬-общий-чат",
-          "content": "че за чайник",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:31",
-          "channel": "💬-общий-чат",
-          "content": "бля",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -907,64 +907,6 @@
           "time": "05.03.2026 23:37",
           "channel": "📜-правила-и-анонсы",
           "content": "Глава 3.\nВзаимодействие с Сервером.\n1. Запрещается использование дюпов. (Наказание - перманентный ба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1311555070160277525",
-      "name": "TAMERLAN 12K (а чо? а хз)",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
-      "joined_at": "2026-02-26T17:27:51.190000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "26.02.2026 20:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "26.02.2026 20:28",
-          "channel": "💬-общий-чат",
-          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2219,6 +2161,64 @@
       ]
     },
     {
+      "id": "1311555070160277525",
+      "name": "TAMERLAN 12K (а чо? а хз)",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
+      "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "26.02.2026 20:28",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "26.02.2026 20:28",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1440792780233244835",
       "name": "Карасик",
       "status": "offline",
@@ -2662,8 +2662,8 @@
           "name": "ПИКМИ"
         },
         {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
+          "id": "1396607687365754883",
+          "name": "#!Apr๑ell꒱"
         }
       ]
     },
@@ -4133,7 +4133,7 @@
       "time": "22.03 20:00",
       "hour": 20,
       "date": "2026-03-22",
-      "messages": 12,
+      "messages": 15,
       "online": 18,
       "in_voice": 4
     }
@@ -4150,13 +4150,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2074,
+      "text": 2077,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 170,
       "files": 48,
-      "total": 2438
+      "total": 2441
     },
     {
       "id": "834060139006394368",
