@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:59:13",
+  "updated_at": "22.03.2026 22:00:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -567,7 +567,7 @@
     {
       "id": "1160178094494203934",
       "name": "РЫ7БА",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "Агностик",
@@ -2906,14 +2906,6 @@
   },
   "hourly_history": [
     {
-      "time": "15.03 21:00",
-      "hour": 21,
-      "date": "2026-03-15",
-      "messages": 0,
-      "online": 0,
-      "in_voice": 0
-    },
-    {
       "time": "15.03 22:00",
       "hour": 22,
       "date": "2026-03-15",
@@ -4256,6 +4248,14 @@
       "messages": 42,
       "online": 14,
       "in_voice": 3
+    },
+    {
+      "time": "22.03 22:00",
+      "hour": 22,
+      "date": "2026-03-22",
+      "messages": 0,
+      "online": 15,
+      "in_voice": 0
     }
   ],
   "recent_join_leave": [
