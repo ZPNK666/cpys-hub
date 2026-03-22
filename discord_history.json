@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:10:14",
+  "updated_at": "22.03.2026 21:11:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -259,7 +259,7 @@
     "2026-03-22 17": 2,
     "2026-03-22 18": 2,
     "2026-03-22 20": 29,
-    "2026-03-22 21": 9
+    "2026-03-22 21": 12
   },
   "user_messages": {
     "1354100925043703870": [
@@ -343,39 +343,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477988477172842546",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:18",
-        "content": "ага",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477988525189369938",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:18",
-        "content": "мне бы еще создать аккаунт",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477988566796730498",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:18",
-        "content": "че",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477988591899508817",
         "channel": "💬-общий-чат",
@@ -6030,6 +5997,39 @@
         "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485339952622600364",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:10",
+        "content": "дай впнннннн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340029730427013",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:10",
+        "content": "впнннннн",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485340073728938146",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 21:11",
+        "content": "дай мне впн",
+        "type": "text",
+        "preview_url": "",
         "attachments": [],
         "stickers": []
       }
