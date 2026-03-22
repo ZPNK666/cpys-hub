@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:38:13",
+  "updated_at": "22.03.2026 20:39:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 11,
     "offline_count": 23,
     "in_voice_count": 4,
-    "messages_today": 25,
+    "messages_today": 28,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 22,
+    "text": 25,
     "images": 1,
     "gifs": 2,
     "stickers": 0,
@@ -217,24 +217,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 16,
+        "text": 19,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 2,
         "files": 0,
-        "total": 18
+        "total": 21
       },
       "stats_all": {
-        "text": 2078,
+        "text": 2081,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 170,
         "files": 48,
-        "total": 2442
+        "total": 2445
       },
-      "total_messages": 2078,
+      "total_messages": 2081,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -242,6 +242,33 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 20:38",
+          "channel": "💬-общий-чат",
+          "content": "без денеег без денеееег",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 20:38",
+          "channel": "💬-общий-чат",
+          "content": "хахахахха нашел утешение",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 20:38",
+          "channel": "💬-общий-чат",
+          "content": "ты просто без денег",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 20:37",
           "channel": "💬-общий-чат",
@@ -255,33 +282,6 @@
           "time": "22.03.2026 20:36",
           "channel": "💬-общий-чат",
           "content": "тогда ты и апрель",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:35",
-          "channel": "💬-общий-чат",
-          "content": "бля",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:35",
-          "channel": "💬-общий-чат",
-          "content": "как вообще можно пить чай с сахаром",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 20:34",
-          "channel": "💬-общий-чат",
-          "content": "фуууу бляяяя нахуя ты столько сыпешь",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4133,7 +4133,7 @@
       "time": "22.03 20:00",
       "hour": 20,
       "date": "2026-03-22",
-      "messages": 16,
+      "messages": 19,
       "online": 18,
       "in_voice": 4
     }
@@ -4150,13 +4150,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2078,
+      "text": 2081,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 170,
       "files": 48,
-      "total": 2442
+      "total": 2445
     },
     {
       "id": "834060139006394368",
