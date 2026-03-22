@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:23:13",
+  "updated_at": "22.03.2026 20:24:13",
   "users": {
     "1354100925043703870": [
       {
@@ -82,35 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477979342213484586",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 13:42",
-        "content": "хахаха",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477979419598651464",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 13:42",
-        "content": "",
-        "type": "files",
-        "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477979419330089090/v1c044g50000d5k9j0nog65nvb3rc8og.mov?ex=69bbd319&is=69ba8199&hm=ec4a7c8a5c70fd1e5b9a135a895a932bd9093b738b871013d49ef3b201de3fce&",
-        "attachments": [
-          {
-            "type": "files",
-            "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477979419330089090/v1c044g50000d5k9j0nog65nvb3rc8og.mov?ex=69bbd319&is=69ba8199&hm=ec4a7c8a5c70fd1e5b9a135a895a932bd9093b738b871013d49ef3b201de3fce&",
-            "filename": "v1c044g50000d5k9j0nog65nvb3rc8og.mov",
-            "size": 1456427
-          }
-        ],
-        "stickers": []
-      },
       {
         "id": "1477979525995298867",
         "channel": "💬-общий-чат",
@@ -5779,6 +5750,28 @@
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 18:53",
         "content": "уже не хочется",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485328043810623650",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:23",
+        "content": "это будет очень странго кирпиц",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485328223817699460",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:24",
+        "content": "айфон 7 никого не щадит",
         "type": "text",
         "preview_url": "",
         "attachments": [],
