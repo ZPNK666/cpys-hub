@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 00:44:13",
+  "updated_at": "23.03.2026 00:45:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 8,
-    "offline_count": 28,
+    "online_count": 7,
+    "offline_count": 29,
     "in_voice_count": 2,
     "messages_today": 4,
     "text_channels_count": 10
@@ -125,91 +125,6 @@
           "time": "22.03.2026 21:21",
           "channel": "💬-общий-чат",
           "content": "окей",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2121,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 173,
-        "files": 48,
-        "total": 2488
-      },
-      "total_messages": 2121,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "22.03.2026 22:27",
-          "channel": "💬-общий-чат",
-          "content": "понятно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 22:27",
-          "channel": "💬-общий-чат",
-          "content": "я не могу в тг зайти на телефоне",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 22:27",
-          "channel": "💬-общий-чат",
-          "content": "дай мне впн тогда на секунду на теелфон",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 22:26",
-          "channel": "💬-общий-чат",
-          "content": "ага",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 22:26",
-          "channel": "💬-общий-чат",
-          "content": "а на ноут дал",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -820,6 +735,91 @@
           "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2121,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 173,
+        "files": 48,
+        "total": 2488
+      },
+      "total_messages": 2121,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "22.03.2026 22:27",
+          "channel": "💬-общий-чат",
+          "content": "понятно",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 22:27",
+          "channel": "💬-общий-чат",
+          "content": "я не могу в тг зайти на телефоне",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 22:27",
+          "channel": "💬-общий-чат",
+          "content": "дай мне впн тогда на секунду на теелфон",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 22:26",
+          "channel": "💬-общий-чат",
+          "content": "ага",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 22:26",
+          "channel": "💬-общий-чат",
+          "content": "а на ноут дал",
           "type": "text",
           "preview_url": "",
           "attachments": [],
