@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:42:13",
+  "updated_at": "22.03.2026 20:43:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 40,
-    "online_count": 12,
-    "offline_count": 22,
+    "online_count": 11,
+    "offline_count": 23,
     "in_voice_count": 4,
-    "messages_today": 28,
+    "messages_today": 29,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 25,
+    "text": 26,
     "images": 1,
     "gifs": 2,
     "stickers": 0,
@@ -46,24 +46,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "stats_all": {
-        "text": 1143,
+        "text": 1144,
         "images": 125,
         "voice": 0,
         "stickers": 26,
         "gifs": 12,
         "files": 35,
-        "total": 1311
+        "total": 1312
       },
-      "total_messages": 1143,
+      "total_messages": 1144,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -71,6 +71,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 20:42",
+          "channel": "🔞хент-18",
+          "content": "https://yandex.ru/video/preview/11497972056017497998",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 17:58",
           "channel": "💬-общий-чат",
@@ -102,15 +111,6 @@
           "time": "20.03.2026 19:25",
           "channel": "⛳майнкрафт",
           "content": "я тебе дом вастанавлю",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 19:25",
-          "channel": "⛳майнкрафт",
-          "content": "так ты забыл что было паследний раз кагда мы играли",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -195,64 +195,6 @@
         },
         {
           "time": "28.02.2026 09:09",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 10:00",
           "channel": "💬-общий-чат",
           "content": "",
           "type": "text",
@@ -1053,6 +995,64 @@
           "time": "13.03.2026 17:04",
           "channel": "💬-общий-чат",
           "content": "Билли тебя слышно",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4133,7 +4133,7 @@
       "time": "22.03 20:00",
       "hour": 20,
       "date": "2026-03-22",
-      "messages": 19,
+      "messages": 20,
       "online": 18,
       "in_voice": 4
     }
@@ -4161,13 +4161,13 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "text": 1143,
+      "text": 1144,
       "images": 125,
       "voice": 0,
       "stickers": 26,
       "gifs": 12,
       "files": 35,
-      "total": 1311
+      "total": 1312
     },
     {
       "id": "1264609602540929140",
