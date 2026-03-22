@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:48:13",
+  "updated_at": "22.03.2026 21:49:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 42,
     "online_count": 12,
     "offline_count": 24,
-    "in_voice_count": 2,
+    "in_voice_count": 1,
     "messages_today": 80,
     "text_channels_count": 10
   },
@@ -796,7 +796,7 @@
     {
       "id": "1009475184090152961",
       "name": "майонез",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -2784,12 +2784,8 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 2,
+      "members_count": 1,
       "members": [
-        {
-          "id": "961276531387297862",
-          "name": "CykaHa"
-        },
         {
           "id": "1160178094494203934",
           "name": "РЫ7БА"
