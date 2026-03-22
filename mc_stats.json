@@ -1,8 +1,8 @@
 {
-  "updated_at": "22.03.2026 20:20:14",
+  "updated_at": "22.03.2026 20:21:14",
   "online_now": [],
   "online_count": 0,
-  "total_players": 5,
+  "total_players": 6,
   "players": {
     "t:1772794470:R": {
       "name": "t:1772794470:R",
@@ -58,6 +58,17 @@
       "last_quit": null,
       "joins": 0,
       "messages": 3
+    },
+    "qop0wwp": {
+      "name": "qop0wwp",
+      "kills": 0,
+      "deaths": 0,
+      "playtime_min": 0,
+      "first_join": null,
+      "last_join": null,
+      "last_quit": "22.03.2026 20:20:49",
+      "joins": 0,
+      "messages": 0
     }
   },
   "top_playtime": [
@@ -115,6 +126,17 @@
       "last_quit": null,
       "joins": 0,
       "messages": 3
+    },
+    {
+      "name": "qop0wwp",
+      "kills": 0,
+      "deaths": 0,
+      "playtime_min": 0,
+      "first_join": null,
+      "last_join": null,
+      "last_quit": "22.03.2026 20:20:49",
+      "joins": 0,
+      "messages": 0
     }
   ],
   "top_kills": [
@@ -172,6 +194,17 @@
       "last_quit": null,
       "joins": 0,
       "messages": 3
+    },
+    {
+      "name": "qop0wwp",
+      "kills": 0,
+      "deaths": 0,
+      "playtime_min": 0,
+      "first_join": null,
+      "last_join": null,
+      "last_quit": "22.03.2026 20:20:49",
+      "joins": 0,
+      "messages": 0
     }
   ],
   "top_messages": [
@@ -227,6 +260,17 @@
       "first_join": null,
       "last_join": null,
       "last_quit": null,
+      "joins": 0,
+      "messages": 0
+    },
+    {
+      "name": "qop0wwp",
+      "kills": 0,
+      "deaths": 0,
+      "playtime_min": 0,
+      "first_join": null,
+      "last_join": null,
+      "last_quit": "22.03.2026 20:20:49",
       "joins": 0,
       "messages": 0
     }
@@ -286,6 +330,17 @@
       "last_quit": null,
       "joins": 0,
       "messages": 3
+    },
+    {
+      "name": "qop0wwp",
+      "kills": 0,
+      "deaths": 0,
+      "playtime_min": 0,
+      "first_join": null,
+      "last_join": null,
+      "last_quit": "22.03.2026 20:20:49",
+      "joins": 0,
+      "messages": 0
     }
   ],
   "chat_log": [
@@ -483,6 +538,11 @@
       "player": "t:1774088611:R",
       "text": "<@834060139006394368>, the server hasn't ticked in 30 seconds :fire::bangbang:",
       "time": "21.03.2026 13:23:33"
+    },
+    {
+      "type": "quit",
+      "player": "qop0wwp",
+      "time": "22.03.2026 20:20:49"
     }
   ],
   "first_ever": null,
