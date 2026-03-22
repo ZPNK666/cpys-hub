@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:09:13",
+  "updated_at": "22.03.2026 21:10:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,14 +11,14 @@
     "total_members": 40,
     "online_count": 11,
     "offline_count": 23,
-    "in_voice_count": 3,
-    "messages_today": 45,
+    "in_voice_count": 4,
+    "messages_today": 47,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 42,
+    "text": 43,
     "images": 1,
-    "gifs": 2,
+    "gifs": 3,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -131,24 +131,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 35,
+        "text": 36,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 2,
+        "gifs": 3,
         "files": 0,
-        "total": 37
+        "total": 39
       },
       "stats_all": {
-        "text": 2097,
+        "text": 2098,
         "images": 92,
         "voice": 4,
         "stickers": 62,
-        "gifs": 170,
+        "gifs": 171,
         "files": 48,
-        "total": 2461
+        "total": 2463
       },
-      "total_messages": 2097,
+      "total_messages": 2098,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -156,6 +156,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 21:09",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 21:09",
+          "channel": "💬-общий-чат",
+          "content": "бляяяяя давай быстрее",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 21:08",
           "channel": "💬-общий-чат",
@@ -178,24 +196,6 @@
           "time": "22.03.2026 21:07",
           "channel": "💬-общий-чат",
           "content": "нет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:07",
-          "channel": "💬-общий-чат",
-          "content": "ты дал только на ноут",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:07",
-          "channel": "💬-общий-чат",
-          "content": "дай мне впн бля тела",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2647,7 +2647,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 4,
       "members": [
         {
           "id": "1292870612531937358",
@@ -2660,6 +2660,10 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
+        },
+        {
+          "id": "1160178094494203934",
+          "name": "РЫ7БА"
         }
       ]
     },
@@ -4129,7 +4133,7 @@
       "time": "22.03 21:00",
       "hour": 21,
       "date": "2026-03-22",
-      "messages": 7,
+      "messages": 9,
       "online": 14,
       "in_voice": 3
     }
@@ -4146,13 +4150,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2097,
+      "text": 2098,
       "images": 92,
       "voice": 4,
       "stickers": 62,
-      "gifs": 170,
+      "gifs": 171,
       "files": 48,
-      "total": 2461
+      "total": 2463
     },
     {
       "id": "834060139006394368",
