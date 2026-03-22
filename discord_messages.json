@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 20:38:13",
+  "updated_at": "22.03.2026 20:39:13",
   "users": {
     "1354100925043703870": [
       {
@@ -82,39 +82,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1477983674573263061",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 13:59",
-        "content": "https://tenor.com/view/image-gif-13604322547252697388",
-        "type": "gifs",
-        "preview_url": "https://tenor.com/view/image-gif-13604322547252697388",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477983706835582977",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 13:59",
-        "content": "ярик в реальности",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1477984549362470934",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "02.03.2026 14:02",
-        "content": "все я в эту парашу играть не буду",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1477984674147078248",
         "channel": "💬-общий-чат",
@@ -5767,6 +5734,39 @@
         "channel_id": "1450428861836951674",
         "time": "22.03.2026 20:37",
         "content": "что",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485331841367015476",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:38",
+        "content": "ты просто без денег",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485331903094718515",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:38",
+        "content": "хахахахха нашел утешение",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485331942332301444",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "22.03.2026 20:38",
+        "content": "без денеег без денеееег",
         "type": "text",
         "preview_url": "",
         "attachments": [],
