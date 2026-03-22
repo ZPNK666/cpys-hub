@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 22:25:13",
+  "updated_at": "22.03.2026 22:26:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 8,
-    "offline_count": 28,
+    "online_count": 9,
+    "offline_count": 27,
     "in_voice_count": 3,
-    "messages_today": 80,
+    "messages_today": 84,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 67,
+    "text": 71,
     "images": 3,
     "gifs": 5,
     "stickers": 5,
@@ -210,6 +210,64 @@
       ]
     },
     {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
       "status": "online",
@@ -222,24 +280,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 49,
+        "text": 53,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 5,
         "files": 0,
-        "total": 54
+        "total": 58
       },
       "stats_all": {
-        "text": 2111,
+        "text": 2115,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 173,
         "files": 48,
-        "total": 2478
+        "total": 2482
       },
-      "total_messages": 2111,
+      "total_messages": 2115,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -248,25 +306,25 @@
       },
       "recent_messages": [
         {
-          "time": "22.03.2026 21:17",
+          "time": "22.03.2026 22:25",
           "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:17",
-          "channel": "💬-общий-чат",
-          "content": "дай мне впн",
+          "content": "шо",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "22.03.2026 21:14",
+          "time": "22.03.2026 22:25",
+          "channel": "💬-общий-чат",
+          "content": "пж",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 22:25",
           "channel": "💬-общий-чат",
           "content": "дай впн",
           "type": "text",
@@ -275,20 +333,20 @@
           "stickers": []
         },
         {
-          "time": "22.03.2026 21:14",
+          "time": "22.03.2026 22:25",
           "channel": "💬-общий-чат",
-          "content": "впн мне дай",
+          "content": "ярик",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "22.03.2026 21:13",
+          "time": "22.03.2026 21:17",
           "channel": "💬-общий-чат",
-          "content": "дай мне впн и я пойду",
-          "type": "text",
-          "preview_url": "",
+          "content": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/black-man-crying-cry-crying-crying-emoji-crying-meme-gif-3223392509479903783",
           "attachments": [],
           "stickers": []
         }
@@ -779,64 +837,6 @@
           "time": "13.03.2026 19:23",
           "channel": "💬-общий-чат",
           "content": "Ща буду говорить",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/9a72e62c64fda7b75ff7cdbebf834812.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4266,7 +4266,7 @@
       "time": "22.03 22:00",
       "hour": 22,
       "date": "2026-03-22",
-      "messages": 0,
+      "messages": 4,
       "online": 15,
       "in_voice": 0
     }
@@ -4295,13 +4295,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2111,
+      "text": 2115,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 173,
       "files": 48,
-      "total": 2478
+      "total": 2482
     },
     {
       "id": "834060139006394368",
