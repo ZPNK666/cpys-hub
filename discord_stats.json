@@ -1,5 +1,5 @@
 {
-  "updated_at": "22.03.2026 21:10:13",
+  "updated_at": "22.03.2026 21:11:08",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -8,15 +8,15 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 40,
-    "online_count": 11,
+    "total_members": 41,
+    "online_count": 12,
     "offline_count": 23,
     "in_voice_count": 4,
-    "messages_today": 47,
+    "messages_today": 49,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 43,
+    "text": 45,
     "images": 1,
     "gifs": 3,
     "stickers": 0,
@@ -131,24 +131,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 36,
+        "text": 38,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 3,
         "files": 0,
-        "total": 39
+        "total": 41
       },
       "stats_all": {
-        "text": 2098,
+        "text": 2100,
         "images": 92,
         "voice": 4,
         "stickers": 62,
         "gifs": 171,
         "files": 48,
-        "total": 2463
+        "total": 2465
       },
-      "total_messages": 2098,
+      "total_messages": 2100,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -156,6 +156,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "22.03.2026 21:10",
+          "channel": "💬-общий-чат",
+          "content": "впнннннн",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 21:10",
+          "channel": "💬-общий-чат",
+          "content": "дай впнннннн",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "22.03.2026 21:09",
           "channel": "💬-общий-чат",
@@ -178,24 +196,6 @@
           "time": "22.03.2026 21:08",
           "channel": "💬-общий-чат",
           "content": "бля так ты мне дашь впн",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:07",
-          "channel": "💬-общий-чат",
-          "content": "знаем знаем",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:07",
-          "channel": "💬-общий-чат",
-          "content": "нет",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -897,6 +897,92 @@
           "time": "05.03.2026 23:37",
           "channel": "📜-правила-и-анонсы",
           "content": "Глава 3.\nВзаимодействие с Сервером.\n1. Запрещается использование дюпов. (Наказание - перманентный ба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "ОФИЧЕР СС",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 282,
+        "images": 2,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 284
+      },
+      "total_messages": 282,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "15.03.2026 09:58",
+          "channel": "⛳майнкрафт",
+          "content": "Интересно",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "15.03.2026 01:02",
+          "channel": "⛳майнкрафт",
+          "content": "Все бай",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:55",
+          "channel": "⛳майнкрафт",
+          "content": "Соус личку чекни",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:42",
+          "channel": "⛳майнкрафт",
+          "content": "Да подожди мне надо с шейдерами решиться",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "14.03.2026 19:38",
+          "channel": "⛳майнкрафт",
+          "content": "Ща я хочу включить шейдеры и красиво сфоткаться",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2075,92 +2161,6 @@
       "recent_messages": []
     },
     {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "ОФИЧЕР СС",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 282,
-        "images": 2,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 284
-      },
-      "total_messages": 282,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "15.03.2026 09:58",
-          "channel": "⛳майнкрафт",
-          "content": "Интересно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "15.03.2026 01:02",
-          "channel": "⛳майнкрафт",
-          "content": "Все бай",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:55",
-          "channel": "⛳майнкрафт",
-          "content": "Соус личку чекни",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:42",
-          "channel": "⛳майнкрафт",
-          "content": "Да подожди мне надо с шейдерами решиться",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "14.03.2026 19:38",
-          "channel": "⛳майнкрафт",
-          "content": "Ща я хочу включить шейдеры и красиво сфоткаться",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "offline",
@@ -2641,6 +2641,41 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "1089616774665867284",
+      "name": "Лелеле",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1089616774665867284/62b205f39cbec85cfea68500dd7f188a.png?size=1024",
+      "joined_at": "2026-03-22T18:11:08.122010+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "22.03.2026 21:11:08",
+        "last_seen": "22.03.2026 21:11:08"
+      },
+      "recent_messages": []
     }
   ],
   "voice_channels": [
@@ -4133,7 +4168,7 @@
       "time": "22.03 21:00",
       "hour": 21,
       "date": "2026-03-22",
-      "messages": 9,
+      "messages": 11,
       "online": 14,
       "in_voice": 3
     }
@@ -4144,19 +4179,25 @@
       "user_id": "1296770485421342731",
       "name": "никто",
       "time": "22.03.2026 16:52:32"
+    },
+    {
+      "event": "join",
+      "user_id": "1089616774665867284",
+      "name": "Лелеле",
+      "time": "22.03.2026 21:11:08"
     }
   ],
   "top_chatters": [
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2098,
+      "text": 2100,
       "images": 92,
       "voice": 4,
       "stickers": 62,
       "gifs": 171,
       "files": 48,
-      "total": 2463
+      "total": 2465
     },
     {
       "id": "834060139006394368",
