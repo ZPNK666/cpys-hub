@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:24:13",
+  "updated_at": "23.03.2026 17:25:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,14 +11,14 @@
     "total_members": 45,
     "online_count": 13,
     "offline_count": 26,
-    "in_voice_count": 6,
-    "messages_today": 132,
+    "in_voice_count": 5,
+    "messages_today": 133,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 74,
     "images": 65,
-    "gifs": 14,
+    "gifs": 15,
     "stickers": 3,
     "voice": 0,
     "files": 0
@@ -792,18 +792,18 @@
         "images": 62,
         "voice": 0,
         "stickers": 0,
-        "gifs": 8,
+        "gifs": 9,
         "files": 0,
-        "total": 75
+        "total": 76
       },
       "stats_all": {
         "text": 91,
         "images": 172,
         "voice": 0,
         "stickers": 0,
-        "gifs": 97,
+        "gifs": 98,
         "files": 0,
-        "total": 360
+        "total": 361
       },
       "total_messages": 91,
       "join_leave": {
@@ -813,6 +813,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 17:24",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:23",
           "channel": "💬-общий-чат",
@@ -837,15 +846,6 @@
           "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "type": "gifs",
           "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:15",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
           "attachments": [],
           "stickers": []
         },
@@ -3028,12 +3028,12 @@
           "name": "zelebobik"
         },
         {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
-        },
-        {
           "id": "1436969435104677948",
           "name": "RCY | zebra22867"
+        },
+        {
+          "id": "1264609602540929140",
+          "name": "dark_soul"
         }
       ]
     },
@@ -3064,7 +3064,7 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         {
           "id": "834060139006394368",
@@ -3073,10 +3073,6 @@
         {
           "id": "961276531387297862",
           "name": "ЛОЛИ"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "#!Apr๑ell꒱"
         }
       ]
     },
@@ -4516,7 +4512,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 109,
+      "messages": 110,
       "online": 18,
       "in_voice": 4
     }
@@ -4600,9 +4596,9 @@
       "images": 172,
       "voice": 0,
       "stickers": 0,
-      "gifs": 97,
+      "gifs": 98,
       "files": 0,
-      "total": 360
+      "total": 361
     },
     {
       "id": "1440792780233244835",
