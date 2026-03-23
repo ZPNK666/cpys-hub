@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:07:17",
+  "updated_at": "23.03.2026 17:08:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -259,7 +259,7 @@
     "2026-03-23 11": 10,
     "2026-03-23 15": 5,
     "2026-03-23 16": 4,
-    "2026-03-23 17": 18
+    "2026-03-23 17": 19
   },
   "user_messages": {
     "1354100925043703870": [
@@ -25076,6 +25076,17 @@
         "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485641253172285543",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:07",
+        "content": "https://tenor.com/view/spamton-deltarune-spamton-laugh-laugh-gif-26867950",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/spamton-deltarune-spamton-laugh-laugh-gif-26867950",
         "attachments": [],
         "stickers": []
       }
