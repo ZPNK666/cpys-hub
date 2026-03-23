@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:05:14",
+  "updated_at": "23.03.2026 17:06:13",
   "users": {
     "1354100925043703870": [
       {
@@ -36868,28 +36868,6 @@
     ],
     "834060139006394368": [
       {
-        "id": "1476840159285608512",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "27.02.2026 10:15",
-        "content": "https://gn-math.dev/?id=591",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1476857057582907442",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "27.02.2026 11:22",
-        "content": "удачи",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
         "id": "1476884894364860538",
         "channel": "💬-общий-чат",
         "channel_id": "1450428861836951674",
@@ -42723,6 +42701,28 @@
         "preview_url": "",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1485640657539170376",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:05",
+        "content": "удачки вам",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640679999668346",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:05",
+        "content": "сладки хснов",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
       }
     ],
     "1390304716570755096": [
@@ -43757,6 +43757,39 @@
         "channel_id": "1450428861836951674",
         "time": "23.03.2026 17:05",
         "content": "не завтра я спать",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640623661777008",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:05",
+        "content": "всё бб",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640687188840619",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:05",
+        "content": "спс",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640717333172335",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:05",
+        "content": "и тебе заранее",
         "type": "text",
         "preview_url": "",
         "attachments": [],
