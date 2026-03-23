@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 14:33:13",
+  "updated_at": "23.03.2026 14:34:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 42,
     "online_count": 8,
     "offline_count": 28,
-    "in_voice_count": 0,
+    "in_voice_count": 1,
     "messages_today": 14,
     "text_channels_count": 10
   },
@@ -2865,8 +2865,13 @@
     {
       "id": "1479219852190158858",
       "name": "💤AFK",
-      "members_count": 0,
-      "members": []
+      "members_count": 1,
+      "members": [
+        {
+          "id": "1425903022629847200",
+          "name": "аничка"
+        }
+      ]
     },
     {
       "id": "1479220379850641408",
