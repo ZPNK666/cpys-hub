@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:54:13",
+  "updated_at": "23.03.2026 17:55:14",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 45,
     "online_count": 10,
     "offline_count": 29,
-    "in_voice_count": 6,
+    "in_voice_count": 5,
     "messages_today": 138,
     "text_channels_count": 10
   },
@@ -3030,7 +3030,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         {
           "id": "1433504994824425640",
@@ -3039,10 +3039,6 @@
         {
           "id": "1436969435104677948",
           "name": "RCY | zebra22867"
-        },
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
         }
       ]
     },
