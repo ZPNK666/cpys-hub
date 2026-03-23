@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 11:03:13",
+  "updated_at": "23.03.2026 11:04:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 42,
     "online_count": 8,
     "offline_count": 28,
-    "in_voice_count": 5,
+    "in_voice_count": 4,
     "messages_today": 4,
     "text_channels_count": 10
   },
@@ -475,6 +475,92 @@
       ]
     },
     {
+      "id": "1354100925043703870",
+      "name": "bsods10",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1354100925043703870/ad551c04a38b7191e060d5eba724ee03.png?size=1024",
+      "joined_at": "2026-02-25T09:16:52.122000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 2,
+        "gifs": 0,
+        "files": 0,
+        "total": 4
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "28.02.2026 09:13",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
+            }
+          ]
+        },
+        {
+          "time": "28.02.2026 09:09",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "28.02.2026 09:13",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
+            }
+          ]
+        },
+        {
+          "time": "28.02.2026 09:09",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1418873225596895284",
       "name": "Rudy",
       "status": "online",
@@ -560,62 +646,6 @@
       ]
     },
     {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
-      "status": "online",
-      "roles": [
-        "ОФИЧЕР СС"
-      ],
-      "top_role": "ОФИЧЕР СС",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-01-22T18:23:10.803000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "08.03.2026 21:04",
-          "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 21:04",
-          "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "dnd",
@@ -675,92 +705,6 @@
     }
   ],
   "offline_members": [
-    {
-      "id": "1354100925043703870",
-      "name": "bsods10",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1354100925043703870/ad551c04a38b7191e060d5eba724ee03.png?size=1024",
-      "joined_at": "2026-02-25T09:16:52.122000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 2,
-        "gifs": 0,
-        "files": 0,
-        "total": 4
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "28.02.2026 09:13",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
-            }
-          ]
-        },
-        {
-          "time": "28.02.2026 09:09",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "28.02.2026 09:13",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/749054660769218631.json",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/749054660769218631.json"
-            }
-          ]
-        },
-        {
-          "time": "28.02.2026 09:09",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
@@ -991,6 +935,62 @@
           "time": "14.03.2026 22:32",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "offline",
+      "roles": [
+        "ОФИЧЕР СС"
+      ],
+      "top_role": "ОФИЧЕР СС",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2822,7 +2822,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         {
           "id": "834060139006394368",
@@ -2839,10 +2839,6 @@
         {
           "id": "1396607687365754883",
           "name": "#!Apr๑ell꒱"
-        },
-        {
-          "id": "1211055468362072164",
-          "name": "2 КВИТЕНЬ"
         }
       ]
     },
