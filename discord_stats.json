@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 11:23:13",
+  "updated_at": "23.03.2026 11:24:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 11,
-    "offline_count": 25,
+    "online_count": 10,
+    "offline_count": 26,
     "in_voice_count": 2,
-    "messages_today": 7,
+    "messages_today": 8,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 23,
+    "text": 24,
     "images": 2,
     "gifs": 6,
     "stickers": 0,
@@ -462,91 +462,6 @@
       ]
     },
     {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 13,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 3,
-        "files": 0,
-        "total": 16
-      },
-      "stats_all": {
-        "text": 2134,
-        "images": 92,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 176,
-        "files": 48,
-        "total": 2504
-      },
-      "total_messages": 2134,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 09:52",
-          "channel": "💬-общий-чат",
-          "content": "круто как по мне",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 09:51",
-          "channel": "💬-общий-чат",
-          "content": "вот это сделай",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 09:51",
-          "channel": "💬-общий-чат",
-          "content": "Mizuno Eating Animation [1.21.11]",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 09:51",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 09:50",
-          "channel": "💬-общий-чат",
-          "content": "пиздец",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1418873225596895284",
       "name": "Rudy",
       "status": "online",
@@ -833,24 +748,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
       "joined_at": "2026-03-08T20:22:22.892000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 3,
         "files": 0,
-        "total": 3
+        "total": 4
       },
       "stats_all": {
-        "text": 86,
+        "text": 87,
         "images": 110,
         "voice": 0,
         "stickers": 0,
         "gifs": 92,
         "files": 0,
-        "total": 288
+        "total": 289
       },
-      "total_messages": 86,
+      "total_messages": 87,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -858,6 +773,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 11:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 11:22",
           "channel": "💬-общий-чат",
@@ -882,15 +806,6 @@
           "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
           "type": "gifs",
           "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:21",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
           "attachments": [],
           "stickers": []
         },
@@ -1057,6 +972,91 @@
           "time": "23.03.2026 09:00",
           "channel": "💬-общий-чат",
           "content": "вопрос я уснул в 5 утра и проснулся в 8-9 утра",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 13,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 3,
+        "files": 0,
+        "total": 16
+      },
+      "stats_all": {
+        "text": 2134,
+        "images": 92,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 176,
+        "files": 48,
+        "total": 2504
+      },
+      "total_messages": 2134,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 09:52",
+          "channel": "💬-общий-чат",
+          "content": "круто как по мне",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 09:51",
+          "channel": "💬-общий-чат",
+          "content": "вот это сделай",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 09:51",
+          "channel": "💬-общий-чат",
+          "content": "Mizuno Eating Animation [1.21.11]",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 09:51",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 09:50",
+          "channel": "💬-общий-чат",
+          "content": "пиздец",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4300,7 +4300,7 @@
       "time": "23.03 11:00",
       "hour": 11,
       "date": "2026-03-23",
-      "messages": 3,
+      "messages": 4,
       "online": 14,
       "in_voice": 5
     }
@@ -4384,13 +4384,13 @@
     {
       "id": "1286072101635100733",
       "name": "били б билисимо",
-      "text": 86,
+      "text": 87,
       "images": 110,
       "voice": 0,
       "stickers": 0,
       "gifs": 92,
       "files": 0,
-      "total": 288
+      "total": 289
     },
     {
       "id": "1407789136965931088",
