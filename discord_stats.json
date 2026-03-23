@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:00:13",
+  "updated_at": "23.03.2026 17:01:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 43,
-    "online_count": 12,
-    "offline_count": 25,
-    "in_voice_count": 4,
-    "messages_today": 23,
+    "online_count": 13,
+    "offline_count": 24,
+    "in_voice_count": 7,
+    "messages_today": 24,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 37,
+    "text": 38,
     "images": 3,
     "gifs": 7,
     "stickers": 0,
@@ -561,6 +561,91 @@
       ]
     },
     {
+      "id": "961276531387297862",
+      "name": "ЛОЛИ",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
+      "joined_at": "2026-03-22T18:22:03.656000+00:00",
+      "stats_today": {
+        "text": 8,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 8
+      },
+      "stats_all": {
+        "text": 10,
+        "images": 0,
+        "voice": 0,
+        "stickers": 1,
+        "gifs": 0,
+        "files": 0,
+        "total": 11
+      },
+      "total_messages": 10,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "22.03.2026 21:22:04",
+        "last_seen": "22.03.2026 21:22:04"
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 16:02",
+          "channel": "2026(эта имба полная)",
+          "content": "Пиздаболю,зашла",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 16:01",
+          "channel": "2026(эта имба полная)",
+          "content": "Крч лол места нетк",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 15:59",
+          "channel": "2026(эта имба полная)",
+          "content": "Ну в принципе можно",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 15:56",
+          "channel": "2026(эта имба полная)",
+          "content": "Я нихуя не слышу  о чем речь",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 00:28",
+          "channel": "2026(эта имба полная)",
+          "content": "Буль буль",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1264609602540929140",
       "name": "dark_soul",
       "status": "online",
@@ -971,36 +1056,50 @@
       "id": "1436969435104677948",
       "name": "RCY | zebra22867",
       "status": "online",
-      "roles": [],
-      "top_role": "member",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
-      "joined_at": "2026-03-23T13:59:22.448001+00:00",
+      "joined_at": "2026-03-23T13:59:22.448000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "stats_all": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
-      "total_messages": 0,
+      "total_messages": 1,
       "join_leave": {
         "joins": 1,
         "leaves": 0,
         "first_join": "23.03.2026 16:59:20",
         "last_seen": "23.03.2026 16:59:20"
       },
-      "recent_messages": []
+      "recent_messages": [
+        {
+          "time": "23.03.2026 17:00",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     }
   ],
   "offline_members": [
@@ -1565,91 +1664,6 @@
           "time": "25.02.2026 11:20",
           "channel": "💬-общий-чат",
           "content": "Привет",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "961276531387297862",
-      "name": "ЛОЛИ",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
-      "joined_at": "2026-03-22T18:22:03.656000+00:00",
-      "stats_today": {
-        "text": 8,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 8
-      },
-      "stats_all": {
-        "text": 10,
-        "images": 0,
-        "voice": 0,
-        "stickers": 1,
-        "gifs": 0,
-        "files": 0,
-        "total": 11
-      },
-      "total_messages": 10,
-      "join_leave": {
-        "joins": 1,
-        "leaves": 0,
-        "first_join": "22.03.2026 21:22:04",
-        "last_seen": "22.03.2026 21:22:04"
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 16:02",
-          "channel": "2026(эта имба полная)",
-          "content": "Пиздаболю,зашла",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 16:01",
-          "channel": "2026(эта имба полная)",
-          "content": "Крч лол места нетк",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 15:59",
-          "channel": "2026(эта имба полная)",
-          "content": "Ну в принципе можно",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 15:56",
-          "channel": "2026(эта имба полная)",
-          "content": "Я нихуя не слышу  о чем речь",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 00:28",
-          "channel": "2026(эта имба полная)",
-          "content": "Буль буль",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2857,7 +2871,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 4,
+      "members_count": 7,
       "members": [
         {
           "id": "834060139006394368",
@@ -2874,6 +2888,18 @@
         {
           "id": "1264609602540929140",
           "name": "dark_soul"
+        },
+        {
+          "id": "1436969435104677948",
+          "name": "RCY | zebra22867"
+        },
+        {
+          "id": "961276531387297862",
+          "name": "ЛОЛИ"
+        },
+        {
+          "id": "1286072101635100733",
+          "name": "били б билисимо"
         }
       ]
     },
@@ -2981,16 +3007,16 @@
     }
   ],
   "role_distribution": {
-    "нету хента": 15,
+    "нету хента": 16,
     "атеист": 9,
     "ОФИЧЕР СС": 7,
     "женщины": 15,
     "у меня есть хент": 15,
-    "мужчины": 15,
+    "мужчины": 16,
     "ислам": 5,
     "католик": 3,
     "Агностик": 6,
-    "провославный": 7,
+    "провославный": 8,
     "Сциентизм": 5,
     "iPhone": 2
   },
@@ -4343,7 +4369,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 0,
+      "messages": 1,
       "online": 18,
       "in_voice": 4
     }
