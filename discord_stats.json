@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 11:49:13",
+  "updated_at": "23.03.2026 11:50:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,16 +9,16 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 11,
-    "offline_count": 25,
+    "online_count": 10,
+    "offline_count": 26,
     "in_voice_count": 3,
-    "messages_today": 8,
+    "messages_today": 11,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 24,
+    "text": 26,
     "images": 2,
-    "gifs": 6,
+    "gifs": 7,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -474,24 +474,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 13,
+        "text": 15,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 3,
+        "gifs": 4,
         "files": 0,
-        "total": 16
+        "total": 19
       },
       "stats_all": {
-        "text": 2134,
+        "text": 2136,
         "images": 92,
         "voice": 4,
         "stickers": 62,
-        "gifs": 176,
+        "gifs": 177,
         "files": 48,
-        "total": 2504
+        "total": 2507
       },
-      "total_messages": 2134,
+      "total_messages": 2136,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -499,6 +499,33 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 11:49",
+          "channel": "💬-общий-чат",
+          "content": "я выиграла друзья",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:49",
+          "channel": "💬-общий-чат",
+          "content": "вы соревнуетесь кто меньше всего спал",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:49",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/%D0%B9%D0%B2%D0%B9%D0%B2-gif-17410664305885425651",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 09:52",
           "channel": "💬-общий-чат",
@@ -512,33 +539,6 @@
           "time": "23.03.2026 09:51",
           "channel": "💬-общий-чат",
           "content": "вот это сделай",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 09:51",
-          "channel": "💬-общий-чат",
-          "content": "Mizuno Eating Animation [1.21.11]",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 09:51",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 09:50",
-          "channel": "💬-общий-чат",
-          "content": "пиздец",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -710,7 +710,7 @@
     {
       "id": "993900146930753606",
       "name": "АУДИТОР",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "ОФИЧЕР СС"
       ],
@@ -844,64 +844,6 @@
           "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
           "type": "images",
           "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1311555070160277525",
-      "name": "TAMERLAN 12K (а чо? а хз)",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
-      "joined_at": "2026-02-26T17:27:51.190000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "26.02.2026 20:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "26.02.2026 20:28",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -2478,6 +2420,64 @@
           "time": "14.03.2026 19:38",
           "channel": "⛳майнкрафт",
           "content": "Ща я хочу включить шейдеры и красиво сфоткаться",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1311555070160277525",
+      "name": "TAMERLAN 12K (а чо? а хз)",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1311555070160277525/257f5569229a5145c6a4a55a744f51d3.png?size=1024",
+      "joined_at": "2026-02-26T17:27:51.190000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "26.02.2026 20:28",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "26.02.2026 20:28",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4304,7 +4304,7 @@
       "time": "23.03 11:00",
       "hour": 11,
       "date": "2026-03-23",
-      "messages": 4,
+      "messages": 7,
       "online": 14,
       "in_voice": 5
     }
@@ -4333,13 +4333,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2134,
+      "text": 2136,
       "images": 92,
       "voice": 4,
       "stickers": 62,
-      "gifs": 176,
+      "gifs": 177,
       "files": 48,
-      "total": 2504
+      "total": 2507
     },
     {
       "id": "834060139006394368",
