@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 16:59:14",
+  "updated_at": "23.03.2026 16:59:20",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -8,9 +8,9 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 42,
+    "total_members": 43,
     "online_count": 10,
-    "offline_count": 26,
+    "offline_count": 27,
     "in_voice_count": 4,
     "messages_today": 23,
     "text_channels_count": 10
@@ -2816,6 +2816,41 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "1436969435104677948",
+      "name": "RCY | zebra22867",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
+      "joined_at": "2026-03-23T13:59:22.448001+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "23.03.2026 16:59:20",
+        "last_seen": "23.03.2026 16:59:20"
+      },
+      "recent_messages": []
     }
   ],
   "voice_channels": [
@@ -4331,6 +4366,12 @@
       "user_id": "961276531387297862",
       "name": "CykaHa",
       "time": "22.03.2026 21:22:04"
+    },
+    {
+      "event": "join",
+      "user_id": "1436969435104677948",
+      "name": "RCY | zebra22867",
+      "time": "23.03.2026 16:59:20"
     }
   ],
   "top_chatters": [
