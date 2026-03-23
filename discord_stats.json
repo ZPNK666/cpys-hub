@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 10:32:04",
+  "updated_at": "23.03.2026 10:32:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -16,9 +16,9 @@
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 4,
-    "images": 0,
-    "gifs": 0,
+    "text": 23,
+    "images": 2,
+    "gifs": 3,
     "stickers": 0,
     "voice": 0,
     "files": 0
@@ -123,24 +123,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
       "joined_at": "2026-03-22T13:52:32.310000+00:00",
       "stats_today": {
-        "text": 0,
-        "images": 0,
+        "text": 4,
+        "images": 2,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 6
       },
       "stats_all": {
-        "text": 226,
-        "images": 43,
+        "text": 230,
+        "images": 45,
         "voice": 20,
         "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 275
+        "total": 281
       },
-      "total_messages": 226,
+      "total_messages": 230,
       "join_leave": {
         "joins": 1,
         "leaves": 0,
@@ -149,52 +149,59 @@
       },
       "recent_messages": [
         {
-          "time": "22.03.2026 17:38",
+          "time": "23.03.2026 09:28",
           "channel": "💬-общий-чат",
-          "content": "",
+          "content": "это как так",
           "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485286617458540574/image.png?ex=69c15074&is=69bffef4&hm=fca47c51629c2305ee163e0e4cf55ba5388ac6ae2488cc696e5ad9f94b0ab9a8&",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485525608992870430/2026-03-23_09.26.34.png?ex=69c22f08&is=69c0dd88&hm=43408d4e5419c0e459891d4876b1584c8660db3a51468c97adce8812482a5ec1&",
           "attachments": [
             {
               "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485286617458540574/image.png?ex=69c15074&is=69bffef4&hm=fca47c51629c2305ee163e0e4cf55ba5388ac6ae2488cc696e5ad9f94b0ab9a8&",
-              "filename": "image.png",
-              "size": 108910
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485525608992870430/2026-03-23_09.26.34.png?ex=69c22f08&is=69c0dd88&hm=43408d4e5419c0e459891d4876b1584c8660db3a51468c97adce8812482a5ec1&",
+              "filename": "2026-03-23_09.26.34.png",
+              "size": 1272887
             }
           ],
           "stickers": []
         },
         {
-          "time": "22.03.2026 16:53",
-          "channel": "💬-общий-чат",
-          "content": "иди наху",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 16:53",
-          "channel": "💬-общий-чат",
-          "content": "почему я дикий",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 16:53",
-          "channel": "💬-общий-чат",
-          "content": "вопрос",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 16:52",
+          "time": "23.03.2026 09:24",
           "channel": "💬-общий-чат",
           "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485524500140261488/4a4bee04dcc3d71e.jpg?ex=69c22e00&is=69c0dc80&hm=5775a2b68b18626e079abe8951fbe09f5a8364f85a52a3e50c967db59f08a99e&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485524500140261488/4a4bee04dcc3d71e.jpg?ex=69c22e00&is=69c0dc80&hm=5775a2b68b18626e079abe8951fbe09f5a8364f85a52a3e50c967db59f08a99e&",
+              "filename": "4a4bee04dcc3d71e.jpg",
+              "size": 10193
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 09:22",
+          "channel": "💬-общий-чат",
+          "content": "ярик что за кал ты сделал на серваке",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 09:00",
+          "channel": "💬-общий-чат",
+          "content": "вопрос кто я",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 09:00",
+          "channel": "💬-общий-чат",
+          "content": "вопрос я уснул в 5 утра и проснулся в 8-9 утра",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -899,24 +906,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 13,
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 0,
+        "gifs": 3,
         "files": 0,
-        "total": 0
+        "total": 16
       },
       "stats_all": {
-        "text": 2121,
+        "text": 2134,
         "images": 92,
         "voice": 4,
         "stickers": 62,
-        "gifs": 173,
+        "gifs": 176,
         "files": 48,
-        "total": 2488
+        "total": 2504
       },
-      "total_messages": 2121,
+      "total_messages": 2134,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -925,45 +932,45 @@
       },
       "recent_messages": [
         {
-          "time": "22.03.2026 22:27",
+          "time": "23.03.2026 09:52",
           "channel": "💬-общий-чат",
-          "content": "понятно",
+          "content": "круто как по мне",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "22.03.2026 22:27",
+          "time": "23.03.2026 09:51",
           "channel": "💬-общий-чат",
-          "content": "я не могу в тг зайти на телефоне",
+          "content": "вот это сделай",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "22.03.2026 22:27",
+          "time": "23.03.2026 09:51",
           "channel": "💬-общий-чат",
-          "content": "дай мне впн тогда на секунду на теелфон",
+          "content": "Mizuno Eating Animation [1.21.11]",
           "type": "text",
           "preview_url": "",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "22.03.2026 22:26",
+          "time": "23.03.2026 09:51",
           "channel": "💬-общий-чат",
-          "content": "ага",
-          "type": "text",
-          "preview_url": "",
+          "content": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
           "attachments": [],
           "stickers": []
         },
         {
-          "time": "22.03.2026 22:26",
+          "time": "23.03.2026 09:50",
           "channel": "💬-общий-чат",
-          "content": "а на ноут дал",
+          "content": "пиздец",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2491,24 +2498,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
       "joined_at": "2026-02-25T16:13:26.997000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 2
       },
       "stats_all": {
-        "text": 340,
+        "text": 342,
         "images": 6,
         "voice": 8,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 354
+        "total": 356
       },
-      "total_messages": 340,
+      "total_messages": 342,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -2516,6 +2523,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 08:46",
+          "channel": "💬-общий-чат",
+          "content": "Как вы?",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 08:43",
+          "channel": "💬-общий-чат",
+          "content": "Всем привет",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "07.03.2026 10:19",
           "channel": "💬-общий-чат",
@@ -2538,24 +2563,6 @@
           "time": "07.03.2026 10:18",
           "channel": "💬-общий-чат",
           "content": "Потом как то",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 10:17",
-          "channel": "💬-общий-чат",
-          "content": "Нормально,а вы как?",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "07.03.2026 10:16",
-          "channel": "💬-общий-чат",
-          "content": "Доброе утро всем",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4289,7 +4296,7 @@
       "time": "23.03 08:00",
       "hour": 8,
       "date": "2026-03-23",
-      "messages": 0,
+      "messages": 3,
       "online": 8,
       "in_voice": 0
     },
@@ -4297,7 +4304,7 @@
       "time": "23.03 09:00",
       "hour": 9,
       "date": "2026-03-23",
-      "messages": 0,
+      "messages": 21,
       "online": 8,
       "in_voice": 0
     },
@@ -4334,13 +4341,13 @@
     {
       "id": "1292870612531937358",
       "name": "ПИКМИ",
-      "text": 2121,
+      "text": 2134,
       "images": 92,
       "voice": 4,
       "stickers": 62,
-      "gifs": 173,
+      "gifs": 176,
       "files": 48,
-      "total": 2488
+      "total": 2504
     },
     {
       "id": "834060139006394368",
@@ -4367,13 +4374,13 @@
     {
       "id": "1440792780233244835",
       "name": "Карасик",
-      "text": 340,
+      "text": 342,
       "images": 6,
       "voice": 8,
       "stickers": 0,
       "gifs": 0,
       "files": 0,
-      "total": 354
+      "total": 356
     },
     {
       "id": "1255232329362833409",
@@ -4411,13 +4418,13 @@
     {
       "id": "1296770485421342731",
       "name": "ABOBA",
-      "text": 226,
-      "images": 43,
+      "text": 230,
+      "images": 45,
       "voice": 20,
       "stickers": 2,
       "gifs": 0,
       "files": 0,
-      "total": 275
+      "total": 281
     },
     {
       "id": "1417825076685836361",
