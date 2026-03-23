@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:04:14",
+  "updated_at": "23.03.2026 17:05:14",
   "users": {
     "1354100925043703870": [
       {
@@ -24795,6 +24795,28 @@
         "preview_url": "",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1485640344682102874",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "https://tenor.com/view/deltarune-undertale-meme-spamton-spamton-critic-gif-23472878",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640497702764598",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/deltarune-undertale-kris-starwalker-original-starwalker-gif-9216329604758326753",
+        "attachments": [],
+        "stickers": []
       }
     ],
     "1009475184090152961": [
@@ -36846,17 +36868,6 @@
     ],
     "834060139006394368": [
       {
-        "id": "1476838534798114879",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "27.02.2026 10:09",
-        "content": "https://x.com/king_meg39046/status/2027018161078538608?s=20",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
         "id": "1476840159285608512",
         "channel": "💬-общий-чат",
         "channel_id": "1450428861836951674",
@@ -42701,6 +42712,17 @@
             "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
           }
         ]
+      },
+      {
+        "id": "1485640502131953875",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "захади кнам в войс",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
       }
     ],
     "1390304716570755096": [
@@ -43702,6 +43724,39 @@
         "channel_id": "1450428861836951674",
         "time": "23.03.2026 17:03",
         "content": "",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640355155153078",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "он врёт его зовут аня",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640375132487890",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "ой её",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640539343814749",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:05",
+        "content": "не завтра я спать",
         "type": "text",
         "preview_url": "",
         "attachments": [],
