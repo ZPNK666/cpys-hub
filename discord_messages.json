@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:24:13",
+  "updated_at": "23.03.2026 17:25:13",
   "users": {
     "1354100925043703870": [
       {
@@ -25563,6 +25563,17 @@
         "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485645418871259226",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:24",
+        "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
+        "type": "gifs",
+        "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
         "attachments": [],
         "stickers": []
       }
