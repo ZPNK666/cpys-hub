@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:38:13",
+  "updated_at": "23.03.2026 18:39:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -561,7 +561,7 @@
     {
       "id": "961276531387297862",
       "name": "ЛОЛИ",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -737,6 +737,90 @@
       ]
     },
     {
+      "id": "935061338479263775",
+      "name": "monoloska UwU",
+      "status": "idle",
+      "roles": [
+        "у меня есть хент",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/935061338479263775/4b3989722708e236b50689f797c46371.png?size=1024",
+      "joined_at": "2026-01-25T12:54:17.888000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 20,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 20
+      },
+      "total_messages": 20,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "05.03.2026 23:43",
+          "channel": "📜-правила-и-анонсы",
+          "content": "Глава 7. \nПравила поведения в чатах проекта\n1. Запрещено злоупотребление CapsLock. (Наказание - мут ",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "05.03.2026 23:41",
+          "channel": "📜-правила-и-анонсы",
+          "content": "Глава 6.\nПравила строительства.\n1. Запрещены школо-постройки. (Наказание - штраф в размере 5 АР и ис",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "05.03.2026 23:40",
+          "channel": "📜-правила-и-анонсы",
+          "content": "Глава 5.\nПвП - это любое умышленное нанесение вреда одним игроком другому игрок.\n1. Несогласованное ",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "05.03.2026 23:38",
+          "channel": "📜-правила-и-анонсы",
+          "content": "Глава 4.\nГриферство и воровство.\n\n1. Гриферство запрещено. (Наказание - штраф в размере соответствую",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "05.03.2026 23:37",
+          "channel": "📜-правила-и-анонсы",
+          "content": "Глава 3.\nВзаимодействие с Сервером.\n1. Запрещается использование дюпов. (Наказание - перманентный ба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "dnd",
@@ -789,91 +873,6 @@
           "content": "",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "idle",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 5,
-        "files": 0,
-        "total": 5
-      },
-      "stats_all": {
-        "text": 39,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 18,
-        "files": 0,
-        "total": 63
-      },
-      "total_messages": 39,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 18:37",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:34",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:29",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:22",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/komik-gif-14211273463614358620",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
           "attachments": [],
           "stickers": []
         }
@@ -2186,90 +2185,6 @@
       ]
     },
     {
-      "id": "935061338479263775",
-      "name": "monoloska UwU",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/935061338479263775/4b3989722708e236b50689f797c46371.png?size=1024",
-      "joined_at": "2026-01-25T12:54:17.888000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 20,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 20
-      },
-      "total_messages": 20,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "05.03.2026 23:43",
-          "channel": "📜-правила-и-анонсы",
-          "content": "Глава 7. \nПравила поведения в чатах проекта\n1. Запрещено злоупотребление CapsLock. (Наказание - мут ",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "05.03.2026 23:41",
-          "channel": "📜-правила-и-анонсы",
-          "content": "Глава 6.\nПравила строительства.\n1. Запрещены школо-постройки. (Наказание - штраф в размере 5 АР и ис",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "05.03.2026 23:40",
-          "channel": "📜-правила-и-анонсы",
-          "content": "Глава 5.\nПвП - это любое умышленное нанесение вреда одним игроком другому игрок.\n1. Несогласованное ",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "05.03.2026 23:38",
-          "channel": "📜-правила-и-анонсы",
-          "content": "Глава 4.\nГриферство и воровство.\n\n1. Гриферство запрещено. (Наказание - штраф в размере соответствую",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "05.03.2026 23:37",
-          "channel": "📜-правила-и-анонсы",
-          "content": "Глава 3.\nВзаимодействие с Сервером.\n1. Запрещается использование дюпов. (Наказание - перманентный ба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1104678557780803604",
       "name": "людка",
       "status": "offline",
@@ -2893,6 +2808,91 @@
           "content": "удачи вам",
           "type": "text",
           "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 5,
+        "files": 0,
+        "total": 5
+      },
+      "stats_all": {
+        "text": 39,
+        "images": 6,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 18,
+        "files": 0,
+        "total": 63
+      },
+      "total_messages": 39,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 18:37",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:34",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:29",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:22",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/komik-gif-14211273463614358620",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
           "attachments": [],
           "stickers": []
         }
