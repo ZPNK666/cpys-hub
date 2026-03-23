@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:21:13",
+  "updated_at": "23.03.2026 18:22:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 10,
-    "offline_count": 29,
+    "online_count": 12,
+    "offline_count": 27,
     "in_voice_count": 6,
     "messages_today": 139,
     "text_channels_count": 10
@@ -743,6 +743,92 @@
       ]
     },
     {
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
+      "stats_today": {
+        "text": 6,
+        "images": 62,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 10,
+        "files": 0,
+        "total": 78
+      },
+      "stats_all": {
+        "text": 92,
+        "images": 172,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 99,
+        "files": 0,
+        "total": 363
+      },
+      "total_messages": 92,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 17:31",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-103657",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-10365785657735588663",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:29",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/meme-rayyeexx-rayy7343-o5srM4M3BTVfD7WQOt",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:24",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:22",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "dnd",
@@ -795,6 +881,91 @@
           "content": "",
           "type": "text",
           "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 4,
+        "files": 0,
+        "total": 4
+      },
+      "stats_all": {
+        "text": 39,
+        "images": 6,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 17,
+        "files": 0,
+        "total": 62
+      },
+      "total_messages": 39,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 17:34",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:29",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:22",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/komik-gif-14211273463614358620",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:49",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
           "attachments": [],
           "stickers": []
         }
@@ -1876,92 +2047,6 @@
       "recent_messages": []
     },
     {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 6,
-        "images": 62,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 10,
-        "files": 0,
-        "total": 78
-      },
-      "stats_all": {
-        "text": 92,
-        "images": 172,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 99,
-        "files": 0,
-        "total": 363
-      },
-      "total_messages": 92,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 17:31",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-103657",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-10365785657735588663",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:29",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/meme-rayyeexx-rayy7343-o5srM4M3BTVfD7WQOt",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:24",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:22",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1009475184090152961",
       "name": "майонез",
       "status": "offline",
@@ -2808,91 +2893,6 @@
           "content": "удачи вам",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 4,
-        "files": 0,
-        "total": 4
-      },
-      "stats_all": {
-        "text": 39,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 17,
-        "files": 0,
-        "total": 62
-      },
-      "total_messages": 39,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 17:34",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:29",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:22",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/komik-gif-14211273463614358620",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:49",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
           "attachments": [],
           "stickers": []
         }
