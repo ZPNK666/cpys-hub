@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 13:44:13",
+  "updated_at": "23.03.2026 13:45:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 7,
-    "offline_count": 29,
+    "online_count": 8,
+    "offline_count": 28,
     "in_voice_count": 0,
     "messages_today": 14,
     "text_channels_count": 10
@@ -698,6 +698,92 @@
               "size": 2148918
             }
           ],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 3,
+        "files": 0,
+        "total": 4
+      },
+      "stats_all": {
+        "text": 87,
+        "images": 110,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 92,
+        "files": 0,
+        "total": 289
+      },
+      "total_messages": 87,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 11:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:22",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:22",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:22",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "22.03.2026 21:21",
+          "channel": "💬-общий-чат",
+          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "attachments": [],
           "stickers": []
         }
       ]
@@ -1742,92 +1828,6 @@
         "last_seen": null
       },
       "recent_messages": []
-    },
-    {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 3,
-        "files": 0,
-        "total": 4
-      },
-      "stats_all": {
-        "text": 87,
-        "images": 110,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 92,
-        "files": 0,
-        "total": 289
-      },
-      "total_messages": 87,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 11:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:22",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:22",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:22",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "22.03.2026 21:21",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
     },
     {
       "id": "1009475184090152961",
