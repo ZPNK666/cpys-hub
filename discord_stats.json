@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:31:13",
+  "updated_at": "23.03.2026 17:32:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 11,
     "offline_count": 28,
     "in_voice_count": 5,
-    "messages_today": 135,
+    "messages_today": 136,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 75,
     "images": 65,
-    "gifs": 16,
+    "gifs": 17,
     "stickers": 3,
     "voice": 0,
     "files": 0
@@ -753,18 +753,18 @@
         "images": 62,
         "voice": 0,
         "stickers": 0,
-        "gifs": 9,
+        "gifs": 10,
         "files": 0,
-        "total": 77
+        "total": 78
       },
       "stats_all": {
         "text": 92,
         "images": 172,
         "voice": 0,
         "stickers": 0,
-        "gifs": 98,
+        "gifs": 99,
         "files": 0,
-        "total": 362
+        "total": 363
       },
       "total_messages": 92,
       "join_leave": {
@@ -774,6 +774,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 17:31",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-103657",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-10365785657735588663",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:29",
           "channel": "💬-общий-чат",
@@ -807,15 +816,6 @@
           "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:17",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "attachments": [],
           "stickers": []
         }
@@ -3021,7 +3021,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         {
           "id": "1433504994824425640",
@@ -3030,10 +3030,6 @@
         {
           "id": "1436969435104677948",
           "name": "RCY | zebra22867"
-        },
-        {
-          "id": "1264609602540929140",
-          "name": "dark_soul"
         }
       ]
     },
@@ -3064,7 +3060,7 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         {
           "id": "834060139006394368",
@@ -3073,6 +3069,10 @@
         {
           "id": "961276531387297862",
           "name": "ЛОЛИ"
+        },
+        {
+          "id": "1264609602540929140",
+          "name": "dark_soul"
         }
       ]
     },
@@ -4512,7 +4512,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 112,
+      "messages": 113,
       "online": 18,
       "in_voice": 4
     }
@@ -4596,9 +4596,9 @@
       "images": 172,
       "voice": 0,
       "stickers": 0,
-      "gifs": 98,
+      "gifs": 99,
       "files": 0,
-      "total": 362
+      "total": 363
     },
     {
       "id": "1440792780233244835",
