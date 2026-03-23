@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:29:13",
+  "updated_at": "23.03.2026 17:30:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 12,
     "offline_count": 27,
     "in_voice_count": 5,
-    "messages_today": 134,
+    "messages_today": 135,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 74,
+    "text": 75,
     "images": 65,
     "gifs": 16,
     "stickers": 3,
@@ -749,24 +749,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
       "joined_at": "2026-03-08T20:22:22.892000+00:00",
       "stats_today": {
-        "text": 5,
+        "text": 6,
         "images": 62,
         "voice": 0,
         "stickers": 0,
         "gifs": 9,
         "files": 0,
-        "total": 76
+        "total": 77
       },
       "stats_all": {
-        "text": 91,
+        "text": 92,
         "images": 172,
         "voice": 0,
         "stickers": 0,
         "gifs": 98,
         "files": 0,
-        "total": 361
+        "total": 362
       },
-      "total_messages": 91,
+      "total_messages": 92,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -774,6 +774,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 17:29",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/meme-rayyeexx-rayy7343-o5srM4M3BTVfD7WQOt",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:24",
           "channel": "💬-общий-чат",
@@ -807,15 +816,6 @@
           "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "type": "gifs",
           "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:15",
-          "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
           "attachments": [],
           "stickers": []
         }
@@ -882,7 +882,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ислам",
@@ -4512,7 +4512,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 111,
+      "messages": 112,
       "online": 18,
       "in_voice": 4
     }
@@ -4592,13 +4592,13 @@
     {
       "id": "1286072101635100733",
       "name": "били б билисимо",
-      "text": 91,
+      "text": 92,
       "images": 172,
       "voice": 0,
       "stickers": 0,
       "gifs": 98,
       "files": 0,
-      "total": 361
+      "total": 362
     },
     {
       "id": "1440792780233244835",
