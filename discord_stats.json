@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:22:13",
+  "updated_at": "23.03.2026 18:23:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,16 +9,16 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 12,
-    "offline_count": 27,
-    "in_voice_count": 6,
-    "messages_today": 139,
+    "online_count": 13,
+    "offline_count": 26,
+    "in_voice_count": 7,
+    "messages_today": 141,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 76,
     "images": 66,
-    "gifs": 18,
+    "gifs": 20,
     "stickers": 3,
     "voice": 0,
     "files": 0
@@ -103,6 +103,64 @@
           "time": "23.03.2026 17:12",
           "channel": "💬-общий-чат",
           "content": "<:__:1460345102466547786>",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -760,18 +818,18 @@
         "images": 62,
         "voice": 0,
         "stickers": 0,
-        "gifs": 10,
+        "gifs": 12,
         "files": 0,
-        "total": 78
+        "total": 80
       },
       "stats_all": {
         "text": 92,
         "images": 172,
         "voice": 0,
         "stickers": 0,
-        "gifs": 99,
+        "gifs": 101,
         "files": 0,
-        "total": 363
+        "total": 365
       },
       "total_messages": 92,
       "join_leave": {
@@ -781,6 +839,24 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 18:22",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/confused-paper-jimmy-butler-vGcTIfjvfX0wBnO0hw",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/confused-paper-jimmy-butler-vGcTIfjvfX0wBnO0hw",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 18:22",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/komik-gif-14211273463614358620",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:31",
           "channel": "💬-общий-чат",
@@ -805,24 +881,6 @@
           "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
           "type": "gifs",
           "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:22",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "text",
-          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -889,7 +947,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "нету хента",
         "ислам",
@@ -1242,64 +1300,6 @@
           "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
           "type": "images",
           "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -3037,7 +3037,7 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 3,
+      "members_count": 4,
       "members": [
         {
           "id": "1433504994824425640",
@@ -3050,6 +3050,10 @@
         {
           "id": "1264609602540929140",
           "name": "dark_soul"
+        },
+        {
+          "id": "1286072101635100733",
+          "name": "били б билисимо"
         }
       ]
     },
@@ -4532,7 +4536,7 @@
       "time": "23.03 18:00",
       "hour": 18,
       "date": "2026-03-23",
-      "messages": 1,
+      "messages": 3,
       "online": 16,
       "in_voice": 6
     }
@@ -4616,9 +4620,9 @@
       "images": 172,
       "voice": 0,
       "stickers": 0,
-      "gifs": 99,
+      "gifs": 101,
       "files": 0,
-      "total": 363
+      "total": 365
     },
     {
       "id": "1440792780233244835",
