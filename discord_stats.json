@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 23:59:13",
+  "updated_at": "24.03.2026 00:00:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,14 +12,14 @@
     "online_count": 11,
     "offline_count": 28,
     "in_voice_count": 5,
-    "messages_today": 155,
+    "messages_today": 0,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 88,
-    "images": 66,
-    "gifs": 22,
-    "stickers": 3,
+    "text": 0,
+    "images": 0,
+    "gifs": 0,
+    "stickers": 0,
     "voice": 0,
     "files": 0
   },
@@ -38,13 +38,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/36cb8972b0780e7cf3c5f9ff0d803001.png?size=1024",
       "joined_at": "2026-02-26T07:33:27.565000+00:00",
       "stats_today": {
-        "text": 19,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 19
+        "total": 0
       },
       "stats_all": {
         "text": 125,
@@ -132,13 +132,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 11,
+        "text": 0,
         "images": 0,
         "voice": 0,
-        "stickers": 3,
+        "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 14
+        "total": 0
       },
       "stats_all": {
         "text": 1159,
@@ -571,13 +571,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
       "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
-        "text": 17,
-        "images": 1,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 18
+        "total": 0
       },
       "stats_all": {
         "text": 19,
@@ -657,13 +657,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
       "joined_at": "2026-03-08T20:22:22.892000+00:00",
       "stats_today": {
-        "text": 6,
-        "images": 62,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 13,
+        "gifs": 0,
         "files": 0,
-        "total": 81
+        "total": 0
       },
       "stats_all": {
         "text": 92,
@@ -884,13 +884,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
       "joined_at": "2026-03-23T13:59:22.448000+00:00",
       "stats_today": {
-        "text": 4,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 0
       },
       "stats_all": {
         "text": 4,
@@ -962,13 +962,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/989c836022604dea082532b59439533d.png?size=1024",
       "joined_at": "2026-03-22T13:52:32.310000+00:00",
       "stats_today": {
-        "text": 4,
-        "images": 2,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 0
       },
       "stats_all": {
         "text": 230,
@@ -1304,13 +1304,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
       "joined_at": "2026-03-05T17:56:15.928000+00:00",
       "stats_today": {
-        "text": 17,
-        "images": 1,
+        "text": 0,
+        "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 4,
+        "gifs": 0,
         "files": 0,
-        "total": 22
+        "total": 0
       },
       "stats_all": {
         "text": 2138,
@@ -2572,13 +2572,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
       "joined_at": "2026-02-25T16:13:26.997000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 0
       },
       "stats_all": {
         "text": 342,
@@ -2823,9 +2823,9 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 5,
+        "gifs": 0,
         "files": 0,
-        "total": 5
+        "total": 0
       },
       "stats_all": {
         "text": 39,
@@ -2904,13 +2904,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
       "joined_at": "2026-03-23T14:02:15.357000+00:00",
       "stats_today": {
-        "text": 7,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 7
+        "total": 0
       },
       "stats_all": {
         "text": 7,
@@ -2989,13 +2989,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
       "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
       },
       "stats_all": {
         "text": 1,
@@ -3173,14 +3173,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "16.03 23:00",
-      "hour": 23,
-      "date": "2026-03-16",
-      "messages": 0,
-      "online": 0,
-      "in_voice": 0
-    },
     {
       "time": "17.03 00:00",
       "hour": 0,
@@ -4521,6 +4513,14 @@
       "time": "23.03 23:00",
       "hour": 23,
       "date": "2026-03-23",
+      "messages": 0,
+      "online": 17,
+      "in_voice": 5
+    },
+    {
+      "time": "24.03 00:00",
+      "hour": 0,
+      "date": "2026-03-24",
       "messages": 0,
       "online": 17,
       "in_voice": 5
