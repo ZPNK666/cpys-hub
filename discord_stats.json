@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 16:52:14",
+  "updated_at": "23.03.2026 16:53:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 42,
     "online_count": 11,
     "offline_count": 25,
-    "in_voice_count": 5,
+    "in_voice_count": 4,
     "messages_today": 23,
     "text_channels_count": 10
   },
@@ -2822,15 +2822,11 @@
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1168859596899766352",
-          "name": "Scorpio_mal2"
         },
         {
           "id": "1433504994824425640",
@@ -2841,8 +2837,8 @@
           "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
         },
         {
-          "id": "1286072101635100733",
-          "name": "били б билисимо"
+          "id": "1264609602540929140",
+          "name": "dark_soul"
         }
       ]
     },
