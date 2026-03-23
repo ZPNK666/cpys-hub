@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 11:51:14",
+  "updated_at": "23.03.2026 11:52:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -261,7 +261,7 @@
     "2026-03-23 00": 4,
     "2026-03-23 08": 3,
     "2026-03-23 09": 21,
-    "2026-03-23 11": 7
+    "2026-03-23 11": 8
   },
   "user_messages": {
     "1354100925043703870": [
@@ -345,17 +345,6 @@
       }
     ],
     "1292870612531937358": [
-      {
-        "id": "1478404910285459530",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "03.03.2026 17:53",
-        "content": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-        "type": "gifs",
-        "preview_url": "https://tenor.com/view/flight-reacts-flight-yikes-flight-meme-gif-12822158462297009384",
-        "attachments": [],
-        "stickers": []
-      },
       {
         "id": "1478405060814700857",
         "channel": "💬-общий-чат",
@@ -6001,6 +5990,17 @@
         "channel_id": "1450428861836951674",
         "time": "23.03.2026 11:49",
         "content": "я выиграла друзья",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485561667717955654",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 11:51",
+        "content": "били ты заебал пиздеть",
         "type": "text",
         "preview_url": "",
         "attachments": [],
