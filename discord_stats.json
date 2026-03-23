@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:35:13",
+  "updated_at": "23.03.2026 17:36:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 12,
-    "offline_count": 27,
+    "online_count": 11,
+    "offline_count": 28,
     "in_voice_count": 5,
-    "messages_today": 137,
+    "messages_today": 138,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 75,
+    "text": 76,
     "images": 65,
     "gifs": 18,
     "stickers": 3,
@@ -736,92 +736,6 @@
       ]
     },
     {
-      "id": "1286072101635100733",
-      "name": "били б билисимо",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "ОФИЧЕР СС",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-03-08T20:22:22.892000+00:00",
-      "stats_today": {
-        "text": 6,
-        "images": 62,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 10,
-        "files": 0,
-        "total": 78
-      },
-      "stats_all": {
-        "text": 92,
-        "images": 172,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 99,
-        "files": 0,
-        "total": 363
-      },
-      "total_messages": 92,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 17:31",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-103657",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-10365785657735588663",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:29",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/meme-rayyeexx-rayy7343-o5srM4M3BTVfD7WQOt",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:24",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:22",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "dnd",
@@ -977,24 +891,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
       "joined_at": "2026-03-23T13:59:22.448000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 4
       },
       "stats_all": {
-        "text": 3,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 4
       },
-      "total_messages": 3,
+      "total_messages": 4,
       "join_leave": {
         "joins": 1,
         "leaves": 0,
@@ -1002,6 +916,15 @@
         "last_seen": "23.03.2026 16:59:20"
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 17:35",
+          "channel": "💬-общий-чат",
+          "content": "ПАРЕНЬ",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:04",
           "channel": "💬-общий-чат",
@@ -2029,6 +1952,92 @@
         "last_seen": null
       },
       "recent_messages": []
+    },
+    {
+      "id": "1286072101635100733",
+      "name": "били б билисимо",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "ОФИЧЕР СС",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-03-08T20:22:22.892000+00:00",
+      "stats_today": {
+        "text": 6,
+        "images": 62,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 10,
+        "files": 0,
+        "total": 78
+      },
+      "stats_all": {
+        "text": 92,
+        "images": 172,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 99,
+        "files": 0,
+        "total": 363
+      },
+      "total_messages": 92,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 17:31",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-103657",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-10365785657735588663",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:29",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/meme-rayyeexx-rayy7343-o5srM4M3BTVfD7WQOt",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:24",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:22",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     },
     {
       "id": "1009475184090152961",
@@ -4512,7 +4521,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 114,
+      "messages": 115,
       "online": 18,
       "in_voice": 4
     }
