@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:03:14",
+  "updated_at": "23.03.2026 17:04:14",
   "hourly_msg_counts": {
     "2026-03-05 23": 22,
     "2026-03-09 17": 20,
@@ -259,7 +259,7 @@
     "2026-03-23 11": 10,
     "2026-03-23 15": 5,
     "2026-03-23 16": 4,
-    "2026-03-23 17": 1
+    "2026-03-23 17": 7
   },
   "user_messages": {
     "1354100925043703870": [
@@ -25045,6 +25045,17 @@
         "preview_url": "",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1485640298146037871",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "https://tenor.com/view/spamton-deltarune-spamton-laugh-laugh-gif-26867950",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
       }
     ],
     "1009475184090152961": [
@@ -37096,35 +37107,6 @@
     ],
     "834060139006394368": [
       {
-        "id": "1476838302349787166",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "27.02.2026 10:08",
-        "content": "как у всех дела",
-        "type": "text",
-        "preview_url": "",
-        "attachments": [],
-        "stickers": []
-      },
-      {
-        "id": "1476838519359148076",
-        "channel": "💬-общий-чат",
-        "channel_id": "1450428861836951674",
-        "time": "27.02.2026 10:09",
-        "content": "",
-        "type": "images",
-        "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1476838518809559113/image.png?ex=69bc49cd&is=69baf84d&hm=fcfe5e65829eee7e72903828afa93d288c5f629fd0871d80b3ffe00075247943&",
-        "attachments": [
-          {
-            "type": "images",
-            "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1476838518809559113/image.png?ex=69bc49cd&is=69baf84d&hm=fcfe5e65829eee7e72903828afa93d288c5f629fd0871d80b3ffe00075247943&",
-            "filename": "image.png",
-            "size": 560244
-          }
-        ],
-        "stickers": []
-      },
-      {
         "id": "1476838534798114879",
         "channel": "💬-общий-чат",
         "channel_id": "1450428861836951674",
@@ -42948,6 +42930,38 @@
         "preview_url": "",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1485640180508524787",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:03",
+        "content": "",
+        "type": "sticker",
+        "preview_url": "https://cdn.discordapp.com/stickers/816087792291282944.json",
+        "attachments": [],
+        "stickers": [
+          {
+            "name": "Sup",
+            "url": "https://cdn.discordapp.com/stickers/816087792291282944.json"
+          }
+        ]
+      },
+      {
+        "id": "1485640264470106123",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:03",
+        "content": "",
+        "type": "sticker",
+        "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+        "attachments": [],
+        "stickers": [
+          {
+            "name": "Wave",
+            "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+          }
+        ]
       }
     ],
     "1390304716570755096": [
@@ -43913,6 +43927,41 @@
         "channel": "💬-общий-чат",
         "channel_id": "1450428861836951674",
         "time": "23.03.2026 17:00",
+        "content": "",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640272720302133",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "ало блять вы дауны я девочка",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485640306388107498",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:04",
+        "content": "ъ",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      }
+    ],
+    "1396938275263877150": [
+      {
+        "id": "1485640223202213980",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:03",
         "content": "",
         "type": "text",
         "preview_url": "",
