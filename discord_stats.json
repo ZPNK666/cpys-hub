@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:25:13",
+  "updated_at": "23.03.2026 18:26:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,13 +12,13 @@
     "online_count": 12,
     "offline_count": 27,
     "in_voice_count": 7,
-    "messages_today": 141,
+    "messages_today": 142,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 76,
     "images": 66,
-    "gifs": 20,
+    "gifs": 21,
     "stickers": 3,
     "voice": 0,
     "files": 0
@@ -760,18 +760,18 @@
         "images": 62,
         "voice": 0,
         "stickers": 0,
-        "gifs": 12,
+        "gifs": 13,
         "files": 0,
-        "total": 80
+        "total": 81
       },
       "stats_all": {
         "text": 92,
         "images": 172,
         "voice": 0,
         "stickers": 0,
-        "gifs": 101,
+        "gifs": 102,
         "files": 0,
-        "total": 365
+        "total": 366
       },
       "total_messages": 92,
       "join_leave": {
@@ -781,6 +781,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 18:26",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/confident-pigeon-pigeon-doctor-tuff-meme-gif-2300550870562275327",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/confident-pigeon-pigeon-doctor-tuff-meme-gif-2300550870562275327",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 18:22",
           "channel": "💬-общий-чат",
@@ -814,15 +823,6 @@
           "content": "https://giphy.com/gifs/meme-rayyeexx-rayy7343-o5srM4M3BTVfD7WQOt",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:24",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/speed-trying-not-to-laugh-yefe09-TQTgBy0JWyiky9rbBV",
           "attachments": [],
           "stickers": []
         }
@@ -4536,7 +4536,7 @@
       "time": "23.03 18:00",
       "hour": 18,
       "date": "2026-03-23",
-      "messages": 3,
+      "messages": 4,
       "online": 16,
       "in_voice": 6
     }
@@ -4620,9 +4620,9 @@
       "images": 172,
       "voice": 0,
       "stickers": 0,
-      "gifs": 101,
+      "gifs": 102,
       "files": 0,
-      "total": 365
+      "total": 366
     },
     {
       "id": "1440792780233244835",
