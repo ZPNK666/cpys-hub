@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:31:13",
+  "updated_at": "23.03.2026 17:32:13",
   "users": {
     "1354100925043703870": [
       {
@@ -25585,6 +25585,17 @@
         "content": "https://giphy.com/gifs/meme-rayyeexx-rayy7343-o5srM4M3BTVfD7WQOt",
         "type": "text",
         "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485647205539774679",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:31",
+        "content": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-10365785657735588663",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/mr-beast-phonk-mr-beast-phonk-kids-mr-beast-loves-phonk-beastlings-gif-10365785657735588663",
         "attachments": [],
         "stickers": []
       }
