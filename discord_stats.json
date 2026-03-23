@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:07:13",
+  "updated_at": "23.03.2026 17:08:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,16 +9,16 @@
   },
   "summary": {
     "total_members": 44,
-    "online_count": 14,
-    "offline_count": 24,
-    "in_voice_count": 7,
-    "messages_today": 41,
+    "online_count": 13,
+    "offline_count": 25,
+    "in_voice_count": 5,
+    "messages_today": 42,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 52,
     "images": 3,
-    "gifs": 8,
+    "gifs": 9,
     "stickers": 2,
     "voice": 0,
     "files": 0
@@ -758,18 +758,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 4,
+        "gifs": 5,
         "files": 0,
-        "total": 7
+        "total": 8
       },
       "stats_all": {
         "text": 89,
         "images": 110,
         "voice": 0,
         "stickers": 0,
-        "gifs": 93,
+        "gifs": 94,
         "files": 0,
-        "total": 292
+        "total": 293
       },
       "total_messages": 89,
       "join_leave": {
@@ -779,6 +779,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 17:07",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/spamton-deltarune-spamton-laugh-laugh-gif-26867950",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/spamton-deltarune-spamton-laugh-laugh-gif-26867950",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:04",
           "channel": "💬-общий-чат",
@@ -812,15 +821,6 @@
           "content": "https://tenor.com/view/gaster-eating-chip-undertale-memes-undertale-gif-15964334747071043411",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:22",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "attachments": [],
           "stickers": []
         }
@@ -1115,91 +1115,6 @@
           "time": "23.03.2026 17:00",
           "channel": "💬-общий-чат",
           "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1396938275263877150",
-      "name": "дулачка",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
-      "joined_at": "2026-03-23T14:02:15.357000+00:00",
-      "stats_today": {
-        "text": 7,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 7
-      },
-      "stats_all": {
-        "text": 7,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 7
-      },
-      "total_messages": 7,
-      "join_leave": {
-        "joins": 1,
-        "leaves": 0,
-        "first_join": "23.03.2026 17:02:13",
-        "last_seen": "23.03.2026 17:02:13"
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 17:05",
-          "channel": "💬-общий-чат",
-          "content": "и тебе заранее",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:05",
-          "channel": "💬-общий-чат",
-          "content": "спс",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:05",
-          "channel": "💬-общий-чат",
-          "content": "всё бб",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:05",
-          "channel": "💬-общий-чат",
-          "content": "не завтра я спать",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:04",
-          "channel": "💬-общий-чат",
-          "content": "ой её",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -2971,29 +2886,106 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "1396938275263877150",
+      "name": "дулачка",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
+      "joined_at": "2026-03-23T14:02:15.357000+00:00",
+      "stats_today": {
+        "text": 7,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 7
+      },
+      "stats_all": {
+        "text": 7,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 7
+      },
+      "total_messages": 7,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "23.03.2026 17:02:13",
+        "last_seen": "23.03.2026 17:02:13"
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 17:05",
+          "channel": "💬-общий-чат",
+          "content": "и тебе заранее",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:05",
+          "channel": "💬-общий-чат",
+          "content": "спс",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:05",
+          "channel": "💬-общий-чат",
+          "content": "всё бб",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:05",
+          "channel": "💬-общий-чат",
+          "content": "не завтра я спать",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:04",
+          "channel": "💬-общий-чат",
+          "content": "ой её",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     }
   ],
   "voice_channels": [
     {
       "id": "1479981463247130687",
       "name": "2026(эта имба полная)",
-      "members_count": 7,
+      "members_count": 5,
       "members": [
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
         },
         {
-          "id": "1433504994824425640",
-          "name": "zelebobik"
-        },
-        {
           "id": "1407789136965931088",
           "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
-        },
-        {
-          "id": "1436969435104677948",
-          "name": "RCY | zebra22867"
         },
         {
           "id": "961276531387297862",
@@ -4475,7 +4467,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 18,
+      "messages": 19,
       "online": 18,
       "in_voice": 4
     }
@@ -4575,9 +4567,9 @@
       "images": 110,
       "voice": 0,
       "stickers": 0,
-      "gifs": 93,
+      "gifs": 94,
       "files": 0,
-      "total": 292
+      "total": 293
     },
     {
       "id": "1407789136965931088",
