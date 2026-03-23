@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:02:13",
+  "updated_at": "23.03.2026 17:03:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 44,
-    "online_count": 13,
-    "offline_count": 25,
+    "online_count": 16,
+    "offline_count": 22,
     "in_voice_count": 6,
     "messages_today": 24,
     "text_channels_count": 10
@@ -24,6 +24,105 @@
     "files": 0
   },
   "online_members": [
+    {
+      "id": "1264222387214483562",
+      "name": "GOJO",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/aef8404b7afdfbf182d5cefed1042593.png?size=1024",
+      "joined_at": "2026-03-04T19:17:28.533000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 4,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 6
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "11.03.2026 13:16",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
+              "filename": "image.png",
+              "size": 148146
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 13:08",
+          "channel": "💬-общий-чат",
+          "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
+          "type": "images",
+          "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "04.03.2026 22:18",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 13:16",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
+              "filename": "image.png",
+              "size": 148146
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 13:08",
+          "channel": "💬-общий-чат",
+          "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
+          "type": "images",
+          "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
@@ -1003,6 +1102,91 @@
       ]
     },
     {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 39,
+        "images": 6,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 13,
+        "files": 0,
+        "total": 58
+      },
+      "total_messages": 39,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "20.03.2026 00:49",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:27",
+          "channel": "💬-общий-чат",
+          "content": "semi",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:27",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:25",
+          "channel": "💬-общий-чат",
+          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "20.03.2026 00:13",
+          "channel": "💬-общий-чат",
+          "content": "faggot",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1436969435104677948",
       "name": "RCY | zebra22867",
       "status": "online",
@@ -1050,6 +1234,41 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "1396938275263877150",
+      "name": "дулачка",
+      "status": "online",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
+      "joined_at": "2026-03-23T14:02:15.357611+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "23.03.2026 17:02:13",
+        "last_seen": "23.03.2026 17:02:13"
+      },
+      "recent_messages": []
     }
   ],
   "offline_members": [
@@ -1233,105 +1452,6 @@
           "content": "вопрос я уснул в 5 утра и проснулся в 8-9 утра",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1264222387214483562",
-      "name": "GOJO",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/aef8404b7afdfbf182d5cefed1042593.png?size=1024",
-      "joined_at": "2026-03-04T19:17:28.533000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 4,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 6
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "11.03.2026 13:16",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
-              "filename": "image.png",
-              "size": 148146
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 13:08",
-          "channel": "💬-общий-чат",
-          "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
-          "type": "images",
-          "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "04.03.2026 22:18",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 13:16",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1481234418743115848/image.png?ex=69bbcd0d&is=69ba7b8d&hm=9d38085b88bf043735840c815c432d04cc9501f39b0aad9211ed09465997ed0b&",
-              "filename": "image.png",
-              "size": 148146
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 13:08",
-          "channel": "💬-общий-чат",
-          "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
-          "type": "images",
-          "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
           "attachments": [],
           "stickers": []
         }
@@ -2780,126 +2900,6 @@
           "stickers": []
         }
       ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 39,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 13,
-        "files": 0,
-        "total": 58
-      },
-      "total_messages": 39,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "20.03.2026 00:49",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "semi",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:27",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:25",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:13",
-          "channel": "💬-общий-чат",
-          "content": "faggot",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1396938275263877150",
-      "name": "дулачка",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
-      "joined_at": "2026-03-23T14:02:15.357611+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 1,
-        "leaves": 0,
-        "first_join": "23.03.2026 17:02:13",
-        "last_seen": "23.03.2026 17:02:13"
-      },
-      "recent_messages": []
     }
   ],
   "voice_channels": [
