@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:52:13",
+  "updated_at": "23.03.2026 18:53:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 11,
     "offline_count": 28,
     "in_voice_count": 7,
-    "messages_today": 153,
+    "messages_today": 155,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 86,
+    "text": 88,
     "images": 66,
     "gifs": 22,
     "stickers": 3,
@@ -571,24 +571,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
       "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
-        "text": 15,
+        "text": 17,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 16
+        "total": 18
       },
       "stats_all": {
-        "text": 17,
+        "text": 19,
         "images": 1,
         "voice": 0,
         "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 19
+        "total": 21
       },
-      "total_messages": 17,
+      "total_messages": 19,
       "join_leave": {
         "joins": 1,
         "leaves": 0,
@@ -596,6 +596,24 @@
         "last_seen": "22.03.2026 21:22:04"
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 18:52",
+          "channel": "🌙 Тихий чилл / Интроверты only",
+          "content": "Под разговор",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 18:52",
+          "channel": "🌙 Тихий чилл / Интроверты only",
+          "content": "Мне вкусно есть",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 18:48",
           "channel": "🌙 Тихий чилл / Интроверты only",
@@ -618,24 +636,6 @@
           "time": "23.03.2026 18:47",
           "channel": "🌙 Тихий чилл / Интроверты only",
           "content": "Спасибочки",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 18:46",
-          "channel": "🌙 Тихий чилл / Интроверты only",
-          "content": "Я ем",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 18:46",
-          "channel": "🌙 Тихий чилл / Интроверты only",
-          "content": "Его родители низкие",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -4529,7 +4529,7 @@
       "time": "23.03 18:00",
       "hour": 18,
       "date": "2026-03-23",
-      "messages": 15,
+      "messages": 17,
       "online": 16,
       "in_voice": 6
     }
