@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:17:13",
+  "updated_at": "23.03.2026 17:18:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,14 +11,14 @@
     "total_members": 45,
     "online_count": 13,
     "offline_count": 26,
-    "in_voice_count": 5,
-    "messages_today": 127,
+    "in_voice_count": 6,
+    "messages_today": 128,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 73,
     "images": 65,
-    "gifs": 10,
+    "gifs": 11,
     "stickers": 3,
     "voice": 0,
     "files": 0
@@ -792,18 +792,18 @@
         "images": 62,
         "voice": 0,
         "stickers": 0,
-        "gifs": 6,
+        "gifs": 7,
         "files": 0,
-        "total": 72
+        "total": 73
       },
       "stats_all": {
         "text": 90,
         "images": 172,
         "voice": 0,
         "stickers": 0,
-        "gifs": 95,
+        "gifs": 96,
         "files": 0,
-        "total": 357
+        "total": 358
       },
       "total_messages": 90,
       "join_leave": {
@@ -814,11 +814,11 @@
       },
       "recent_messages": [
         {
-          "time": "23.03.2026 17:15",
+          "time": "23.03.2026 17:17",
           "channel": "💬-общий-чат",
-          "content": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1477027607601221772/1231669990906921034-2.gif",
+          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
+          "type": "gifs",
+          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "attachments": [],
           "stickers": []
         },
@@ -3032,16 +3032,16 @@
           "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
         },
         {
-          "id": "961276531387297862",
-          "name": "ЛОЛИ"
-        },
-        {
           "id": "1396607687365754883",
           "name": "#!Apr๑ell꒱"
         },
         {
           "id": "1286072101635100733",
           "name": "били б билисимо"
+        },
+        {
+          "id": "1433504994824425640",
+          "name": "zelebobik"
         }
       ]
     },
@@ -3072,8 +3072,13 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 0,
-      "members": []
+      "members_count": 1,
+      "members": [
+        {
+          "id": "961276531387297862",
+          "name": "ЛОЛИ"
+        }
+      ]
     },
     {
       "id": "1479219852190158858",
@@ -4511,7 +4516,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 104,
+      "messages": 105,
       "online": 18,
       "in_voice": 4
     }
@@ -4595,9 +4600,9 @@
       "images": 172,
       "voice": 0,
       "stickers": 0,
-      "gifs": 95,
+      "gifs": 96,
       "files": 0,
-      "total": 357
+      "total": 358
     },
     {
       "id": "1440792780233244835",
