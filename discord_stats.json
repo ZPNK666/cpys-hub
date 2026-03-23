@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:10:13",
+  "updated_at": "23.03.2026 17:10:40",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -8,9 +8,9 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 44,
+    "total_members": 45,
     "online_count": 14,
-    "offline_count": 24,
+    "offline_count": 25,
     "in_voice_count": 5,
     "messages_today": 42,
     "text_channels_count": 10
@@ -2971,6 +2971,41 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "1155602435222552698",
+      "name": "hatan",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
+      "joined_at": "2026-03-23T14:10:42.424608+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 1,
+        "leaves": 0,
+        "first_join": "23.03.2026 17:10:40",
+        "last_seen": "23.03.2026 17:10:40"
+      },
+      "recent_messages": []
     }
   ],
   "voice_channels": [
@@ -4502,6 +4537,12 @@
       "user_id": "1396938275263877150",
       "name": "дулачка",
       "time": "23.03.2026 17:02:13"
+    },
+    {
+      "event": "join",
+      "user_id": "1155602435222552698",
+      "name": "hatan",
+      "time": "23.03.2026 17:10:40"
     }
   ],
   "top_chatters": [
