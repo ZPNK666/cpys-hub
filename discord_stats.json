@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:49:13",
+  "updated_at": "23.03.2026 18:50:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 13,
-    "offline_count": 26,
+    "online_count": 12,
+    "offline_count": 27,
     "in_voice_count": 7,
     "messages_today": 153,
     "text_channels_count": 10
@@ -924,91 +924,6 @@
           "content": "",
           "type": "text",
           "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "idle",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 5,
-        "files": 0,
-        "total": 5
-      },
-      "stats_all": {
-        "text": 39,
-        "images": 6,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 18,
-        "files": 0,
-        "total": 63
-      },
-      "total_messages": 39,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 18:37",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:34",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:29",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:23",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:22",
-          "channel": "💬-общий-чат",
-          "content": "https://tenor.com/view/komik-gif-14211273463614358620",
-          "type": "gifs",
-          "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
           "attachments": [],
           "stickers": []
         }
@@ -2886,6 +2801,91 @@
           "content": "удачи вам",
           "type": "text",
           "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 5,
+        "files": 0,
+        "total": 5
+      },
+      "stats_all": {
+        "text": 39,
+        "images": 6,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 18,
+        "files": 0,
+        "total": 63
+      },
+      "total_messages": 39,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 18:37",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/patrick-patrick-star-peak-cinema-absolute-cinema-gif-2419960068189387292",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:34",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/ishowspeed-speed-random-kid-random-kid-gif-10698606526004440975",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:29",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/ishowspeed-picks-up-water-speed-irl-stream-reaction-gif-9814325023742374348",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 17:22",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/komik-gif-14211273463614358620",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
           "attachments": [],
           "stickers": []
         }
