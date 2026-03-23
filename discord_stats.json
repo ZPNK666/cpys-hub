@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:32:13",
+  "updated_at": "23.03.2026 18:33:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -12,11 +12,11 @@
     "online_count": 12,
     "offline_count": 27,
     "in_voice_count": 5,
-    "messages_today": 143,
+    "messages_today": 146,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 77,
+    "text": 80,
     "images": 66,
     "gifs": 21,
     "stickers": 3,
@@ -38,24 +38,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/36cb8972b0780e7cf3c5f9ff0d803001.png?size=1024",
       "joined_at": "2026-02-26T07:33:27.565000+00:00",
       "stats_today": {
-        "text": 16,
+        "text": 19,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 16
+        "total": 19
       },
       "stats_all": {
-        "text": 122,
+        "text": 125,
         "images": 0,
         "voice": 0,
         "stickers": 2,
         "gifs": 0,
         "files": 0,
-        "total": 124
+        "total": 127
       },
-      "total_messages": 122,
+      "total_messages": 125,
       "join_leave": {
         "joins": 0,
         "leaves": 0,
@@ -63,6 +63,33 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 18:32",
+          "channel": "🌙 Тихий чилл / Интроверты only",
+          "content": "ЩАС",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 18:32",
+          "channel": "🌙 Тихий чилл / Интроверты only",
+          "content": "НЕЬПИЗДИ",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 18:32",
+          "channel": "🌙 Тихий чилл / Интроверты only",
+          "content": "ДА ЩА",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:14",
           "channel": "💬-общий-чат",
@@ -74,33 +101,6 @@
         },
         {
           "time": "23.03.2026 17:13",
-          "channel": "💬-общий-чат",
-          "content": "<:__:1460345102466547786>",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:13",
-          "channel": "💬-общий-чат",
-          "content": "<:__:1460345102466547786>",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:12",
-          "channel": "💬-общий-чат",
-          "content": "<:__:1460345102466547786>",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 17:12",
           "channel": "💬-общий-чат",
           "content": "<:__:1460345102466547786>",
           "type": "text",
@@ -4528,7 +4528,7 @@
       "time": "23.03 18:00",
       "hour": 18,
       "date": "2026-03-23",
-      "messages": 5,
+      "messages": 8,
       "online": 16,
       "in_voice": 6
     }
@@ -4674,13 +4674,13 @@
     {
       "id": "1396607687365754883",
       "name": "#!Apr๑ell꒱",
-      "text": 122,
+      "text": 125,
       "images": 0,
       "voice": 0,
       "stickers": 2,
       "gifs": 0,
       "files": 0,
-      "total": 124
+      "total": 127
     }
   ]
 }
