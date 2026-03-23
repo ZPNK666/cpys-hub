@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:22:13",
+  "updated_at": "23.03.2026 17:23:13",
   "users": {
     "1354100925043703870": [
       {
@@ -25543,6 +25543,28 @@
         "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
         "attachments": [],
         "stickers": []
+      },
+      {
+        "id": "1485645033066594320",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:22",
+        "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
+        "type": "text",
+        "preview_url": "",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485645060182638615",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:23",
+        "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+        "attachments": [],
+        "stickers": []
       }
     ],
     "1009475184090152961": [
@@ -44406,6 +44428,17 @@
         "content": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
         "type": "gifs",
         "preview_url": "https://tenor.com/view/sybau-ts-pmo-gif-2102579015947246168",
+        "attachments": [],
+        "stickers": []
+      },
+      {
+        "id": "1485644997058494555",
+        "channel": "💬-общий-чат",
+        "channel_id": "1450428861836951674",
+        "time": "23.03.2026 17:22",
+        "content": "https://tenor.com/view/komik-gif-14211273463614358620",
+        "type": "gifs",
+        "preview_url": "https://tenor.com/view/komik-gif-14211273463614358620",
         "attachments": [],
         "stickers": []
       }
