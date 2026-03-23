@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 11:24:13",
+  "updated_at": "23.03.2026 11:25:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 10,
-    "offline_count": 26,
+    "online_count": 9,
+    "offline_count": 27,
     "in_voice_count": 2,
     "messages_today": 8,
     "text_channels_count": 10
@@ -603,138 +603,6 @@
       ]
     },
     {
-      "id": "1433504994824425640",
-      "name": "zelebobik",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "Сциентизм",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
-      "joined_at": "2026-02-25T13:00:26.272000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 64,
-        "images": 108,
-        "voice": 0,
-        "stickers": 9,
-        "gifs": 0,
-        "files": 10,
-        "total": 109
-      },
-      "total_messages": 64,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "22.03.2026 21:26",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Scream",
-              "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
-            }
-          ]
-        },
-        {
-          "time": "22.03.2026 21:26",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Scream",
-              "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
-            }
-          ]
-        },
-        {
-          "time": "22.03.2026 21:13",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "sticker",
-          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
-          "attachments": [],
-          "stickers": [
-            {
-              "name": "Wave",
-              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
-            }
-          ]
-        },
-        {
-          "time": "21.03.2026 14:08",
-          "channel": "🔞хент-18",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1484871224344449165/RobloxScreenShot20260321_140702634.png?ex=69bfcd97&is=69be7c17&hm=c3c9dd12885128327f5292f67ad07c33ea2dbcd6019342c84703bafd9fc01f60&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1484871224344449165/RobloxScreenShot20260321_140702634.png?ex=69bfcd97&is=69be7c17&hm=c3c9dd12885128327f5292f67ad07c33ea2dbcd6019342c84703bafd9fc01f60&",
-              "filename": "RobloxScreenShot20260321_140702634.png",
-              "size": 2070560
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "19.03.2026 16:56",
-          "channel": "🔥-мемы-и-ржака",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188758784999544/RobloxScreenShot20260319_145720214.png?ex=69bd51fe&is=69bc007e&hm=ec04112a6d651e10334b5d8c159d92310a7539bfe43093b6e15aa51bc412fa56&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188758784999544/RobloxScreenShot20260319_145720214.png?ex=69bd51fe&is=69bc007e&hm=ec04112a6d651e10334b5d8c159d92310a7539bfe43093b6e15aa51bc412fa56&",
-              "filename": "RobloxScreenShot20260319_145720214.png",
-              "size": 3038834
-            },
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188759212953731/RobloxScreenShot20260319_145721468.png?ex=69bd51ff&is=69bc007f&hm=5dfa84ccb2459a0816c112e7176f3e2c1ed8b377a2712a950a198417ae60d981&",
-              "filename": "RobloxScreenShot20260319_145721468.png",
-              "size": 864616
-            },
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188759661477918/RobloxScreenShot20260319_165545638.png?ex=69bd51ff&is=69bc007f&hm=0820ef41af10a2fc4a8756f8332ad1bf8e9f780f7e73d11baf581d2edd14fb9a&",
-              "filename": "RobloxScreenShot20260319_165545638.png",
-              "size": 2232980
-            },
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188760148148355/RobloxScreenShot20260319_165547811.png?ex=69bd51ff&is=69bc007f&hm=5030bd33a0fa4a1f5da80a01dea6364ac7ea602e8b23c4a11249f77036a29dc9&",
-              "filename": "RobloxScreenShot20260319_165547811.png",
-              "size": 2148918
-            }
-          ],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1286072101635100733",
       "name": "били б билисимо",
       "status": "online",
@@ -1212,6 +1080,138 @@
           "type": "text",
           "preview_url": "",
           "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1433504994824425640",
+      "name": "zelebobik",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "Сциентизм",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
+      "joined_at": "2026-02-25T13:00:26.272000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 64,
+        "images": 108,
+        "voice": 0,
+        "stickers": 9,
+        "gifs": 0,
+        "files": 10,
+        "total": 109
+      },
+      "total_messages": 64,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "22.03.2026 21:26",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Scream",
+              "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
+            }
+          ]
+        },
+        {
+          "time": "22.03.2026 21:26",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/819128604311027752.json",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Scream",
+              "url": "https://cdn.discordapp.com/stickers/819128604311027752.json"
+            }
+          ]
+        },
+        {
+          "time": "22.03.2026 21:13",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "sticker",
+          "preview_url": "https://cdn.discordapp.com/stickers/781291131828699156.png",
+          "attachments": [],
+          "stickers": [
+            {
+              "name": "Wave",
+              "url": "https://cdn.discordapp.com/stickers/781291131828699156.png"
+            }
+          ]
+        },
+        {
+          "time": "21.03.2026 14:08",
+          "channel": "🔞хент-18",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1468564179135758399/1484871224344449165/RobloxScreenShot20260321_140702634.png?ex=69bfcd97&is=69be7c17&hm=c3c9dd12885128327f5292f67ad07c33ea2dbcd6019342c84703bafd9fc01f60&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1468564179135758399/1484871224344449165/RobloxScreenShot20260321_140702634.png?ex=69bfcd97&is=69be7c17&hm=c3c9dd12885128327f5292f67ad07c33ea2dbcd6019342c84703bafd9fc01f60&",
+              "filename": "RobloxScreenShot20260321_140702634.png",
+              "size": 2070560
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "19.03.2026 16:56",
+          "channel": "🔥-мемы-и-ржака",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188758784999544/RobloxScreenShot20260319_145720214.png?ex=69bd51fe&is=69bc007e&hm=ec04112a6d651e10334b5d8c159d92310a7539bfe43093b6e15aa51bc412fa56&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188758784999544/RobloxScreenShot20260319_145720214.png?ex=69bd51fe&is=69bc007e&hm=ec04112a6d651e10334b5d8c159d92310a7539bfe43093b6e15aa51bc412fa56&",
+              "filename": "RobloxScreenShot20260319_145720214.png",
+              "size": 3038834
+            },
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188759212953731/RobloxScreenShot20260319_145721468.png?ex=69bd51ff&is=69bc007f&hm=5dfa84ccb2459a0816c112e7176f3e2c1ed8b377a2712a950a198417ae60d981&",
+              "filename": "RobloxScreenShot20260319_145721468.png",
+              "size": 864616
+            },
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188759661477918/RobloxScreenShot20260319_165545638.png?ex=69bd51ff&is=69bc007f&hm=0820ef41af10a2fc4a8756f8332ad1bf8e9f780f7e73d11baf581d2edd14fb9a&",
+              "filename": "RobloxScreenShot20260319_165545638.png",
+              "size": 2232980
+            },
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1473089573516218571/1484188760148148355/RobloxScreenShot20260319_165547811.png?ex=69bd51ff&is=69bc007f&hm=5030bd33a0fa4a1f5da80a01dea6364ac7ea602e8b23c4a11249f77036a29dc9&",
+              "filename": "RobloxScreenShot20260319_165547811.png",
+              "size": 2148918
+            }
+          ],
           "stickers": []
         }
       ]
