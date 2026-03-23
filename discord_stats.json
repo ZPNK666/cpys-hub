@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 17:23:13",
+  "updated_at": "23.03.2026 17:24:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,16 +9,16 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 14,
-    "offline_count": 25,
+    "online_count": 13,
+    "offline_count": 26,
     "in_voice_count": 6,
-    "messages_today": 131,
+    "messages_today": 132,
     "text_channels_count": 10
   },
   "media_today": {
     "text": 74,
     "images": 65,
-    "gifs": 13,
+    "gifs": 14,
     "stickers": 3,
     "voice": 0,
     "files": 0
@@ -861,41 +861,6 @@
       ]
     },
     {
-      "id": "525765291808915458",
-      "name": "MAX (вирус)",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
-      "joined_at": "2026-01-27T20:22:01.540000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "total_messages": 0,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": []
-    },
-    {
       "id": "1311555070160277525",
       "name": "TAMERLAN 12K (а чо? а хз)",
       "status": "dnd",
@@ -956,7 +921,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ислам",
@@ -970,18 +935,18 @@
         "images": 0,
         "voice": 0,
         "stickers": 0,
-        "gifs": 1,
+        "gifs": 2,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "stats_all": {
         "text": 39,
         "images": 6,
         "voice": 0,
         "stickers": 0,
-        "gifs": 14,
+        "gifs": 15,
         "files": 0,
-        "total": 59
+        "total": 60
       },
       "total_messages": 39,
       "join_leave": {
@@ -991,6 +956,15 @@
         "last_seen": null
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 17:23",
+          "channel": "💬-общий-чат",
+          "content": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "type": "gifs",
+          "preview_url": "https://tenor.com/view/sybau-syaos-british-english-ts-pmo-gif-18322740700124619850",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 17:22",
           "channel": "💬-общий-чат",
@@ -1024,15 +998,6 @@
           "content": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
           "type": "gifs",
           "preview_url": "https://giphy.com/gifs/cool-rizz-unemployed-4shcuA9njrv9kE1iay",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "20.03.2026 00:25",
-          "channel": "💬-общий-чат",
-          "content": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
-          "type": "gifs",
-          "preview_url": "https://giphy.com/gifs/who-is-he-does-think-bro-QI9Qs2jpfyCuXAFTeA",
           "attachments": [],
           "stickers": []
         }
@@ -2548,6 +2513,41 @@
           "stickers": []
         }
       ]
+    },
+    {
+      "id": "525765291808915458",
+      "name": "MAX (вирус)",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/525765291808915458/5ed23b312647afb5c84051744bebb5fc.png?size=1024",
+      "joined_at": "2026-01-27T20:22:01.540000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "total_messages": 0,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": []
     },
     {
       "id": "1407789136965931088",
@@ -4516,7 +4516,7 @@
       "time": "23.03 17:00",
       "hour": 17,
       "date": "2026-03-23",
-      "messages": 108,
+      "messages": 109,
       "online": 18,
       "in_voice": 4
     }
