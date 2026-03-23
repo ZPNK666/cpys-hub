@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:48:13",
+  "updated_at": "23.03.2026 18:49:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,14 +9,14 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 12,
-    "offline_count": 27,
+    "online_count": 13,
+    "offline_count": 26,
     "in_voice_count": 7,
-    "messages_today": 152,
+    "messages_today": 153,
     "text_channels_count": 10
   },
   "media_today": {
-    "text": 85,
+    "text": 86,
     "images": 66,
     "gifs": 22,
     "stickers": 3,
@@ -103,6 +103,64 @@
           "time": "23.03.2026 17:13",
           "channel": "💬-общий-чат",
           "content": "<:__:1460345102466547786>",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "11.03.2026 10:00",
+          "channel": "💬-общий-чат",
+          "content": "",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -571,24 +629,24 @@
       "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
       "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
-        "text": 14,
+        "text": 15,
         "images": 1,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 15
+        "total": 16
       },
       "stats_all": {
-        "text": 16,
+        "text": 17,
         "images": 1,
         "voice": 0,
         "stickers": 1,
         "gifs": 0,
         "files": 0,
-        "total": 18
+        "total": 19
       },
-      "total_messages": 16,
+      "total_messages": 17,
       "join_leave": {
         "joins": 1,
         "leaves": 0,
@@ -596,6 +654,15 @@
         "last_seen": "22.03.2026 21:22:04"
       },
       "recent_messages": [
+        {
+          "time": "23.03.2026 18:48",
+          "channel": "🌙 Тихий чилл / Интроверты only",
+          "content": "❤️",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
         {
           "time": "23.03.2026 18:48",
           "channel": "🌙 Тихий чилл / Интроверты only",
@@ -627,15 +694,6 @@
           "time": "23.03.2026 18:46",
           "channel": "🌙 Тихий чилл / Интроверты only",
           "content": "Его родители низкие",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 18:46",
-          "channel": "🌙 Тихий чилл / Интроверты only",
-          "content": "То есть если например взять батю моего ,он 185 см\nИ родители ,а его прадед был высоким и рост переда",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -874,7 +932,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ислам",
@@ -1227,64 +1285,6 @@
           "content": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnog",
           "type": "images",
           "preview_url": "https://media.discordapp.net/attachments/947508511305236611/958410673937875015/NIGGA_slovil_grustnogo_gif_bumery.gif",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "11.03.2026 10:00",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "text",
-          "preview_url": "",
           "attachments": [],
           "stickers": []
         }
@@ -4529,7 +4529,7 @@
       "time": "23.03 18:00",
       "hour": 18,
       "date": "2026-03-23",
-      "messages": 14,
+      "messages": 15,
       "online": 16,
       "in_voice": 6
     }
