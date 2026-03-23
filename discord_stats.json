@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 18:56:14",
+  "updated_at": "23.03.2026 18:57:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -11,7 +11,7 @@
     "total_members": 45,
     "online_count": 11,
     "offline_count": 28,
-    "in_voice_count": 7,
+    "in_voice_count": 6,
     "messages_today": 155,
     "text_channels_count": 10
   },
@@ -27,7 +27,7 @@
     {
       "id": "1396607687365754883",
       "name": "#!Apr๑ell꒱",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "атеист",
@@ -3069,7 +3069,7 @@
     {
       "id": "1473158504062914651",
       "name": "🌙 Тихий чилл / Интроверты only",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         {
           "id": "834060139006394368",
@@ -3078,10 +3078,6 @@
         {
           "id": "961276531387297862",
           "name": "ЛОЛИ"
-        },
-        {
-          "id": "1396607687365754883",
-          "name": "#!Apr๑ell꒱"
         },
         {
           "id": "1425903022629847200",
