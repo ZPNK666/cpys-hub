@@ -1,5 +1,5 @@
 {
-  "updated_at": "23.03.2026 11:57:13",
+  "updated_at": "23.03.2026 11:58:13",
   "timezone": "МСК (UTC+3)",
   "guild": {
     "id": "1423605509789061211",
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 10,
-    "offline_count": 26,
+    "online_count": 8,
+    "offline_count": 28,
     "in_voice_count": 0,
     "messages_today": 14,
     "text_channels_count": 10
@@ -462,98 +462,6 @@
       ]
     },
     {
-      "id": "1292870612531937358",
-      "name": "ПИКМИ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
-      "joined_at": "2026-03-05T17:56:15.928000+00:00",
-      "stats_today": {
-        "text": 17,
-        "images": 1,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 4,
-        "files": 0,
-        "total": 22
-      },
-      "stats_all": {
-        "text": 2138,
-        "images": 93,
-        "voice": 4,
-        "stickers": 62,
-        "gifs": 177,
-        "files": 48,
-        "total": 2510
-      },
-      "total_messages": 2138,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "23.03.2026 11:55",
-          "channel": "💬-общий-чат",
-          "content": "я",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:55",
-          "channel": "💬-общий-чат",
-          "content": "",
-          "type": "images",
-          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485562512454848645/IMG_6458.png?ex=69c25167&is=69c0ffe7&hm=24b83bf534441c96a68387eeebdce04a3753070750e37c95ee10b8f0233603b4&",
-          "attachments": [
-            {
-              "type": "images",
-              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485562512454848645/IMG_6458.png?ex=69c25167&is=69c0ffe7&hm=24b83bf534441c96a68387eeebdce04a3753070750e37c95ee10b8f0233603b4&",
-              "filename": "IMG_6458.png",
-              "size": 239882
-            }
-          ],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:51",
-          "channel": "💬-общий-чат",
-          "content": "били ты заебал пиздеть",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:49",
-          "channel": "💬-общий-чат",
-          "content": "я выиграла друзья",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "23.03.2026 11:49",
-          "channel": "💬-общий-чат",
-          "content": "вы соревнуетесь кто меньше всего спал",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
       "id": "1418873225596895284",
       "name": "Rudy",
       "status": "online",
@@ -707,62 +615,6 @@
           "time": "14.03.2026 22:32",
           "channel": "💬-общий-чат",
           "content": "",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        }
-      ]
-    },
-    {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
-      "status": "idle",
-      "roles": [
-        "ОФИЧЕР СС"
-      ],
-      "top_role": "ОФИЧЕР СС",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-01-22T18:23:10.803000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "stats_all": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "total_messages": 2,
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0,
-        "first_join": null,
-        "last_seen": null
-      },
-      "recent_messages": [
-        {
-          "time": "08.03.2026 21:04",
-          "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
-          "type": "text",
-          "preview_url": "",
-          "attachments": [],
-          "stickers": []
-        },
-        {
-          "time": "08.03.2026 21:04",
-          "channel": "💬-общий-чат",
-          "content": "Что у тебя абоба",
           "type": "text",
           "preview_url": "",
           "attachments": [],
@@ -958,6 +810,98 @@
       ]
     },
     {
+      "id": "1292870612531937358",
+      "name": "ПИКМИ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1292870612531937358/d68a7219b1ad7d43c7e07bda4028f516.png?size=1024",
+      "joined_at": "2026-03-05T17:56:15.928000+00:00",
+      "stats_today": {
+        "text": 17,
+        "images": 1,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 4,
+        "files": 0,
+        "total": 22
+      },
+      "stats_all": {
+        "text": 2138,
+        "images": 93,
+        "voice": 4,
+        "stickers": 62,
+        "gifs": 177,
+        "files": 48,
+        "total": 2510
+      },
+      "total_messages": 2138,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "23.03.2026 11:55",
+          "channel": "💬-общий-чат",
+          "content": "я",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:55",
+          "channel": "💬-общий-чат",
+          "content": "",
+          "type": "images",
+          "preview_url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485562512454848645/IMG_6458.png?ex=69c25167&is=69c0ffe7&hm=24b83bf534441c96a68387eeebdce04a3753070750e37c95ee10b8f0233603b4&",
+          "attachments": [
+            {
+              "type": "images",
+              "url": "https://cdn.discordapp.com/attachments/1450428861836951674/1485562512454848645/IMG_6458.png?ex=69c25167&is=69c0ffe7&hm=24b83bf534441c96a68387eeebdce04a3753070750e37c95ee10b8f0233603b4&",
+              "filename": "IMG_6458.png",
+              "size": 239882
+            }
+          ],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:51",
+          "channel": "💬-общий-чат",
+          "content": "били ты заебал пиздеть",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:49",
+          "channel": "💬-общий-чат",
+          "content": "я выиграла друзья",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "23.03.2026 11:49",
+          "channel": "💬-общий-чат",
+          "content": "вы соревнуетесь кто меньше всего спал",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
+    },
+    {
       "id": "1451592083935592490",
       "name": "KUTSI",
       "status": "offline",
@@ -1032,6 +976,62 @@
         "last_seen": null
       },
       "recent_messages": []
+    },
+    {
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "offline",
+      "roles": [
+        "ОФИЧЕР СС"
+      ],
+      "top_role": "ОФИЧЕР СС",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-01-22T18:23:10.803000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "stats_all": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "total_messages": 2,
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0,
+        "first_join": null,
+        "last_seen": null
+      },
+      "recent_messages": [
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        },
+        {
+          "time": "08.03.2026 21:04",
+          "channel": "💬-общий-чат",
+          "content": "Что у тебя абоба",
+          "type": "text",
+          "preview_url": "",
+          "attachments": [],
+          "stickers": []
+        }
+      ]
     },
     {
       "id": "1433504994824425640",
