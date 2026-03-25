@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T15:19:33.627529+00:00",
+  "updated_at": "2026-03-25T15:21:36.785699+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 29,
     "online_count": 13,
     "offline_count": 16,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 2,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -27,7 +27,7 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "ОФИЧЕР СС",
@@ -194,7 +194,7 @@
     {
       "id": "1293571301008736257",
       "name": "Роскомнадзор",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -316,7 +316,7 @@
     {
       "id": "1462906498110849218",
       "name": "astro poly 2.0",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -752,10 +752,9 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         "dark_soul",
-        "кирпич",
         "spiik",
         "Makan"
       ],
@@ -886,13 +885,6 @@
     "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 19:32",
-      "hour": 19,
-      "online": 12,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "25.03 19:34",
       "hour": 19,
@@ -1052,6 +1044,13 @@
       "hour": 20,
       "online": 13,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "25.03 20:21",
+      "hour": 20,
+      "online": 13,
+      "in_voice": 3,
       "messages": 0
     }
   ],
