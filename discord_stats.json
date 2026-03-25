@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T18:10:25.631463+00:00",
+  "updated_at": "2026-03-25T18:10:50.211625+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 29,
-    "online_count": 18,
-    "offline_count": 11,
+    "online_count": 19,
+    "offline_count": 10,
     "in_voice_count": 6,
     "messages_today": 25,
     "text_channels_count": 8,
@@ -172,6 +172,28 @@
         "gifs": 0,
         "files": 0,
         "total": 4
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "712983357205643314",
+      "name": "Chipunya",
+      "status": "idle",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/712983357205643314/3e2fbfca89cf85ebad0c4b61ed833745.png?size=1024",
+      "joined_at": "2026-03-24T16:27:15.474890+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -497,28 +519,6 @@
       }
     },
     {
-      "id": "712983357205643314",
-      "name": "Chipunya",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/712983357205643314/3e2fbfca89cf85ebad0c4b61ed833745.png?size=1024",
-      "joined_at": "2026-03-24T16:27:15.474890+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 1
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "993900146930753606",
       "name": "АУДИТОР",
       "status": "offline",
@@ -756,10 +756,10 @@
       "members": [
         "dark_soul",
         "Makan",
-        "GOJO",
         "POq12892",
         "кирпич",
-        "Роскомнадзор"
+        "Роскомнадзор",
+        "GOJO"
       ],
       "user_limit": 0
     },
@@ -888,13 +888,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 22:46",
-      "hour": 22,
-      "online": 19,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "25.03 22:47",
       "hour": 22,
@@ -1055,6 +1048,13 @@
       "online": 18,
       "in_voice": 6,
       "messages": 2
+    },
+    {
+      "time": "25.03 23:10",
+      "hour": 23,
+      "online": 19,
+      "in_voice": 6,
+      "messages": 0
     }
   ],
   "top_chatters": [],
