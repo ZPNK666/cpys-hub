@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T17:21:35.521349+00:00",
+  "updated_at": "2026-03-25T17:23:14.150783+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -278,7 +278,7 @@
     {
       "id": "1222900395647434864",
       "name": "lamponyx321",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "женщины"
       ],
@@ -752,22 +752,22 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
-        "dark_soul",
-        "spiik",
         "Жигуль в прайме",
         "Makan",
-        "GOJO"
+        "GOJO",
+        "spiik"
       ],
       "user_limit": 0
     },
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         "ZPNK666",
+        "dark_soul",
         "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
       ],
       "user_limit": 0
@@ -890,13 +890,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 21:43",
-      "hour": 21,
-      "online": 14,
-      "in_voice": 5,
-      "messages": 1
-    },
     {
       "time": "25.03 21:45",
       "hour": 21,
@@ -1057,12 +1050,19 @@
       "online": 18,
       "in_voice": 7,
       "messages": 0
+    },
+    {
+      "time": "25.03 22:23",
+      "hour": 22,
+      "online": 18,
+      "in_voice": 7,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": "2026-03-25T15:55:12.310000",
+    "server_started": "2026-03-25T17:21:55.897000",
     "server_stopped": "2026-03-25T16:27:38.236000",
     "top_killers": [],
     "recent_events": [
@@ -1305,6 +1305,11 @@
         "type": "server_stop",
         "date": "25.03.2026",
         "time": "16:27"
+      },
+      {
+        "type": "server_start",
+        "date": "25.03.2026",
+        "time": "17:21"
       }
     ],
     "kills": {},
@@ -1412,6 +1417,11 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "17:21"
         }
       ]
     }
