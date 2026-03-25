@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T18:45:09.766710+00:00",
+  "updated_at": "2026-03-25T18:45:33.421731+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 16,
-    "offline_count": 14,
+    "online_count": 15,
+    "offline_count": 15,
     "in_voice_count": 9,
     "messages_today": 36,
     "text_channels_count": 8,
@@ -53,7 +53,7 @@
     {
       "id": "1396938275263877150",
       "name": "spiik",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -341,28 +341,6 @@
         "gifs": 0,
         "files": 0,
         "total": 4
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1436969435104677948",
-      "name": "RCY | zebra22867",
-      "status": "online",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
-      "joined_at": "2026-03-24T12:54:41.758000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -669,6 +647,28 @@
       }
     },
     {
+      "id": "1436969435104677948",
+      "name": "RCY | zebra22867",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
+      "joined_at": "2026-03-24T12:54:41.758000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1440792780233244835",
       "name": "Карасик",
       "status": "offline",
@@ -920,13 +920,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 23:21",
-      "hour": 23,
-      "online": 16,
-      "in_voice": 7,
-      "messages": 0
-    },
-    {
       "time": "25.03 23:22",
       "hour": 23,
       "online": 16,
@@ -1084,6 +1077,13 @@
       "time": "25.03 23:45",
       "hour": 23,
       "online": 16,
+      "in_voice": 9,
+      "messages": 0
+    },
+    {
+      "time": "25.03 23:45",
+      "hour": 23,
+      "online": 15,
       "in_voice": 9,
       "messages": 0
     }
