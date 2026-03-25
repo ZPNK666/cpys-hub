@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T16:18:59.205077+00:00",
+  "updated_at": "2026-03-25T16:21:02.436983+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 29,
     "online_count": 13,
     "offline_count": 16,
-    "in_voice_count": 5,
+    "in_voice_count": 4,
     "messages_today": 2,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -99,7 +99,7 @@
     {
       "id": "1222900395647434864",
       "name": "lamponyx321",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "женщины"
       ],
@@ -242,7 +242,7 @@
     {
       "id": "1433504994824425640",
       "name": "POq12892",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
@@ -752,13 +752,12 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         "dark_soul",
         "spiik",
         "кирпич",
-        "ZPNK666",
-        "POq12892"
+        "ZPNK666"
       ],
       "user_limit": 0
     },
@@ -887,13 +886,6 @@
     "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 20:31",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 7,
-      "messages": 0
-    },
     {
       "time": "25.03 20:33",
       "hour": 20,
@@ -1053,6 +1045,13 @@
       "hour": 21,
       "online": 13,
       "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "25.03 21:21",
+      "hour": 21,
+      "online": 13,
+      "in_voice": 4,
       "messages": 0
     }
   ],
