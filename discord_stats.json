@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T13:47:08.926956+00:00",
+  "updated_at": "2026-03-25T13:49:11.181213+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 10,
-    "offline_count": 20,
+    "online_count": 9,
+    "offline_count": 21,
     "in_voice_count": 3,
     "messages_today": 2,
     "text_channels_count": 8,
@@ -60,30 +60,6 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/712983357205643314/3e2fbfca89cf85ebad0c4b61ed833745.png?size=1024",
       "joined_at": "2026-03-24T16:27:15.474890+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1222900395647434864",
-      "name": "lamponyx321",
-      "status": "idle",
-      "roles": [
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
-      "joined_at": "2025-10-03T14:17:20.491000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -476,6 +452,30 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
       "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1222900395647434864",
+      "name": "lamponyx321",
+      "status": "offline",
+      "roles": [
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
+      "joined_at": "2025-10-03T14:17:20.491000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -912,13 +912,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 18:00",
-      "hour": 18,
-      "online": 9,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "25.03 18:02",
       "hour": 18,
       "online": 8,
@@ -1076,6 +1069,13 @@
       "time": "25.03 18:47",
       "hour": 18,
       "online": 10,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "25.03 18:49",
+      "hour": 18,
+      "online": 9,
       "in_voice": 3,
       "messages": 0
     }
