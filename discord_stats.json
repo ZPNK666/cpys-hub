@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T17:48:18.410143+00:00",
+  "updated_at": "2026-03-25T17:49:52.005021+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -379,7 +379,7 @@
     {
       "id": "1264222387214483562",
       "name": "GOJO",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/aef8404b7afdfbf182d5cefed1042593.png?size=1024",
@@ -889,13 +889,6 @@
       "time": "25.03 22:25",
       "hour": 22,
       "online": 18,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
-      "time": "25.03 22:25",
-      "hour": 22,
-      "online": 18,
       "in_voice": 5,
       "messages": 0
     },
@@ -1048,6 +1041,13 @@
     },
     {
       "time": "25.03 22:48",
+      "hour": 22,
+      "online": 20,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "25.03 22:49",
       "hour": 22,
       "online": 20,
       "in_voice": 3,
