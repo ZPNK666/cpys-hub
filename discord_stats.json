@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T16:56:08.518019+00:00",
+  "updated_at": "2026-03-25T16:58:12.438392+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -752,22 +752,23 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 6,
+      "members_count": 4,
       "members": [
         "dark_soul",
         "spiik",
-        "ZPNK666",
         "GOJO",
-        "Makan",
-        "2 КВИТЕНЬ"
+        "Makan"
       ],
       "user_limit": 0
     },
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 0,
-      "members": [],
+      "members_count": 2,
+      "members": [
+        "ZPNK666",
+        "2 КВИТЕНЬ"
+      ],
       "user_limit": 0
     },
     {
@@ -888,13 +889,6 @@
     "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 21:08",
-      "hour": 21,
-      "online": 13,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "25.03 21:10",
       "hour": 21,
@@ -1051,6 +1045,13 @@
     },
     {
       "time": "25.03 21:56",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "25.03 21:58",
       "hour": 21,
       "online": 15,
       "in_voice": 6,
