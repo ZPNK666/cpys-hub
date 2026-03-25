@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T19:28:29.039082+00:00",
+  "updated_at": "2026-03-25T19:30:08.479350+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 11,
     "offline_count": 19,
-    "in_voice_count": 2,
+    "in_voice_count": 1,
     "messages_today": 40,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -51,6 +51,32 @@
       }
     },
     {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "834060139006394368",
       "name": "ZPNK666",
       "status": "online",
@@ -79,17 +105,13 @@
       }
     },
     {
-      "id": "1009475184090152961",
-      "name": "майонез",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
-      "joined_at": "2026-01-12T09:11:19.082000+00:00",
+      "id": "712983357205643314",
+      "name": "Chipunya",
+      "status": "idle",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/712983357205643314/03aeb85f584f5aa80b00d2f9f582cd6b.png?size=1024",
+      "joined_at": "2026-03-24T16:27:15.474890+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -105,18 +127,17 @@
       }
     },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич",
+      "id": "1009475184090152961",
+      "name": "майонез",
       "status": "online",
       "roles": [
         "у меня есть хент",
-        "ОФИЧЕР СС",
-        "Агностик",
-        "мужчины"
+        "атеист",
+        "женщины"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ec07556e9cf68deba234f3433f687671.png?size=1024",
-      "joined_at": "2026-03-23T23:29:27.114000+00:00",
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
+      "joined_at": "2026-01-12T09:11:19.082000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -278,32 +299,6 @@
         "joins": 0,
         "leaves": 0
       }
-    },
-    {
-      "id": "1149289620610228274",
-      "name": "kiræxvoid",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/3bd7339d6884b134f195982347cd0de3.png?size=1024",
-      "joined_at": "2026-03-25T18:38:14.933592+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
     }
   ],
   "offline_members": [
@@ -394,54 +389,6 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
       "joined_at": "2026-03-24T10:19:44.199533+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 1
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "712983357205643314",
-      "name": "Chipunya",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/712983357205643314/03aeb85f584f5aa80b00d2f9f582cd6b.png?size=1024",
-      "joined_at": "2026-03-24T16:27:15.474890+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -651,6 +598,33 @@
       }
     },
     {
+      "id": "1255232329362833409",
+      "name": "кирпич",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "ОФИЧЕР СС",
+        "Агностик",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ec07556e9cf68deba234f3433f687671.png?size=1024",
+      "joined_at": "2026-03-23T23:29:27.114000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1436969435104677948",
       "name": "RCY | zebra22867",
       "status": "offline",
@@ -776,16 +750,40 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1149289620610228274",
+      "name": "kiræxvoid",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/3bd7339d6884b134f195982347cd0de3.png?size=1024",
+      "joined_at": "2026-03-25T18:38:14.933592+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 1,
-      "members": [
-        "Роскомнадзор"
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 0
     },
     {
@@ -915,13 +913,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 00:05",
-      "hour": 0,
-      "online": 13,
-      "in_voice": 6,
-      "messages": 1
-    },
     {
       "time": "26.03 00:05",
       "hour": 0,
@@ -1081,6 +1072,13 @@
       "hour": 0,
       "online": 11,
       "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 00:30",
+      "hour": 0,
+      "online": 11,
+      "in_voice": 1,
       "messages": 0
     }
   ],
