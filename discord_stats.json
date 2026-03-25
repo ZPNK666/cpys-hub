@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T09:43:57.817148+00:00",
+  "updated_at": "2026-03-25T09:46:01.160489+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 8,
-    "offline_count": 22,
+    "online_count": 7,
+    "offline_count": 23,
     "in_voice_count": 1,
     "messages_today": 0,
     "text_channels_count": 8,
@@ -180,32 +180,6 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
       "joined_at": "2026-03-24T18:42:56.281182+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1462814416281014468",
-      "name": "Makan",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
-      "joined_at": "2026-03-24T17:48:23.860000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -748,6 +722,32 @@
       }
     },
     {
+      "id": "1462814416281014468",
+      "name": "Makan",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "joined_at": "2026-03-24T17:48:23.860000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1462906498110849218",
       "name": "astro poly 2.0",
       "status": "offline",
@@ -910,13 +910,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 13:57",
-      "hour": 13,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
       "time": "25.03 13:59",
       "hour": 13,
       "online": 7,
@@ -1074,6 +1067,13 @@
       "time": "25.03 14:43",
       "hour": 14,
       "online": 8,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "25.03 14:46",
+      "hour": 14,
+      "online": 7,
       "in_voice": 1,
       "messages": 0
     }
