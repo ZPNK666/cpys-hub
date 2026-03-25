@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T20:09:33.109523+00:00",
+  "updated_at": "2026-03-25T20:11:12.784083+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 8,
     "offline_count": 22,
-    "in_voice_count": 0,
+    "in_voice_count": 1,
     "messages_today": 49,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -127,32 +127,6 @@
       }
     },
     {
-      "id": "1293571301008736257",
-      "name": "Роскомнадзор",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1293571301008736257/f7e7ec8fade447e31a572ed21320846c.png?size=1024",
-      "joined_at": "2026-03-24T17:53:46.370000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1366113301221867725",
       "name": "HAHAHAHAH",
       "status": "online",
@@ -186,6 +160,33 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
       "joined_at": "2026-03-24T10:19:41.726000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1443164541126049965",
+      "name": "💋Ангел💋",
+      "status": "online",
+      "roles": [
+        "ОФИЧЕР СС",
+        "iPhone",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1443164541126049965/3c11e73370d2d23257792b784db1ae38.png?size=1024",
+      "joined_at": "2026-01-05T18:38:39.881000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -599,6 +600,32 @@
       }
     },
     {
+      "id": "1293571301008736257",
+      "name": "Роскомнадзор",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1293571301008736257/f7e7ec8fade447e31a572ed21320846c.png?size=1024",
+      "joined_at": "2026-03-24T17:53:46.370000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1420445349218357439",
       "name": "Fox",
       "status": "offline",
@@ -658,33 +685,6 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1440792780233244835/eb51b5b8f02fdd1e6daf17e21aa76c9c.png?size=1024",
       "joined_at": "2026-02-25T16:13:26.997000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1443164541126049965",
-      "name": "💋Ангел💋",
-      "status": "offline",
-      "roles": [
-        "ОФИЧЕР СС",
-        "iPhone",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1443164541126049965/3c11e73370d2d23257792b784db1ae38.png?size=1024",
-      "joined_at": "2026-01-05T18:38:39.881000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -782,8 +782,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 0,
-      "members": [],
+      "members_count": 1,
+      "members": [
+        "HAHAHAHAH"
+      ],
       "user_limit": 0
     },
     {
@@ -911,13 +913,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 00:46",
-      "hour": 0,
-      "online": 9,
-      "in_voice": 0,
-      "messages": 0
-    },
     {
       "time": "26.03 00:46",
       "hour": 0,
@@ -1077,6 +1072,13 @@
       "hour": 1,
       "online": 8,
       "in_voice": 0,
+      "messages": 0
+    },
+    {
+      "time": "26.03 01:11",
+      "hour": 1,
+      "online": 8,
+      "in_voice": 1,
       "messages": 0
     }
   ],
