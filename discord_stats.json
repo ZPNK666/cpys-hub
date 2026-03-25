@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T18:55:45.269600+00:00",
+  "updated_at": "2026-03-25T18:57:26.241949+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -11,12 +11,12 @@
     "online_count": 15,
     "offline_count": 15,
     "in_voice_count": 8,
-    "messages_today": 73,
+    "messages_today": 84,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 73,
+    "text": 84,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -307,18 +307,20 @@
       "id": "1420445349218357439",
       "name": "Fox",
       "status": "online",
-      "roles": [],
-      "top_role": "member",
+      "roles": [
+        "мужчины"
+      ],
+      "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
       "joined_at": "2026-03-24T18:42:56.281182+00:00",
       "stats_today": {
-        "text": 36,
+        "text": 47,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 36
+        "total": 47
       },
       "join_leave": {
         "joins": 0,
@@ -908,7 +910,7 @@
   "role_distribution": {
     "у меня есть хент": 14,
     "провославный": 3,
-    "мужчины": 7,
+    "мужчины": 8,
     "атеист": 8,
     "женщины": 15,
     "нету хента": 4,
@@ -918,13 +920,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 23:32",
-      "hour": 23,
-      "online": 17,
-      "in_voice": 6,
-      "messages": 1
-    },
     {
       "time": "25.03 23:33",
       "hour": 23,
@@ -1085,6 +1080,13 @@
       "online": 15,
       "in_voice": 8,
       "messages": 0
+    },
+    {
+      "time": "25.03 23:57",
+      "hour": 23,
+      "online": 15,
+      "in_voice": 8,
+      "messages": 11
     }
   ],
   "top_chatters": [],
