@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T07:43:47.278420+00:00",
+  "updated_at": "2026-03-25T07:45:49.279423+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -27,7 +27,7 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "ОФИЧЕР СС",
@@ -908,14 +908,6 @@
   },
   "hourly_history": [
     {
-      "time": "23.03 11:00",
-      "hour": 11,
-      "date": "2026-03-23",
-      "messages": 10,
-      "online": 14,
-      "in_voice": 5
-    },
-    {
       "time": "23.03 12:00",
       "hour": 12,
       "date": "2026-03-23",
@@ -1090,12 +1082,19 @@
       "online": 5,
       "in_voice": 0,
       "messages": 0
+    },
+    {
+      "time": "25.03 12:45",
+      "hour": 12,
+      "online": 5,
+      "in_voice": 0,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": "2026-03-25T07:34:04.098000",
+    "server_started": "2026-03-25T07:44:40.326000",
     "server_stopped": "2026-03-25T07:39:36.954000",
     "top_killers": [],
     "recent_events": [
@@ -1108,6 +1107,11 @@
         "type": "server_stop",
         "date": "25.03.2026",
         "time": "07:39"
+      },
+      {
+        "type": "server_start",
+        "date": "25.03.2026",
+        "time": "07:44"
       }
     ],
     "kills": {},
@@ -1125,6 +1129,11 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "07:39"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:44"
         }
       ]
     }
