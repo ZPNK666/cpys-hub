@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T18:39:00.986533+00:00",
+  "updated_at": "2026-03-25T18:39:25.918047+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -107,7 +107,7 @@
     {
       "id": "1009475184090152961",
       "name": "майонез",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -774,13 +774,11 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 5,
+      "members_count": 3,
       "members": [
-        "кирпич",
         "Роскомнадзор",
         "spiik",
-        "HAHAHAHAH",
-        "kiræxvoid"
+        "HAHAHAHAH"
       ],
       "user_limit": 0
     },
@@ -794,8 +792,11 @@
     {
       "id": "1485783339351806123",
       "name": "⋆ 𝓡 𝑜𝑏𝑙𝑜𝑥-🌐",
-      "members_count": 0,
-      "members": [],
+      "members_count": 2,
+      "members": [
+        "кирпич",
+        "kiræxvoid"
+      ],
       "user_limit": 0
     },
     {
@@ -913,13 +914,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 23:14",
-      "hour": 23,
-      "online": 16,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "25.03 23:16",
       "hour": 23,
@@ -1080,6 +1074,13 @@
       "online": 16,
       "in_voice": 8,
       "messages": 2
+    },
+    {
+      "time": "25.03 23:39",
+      "hour": 23,
+      "online": 16,
+      "in_voice": 8,
+      "messages": 0
     }
   ],
   "top_chatters": [],
