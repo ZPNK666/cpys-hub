@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T13:51:13.587604+00:00",
+  "updated_at": "2026-03-25T13:53:15.990179+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 9,
     "offline_count": 21,
-    "in_voice_count": 3,
+    "in_voice_count": 2,
     "messages_today": 2,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -778,10 +778,9 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         "spiik",
-        "Жигуль в прайме",
         "Makan"
       ],
       "user_limit": 0
@@ -911,13 +910,6 @@
     "Агностик": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 18:04",
-      "hour": 18,
-      "online": 8,
-      "in_voice": 2,
-      "messages": 0
-    },
     {
       "time": "25.03 18:06",
       "hour": 18,
@@ -1077,6 +1069,13 @@
       "hour": 18,
       "online": 9,
       "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "25.03 18:53",
+      "hour": 18,
+      "online": 9,
+      "in_voice": 2,
       "messages": 0
     }
   ],
