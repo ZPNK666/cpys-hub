@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T19:24:24.592925+00:00",
+  "updated_at": "2026-03-25T19:26:03.862232+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 10,
     "offline_count": 20,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 40,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -782,11 +782,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         "spiik",
-        "Роскомнадзор",
-        "кирпич"
+        "Роскомнадзор"
       ],
       "user_limit": 0
     },
@@ -917,13 +916,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 00:01",
-      "hour": 0,
-      "online": 15,
-      "in_voice": 8,
-      "messages": 10
-    },
     {
       "time": "26.03 00:01",
       "hour": 0,
@@ -1083,6 +1075,13 @@
       "hour": 0,
       "online": 10,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "26.03 00:26",
+      "hour": 0,
+      "online": 10,
+      "in_voice": 3,
       "messages": 0
     }
   ],
