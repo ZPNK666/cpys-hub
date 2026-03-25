@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T19:30:31.612272+00:00",
+  "updated_at": "2026-03-25T19:32:10.845560+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,13 +10,13 @@
     "total_members": 30,
     "online_count": 12,
     "offline_count": 18,
-    "in_voice_count": 1,
-    "messages_today": 40,
+    "in_voice_count": 3,
+    "messages_today": 42,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 40,
+    "text": 42,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -27,7 +27,7 @@
     {
       "id": "1396938275263877150",
       "name": "spiik",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -266,13 +266,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
       "joined_at": "2026-03-24T18:42:56.281000+00:00",
       "stats_today": {
-        "text": 33,
+        "text": 35,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 33
+        "total": 35
       },
       "join_leave": {
         "joins": 0,
@@ -810,17 +810,20 @@
     {
       "id": "1485783584609669255",
       "name": "⋆  𝓛 𝑜𝑢𝑛𝑔𝑒-🌙",
-      "members_count": 1,
+      "members_count": 2,
       "members": [
-        "Fox"
+        "Fox",
+        "2 КВИТЕНЬ"
       ],
       "user_limit": 4
     },
     {
       "id": "1486098016371740933",
       "name": "⋆  𝓜 𝑢𝑠𝑖𝑐-🎧",
-      "members_count": 0,
-      "members": [],
+      "members_count": 1,
+      "members": [
+        "Роскомнадзор"
+      ],
       "user_limit": 0
     },
     {
@@ -913,13 +916,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 00:07",
-      "hour": 0,
-      "online": 14,
-      "in_voice": 7,
-      "messages": 9
-    },
     {
       "time": "26.03 00:08",
       "hour": 0,
@@ -1080,6 +1076,13 @@
       "online": 12,
       "in_voice": 1,
       "messages": 0
+    },
+    {
+      "time": "26.03 00:32",
+      "hour": 0,
+      "online": 12,
+      "in_voice": 3,
+      "messages": 2
     }
   ],
   "top_chatters": [],
