@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T14:24:16.379029+00:00",
+  "updated_at": "2026-03-25T14:26:20.652021+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 12,
-    "offline_count": 18,
-    "in_voice_count": 3,
+    "online_count": 13,
+    "offline_count": 17,
+    "in_voice_count": 2,
     "messages_today": 2,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -123,6 +123,30 @@
       }
     },
     {
+      "id": "1222900395647434864",
+      "name": "lamponyx321",
+      "status": "online",
+      "roles": [
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
+      "joined_at": "2025-10-03T14:17:20.491000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1255232329362833409",
       "name": "кирпич",
       "status": "online",
@@ -152,7 +176,7 @@
     {
       "id": "1264222387214483562",
       "name": "GOJO",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/aef8404b7afdfbf182d5cefed1042593.png?size=1024",
@@ -498,30 +522,6 @@
       }
     },
     {
-      "id": "1222900395647434864",
-      "name": "lamponyx321",
-      "status": "offline",
-      "roles": [
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
-      "joined_at": "2025-10-03T14:17:20.491000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1248970731849777152",
       "name": "СОЛНЕШКО",
       "status": "offline",
@@ -778,11 +778,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         "spiik",
-        "Makan",
-        "кирпич"
+        "Makan"
       ],
       "user_limit": 0
     },
@@ -911,13 +910,6 @@
     "Агностик": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 18:36",
-      "hour": 18,
-      "online": 11,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "25.03 18:38",
       "hour": 18,
@@ -1078,12 +1070,19 @@
       "online": 12,
       "in_voice": 3,
       "messages": 0
+    },
+    {
+      "time": "25.03 19:26",
+      "hour": 19,
+      "online": 13,
+      "in_voice": 2,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": "2026-03-25T10:50:35.023000",
+    "server_started": "2026-03-25T14:25:42.167000",
     "server_stopped": "2026-03-25T14:19:55.662000",
     "top_killers": [],
     "recent_events": [
@@ -1172,6 +1171,11 @@
         "type": "server_stop",
         "date": "25.03.2026",
         "time": "14:19"
+      },
+      {
+        "type": "server_start",
+        "date": "25.03.2026",
+        "time": "14:25"
       }
     ],
     "kills": {},
@@ -1209,6 +1213,11 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "14:19"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "14:25"
         }
       ]
     }
