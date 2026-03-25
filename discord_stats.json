@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T12:09:10.477041+00:00",
+  "updated_at": "2026-03-25T12:11:12.690771+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -912,13 +912,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 16:22",
-      "hour": 16,
-      "online": 8,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
       "time": "25.03 16:24",
       "hour": 16,
       "online": 8,
@@ -1078,6 +1071,13 @@
       "online": 8,
       "in_voice": 3,
       "messages": 0
+    },
+    {
+      "time": "25.03 17:11",
+      "hour": 17,
+      "online": 8,
+      "in_voice": 3,
+      "messages": 0
     }
   ],
   "top_chatters": [],
@@ -1111,6 +1111,13 @@
         "type": "server_start",
         "date": "25.03.2026",
         "time": "10:50"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "целый час я делал булаву",
+        "date": "25.03.2026",
+        "time": "12:09"
       }
     ],
     "kills": {},
