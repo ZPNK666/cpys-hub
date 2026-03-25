@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T08:10:15.404535+00:00",
+  "updated_at": "2026-03-25T08:12:17.596821+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -149,7 +149,7 @@
     {
       "id": "1420445349218357439",
       "name": "Fox",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
@@ -908,14 +908,6 @@
   },
   "hourly_history": [
     {
-      "time": "24.03 00:00",
-      "hour": 0,
-      "date": "2026-03-24",
-      "messages": 0,
-      "online": 17,
-      "in_voice": 5
-    },
-    {
       "time": "24.03 01:00",
       "hour": 1,
       "date": "2026-03-24",
@@ -1073,6 +1065,13 @@
     },
     {
       "time": "25.03 13:10",
+      "hour": 13,
+      "online": 7,
+      "in_voice": 0,
+      "messages": 0
+    },
+    {
+      "time": "25.03 13:12",
       "hour": 13,
       "online": 7,
       "in_voice": 0,
