@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T15:42:03.326441+00:00",
+  "updated_at": "2026-03-25T15:44:06.074922+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 29,
-    "online_count": 14,
-    "offline_count": 15,
+    "online_count": 13,
+    "offline_count": 16,
     "in_voice_count": 3,
     "messages_today": 2,
     "text_channels_count": 8,
@@ -268,7 +268,7 @@
     {
       "id": "1433504994824425640",
       "name": "POq12892",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
@@ -321,32 +321,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
       "joined_at": "2026-03-24T17:48:23.860000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1462906498110849218",
-      "name": "astro poly 2.0",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1462906498110849218/64068c14008237aa5a9ab65a50ca1512.png?size=1024",
-      "joined_at": "2026-03-24T18:22:46.453000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -746,6 +720,32 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1462906498110849218",
+      "name": "astro poly 2.0",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1462906498110849218/64068c14008237aa5a9ab65a50ca1512.png?size=1024",
+      "joined_at": "2026-03-24T18:22:46.453000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
@@ -885,13 +885,6 @@
     "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 19:55",
-      "hour": 19,
-      "online": 12,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "25.03 19:57",
       "hour": 19,
@@ -1050,6 +1043,13 @@
       "time": "25.03 20:42",
       "hour": 20,
       "online": 14,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "25.03 20:44",
+      "hour": 20,
+      "online": 13,
       "in_voice": 3,
       "messages": 0
     }
