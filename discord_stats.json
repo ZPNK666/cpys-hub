@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T17:23:14.150783+00:00",
+  "updated_at": "2026-03-25T17:23:37.968082+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -752,11 +752,8 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 1,
       "members": [
-        "Жигуль в прайме",
-        "Makan",
-        "GOJO",
         "spiik"
       ],
       "user_limit": 0
@@ -764,10 +761,9 @@
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         "ZPNK666",
-        "dark_soul",
         "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
       ],
       "user_limit": 0
@@ -775,8 +771,13 @@
     {
       "id": "1485783339351806123",
       "name": "⋆ 𝓡 𝑜𝑏𝑙𝑜𝑥-🌐",
-      "members_count": 0,
-      "members": [],
+      "members_count": 4,
+      "members": [
+        "dark_soul",
+        "Жигуль в прайме",
+        "Makan",
+        "GOJO"
+      ],
       "user_limit": 0
     },
     {
@@ -890,13 +891,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 21:45",
-      "hour": 21,
-      "online": 15,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "25.03 21:47",
       "hour": 21,
@@ -1046,6 +1040,13 @@
     },
     {
       "time": "25.03 22:21",
+      "hour": 22,
+      "online": 18,
+      "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "25.03 22:23",
       "hour": 22,
       "online": 18,
       "in_voice": 7,
