@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T11:11:54.858722+00:00",
+  "updated_at": "2026-03-25T11:13:57.238208+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 7,
-    "offline_count": 23,
+    "online_count": 6,
+    "offline_count": 24,
     "in_voice_count": 0,
     "messages_today": 1,
     "text_channels_count": 8,
@@ -46,30 +46,6 @@
         "gifs": 0,
         "files": 0,
         "total": 1
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "idle",
-      "roles": [
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -380,6 +356,30 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
       "joined_at": "2026-03-24T17:15:48.003099+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "offline",
+      "roles": [
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -908,13 +908,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 15:24",
-      "hour": 15,
-      "online": 6,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
       "time": "25.03 15:27",
       "hour": 15,
       "online": 6,
@@ -1072,6 +1065,13 @@
       "time": "25.03 16:11",
       "hour": 16,
       "online": 7,
+      "in_voice": 0,
+      "messages": 0
+    },
+    {
+      "time": "25.03 16:13",
+      "hour": 16,
+      "online": 6,
       "in_voice": 0,
       "messages": 0
     }
