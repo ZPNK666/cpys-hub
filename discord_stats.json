@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T12:31:36.139050+00:00",
+  "updated_at": "2026-03-25T12:33:38.323505+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 8,
     "offline_count": 22,
-    "in_voice_count": 3,
+    "in_voice_count": 4,
     "messages_today": 1,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -548,7 +548,7 @@
     },
     {
       "id": "1425903022629847200",
-      "name": "аничка",
+      "name": "А хули я Анечка",
       "status": "offline",
       "roles": [
         "у меня есть хент",
@@ -815,10 +815,11 @@
     {
       "id": "1486098016371740933",
       "name": "⋆  𝓜 𝑢𝑠𝑖𝑐-🎧",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         "Роскомнадзор",
-        "HAHAHAHAH"
+        "HAHAHAHAH",
+        "А хули я Анечка"
       ],
       "user_limit": 0
     },
@@ -912,13 +913,6 @@
     "Агностик": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 16:44",
-      "hour": 16,
-      "online": 7,
-      "in_voice": 0,
-      "messages": 0
-    },
     {
       "time": "25.03 16:46",
       "hour": 16,
@@ -1078,6 +1072,13 @@
       "hour": 17,
       "online": 8,
       "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "25.03 17:33",
+      "hour": 17,
+      "online": 8,
+      "in_voice": 4,
       "messages": 0
     }
   ],
