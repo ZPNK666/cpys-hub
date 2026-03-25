@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T17:15:23.811509+00:00",
+  "updated_at": "2026-03-25T17:17:05.936068+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,13 +10,13 @@
     "total_members": 29,
     "online_count": 19,
     "offline_count": 10,
-    "in_voice_count": 8,
-    "messages_today": 6,
+    "in_voice_count": 7,
+    "messages_today": 9,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 6,
+    "text": 9,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -90,13 +90,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
       "joined_at": "2025-10-11T10:24:47.750000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 4
       },
       "join_leave": {
         "joins": 0,
@@ -765,10 +765,9 @@
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         "ZPNK666",
-        "2 КВИТЕНЬ",
         "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
       ],
       "user_limit": 0
@@ -891,13 +890,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 21:31",
-      "hour": 21,
-      "online": 14,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "25.03 21:33",
       "hour": 21,
@@ -1058,6 +1050,13 @@
       "online": 19,
       "in_voice": 8,
       "messages": 0
+    },
+    {
+      "time": "25.03 22:17",
+      "hour": 22,
+      "online": 19,
+      "in_voice": 7,
+      "messages": 3
     }
   ],
   "top_chatters": [],
