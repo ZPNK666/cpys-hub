@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T18:21:02.710427+00:00",
+  "updated_at": "2026-03-25T18:22:40.827662+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 29,
     "online_count": 16,
     "offline_count": 13,
-    "in_voice_count": 7,
+    "in_voice_count": 8,
     "messages_today": 32,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -788,8 +788,10 @@
     {
       "id": "1485783584609669255",
       "name": "⋆  𝓛 𝑜𝑢𝑛𝑔𝑒-🌙",
-      "members_count": 0,
-      "members": [],
+      "members_count": 1,
+      "members": [
+        "2 КВИТЕНЬ"
+      ],
       "user_limit": 4
     },
     {
@@ -889,13 +891,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 22:58",
-      "hour": 22,
-      "online": 18,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "25.03 22:58",
       "hour": 22,
@@ -1055,6 +1050,13 @@
       "hour": 23,
       "online": 16,
       "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "25.03 23:22",
+      "hour": 23,
+      "online": 16,
+      "in_voice": 8,
       "messages": 0
     }
   ],
