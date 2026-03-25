@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T13:55:18.236503+00:00",
+  "updated_at": "2026-03-25T13:57:20.627787+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -911,13 +911,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 18:08",
-      "hour": 18,
-      "online": 9,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
       "time": "25.03 18:10",
       "hour": 18,
       "online": 8,
@@ -1077,6 +1070,13 @@
       "online": 9,
       "in_voice": 2,
       "messages": 0
+    },
+    {
+      "time": "25.03 18:57",
+      "hour": 18,
+      "online": 9,
+      "in_voice": 2,
+      "messages": 0
     }
   ],
   "top_chatters": [],
@@ -1124,6 +1124,41 @@
         "text": "дратуте",
         "date": "25.03.2026",
         "time": "12:28"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "отделка:",
+        "date": "25.03.2026",
+        "time": "13:57"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "?",
+        "date": "25.03.2026",
+        "time": "13:57"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "есть",
+        "date": "25.03.2026",
+        "time": "13:57"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "дай",
+        "date": "25.03.2026",
+        "time": "13:57"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "пж",
+        "date": "25.03.2026",
+        "time": "13:57"
       }
     ],
     "kills": {},
