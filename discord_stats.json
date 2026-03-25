@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T20:21:49.378078+00:00",
+  "updated_at": "2026-03-25T20:23:34.978407+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 8,
     "offline_count": 22,
-    "in_voice_count": 1,
+    "in_voice_count": 2,
     "messages_today": 49,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -782,9 +782,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 1,
+      "members_count": 2,
       "members": [
-        "astro poly 2.0"
+        "astro poly 2.0",
+        "HAHAHAHAH"
       ],
       "user_limit": 0
     },
@@ -913,13 +914,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 00:58",
-      "hour": 0,
-      "online": 9,
-      "in_voice": 0,
-      "messages": 0
-    },
     {
       "time": "26.03 00:59",
       "hour": 0,
@@ -1079,6 +1073,13 @@
       "hour": 1,
       "online": 8,
       "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "26.03 01:23",
+      "hour": 1,
+      "online": 8,
+      "in_voice": 2,
       "messages": 0
     }
   ],
