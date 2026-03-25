@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T20:15:40.707332+00:00",
+  "updated_at": "2026-03-25T20:17:22.965411+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 10,
-    "offline_count": 20,
+    "online_count": 9,
+    "offline_count": 21,
     "in_voice_count": 2,
     "messages_today": 49,
     "text_channels_count": 8,
@@ -64,32 +64,6 @@
       "top_role": "католик",
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
-      "stats_today": {
-        "text": 2,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 2
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "961276531387297862",
-      "name": "ЛОЛИ",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
-      "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
         "text": 2,
         "images": 0,
@@ -253,7 +227,7 @@
     {
       "id": "1149289620610228274",
       "name": "kiræxvoid",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -421,6 +395,32 @@
         "gifs": 0,
         "files": 0,
         "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "961276531387297862",
+      "name": "ЛОЛИ",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/2d08d03e1ad4a06cc7abb72e66a32275.png?size=1024",
+      "joined_at": "2026-03-22T18:22:03.656000+00:00",
+      "stats_today": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
       },
       "join_leave": {
         "joins": 0,
@@ -915,13 +915,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 00:52",
-      "hour": 0,
-      "online": 9,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
       "time": "26.03 00:53",
       "hour": 0,
       "online": 9,
@@ -1079,6 +1072,13 @@
       "time": "26.03 01:15",
       "hour": 1,
       "online": 10,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 01:17",
+      "hour": 1,
+      "online": 9,
       "in_voice": 2,
       "messages": 0
     }
