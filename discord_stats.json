@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T21:51:34.106991+00:00",
+  "updated_at": "2026-03-25T21:53:18.347092+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -27,7 +27,7 @@
     {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "ОФИЧЕР СС",
@@ -914,13 +914,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 02:28",
-      "hour": 2,
-      "online": 3,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
       "time": "26.03 02:29",
       "hour": 2,
       "online": 3,
@@ -1076,6 +1069,13 @@
     },
     {
       "time": "26.03 02:51",
+      "hour": 2,
+      "online": 4,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "26.03 02:53",
       "hour": 2,
       "online": 4,
       "in_voice": 1,
