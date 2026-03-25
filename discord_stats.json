@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T17:23:37.968082+00:00",
+  "updated_at": "2026-03-25T17:25:17.188189+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 29,
     "online_count": 18,
     "offline_count": 11,
-    "in_voice_count": 7,
+    "in_voice_count": 6,
     "messages_today": 12,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -278,7 +278,7 @@
     {
       "id": "1222900395647434864",
       "name": "lamponyx321",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "женщины"
       ],
@@ -377,7 +377,7 @@
     {
       "id": "1420445349218357439",
       "name": "Fox",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
@@ -399,7 +399,7 @@
     {
       "id": "1433504994824425640",
       "name": "POq12892",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
@@ -752,8 +752,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 1,
+      "members_count": 3,
       "members": [
+        "dark_soul",
+        "Makan",
         "spiik"
       ],
       "user_limit": 0
@@ -761,22 +763,18 @@
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 2,
-      "members": [
-        "ZPNK666",
-        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 0
     },
     {
       "id": "1485783339351806123",
       "name": "⋆ 𝓡 𝑜𝑏𝑙𝑜𝑥-🌐",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
-        "dark_soul",
+        "ZPNK666",
         "Жигуль в прайме",
-        "Makan",
-        "GOJO"
+        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆"
       ],
       "user_limit": 0
     },
@@ -891,13 +889,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "25.03 21:47",
-      "hour": 21,
-      "online": 14,
-      "in_voice": 5,
-      "messages": 1
-    },
     {
       "time": "25.03 21:49",
       "hour": 21,
@@ -1057,6 +1048,13 @@
       "hour": 22,
       "online": 18,
       "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "25.03 22:25",
+      "hour": 22,
+      "online": 18,
+      "in_voice": 6,
       "messages": 0
     }
   ],
