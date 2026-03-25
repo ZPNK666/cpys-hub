@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T16:43:42.144695+00:00",
+  "updated_at": "2026-03-25T16:45:46.595982+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 29,
-    "online_count": 14,
-    "offline_count": 15,
+    "online_count": 15,
+    "offline_count": 14,
     "in_voice_count": 5,
     "messages_today": 3,
     "text_channels_count": 8,
@@ -82,6 +82,32 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
       "joined_at": "2026-03-24T17:15:48.003099+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -514,32 +540,6 @@
       }
     },
     {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1248970731849777152",
       "name": "СОЛНЕШКО",
       "status": "offline",
@@ -888,13 +888,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 20:56",
-      "hour": 20,
-      "online": 12,
-      "in_voice": 5,
-      "messages": 0
-    },
-    {
       "time": "25.03 20:58",
       "hour": 20,
       "online": 13,
@@ -1054,6 +1047,13 @@
       "online": 14,
       "in_voice": 5,
       "messages": 1
+    },
+    {
+      "time": "25.03 21:45",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
+      "messages": 0
     }
   ],
   "top_chatters": [],
