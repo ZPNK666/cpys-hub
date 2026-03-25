@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T12:27:32.126603+00:00",
+  "updated_at": "2026-03-25T12:29:34.063532+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -55,7 +55,7 @@
     {
       "id": "1222900395647434864",
       "name": "lamponyx321",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "женщины"
       ],
@@ -913,13 +913,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 16:40",
-      "hour": 16,
-      "online": 7,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
       "time": "25.03 16:42",
       "hour": 16,
       "online": 7,
@@ -1079,6 +1072,13 @@
       "online": 8,
       "in_voice": 3,
       "messages": 0
+    },
+    {
+      "time": "25.03 17:29",
+      "hour": 17,
+      "online": 8,
+      "in_voice": 3,
+      "messages": 0
     }
   ],
   "top_chatters": [],
@@ -1119,6 +1119,13 @@
         "text": "целый час я делал булаву",
         "date": "25.03.2026",
         "time": "12:09"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "дратуте",
+        "date": "25.03.2026",
+        "time": "12:28"
       }
     ],
     "kills": {},
