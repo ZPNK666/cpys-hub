@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T22:09:54.768257+00:00",
+  "updated_at": "2026-03-25T22:11:40.735228+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 4,
     "offline_count": 26,
-    "in_voice_count": 2,
+    "in_voice_count": 1,
     "messages_today": 54,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -789,10 +789,9 @@
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 2,
+      "members_count": 1,
       "members": [
-        "POq12892",
-        "HAHAHAHAH"
+        "POq12892"
       ],
       "user_limit": 0
     },
@@ -914,13 +913,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 02:47",
-      "hour": 2,
-      "online": 4,
-      "in_voice": 0,
-      "messages": 0
-    },
     {
       "time": "26.03 02:47",
       "hour": 2,
@@ -1080,6 +1072,13 @@
       "hour": 3,
       "online": 4,
       "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 03:11",
+      "hour": 3,
+      "online": 4,
+      "in_voice": 1,
       "messages": 0
     }
   ],
