@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T19:34:13.164032+00:00",
+  "updated_at": "2026-03-25T19:34:36.377354+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 10,
     "offline_count": 20,
-    "in_voice_count": 3,
+    "in_voice_count": 2,
     "messages_today": 46,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -820,10 +820,8 @@
     {
       "id": "1486098016371740933",
       "name": "⋆  𝓜 𝑢𝑠𝑖𝑐-🎧",
-      "members_count": 1,
-      "members": [
-        "Роскомнадзор"
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 0
     },
     {
@@ -916,13 +914,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 00:10",
-      "hour": 0,
-      "online": 13,
-      "in_voice": 7,
-      "messages": 1
-    },
     {
       "time": "26.03 00:11",
       "hour": 0,
@@ -1083,6 +1074,13 @@
       "online": 10,
       "in_voice": 3,
       "messages": 4
+    },
+    {
+      "time": "26.03 00:34",
+      "hour": 0,
+      "online": 10,
+      "in_voice": 2,
+      "messages": 0
     }
   ],
   "top_chatters": [],
