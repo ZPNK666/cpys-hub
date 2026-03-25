@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T16:23:05.112014+00:00",
+  "updated_at": "2026-03-25T16:25:08.215899+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 29,
     "online_count": 14,
     "offline_count": 15,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 2,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -752,11 +752,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         "dark_soul",
         "spiik",
-        "кирпич",
         "ZPNK666"
       ],
       "user_limit": 0
@@ -886,13 +885,6 @@
     "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 20:35",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "25.03 20:37",
       "hour": 20,
@@ -1052,6 +1044,13 @@
       "hour": 21,
       "online": 14,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "25.03 21:25",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 3,
       "messages": 0
     }
   ],
