@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T08:40:49.445416+00:00",
+  "updated_at": "2026-03-25T08:42:51.443666+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -55,7 +55,7 @@
     {
       "id": "1222900395647434864",
       "name": "lamponyx321",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "женщины"
       ],
@@ -910,13 +910,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 12:53",
-      "hour": 12,
-      "online": 5,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
       "time": "25.03 12:56",
       "hour": 12,
       "online": 5,
@@ -1072,6 +1065,13 @@
     },
     {
       "time": "25.03 13:40",
+      "hour": 13,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "25.03 13:42",
       "hour": 13,
       "online": 7,
       "in_voice": 1,
