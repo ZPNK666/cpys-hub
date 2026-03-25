@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T14:36:32.546670+00:00",
+  "updated_at": "2026-03-25T14:38:43.089095+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 29,
-    "online_count": 13,
-    "offline_count": 16,
+    "online_count": 12,
+    "offline_count": 17,
     "in_voice_count": 5,
     "messages_today": 2,
     "text_channels_count": 8,
@@ -97,32 +97,6 @@
       }
     },
     {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1222900395647434864",
       "name": "lamponyx321",
       "status": "online",
@@ -176,7 +150,7 @@
     {
       "id": "1264222387214483562",
       "name": "GOJO",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/aef8404b7afdfbf182d5cefed1042593.png?size=1024",
@@ -481,6 +455,32 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
       "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -888,13 +888,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 18:49",
-      "hour": 18,
-      "online": 9,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "25.03 18:51",
       "hour": 18,
       "online": 9,
@@ -1052,6 +1045,13 @@
       "time": "25.03 19:36",
       "hour": 19,
       "online": 13,
+      "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "25.03 19:38",
+      "hour": 19,
+      "online": 12,
       "in_voice": 5,
       "messages": 0
     }
