@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T14:34:29.707518+00:00",
+  "updated_at": "2026-03-25T14:36:32.546670+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -7,10 +7,10 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 30,
+    "total_members": 29,
     "online_count": 13,
-    "offline_count": 17,
-    "in_voice_count": 4,
+    "offline_count": 16,
+    "in_voice_count": 5,
     "messages_today": 2,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -75,17 +75,13 @@
       }
     },
     {
-      "id": "1104678557780803604",
-      "name": "людка",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "провославный",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1104678557780803604/0b4f2a114da70be78af12a05b156dbfa.png?size=1024",
-      "joined_at": "2026-03-04T13:57:36.093000+00:00",
+      "id": "1157762358542876784",
+      "name": "EVILcementsorbetOWO",
+      "status": "idle",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
+      "joined_at": "2026-03-24T17:15:48.003099+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -101,13 +97,17 @@
       }
     },
     {
-      "id": "1157762358542876784",
-      "name": "EVILcementsorbetOWO",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
-      "joined_at": "2026-03-24T17:15:48.003099+00:00",
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -176,7 +176,7 @@
     {
       "id": "1264222387214483562",
       "name": "GOJO",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/aef8404b7afdfbf182d5cefed1042593.png?size=1024",
@@ -496,32 +496,6 @@
       }
     },
     {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1248970731849777152",
       "name": "СОЛНЕШКО",
       "status": "offline",
@@ -778,12 +752,13 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 5,
       "members": [
         "spiik",
         "Makan",
         "dark_soul",
-        "кирпич"
+        "кирпич",
+        "RCY | zebra22867"
       ],
       "user_limit": 0
     },
@@ -906,19 +881,12 @@
     "мужчины": 7,
     "католик": 6,
     "атеист": 7,
-    "женщины": 15,
-    "нету хента": 5,
-    "провославный": 4,
-    "Агностик": 2
+    "женщины": 14,
+    "нету хента": 4,
+    "Агностик": 2,
+    "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 18:47",
-      "hour": 18,
-      "online": 10,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "25.03 18:49",
       "hour": 18,
@@ -1078,6 +1046,13 @@
       "hour": 19,
       "online": 13,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "25.03 19:36",
+      "hour": 19,
+      "online": 13,
+      "in_voice": 5,
       "messages": 0
     }
   ],
