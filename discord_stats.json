@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T17:49:52.005021+00:00",
+  "updated_at": "2026-03-25T17:50:20.669918+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 29,
-    "online_count": 20,
-    "offline_count": 9,
+    "online_count": 19,
+    "offline_count": 10,
     "in_voice_count": 3,
     "messages_today": 17,
     "text_channels_count": 8,
@@ -70,33 +70,6 @@
         "gifs": 0,
         "files": 0,
         "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "status": "idle",
-      "roles": [
-        "нету хента",
-        "ОФИЧЕР СС",
-        "Агностик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
-      "stats_today": {
-        "text": 8,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 8
       },
       "join_leave": {
         "joins": 0,
@@ -519,6 +492,33 @@
   ],
   "offline_members": [
     {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "ОФИЧЕР СС",
+        "Агностик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
+      "stats_today": {
+        "text": 8,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 8
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1211055468362072164",
       "name": "2 КВИТЕНЬ",
       "status": "offline",
@@ -886,13 +886,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 22:25",
-      "hour": 22,
-      "online": 18,
-      "in_voice": 5,
-      "messages": 0
-    },
-    {
       "time": "25.03 22:27",
       "hour": 22,
       "online": 18,
@@ -1050,6 +1043,13 @@
       "time": "25.03 22:49",
       "hour": 22,
       "online": 20,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "25.03 22:50",
+      "hour": 22,
+      "online": 19,
       "in_voice": 3,
       "messages": 0
     }
