@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T21:47:29.968031+00:00",
+  "updated_at": "2026-03-25T21:49:14.015010+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 4,
     "offline_count": 26,
-    "in_voice_count": 0,
+    "in_voice_count": 1,
     "messages_today": 54,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -81,7 +81,7 @@
     {
       "id": "1433504994824425640",
       "name": "POq12892",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
@@ -103,7 +103,7 @@
     {
       "id": "1462906498110849218",
       "name": "astro poly 2.0",
-      "status": "online",
+      "status": "dnd",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -789,8 +789,10 @@
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 0,
-      "members": [],
+      "members_count": 1,
+      "members": [
+        "POq12892"
+      ],
       "user_limit": 0
     },
     {
@@ -911,13 +913,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 02:24",
-      "hour": 2,
-      "online": 3,
-      "in_voice": 0,
-      "messages": 0
-    },
     {
       "time": "26.03 02:25",
       "hour": 2,
@@ -1077,6 +1072,13 @@
       "hour": 2,
       "online": 4,
       "in_voice": 0,
+      "messages": 0
+    },
+    {
+      "time": "26.03 02:49",
+      "hour": 2,
+      "online": 4,
+      "in_voice": 1,
       "messages": 0
     }
   ],
