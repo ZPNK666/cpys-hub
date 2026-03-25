@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T14:38:43.089095+00:00",
+  "updated_at": "2026-03-25T14:40:45.373492+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -755,10 +755,10 @@
       "members_count": 5,
       "members": [
         "spiik",
-        "Makan",
         "dark_soul",
         "кирпич",
-        "RCY | zebra22867"
+        "RCY | zebra22867",
+        "Makan"
       ],
       "user_limit": 0
     },
@@ -887,13 +887,6 @@
     "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 18:51",
-      "hour": 18,
-      "online": 9,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "25.03 18:53",
       "hour": 18,
@@ -1050,6 +1043,13 @@
     },
     {
       "time": "25.03 19:38",
+      "hour": 19,
+      "online": 12,
+      "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "25.03 19:40",
       "hour": 19,
       "online": 12,
       "in_voice": 5,
