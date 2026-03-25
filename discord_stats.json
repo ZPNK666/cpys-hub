@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T15:29:47.914661+00:00",
+  "updated_at": "2026-03-25T15:31:50.518196+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 29,
-    "online_count": 12,
-    "offline_count": 17,
+    "online_count": 13,
+    "offline_count": 16,
     "in_voice_count": 7,
     "messages_today": 2,
     "text_channels_count": 8,
@@ -82,6 +82,32 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
       "joined_at": "2026-03-24T17:15:48.003099+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -451,32 +477,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
       "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -890,13 +890,6 @@
   },
   "hourly_history": [
     {
-      "time": "25.03 19:42",
-      "hour": 19,
-      "online": 12,
-      "in_voice": 5,
-      "messages": 0
-    },
-    {
       "time": "25.03 19:44",
       "hour": 19,
       "online": 12,
@@ -1054,6 +1047,13 @@
       "time": "25.03 20:29",
       "hour": 20,
       "online": 12,
+      "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "25.03 20:31",
+      "hour": 20,
+      "online": 13,
       "in_voice": 7,
       "messages": 0
     }
