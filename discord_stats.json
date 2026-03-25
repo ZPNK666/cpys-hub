@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T15:21:36.785699+00:00",
+  "updated_at": "2026-03-25T15:23:40.139114+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 29,
-    "online_count": 13,
-    "offline_count": 16,
-    "in_voice_count": 3,
+    "online_count": 14,
+    "offline_count": 15,
+    "in_voice_count": 6,
     "messages_today": 2,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -97,6 +97,32 @@
       }
     },
     {
+      "id": "1211055468362072164",
+      "name": "2 КВИТЕНЬ",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1222900395647434864",
       "name": "lamponyx321",
       "status": "online",
@@ -150,7 +176,7 @@
     {
       "id": "1264222387214483562",
       "name": "GOJO",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/aef8404b7afdfbf182d5cefed1042593.png?size=1024",
@@ -492,32 +518,6 @@
       }
     },
     {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/00ba5a3ed50e58d809b9871e6f2d7f97.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1248970731849777152",
       "name": "СОЛНЕШКО",
       "status": "offline",
@@ -752,11 +752,14 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 3,
+      "members_count": 6,
       "members": [
         "dark_soul",
         "spiik",
-        "Makan"
+        "Makan",
+        "Жигуль в прайме",
+        "ZPNK666",
+        "кирпич"
       ],
       "user_limit": 0
     },
@@ -885,13 +888,6 @@
     "провославный": 3
   },
   "hourly_history": [
-    {
-      "time": "25.03 19:34",
-      "hour": 19,
-      "online": 13,
-      "in_voice": 4,
-      "messages": 0
-    },
     {
       "time": "25.03 19:36",
       "hour": 19,
@@ -1051,6 +1047,13 @@
       "hour": 20,
       "online": 13,
       "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "25.03 20:23",
+      "hour": 20,
+      "online": 14,
+      "in_voice": 6,
       "messages": 0
     }
   ],
