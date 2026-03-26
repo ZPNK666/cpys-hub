@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T15:18:34.699199+00:00",
+  "updated_at": "2026-03-26T15:19:29.007838+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -7,16 +7,16 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 30,
+    "total_members": 31,
     "online_count": 9,
-    "offline_count": 21,
+    "offline_count": 22,
     "in_voice_count": 3,
-    "messages_today": 74,
+    "messages_today": 75,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 74,
+    "text": 75,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -776,6 +776,28 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-26T15:18:39.046578+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
@@ -915,13 +937,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 20:02",
-      "hour": 20,
-      "online": 11,
-      "in_voice": 4,
-      "messages": 0
-    },
     {
       "time": "26.03 20:03",
       "hour": 20,
@@ -1082,20 +1097,22 @@
       "online": 9,
       "in_voice": 3,
       "messages": 2
+    },
+    {
+      "time": "26.03 20:19",
+      "hour": 20,
+      "online": 9,
+      "in_voice": 3,
+      "messages": 1
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": "2026-03-26T13:21:54.569000",
+    "server_started": "2026-03-26T15:18:46.228000",
     "server_stopped": "2026-03-26T15:13:22.870000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "07:52"
-      },
       {
         "type": "server_start",
         "date": "25.03.2026",
@@ -1384,6 +1401,11 @@
         "type": "server_stop",
         "date": "26.03.2026",
         "time": "15:13"
+      },
+      {
+        "type": "server_start",
+        "date": "26.03.2026",
+        "time": "15:18"
       }
     ],
     "kills": {},
@@ -1411,6 +1433,11 @@
           "type": "server_stop",
           "date": "26.03.2026",
           "time": "15:13"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "15:18"
         }
       ],
       "25.03.2026": [
