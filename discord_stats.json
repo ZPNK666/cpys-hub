@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T17:10:56.829748+00:00",
+  "updated_at": "2026-03-26T17:11:57.548508+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 31,
-    "online_count": 12,
-    "offline_count": 19,
+    "online_count": 11,
+    "offline_count": 20,
     "in_voice_count": 4,
     "messages_today": 76,
     "text_channels_count": 8,
@@ -40,32 +40,6 @@
         "gifs": 0,
         "files": 0,
         "total": 2
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1155602435222552698",
-      "name": "hatan",
-      "status": "dnd",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
-      "joined_at": "2026-03-23T14:10:42.424000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -413,6 +387,32 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
       "joined_at": "2026-03-24T17:48:23.860000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1155602435222552698",
+      "name": "hatan",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
+      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -940,13 +940,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 21:55",
-      "hour": 21,
-      "online": 12,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "26.03 21:56",
       "hour": 21,
       "online": 12,
@@ -1104,6 +1097,13 @@
       "time": "26.03 22:10",
       "hour": 22,
       "online": 12,
+      "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "26.03 22:11",
+      "hour": 22,
+      "online": 11,
       "in_voice": 4,
       "messages": 0
     }
