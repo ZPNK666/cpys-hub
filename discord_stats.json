@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T15:10:16.377992+00:00",
+  "updated_at": "2026-03-26T15:11:13.923498+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -278,7 +278,7 @@
     {
       "id": "1149289620610228274",
       "name": "kiræxvoid",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -784,9 +784,9 @@
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
       "members_count": 3,
       "members": [
-        "кирпич",
         "Матвей",
-        "dark_soul"
+        "dark_soul",
+        "POq12892"
       ],
       "user_limit": 0
     },
@@ -915,13 +915,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 19:54",
-      "hour": 19,
-      "online": 10,
-      "in_voice": 4,
-      "messages": 0
-    },
     {
       "time": "26.03 19:54",
       "hour": 19,
@@ -1078,6 +1071,13 @@
     },
     {
       "time": "26.03 20:10",
+      "hour": 20,
+      "online": 11,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "26.03 20:11",
       "hour": 20,
       "online": 11,
       "in_voice": 3,
