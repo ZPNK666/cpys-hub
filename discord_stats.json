@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T17:52:02.385684+00:00",
+  "updated_at": "2026-03-26T17:53:25.274126+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -123,7 +123,7 @@
     {
       "id": "961276531387297862",
       "name": "ЛОЛИ",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -278,7 +278,7 @@
     {
       "id": "1436969435104677948",
       "name": "RCY | zebra22867",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
@@ -941,13 +941,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 22:36",
-      "hour": 22,
-      "online": 12,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
       "time": "26.03 22:37",
       "hour": 22,
       "online": 12,
@@ -1103,6 +1096,13 @@
     },
     {
       "time": "26.03 22:52",
+      "hour": 22,
+      "online": 12,
+      "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "26.03 22:53",
       "hour": 22,
       "online": 12,
       "in_voice": 5,
