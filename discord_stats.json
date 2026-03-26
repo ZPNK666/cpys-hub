@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T14:59:00.890215+00:00",
+  "updated_at": "2026-03-26T14:59:49.054175+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -154,7 +154,7 @@
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
@@ -917,13 +917,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 19:43",
-      "hour": 19,
-      "online": 11,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "26.03 19:44",
       "hour": 19,
       "online": 11,
@@ -1072,6 +1065,13 @@
     },
     {
       "time": "26.03 19:58",
+      "hour": 19,
+      "online": 11,
+      "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "26.03 19:59",
       "hour": 19,
       "online": 11,
       "in_voice": 4,
