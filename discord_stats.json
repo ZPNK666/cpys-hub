@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T09:25:51.271303+00:00",
+  "updated_at": "2026-03-26T09:26:57.165808+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 9,
-    "offline_count": 21,
+    "online_count": 8,
+    "offline_count": 22,
     "in_voice_count": 2,
     "messages_today": 55,
     "text_channels_count": 8,
@@ -24,28 +24,6 @@
     "files": 0
   },
   "online_members": [
-    {
-      "id": "1433504994824425640",
-      "name": "POq12892",
-      "status": "online",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
-      "joined_at": "2026-03-24T10:19:41.726000+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 1
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
     {
       "id": "1396938275263877150",
       "name": "spiik",
@@ -250,6 +228,28 @@
     }
   ],
   "offline_members": [
+    {
+      "id": "1433504994824425640",
+      "name": "POq12892",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
+      "joined_at": "2026-03-24T10:19:41.726000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
     {
       "id": "1211055468362072164",
       "name": "2 КВИТЕНЬ",
@@ -915,13 +915,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 14:10",
-      "hour": 14,
-      "online": 8,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
       "time": "26.03 14:11",
       "hour": 14,
       "online": 8,
@@ -1079,6 +1072,13 @@
       "time": "26.03 14:25",
       "hour": 14,
       "online": 9,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 14:26",
+      "hour": 14,
+      "online": 8,
       "in_voice": 2,
       "messages": 0
     }
