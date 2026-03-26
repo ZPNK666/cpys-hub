@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T18:58:07.453649+00:00",
+  "updated_at": "2026-03-26T18:58:22.326246+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -27,7 +27,7 @@
     {
       "id": "1433504994824425640",
       "name": "зелябобик",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
@@ -971,13 +971,6 @@
       "messages": 0
     },
     {
-      "time": "26.03 23:41",
-      "hour": 23,
-      "online": 15,
-      "in_voice": 5,
-      "messages": 0
-    },
-    {
       "time": "26.03 23:43",
       "hour": 23,
       "online": 15,
@@ -1119,6 +1112,13 @@
     },
     {
       "time": "26.03 23:56",
+      "hour": 23,
+      "online": 14,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "26.03 23:58",
       "hour": 23,
       "online": 14,
       "in_voice": 3,
