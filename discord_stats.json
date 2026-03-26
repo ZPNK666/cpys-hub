@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T18:53:29.864525+00:00",
+  "updated_at": "2026-03-26T18:54:16.514836+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -304,7 +304,7 @@
     {
       "id": "1436969435104677948",
       "name": "RCY | zebra22867",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
@@ -970,13 +970,6 @@
       "messages": 0
     },
     {
-      "time": "26.03 23:37",
-      "hour": 23,
-      "online": 16,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "26.03 23:38",
       "hour": 23,
       "online": 16,
@@ -1125,6 +1118,13 @@
     },
     {
       "time": "26.03 23:53",
+      "hour": 23,
+      "online": 13,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 23:54",
       "hour": 23,
       "online": 13,
       "in_voice": 2,
