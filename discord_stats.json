@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T14:13:21.237309+00:00",
+  "updated_at": "2026-03-26T14:14:08.146268+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -259,7 +259,7 @@
         "женщины"
       ],
       "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/3bd7339d6884b134f195982347cd0de3.png?size=1024",
+      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/a4f92d405a43a7bb1e3e4102c10ff3f4.png?size=1024",
       "joined_at": "2026-03-25T18:38:14.933000+00:00",
       "stats_today": {
         "text": 0,
@@ -919,13 +919,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 18:57",
-      "hour": 18,
-      "online": 11,
-      "in_voice": 5,
-      "messages": 0
-    },
-    {
       "time": "26.03 18:58",
       "hour": 18,
       "online": 11,
@@ -1081,6 +1074,13 @@
     },
     {
       "time": "26.03 19:13",
+      "hour": 19,
+      "online": 10,
+      "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "26.03 19:14",
       "hour": 19,
       "online": 10,
       "in_voice": 5,
