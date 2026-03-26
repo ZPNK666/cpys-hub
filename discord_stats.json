@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T18:36:55.854979+00:00",
+  "updated_at": "2026-03-26T18:37:20.497989+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 32,
-    "online_count": 15,
-    "offline_count": 17,
+    "online_count": 16,
+    "offline_count": 16,
     "in_voice_count": 6,
     "messages_today": 84,
     "text_channels_count": 8,
@@ -307,6 +307,33 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/7145a27767a4e9ae6131990fc8a6c7fc.png?size=1024",
       "joined_at": "2026-03-10T11:19:30.910000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ОФИЧЕР СС",
+        "Агностик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -675,33 +702,6 @@
       }
     },
     {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ОФИЧЕР СС",
-        "Агностик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1440792780233244835",
       "name": "Карасик",
       "status": "offline",
@@ -826,22 +826,22 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         "кирпич",
         "dark_soul",
-        "POq12892",
-        "neox"
+        "POq12892"
       ],
       "user_limit": 0
     },
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         "ZPNK666",
-        "ЛОЛИ"
+        "ЛОЛИ",
+        "neox"
       ],
       "user_limit": 0
     },
@@ -963,13 +963,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 23:20",
-      "hour": 23,
-      "online": 13,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "26.03 23:20",
       "hour": 23,
@@ -1130,6 +1123,13 @@
       "online": 15,
       "in_voice": 6,
       "messages": 2
+    },
+    {
+      "time": "26.03 23:37",
+      "hour": 23,
+      "online": 16,
+      "in_voice": 6,
+      "messages": 0
     }
   ],
   "top_chatters": [],
