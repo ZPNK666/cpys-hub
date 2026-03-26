@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T19:00:58.821144+00:00",
+  "updated_at": "2026-03-26T19:02:17.727466+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 32,
-    "online_count": 15,
-    "offline_count": 17,
-    "in_voice_count": 4,
+    "online_count": 14,
+    "offline_count": 18,
+    "in_voice_count": 5,
     "messages_today": 0,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -84,32 +84,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
       "joined_at": "2026-03-24T17:48:23.860000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1155602435222552698",
-      "name": "hatan",
-      "status": "dnd",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
-      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -356,7 +330,7 @@
     {
       "id": "1436969435104677948",
       "name": "RCY | zebra22867",
-      "status": "idle",
+      "status": "online",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
@@ -439,6 +413,32 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
       "joined_at": "2025-10-03T14:17:20.491000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1155602435222552698",
+      "name": "hatan",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
+      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -837,9 +837,8 @@
     {
       "id": "1485783033410748597",
       "name": "⋆ 𝓖 𝑎𝑚𝑖𝑛𝑔-💻",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
-        "ZPNK666",
         "Makan",
         "кирпич",
         "зелябобик"
@@ -863,8 +862,11 @@
     {
       "id": "1485783584609669255",
       "name": "⋆  𝓛 𝑜𝑢𝑛𝑔𝑒-🌙",
-      "members_count": 0,
-      "members": [],
+      "members_count": 2,
+      "members": [
+        "ZPNK666",
+        "ЛОЛИ"
+      ],
       "user_limit": 4
     },
     {
@@ -964,13 +966,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 23:45",
-      "hour": 23,
-      "online": 15,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "26.03 23:45",
       "hour": 23,
@@ -1130,6 +1125,13 @@
       "hour": 0,
       "online": 15,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "27.03 00:02",
+      "hour": 0,
+      "online": 14,
+      "in_voice": 5,
       "messages": 0
     }
   ],
