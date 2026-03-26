@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T03:22:20.625746+00:00",
+  "updated_at": "2026-03-26T03:22:56.730732+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -914,13 +914,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 03:13",
-      "hour": 3,
-      "online": 4,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
       "time": "26.03 03:15",
       "hour": 3,
       "online": 4,
@@ -1080,6 +1073,13 @@
       "online": 2,
       "in_voice": 1,
       "messages": 0
+    },
+    {
+      "time": "26.03 08:22",
+      "hour": 8,
+      "online": 2,
+      "in_voice": 1,
+      "messages": 0
     }
   ],
   "top_chatters": [],
@@ -1090,45 +1090,6 @@
     "top_killers": [],
     "recent_events": [
       {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "14:25"
-      },
-      {
-        "type": "chat",
-        "player": "deepinparis",
-        "text": "deepinparis FG",
-        "date": "25.03.2026",
-        "time": "15:06"
-      },
-      {
-        "type": "chat",
-        "player": "deepinparis",
-        "text": "GG",
-        "date": "25.03.2026",
-        "time": "15:06"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "15:41"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "15:55"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "16:27"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "17:21"
-      },
-      {
         "type": "server_stop",
         "date": "25.03.2026",
         "time": "20:08"
@@ -1382,6 +1343,45 @@
         "type": "server_stop",
         "date": "25.03.2026",
         "time": "20:08"
+      },
+      {
+        "type": "server_start",
+        "date": "25.03.2026",
+        "time": "07:34"
+      },
+      {
+        "type": "server_stop",
+        "date": "25.03.2026",
+        "time": "07:39"
+      },
+      {
+        "type": "server_start",
+        "date": "25.03.2026",
+        "time": "07:44"
+      },
+      {
+        "type": "server_stop",
+        "date": "25.03.2026",
+        "time": "07:52"
+      },
+      {
+        "type": "server_start",
+        "date": "25.03.2026",
+        "time": "10:50"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "целый час я делал булаву",
+        "date": "25.03.2026",
+        "time": "12:09"
+      },
+      {
+        "type": "chat",
+        "player": "loleybiolly",
+        "text": "дратуте",
+        "date": "25.03.2026",
+        "time": "12:28"
       }
     ],
     "kills": {},
@@ -1439,6 +1439,66 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:39"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:44"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:52"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "10:50"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "14:19"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "14:25"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "15:41"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "15:55"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "17:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "20:08"
         },
         {
           "type": "server_start",
