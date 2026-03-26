@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T14:11:00.009242+00:00",
+  "updated_at": "2026-03-26T14:11:17.861595+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 30,
     "online_count": 10,
     "offline_count": 20,
-    "in_voice_count": 4,
+    "in_voice_count": 5,
     "messages_today": 71,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -252,7 +252,7 @@
     {
       "id": "1149289620610228274",
       "name": "kiræxvoid",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -782,10 +782,11 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         "кирпич",
-        "dark_soul"
+        "dark_soul",
+        "Матвей"
       ],
       "user_limit": 0
     },
@@ -917,13 +918,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 18:54",
-      "hour": 18,
-      "online": 11,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "26.03 18:55",
       "hour": 18,
@@ -1083,6 +1077,13 @@
       "hour": 19,
       "online": 10,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "26.03 19:11",
+      "hour": 19,
+      "online": 10,
+      "in_voice": 5,
       "messages": 0
     }
   ],
