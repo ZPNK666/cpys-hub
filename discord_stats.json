@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T14:21:15.783820+00:00",
+  "updated_at": "2026-03-26T14:21:34.197826+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -920,13 +920,6 @@
       "time": "26.03 19:05",
       "hour": 19,
       "online": 11,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
-      "time": "26.03 19:05",
-      "hour": 19,
-      "online": 11,
       "in_voice": 3,
       "messages": 0
     },
@@ -1075,6 +1068,13 @@
       "hour": 19,
       "online": 10,
       "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "26.03 19:21",
+      "hour": 19,
+      "online": 10,
+      "in_voice": 4,
       "messages": 0
     },
     {
