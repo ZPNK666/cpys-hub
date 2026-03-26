@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T08:53:15.592349+00:00",
+  "updated_at": "2026-03-26T08:54:21.796380+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 5,
-    "offline_count": 25,
+    "online_count": 7,
+    "offline_count": 23,
     "in_voice_count": 0,
     "messages_today": 55,
     "text_channels_count": 8,
@@ -95,9 +95,35 @@
       }
     },
     {
+      "id": "1366113301221867725",
+      "name": "HAHAHAHAH",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/37f1beca5af400242369f5588435f646.png?size=1024",
+      "joined_at": "2026-03-24T17:58:02.100000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "834060139006394368",
       "name": "ZPNK666",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "ОФИЧЕР СС",
@@ -142,6 +168,32 @@
         "gifs": 0,
         "files": 0,
         "total": 38
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1149289620610228274",
+      "name": "kiræxvoid",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/3bd7339d6884b134f195982347cd0de3.png?size=1024",
+      "joined_at": "2026-03-25T18:38:14.933000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -601,32 +653,6 @@
       }
     },
     {
-      "id": "1366113301221867725",
-      "name": "HAHAHAHAH",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/37f1beca5af400242369f5588435f646.png?size=1024",
-      "joined_at": "2026-03-24T17:58:02.100000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1425903022629847200",
       "name": "Жигуль в прайме",
       "status": "offline",
@@ -713,32 +739,6 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1436969435104677948/c3f1af31f96972844a7c2b82b97bdb7d.png?size=1024",
       "joined_at": "2026-03-24T12:54:41.758000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1149289620610228274",
-      "name": "kiræxvoid",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/3bd7339d6884b134f195982347cd0de3.png?size=1024",
-      "joined_at": "2026-03-25T18:38:14.933000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -914,13 +914,6 @@
     {
       "time": "26.03 13:38",
       "hour": 13,
-      "online": 5,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
-      "time": "26.03 13:38",
-      "hour": 13,
       "online": 6,
       "in_voice": 0,
       "messages": 0
@@ -1076,6 +1069,13 @@
       "time": "26.03 13:53",
       "hour": 13,
       "online": 5,
+      "in_voice": 0,
+      "messages": 0
+    },
+    {
+      "time": "26.03 13:54",
+      "hour": 13,
+      "online": 7,
       "in_voice": 0,
       "messages": 0
     }
