@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T12:24:36.801012+00:00",
+  "updated_at": "2026-03-26T12:24:56.426717+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 30,
-    "online_count": 11,
-    "offline_count": 19,
+    "online_count": 10,
+    "offline_count": 20,
     "in_voice_count": 2,
     "messages_today": 68,
     "text_channels_count": 8,
@@ -132,32 +132,6 @@
       "top_role": "католик",
       "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/37f1beca5af400242369f5588435f646.png?size=1024",
       "joined_at": "2026-03-24T17:58:02.100000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1425903022629847200",
-      "name": "Жигуль в прайме",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/7145a27767a4e9ae6131990fc8a6c7fc.png?size=1024",
-      "joined_at": "2026-03-10T11:19:30.910000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -725,6 +699,32 @@
       }
     },
     {
+      "id": "1425903022629847200",
+      "name": "Жигуль в прайме",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/7145a27767a4e9ae6131990fc8a6c7fc.png?size=1024",
+      "joined_at": "2026-03-10T11:19:30.910000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1407789136965931088",
       "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
       "status": "offline",
@@ -915,13 +915,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 17:08",
-      "hour": 17,
-      "online": 9,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
       "time": "26.03 17:09",
       "hour": 17,
       "online": 9,
@@ -1079,6 +1072,13 @@
       "time": "26.03 17:24",
       "hour": 17,
       "online": 11,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 17:24",
+      "hour": 17,
+      "online": 10,
       "in_voice": 2,
       "messages": 0
     }
