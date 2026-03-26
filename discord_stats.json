@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T18:50:22.766315+00:00",
+  "updated_at": "2026-03-26T18:51:26.868790+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 32,
-    "online_count": 13,
-    "offline_count": 19,
+    "online_count": 14,
+    "offline_count": 18,
     "in_voice_count": 2,
     "messages_today": 87,
     "text_channels_count": 8,
@@ -66,6 +66,32 @@
         "gifs": 0,
         "files": 0,
         "total": 6
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1155602435222552698",
+      "name": "hatan",
+      "status": "dnd",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
+      "joined_at": "2026-03-23T14:10:42.424000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -413,32 +439,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
       "joined_at": "2026-03-24T17:48:23.860000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1155602435222552698",
-      "name": "hatan",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
-      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -963,13 +963,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 23:34",
-      "hour": 23,
-      "online": 14,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "26.03 23:35",
       "hour": 23,
       "online": 14,
@@ -1129,22 +1122,22 @@
       "online": 13,
       "in_voice": 2,
       "messages": 0
+    },
+    {
+      "time": "26.03 23:51",
+      "hour": 23,
+      "online": 14,
+      "in_voice": 2,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
     "server_started": "2026-03-26T15:18:46.228000",
-    "server_stopped": "2026-03-26T15:13:22.870000",
+    "server_stopped": "2026-03-26T18:50:44.020000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "loleybiolly",
-        "text": "дратуте",
-        "date": "25.03.2026",
-        "time": "12:28"
-      },
       {
         "type": "chat",
         "player": "loleybiolly",
@@ -1433,6 +1426,11 @@
         "text": "-303 67 862",
         "date": "26.03.2026",
         "time": "16:57"
+      },
+      {
+        "type": "server_stop",
+        "date": "26.03.2026",
+        "time": "18:50"
       }
     ],
     "kills": {},
@@ -1465,6 +1463,11 @@
           "type": "server_start",
           "date": "26.03.2026",
           "time": "15:18"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "18:50"
         }
       ],
       "25.03.2026": [
