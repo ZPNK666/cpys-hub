@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T09:50:09.213986+00:00",
+  "updated_at": "2026-03-26T09:50:18.822420+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -52,7 +52,7 @@
     },
     {
       "id": "1293571301008736257",
-      "name": "Роскомнадзор",
+      "name": "Еблан",
       "status": "online",
       "roles": [
         "у меня есть хент",
@@ -785,7 +785,7 @@
       "members_count": 4,
       "members": [
         "spiik",
-        "Роскомнадзор",
+        "Еблан",
         "dark_soul",
         "HAHAHAHAH"
       ],
@@ -916,13 +916,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 14:34",
-      "hour": 14,
-      "online": 9,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "26.03 14:35",
       "hour": 14,
@@ -1072,6 +1065,13 @@
     },
     {
       "time": "26.03 14:49",
+      "hour": 14,
+      "online": 9,
+      "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "26.03 14:50",
       "hour": 14,
       "online": 9,
       "in_voice": 4,
