@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T18:47:19.043328+00:00",
+  "updated_at": "2026-03-26T18:48:09.691039+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -145,7 +145,7 @@
     {
       "id": "961276531387297862",
       "name": "ЛОЛИ",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -963,20 +963,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 23:31",
-      "hour": 23,
-      "online": 13,
-      "in_voice": 5,
-      "messages": 0
-    },
-    {
-      "time": "26.03 23:31",
-      "hour": 23,
-      "online": 13,
-      "in_voice": 5,
-      "messages": 0
-    },
-    {
       "time": "26.03 23:32",
       "hour": 23,
       "online": 13,
@@ -1125,6 +1111,20 @@
     },
     {
       "time": "26.03 23:47",
+      "hour": 23,
+      "online": 14,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 23:47",
+      "hour": 23,
+      "online": 14,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 23:48",
       "hour": 23,
       "online": 14,
       "in_voice": 2,
