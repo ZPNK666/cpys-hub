@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T15:52:42.235708+00:00",
+  "updated_at": "2026-03-26T15:53:31.425326+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -146,7 +146,7 @@
     {
       "id": "1462906498110849218",
       "name": "astro poly 2.0",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -940,13 +940,6 @@
   },
   "hourly_history": [
     {
-      "time": "26.03 20:37",
-      "hour": 20,
-      "online": 10,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
       "time": "26.03 20:38",
       "hour": 20,
       "online": 11,
@@ -1102,6 +1095,13 @@
     },
     {
       "time": "26.03 20:52",
+      "hour": 20,
+      "online": 9,
+      "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "26.03 20:53",
       "hour": 20,
       "online": 9,
       "in_voice": 5,
