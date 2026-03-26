@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T12:31:45.180329+00:00",
+  "updated_at": "2026-03-26T12:32:46.430560+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -225,7 +225,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "мужчины"
       ],
@@ -922,13 +922,6 @@
       "messages": 0
     },
     {
-      "time": "26.03 17:16",
-      "hour": 17,
-      "online": 10,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "26.03 17:17",
       "hour": 17,
       "online": 10,
@@ -1077,6 +1070,13 @@
     },
     {
       "time": "26.03 17:31",
+      "hour": 17,
+      "online": 9,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "26.03 17:32",
       "hour": 17,
       "online": 9,
       "in_voice": 2,
