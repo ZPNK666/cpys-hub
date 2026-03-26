@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T15:48:23.533735+00:00",
+  "updated_at": "2026-03-26T15:48:36.653593+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S. hub",
@@ -10,7 +10,7 @@
     "total_members": 31,
     "online_count": 10,
     "offline_count": 21,
-    "in_voice_count": 4,
+    "in_voice_count": 5,
     "messages_today": 75,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -97,7 +97,7 @@
     {
       "id": "1255232329362833409",
       "name": "кирпич",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "ОФИЧЕР СС",
@@ -804,12 +804,13 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 5,
       "members": [
         "Матвей",
         "dark_soul",
         "POq12892",
-        "RCY | zebra22867"
+        "RCY | zebra22867",
+        "кирпич"
       ],
       "user_limit": 0
     },
@@ -938,13 +939,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "26.03 20:32",
-      "hour": 20,
-      "online": 10,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "26.03 20:32",
       "hour": 20,
@@ -1104,6 +1098,13 @@
       "hour": 20,
       "online": 10,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "26.03 20:48",
+      "hour": 20,
+      "online": 10,
+      "in_voice": 5,
       "messages": 0
     }
   ],
