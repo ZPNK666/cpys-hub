@@ -415,6 +415,104 @@ body.cursor-ds #cursor{
 
 .msg-gif-wrap{position:relative;display:inline-block;margin-top:4px;}
 .msg-gif-badge{position:absolute;bottom:4px;left:4px;background:rgba(0,0,0,0.75);color:#fff;font-size:10px;padding:1px 5px;border-radius:2px;pointer-events:none;font-family:'VT323',monospace;}
+
+/* ===== MESSENGER ===== */
+#msng-overlay{position:fixed;inset:0;z-index:800;background:rgba(0,0,0,0.85);display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px);}
+#msng-overlay.show{display:flex;animation:fi .15s ease;}
+#msng-wrap{width:min(900px,96vw);height:min(640px,90vh);display:flex;background:var(--bg);border:1px solid var(--b);border-top:2px solid var(--cyan);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(77,230,230,0.1);}
+
+/* Сайдбар — список чатов */
+#msng-sidebar{width:240px;flex-shrink:0;border-right:1px solid var(--b);display:flex;flex-direction:column;background:rgba(4,8,15,0.95);}
+#msng-sb-head{padding:10px 12px;border-bottom:1px solid var(--b);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;}
+#msng-sb-title{font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);}
+#msng-close{background:none;border:none;cursor:pointer;color:var(--muted);font-family:'VT323',monospace;font-size:20px;line-height:1;padding:0 4px;transition:color .15s;}
+#msng-close:hover{color:var(--red);}
+#msng-search{padding:8px 10px;border-bottom:1px solid var(--b);flex-shrink:0;}
+#msng-search input{width:100%;background:#060c14;border:1px solid var(--b);color:var(--text);font-family:'VT323',monospace;font-size:15px;padding:5px 8px;outline:none;transition:border-color .15s;}
+#msng-search input:focus{border-color:var(--cyan);}
+#msng-search input::placeholder{color:var(--muted);}
+#msng-chats{flex:1;overflow-y:auto;overflow-x:hidden;}
+#msng-chats::-webkit-scrollbar{width:3px;}
+#msng-chats::-webkit-scrollbar-thumb{background:var(--muted);}
+.msng-chat-item{display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer;border-bottom:1px solid rgba(22,32,48,0.4);transition:background .15s;position:relative;}
+.msng-chat-item:hover{background:rgba(20,40,60,0.5);}
+.msng-chat-item.active{background:rgba(0,80,100,0.15);border-right:2px solid var(--cyan);}
+.msng-av{width:36px;height:36px;border-radius:50%;border:1px solid;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:bold;flex-shrink:0;overflow:hidden;}
+.msng-av img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
+.msng-ci-info{flex:1;min-width:0;}
+.msng-ci-name{font-size:14px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.msng-ci-last{font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:1px;}
+.msng-ci-time{font-size:10px;color:var(--muted);flex-shrink:0;align-self:flex-start;margin-top:2px;}
+.msng-unread{position:absolute;top:8px;right:10px;background:var(--cyan);color:#04080f;border-radius:8px;font-family:'Press Start 2P',monospace;font-size:7px;padding:2px 5px;min-width:16px;text-align:center;}
+.msng-sdot{width:7px;height:7px;border-radius:50%;position:absolute;bottom:9px;left:38px;border:1px solid var(--bg);}
+
+/* Основная панель чата */
+#msng-main{flex:1;display:flex;flex-direction:column;min-width:0;}
+#msng-main-head{padding:10px 14px;border-bottom:1px solid var(--b);display:flex;align-items:center;gap:10px;flex-shrink:0;background:rgba(4,8,15,0.8);}
+#msng-chat-av{width:34px;height:34px;border-radius:50%;border:2px solid var(--cyan);overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:bold;flex-shrink:0;}
+#msng-chat-av img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
+#msng-chat-name{font-family:'Press Start 2P',monospace;font-size:9px;color:var(--text);}
+#msng-chat-status{font-size:11px;color:var(--muted);margin-top:2px;}
+#msng-messages{flex:1;overflow-y:auto;overflow-x:hidden;padding:12px 14px;display:flex;flex-direction:column;gap:6px;}
+#msng-messages::-webkit-scrollbar{width:3px;}
+#msng-messages::-webkit-scrollbar-thumb{background:var(--muted);}
+
+/* Пузыри сообщений */
+.msng-msg{display:flex;gap:8px;align-items:flex-end;max-width:80%;animation:fi .1s ease;}
+.msng-msg.out{align-self:flex-end;flex-direction:row-reverse;}
+.msng-msg.in{align-self:flex-start;}
+.msng-msg-av{width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:bold;border:1px solid;overflow:hidden;}
+.msng-msg-av img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
+.msng-bubble{padding:8px 12px;max-width:100%;word-break:break-word;position:relative;font-size:15px;line-height:1.4;}
+.msng-msg.out .msng-bubble{background:rgba(0,80,100,0.3);border:1px solid rgba(77,230,230,0.3);border-radius:10px 10px 2px 10px;color:var(--text);}
+.msng-msg.in  .msng-bubble{background:rgba(11,21,32,0.95);border:1px solid var(--b);border-radius:10px 10px 10px 2px;color:var(--text);}
+.msng-bubble-time{font-size:10px;color:var(--muted);margin-top:3px;text-align:right;}
+.msng-bubble-name{font-size:10px;margin-bottom:3px;font-weight:bold;}
+.msng-bubble img.msng-img{max-width:220px;max-height:180px;border:1px solid var(--b);display:block;margin-top:4px;cursor:zoom-in;border-radius:4px;}
+.msng-bubble .msng-file{display:flex;align-items:center;gap:6px;background:#06090f;border:1px solid var(--b);padding:6px 10px;margin-top:4px;cursor:pointer;border-radius:3px;font-size:13px;color:var(--cyan);text-decoration:none;}
+.msng-bubble .msng-file:hover{border-color:var(--cyan);}
+.msng-day-sep{text-align:center;font-family:'Press Start 2P',monospace;font-size:7px;color:var(--muted);margin:8px 0;position:relative;}
+.msng-day-sep::before,.msng-day-sep::after{content:'';position:absolute;top:50%;width:30%;height:1px;background:var(--b);}
+.msng-day-sep::before{left:0;}.msng-day-sep::after{right:0;}
+.msng-system{text-align:center;font-size:12px;color:var(--muted);padding:4px 0;font-style:italic;}
+
+/* Панель ввода */
+#msng-input-area{border-top:1px solid var(--b);padding:10px 12px;display:flex;flex-direction:column;gap:6px;flex-shrink:0;background:rgba(4,8,15,0.9);}
+#msng-attach-preview{display:none;flex-wrap:wrap;gap:6px;padding:4px 0;}
+.msng-ap-item{position:relative;background:#060c14;border:1px solid var(--b);border-radius:3px;overflow:hidden;}
+.msng-ap-item img{width:60px;height:60px;object-fit:cover;display:block;}
+.msng-ap-item .msng-ap-name{font-size:11px;color:var(--muted);padding:3px 6px;max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.msng-ap-rm{position:absolute;top:2px;right:2px;background:rgba(0,0,0,0.8);border:none;cursor:pointer;color:var(--red);font-size:14px;line-height:1;width:16px;height:16px;display:flex;align-items:center;justify-content:center;border-radius:50%;}
+#msng-input-row{display:flex;gap:6px;align-items:flex-end;}
+#msng-attach-btn{background:#060c14;border:1px solid var(--b);color:var(--muted);cursor:pointer;font-size:18px;padding:6px 10px;transition:all .15s;flex-shrink:0;line-height:1;}
+#msng-attach-btn:hover{border-color:var(--cyan);color:var(--cyan);}
+#msng-text{flex:1;background:#060c14;border:1px solid var(--b);color:var(--text);font-family:'VT323',monospace;font-size:16px;padding:7px 10px;outline:none;resize:none;min-height:36px;max-height:100px;line-height:1.4;transition:border-color .15s;}
+#msng-text:focus{border-color:var(--cyan);}
+#msng-text::placeholder{color:var(--muted);}
+#msng-send{background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:8px 14px;transition:all .15s;flex-shrink:0;}
+#msng-send:hover{background:rgba(0,80,100,0.6);}
+#msng-send:active{transform:scale(0.96);}
+
+/* Пустой экран */
+#msng-empty{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--muted);gap:10px;}
+#msng-empty .msng-ei{font-size:48px;}
+#msng-empty .msng-et{font-family:'Press Start 2P',monospace;font-size:8px;}
+
+/* Имя пользователя */
+#msng-name-modal{position:absolute;inset:0;background:rgba(0,0,0,0.92);display:flex;align-items:center;justify-content:center;z-index:10;flex-direction:column;gap:14px;}
+#msng-name-modal h2{font-family:'Press Start 2P',monospace;font-size:11px;color:var(--cyan);}
+#msng-name-input{background:#060c14;border:1px solid var(--cyan);color:var(--text);font-family:'VT323',monospace;font-size:18px;padding:8px 14px;outline:none;width:220px;text-align:center;}
+#msng-name-ok{background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:8px 20px;}
+#msng-name-ok:hover{background:rgba(0,80,100,0.6);}
+
+@media(max-width:600px){
+  #msng-wrap{width:100vw;height:100vh;border:none;}
+  #msng-sidebar{width:100%;display:none;position:absolute;inset:0;z-index:5;border-right:none;}
+  #msng-sidebar.mob-show{display:flex;}
+  #msng-main{width:100%;}
+  #msng-back-btn{display:flex!important;}
+}
+#msng-back-btn{display:none;background:none;border:none;cursor:pointer;color:var(--cyan);font-size:22px;margin-right:4px;}
 </style>
 </head>
 <body>
@@ -710,8 +808,113 @@ body.cursor-ds #cursor{
     <div class="bt mcb" id="bt-mc" onclick="sp('mc',this,'mcb')"><span class="bi">⛏️</span>MINECRAFT</div>
     <div class="bt dsb" id="bt-ds" onclick="sp('ds',this,'dsb')"><span class="bi">💬</span>DISCORD</div>
     <div class="bt rbb" id="bt-rb" onclick="sp('rb',this,'rbb')"><span class="bi">⚔️</span>ХЕНТ ИГРА</div>
+    <div class="bt" id="bt-msg" onclick="msngOpen()" style="position:relative;color:var(--cyan);border-top:2px solid var(--cyan);"><span class="bi">✈️</span>ЧАТ<span id="msng-badge" style="display:none;position:absolute;top:6px;right:6px;background:var(--red);color:#fff;border-radius:8px;font-family:'Press Start 2P',monospace;font-size:7px;padding:1px 4px;"></span></div>
   </div>
 </div>
+
+<!-- ===== MESSENGER ===== -->
+<div id="msng-overlay" style="position:fixed;inset:0;z-index:800;background:rgba(0,0,0,0.88);display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px);animation:fi .15s ease;">
+<div id="msng-wrap" style="width:min(900px,97vw);height:min(640px,92vh);display:flex;background:var(--bg);border:1px solid var(--b);border-top:2px solid var(--cyan);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(77,230,230,0.08);">
+
+  <!-- Ввод имени при первом входе -->
+  <div id="msng-name-screen" style="position:absolute;inset:0;background:rgba(4,8,15,0.97);display:flex;align-items:center;justify-content:center;z-index:20;flex-direction:column;gap:16px;">
+    <div style="font-size:48px">✈️</div>
+    <div style="font-family:'Press Start 2P',monospace;font-size:11px;color:var(--cyan);">КАК ТЕБЯ ЗОВУТ?</div>
+    <input id="msng-name-input" maxlength="24" placeholder="Твой ник..."
+      autocomplete="off"
+      style="background:#060c14;border:1px solid var(--cyan);color:var(--text);font-family:'VT323',monospace;font-size:20px;padding:8px 16px;outline:none;width:230px;text-align:center;"
+      onkeydown="if(event.key==='Enter')msngSetName()">
+    <button onclick="msngSetName()"
+      style="background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:10px 24px;">
+      ВОЙТИ →
+    </button>
+  </div>
+
+  <!-- САЙДБАР -->
+  <div id="msng-sidebar" style="width:240px;flex-shrink:0;border-right:1px solid var(--b);display:flex;flex-direction:column;background:rgba(4,8,15,0.95);">
+    <div style="padding:10px 12px;border-bottom:1px solid var(--b);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;">
+      <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);">✈️ C.P.Y.S CHAT</span>
+      <button onclick="msngClose()" style="background:none;border:none;cursor:pointer;color:var(--muted);font-family:'VT323',monospace;font-size:22px;line-height:1;padding:0 4px;"
+        onmouseover="this.style.color='#ff4444'" onmouseout="this.style.color='var(--muted)'">✕</button>
+    </div>
+    <div style="padding:7px 10px;border-bottom:1px solid var(--b);">
+      <input id="msng-srch" placeholder="🔍 Поиск чатов..." oninput="msngFilter(this.value)"
+        autocomplete="off"
+        style="width:100%;background:#060c14;border:1px solid var(--b);color:var(--text);font-family:'VT323',monospace;font-size:15px;padding:5px 8px;outline:none;"
+        onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'">
+    </div>
+    <div style="padding:6px 10px;border-bottom:1px solid var(--b);">
+      <button onclick="msngNewGroup()"
+        style="width:100%;background:rgba(0,80,100,0.08);border:1px solid var(--b);color:var(--muted);font-family:'VT323',monospace;font-size:14px;padding:5px 0;cursor:pointer;transition:all .15s;"
+        onmouseover="this.style.borderColor='var(--cyan)';this.style.color='var(--cyan)'"
+        onmouseout="this.style.borderColor='var(--b)';this.style.color='var(--muted)'">
+        ➕ Новая группа
+      </button>
+    </div>
+    <div id="msng-chats-list" style="flex:1;overflow-y:auto;overflow-x:hidden;"></div>
+    <!-- Моё имя -->
+    <div style="padding:8px 12px;border-top:1px solid var(--b);display:flex;align-items:center;gap:8px;background:rgba(0,0,0,0.3);">
+      <div id="msng-my-av" style="width:28px;height:28px;border-radius:50%;border:1px solid var(--cyan);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:bold;color:var(--cyan);flex-shrink:0;background:rgba(0,80,100,0.2);"></div>
+      <div style="flex:1;min-width:0;">
+        <div id="msng-my-lbl" style="font-size:14px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"></div>
+        <div style="font-size:10px;color:var(--green);">● онлайн</div>
+      </div>
+      <button onclick="msngChangeName()" title="Сменить имя"
+        style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:14px;padding:2px;"
+        onmouseover="this.style.color='var(--cyan)'" onmouseout="this.style.color='var(--muted)'">✏️</button>
+    </div>
+  </div>
+
+  <!-- ГЛАВНАЯ ПАНЕЛЬ -->
+  <div style="flex:1;display:flex;flex-direction:column;min-width:0;">
+    <!-- Шапка чата -->
+    <div id="msng-chat-head" style="padding:10px 14px;border-bottom:1px solid var(--b);display:none;align-items:center;gap:10px;flex-shrink:0;background:rgba(4,8,15,0.8);">
+      <button id="msng-back-btn" onclick="msngBackToList()"
+        style="display:none;background:none;border:none;cursor:pointer;color:var(--cyan);font-size:26px;line-height:1;margin-right:2px;padding:0;">‹</button>
+      <div id="msng-chat-av-el" style="width:34px;height:34px;border-radius:50%;border:2px solid var(--cyan);overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:bold;flex-shrink:0;background:rgba(0,80,100,0.2);color:var(--cyan);"></div>
+      <div style="flex:1;min-width:0;">
+        <div id="msng-chat-title" style="font-family:'Press Start 2P',monospace;font-size:9px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"></div>
+        <div id="msng-chat-sub" style="font-size:11px;color:var(--muted);margin-top:2px;"></div>
+      </div>
+    </div>
+
+    <!-- Пустой экран -->
+    <div id="msng-empty-screen" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--muted);gap:10px;padding:20px;text-align:center;">
+      <div style="font-size:52px">✈️</div>
+      <div style="font-family:'Press Start 2P',monospace;font-size:9px;color:var(--cyan);">C.P.Y.S MESSENGER</div>
+      <div style="font-size:14px;line-height:1.6;">Выбери чат слева<br>или создай группу</div>
+    </div>
+
+    <!-- Список сообщений -->
+    <div id="msng-messages" style="flex:1;overflow-y:auto;overflow-x:hidden;padding:12px 14px;display:none;flex-direction:column;gap:4px;"></div>
+
+    <!-- Поле ввода -->
+    <div id="msng-input-wrap" style="border-top:1px solid var(--b);padding:10px 12px;display:none;flex-direction:column;gap:6px;flex-shrink:0;background:rgba(4,8,15,0.9);">
+      <div id="msng-file-preview" style="display:none;flex-wrap:wrap;gap:6px;padding-bottom:4px;"></div>
+      <div style="display:flex;gap:6px;align-items:flex-end;">
+        <button onclick="document.getElementById('msng-file-inp').click()"
+          title="Прикрепить файл"
+          style="background:#060c14;border:1px solid var(--b);color:var(--muted);cursor:pointer;font-size:20px;padding:6px 10px;transition:all .15s;flex-shrink:0;line-height:1;"
+          onmouseover="this.style.borderColor='var(--cyan)';this.style.color='var(--cyan)'"
+          onmouseout="this.style.borderColor='var(--b)';this.style.color='var(--muted)'">📎</button>
+        <input type="file" id="msng-file-inp" multiple
+          accept="image/*,.pdf,.zip,.txt,.doc,.docx,.mp4,.mov,.webm"
+          style="display:none" onchange="msngFilePicked(this)">
+        <textarea id="msng-text-inp" rows="1" placeholder="Написать сообщение..."
+          style="flex:1;background:#060c14;border:1px solid var(--b);color:var(--text);font-family:'VT323',monospace;font-size:16px;padding:7px 10px;outline:none;resize:none;min-height:38px;max-height:110px;line-height:1.4;transition:border-color .15s;"
+          onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'"
+          onkeydown="msngKeyDown(event)" oninput="msngAutoResize(this)"></textarea>
+        <button onclick="msngSend()"
+          style="background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:9px 14px;flex-shrink:0;transition:all .15s;"
+          onmouseover="this.style.background='rgba(0,80,100,0.6)'"
+          onmouseout="this.style.background='rgba(0,80,100,0.3)'">ОТПРАВИТЬ</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div><!-- /MESSENGER -->
+
 
 <!-- MEMBER MODAL -->
 <div class="mbg" id="mbg" onclick="cm(event)">
@@ -2945,6 +3148,481 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
   });
   setTimeout(function(){ init(); updateScores(); },500);
 })();
+
+// =====================================================
+//  C.P.Y.S MESSENGER
+//  Хранилище: localStorage (ключ msng_v1)
+//  Поддержка: текст, картинки, файлы, группы
+// =====================================================
+(function(){
+  'use strict';
+
+  // --- Константы ---
+  const LS_KEY    = 'cpys_msng_v2';
+  const NAME_KEY  = 'cpys_msng_name';
+  const MAX_STORE = 300; // максимум сообщений на чат в LS
+
+  // --- Состояние ---
+  let myName    = '';
+  let activeCid = null;   // id активного чата
+  let pendingFiles = [];  // [{name, dataUrl, type, size}]
+  let allChats  = {};     // {cid: {id,name,type,members:[],messages:[{id,from,text,files:[],ts}]}}
+  let unreadMap = {};     // {cid: count}
+
+  // --- Инициализация ---
+  function init(){
+    loadData();
+    // Дефолтные чаты если нет
+    if(!allChats['general']){
+      allChats['general'] = {
+        id:'general', name:'💬 Общий чат', type:'group',
+        members:[], messages:[], color:'#5865f2'
+      };
+    }
+    if(!allChats['mc']){
+      allChats['mc'] = {
+        id:'mc', name:'⛏️ Minecraft', type:'group',
+        members:[], messages:[], color:'#00d26a'
+      };
+    }
+    if(!allChats['memes']){
+      allChats['memes'] = {
+        id:'memes', name:'😂 Мемы', type:'group',
+        members:[], messages:[], color:'#ffd700'
+      };
+    }
+    renderChatList();
+    // Мобайл — кнопка назад
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+  }
+
+  function checkMobile(){
+    const mob = window.innerWidth <= 600;
+    const backBtn = document.getElementById('msng-back-btn');
+    if(backBtn) backBtn.style.display = mob && activeCid ? 'block' : 'none';
+  }
+
+  // --- localStorage ---
+  function loadData(){
+    try{
+      const raw = localStorage.getItem(LS_KEY);
+      if(raw) allChats = JSON.parse(raw);
+    }catch(e){ allChats = {}; }
+    try{
+      const raw2 = localStorage.getItem(LS_KEY+'_unread');
+      if(raw2) unreadMap = JSON.parse(raw2);
+    }catch(e){ unreadMap = {}; }
+    myName = localStorage.getItem(NAME_KEY) || '';
+  }
+
+  function saveData(){
+    try{
+      // Обрезаем сообщения
+      Object.values(allChats).forEach(c=>{
+        if(c.messages.length > MAX_STORE)
+          c.messages = c.messages.slice(-MAX_STORE);
+      });
+      localStorage.setItem(LS_KEY, JSON.stringify(allChats));
+      localStorage.setItem(LS_KEY+'_unread', JSON.stringify(unreadMap));
+    }catch(e){
+      console.warn('msng: localStorage full, trimming');
+      // Если переполнено — обрезаем картинки из старых сообщений
+      Object.values(allChats).forEach(c=>{
+        c.messages.slice(0, -30).forEach(m=>{ m.files=[]; });
+      });
+      try{ localStorage.setItem(LS_KEY, JSON.stringify(allChats)); }catch(e2){}
+    }
+  }
+
+  // --- Открыть / закрыть ---
+  window.msngOpen = function(){
+    const ov = document.getElementById('msng-overlay');
+    ov.style.display = 'flex';
+    // Показать/скрыть экран имени
+    const ns = document.getElementById('msng-name-screen');
+    myName = localStorage.getItem(NAME_KEY) || '';
+    if(!myName){
+      ns.style.display = 'flex';
+      setTimeout(()=>document.getElementById('msng-name-input').focus(), 100);
+    } else {
+      ns.style.display = 'none';
+      updateMyBar();
+      renderChatList();
+      // Открываем последний активный чат
+      if(activeCid && allChats[activeCid]) openChat(activeCid);
+    }
+    // Сброс бейджа
+    clearBadge();
+  };
+
+  window.msngClose = function(){
+    document.getElementById('msng-overlay').style.display = 'none';
+  };
+
+  // Клик по оверлею (вне окна)
+  window.msngOverlayClick = function(e){
+    if(e.target === document.getElementById('msng-overlay')) msngClose();
+  };
+  // Навешиваем обработчик
+  document.addEventListener('DOMContentLoaded', function(){
+    const ov = document.getElementById('msng-overlay');
+    if(ov) ov.addEventListener('click', function(e){
+      if(e.target === ov) msngClose();
+    });
+  });
+
+  // --- Имя ---
+  window.msngSetName = function(){
+    const inp = document.getElementById('msng-name-input');
+    const val = (inp.value || '').trim();
+    if(!val){ inp.style.borderColor='var(--red)'; return; }
+    myName = val;
+    localStorage.setItem(NAME_KEY, myName);
+    document.getElementById('msng-name-screen').style.display = 'none';
+    updateMyBar();
+    renderChatList();
+  };
+
+  window.msngChangeName = function(){
+    const ns = document.getElementById('msng-name-screen');
+    const inp = document.getElementById('msng-name-input');
+    inp.value = myName;
+    ns.style.display = 'flex';
+    setTimeout(()=>inp.select(), 50);
+  };
+
+  function updateMyBar(){
+    const av  = document.getElementById('msng-my-av');
+    const lbl = document.getElementById('msng-my-lbl');
+    if(av)  av.textContent  = (myName||'?')[0].toUpperCase();
+    if(lbl) lbl.textContent = myName || '—';
+  }
+
+  // --- Список чатов ---
+  function renderChatList(filter){
+    const el = document.getElementById('msng-chats-list');
+    if(!el) return;
+    filter = (filter||'').toLowerCase();
+    const chats = Object.values(allChats).filter(c=>
+      !filter || c.name.toLowerCase().includes(filter)
+    );
+    if(!chats.length){
+      el.innerHTML = '<div style="color:var(--muted);font-size:13px;text-align:center;padding:20px 10px;">Ничего не найдено</div>';
+      return;
+    }
+    el.innerHTML = chats.map(c=>{
+      const last = c.messages[c.messages.length-1];
+      const lastText = last
+        ? (last.files&&last.files.length ? '📎 '+last.files[0].name : last.text||'…')
+        : 'Нет сообщений';
+      const lastTime = last ? fmtTime(last.ts) : '';
+      const unread   = unreadMap[c.id] || 0;
+      const isActive = c.id === activeCid;
+      const initial  = (c.name.replace(/[^\w]/g,'')||'?')[0].toUpperCase();
+      const col = c.color||'#5865f2';
+      return `<div class="msng-ci" onclick="openChat('${esc(c.id)}')"
+        style="display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer;border-bottom:1px solid rgba(22,32,48,0.4);transition:background .15s;position:relative;
+        ${isActive?'background:rgba(0,80,100,0.15);border-right:2px solid var(--cyan);':''};"
+        onmouseover="if('${c.id}'!=='${activeCid||''}')this.style.background='rgba(20,40,60,0.4)'"
+        onmouseout="if('${c.id}'!=='${activeCid||''}')this.style.background=''">
+        <div style="width:36px;height:36px;border-radius:50%;border:1px solid ${col};display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:bold;flex-shrink:0;color:${col};background:${col}18;">
+          ${initial}
+        </div>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:14px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(c.name)}</div>
+          <div style="font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:1px;">${esc(lastText.slice(0,50))}</div>
+        </div>
+        <div style="font-size:10px;color:var(--muted);flex-shrink:0;align-self:flex-start;margin-top:2px;">${lastTime}</div>
+        ${unread ? `<div style="position:absolute;top:8px;right:8px;background:var(--red);color:#fff;border-radius:8px;font-family:'Press Start 2P',monospace;font-size:7px;padding:2px 5px;min-width:16px;text-align:center;">${unread}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+
+  window.msngFilter = function(val){
+    renderChatList(val);
+  };
+
+  // --- Открыть чат ---
+  window.openChat = function(cid){
+    const chat = allChats[cid];
+    if(!chat) return;
+    activeCid = cid;
+    unreadMap[cid] = 0;
+    saveData();
+
+    // Показать шапку
+    const head = document.getElementById('msng-chat-head');
+    head.style.display = 'flex';
+
+    // Аватар чата
+    const avEl = document.getElementById('msng-chat-av-el');
+    const col = chat.color||'#5865f2';
+    avEl.style.borderColor = col;
+    avEl.style.color = col;
+    avEl.style.background = col+'18';
+    avEl.textContent = (chat.name.replace(/[^\w]/g,'')||'?')[0].toUpperCase();
+
+    document.getElementById('msng-chat-title').textContent = chat.name;
+    document.getElementById('msng-chat-sub').textContent =
+      chat.type==='group'
+        ? (chat.messages.length + ' сообщений')
+        : '● в сети';
+
+    // Показать сообщения + ввод
+    document.getElementById('msng-empty-screen').style.display = 'none';
+    const msgsEl = document.getElementById('msng-messages');
+    msgsEl.style.display = 'flex';
+    document.getElementById('msng-input-wrap').style.display = 'flex';
+
+    renderMessages(chat);
+    renderChatList();
+    checkMobile();
+
+    // Мобайл — прячем сайдбар
+    if(window.innerWidth <= 600){
+      document.getElementById('msng-sidebar').style.display = 'none';
+    }
+
+    // Фокус на ввод
+    setTimeout(()=>document.getElementById('msng-text-inp').focus(), 100);
+  };
+
+  window.msngBackToList = function(){
+    activeCid = null;
+    document.getElementById('msng-sidebar').style.display = 'flex';
+    document.getElementById('msng-chat-head').style.display = 'none';
+    document.getElementById('msng-messages').style.display = 'none';
+    document.getElementById('msng-input-wrap').style.display = 'none';
+    document.getElementById('msng-empty-screen').style.display = 'flex';
+    checkMobile();
+  };
+
+  // --- Рендер сообщений ---
+  function renderMessages(chat){
+    const el = document.getElementById('msng-messages');
+    if(!chat.messages.length){
+      el.innerHTML = '<div style="text-align:center;color:var(--muted);font-size:13px;padding:30px 0;">Сообщений пока нет.<br>Напишите первым! 👋</div>';
+      scrollBottom();
+      return;
+    }
+    let html = '';
+    let lastDay = '';
+    chat.messages.forEach(m=>{
+      const day = new Date(m.ts).toLocaleDateString('ru-RU',{day:'2-digit',month:'long'});
+      if(day !== lastDay){
+        html += `<div style="text-align:center;font-family:'Press Start 2P',monospace;font-size:7px;color:var(--muted);margin:8px 0;position:relative;">
+          <span style="background:var(--bg);padding:0 8px;position:relative;z-index:1;">${day}</span>
+          <div style="position:absolute;top:50%;left:0;right:0;height:1px;background:var(--b);z-index:0;"></div>
+        </div>`;
+        lastDay = day;
+      }
+      html += renderBubble(m);
+    });
+    el.innerHTML = html;
+    scrollBottom();
+  }
+
+  function renderBubble(m){
+    const isMe = m.from === myName;
+    const col   = strColor(m.from);
+    const time  = fmtTime(m.ts);
+
+    // Аватар
+    const avHtml = `<div style="width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:bold;border:1px solid ${col};color:${col};background:${col}18;align-self:flex-end;">${(m.from||'?')[0].toUpperCase()}</div>`;
+
+    // Контент
+    let content = '';
+    if(m.text) content += `<div style="word-break:break-word;white-space:pre-wrap;">${esc(m.text)}</div>`;
+    if(m.files && m.files.length){
+      m.files.forEach(f=>{
+        if(f.type && f.type.startsWith('image/')){
+          content += `<div style="margin-top:5px;"><img src="${f.dataUrl}" alt="${esc(f.name)}"
+            style="max-width:220px;max-height:200px;display:block;border:1px solid var(--b);border-radius:4px;cursor:zoom-in;"
+            onclick="window.open('${f.dataUrl}','_blank')"></div>`;
+        } else {
+          content += `<a href="${f.dataUrl}" download="${esc(f.name)}"
+            style="display:flex;align-items:center;gap:6px;background:#06090f;border:1px solid var(--b);padding:6px 10px;margin-top:5px;border-radius:3px;font-size:13px;color:var(--cyan);text-decoration:none;cursor:pointer;">
+            📁 ${esc(f.name)} <span style="color:var(--muted);font-size:10px;">${fmtSize(f.size||0)}</span>
+          </a>`;
+        }
+      });
+    }
+
+    const bubble = `<div style="padding:8px 12px;max-width:100%;word-break:break-word;position:relative;font-size:15px;line-height:1.4;
+      ${isMe
+        ? 'background:rgba(0,80,100,0.28);border:1px solid rgba(77,230,230,0.25);border-radius:10px 10px 2px 10px;'
+        : 'background:rgba(11,21,32,0.95);border:1px solid var(--b);border-radius:10px 10px 10px 2px;'}">
+      ${!isMe ? `<div style="font-size:10px;font-weight:bold;margin-bottom:3px;color:${col};">${esc(m.from)}</div>` : ''}
+      ${content}
+      <div style="font-size:10px;color:var(--muted);margin-top:3px;text-align:right;">${time}${isMe?' ✓':''}</div>
+    </div>`;
+
+    return `<div style="display:flex;gap:8px;align-items:flex-end;max-width:78%;animation:fi .12s ease;
+      ${isMe ? 'align-self:flex-end;flex-direction:row-reverse;' : 'align-self:flex-start;'}">
+      ${avHtml}
+      ${bubble}
+    </div>`;
+  }
+
+  // --- Отправить сообщение ---
+  window.msngSend = function(){
+    if(!activeCid || !myName) return;
+    const inp  = document.getElementById('msng-text-inp');
+    const text = (inp.value||'').trim();
+    if(!text && !pendingFiles.length) return;
+
+    const chat = allChats[activeCid];
+    if(!chat) return;
+
+    const msg = {
+      id:   Date.now()+'_'+Math.random().toString(36).slice(2,7),
+      from: myName,
+      text: text,
+      files: pendingFiles.slice(),
+      ts:   Date.now(),
+    };
+    chat.messages.push(msg);
+    saveData();
+
+    inp.value = '';
+    inp.style.height = '';
+    pendingFiles = [];
+    const prev = document.getElementById('msng-file-preview');
+    prev.innerHTML = ''; prev.style.display = 'none';
+
+    renderMessages(chat);
+    renderChatList();
+    updateSubtitle(chat);
+  };
+
+  function updateSubtitle(chat){
+    const sub = document.getElementById('msng-chat-sub');
+    if(sub && activeCid===chat.id)
+      sub.textContent = chat.messages.length + ' сообщений';
+  }
+
+  window.msngKeyDown = function(e){
+    if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); msngSend(); }
+  };
+
+  window.msngAutoResize = function(el){
+    el.style.height = '';
+    el.style.height = Math.min(el.scrollHeight, 110) + 'px';
+  };
+
+  // --- Файлы ---
+  window.msngFilePicked = function(input){
+    const files = Array.from(input.files||[]);
+    input.value = '';
+    const MAX = 5*1024*1024; // 5 MB на файл
+    files.forEach(file=>{
+      if(file.size > MAX){
+        alert('Файл "'+file.name+'" слишком большой (макс 5 МБ)');
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = function(e){
+        pendingFiles.push({
+          name:    file.name,
+          type:    file.type,
+          size:    file.size,
+          dataUrl: e.target.result,
+        });
+        renderFilePrev();
+      };
+      reader.readAsDataURL(file);
+    });
+  };
+
+  function renderFilePrev(){
+    const el = document.getElementById('msng-file-preview');
+    el.style.display = pendingFiles.length ? 'flex' : 'none';
+    el.innerHTML = pendingFiles.map((f,i)=>`
+      <div style="position:relative;background:#060c14;border:1px solid var(--b);border-radius:3px;overflow:hidden;">
+        ${f.type&&f.type.startsWith('image/')
+          ? `<img src="${f.dataUrl}" style="width:60px;height:60px;object-fit:cover;display:block;">`
+          : `<div style="width:60px;height:60px;display:flex;align-items:center;justify-content:center;font-size:24px;">📁</div>`}
+        <div style="font-size:10px;color:var(--muted);padding:2px 5px;max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(f.name)}</div>
+        <button onclick="msngRemoveFile(${i})"
+          style="position:absolute;top:2px;right:2px;background:rgba(0,0,0,0.8);border:none;cursor:pointer;color:var(--red);font-size:13px;width:16px;height:16px;border-radius:50%;display:flex;align-items:center;justify-content:center;line-height:1;padding:0;">✕</button>
+      </div>`).join('');
+  }
+
+  window.msngRemoveFile = function(i){
+    pendingFiles.splice(i,1);
+    renderFilePrev();
+  };
+
+  // --- Новая группа ---
+  window.msngNewGroup = function(){
+    const name = prompt('Название группы:','');
+    if(!name||!name.trim()) return;
+    const id  = 'grp_'+Date.now();
+    const colors = ['#5865f2','#00d26a','#ffd700','#4de6e6','#ff6b35','#7c3aed','#ff4444'];
+    allChats[id] = {
+      id, name: name.trim(), type:'group',
+      members:[], messages:[],
+      color: colors[Math.floor(Math.random()*colors.length)]
+    };
+    saveData();
+    renderChatList();
+    openChat(id);
+  };
+
+  // --- Бейдж непрочитанных ---
+  function clearBadge(){
+    const b = document.getElementById('msng-badge');
+    if(b) b.style.display = 'none';
+  }
+
+  // --- Утилиты ---
+  function scrollBottom(){
+    const el = document.getElementById('msng-messages');
+    if(el) setTimeout(()=>{ el.scrollTop = el.scrollHeight; }, 30);
+  }
+
+  function esc(s){
+    return String(s||'')
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function fmtTime(ts){
+    if(!ts) return '';
+    const d = new Date(ts);
+    const now = new Date();
+    const isToday = d.toDateString()===now.toDateString();
+    if(isToday) return d.toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit'});
+    return d.toLocaleDateString('ru-RU',{day:'2-digit',month:'2-digit'});
+  }
+
+  function fmtSize(bytes){
+    if(bytes<1024) return bytes+'б';
+    if(bytes<1024*1024) return Math.round(bytes/1024)+'КБ';
+    return (bytes/1024/1024).toFixed(1)+'МБ';
+  }
+
+  function strColor(str){
+    const palette=['#5865f2','#00d26a','#ffd700','#4de6e6','#ff6b35','#7c3aed','#ff4444','#00ff87','#ff6b9d'];
+    let h=0; for(const c of (str||'')) h=(h*31+c.charCodeAt(0))&0xffffff;
+    return palette[Math.abs(h)%palette.length];
+  }
+
+  // --- Закрытие по Escape ---
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){
+      const ov=document.getElementById('msng-overlay');
+      if(ov&&ov.style.display!=='none') msngClose();
+    }
+  });
+
+  // --- Запуск ---
+  document.addEventListener('DOMContentLoaded', init);
+  setTimeout(init, 200);
+
+})();
+// ===== END MESSENGER =====
 
 </script>
 </body>
