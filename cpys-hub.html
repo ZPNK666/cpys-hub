@@ -808,112 +808,243 @@ body.cursor-ds #cursor{
     <div class="bt mcb" id="bt-mc" onclick="sp('mc',this,'mcb')"><span class="bi">⛏️</span>MINECRAFT</div>
     <div class="bt dsb" id="bt-ds" onclick="sp('ds',this,'dsb')"><span class="bi">💬</span>DISCORD</div>
     <div class="bt rbb" id="bt-rb" onclick="sp('rb',this,'rbb')"><span class="bi">⚔️</span>ХЕНТ ИГРА</div>
-    <div class="bt" id="bt-msg" onclick="msngOpen()" style="position:relative;color:var(--cyan);border-top:2px solid var(--cyan);"><span class="bi">✈️</span>ЧАТ<span id="msng-badge" style="display:none;position:absolute;top:6px;right:6px;background:var(--red);color:#fff;border-radius:8px;font-family:'Press Start 2P',monospace;font-size:7px;padding:1px 4px;"></span></div>
+
   </div>
 </div>
 
-<!-- ===== MESSENGER ===== -->
-<div id="msng-overlay" style="position:fixed;inset:0;z-index:800;background:rgba(0,0,0,0.88);display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px);animation:fi .15s ease;">
-<div id="msng-wrap" style="width:min(900px,97vw);height:min(640px,92vh);display:flex;background:var(--bg);border:1px solid var(--b);border-top:2px solid var(--cyan);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(77,230,230,0.08);">
+<!-- ===== MESSENGER FLOAT ===== -->
+<!-- FAB кнопка -->
+<div id="msng-fab" onclick="msngToggle()" title="Открыть чат"
+  style="position:fixed;bottom:24px;right:24px;z-index:1000;
+    width:56px;height:56px;border-radius:50%;
+    background:rgba(4,8,15,0.96);border:2px solid var(--cyan);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;box-shadow:0 0 20px rgba(77,230,230,0.4);
+    transition:transform .2s,box-shadow .2s;font-size:26px;user-select:none;"
+  onmouseover="this.style.transform='scale(1.12)';this.style.boxShadow='0 0 32px rgba(77,230,230,0.6)'"
+  onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 0 20px rgba(77,230,230,0.4)'">
+  <span id="msng-fab-icon">💬</span>
+  <span id="msng-badge" style="display:none;position:absolute;top:1px;right:1px;
+    background:var(--red);color:#fff;border-radius:8px;
+    font-family:'Press Start 2P',monospace;font-size:6px;
+    padding:2px 4px;min-width:14px;text-align:center;line-height:1.4;"></span>
+</div>
 
-  <!-- Ввод имени при первом входе -->
-  <div id="msng-name-screen" style="position:absolute;inset:0;background:rgba(4,8,15,0.97);display:flex;align-items:center;justify-content:center;z-index:20;flex-direction:column;gap:16px;">
-    <div style="font-size:48px">✈️</div>
-    <div style="font-family:'Press Start 2P',monospace;font-size:11px;color:var(--cyan);">КАК ТЕБЯ ЗОВУТ?</div>
-    <input id="msng-name-input" maxlength="24" placeholder="Твой ник..."
-      autocomplete="off"
-      style="background:#060c14;border:1px solid var(--cyan);color:var(--text);font-family:'VT323',monospace;font-size:20px;padding:8px 16px;outline:none;width:230px;text-align:center;"
-      onkeydown="if(event.key==='Enter')msngSetName()">
-    <button onclick="msngSetName()"
-      style="background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:10px 24px;">
-      ВОЙТИ →
-    </button>
-  </div>
+<!-- Окно чата -->
+<div id="msng-win" style="
+  position:fixed;bottom:92px;right:24px;z-index:999;
+  width:min(420px,96vw);height:min(580px,82vh);
+  display:none;flex-direction:column;
+  background:var(--bg);border:1px solid var(--b);
+  border-top:2px solid var(--cyan);
+  box-shadow:0 8px 40px rgba(0,0,0,0.7),0 0 30px rgba(77,230,230,0.08);
+  border-radius:4px;overflow:hidden;">
 
-  <!-- САЙДБАР -->
-  <div id="msng-sidebar" style="width:240px;flex-shrink:0;border-right:1px solid var(--b);display:flex;flex-direction:column;background:rgba(4,8,15,0.95);">
-    <div style="padding:10px 12px;border-bottom:1px solid var(--b);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;">
-      <span style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);">✈️ C.P.Y.S CHAT</span>
-      <button onclick="msngClose()" style="background:none;border:none;cursor:pointer;color:var(--muted);font-family:'VT323',monospace;font-size:22px;line-height:1;padding:0 4px;"
-        onmouseover="this.style.color='#ff4444'" onmouseout="this.style.color='var(--muted)'">✕</button>
+  <!-- ══ ЭКРАН ВХОДА/РЕГИСТРАЦИИ ══ -->
+  <div id="msng-auth-screen" style="position:absolute;inset:0;background:rgba(4,8,15,0.99);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    z-index:20;gap:14px;padding:24px;overflow-y:auto;">
+    <div style="font-size:36px;">💬</div>
+    <div style="font-family:'Press Start 2P',monospace;font-size:10px;color:var(--gold);
+      text-align:center;line-height:1.9;">C.P.Y.S CHAT</div>
+    <!-- Табы -->
+    <div style="display:flex;width:100%;max-width:300px;flex-shrink:0;">
+      <div id="msng-tab-login" onclick="msngSwitchTab('login')"
+        style="flex:1;padding:7px 0;text-align:center;cursor:pointer;
+          font-family:'VT323',monospace;font-size:15px;
+          border:1px solid var(--cyan);background:rgba(0,80,100,0.2);color:var(--cyan);">ВОЙТИ</div>
+      <div id="msng-tab-reg" onclick="msngSwitchTab('reg')"
+        style="flex:1;padding:7px 0;text-align:center;cursor:pointer;
+          font-family:'VT323',monospace;font-size:15px;
+          border:1px solid var(--b);background:transparent;color:var(--muted);">РЕГИСТРАЦИЯ</div>
     </div>
-    <div style="padding:7px 10px;border-bottom:1px solid var(--b);">
-      <input id="msng-srch" placeholder="🔍 Поиск чатов..." oninput="msngFilter(this.value)"
-        autocomplete="off"
-        style="width:100%;background:#060c14;border:1px solid var(--b);color:var(--text);font-family:'VT323',monospace;font-size:15px;padding:5px 8px;outline:none;"
+    <!-- Поля -->
+    <div id="msng-auth-fields" style="display:flex;flex-direction:column;gap:8px;width:100%;max-width:300px;">
+      <!-- REG only -->
+      <input id="msng-f-dispname" maxlength="24" placeholder="Отображаемое имя (никнейм)" autocomplete="off"
+        style="display:none;background:#060c14;border:1px solid var(--b);color:var(--text);
+          font-family:'VT323',monospace;font-size:16px;padding:8px 11px;outline:none;width:100%;box-sizing:border-box;"
         onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'">
-    </div>
-    <div style="padding:6px 10px;border-bottom:1px solid var(--b);">
-      <button onclick="msngNewGroup()"
-        style="width:100%;background:rgba(0,80,100,0.08);border:1px solid var(--b);color:var(--muted);font-family:'VT323',monospace;font-size:14px;padding:5px 0;cursor:pointer;transition:all .15s;"
-        onmouseover="this.style.borderColor='var(--cyan)';this.style.color='var(--cyan)'"
-        onmouseout="this.style.borderColor='var(--b)';this.style.color='var(--muted)'">
-        ➕ Новая группа
-      </button>
-    </div>
-    <div id="msng-chats-list" style="flex:1;overflow-y:auto;overflow-x:hidden;"></div>
-    <!-- Моё имя -->
-    <div style="padding:8px 12px;border-top:1px solid var(--b);display:flex;align-items:center;gap:8px;background:rgba(0,0,0,0.3);">
-      <div id="msng-my-av" style="width:28px;height:28px;border-radius:50%;border:1px solid var(--cyan);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:bold;color:var(--cyan);flex-shrink:0;background:rgba(0,80,100,0.2);"></div>
-      <div style="flex:1;min-width:0;">
-        <div id="msng-my-lbl" style="font-size:14px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"></div>
-        <div style="font-size:10px;color:var(--green);">● онлайн</div>
-      </div>
-      <button onclick="msngChangeName()" title="Сменить имя"
-        style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:14px;padding:2px;"
-        onmouseover="this.style.color='var(--cyan)'" onmouseout="this.style.color='var(--muted)'">✏️</button>
-    </div>
-  </div>
-
-  <!-- ГЛАВНАЯ ПАНЕЛЬ -->
-  <div style="flex:1;display:flex;flex-direction:column;min-width:0;">
-    <!-- Шапка чата -->
-    <div id="msng-chat-head" style="padding:10px 14px;border-bottom:1px solid var(--b);display:none;align-items:center;gap:10px;flex-shrink:0;background:rgba(4,8,15,0.8);">
-      <button id="msng-back-btn" onclick="msngBackToList()"
-        style="display:none;background:none;border:none;cursor:pointer;color:var(--cyan);font-size:26px;line-height:1;margin-right:2px;padding:0;">‹</button>
-      <div id="msng-chat-av-el" style="width:34px;height:34px;border-radius:50%;border:2px solid var(--cyan);overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:bold;flex-shrink:0;background:rgba(0,80,100,0.2);color:var(--cyan);"></div>
-      <div style="flex:1;min-width:0;">
-        <div id="msng-chat-title" style="font-family:'Press Start 2P',monospace;font-size:9px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"></div>
-        <div id="msng-chat-sub" style="font-size:11px;color:var(--muted);margin-top:2px;"></div>
-      </div>
-    </div>
-
-    <!-- Пустой экран -->
-    <div id="msng-empty-screen" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--muted);gap:10px;padding:20px;text-align:center;">
-      <div style="font-size:52px">✈️</div>
-      <div style="font-family:'Press Start 2P',monospace;font-size:9px;color:var(--cyan);">C.P.Y.S MESSENGER</div>
-      <div style="font-size:14px;line-height:1.6;">Выбери чат слева<br>или создай группу</div>
-    </div>
-
-    <!-- Список сообщений -->
-    <div id="msng-messages" style="flex:1;overflow-y:auto;overflow-x:hidden;padding:12px 14px;display:none;flex-direction:column;gap:4px;"></div>
-
-    <!-- Поле ввода -->
-    <div id="msng-input-wrap" style="border-top:1px solid var(--b);padding:10px 12px;display:none;flex-direction:column;gap:6px;flex-shrink:0;background:rgba(4,8,15,0.9);">
-      <div id="msng-file-preview" style="display:none;flex-wrap:wrap;gap:6px;padding-bottom:4px;"></div>
-      <div style="display:flex;gap:6px;align-items:flex-end;">
-        <button onclick="document.getElementById('msng-file-inp').click()"
-          title="Прикрепить файл"
-          style="background:#060c14;border:1px solid var(--b);color:var(--muted);cursor:pointer;font-size:20px;padding:6px 10px;transition:all .15s;flex-shrink:0;line-height:1;"
-          onmouseover="this.style.borderColor='var(--cyan)';this.style.color='var(--cyan)'"
-          onmouseout="this.style.borderColor='var(--b)';this.style.color='var(--muted)'">📎</button>
-        <input type="file" id="msng-file-inp" multiple
-          accept="image/*,.pdf,.zip,.txt,.doc,.docx,.mp4,.mov,.webm"
-          style="display:none" onchange="msngFilePicked(this)">
-        <textarea id="msng-text-inp" rows="1" placeholder="Написать сообщение..."
-          style="flex:1;background:#060c14;border:1px solid var(--b);color:var(--text);font-family:'VT323',monospace;font-size:16px;padding:7px 10px;outline:none;resize:none;min-height:38px;max-height:110px;line-height:1.4;transition:border-color .15s;"
-          onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'"
-          onkeydown="msngKeyDown(event)" oninput="msngAutoResize(this)"></textarea>
-        <button onclick="msngSend()"
-          style="background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:9px 14px;flex-shrink:0;transition:all .15s;"
-          onmouseover="this.style.background='rgba(0,80,100,0.6)'"
-          onmouseout="this.style.background='rgba(0,80,100,0.3)'">ОТПРАВИТЬ</button>
-      </div>
+      <!-- Shared -->
+      <input id="msng-f-email" maxlength="120" placeholder="Email (логин)" type="email" autocomplete="email"
+        style="background:#060c14;border:1px solid var(--b);color:var(--text);
+          font-family:'VT323',monospace;font-size:16px;padding:8px 11px;outline:none;width:100%;box-sizing:border-box;"
+        onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'"
+        onkeydown="if(event.key==='Enter')msngDoAuth()">
+      <input id="msng-f-pass" maxlength="64" placeholder="Пароль" type="password" autocomplete="current-password"
+        style="background:#060c14;border:1px solid var(--b);color:var(--text);
+          font-family:'VT323',monospace;font-size:16px;padding:8px 11px;outline:none;width:100%;box-sizing:border-box;"
+        onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'"
+        onkeydown="if(event.key==='Enter')msngDoAuth()">
+      <div id="msng-auth-err" style="color:var(--red);font-size:11px;min-height:14px;"></div>
+      <button id="msng-auth-btn" onclick="msngDoAuth()"
+        style="background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);
+          cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;
+          padding:10px 0;letter-spacing:1px;transition:all .15s;"
+        onmouseover="this.style.background='rgba(0,80,100,0.6)'"
+        onmouseout="this.style.background='rgba(0,80,100,0.3)'">ВОЙТИ</button>
+      <!-- Ссылка восстановления пароля -->
+      <div id="msng-forgot-link" style="text-align:center;font-size:12px;color:var(--muted);cursor:pointer;"
+        onclick="msngShowForgot()">Забыл пароль?</div>
     </div>
   </div>
 
-</div>
+  <!-- ══ ЭКРАН ВОССТАНОВЛЕНИЯ ПАРОЛЯ ══ -->
+  <div id="msng-forgot-screen" style="position:absolute;inset:0;background:rgba(4,8,15,0.99);
+    display:none;flex-direction:column;align-items:center;justify-content:center;
+    z-index:21;gap:14px;padding:24px;">
+    <div style="font-size:32px;">🔑</div>
+    <div style="font-family:'Press Start 2P',monospace;font-size:9px;color:var(--gold);">СБРОС ПАРОЛЯ</div>
+    <div style="font-size:13px;color:var(--muted);text-align:center;max-width:280px;line-height:1.5;">
+      Введи email — увидишь свой пароль (т.к. письма не отправляются без сервера)
+    </div>
+    <input id="msng-forgot-email" placeholder="Твой email" type="email"
+      style="background:#060c14;border:1px solid var(--b);color:var(--text);
+        font-family:'VT323',monospace;font-size:16px;padding:8px 11px;outline:none;
+        width:100%;max-width:300px;box-sizing:border-box;"
+      onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'"
+      onkeydown="if(event.key==='Enter')msngDoForgot()">
+    <div id="msng-forgot-result" style="font-size:13px;min-height:18px;text-align:center;"></div>
+    <button onclick="msngDoForgot()"
+      style="background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);
+        cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;
+        padding:9px 20px;transition:all .15s;"
+      onmouseover="this.style.background='rgba(0,80,100,0.6)'"
+      onmouseout="this.style.background='rgba(0,80,100,0.3)'">НАЙТИ АККАУНТ</button>
+    <span style="font-size:12px;color:var(--muted);cursor:pointer;" onclick="msngHideForgot()">← Назад</span>
+  </div>
+
+  <!-- ══ ЭКРАН ПРОФИЛЯ ══ -->
+  <div id="msng-profile-screen" style="position:absolute;inset:0;background:rgba(4,8,15,0.99);
+    display:none;flex-direction:column;z-index:20;overflow-y:auto;">
+    <!-- Шапка профиля -->
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;
+      border-bottom:1px solid var(--b);flex-shrink:0;">
+      <div style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--cyan);">МОЙ ПРОФИЛЬ</div>
+      <button onclick="msngCloseProfile()"
+        style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:20px;line-height:1;"
+        onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--muted)'">✕</button>
+    </div>
+    <!-- Аватар -->
+    <div style="display:flex;flex-direction:column;align-items:center;padding:20px 16px 10px;gap:10px;">
+      <div style="position:relative;">
+        <div id="prof-av" style="width:72px;height:72px;border-radius:50%;border:2px solid var(--cyan);
+          display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:bold;
+          overflow:hidden;background:rgba(0,80,100,0.2);cursor:pointer;" onclick="document.getElementById('prof-img-inp').click()"></div>
+        <input type="file" id="prof-img-inp" accept="image/*" style="display:none" onchange="msngAvatarPick(this)">
+        <div style="position:absolute;bottom:0;right:0;background:var(--cyan);border-radius:50%;
+          width:22px;height:22px;display:flex;align-items:center;justify-content:center;
+          font-size:13px;cursor:pointer;" onclick="document.getElementById('prof-img-inp').click()" title="Сменить фото">📷</div>
+      </div>
+      <div id="prof-name-display" style="font-family:'Press Start 2P',monospace;font-size:11px;color:var(--text);"></div>
+      <div id="prof-email-display" style="font-size:12px;color:var(--muted);"></div>
+    </div>
+    <!-- Поля редактирования -->
+    <div style="padding:0 16px 16px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-size:11px;color:var(--muted);">Отображаемое имя</div>
+      <input id="prof-f-name" maxlength="24"
+        style="background:#060c14;border:1px solid var(--b);color:var(--text);
+          font-family:'VT323',monospace;font-size:16px;padding:7px 10px;outline:none;width:100%;box-sizing:border-box;"
+        onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'">
+      <div style="font-size:11px;color:var(--muted);">Статус</div>
+      <input id="prof-f-status" maxlength="60" placeholder="Что сейчас делаешь?"
+        style="background:#060c14;border:1px solid var(--b);color:var(--text);
+          font-family:'VT323',monospace;font-size:16px;padding:7px 10px;outline:none;width:100%;box-sizing:border-box;"
+        onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'">
+      <div style="font-size:11px;color:var(--muted);">Биография</div>
+      <textarea id="prof-f-bio" maxlength="160" placeholder="Расскажи о себе..." rows="3"
+        style="background:#060c14;border:1px solid var(--b);color:var(--text);
+          font-family:'VT323',monospace;font-size:15px;padding:7px 10px;outline:none;
+          width:100%;box-sizing:border-box;resize:none;"
+        onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'"></textarea>
+      <div style="font-size:11px;color:var(--muted);">Новый пароль (оставь пустым чтобы не менять)</div>
+      <input id="prof-f-newpass" maxlength="64" placeholder="Новый пароль" type="password"
+        style="background:#060c14;border:1px solid var(--b);color:var(--text);
+          font-family:'VT323',monospace;font-size:16px;padding:7px 10px;outline:none;width:100%;box-sizing:border-box;"
+        onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'">
+      <div id="prof-save-msg" style="font-size:11px;min-height:14px;color:var(--green);"></div>
+      <button onclick="msngSaveProfile()"
+        style="background:rgba(0,210,106,0.15);border:1px solid var(--green);color:var(--green);
+          cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:10px 0;
+          transition:all .15s;"
+        onmouseover="this.style.background='rgba(0,210,106,0.3)'"
+        onmouseout="this.style.background='rgba(0,210,106,0.15)'">💾 СОХРАНИТЬ</button>
+      <button onclick="msngLogout()"
+        style="background:rgba(255,68,68,0.1);border:1px solid var(--red);color:var(--red);
+          cursor:pointer;font-family:'Press Start 2P',monospace;font-size:9px;padding:8px 0;
+          transition:all .15s;margin-top:4px;"
+        onmouseover="this.style.background='rgba(255,68,68,0.25)'"
+        onmouseout="this.style.background='rgba(255,68,68,0.1)'">⏏ ВЫЙТИ ИЗ АККАУНТА</button>
+    </div>
+  </div>
+
+  <!-- ══ ОСНОВНОЙ ЧАТ ══ -->
+  <div id="msng-app" style="display:none;flex:1;flex-direction:column;overflow:hidden;height:100%;">
+    <!-- Шапка -->
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:7px 12px;
+      border-bottom:1px solid var(--b);background:rgba(4,8,15,0.92);flex-shrink:0;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <div id="msng-head-av" style="width:26px;height:26px;border-radius:50%;
+          border:1px solid var(--cyan);display:flex;align-items:center;justify-content:center;
+          font-size:12px;font-weight:bold;color:var(--cyan);background:rgba(0,80,100,0.2);
+          flex-shrink:0;overflow:hidden;"></div>
+        <div>
+          <div id="msng-head-title" style="font-family:'Press Start 2P',monospace;font-size:7px;color:var(--text);"></div>
+          <div id="msng-head-sub" style="font-size:10px;color:var(--muted);margin-top:1px;"></div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <!-- Мой аватар → профиль -->
+        <div id="msng-my-av" onclick="msngOpenProfile()"
+          style="width:26px;height:26px;border-radius:50%;border:1px solid var(--cyan);
+            display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:bold;
+            color:var(--cyan);background:rgba(0,80,100,0.2);cursor:pointer;overflow:hidden;"
+          title="Профиль"></div>
+        <button onclick="msngToggle()"
+          style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:18px;line-height:1;padding:0 2px;"
+          onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='var(--muted)'">✕</button>
+      </div>
+    </div>
+
+    <!-- Тело -->
+    <div style="flex:1;display:flex;overflow:hidden;min-height:0;">
+      <!-- Список каналов -->
+      <div id="msng-chanlist" style="width:108px;flex-shrink:0;border-right:1px solid var(--b);
+        display:flex;flex-direction:column;background:rgba(4,8,15,0.85);overflow-y:auto;">
+        <div style="padding:6px 8px;font-family:'Press Start 2P',monospace;font-size:6px;
+          color:var(--muted);border-bottom:1px solid var(--b);flex-shrink:0;letter-spacing:1px;">КАНАЛЫ</div>
+        <div id="msng-chan-items" style="flex:1;"></div>
+        <!-- Онлайн список -->
+        <div id="msng-online-bar" style="padding:6px 8px;border-top:1px solid var(--b);
+          font-size:10px;flex-shrink:0;"></div>
+      </div>
+
+      <!-- Сообщения + ввод -->
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0;">
+        <div id="msng-messages" style="flex:1;overflow-y:auto;padding:10px;
+          display:flex;flex-direction:column;gap:5px;"></div>
+        <!-- Ввод -->
+        <div style="border-top:1px solid var(--b);padding:8px 10px;
+          display:flex;gap:6px;align-items:flex-end;background:rgba(4,8,15,0.92);flex-shrink:0;">
+          <textarea id="msng-text-inp" rows="1" placeholder="Написать... (Enter)"
+            style="flex:1;background:#060c14;border:1px solid var(--b);color:var(--text);
+              font-family:'VT323',monospace;font-size:15px;padding:6px 8px;outline:none;
+              resize:none;min-height:32px;max-height:80px;line-height:1.4;transition:border-color .15s;"
+            onfocus="this.style.borderColor='var(--cyan)'" onblur="this.style.borderColor='var(--b)'"
+            onkeydown="msngKeyDown(event)" oninput="msngAutoResize(this)"></textarea>
+          <button onclick="msngSend()"
+            style="background:rgba(0,80,100,0.3);border:1px solid var(--cyan);color:var(--cyan);
+              cursor:pointer;font-family:'Press Start 2P',monospace;font-size:7px;
+              padding:7px 10px;flex-shrink:0;transition:all .15s;"
+            onmouseover="this.style.background='rgba(0,80,100,0.6)'"
+            onmouseout="this.style.background='rgba(0,80,100,0.3)'">➤</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div><!-- /MESSENGER -->
+
 
 
 <!-- MEMBER MODAL -->
@@ -3150,476 +3281,385 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
 })();
 
 // =====================================================
-//  C.P.Y.S MESSENGER
-//  Хранилище: localStorage (ключ msng_v1)
-//  Поддержка: текст, картинки, файлы, группы
+//  C.P.Y.S MESSENGER v5 — Float + Auth + Profile + Shared Storage
 // =====================================================
 (function(){
   'use strict';
 
-  // --- Константы ---
-  const LS_KEY    = 'cpys_msng_v2';
-  const NAME_KEY  = 'cpys_msng_name';
-  const MAX_STORE = 300; // максимум сообщений на чат в LS
+  const MSGS_KEY   = 'cpys_msgs_v5';
+  const USERS_KEY  = 'cpys_users_v5';
+  const ONLINE_KEY = 'cpys_online_v5';
+  const COLORS = ['#5865f2','#00d26a','#ffd700','#4de6e6','#ff6b35','#7c3aed','#ff4444','#00ff87','#ff6b9d'];
 
-  // --- Состояние ---
-  let myName    = '';
-  let activeCid = null;   // id активного чата
-  let pendingFiles = [];  // [{name, dataUrl, type, size}]
-  let allChats  = {};     // {cid: {id,name,type,members:[],messages:[{id,from,text,files:[],ts}]}}
-  let unreadMap = {};     // {cid: count}
+  const DEFAULT_CHATS = [
+    {id:'general', name:'💬 Общий',    color:'#5865f2'},
+    {id:'mc',      name:'⛏️ Minecraft', color:'#00d26a'},
+    {id:'memes',   name:'😂 Мемы',     color:'#ffd700'},
+    {id:'offtop',  name:'🎮 Оффтоп',   color:'#ff6b35'},
+  ];
 
-  // --- Инициализация ---
-  function init(){
-    loadData();
-    // Дефолтные чаты если нет
-    if(!allChats['general']){
-      allChats['general'] = {
-        id:'general', name:'💬 Общий чат', type:'group',
-        members:[], messages:[], color:'#5865f2'
-      };
-    }
-    if(!allChats['mc']){
-      allChats['mc'] = {
-        id:'mc', name:'⛏️ Minecraft', type:'group',
-        members:[], messages:[], color:'#00d26a'
-      };
-    }
-    if(!allChats['memes']){
-      allChats['memes'] = {
-        id:'memes', name:'😂 Мемы', type:'group',
-        members:[], messages:[], color:'#ffd700'
-      };
-    }
-    renderChatList();
-    // Мобайл — кнопка назад
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
+  let me = null;          // {email, name, color, avatar, status, bio, pass}
+  let activeCid = 'general';
+  let currentTab = 'login';
+  let allMsgs = {};
+  let pollTimer = null;
+  let winOpen = false;
+
+  // ── Storage helpers (shared) ──
+  async function sGet(key){
+    try{ const r=await window.storage.get(key,true); return r?JSON.parse(r.value):null; }catch{ return null; }
+  }
+  async function sSet(key,val){
+    try{ await window.storage.set(key,JSON.stringify(val),true); }catch{}
   }
 
-  function checkMobile(){
-    const mob = window.innerWidth <= 600;
-    const backBtn = document.getElementById('msng-back-btn');
-    if(backBtn) backBtn.style.display = mob && activeCid ? 'block' : 'none';
+  function strColor(str){
+    let h=0; for(const c of (str||'')) h=(h*31+c.charCodeAt(0))&0xffffff;
+    return COLORS[Math.abs(h)%COLORS.length];
   }
-
-  // --- localStorage ---
-  function loadData(){
-    try{
-      const raw = localStorage.getItem(LS_KEY);
-      if(raw) allChats = JSON.parse(raw);
-    }catch(e){ allChats = {}; }
-    try{
-      const raw2 = localStorage.getItem(LS_KEY+'_unread');
-      if(raw2) unreadMap = JSON.parse(raw2);
-    }catch(e){ unreadMap = {}; }
-    myName = localStorage.getItem(NAME_KEY) || '';
+  function fmtTime(ts){
+    if(!ts)return'';
+    const d=new Date(ts),now=new Date();
+    if(d.toDateString()===now.toDateString())
+      return d.toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit'});
+    return d.toLocaleDateString('ru-RU',{day:'2-digit',month:'2-digit'});
   }
+  function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-  function saveData(){
-    try{
-      // Обрезаем сообщения
-      Object.values(allChats).forEach(c=>{
-        if(c.messages.length > MAX_STORE)
-          c.messages = c.messages.slice(-MAX_STORE);
-      });
-      localStorage.setItem(LS_KEY, JSON.stringify(allChats));
-      localStorage.setItem(LS_KEY+'_unread', JSON.stringify(unreadMap));
-    }catch(e){
-      console.warn('msng: localStorage full, trimming');
-      // Если переполнено — обрезаем картинки из старых сообщений
-      Object.values(allChats).forEach(c=>{
-        c.messages.slice(0, -30).forEach(m=>{ m.files=[]; });
-      });
-      try{ localStorage.setItem(LS_KEY, JSON.stringify(allChats)); }catch(e2){}
+  function avHtml(user, size=26, fontSize=12){
+    const sz=`width:${size}px;height:${size}px`;
+    const col = user.color || strColor(user.name||user.email||'?');
+    if(user.avatar){
+      return `<img src="${user.avatar}" style="${sz};border-radius:50%;object-fit:cover;display:block;">`;
     }
+    return `<div style="${sz};border-radius:50%;border:1px solid ${col};display:flex;align-items:center;
+      justify-content:center;font-size:${fontSize}px;font-weight:bold;color:${col};background:${col}18;">
+      ${esc((user.name||user.email||'?')[0].toUpperCase())}
+    </div>`;
   }
 
-  // --- Открыть / закрыть ---
-  window.msngOpen = function(){
-    const ov = document.getElementById('msng-overlay');
-    ov.style.display = 'flex';
-    // Показать/скрыть экран имени
-    const ns = document.getElementById('msng-name-screen');
-    myName = localStorage.getItem(NAME_KEY) || '';
-    if(!myName){
-      ns.style.display = 'flex';
-      setTimeout(()=>document.getElementById('msng-name-input').focus(), 100);
+  // ── Toggle ──
+  window.msngToggle = function(){
+    const win=document.getElementById('msng-win');
+    winOpen=!winOpen;
+    win.style.display=winOpen?'flex':'none';
+    if(winOpen){ win.style.flexDirection='column'; }
+    document.getElementById('msng-fab-icon').textContent=winOpen?'✕':'💬';
+    if(winOpen){
+      if(me) showApp();
+      else showAuth();
+      clearBadge();
+    }
+  };
+  window.msngOpen=function(){ if(!winOpen) msngToggle(); };
+  window.msngClose=function(){ if(winOpen) msngToggle(); };
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&winOpen) msngToggle(); });
+
+  function clearBadge(){
+    const b=document.getElementById('msng-badge');
+    if(b){ b.style.display='none'; b.textContent=''; }
+    try{ localStorage.setItem('msng_seen',Date.now()); }catch{}
+  }
+
+  // ── Screens ──
+  function showAuth(){
+    document.getElementById('msng-auth-screen').style.display='flex';
+    document.getElementById('msng-auth-screen').style.flexDirection='column';
+    document.getElementById('msng-app').style.display='none';
+    document.getElementById('msng-profile-screen').style.display='none';
+    document.getElementById('msng-forgot-screen').style.display='none';
+  }
+  function showApp(){
+    document.getElementById('msng-auth-screen').style.display='none';
+    document.getElementById('msng-profile-screen').style.display='none';
+    document.getElementById('msng-forgot-screen').style.display='none';
+    const app=document.getElementById('msng-app');
+    app.style.display='flex';
+    app.style.flexDirection='column';
+    updateMyAvBar();
+    renderChanList();
+    if(!pollTimer) startPolling();
+    openChat(activeCid);
+  }
+
+  function updateMyAvBar(){
+    if(!me)return;
+    const el=document.getElementById('msng-my-av');
+    if(el) el.innerHTML=avHtml(me,26,11);
+  }
+
+  // ── Auth ──
+  window.msngSwitchTab = function(tab){
+    currentTab=tab;
+    const tl=document.getElementById('msng-tab-login');
+    const tr=document.getElementById('msng-tab-reg');
+    const btn=document.getElementById('msng-auth-btn');
+    const fl=document.getElementById('msng-forgot-link');
+    const dn=document.getElementById('msng-f-dispname');
+    const active='flex:1;padding:7px 0;text-align:center;cursor:pointer;font-family:VT323,monospace;font-size:15px;border:1px solid var(--cyan);background:rgba(0,80,100,0.2);color:var(--cyan);';
+    const inactive='flex:1;padding:7px 0;text-align:center;cursor:pointer;font-family:VT323,monospace;font-size:15px;border:1px solid var(--b);background:transparent;color:var(--muted);';
+    if(tab==='login'){
+      tl.style.cssText=active; tr.style.cssText=inactive;
+      btn.textContent='ВОЙТИ'; fl.style.display='block'; dn.style.display='none';
     } else {
-      ns.style.display = 'none';
-      updateMyBar();
-      renderChatList();
-      // Открываем последний активный чат
-      if(activeCid && allChats[activeCid]) openChat(activeCid);
+      tr.style.cssText=active; tl.style.cssText=inactive;
+      btn.textContent='СОЗДАТЬ АККАУНТ'; fl.style.display='none'; dn.style.display='block';
     }
-    // Сброс бейджа
-    clearBadge();
+    document.getElementById('msng-auth-err').textContent='';
   };
 
-  window.msngClose = function(){
-    document.getElementById('msng-overlay').style.display = 'none';
-  };
+  window.msngDoAuth = async function(){
+    const errEl=document.getElementById('msng-auth-err');
+    errEl.textContent='';
+    const email=(document.getElementById('msng-f-email').value||'').trim().toLowerCase();
+    const pass=(document.getElementById('msng-f-pass').value||'').trim();
+    if(!email||!pass){ errEl.textContent='Заполни все поля'; return; }
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){ errEl.textContent='Введи корректный email'; return; }
 
-  // Клик по оверлею (вне окна)
-  window.msngOverlayClick = function(e){
-    if(e.target === document.getElementById('msng-overlay')) msngClose();
-  };
-  // Навешиваем обработчик
-  document.addEventListener('DOMContentLoaded', function(){
-    const ov = document.getElementById('msng-overlay');
-    if(ov) ov.addEventListener('click', function(e){
-      if(e.target === ov) msngClose();
-    });
-  });
+    const users=(await sGet(USERS_KEY))||{};
 
-  // --- Имя ---
-  window.msngSetName = function(){
-    const inp = document.getElementById('msng-name-input');
-    const val = (inp.value || '').trim();
-    if(!val){ inp.style.borderColor='var(--red)'; return; }
-    myName = val;
-    localStorage.setItem(NAME_KEY, myName);
-    document.getElementById('msng-name-screen').style.display = 'none';
-    updateMyBar();
-    renderChatList();
-  };
-
-  window.msngChangeName = function(){
-    const ns = document.getElementById('msng-name-screen');
-    const inp = document.getElementById('msng-name-input');
-    inp.value = myName;
-    ns.style.display = 'flex';
-    setTimeout(()=>inp.select(), 50);
-  };
-
-  function updateMyBar(){
-    const av  = document.getElementById('msng-my-av');
-    const lbl = document.getElementById('msng-my-lbl');
-    if(av)  av.textContent  = (myName||'?')[0].toUpperCase();
-    if(lbl) lbl.textContent = myName || '—';
-  }
-
-  // --- Список чатов ---
-  function renderChatList(filter){
-    const el = document.getElementById('msng-chats-list');
-    if(!el) return;
-    filter = (filter||'').toLowerCase();
-    const chats = Object.values(allChats).filter(c=>
-      !filter || c.name.toLowerCase().includes(filter)
-    );
-    if(!chats.length){
-      el.innerHTML = '<div style="color:var(--muted);font-size:13px;text-align:center;padding:20px 10px;">Ничего не найдено</div>';
-      return;
+    if(currentTab==='reg'){
+      const dispname=(document.getElementById('msng-f-dispname').value||'').trim();
+      if(!dispname||dispname.length<2){ errEl.textContent='Введи отображаемое имя (мин. 2 символа)'; return; }
+      if(pass.length<4){ errEl.textContent='Пароль: минимум 4 символа'; return; }
+      if(users[email]){ errEl.textContent='Этот email уже зарегистрирован'; return; }
+      const color=strColor(dispname);
+      users[email]={email,name:dispname,pass,color,avatar:'',status:'',bio:'',createdAt:Date.now()};
+      await sSet(USERS_KEY,users);
+      me={...users[email]};
+    } else {
+      const found=users[email];
+      if(!found){ errEl.textContent='Аккаунт с таким email не найден'; return; }
+      if(found.pass!==pass){ errEl.textContent='Неверный пароль'; return; }
+      me={...found};
     }
-    el.innerHTML = chats.map(c=>{
-      const last = c.messages[c.messages.length-1];
-      const lastText = last
-        ? (last.files&&last.files.length ? '📎 '+last.files[0].name : last.text||'…')
-        : 'Нет сообщений';
-      const lastTime = last ? fmtTime(last.ts) : '';
-      const unread   = unreadMap[c.id] || 0;
-      const isActive = c.id === activeCid;
-      const initial  = (c.name.replace(/[^\w]/g,'')||'?')[0].toUpperCase();
-      const col = c.color||'#5865f2';
-      return `<div class="msng-ci" onclick="openChat('${esc(c.id)}')"
-        style="display:flex;align-items:center;gap:10px;padding:10px 12px;cursor:pointer;border-bottom:1px solid rgba(22,32,48,0.4);transition:background .15s;position:relative;
-        ${isActive?'background:rgba(0,80,100,0.15);border-right:2px solid var(--cyan);':''};"
-        onmouseover="if('${c.id}'!=='${activeCid||''}')this.style.background='rgba(20,40,60,0.4)'"
-        onmouseout="if('${c.id}'!=='${activeCid||''}')this.style.background=''">
-        <div style="width:36px;height:36px;border-radius:50%;border:1px solid ${col};display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:bold;flex-shrink:0;color:${col};background:${col}18;">
-          ${initial}
-        </div>
-        <div style="flex:1;min-width:0;">
-          <div style="font-size:14px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(c.name)}</div>
-          <div style="font-size:11px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:1px;">${esc(lastText.slice(0,50))}</div>
-        </div>
-        <div style="font-size:10px;color:var(--muted);flex-shrink:0;align-self:flex-start;margin-top:2px;">${lastTime}</div>
-        ${unread ? `<div style="position:absolute;top:8px;right:8px;background:var(--red);color:#fff;border-radius:8px;font-family:'Press Start 2P',monospace;font-size:7px;padding:2px 5px;min-width:16px;text-align:center;">${unread}</div>` : ''}
+    showApp();
+  };
+
+  window.msngLogout = function(){
+    me=null; stopPolling();
+    document.getElementById('msng-f-email').value='';
+    document.getElementById('msng-f-pass').value='';
+    document.getElementById('msng-f-dispname').value='';
+    document.getElementById('msng-auth-err').textContent='';
+    showAuth();
+  };
+
+  // ── Forgot password ──
+  window.msngShowForgot = function(){
+    document.getElementById('msng-forgot-screen').style.display='flex';
+    document.getElementById('msng-forgot-screen').style.flexDirection='column';
+    document.getElementById('msng-forgot-email').value='';
+    document.getElementById('msng-forgot-result').textContent='';
+    document.getElementById('msng-forgot-result').style.color='var(--muted)';
+  };
+  window.msngHideForgot = function(){
+    document.getElementById('msng-forgot-screen').style.display='none';
+  };
+  window.msngDoForgot = async function(){
+    const email=(document.getElementById('msng-forgot-email').value||'').trim().toLowerCase();
+    const resEl=document.getElementById('msng-forgot-result');
+    if(!email){ resEl.style.color='var(--red)'; resEl.textContent='Введи email'; return; }
+    const users=(await sGet(USERS_KEY))||{};
+    const found=users[email];
+    if(!found){ resEl.style.color='var(--red)'; resEl.textContent='Аккаунт не найден'; return; }
+    resEl.style.color='var(--green)';
+    resEl.textContent='Имя: '+found.name+' · Пароль: '+found.pass;
+  };
+
+  // ── Profile ──
+  window.msngOpenProfile = function(){
+    if(!me)return;
+    const ps=document.getElementById('msng-profile-screen');
+    ps.style.display='flex'; ps.style.flexDirection='column';
+    // Fill fields
+    document.getElementById('msng-f-dispname') && (document.getElementById('msng-f-dispname').value=me.name||'');
+    document.getElementById('prof-f-name').value=me.name||'';
+    document.getElementById('prof-f-status').value=me.status||'';
+    document.getElementById('prof-f-bio').value=me.bio||'';
+    document.getElementById('prof-f-newpass').value='';
+    document.getElementById('prof-save-msg').textContent='';
+    document.getElementById('prof-name-display').textContent=me.name||'';
+    document.getElementById('prof-email-display').textContent=me.email||'';
+    // Avatar
+    const avEl=document.getElementById('prof-av');
+    if(avEl) avEl.innerHTML=avHtml(me,72,32);
+  };
+  window.msngCloseProfile = function(){
+    document.getElementById('msng-profile-screen').style.display='none';
+  };
+  window.msngAvatarPick = function(input){
+    const file=input.files&&input.files[0];
+    if(!file)return;
+    if(file.size>2*1024*1024){ alert('Фото максимум 2 МБ'); return; }
+    const reader=new FileReader();
+    reader.onload=function(e){
+      me.avatar=e.target.result;
+      const avEl=document.getElementById('prof-av');
+      if(avEl) avEl.innerHTML=avHtml(me,72,32);
+    };
+    reader.readAsDataURL(file);
+  };
+  window.msngSaveProfile = async function(){
+    const name=(document.getElementById('prof-f-name').value||'').trim();
+    const status=(document.getElementById('prof-f-status').value||'').trim();
+    const bio=(document.getElementById('prof-f-bio').value||'').trim();
+    const newpass=(document.getElementById('prof-f-newpass').value||'').trim();
+    const msgEl=document.getElementById('prof-save-msg');
+    if(!name||name.length<2){ msgEl.style.color='var(--red)'; msgEl.textContent='Имя минимум 2 символа'; return; }
+    if(newpass&&newpass.length<4){ msgEl.style.color='var(--red)'; msgEl.textContent='Новый пароль: минимум 4 символа'; return; }
+    me.name=name; me.status=status; me.bio=bio;
+    if(newpass) me.pass=newpass;
+    // Save to shared storage
+    const users=(await sGet(USERS_KEY))||{};
+    users[me.email]={...users[me.email],...me};
+    await sSet(USERS_KEY,users);
+    updateMyAvBar();
+    document.getElementById('prof-name-display').textContent=name;
+    msgEl.style.color='var(--green)'; msgEl.textContent='✓ Сохранено!';
+    setTimeout(()=>msgEl.textContent='',2500);
+  };
+
+  // ── Channels ──
+  function renderChanList(){
+    const el=document.getElementById('msng-chan-items');
+    if(!el)return;
+    el.innerHTML=DEFAULT_CHATS.map(ch=>{
+      const isActive=ch.id===activeCid;
+      return `<div onclick="openChat('${ch.id}')"
+        style="padding:8px;cursor:pointer;font-size:12px;border-bottom:1px solid rgba(22,32,48,0.4);
+          background:${isActive?'rgba(0,80,100,0.22)':'transparent'};
+          border-right:${isActive?'2px solid var(--cyan)':'2px solid transparent'};
+          color:${isActive?'var(--text)':'var(--muted)'};
+          overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1.4;transition:all .12s;"
+        onmouseover="if('${ch.id}'!=='${activeCid}')this.style.background='rgba(20,40,60,0.4)'"
+        onmouseout="if('${ch.id}'!=='${activeCid}')this.style.background='transparent'">
+        ${esc(ch.name)}
       </div>`;
     }).join('');
   }
 
-  window.msngFilter = function(val){
-    renderChatList(val);
-  };
-
-  // --- Открыть чат ---
   window.openChat = function(cid){
-    const chat = allChats[cid];
-    if(!chat) return;
-    activeCid = cid;
-    unreadMap[cid] = 0;
-    saveData();
-
-    // Показать шапку
-    const head = document.getElementById('msng-chat-head');
-    head.style.display = 'flex';
-
-    // Аватар чата
-    const avEl = document.getElementById('msng-chat-av-el');
-    const col = chat.color||'#5865f2';
-    avEl.style.borderColor = col;
-    avEl.style.color = col;
-    avEl.style.background = col+'18';
-    avEl.textContent = (chat.name.replace(/[^\w]/g,'')||'?')[0].toUpperCase();
-
-    document.getElementById('msng-chat-title').textContent = chat.name;
-    document.getElementById('msng-chat-sub').textContent =
-      chat.type==='group'
-        ? (chat.messages.length + ' сообщений')
-        : '● в сети';
-
-    // Показать сообщения + ввод
-    document.getElementById('msng-empty-screen').style.display = 'none';
-    const msgsEl = document.getElementById('msng-messages');
-    msgsEl.style.display = 'flex';
-    document.getElementById('msng-input-wrap').style.display = 'flex';
-
-    renderMessages(chat);
-    renderChatList();
-    checkMobile();
-
-    // Мобайл — прячем сайдбар
-    if(window.innerWidth <= 600){
-      document.getElementById('msng-sidebar').style.display = 'none';
-    }
-
-    // Фокус на ввод
-    setTimeout(()=>document.getElementById('msng-text-inp').focus(), 100);
+    activeCid=cid;
+    const ch=DEFAULT_CHATS.find(c=>c.id===cid);
+    if(!ch)return;
+    // Update head
+    const avEl=document.getElementById('msng-head-av');
+    if(avEl){ avEl.style.border='1px solid '+ch.color; avEl.style.color=ch.color; avEl.style.background=ch.color+'18'; avEl.innerHTML=(ch.name.replace(/[^\w]/g,'')||'?')[0].toUpperCase(); }
+    const te=document.getElementById('msng-head-title'); if(te) te.textContent=ch.name;
+    const se=document.getElementById('msng-head-sub'); if(se) se.textContent=(allMsgs[cid]||[]).length+' сообщений';
+    renderChanList();
+    renderMessages(allMsgs[cid]||[]);
+    setTimeout(()=>{ const inp=document.getElementById('msng-text-inp'); if(inp) inp.focus(); },60);
   };
 
-  window.msngBackToList = function(){
-    activeCid = null;
-    document.getElementById('msng-sidebar').style.display = 'flex';
-    document.getElementById('msng-chat-head').style.display = 'none';
-    document.getElementById('msng-messages').style.display = 'none';
-    document.getElementById('msng-input-wrap').style.display = 'none';
-    document.getElementById('msng-empty-screen').style.display = 'flex';
-    checkMobile();
-  };
-
-  // --- Рендер сообщений ---
-  function renderMessages(chat){
-    const el = document.getElementById('msng-messages');
-    if(!chat.messages.length){
-      el.innerHTML = '<div style="text-align:center;color:var(--muted);font-size:13px;padding:30px 0;">Сообщений пока нет.<br>Напишите первым! 👋</div>';
-      scrollBottom();
+  // ── Render messages ──
+  function renderMessages(msgs){
+    const el=document.getElementById('msng-messages');
+    if(!el)return;
+    if(!msgs||!msgs.length){
+      el.innerHTML='<div style="text-align:center;color:var(--muted);font-size:13px;padding:20px 0;margin:auto;">Сообщений пока нет 👋</div>';
       return;
     }
-    let html = '';
-    let lastDay = '';
-    chat.messages.forEach(m=>{
-      const day = new Date(m.ts).toLocaleDateString('ru-RU',{day:'2-digit',month:'long'});
-      if(day !== lastDay){
-        html += `<div style="text-align:center;font-family:'Press Start 2P',monospace;font-size:7px;color:var(--muted);margin:8px 0;position:relative;">
-          <span style="background:var(--bg);padding:0 8px;position:relative;z-index:1;">${day}</span>
+    let html=''; let lastDay='';
+    msgs.forEach(m=>{
+      const day=new Date(m.ts).toLocaleDateString('ru-RU',{day:'2-digit',month:'long'});
+      if(day!==lastDay){
+        html+=`<div style="text-align:center;font-size:10px;color:var(--muted);margin:6px 0;position:relative;">
+          <span style="background:var(--bg);padding:0 6px;position:relative;z-index:1;">${day}</span>
           <div style="position:absolute;top:50%;left:0;right:0;height:1px;background:var(--b);z-index:0;"></div>
         </div>`;
-        lastDay = day;
+        lastDay=day;
       }
-      html += renderBubble(m);
+      const isMe=me&&m.from===me.email;
+      const col=m.color||strColor(m.fromName||m.from||'');
+      const senderAv=m.avatar
+        ?`<img src="${m.avatar}" style="width:22px;height:22px;border-radius:50%;object-fit:cover;flex-shrink:0;">`
+        :`<div style="width:22px;height:22px;border-radius:50%;flex-shrink:0;border:1px solid ${col};display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:bold;color:${col};background:${col}18;">${esc((m.fromName||m.from||'?')[0].toUpperCase())}</div>`;
+      html+=`<div style="display:flex;gap:6px;align-items:flex-end;max-width:88%;
+        ${isMe?'align-self:flex-end;flex-direction:row-reverse;':'align-self:flex-start;'}">
+        ${senderAv}
+        <div style="padding:6px 10px;max-width:100%;word-break:break-word;font-size:14px;line-height:1.4;
+          ${isMe
+            ?'background:rgba(0,80,100,0.28);border:1px solid rgba(77,230,230,0.22);border-radius:10px 10px 2px 10px;'
+            :'background:rgba(11,21,32,0.95);border:1px solid var(--b);border-radius:10px 10px 10px 2px;'}">
+          ${!isMe?`<div style="font-size:10px;font-weight:bold;margin-bottom:2px;color:${col};">${esc(m.fromName||m.from)}</div>`:''}
+          ${m.status?`<div style="font-size:10px;color:var(--muted);margin-bottom:2px;font-style:italic;">${esc(m.status)}</div>`:''}
+          <div style="white-space:pre-wrap;">${esc(m.text)}</div>
+          <div style="font-size:9px;color:var(--muted);margin-top:2px;text-align:right;">${fmtTime(m.ts)}${isMe?' ✓':''}</div>
+        </div>
+      </div>`;
     });
-    el.innerHTML = html;
-    scrollBottom();
+    el.innerHTML=html;
+    setTimeout(()=>{ el.scrollTop=el.scrollHeight; },20);
   }
 
-  function renderBubble(m){
-    const isMe = m.from === myName;
-    const col   = strColor(m.from);
-    const time  = fmtTime(m.ts);
-
-    // Аватар
-    const avHtml = `<div style="width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:bold;border:1px solid ${col};color:${col};background:${col}18;align-self:flex-end;">${(m.from||'?')[0].toUpperCase()}</div>`;
-
-    // Контент
-    let content = '';
-    if(m.text) content += `<div style="word-break:break-word;white-space:pre-wrap;">${esc(m.text)}</div>`;
-    if(m.files && m.files.length){
-      m.files.forEach(f=>{
-        if(f.type && f.type.startsWith('image/')){
-          content += `<div style="margin-top:5px;"><img src="${f.dataUrl}" alt="${esc(f.name)}"
-            style="max-width:220px;max-height:200px;display:block;border:1px solid var(--b);border-radius:4px;cursor:zoom-in;"
-            onclick="window.open('${f.dataUrl}','_blank')"></div>`;
-        } else {
-          content += `<a href="${f.dataUrl}" download="${esc(f.name)}"
-            style="display:flex;align-items:center;gap:6px;background:#06090f;border:1px solid var(--b);padding:6px 10px;margin-top:5px;border-radius:3px;font-size:13px;color:var(--cyan);text-decoration:none;cursor:pointer;">
-            📁 ${esc(f.name)} <span style="color:var(--muted);font-size:10px;">${fmtSize(f.size||0)}</span>
-          </a>`;
-        }
-      });
-    }
-
-    const bubble = `<div style="padding:8px 12px;max-width:100%;word-break:break-word;position:relative;font-size:15px;line-height:1.4;
-      ${isMe
-        ? 'background:rgba(0,80,100,0.28);border:1px solid rgba(77,230,230,0.25);border-radius:10px 10px 2px 10px;'
-        : 'background:rgba(11,21,32,0.95);border:1px solid var(--b);border-radius:10px 10px 10px 2px;'}">
-      ${!isMe ? `<div style="font-size:10px;font-weight:bold;margin-bottom:3px;color:${col};">${esc(m.from)}</div>` : ''}
-      ${content}
-      <div style="font-size:10px;color:var(--muted);margin-top:3px;text-align:right;">${time}${isMe?' ✓':''}</div>
-    </div>`;
-
-    return `<div style="display:flex;gap:8px;align-items:flex-end;max-width:78%;animation:fi .12s ease;
-      ${isMe ? 'align-self:flex-end;flex-direction:row-reverse;' : 'align-self:flex-start;'}">
-      ${avHtml}
-      ${bubble}
-    </div>`;
-  }
-
-  // --- Отправить сообщение ---
-  window.msngSend = function(){
-    if(!activeCid || !myName) return;
-    const inp  = document.getElementById('msng-text-inp');
-    const text = (inp.value||'').trim();
-    if(!text && !pendingFiles.length) return;
-
-    const chat = allChats[activeCid];
-    if(!chat) return;
-
-    const msg = {
-      id:   Date.now()+'_'+Math.random().toString(36).slice(2,7),
-      from: myName,
-      text: text,
-      files: pendingFiles.slice(),
-      ts:   Date.now(),
-    };
-    chat.messages.push(msg);
-    saveData();
-
-    inp.value = '';
-    inp.style.height = '';
-    pendingFiles = [];
-    const prev = document.getElementById('msng-file-preview');
-    prev.innerHTML = ''; prev.style.display = 'none';
-
-    renderMessages(chat);
-    renderChatList();
-    updateSubtitle(chat);
-  };
-
-  function updateSubtitle(chat){
-    const sub = document.getElementById('msng-chat-sub');
-    if(sub && activeCid===chat.id)
-      sub.textContent = chat.messages.length + ' сообщений';
-  }
-
-  window.msngKeyDown = function(e){
-    if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); msngSend(); }
-  };
-
-  window.msngAutoResize = function(el){
-    el.style.height = '';
-    el.style.height = Math.min(el.scrollHeight, 110) + 'px';
-  };
-
-  // --- Файлы ---
-  window.msngFilePicked = function(input){
-    const files = Array.from(input.files||[]);
-    input.value = '';
-    const MAX = 5*1024*1024; // 5 MB на файл
-    files.forEach(file=>{
-      if(file.size > MAX){
-        alert('Файл "'+file.name+'" слишком большой (макс 5 МБ)');
-        return;
-      }
-      const reader = new FileReader();
-      reader.onload = function(e){
-        pendingFiles.push({
-          name:    file.name,
-          type:    file.type,
-          size:    file.size,
-          dataUrl: e.target.result,
-        });
-        renderFilePrev();
-      };
-      reader.readAsDataURL(file);
+  // ── Send ──
+  window.msngSend = async function(){
+    if(!me||!activeCid)return;
+    const inp=document.getElementById('msng-text-inp');
+    const text=(inp.value||'').trim();
+    if(!text)return;
+    const msgs=await sGet(MSGS_KEY)||{};
+    if(!msgs[activeCid]) msgs[activeCid]=[];
+    msgs[activeCid].push({
+      id:Date.now()+'_'+Math.random().toString(36).slice(2,6),
+      from:me.email, fromName:me.name, color:me.color,
+      avatar:me.avatar||'', status:me.status||'',
+      text, ts:Date.now()
     });
+    if(msgs[activeCid].length>300) msgs[activeCid]=msgs[activeCid].slice(-300);
+    await sSet(MSGS_KEY,msgs);
+    allMsgs=msgs;
+    inp.value=''; inp.style.height='';
+    const se=document.getElementById('msng-head-sub');
+    if(se) se.textContent=msgs[activeCid].length+' сообщений';
+    renderMessages(msgs[activeCid]);
   };
 
-  function renderFilePrev(){
-    const el = document.getElementById('msng-file-preview');
-    el.style.display = pendingFiles.length ? 'flex' : 'none';
-    el.innerHTML = pendingFiles.map((f,i)=>`
-      <div style="position:relative;background:#060c14;border:1px solid var(--b);border-radius:3px;overflow:hidden;">
-        ${f.type&&f.type.startsWith('image/')
-          ? `<img src="${f.dataUrl}" style="width:60px;height:60px;object-fit:cover;display:block;">`
-          : `<div style="width:60px;height:60px;display:flex;align-items:center;justify-content:center;font-size:24px;">📁</div>`}
-        <div style="font-size:10px;color:var(--muted);padding:2px 5px;max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(f.name)}</div>
-        <button onclick="msngRemoveFile(${i})"
-          style="position:absolute;top:2px;right:2px;background:rgba(0,0,0,0.8);border:none;cursor:pointer;color:var(--red);font-size:13px;width:16px;height:16px;border-radius:50%;display:flex;align-items:center;justify-content:center;line-height:1;padding:0;">✕</button>
-      </div>`).join('');
-  }
+  window.msngKeyDown=function(e){ if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); msngSend(); } };
+  window.msngAutoResize=function(el){ el.style.height=''; el.style.height=Math.min(el.scrollHeight,80)+'px'; };
 
-  window.msngRemoveFile = function(i){
-    pendingFiles.splice(i,1);
-    renderFilePrev();
-  };
-
-  // --- Новая группа ---
-  window.msngNewGroup = function(){
-    const name = prompt('Название группы:','');
-    if(!name||!name.trim()) return;
-    const id  = 'grp_'+Date.now();
-    const colors = ['#5865f2','#00d26a','#ffd700','#4de6e6','#ff6b35','#7c3aed','#ff4444'];
-    allChats[id] = {
-      id, name: name.trim(), type:'group',
-      members:[], messages:[],
-      color: colors[Math.floor(Math.random()*colors.length)]
-    };
-    saveData();
-    renderChatList();
-    openChat(id);
-  };
-
-  // --- Бейдж непрочитанных ---
-  function clearBadge(){
-    const b = document.getElementById('msng-badge');
-    if(b) b.style.display = 'none';
-  }
-
-  // --- Утилиты ---
-  function scrollBottom(){
-    const el = document.getElementById('msng-messages');
-    if(el) setTimeout(()=>{ el.scrollTop = el.scrollHeight; }, 30);
-  }
-
-  function esc(s){
-    return String(s||'')
-      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
-      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  }
-
-  function fmtTime(ts){
-    if(!ts) return '';
-    const d = new Date(ts);
-    const now = new Date();
-    const isToday = d.toDateString()===now.toDateString();
-    if(isToday) return d.toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit'});
-    return d.toLocaleDateString('ru-RU',{day:'2-digit',month:'2-digit'});
-  }
-
-  function fmtSize(bytes){
-    if(bytes<1024) return bytes+'б';
-    if(bytes<1024*1024) return Math.round(bytes/1024)+'КБ';
-    return (bytes/1024/1024).toFixed(1)+'МБ';
-  }
-
-  function strColor(str){
-    const palette=['#5865f2','#00d26a','#ffd700','#4de6e6','#ff6b35','#7c3aed','#ff4444','#00ff87','#ff6b9d'];
-    let h=0; for(const c of (str||'')) h=(h*31+c.charCodeAt(0))&0xffffff;
-    return palette[Math.abs(h)%palette.length];
-  }
-
-  // --- Закрытие по Escape ---
-  document.addEventListener('keydown',function(e){
-    if(e.key==='Escape'){
-      const ov=document.getElementById('msng-overlay');
-      if(ov&&ov.style.display!=='none') msngClose();
+  // ── Poll ──
+  async function loadAndRender(){
+    const data=await sGet(MSGS_KEY);
+    if(data){ allMsgs=data; if(winOpen&&me){ renderMessages(allMsgs[activeCid]||[]); renderChanList(); } }
+    if(!me)return;
+    // Online heartbeat
+    const od=await sGet(ONLINE_KEY)||{};
+    od[me.email]={name:me.name,color:me.color,avatar:me.avatar||'',ts:Date.now()};
+    await sSet(ONLINE_KEY,od);
+    const now=Date.now();
+    const active=Object.values(od).filter(u=>now-u.ts<30000);
+    renderOnline(active);
+    // Badge
+    if(!winOpen){
+      const lastSeen=parseInt(localStorage.getItem('msng_seen')||'0');
+      const msgs=allMsgs[activeCid]||[];
+      const cnt=msgs.filter(m=>m.ts>lastSeen&&m.from!==me.email).length;
+      const b=document.getElementById('msng-badge');
+      if(b){ b.textContent=cnt>0?cnt:''; b.style.display=cnt>0?'block':'none'; }
     }
-  });
+  }
 
-  // --- Запуск ---
-  document.addEventListener('DOMContentLoaded', init);
-  setTimeout(init, 200);
+  function renderOnline(users){
+    const el=document.getElementById('msng-online-bar');
+    if(!el)return;
+    if(!users.length){ el.innerHTML=''; return; }
+    el.innerHTML=`<div style="color:var(--green);font-size:9px;margin-bottom:4px;letter-spacing:1px;">● ${users.length} ОНЛАЙН</div>`+
+      users.slice(0,5).map(u=>{
+        const av=u.avatar
+          ?`<img src="${u.avatar}" style="width:18px;height:18px;border-radius:50%;object-fit:cover;flex-shrink:0;">`
+          :`<div style="width:18px;height:18px;border-radius:50%;border:1px solid ${u.color||'#4de6e6'};display:flex;align-items:center;justify-content:center;font-size:9px;color:${u.color||'#4de6e6'};background:${(u.color||'#4de6e6')}18;flex-shrink:0;">${esc((u.name||'?')[0].toUpperCase())}</div>`;
+        return `<div style="display:flex;align-items:center;gap:5px;padding:2px 0;overflow:hidden;">
+          ${av}
+          <span style="font-size:11px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(u.name||'')}</span>
+        </div>`;
+      }).join('');
+  }
+
+  function startPolling(){ pollTimer=setInterval(loadAndRender,3000); }
+  function stopPolling(){ clearInterval(pollTimer); pollTimer=null; }
 
 })();
 // ===== END MESSENGER =====
