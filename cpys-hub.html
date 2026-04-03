@@ -3673,25 +3673,28 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
   const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"закулисе5","fileSizes":{"закулисе5.pck":5789344,"закулисе5.wasm":35739700},"gdextensionLibs":[]};
   const engine = new Engine(GODOT_CONFIG);
   (function() {
-    const INDETERMINATE_STATUS_STEP_MS = 100;
     const canvas = document.getElementById('canvas');
     const statusProgress = document.getElementById('bk-prog');
     const statusLoading = document.getElementById('bk-loading');
-    let lastStatus = 'ok';
-    function updateStatus(status) {
-      if (status.mode === 'progress') {
-        const p = (status.done / status.total) * 100;
+    
+    function updateStatus(current, total) {
+      if (total > 0) {
+        const p = (current / total) * 100;
         statusProgress.style.width = p + '%';
-        if (status.done === status.total) {
-          setTimeout(() => { statusLoading.style.opacity = '0'; setTimeout(() => statusLoading.style.display = 'none', 500); }, 500);
+        if (current === total) {
+          setTimeout(() => { 
+            statusLoading.style.opacity = '0'; 
+            setTimeout(() => statusLoading.style.display = 'none', 500); 
+          }, 500);
         }
       }
     }
-    engine.instantiate().then(() => {
-	  bkUpdateStatsUI();
-      engine.startGame({
-        onProgress: updateStatus,
-      });
+
+    bkUpdateStatsUI();
+    engine.startGame({
+      onProgress: updateStatus,
+    }).catch(err => {
+      console.error("Engine start failed:", err);
     });
   })();
 
