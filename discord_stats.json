@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T20:13:28.046521+00:00",
+  "updated_at": "2026-04-03T20:15:30.309728+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -1251,13 +1251,6 @@
       "messages": 0
     },
     {
-      "time": "27.03 15:25",
-      "hour": 15,
-      "online": 14,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
       "time": "27.03 15:27",
       "hour": 15,
       "online": 14,
@@ -1403,298 +1396,371 @@
       "online": 12,
       "in_voice": 6,
       "messages": 0
+    },
+    {
+      "time": "04.04 01:15",
+      "hour": 1,
+      "online": 12,
+      "in_voice": 6,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": "2026-03-26T15:18:46.228000",
-    "server_stopped": "2026-03-26T18:50:44.020000",
+    "server_started": "2026-03-27T07:37:31.662000",
+    "server_stopped": "2026-03-27T07:34:35.292000",
     "top_killers": [],
     "recent_events": [
       {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "15:41"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "ребят",
+        "date": "27.03.2026",
+        "time": "11:10"
       },
       {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "15:55"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "я уже увидел",
+        "date": "27.03.2026",
+        "time": "11:12"
       },
       {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "16:27"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "разблокали?",
+        "date": "27.03.2026",
+        "time": "11:13"
       },
       {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "07:34"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "норм",
+        "date": "27.03.2026",
+        "time": "11:17"
       },
       {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "07:39"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "понял",
+        "date": "27.03.2026",
+        "time": "11:18"
       },
       {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "07:44"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "а с запретом тот же прикол?",
+        "date": "27.03.2026",
+        "time": "11:19"
       },
       {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "07:52"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "ща проверю",
+        "date": "27.03.2026",
+        "time": "11:20"
       },
       {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "10:50"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "у меня еще хуже стало",
+        "date": "27.03.2026",
+        "time": "11:22"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": ":(",
+        "date": "27.03.2026",
+        "time": "11:23"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "хахаха демку",
+        "date": "27.03.2026",
+        "time": "11:24"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "а я ужеп",
+        "date": "27.03.2026",
+        "time": "11:25"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "ярик сделай плагин как в мш на радио",
+        "date": "27.03.2026",
+        "time": "11:26"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "я в розовом аду помогите",
+        "date": "27.03.2026",
+        "time": "11:27"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "я девочку до дома проводил я крут?",
+        "date": "27.03.2026",
+        "time": "11:28"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "о дарк соус",
+        "date": "27.03.2026",
+        "time": "11:29"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "оказоно",
+        "date": "27.03.2026",
+        "time": "11:30"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "лох",
+        "date": "27.03.2026",
+        "time": "11:32"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "у меня с впном не работает",
+        "date": "27.03.2026",
+        "time": "11:33"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "ну 50 на по",
+        "date": "27.03.2026",
+        "time": "11:34"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "а",
+        "date": "27.03.2026",
+        "time": "11:35"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "целый час я делал булаву",
-        "date": "25.03.2026",
-        "time": "12:09"
+        "text": "хуй?",
+        "date": "27.03.2026",
+        "time": "11:35"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "заткнись я щас спрыгну",
+        "date": "27.03.2026",
+        "time": "11:36"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "дратуте",
-        "date": "25.03.2026",
-        "time": "12:28"
+        "text": "макс",
+        "date": "27.03.2026",
+        "time": "11:36"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "аааааааа",
+        "date": "27.03.2026",
+        "time": "11:37"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "я такое щас сделал",
+        "date": "27.03.2026",
+        "time": "11:38"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "отделка:",
-        "date": "25.03.2026",
-        "time": "13:57"
+        "text": "ААААААААААА",
+        "date": "27.03.2026",
+        "time": "11:38"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "?",
-        "date": "25.03.2026",
-        "time": "13:57"
+        "text": "я уже фул незрка",
+        "date": "27.03.2026",
+        "time": "11:39"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "ты",
+        "date": "27.03.2026",
+        "time": "11:39"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "есть",
-        "date": "25.03.2026",
-        "time": "13:57"
+        "text": "зачем?",
+        "date": "27.03.2026",
+        "time": "11:40"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "мне портал над",
+        "date": "27.03.2026",
+        "time": "11:40"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "я бегу спать",
+        "date": "27.03.2026",
+        "time": "11:41"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "дай",
-        "date": "25.03.2026",
-        "time": "13:57"
+        "text": "а я дрочу",
+        "date": "27.03.2026",
+        "time": "11:41"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "спать",
+        "date": "27.03.2026",
+        "time": "11:42"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "пж",
-        "date": "25.03.2026",
-        "time": "13:57"
+        "text": "я ебал",
+        "date": "27.03.2026",
+        "time": "11:42"
+      },
+      {
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "фа",
+        "date": "27.03.2026",
+        "time": "11:43"
       },
       {
         "type": "chat",
         "player": "loleybiolly",
-        "text": "2 -25 85",
-        "date": "25.03.2026",
-        "time": "14:11"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "14:19"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "14:25"
+        "text": "А",
+        "date": "27.03.2026",
+        "time": "11:43"
       },
       {
         "type": "chat",
-        "player": "deepinparis",
-        "text": "deepinparis FG",
-        "date": "25.03.2026",
-        "time": "15:06"
+        "player": "abobys94753",
+        "text": "фа",
+        "date": "27.03.2026",
+        "time": "11:45"
       },
       {
         "type": "chat",
-        "player": "deepinparis",
-        "text": "GG",
-        "date": "25.03.2026",
-        "time": "15:06"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "15:41"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "15:55"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "16:27"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "17:21"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "20:08"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "07:34"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "07:39"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "07:44"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "07:52"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "10:50"
+        "player": "abobys94753",
+        "text": "vbkb hs,f",
+        "date": "27.03.2026",
+        "time": "11:46"
       },
       {
         "type": "chat",
-        "player": "loleybiolly",
-        "text": "целый час я делал булаву",
-        "date": "25.03.2026",
-        "time": "12:09"
+        "player": "abobys94753",
+        "text": "кого бьют?",
+        "date": "27.03.2026",
+        "time": "11:47"
       },
       {
         "type": "chat",
-        "player": "loleybiolly",
-        "text": "дратуте",
-        "date": "25.03.2026",
-        "time": "12:28"
-      },
-      {
-        "type": "server_start",
-        "date": "26.03.2026",
-        "time": "06:46"
-      },
-      {
-        "type": "server_stop",
-        "date": "26.03.2026",
-        "time": "10:53"
-      },
-      {
-        "type": "server_start",
-        "date": "26.03.2026",
-        "time": "13:21"
-      },
-      {
-        "type": "server_stop",
-        "date": "26.03.2026",
-        "time": "15:13"
-      },
-      {
-        "type": "server_start",
-        "date": "26.03.2026",
-        "time": "15:18"
+        "player": "abobys94753",
+        "text": "звука нет",
+        "date": "27.03.2026",
+        "time": "11:48"
       },
       {
         "type": "chat",
-        "player": "loleybiolly",
-        "text": "./crawl",
-        "date": "26.03.2026",
-        "time": "15:49"
+        "player": "abobys94753",
+        "text": "а мне на кирку:(",
+        "date": "27.03.2026",
+        "time": "11:49"
       },
       {
         "type": "chat",
-        "player": "loleybiolly",
-        "text": "-303 67 862",
-        "date": "26.03.2026",
-        "time": "16:57"
-      },
-      {
-        "type": "server_stop",
-        "date": "26.03.2026",
-        "time": "18:50"
+        "player": "abobys94753",
+        "text": "дайте алмазик пожалуста",
+        "date": "27.03.2026",
+        "time": "11:50"
       },
       {
         "type": "chat",
-        "player": "loleybiolly",
-        "text": "отделка:",
-        "date": "25.03.2026",
-        "time": "13:57"
+        "player": "abobys94753",
+        "text": "пахаххахаха",
+        "date": "27.03.2026",
+        "time": "11:51"
       },
       {
         "type": "chat",
-        "player": "loleybiolly",
-        "text": "2 -25 85",
-        "date": "25.03.2026",
-        "time": "14:11"
-      },
-      {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "14:19"
-      },
-      {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "14:25"
+        "player": "abobys94753",
+        "text": "VFIB B VTLDTLM",
+        "date": "27.03.2026",
+        "time": "11:52"
       },
       {
         "type": "chat",
-        "player": "deepinparis",
-        "text": "deepinparis FG",
-        "date": "25.03.2026",
-        "time": "15:06"
+        "player": "abobys94753",
+        "text": "маши и медведь?",
+        "date": "27.03.2026",
+        "time": "11:53"
       },
       {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "15:41"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "рыба пенис",
+        "date": "27.03.2026",
+        "time": "11:54"
       },
       {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "15:55"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "помогите",
+        "date": "27.03.2026",
+        "time": "11:55"
       },
       {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "16:27"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "у меня кирки нет",
+        "date": "27.03.2026",
+        "time": "11:56"
       },
       {
-        "type": "server_start",
-        "date": "25.03.2026",
-        "time": "17:21"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "аххахаха",
+        "date": "27.03.2026",
+        "time": "11:57"
       },
       {
-        "type": "server_stop",
-        "date": "25.03.2026",
-        "time": "20:08"
+        "type": "chat",
+        "player": "abobys94753",
+        "text": "негры все",
+        "date": "27.03.2026",
+        "time": "11:58"
       }
     ],
     "kills": {},
@@ -1702,7 +1768,54 @@
     "advancements": {},
     "players": {},
     "calendar": {
+      "27.03.2026": [
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "06:47"
+        },
+        {
+          "type": "server_stop",
+          "date": "27.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "07:37"
+        }
+      ],
       "26.03.2026": [
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "06:46"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "10:53"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "13:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "15:13"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "15:18"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "18:50"
+        },
         {
           "type": "server_start",
           "date": "26.03.2026",
@@ -1814,6 +1927,66 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:39"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:44"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:52"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "10:50"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "14:19"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "14:25"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "15:41"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "15:55"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "17:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "20:08"
         },
         {
           "type": "server_start",
