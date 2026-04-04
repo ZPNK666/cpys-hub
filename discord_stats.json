@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:54:29.108547+00:00",
+  "updated_at": "2026-04-04T15:55:49.816172+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -11,12 +11,12 @@
     "online_count": 18,
     "offline_count": 27,
     "in_voice_count": 7,
-    "messages_today": 40,
+    "messages_today": 41,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 40,
+    "text": 41,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -457,19 +457,23 @@
     {
       "id": "1490013878451441875",
       "name": "LavakaSatyrnita",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1490013878451441875/4d94247d76e68ac394ed120b62f25843.png?size=1024",
-      "joined_at": "2026-04-04T15:54:09.244924+00:00",
+      "joined_at": "2026-04-04T15:54:09.244000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -1296,9 +1300,9 @@
     }
   ],
   "role_distribution": {
-    "у меня есть хент": 20,
-    "атеист": 13,
-    "женщины": 23,
+    "у меня есть хент": 21,
+    "атеист": 14,
+    "женщины": 24,
     "нету хента": 14,
     "Агностик": 6,
     "мужчины": 15,
@@ -1310,13 +1314,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 20:43",
-      "hour": 20,
-      "online": 19,
-      "in_voice": 6,
-      "messages": 0
-    },
     {
       "time": "04.04 20:43",
       "hour": 20,
@@ -1477,6 +1474,13 @@
       "online": 18,
       "in_voice": 7,
       "messages": 0
+    },
+    {
+      "time": "04.04 20:55",
+      "hour": 20,
+      "online": 18,
+      "in_voice": 7,
+      "messages": 1
     }
   ],
   "top_chatters": [],
