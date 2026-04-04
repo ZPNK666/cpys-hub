@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:15:05.916350+00:00",
+  "updated_at": "2026-04-04T15:16:27.323921+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 44,
-    "online_count": 15,
-    "offline_count": 29,
-    "in_voice_count": 5,
-    "messages_today": 19,
+    "online_count": 16,
+    "offline_count": 28,
+    "in_voice_count": 6,
+    "messages_today": 20,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 19,
+    "text": 20,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -89,13 +89,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
       "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -312,6 +312,32 @@
       "top_role": "католик",
       "avatar": "https://cdn.discordapp.com/avatars/1462906498110849218/a625dced36a17a7dc155dbc742bacf99.png?size=1024",
       "joined_at": "2026-03-24T18:22:46.453000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1366113301221867725",
+      "name": "Я трактор выгоняю",
+      "status": "idle",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/e3bf14d46436dd8030969ce1a2849f7a.png?size=1024",
+      "joined_at": "2026-03-24T17:58:02.100000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -966,32 +992,6 @@
       }
     },
     {
-      "id": "1366113301221867725",
-      "name": "Я трактор выгоняю",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/e3bf14d46436dd8030969ce1a2849f7a.png?size=1024",
-      "joined_at": "2026-03-24T17:58:02.100000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1425903022629847200",
       "name": "Жигуль в прайме",
       "status": "offline",
@@ -1145,13 +1145,14 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 5,
+      "members_count": 6,
       "members": [
         "ZPNK666",
         "майонез",
         "кирпич",
         "spiik",
-        "#!Apr๑ell꒱"
+        "#!Apr๑ell꒱",
+        "2 квитень"
       ],
       "user_limit": 0
     },
@@ -1282,13 +1283,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 20:03",
-      "hour": 20,
-      "online": 13,
-      "in_voice": 6,
-      "messages": 0
-    },
     {
       "time": "04.04 20:04",
       "hour": 20,
@@ -1449,6 +1443,13 @@
       "online": 15,
       "in_voice": 5,
       "messages": 0
+    },
+    {
+      "time": "04.04 20:16",
+      "hour": 20,
+      "online": 16,
+      "in_voice": 6,
+      "messages": 1
     }
   ],
   "top_chatters": [],
