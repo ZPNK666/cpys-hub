@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T17:39:19.402740+00:00",
+  "updated_at": "2026-04-04T17:40:19.141310+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -11,12 +11,12 @@
     "online_count": 16,
     "offline_count": 30,
     "in_voice_count": 5,
-    "messages_today": 86,
+    "messages_today": 88,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 86,
+    "text": 88,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -155,13 +155,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
       "joined_at": "2026-03-24T17:15:48.003000+00:00",
       "stats_today": {
-        "text": 5,
+        "text": 7,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 5
+        "total": 7
       },
       "join_leave": {
         "joins": 0,
@@ -1355,13 +1355,6 @@
       "messages": 0
     },
     {
-      "time": "04.04 22:28",
-      "hour": 22,
-      "online": 17,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "04.04 22:29",
       "hour": 22,
       "online": 17,
@@ -1507,6 +1500,13 @@
       "online": 16,
       "in_voice": 5,
       "messages": 0
+    },
+    {
+      "time": "04.04 22:40",
+      "hour": 22,
+      "online": 16,
+      "in_voice": 5,
+      "messages": 2
     }
   ],
   "top_chatters": [],
