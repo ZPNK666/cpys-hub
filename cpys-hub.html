@@ -1201,20 +1201,38 @@ function drawLamp(){
   // Shade
   lctx.beginPath();
   lctx.moveTo(-8,-2);
-  lctx.lineTo(-18,18);
-  lctx.lineTo(18,18);
-  lctx.lineTo(8,-2);
-  lctx.closePath();
-  lctx.fillStyle='#3a2a10';
-  lctx.strokeStyle='#7a6030';
-  lctx.lineWidth=1.5;
-  lctx.fill();
-  lctx.stroke();
-  // Inner glow of shade
-  const shadeGrad=lctx.createLinearGradient(0,-2,0,18);
-  shadeGrad.addColorStop(0,'rgba(255,200,80,0.0)');
-  shadeGrad.addColorStop(1,'rgba(255,200,80,0.25)');
-  lctx.fillStyle=shadeGrad;
+  // ===== PARTICLES (Optimized) =====
+const pc=document.getElementById('particles');
+const pctx=pc.getContext('2d');
+let N=40; if(window.innerWidth<700) N=15; // Меньше частиц для мобилок и слабых ПК
+const ps=[];
+function initP(){
+  ps.length=0;
+  for(let i=0;i<N;i++) ps.push({
+    x:Math.random()*pc.width, y:Math.random()*pc.height,
+    r:Math.random()*1.5+0.5, vx:(Math.random()-0.5)*0.4, vy:(Math.random()-0.5)*0.4,
+    col:'#00ffff', a:Math.random()*0.5+0.1
+  });
+}
+function resizeP(){ pc.width=window.innerWidth; pc.height=window.innerHeight; initP(); }
+window.addEventListener('resize',resizeP); resizeP();
+
+let lastP=0;
+(function animP(ts){
+  if(ts-lastP < 16) { requestAnimationFrame(animP); return; } // Лимит ~60 FPS
+  lastP=ts;
+  pctx.clearRect(0,0,pc.width,pc.height);
+  ps.forEach(p=>{
+    p.x+=p.vx; p.y+=p.vy;
+    if(p.x<0)p.x=pc.width; if(p.x>pc.width)p.x=0;
+    if(p.y<0)p.y=pc.height; if(p.y>pc.height)p.y=0;
+    pctx.beginPath();pctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    pctx.fillStyle=p.col+Math.floor(p.a*255).toString(16).padStart(2,'0');
+    pctx.fill();
+  });
+  requestAnimationFrame(animP);
+})(0);
+rad;
   lctx.fill();
   // Bulb
   lctx.beginPath();
@@ -1309,28 +1327,31 @@ function sp(p,el,cls){
       return;
     }
 
-    engine.startGame({
-      onProgress: function(current, total) {
-        if (total > 0 && statusText) {
-          const pc = Math.floor((current / total) * 100);
-          statusText.textContent = `ЗАГРУЗКА ЗАКУЛИСЬЯ: ${pc}%`;
+    try {
+      engine.startGame({
+        onProgress: function(current, total) {
+          if (total > 0 && statusText) {
+            const pc = Math.floor((current / total) * 100);
+            statusText.textContent = `ЗАГРУЗКА ЗАКУЛИСЬЯ: ${pc}%`;
+          }
+        },
+        onPrint: function(text) { console.log("Godot:", text); },
+        onPrintError: function(text) { console.error("Godot:", text); }
+      }).catch(err => {
+        console.error("Engine start failed:", err);
+        if (statusText) {
+          statusText.style.color = 'var(--red)';
+          statusText.innerHTML = `КРИТИЧЕСКИЙ СБОЙ:<br><small style="font-size:10px">${err.message || String(err)}</small>`;
+          statusText.innerHTML += `<br><br><button onclick="location.reload()" style="background:var(--red);color:#fff;border:none;padding:4px 8px;cursor:pointer;font-family:inherit;font-size:9px">ПЕРЕЗАГРУЗИТЬ</button>`;
         }
-      }
-    }).catch(err => {
-      console.error("Engine start failed:", err);
-      // Show user-friendly error in the loading screen
+        window._godotStarted = false;
+      });
+    } catch (e) {
       if (statusText) {
         statusText.style.color = 'var(--red)';
-        const msg = (err.message || String(err)).toLowerCase();
-        if (msg.includes('webgl')) {
-           statusText.textContent = "ОШИБКА ГРАФИКИ: WebGL 2";
-        } else {
-           statusText.textContent = "СБОЙ ИНИЦИАЛИЗАЦИИ: " + (err.message || "Ошибка");
-        }
-        statusText.innerHTML += `<br><small style="font-size:8px;color:var(--muted);margin-top:8px;display:block;">Проверьте интернет-соединение или наличие файлов движка.</small>`;
+        statusText.textContent = "ENGINE ERROR: " + e.message;
       }
-      window._godotStarted = false;
-    });
+    }
   }
 }
 function dst(k,el){
