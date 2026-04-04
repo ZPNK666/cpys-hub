@@ -1316,7 +1316,11 @@ function sp(p,el,cls){
       return;
     }
 
-    try {
+    if (statusText) statusText.textContent = "ПРОВЕРКА ФАЙЛОВ...";
+    fetch('./bk_game.wasm', { method: 'HEAD' }).then(res => {
+      if (!res.ok || res.status === 404) throw new Error("ФАЙЛ .WASM НЕ НАЙДЕН (404)");
+      if (res.headers.get('content-length') === "0") throw new Error("ФАЙЛ .WASM ПУСТОЙ (0 байт)");
+      
       engine.startGame({
         onProgress: function(current, total) {
           if (total > 0 && statusText) {
@@ -1335,12 +1339,13 @@ function sp(p,el,cls){
         }
         window._godotStarted = false;
       });
-    } catch (e) {
+    }).catch(err => {
       if (statusText) {
         statusText.style.color = 'var(--red)';
-        statusText.textContent = "ENGINE ERROR: " + e.message;
+        statusText.innerHTML = `ОШИБКА ФАЙЛОВ:<br><small style="font-size:10px">${err.message}</small>`;
       }
-    }
+      window._godotStarted = false;
+    });
   }
 }
 function dst(k,el){
