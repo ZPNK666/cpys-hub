@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="закулисе5.icon.png">
+    <!-- COI SW is REQUIRED for some Godot feature stability even in single-threaded mode -->
     <script src="coi-serviceworker.js"></script>
-    <script src="index.js"></script>
+    <script src="закулисе5.js"></script>
     <title>C.P.Y.S Hub</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -1233,6 +1235,18 @@ function drawLamp(){
 }
 drawLamp();
 
+// ── GLOBAL UTILS ──
+window.esc = function(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); };
+
+if(!window.storage){
+  window.storage = {
+    async get(key, shared){ try{ return { value: localStorage.getItem(key) }; } catch{ return null; } },
+    async set(key, val, shared){ try{ localStorage.setItem(key, val); } catch{} }
+  };
+}
+window.sGet = async function(key){ try{ const r=await window.storage.get(key,true); return r?JSON.parse(r.value):null; }catch{ return null; } };
+window.sSet = async function(key,val){ try{ await window.storage.set(key,JSON.stringify(val),true); }catch{} };
+
 // ===== PARTICLES =====
 const pc=document.getElementById('particles');
 const pctx=pc.getContext('2d');
@@ -1274,9 +1288,50 @@ function sp(p,el,cls){
   document.querySelectorAll('.bt').forEach(b=>b.classList.remove('a'));
   el.classList.add('a');
   document.querySelectorAll('.pane').forEach(c=>c.classList.remove('show'));
-  document.getElementById('pn-'+p).classList.add('show');
+  const targetPane = document.getElementById('pn-'+p);
+  if (targetPane) targetPane.classList.add('show');
   setCursor(p);
   if(p==='ds') setTimeout(()=>{ if(window._initCalendar){ window._initCalendar(); window._calInited=true; } else if(window._lastDsData) drawDsCharts(window._lastDsData); },80);
+  
+  if(p==='rb' && typeof engine !== 'undefined' && !window._godotStarted) {
+    window._godotStarted = true;
+    const statusLoading = document.getElementById('bk-loading');
+    if (statusLoading) statusLoading.style.display = 'flex';
+    const statusText = document.querySelector('#bk-loading div');
+    const missing = Engine.getMissingFeatures({ threads: false });
+    if (missing.length > 0) {
+      console.error("Missing features:", missing);
+      if (statusText) {
+        statusText.style.color = 'var(--red)';
+        statusText.textContent = "ОШИБКА: WebGL 2 не поддерживается";
+        statusText.innerHTML += `<br><small style="font-size:8px;color:var(--muted);margin-top:8px;display:block;">Убедитесь, что аппаратное ускорение включено в браузере.</small>`;
+      }
+      return;
+    }
+
+    engine.startGame({
+      onProgress: function(current, total) {
+        if (total > 0 && statusText) {
+          const pc = Math.floor((current / total) * 100);
+          statusText.textContent = `ЗАГРУЗКА ЗАКУЛИСЬЯ: ${pc}%`;
+        }
+      }
+    }).catch(err => {
+      console.error("Engine start failed:", err);
+      // Show user-friendly error in the loading screen
+      if (statusText) {
+        statusText.style.color = 'var(--red)';
+        const msg = (err.message || String(err)).toLowerCase();
+        if (msg.includes('webgl')) {
+           statusText.textContent = "ОШИБКА ГРАФИКИ: WebGL 2";
+        } else {
+           statusText.textContent = "СБОЙ ИНИЦИАЛИЗАЦИИ: " + (err.message || "Ошибка");
+        }
+        statusText.innerHTML += `<br><small style="font-size:8px;color:var(--muted);margin-top:8px;display:block;">Проверьте интернет-соединение или наличие файлов движка.</small>`;
+      }
+      window._godotStarted = false;
+    });
+  }
 }
 function dst(k,el){
   const pane=el.closest('.pane');
@@ -2986,8 +3041,80 @@ window.addEventListener('load',()=>{
 
 loadReal();
 setInterval(loadReal,15000);
-// Init calendar after short delay
-setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
+// ── HUB FEATURES (Calendar, MC, etc) ──
+(function(){
+  // Calendar
+  window._initCalendar = function(){
+    const el = document.getElementById('cal-days');
+    if(!el) return;
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth();
+    const today = now.getDate();
+    
+    // First day of month
+    const firstDay = new Date(year, month, 1).getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    
+    // Adjust for Monday start (0=Sun, 1=Mon... -> 0=Mon, 6=Sun)
+    let startOffset = (firstDay === 0) ? 6 : firstDay - 1;
+    
+    let html = '';
+    // Empty cells
+    for(let i=0; i<startOffset; i++) html += '<div></div>';
+    
+    // Days
+    const events = {
+      [today + 1]: { name: 'Стрим: Backrooms', color: 'var(--cyan)' },
+      [today + 3]: { name: 'Обнова Сервера', color: 'var(--green)' },
+      [today - 2]: { name: 'Ивент: ПвП', color: 'var(--red)' }
+    };
+    
+    for(let d=1; d<=daysInMonth; d++){
+      const isToday = d === today;
+      const ev = events[d];
+      html += `<div style="text-align:center;padding:6px;font-size:12px;border:1px solid ${isToday?'var(--cyan)':'var(--b)'};
+        background:${isToday?'rgba(0,80,100,0.2)':'transparent'};
+        color:${isToday?'var(--cyan)':'var(--text)'};cursor:pointer;position:relative;"
+        onmouseover="this.style.background='rgba(42,64,85,0.4)'"
+        onmouseout="this.style.background='${isToday?'rgba(0,80,100,0.2)':'transparent'}'">
+        ${d}
+        ${ev ? `<div style="position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:3px;height:3px;border-radius:50%;background:${ev.color}"></div>` : ''}
+      </div>`;
+    }
+    el.innerHTML = html;
+  };
+
+  // Mock MC Players
+  window.renderMCPlayers = function(){
+    const el = document.getElementById('mc-pg-inner');
+    if(!el) return;
+    const players = [
+      { name: 'Admin_CPYS', status: 'Online', skin: 'https://mc-heads.net/avatar/Admin_CPYS' },
+      { name: 'Gamer_777', status: 'In Backrooms', skin: 'https://mc-heads.net/avatar/Gamer_777' },
+      { name: 'Survivor_X', status: 'Exploring', skin: 'https://mc-heads.net/avatar/Survivor_X' },
+      { name: 'Miner_Pro', status: 'Offline', skin: 'https://mc-heads.net/avatar/Miner_Pro' }
+    ];
+    el.innerHTML = players.map(p => `
+      <div class="mc-pc">
+        <div class="mc-pc-av"><img src="${p.skin}" alt=""></div>
+        <div class="mc-pc-info">
+          <div class="mc-pc-name">${p.name}</div>
+          <div class="mc-pc-sub"><span class="mc-pc-dot ${p.status==='Offline'?'off':'on'}"></span>${p.status}</div>
+        </div>
+      </div>
+    `).join('');
+    const cnt = document.getElementById('mc-players-count');
+    if(cnt) cnt.textContent = players.length;
+  };
+
+  // Init on load
+  setTimeout(() => {
+    window._initCalendar();
+    window.renderMCPlayers();
+  }, 1000);
+})();
+
 // Игроки MC отобразятся когда бот пришлёт данные
 
 // ══════════════════════════════════════════════════════
@@ -3238,15 +3365,15 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
     if(score>myBest){
       myBest=score;
       document.getElementById('hent-my-best').textContent=myBest;
-      // Save to localStorage
-      try{
-        var best=parseInt(localStorage.getItem('hent_best')||'0');
-        if(myBest>best){
-          localStorage.setItem('hent_best',myBest);
-          localStorage.setItem('hent_name',window._myName||'Игрок');
+      // Save to hub storage
+      (async ()=>{
+        let best = await sGet('hent_best') || 0;
+        if(myBest > best){
+          await sSet('hent_best', myBest);
+          await sSet('hent_name', window._myName||'Игрок');
           updateScores();
         }
-      }catch(e){}
+      })();
     }
     // Draw game over
     ctx.fillStyle='rgba(0,0,0,0.8)';
@@ -3267,14 +3394,12 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
     }
   }
 
-  function updateScores(){
+  async function updateScores(){
     var el=document.getElementById('hent-scores-list');
     if(!el) return;
-    try{
-      var best=localStorage.getItem('hent_best')||0;
-      var name=localStorage.getItem('hent_name')||'Ты';
-      el.innerHTML='<div class="row"><span style="color:var(--gold)">🏆 #1</span><div class="ri"><div class="rn">'+escHtml(name)+'</div></div><div class="rv" style="color:var(--gold)">'+best+'</div></div>';
-    }catch(e){}
+    const best = await sGet('hent_best') || 0;
+    const name = await sGet('hent_name') || 'Ты';
+    el.innerHTML='<div class="row"><span style="color:var(--gold)">🏆 #1</span><div class="ri"><div class="rn">'+esc(name)+'</div></div><div class="rv" style="color:var(--gold)">'+best+'</div></div>';
   }
 
   window.hentStart=function(){
@@ -3324,12 +3449,7 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
   let winOpen = false;
 
   // ── Storage helpers (shared) ──
-  async function sGet(key){
-    try{ const r=await window.storage.get(key,true); return r?JSON.parse(r.value):null; }catch{ return null; }
-  }
-  async function sSet(key,val){
-    try{ await window.storage.set(key,JSON.stringify(val),true); }catch{}
-  }
+  // (Moved to global)
 
   function strColor(str){
     let h=0; for(const c of (str||'')) h=(h*31+c.charCodeAt(0))&0xffffff;
@@ -3342,7 +3462,7 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
       return d.toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit'});
     return d.toLocaleDateString('ru-RU',{day:'2-digit',month:'2-digit'});
   }
-  function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function esc(s){ return window.esc(s); }
 
   function avHtml(user, size=26, fontSize=12){
     const sz=`width:${size}px;height:${size}px`;
@@ -3532,6 +3652,9 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
     const users=(await sGet(USERS_KEY))||{};
     users[me.email]={...users[me.email],...me};
     await sSet(USERS_KEY,users);
+    
+    // Update local backrooms user too
+    bkUpdateStatsUI();
     updateMyAvBar();
     document.getElementById('prof-name-display').textContent=name;
     msgEl.style.color='var(--green)'; msgEl.textContent='✓ Сохранено!';
@@ -3643,8 +3766,8 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
     try {
       const stats = JSON.parse(data);
       localStorage.setItem('bk_save', data);
-      localStorage.setItem('bk_bugs', stats.bugs_found || 0);
-      localStorage.setItem('bk_days', stats.days_lived || 0);
+      localStorage.setItem('bk_bugs', stats.bugs || 0);
+      localStorage.setItem('bk_days', stats.days || 0);
       bkUpdateStatsUI();
       return true;
     } catch(e) { console.error('Save failed', e); return false; }
@@ -3670,10 +3793,25 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
   window.bkOpenAuth = function() { if(!winOpen) msngToggle(); };
 
   // ── Godot Loader ──
-  const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","fileSizes":{"index.pck":8121916,"index.wasm":35739700},"gdextensionLibs":[]};
+  const GODOT_CONFIG = {
+    "args": [],
+    "canvasResizePolicy": 2,
+    "executable": "закулисе5",
+    "fileSizes": {"закулисе5.pck": 8125356, "закулисе5.wasm": 35739700},
+    "gdextensionLibs": [],
+    "emscriptenPoolSize": 8,
+    "godotPoolSize": 4,
+    "focusCanvas": true,
+    "ensureCrossOriginIsolationHeaders": true,
+    "locateFile": function(path) {
+      if (path.includes('закулисе5')) {
+        return encodeURIComponent(path).replace(/%2E/g, '.');
+      }
+      return path;
+    }
+  };
   const engine = new Engine(GODOT_CONFIG);
   (function() {
-    const canvas = document.getElementById('canvas');
     const statusProgress = document.getElementById('bk-prog');
     const statusLoading = document.getElementById('bk-loading');
     
@@ -3691,11 +3829,8 @@ setTimeout(()=>{ if(window._initCalendar) window._initCalendar(); },300);
     }
 
     bkUpdateStatsUI();
-    engine.startGame({
-      onProgress: updateStatus,
-    }).catch(err => {
-      console.error("Engine start failed:", err);
-    });
+    // Engine start is now deferred to sp('rb') click for better user gesture handling
+    engine.onProgress = updateStatus;
   })();
 
   // ── Poll ──
