@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="закулисе5.icon.png">
+    <link rel="icon" type="image/png" href="bk_icon.png">
     <!-- COI SW is REQUIRED for some Godot feature stability even in single-threaded mode -->
     <script src="coi-serviceworker.js"></script>
-    <script src="закулисе5.js"></script>
+    <script src="bk_game.js"></script>
     <title>C.P.Y.S Hub</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -3796,19 +3796,13 @@ setInterval(loadReal,15000);
   const GODOT_CONFIG = {
     "args": [],
     "canvasResizePolicy": 2,
-    "executable": "закулисе5",
-    "fileSizes": {"закулисе5.pck": 8125356, "закулисе5.wasm": 35739700},
+    "executable": "bk_game",
+    "fileSizes": {"bk_game.pck": 8125356, "bk_game.wasm": 35739700},
     "gdextensionLibs": [],
     "emscriptenPoolSize": 8,
     "godotPoolSize": 4,
     "focusCanvas": true,
-    "ensureCrossOriginIsolationHeaders": true,
-    "locateFile": function(path) {
-      if (path.includes('закулисе5')) {
-        return encodeURIComponent(path).replace(/%2E/g, '.');
-      }
-      return path;
-    }
+    "ensureCrossOriginIsolationHeaders": true
   };
   const engine = new Engine(GODOT_CONFIG);
   (function() {
