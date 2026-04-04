@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T16:39:29.757608+00:00",
+  "updated_at": "2026-04-04T16:40:58.201405+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 45,
     "online_count": 15,
     "offline_count": 30,
-    "in_voice_count": 5,
+    "in_voice_count": 6,
     "messages_today": 63,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -52,32 +52,6 @@
       }
     },
     {
-      "id": "1211055468362072164",
-      "name": "2 квитень",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
-      "stats_today": {
-        "text": 24,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 24
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "834060139006394368",
       "name": "ZPNK666",
       "status": "online",
@@ -99,6 +73,28 @@
         "gifs": 0,
         "files": 0,
         "total": 5
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1433504994824425640",
+      "name": "зелябобик",
+      "status": "online",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
+      "joined_at": "2026-03-24T10:19:41.726000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -468,6 +464,32 @@
       }
     },
     {
+      "id": "1211055468362072164",
+      "name": "2 квитень",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 24,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 24
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1009475184090152961",
       "name": "майонез",
       "status": "offline",
@@ -729,28 +751,6 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1468559274266591314/6ae3e24c025554334a390c708eedbaac.png?size=1024",
       "joined_at": "2026-03-31T21:12:37.594000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1433504994824425640",
-      "name": "зелябобик",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
-      "joined_at": "2026-03-24T10:19:41.726000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1177,13 +1177,14 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 5,
+      "members_count": 6,
       "members": [
         "ZPNK666",
         "SayKomy",
         "гойда кирпич",
         "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-        "#!Apr๑ell꒱"
+        "#!Apr๑ell꒱",
+        "Жека"
       ],
       "user_limit": 0
     },
@@ -1314,13 +1315,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 21:28",
-      "hour": 21,
-      "online": 15,
-      "in_voice": 7,
-      "messages": 0
-    },
     {
       "time": "04.04 21:28",
       "hour": 21,
@@ -1480,6 +1474,13 @@
       "hour": 21,
       "online": 15,
       "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "04.04 21:40",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 6,
       "messages": 0
     }
   ],
