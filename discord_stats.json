@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T18:23:54.280949+00:00",
+  "updated_at": "2026-04-04T18:24:16.643031+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 46,
     "online_count": 19,
     "offline_count": 27,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 90,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -258,7 +258,7 @@
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
@@ -1203,12 +1203,11 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         "ZPNK666",
         "SayKomy",
-        "тунг тунг захур",
-        "кирпич"
+        "тунг тунг захур"
       ],
       "user_limit": 0
     },
@@ -1339,13 +1338,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 23:12",
-      "hour": 23,
-      "online": 17,
-      "in_voice": 4,
-      "messages": 0
-    },
     {
       "time": "04.04 23:13",
       "hour": 23,
@@ -1505,6 +1497,13 @@
       "hour": 23,
       "online": 19,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "04.04 23:24",
+      "hour": 23,
+      "online": 19,
+      "in_voice": 3,
       "messages": 0
     }
   ],
