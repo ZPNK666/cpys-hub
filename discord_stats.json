@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T09:52:56.766106+00:00",
+  "updated_at": "2026-04-04T09:54:59.539903+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 9,
-    "offline_count": 33,
+    "online_count": 8,
+    "offline_count": 34,
     "in_voice_count": 2,
     "messages_today": 0,
     "text_channels_count": 8,
@@ -64,32 +64,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1155602435222552698",
-      "name": "hatan",
-      "status": "dnd",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
-      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -420,6 +394,32 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
       "joined_at": "2026-03-26T15:18:39.046000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1155602435222552698",
+      "name": "hatan",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
+      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1099,8 +1099,8 @@
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
       "members_count": 2,
       "members": [
-        "Жека",
-        "ZPNK666"
+        "ZPNK666",
+        "Жека"
       ],
       "user_limit": 0
     },
@@ -1231,13 +1231,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 03:08",
-      "hour": 3,
-      "online": 12,
-      "in_voice": 6,
-      "messages": 0
-    },
     {
       "time": "04.04 03:10",
       "hour": 3,
@@ -1396,6 +1389,13 @@
       "time": "04.04 14:52",
       "hour": 14,
       "online": 9,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "04.04 14:54",
+      "hour": 14,
+      "online": 8,
       "in_voice": 2,
       "messages": 0
     }
