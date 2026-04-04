@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="./bk_icon.png">
     <!-- COI SW is REQUIRED for some Godot feature stability even in single-threaded mode -->
     <script src="./coi-serviceworker.js" onerror="window._swError=true"></script>
-    <script src="./bk_v2.js" onerror="window._gameScriptError=true"></script>
+    <script src="./bk_v3.js" onerror="window._gameScriptError=true"></script>
     <title>C.P.Y.S Hub</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -1318,27 +1318,31 @@ function sp(p,el,cls){
 
     if (statusText) statusText.textContent = "ПРОВЕРКА ФАЙЛОВ...";
     
-    // Новая диагностика: Проверка SharedArrayBuffer для Godot 4
+    // Диагностика: Проверка безопасности и WebGL
     const isIsolated = window.crossOriginIsolated;
     const hasSAB = !!window.SharedArrayBuffer;
-    console.log("Security Check - Isolated:", isIsolated, "SAB:", hasSAB);
     
     if (statusText) {
-      statusText.innerHTML += `<br><span style="font-size:8px;color:${isIsolated?'var(--green)':'var(--red)'}">${isIsolated ? '🛡️ ИЗОЛЯЦИЯ: ОК' : '⚠️ ИЗОЛЯЦИЯ БЛОКИРОВАНА (Звук/Графика могут не работать)'}</span>`;
+      statusText.innerHTML += `<br><span style="font-size:8px;color:${isIsolated?'var(--green)':'var(--red)'}">${isIsolated ? '🛡️ ИЗОЛЯЦИЯ: ОК' : '⚠️ ИЗОЛЯЦИЯ БЛОКИРОВАНА'}</span>`;
     }
 
-    // Скачиваем только первые 10 байт для проверки заголовка магии WASM
-    fetch('./bk_v2.wasm', { headers: { 'Range': 'bytes=0-9' } })
+    // Скачиваем только заголовок для проверки размера и типа
+    fetch('./bk_v3.bin')
     .then(async res => {
-      if (!res.ok || res.status === 404) throw new Error("ФАЙЛ .WASM НЕ НАЙДЕН (404)");
+      if (!res.ok || res.status === 404) throw new Error("ФАЙЛ .BIN НЕ НАЙДЕН (404)");
       
+      const sizeStr = res.headers.get('content-length') || "N/A";
+      const contentType = res.headers.get('content-type') || "N/A";
+      
+      if (statusText) statusText.innerHTML += `<br><small style="font-size:8.5px;color:var(--muted)">РАЗМЕР: ${sizeStr} байт (${contentType})</small>`;
+
+      // Берем первые 10 байт
       const buf = await res.arrayBuffer();
       const v = new Uint8Array(buf);
-      console.log("WASM Header Check:", v);
       
-      // WASM Magic Number: 0x00 0x61 0x73 0x6D (\0asm)
+      // WASM Magic: \0asm
       if (v.length < 4 || v[0] !== 0 || v[1] !== 0x61 || v[2] !== 0x73 || v[3] !== 0x6D) {
-        throw new Error("ФАЙЛ .WASM ПОВРЕЖДЕН ИЛИ ЯВЛЯЕТСЯ TEXT/HTML");
+        throw new Error("ФАЙЛ ПОВРЕЖДЕН ИЛИ HTML (Magic: " + Array.from(v.slice(0,4)).join(',') + ")");
       }
       
       engine.startGame({
@@ -3851,8 +3855,8 @@ setInterval(loadReal,15000);
   const GODOT_CONFIG = {
     "args": [],
     "canvasResizePolicy": 2,
-    "executable": "bk_v2",
-    "fileSizes": {"bk_v2.pck": 8125356, "bk_v2.wasm": 35739700},
+    "executable": "bk_v3",
+    "fileSizes": {"bk_v3.pck": 8125356, "bk_v3.bin": 35739700},
     "gdextensionLibs": [],
     "emscriptenPoolSize": 8,
     "godotPoolSize": 4,
