@@ -1295,14 +1295,30 @@ function sp(p,el,cls){
     window._godotStarted = true;
     const statusLoading = document.getElementById('bk-loading');
     if (statusLoading) statusLoading.style.display = 'flex';
+    const statusText = document.querySelector('#bk-loading div');
+    const missing = Engine.getMissingFeatures({ threads: false });
+    if (missing.length > 0) {
+      console.error("Missing features:", missing);
+      if (statusText) {
+        statusText.style.color = 'var(--red)';
+        statusText.textContent = "ОШИБКА: WebGL 2 не поддерживается";
+        statusText.innerHTML += `<br><small style="font-size:8px;color:var(--muted);margin-top:8px;display:block;">Убедитесь, что аппаратное ускорение включено в браузере.</small>`;
+      }
+      return;
+    }
+
     engine.startGame().catch(err => {
       console.error("Engine start failed:", err);
       // Show user-friendly error in the loading screen
-      const statusText = document.querySelector('#bk-loading div');
       if (statusText) {
         statusText.style.color = 'var(--red)';
-        statusText.textContent = "ОШИБКА ЗАПУСКА: " + (err.message || "Неизвестная ошибка");
-        statusText.innerHTML += `<br><small style="font-size:8px;color:var(--muted);margin-top:8px;display:block;">Проверьте COOP/COEP заголовки или наличие файлов.</small>`;
+        const msg = (err.message || String(err)).toLowerCase();
+        if (msg.includes('webgl')) {
+           statusText.textContent = "ОШИБКА ГРАФИКИ: WebGL 2";
+        } else {
+           statusText.textContent = "СБОЙ ИНИЦИАЛИЗАЦИИ: " + (err.message || "Ошибка");
+        }
+        statusText.innerHTML += `<br><small style="font-size:8px;color:var(--muted);margin-top:8px;display:block;">Проверьте интернет-соединение или наличие файлов движка.</small>`;
       }
       window._godotStarted = false;
     });
@@ -3774,7 +3790,7 @@ setInterval(loadReal,15000);
     "executable": "index",
     "fileSizes": {"index.pck": 8121916, "index.wasm": 35739700},
     "gdextensionLibs": [],
-    "ensureCrossOriginIsolationHeaders": true,
+    "ensureCrossOriginIsolationHeaders": false,
     "serviceWorker": "coi-serviceworker.js"
   };
   const engine = new Engine(GODOT_CONFIG);
