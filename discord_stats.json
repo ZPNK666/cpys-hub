@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T11:20:53.213075+00:00",
+  "updated_at": "2026-04-04T11:22:55.721612+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -53,17 +53,13 @@
       }
     },
     {
-      "id": "1396938275263877150",
-      "name": "spiik",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
-      "joined_at": "2026-03-23T14:02:15.357000+00:00",
+      "id": "993900146930753606",
+      "name": "АУДИТОР",
+      "status": "dnd",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
+      "joined_at": "2026-03-24T10:19:39.145000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -79,13 +75,17 @@
       }
     },
     {
-      "id": "1433504994824425640",
-      "name": "зелябобик",
+      "id": "1396938275263877150",
+      "name": "spiik",
       "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
-      "joined_at": "2026-03-24T10:19:41.726000+00:00",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
+      "joined_at": "2026-03-23T14:02:15.357000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -487,13 +487,17 @@
       }
     },
     {
-      "id": "993900146930753606",
-      "name": "АУДИТОР",
+      "id": "1468559274266591314",
+      "name": "Dasha",
       "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
-      "joined_at": "2026-03-24T10:19:39.145000+00:00",
+      "roles": [
+        "нету хента",
+        "Сциентизм",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1468559274266591314/6ae3e24c025554334a390c708eedbaac.png?size=1024",
+      "joined_at": "2026-03-31T21:12:37.594000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -509,17 +513,13 @@
       }
     },
     {
-      "id": "1468559274266591314",
-      "name": "Dasha",
+      "id": "1433504994824425640",
+      "name": "зелябобик",
       "status": "offline",
-      "roles": [
-        "нету хента",
-        "Сциентизм",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1468559274266591314/6ae3e24c025554334a390c708eedbaac.png?size=1024",
-      "joined_at": "2026-03-31T21:12:37.594000+00:00",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
+      "joined_at": "2026-03-24T10:19:41.726000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1232,13 +1232,6 @@
   },
   "hourly_history": [
     {
-      "time": "04.04 15:33",
-      "hour": 15,
-      "online": 8,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "04.04 15:35",
       "hour": 15,
       "online": 8,
@@ -1394,6 +1387,13 @@
     },
     {
       "time": "04.04 16:20",
+      "hour": 16,
+      "online": 8,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "04.04 16:22",
       "hour": 16,
       "online": 8,
       "in_voice": 2,
