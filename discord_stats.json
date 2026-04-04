@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T17:40:23.837097+00:00",
+  "updated_at": "2026-04-04T17:41:00.417567+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 46,
-    "online_count": 16,
-    "offline_count": 30,
-    "in_voice_count": 5,
+    "online_count": 15,
+    "offline_count": 31,
+    "in_voice_count": 4,
     "messages_today": 88,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -148,7 +148,7 @@
     },
     {
       "id": "1157762358542876784",
-      "name": "EVILcementsorbetOWO",
+      "name": "тунг тунг захур",
       "status": "idle",
       "roles": [],
       "top_role": "member",
@@ -314,32 +314,6 @@
         "gifs": 0,
         "files": 0,
         "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1390304716570755096",
-      "name": "АЛИСА",
-      "status": "online",
-      "roles": [
-        "нету хента",
-        "провославный",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1390304716570755096/eda27b8c3f405e5124518ead0a0fc5e7.png?size=1024",
-      "joined_at": "2026-04-04T13:26:25.548000+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -1101,6 +1075,32 @@
       }
     },
     {
+      "id": "1390304716570755096",
+      "name": "АЛИСА",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1390304716570755096/eda27b8c3f405e5124518ead0a0fc5e7.png?size=1024",
+      "joined_at": "2026-04-04T13:26:25.548000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1436969435104677948",
       "name": "Даун",
       "status": "offline",
@@ -1203,13 +1203,12 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         "ZPNK666",
         "SayKomy",
         "Карасик",
-        "EVILcementsorbetOWO",
-        "АУДИТОР"
+        "тунг тунг захур"
       ],
       "user_limit": 0
     },
@@ -1340,13 +1339,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 22:28",
-      "hour": 22,
-      "online": 17,
-      "in_voice": 6,
-      "messages": 0
-    },
     {
       "time": "04.04 22:29",
       "hour": 22,
@@ -1506,6 +1498,13 @@
       "hour": 22,
       "online": 16,
       "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "04.04 22:41",
+      "hour": 22,
+      "online": 15,
+      "in_voice": 4,
       "messages": 0
     }
   ],
