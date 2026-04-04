@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="icon.svg">
-    <!-- COI SW is not needed for single-threaded Godot exports and might cause AbortError on Worklets -->
-    <!-- <script src="coi-serviceworker.js"></script> -->
-    <script src="index.js"></script>
+    <link rel="icon" type="image/png" href="закулисе5.icon.png">
+    <!-- COI SW is REQUIRED for some Godot feature stability even in single-threaded mode -->
+    <script src="coi-serviceworker.js"></script>
+    <script src="закулисе5.js"></script>
     <title>C.P.Y.S Hub</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -1246,13 +1246,6 @@ if(!window.storage){
 }
 window.sGet = async function(key){ try{ const r=await window.storage.get(key,true); return r?JSON.parse(r.value):null; }catch{ return null; } };
 window.sSet = async function(key,val){ try{ await window.storage.set(key,JSON.stringify(val),true); }catch{} };
-
-// ── Service Worker Cleanup ──
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.getRegistrations().then(function(registrations) {
-    for(let registration of registrations) { registration.unregister(); }
-  });
-}
 
 // ===== PARTICLES =====
 const pc=document.getElementById('particles');
@@ -3803,13 +3796,19 @@ setInterval(loadReal,15000);
   const GODOT_CONFIG = {
     "args": [],
     "canvasResizePolicy": 2,
-    "executable": "index",
-    "fileSizes": {"index.pck": 8121916, "index.wasm": 35739700},
+    "executable": "закулисе5",
+    "fileSizes": {"закулисе5.pck": 8125356, "закулисе5.wasm": 35739700},
     "gdextensionLibs": [],
     "emscriptenPoolSize": 8,
     "godotPoolSize": 4,
     "focusCanvas": true,
-    "ensureCrossOriginIsolationHeaders": false
+    "ensureCrossOriginIsolationHeaders": true,
+    "locateFile": function(path) {
+      if (path.includes('закулисе5')) {
+        return encodeURIComponent(path).replace(/%2E/g, '.');
+      }
+      return path;
+    }
   };
   const engine = new Engine(GODOT_CONFIG);
   (function() {
