@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:41:59.123131+00:00",
+  "updated_at": "2026-04-04T15:43:29.038890+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 44,
     "online_count": 19,
     "offline_count": 25,
-    "in_voice_count": 7,
+    "in_voice_count": 6,
     "messages_today": 24,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -53,7 +53,7 @@
     {
       "id": "1255232329362833409",
       "name": "кирпич",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "Агностик",
@@ -277,7 +277,7 @@
     {
       "id": "1264609602540929140",
       "name": "dark_soul",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
@@ -1145,14 +1145,13 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 6,
+      "members_count": 5,
       "members": [
         "ZPNK666",
-        "кирпич",
         "spiik",
-        "#!Apr๑ell꒱",
         "2 квитень",
-        "зелябобик"
+        "зелябобик",
+        "#!Apr๑ell꒱"
       ],
       "user_limit": 0
     },
@@ -1302,13 +1301,6 @@
     {
       "time": "04.04 20:31",
       "hour": 20,
-      "online": 16,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
-      "time": "04.04 20:31",
-      "hour": 20,
       "online": 17,
       "in_voice": 6,
       "messages": 0
@@ -1451,6 +1443,13 @@
       "hour": 20,
       "online": 19,
       "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "04.04 20:43",
+      "hour": 20,
+      "online": 19,
+      "in_voice": 6,
       "messages": 0
     }
   ],
