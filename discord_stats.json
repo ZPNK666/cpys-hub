@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T19:27:33.194712+00:00",
+  "updated_at": "2026-04-04T19:28:37.450369+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -114,6 +114,32 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
       "joined_at": "2025-10-03T14:17:20.491000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1155602435222552698",
+      "name": "hatan",
+      "status": "dnd",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
+      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -436,30 +462,6 @@
         "joins": 0,
         "leaves": 0
       }
-    },
-    {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "online",
-      "roles": [
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
     }
   ],
   "offline_members": [
@@ -655,32 +657,6 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
       "joined_at": "2026-03-26T15:18:39.046000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1155602435222552698",
-      "name": "hatan",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/528a991c9a661b04b9ee1fab211ceb09.png?size=1024",
-      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1125,6 +1101,30 @@
       }
     },
     {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "offline",
+      "roles": [
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1158002004199747685",
       "name": "SayKomy",
       "status": "offline",
@@ -1356,13 +1356,6 @@
       "messages": 0
     },
     {
-      "time": "05.04 00:16",
-      "hour": 0,
-      "online": 18,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "05.04 00:17",
       "hour": 0,
       "online": 18,
@@ -1504,6 +1497,13 @@
     },
     {
       "time": "05.04 00:27",
+      "hour": 0,
+      "online": 17,
+      "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "05.04 00:28",
       "hour": 0,
       "online": 17,
       "in_voice": 2,
