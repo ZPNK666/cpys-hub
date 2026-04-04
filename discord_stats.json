@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:00:41.868228+00:00",
+  "updated_at": "2026-04-04T15:01:51.921429+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 43,
     "online_count": 14,
     "offline_count": 29,
-    "in_voice_count": 6,
+    "in_voice_count": 5,
     "messages_today": 19,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -181,7 +181,7 @@
     {
       "id": "1293571301008736257",
       "name": "Матвей",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -1123,11 +1123,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 6,
+      "members_count": 5,
       "members": [
         "ZPNK666",
         "майонез",
-        "2 квитень",
         "кирпич",
         "spiik",
         "#!Apr๑ell꒱"
@@ -1261,13 +1260,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 19:49",
-      "hour": 19,
-      "online": 17,
-      "in_voice": 6,
-      "messages": 0
-    },
     {
       "time": "04.04 19:49",
       "hour": 19,
@@ -1427,6 +1419,13 @@
       "hour": 20,
       "online": 14,
       "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "04.04 20:01",
+      "hour": 20,
+      "online": 14,
+      "in_voice": 5,
       "messages": 0
     }
   ],
