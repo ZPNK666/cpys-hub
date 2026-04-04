@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="закулисе5.icon.png">
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
     <!-- COI SW is not needed for single-threaded Godot exports and might cause AbortError on Worklets -->
     <!-- <script src="coi-serviceworker.js"></script> -->
     <script src="index.js"></script>
@@ -1316,7 +1316,14 @@ function sp(p,el,cls){
       return;
     }
 
-    engine.startGame().catch(err => {
+    engine.startGame({
+      onProgress: function(current, total) {
+        if (total > 0 && statusText) {
+          const pc = Math.floor((current / total) * 100);
+          statusText.textContent = `ЗАГРУЗКА ЗАКУЛИСЬЯ: ${pc}%`;
+        }
+      }
+    }).catch(err => {
       console.error("Engine start failed:", err);
       // Show user-friendly error in the loading screen
       if (statusText) {
@@ -3799,8 +3806,10 @@ setInterval(loadReal,15000);
     "executable": "index",
     "fileSizes": {"index.pck": 8121916, "index.wasm": 35739700},
     "gdextensionLibs": [],
-    "ensureCrossOriginIsolationHeaders": false,
-    "serviceWorker": "coi-serviceworker.js"
+    "emscriptenPoolSize": 8,
+    "godotPoolSize": 4,
+    "focusCanvas": true,
+    "ensureCrossOriginIsolationHeaders": false
   };
   const engine = new Engine(GODOT_CONFIG);
   (function() {
