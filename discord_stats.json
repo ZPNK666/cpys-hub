@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:08:56.159770+00:00",
+  "updated_at": "2026-04-04T15:10:15.933764+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 44,
-    "online_count": 13,
-    "offline_count": 31,
+    "online_count": 16,
+    "offline_count": 28,
     "in_voice_count": 6,
     "messages_today": 19,
     "text_channels_count": 8,
@@ -131,6 +131,28 @@
       }
     },
     {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "online",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-26T15:18:39.046000+00:00",
+      "stats_today": {
+        "text": 11,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 11
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1155602435222552698",
       "name": "hatan",
       "status": "dnd",
@@ -164,6 +186,28 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dba21e890d559ab7f102c4ea078aca61.png?size=1024",
       "joined_at": "2026-03-24T10:19:39.145000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1157762358542876784",
+      "name": "EVILcementsorbetOWO",
+      "status": "idle",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
+      "joined_at": "2026-03-24T17:15:48.003000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -268,6 +312,32 @@
       "top_role": "католик",
       "avatar": "https://cdn.discordapp.com/avatars/1462906498110849218/a625dced36a17a7dc155dbc742bacf99.png?size=1024",
       "joined_at": "2026-03-24T18:22:46.453000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1366113301221867725",
+      "name": "Мат",
+      "status": "idle",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/ed9849c185e3f9d8d7ac589d0c2d3d8a.png?size=1024",
+      "joined_at": "2026-03-24T17:58:02.100000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -541,28 +611,6 @@
       }
     },
     {
-      "id": "1418873225596895284",
-      "name": "Rudy",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
-      "joined_at": "2026-03-26T15:18:39.046000+00:00",
-      "stats_today": {
-        "text": 11,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 11
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1411040080092725248",
       "name": "່vvv",
       "status": "offline",
@@ -622,28 +670,6 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
       "joined_at": "2026-03-24T10:19:41.726000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1157762358542876784",
-      "name": "EVILcementsorbetOWO",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
-      "joined_at": "2026-03-24T17:15:48.003000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -966,32 +992,6 @@
       }
     },
     {
-      "id": "1366113301221867725",
-      "name": "Мат",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/ed9849c185e3f9d8d7ac589d0c2d3d8a.png?size=1024",
-      "joined_at": "2026-03-24T17:58:02.100000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1425903022629847200",
       "name": "Жигуль в прайме",
       "status": "offline",
@@ -1299,13 +1299,6 @@
       "messages": 0
     },
     {
-      "time": "04.04 19:57",
-      "hour": 19,
-      "online": 14,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "04.04 19:58",
       "hour": 19,
       "online": 14,
@@ -1449,6 +1442,13 @@
       "time": "04.04 20:08",
       "hour": 20,
       "online": 13,
+      "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "04.04 20:10",
+      "hour": 20,
+      "online": 16,
       "in_voice": 6,
       "messages": 0
     }
