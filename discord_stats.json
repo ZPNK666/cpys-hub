@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T10:54:21.383741+00:00",
+  "updated_at": "2026-04-04T10:56:23.718465+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -55,7 +55,7 @@
     {
       "id": "1418873225596895284",
       "name": "Rudy",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
@@ -1233,13 +1233,6 @@
   },
   "hourly_history": [
     {
-      "time": "04.04 15:07",
-      "hour": 15,
-      "online": 10,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "04.04 15:09",
       "hour": 15,
       "online": 9,
@@ -1395,6 +1388,13 @@
     },
     {
       "time": "04.04 15:54",
+      "hour": 15,
+      "online": 9,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "04.04 15:56",
       "hour": 15,
       "online": 9,
       "in_voice": 3,
