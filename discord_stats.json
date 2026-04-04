@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:45:42.845384+00:00",
+  "updated_at": "2026-04-04T15:46:15.258633+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -53,7 +53,7 @@
     {
       "id": "1255232329362833409",
       "name": "кирпич",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "Агностик",
@@ -1285,13 +1285,6 @@
   },
   "hourly_history": [
     {
-      "time": "04.04 20:33",
-      "hour": 20,
-      "online": 17,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "04.04 20:35",
       "hour": 20,
       "online": 17,
@@ -1451,6 +1444,13 @@
       "online": 17,
       "in_voice": 6,
       "messages": 2
+    },
+    {
+      "time": "04.04 20:46",
+      "hour": 20,
+      "online": 17,
+      "in_voice": 6,
+      "messages": 0
     }
   ],
   "top_chatters": [],
