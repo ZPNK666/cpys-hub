@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="./bk_icon.png">
     <!-- COI SW is REQUIRED for some Godot feature stability even in single-threaded mode -->
     <script src="./coi-serviceworker.js" onerror="window._swError=true"></script>
-    <script src="./bk_game.js" onerror="window._gameScriptError=true"></script>
+    <script src="./bk_v2.js" onerror="window._gameScriptError=true"></script>
     <title>C.P.Y.S Hub</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -1318,7 +1318,7 @@ function sp(p,el,cls){
 
     if (statusText) statusText.textContent = "ПРОВЕРКА ФАЙЛОВ...";
     // Скачиваем только первые 10 байт для проверки заголовка магии WASM
-    fetch('./bk_game.wasm', { headers: { 'Range': 'bytes=0-9' } })
+    fetch('./bk_v2.wasm', { headers: { 'Range': 'bytes=0-9' } })
     .then(async res => {
       if (!res.ok || res.status === 404) throw new Error("ФАЙЛ .WASM НЕ НАЙДЕН (404)");
       
@@ -3841,8 +3841,8 @@ setInterval(loadReal,15000);
   const GODOT_CONFIG = {
     "args": [],
     "canvasResizePolicy": 2,
-    "executable": "bk_game",
-    "fileSizes": {"bk_game.pck": 8125356, "bk_game.wasm": 35739700},
+    "executable": "bk_v2",
+    "fileSizes": {"bk_v2.pck": 8125356, "bk_v2.wasm": 35739700},
     "gdextensionLibs": [],
     "emscriptenPoolSize": 8,
     "godotPoolSize": 4,
