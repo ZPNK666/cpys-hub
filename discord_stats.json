@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:04:10.813646+00:00",
+  "updated_at": "2026-04-04T15:04:48.900613+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -7,9 +7,9 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 43,
-    "online_count": 13,
-    "offline_count": 30,
+    "total_members": 44,
+    "online_count": 12,
+    "offline_count": 32,
     "in_voice_count": 6,
     "messages_today": 19,
     "text_channels_count": 8,
@@ -131,31 +131,9 @@
       }
     },
     {
-      "id": "1418873225596895284",
-      "name": "Rudy",
-      "status": "online",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
-      "joined_at": "2026-03-26T15:18:39.046000+00:00",
-      "stats_today": {
-        "text": 11,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 11
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1293571301008736257",
       "name": "Матвей",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -534,6 +512,28 @@
         "gifs": 0,
         "files": 0,
         "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-26T15:18:39.046000+00:00",
+      "stats_today": {
+        "text": 11,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 11
       },
       "join_leave": {
         "joins": 0,
@@ -1117,19 +1117,42 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1158002004199747685",
+      "name": "SayKomy",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1158002004199747685/325e79b0beb4054727d766d3da4e1d26.png?size=1024",
+      "joined_at": "2026-04-04T15:04:26.147276+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 5,
+      "members_count": 6,
       "members": [
         "ZPNK666",
         "майонез",
         "кирпич",
         "spiik",
-        "#!Apr๑ell꒱"
+        "#!Apr๑ell꒱",
+        "Жигуль в прайме"
       ],
       "user_limit": 0
     },
@@ -1164,10 +1187,8 @@
     {
       "id": "1486098016371740933",
       "name": "⋆  𝓜 𝑢𝑠𝑖𝑐-🎧",
-      "members_count": 1,
-      "members": [
-        "Жигуль в прайме"
-      ],
+      "members_count": 0,
+      "members": [],
       "user_limit": 0
     },
     {
@@ -1262,13 +1283,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 19:52",
-      "hour": 19,
-      "online": 16,
-      "in_voice": 6,
-      "messages": 0
-    },
     {
       "time": "04.04 19:53",
       "hour": 19,
@@ -1427,6 +1441,13 @@
       "time": "04.04 20:04",
       "hour": 20,
       "online": 13,
+      "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "04.04 20:04",
+      "hour": 20,
+      "online": 12,
       "in_voice": 6,
       "messages": 0
     }
