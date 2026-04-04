@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T16:00:09.504508+00:00",
+  "updated_at": "2026-04-04T16:00:37.936453+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -11,12 +11,12 @@
     "online_count": 16,
     "offline_count": 29,
     "in_voice_count": 8,
-    "messages_today": 43,
+    "messages_today": 46,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 43,
+    "text": 46,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -89,13 +89,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
       "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
-        "text": 21,
+        "text": 22,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 21
+        "total": 22
       },
       "join_leave": {
         "joins": 0,
@@ -1157,13 +1157,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1490013878451441875/1d729fc9ac7980984292dc251f416cd0.png?size=1024",
       "joined_at": "2026-04-04T15:54:09.244000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 4
       },
       "join_leave": {
         "joins": 0,
@@ -1316,13 +1316,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 20:48",
-      "hour": 20,
-      "online": 18,
-      "in_voice": 7,
-      "messages": 0
-    },
     {
       "time": "04.04 20:49",
       "hour": 20,
@@ -1483,6 +1476,13 @@
       "online": 16,
       "in_voice": 8,
       "messages": 0
+    },
+    {
+      "time": "04.04 21:00",
+      "hour": 21,
+      "online": 16,
+      "in_voice": 8,
+      "messages": 3
     }
   ],
   "top_chatters": [],
