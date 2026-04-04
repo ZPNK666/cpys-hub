@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T17:22:58.312158+00:00",
+  "updated_at": "2026-04-04T17:23:58.773079+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -328,7 +328,7 @@
     {
       "id": "1462906498110849218",
       "name": "duo titan",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -1346,13 +1346,6 @@
       "hour": 22,
       "online": 21,
       "in_voice": 5,
-      "messages": 6
-    },
-    {
-      "time": "04.04 22:11",
-      "hour": 22,
-      "online": 21,
-      "in_voice": 5,
       "messages": 0
     },
     {
@@ -1504,6 +1497,13 @@
     },
     {
       "time": "04.04 22:22",
+      "hour": 22,
+      "online": 16,
+      "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "04.04 22:23",
       "hour": 22,
       "online": 16,
       "in_voice": 6,
