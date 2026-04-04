@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:53:59.673784+00:00",
+  "updated_at": "2026-04-04T15:54:29.108547+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -7,8 +7,8 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 44,
-    "online_count": 17,
+    "total_members": 45,
+    "online_count": 18,
     "offline_count": 27,
     "in_voice_count": 7,
     "messages_today": 40,
@@ -440,6 +440,28 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
       "joined_at": "2026-03-08T19:27:52.385000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1490013878451441875",
+      "name": "LavakaSatyrnita",
+      "status": "idle",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1490013878451441875/4d94247d76e68ac394ed120b62f25843.png?size=1024",
+      "joined_at": "2026-04-04T15:54:09.244924+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1289,13 +1311,6 @@
   },
   "hourly_history": [
     {
-      "time": "04.04 20:41",
-      "hour": 20,
-      "online": 19,
-      "in_voice": 7,
-      "messages": 0
-    },
-    {
       "time": "04.04 20:43",
       "hour": 20,
       "online": 19,
@@ -1453,6 +1468,13 @@
       "time": "04.04 20:53",
       "hour": 20,
       "online": 17,
+      "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "04.04 20:54",
+      "hour": 20,
+      "online": 18,
       "in_voice": 7,
       "messages": 0
     }
