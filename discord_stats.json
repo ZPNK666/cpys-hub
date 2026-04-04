@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T11:02:31.154310+00:00",
+  "updated_at": "2026-04-04T11:04:33.634583+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 10,
-    "offline_count": 32,
-    "in_voice_count": 3,
-    "messages_today": 7,
+    "online_count": 9,
+    "offline_count": 33,
+    "in_voice_count": 2,
+    "messages_today": 11,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 7,
+    "text": 11,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -46,28 +46,6 @@
         "gifs": 0,
         "files": 0,
         "total": 1
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1418873225596895284",
-      "name": "Rudy",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
-      "joined_at": "2026-03-26T15:18:39.046000+00:00",
-      "stats_today": {
-        "text": 6,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 6
       },
       "join_leave": {
         "joins": 0,
@@ -454,6 +432,28 @@
         "gifs": 0,
         "files": 0,
         "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-26T15:18:39.046000+00:00",
+      "stats_today": {
+        "text": 6,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 6
       },
       "join_leave": {
         "joins": 0,
@@ -954,13 +954,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/517d2132298a5530d076fba7d8038e15.png?size=1024",
       "joined_at": "2026-04-03T12:29:43.474000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 4
       },
       "join_leave": {
         "joins": 0,
@@ -1097,10 +1097,9 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 3,
+      "members_count": 2,
       "members": [
         "ZPNK666",
-        "Жигуль в прайме",
         "#!Apr๑ell꒱"
       ],
       "user_limit": 0
@@ -1232,13 +1231,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 15:15",
-      "hour": 15,
-      "online": 9,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "04.04 15:17",
       "hour": 15,
@@ -1399,6 +1391,13 @@
       "online": 10,
       "in_voice": 3,
       "messages": 3
+    },
+    {
+      "time": "04.04 16:04",
+      "hour": 16,
+      "online": 9,
+      "in_voice": 2,
+      "messages": 4
     }
   ],
   "top_chatters": [],
