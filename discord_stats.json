@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T11:44:50.969836+00:00",
+  "updated_at": "2026-04-04T11:46:40.398687+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 42,
     "online_count": 9,
     "offline_count": 33,
-    "in_voice_count": 2,
+    "in_voice_count": 3,
     "messages_today": 16,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -1097,10 +1097,11 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 2,
+      "members_count": 3,
       "members": [
         "#!Apr๑ell꒱",
-        "Жека"
+        "Жека",
+        "ZPNK666"
       ],
       "user_limit": 0
     },
@@ -1231,13 +1232,6 @@
     "iPhone": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 15:58",
-      "hour": 15,
-      "online": 9,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "04.04 16:00",
       "hour": 16,
@@ -1397,6 +1391,13 @@
       "hour": 16,
       "online": 9,
       "in_voice": 2,
+      "messages": 0
+    },
+    {
+      "time": "04.04 16:46",
+      "hour": 16,
+      "online": 9,
+      "in_voice": 3,
       "messages": 0
     }
   ],
@@ -1793,9 +1794,54 @@
           "type": "server_start",
           "date": "27.03.2026",
           "time": "07:37"
+        },
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "06:47"
+        },
+        {
+          "type": "server_stop",
+          "date": "27.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "07:37"
         }
       ],
       "26.03.2026": [
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "06:46"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "10:53"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "13:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "15:13"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "15:18"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "18:50"
+        },
         {
           "type": "server_start",
           "date": "26.03.2026",
@@ -1967,6 +2013,66 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:39"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:44"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:52"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "10:50"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "14:19"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "14:25"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "15:41"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "15:55"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "17:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "20:08"
         },
         {
           "type": "server_start",
