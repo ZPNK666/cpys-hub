@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T11:00:28.785752+00:00",
+  "updated_at": "2026-04-04T11:02:31.154310+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 42,
-    "online_count": 9,
-    "offline_count": 33,
+    "online_count": 10,
+    "offline_count": 32,
     "in_voice_count": 3,
-    "messages_today": 4,
+    "messages_today": 7,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 4,
+    "text": 7,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -61,13 +61,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
       "joined_at": "2026-03-26T15:18:39.046000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 6,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 6
       },
       "join_leave": {
         "joins": 0,
@@ -238,6 +238,32 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
       "joined_at": "2026-03-24T18:42:56.281000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1149289620610228274",
+      "name": "kiræxvoid",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/a4f92d405a43a7bb1e3e4102c10ff3f4.png?size=1024",
+      "joined_at": "2026-03-25T18:38:14.933000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1043,32 +1069,6 @@
       }
     },
     {
-      "id": "1149289620610228274",
-      "name": "kiræxvoid",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1149289620610228274/a4f92d405a43a7bb1e3e4102c10ff3f4.png?size=1024",
-      "joined_at": "2026-03-25T18:38:14.933000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
       "status": "offline",
@@ -1233,13 +1233,6 @@
   },
   "hourly_history": [
     {
-      "time": "04.04 15:13",
-      "hour": 15,
-      "online": 9,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "04.04 15:15",
       "hour": 15,
       "online": 9,
@@ -1399,6 +1392,13 @@
       "online": 9,
       "in_voice": 3,
       "messages": 4
+    },
+    {
+      "time": "04.04 16:02",
+      "hour": 16,
+      "online": 10,
+      "in_voice": 3,
+      "messages": 3
     }
   ],
   "top_chatters": [],
