@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T16:33:20.051736+00:00",
+  "updated_at": "2026-04-04T16:34:49.642506+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 15,
-    "offline_count": 30,
+    "online_count": 16,
+    "offline_count": 29,
     "in_voice_count": 8,
-    "messages_today": 58,
+    "messages_today": 60,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 58,
+    "text": 60,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -26,7 +26,7 @@
   "online_members": [
     {
       "id": "1255232329362833409",
-      "name": "кирпич",
+      "name": "гойда кирпич",
       "status": "online",
       "roles": [
         "у меня есть хент",
@@ -169,6 +169,32 @@
         "gifs": 0,
         "files": 0,
         "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "961276531387297862",
+      "name": "ЛОЛИ",
+      "status": "dnd",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/5cd5aa6d4043e3fa6d38f371ed86e001.png?size=1024",
+      "joined_at": "2026-03-22T18:22:03.656000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -818,32 +844,6 @@
       }
     },
     {
-      "id": "961276531387297862",
-      "name": "ЛОЛИ",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/5cd5aa6d4043e3fa6d38f371ed86e001.png?size=1024",
-      "joined_at": "2026-03-22T18:22:03.656000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1296770485421342731",
       "name": "Утка",
       "status": "offline",
@@ -1159,13 +1159,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1490013878451441875/1d729fc9ac7980984292dc251f416cd0.png?size=1024",
       "joined_at": "2026-04-04T15:54:09.244000+00:00",
       "stats_today": {
-        "text": 4,
+        "text": 5,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 5
       },
       "join_leave": {
         "joins": 0,
@@ -1182,7 +1182,7 @@
         "ZPNK666",
         "зелябобик",
         "SayKomy",
-        "кирпич",
+        "гойда кирпич",
         "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
         "спамтон НВО",
         "#!Apr๑ell꒱",
@@ -1317,13 +1317,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 21:22",
-      "hour": 21,
-      "online": 15,
-      "in_voice": 7,
-      "messages": 0
-    },
     {
       "time": "04.04 21:22",
       "hour": 21,
@@ -1484,6 +1477,13 @@
       "online": 15,
       "in_voice": 8,
       "messages": 0
+    },
+    {
+      "time": "04.04 21:34",
+      "hour": 21,
+      "online": 16,
+      "in_voice": 8,
+      "messages": 2
     }
   ],
   "top_chatters": [],
