@@ -1317,9 +1317,19 @@ function sp(p,el,cls){
     }
 
     if (statusText) statusText.textContent = "ПРОВЕРКА ФАЙЛОВ...";
-    fetch('./bk_game.wasm', { method: 'HEAD' }).then(res => {
+    // Скачиваем только первые 10 байт для проверки заголовка магии WASM
+    fetch('./bk_game.wasm', { headers: { 'Range': 'bytes=0-9' } })
+    .then(async res => {
       if (!res.ok || res.status === 404) throw new Error("ФАЙЛ .WASM НЕ НАЙДЕН (404)");
-      if (res.headers.get('content-length') === "0") throw new Error("ФАЙЛ .WASM ПУСТОЙ (0 байт)");
+      
+      const buf = await res.arrayBuffer();
+      const v = new Uint8Array(buf);
+      console.log("WASM Header Check:", v);
+      
+      // WASM Magic Number: 0x00 0x61 0x73 0x6D (\0asm)
+      if (v.length < 4 || v[0] !== 0 || v[1] !== 0x61 || v[2] !== 0x73 || v[3] !== 0x6D) {
+        throw new Error("ФАЙЛ .WASM ПОВРЕЖДЕН ИЛИ ЯВЛЯЕТСЯ TEXT/HTML");
+      }
       
       engine.startGame({
         onProgress: function(current, total) {
@@ -1343,6 +1353,7 @@ function sp(p,el,cls){
       if (statusText) {
         statusText.style.color = 'var(--red)';
         statusText.innerHTML = `ОШИБКА ФАЙЛОВ:<br><small style="font-size:10px">${err.message}</small>`;
+        statusText.innerHTML += `<br><br><small style="font-size:8px">Попробуйте перезалить bk_game.wasm на GitHub.</small>`;
       }
       window._godotStarted = false;
     });
