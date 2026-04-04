@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:58:34.727416+00:00",
+  "updated_at": "2026-04-04T15:59:55.313428+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 45,
-    "online_count": 18,
-    "offline_count": 27,
+    "online_count": 16,
+    "offline_count": 29,
     "in_voice_count": 8,
-    "messages_today": 42,
+    "messages_today": 43,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 42,
+    "text": 43,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -249,32 +249,6 @@
       }
     },
     {
-      "id": "961276531387297862",
-      "name": "ЛОЛИ",
-      "status": "dnd",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/5cd5aa6d4043e3fa6d38f371ed86e001.png?size=1024",
-      "joined_at": "2026-03-22T18:22:03.656000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1435315936226709546",
       "name": "голубика",
       "status": "idle",
@@ -448,32 +422,6 @@
         "gifs": 0,
         "files": 0,
         "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1490013878451441875",
-      "name": "LavakaSatyrnita",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1490013878451441875/4d94247d76e68ac394ed120b62f25843.png?size=1024",
-      "joined_at": "2026-04-04T15:54:09.244000+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -800,6 +748,32 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1444371204424339506/3f6772504cda146f14ae8653ac488db9.png?size=1024",
       "joined_at": "2026-02-25T08:17:15.077000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "961276531387297862",
+      "name": "ЛОЛИ",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/5cd5aa6d4043e3fa6d38f371ed86e001.png?size=1024",
+      "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1169,6 +1143,32 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1490013878451441875",
+      "name": "LavakaSatyrnita",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1490013878451441875/1d729fc9ac7980984292dc251f416cd0.png?size=1024",
+      "joined_at": "2026-04-04T15:54:09.244000+00:00",
+      "stats_today": {
+        "text": 2,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 2
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
@@ -1316,13 +1316,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 20:47",
-      "hour": 20,
-      "online": 17,
-      "in_voice": 7,
-      "messages": 1
-    },
     {
       "time": "04.04 20:47",
       "hour": 20,
@@ -1483,6 +1476,13 @@
       "online": 18,
       "in_voice": 8,
       "messages": 0
+    },
+    {
+      "time": "04.04 20:59",
+      "hour": 20,
+      "online": 16,
+      "in_voice": 8,
+      "messages": 1
     }
   ],
   "top_chatters": [],
