@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="coi-serviceworker.js"></script>
+    <!-- COI SW is not needed for single-threaded Godot exports and might cause AbortError on Worklets -->
+    <!-- <script src="coi-serviceworker.js"></script> -->
     <script src="index.js"></script>
     <title>C.P.Y.S Hub</title>
 <style>
@@ -1244,6 +1245,13 @@ if(!window.storage){
 }
 window.sGet = async function(key){ try{ const r=await window.storage.get(key,true); return r?JSON.parse(r.value):null; }catch{ return null; } };
 window.sSet = async function(key,val){ try{ await window.storage.set(key,JSON.stringify(val),true); }catch{} };
+
+// ── Service Worker Cleanup ──
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function(registrations) {
+    for(let registration of registrations) { registration.unregister(); }
+  });
+}
 
 // ===== PARTICLES =====
 const pc=document.getElementById('particles');
