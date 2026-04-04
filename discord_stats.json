@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T17:29:06.423251+00:00",
+  "updated_at": "2026-04-04T17:30:06.029271+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 46,
-    "online_count": 17,
-    "offline_count": 29,
-    "in_voice_count": 6,
+    "online_count": 16,
+    "offline_count": 30,
+    "in_voice_count": 5,
     "messages_today": 80,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -259,28 +259,6 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1004865806154346568/c72ed760a1c1ad81ec1ec704316592f6.png?size=1024",
       "joined_at": "2026-04-01T18:42:25.889000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-24T10:19:44.199000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -839,6 +817,28 @@
       }
     },
     {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-24T10:19:44.199000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1089616774665867284",
       "name": "ЛОЛИ",
       "status": "offline",
@@ -1203,14 +1203,13 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 6,
+      "members_count": 5,
       "members": [
         "ZPNK666",
         "SayKomy",
         "Карасик",
-        "EVILcementsorbetOWO",
         "кирпич",
-        "Камила (Королева Великобритании)"
+        "EVILcementsorbetOWO"
       ],
       "user_limit": 0
     },
@@ -1341,13 +1340,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 22:17",
-      "hour": 22,
-      "online": 17,
-      "in_voice": 4,
-      "messages": 0
-    },
     {
       "time": "04.04 22:17",
       "hour": 22,
@@ -1507,6 +1499,13 @@
       "hour": 22,
       "online": 17,
       "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "04.04 22:30",
+      "hour": 22,
+      "online": 16,
+      "in_voice": 5,
       "messages": 0
     }
   ],
