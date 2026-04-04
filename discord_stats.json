@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T16:36:52.994321+00:00",
+  "updated_at": "2026-04-04T16:36:58.178627+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 45,
     "online_count": 16,
     "offline_count": 29,
-    "in_voice_count": 8,
+    "in_voice_count": 7,
     "messages_today": 63,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -1177,7 +1177,7 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 8,
+      "members_count": 7,
       "members": [
         "ZPNK666",
         "зелябобик",
@@ -1185,8 +1185,7 @@
         "гойда кирпич",
         "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
         "спамтон НВО",
-        "#!Apr๑ell꒱",
-        "Жека"
+        "#!Apr๑ell꒱"
       ],
       "user_limit": 0
     },
@@ -1317,13 +1316,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 21:24",
-      "hour": 21,
-      "online": 15,
-      "in_voice": 7,
-      "messages": 0
-    },
     {
       "time": "04.04 21:24",
       "hour": 21,
@@ -1483,6 +1475,13 @@
       "hour": 21,
       "online": 16,
       "in_voice": 8,
+      "messages": 0
+    },
+    {
+      "time": "04.04 21:36",
+      "hour": 21,
+      "online": 16,
+      "in_voice": 7,
       "messages": 0
     }
   ],
