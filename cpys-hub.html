@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="bk_icon.png">
+    <link rel="icon" type="image/png" href="./bk_icon.png">
     <!-- COI SW is REQUIRED for some Godot feature stability even in single-threaded mode -->
-    <script src="coi-serviceworker.js"></script>
-    <script src="bk_game.js"></script>
+    <script src="./coi-serviceworker.js" onerror="window._swError=true"></script>
+    <script src="./bk_game.js" onerror="window._gameScriptError=true"></script>
     <title>C.P.Y.S Hub</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -3814,7 +3814,25 @@ setInterval(loadReal,15000);
     "focusCanvas": true,
     "ensureCrossOriginIsolationHeaders": true
   };
-  const engine = new Engine(GODOT_CONFIG);
+
+  // ── Глобальная проверка загрузки ──
+  window.addEventListener('load', function() {
+    const statusText = document.querySelector('#bk-loading div');
+    if (window._gameScriptError) {
+      if (statusText) statusText.innerHTML = `<span style="color:var(--red)">ФАЙЛ bk_game.js НЕ НАЙДЕН (404)</span><br><small>Проверьте, что вы загрузили его в корень GitHub.</small>`;
+    } else if (typeof Engine === 'undefined') {
+       setTimeout(() => {
+         if (typeof Engine === 'undefined' && statusText) {
+           statusText.innerHTML = `<span style="color:var(--red)">ОШИБКА: ENGINE НЕ ЗАГРУЖЕН</span><br><small>Возможно, файл поврежден или заблокирован браузером.</small>`;
+         }
+       }, 2000);
+    }
+  });
+
+  if (typeof Engine !== 'undefined') {
+    const engine = new Engine(GODOT_CONFIG);
+    window._engineInstance = engine; 
+  }
   (function() {
     const statusProgress = document.getElementById('bk-prog');
     const statusLoading = document.getElementById('bk-loading');
