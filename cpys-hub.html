@@ -3815,23 +3815,23 @@ setInterval(loadReal,15000);
     "ensureCrossOriginIsolationHeaders": true
   };
 
-  // ── Глобальная проверка загрузки ──
-  window.addEventListener('load', function() {
-    const statusText = document.querySelector('#bk-loading div');
-    if (window._gameScriptError) {
-      if (statusText) statusText.innerHTML = `<span style="color:var(--red)">ФАЙЛ bk_game.js НЕ НАЙДЕН (404)</span><br><small>Проверьте, что вы загрузили его в корень GitHub.</small>`;
-    } else if (typeof Engine === 'undefined') {
-       setTimeout(() => {
-         if (typeof Engine === 'undefined' && statusText) {
-           statusText.innerHTML = `<span style="color:var(--red)">ОШИБКА: ENGINE НЕ ЗАГРУЖЕН</span><br><small>Возможно, файл поврежден или заблокирован браузером.</small>`;
-         }
-       }, 2000);
-    }
-  });
-
+  window.engine = null;
   if (typeof Engine !== 'undefined') {
-    const engine = new Engine(GODOT_CONFIG);
-    window._engineInstance = engine; 
+    window.engine = new Engine(GODOT_CONFIG);
+  } else {
+    // ── Глобальная проверка загрузки ──
+    window.addEventListener('load', function() {
+      const statusText = document.querySelector('#bk-loading div');
+      if (window._gameScriptError) {
+        if (statusText) statusText.innerHTML = `<span style="color:var(--red)">ФАЙЛ bk_game.js НЕ НАЙДЕН (404)</span><br><small>Проверьте, что вы загрузили его в корень GitHub.</small>`;
+      } else {
+         setTimeout(() => {
+           if (typeof Engine === 'undefined' && statusText) {
+             statusText.innerHTML = `<span style="color:var(--red)">ОШИБКА: ENGINE НЕ ЗАГРУЖЕН</span><br><small>Возможно, файл поврежден или заблокирован браузером.</small>`;
+           }
+         }, 2000);
+      }
+    });
   }
   (function() {
     const statusProgress = document.getElementById('bk-prog');
@@ -3852,7 +3852,7 @@ setInterval(loadReal,15000);
 
     bkUpdateStatsUI();
     // Engine start is now deferred to sp('rb') click for better user gesture handling
-    engine.onProgress = updateStatus;
+    if (window.engine) window.engine.onProgress = updateStatus;
   })();
 
   // ── Poll ──
