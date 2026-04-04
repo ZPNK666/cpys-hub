@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T19:19:24.860107+00:00",
+  "updated_at": "2026-04-04T19:20:28.812013+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 46,
-    "online_count": 17,
-    "offline_count": 29,
+    "online_count": 18,
+    "offline_count": 28,
     "in_voice_count": 4,
     "messages_today": 0,
     "text_channels_count": 8,
@@ -24,6 +24,32 @@
     "files": 0
   },
   "online_members": [
+    {
+      "id": "1211055468362072164",
+      "name": "2 квитень",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
     {
       "id": "1009475184090152961",
       "name": "майонез",
@@ -179,7 +205,7 @@
     {
       "id": "1293571301008736257",
       "name": "Матвей",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -529,32 +555,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ec07556e9cf68deba234f3433f687671.png?size=1024",
       "joined_at": "2026-03-23T23:29:27.114000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "2 квитень",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1358,13 +1358,6 @@
       "messages": 0
     },
     {
-      "time": "05.04 00:08",
-      "hour": 0,
-      "online": 17,
-      "in_voice": 3,
-      "messages": 0
-    },
-    {
       "time": "05.04 00:09",
       "hour": 0,
       "online": 17,
@@ -1508,6 +1501,13 @@
       "time": "05.04 00:19",
       "hour": 0,
       "online": 17,
+      "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "05.04 00:20",
+      "hour": 0,
+      "online": 18,
       "in_voice": 4,
       "messages": 0
     }
