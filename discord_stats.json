@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T18:19:12.866082+00:00",
+  "updated_at": "2026-04-04T18:19:49.292153+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 46,
-    "online_count": 19,
-    "offline_count": 27,
+    "online_count": 20,
+    "offline_count": 26,
     "in_voice_count": 4,
     "messages_today": 90,
     "text_channels_count": 8,
@@ -415,6 +415,32 @@
       "top_role": "католик",
       "avatar": "https://cdn.discordapp.com/avatars/1462906498110849218/a625dced36a17a7dc155dbc742bacf99.png?size=1024",
       "joined_at": "2026-03-24T18:22:46.453000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1366113301221867725",
+      "name": "Я трактор выгоняю",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/e3bf14d46436dd8030969ce1a2849f7a.png?size=1024",
+      "joined_at": "2026-03-24T17:58:02.100000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -969,32 +995,6 @@
       }
     },
     {
-      "id": "1366113301221867725",
-      "name": "Я трактор выгоняю",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/e3bf14d46436dd8030969ce1a2849f7a.png?size=1024",
-      "joined_at": "2026-03-24T17:58:02.100000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1425903022629847200",
       "name": "Жигуль в прайме",
       "status": "offline",
@@ -1347,13 +1347,6 @@
       "messages": 0
     },
     {
-      "time": "04.04 23:07",
-      "hour": 23,
-      "online": 16,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
       "time": "04.04 23:08",
       "hour": 23,
       "online": 17,
@@ -1504,6 +1497,13 @@
       "time": "04.04 23:19",
       "hour": 23,
       "online": 19,
+      "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "04.04 23:19",
+      "hour": 23,
+      "online": 20,
       "in_voice": 4,
       "messages": 0
     }
