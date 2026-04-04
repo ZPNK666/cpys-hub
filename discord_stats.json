@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T15:56:31.594943+00:00",
+  "updated_at": "2026-04-04T15:57:52.703603+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -457,7 +457,7 @@
     {
       "id": "1490013878451441875",
       "name": "LavakaSatyrnita",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -1175,13 +1175,12 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 8,
+      "members_count": 7,
       "members": [
         "ZPNK666",
         "spiik",
         "2 квитень",
         "зелябобик",
-        "Жигуль в прайме",
         "#!Apr๑ell꒱",
         "SayKomy",
         "кирпич"
@@ -1219,8 +1218,10 @@
     {
       "id": "1486098016371740933",
       "name": "⋆  𝓜 𝑢𝑠𝑖𝑐-🎧",
-      "members_count": 0,
-      "members": [],
+      "members_count": 1,
+      "members": [
+        "Жигуль в прайме"
+      ],
       "user_limit": 0
     },
     {
@@ -1315,13 +1316,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 20:45",
-      "hour": 20,
-      "online": 17,
-      "in_voice": 7,
-      "messages": 2
-    },
     {
       "time": "04.04 20:45",
       "hour": 20,
@@ -1482,6 +1476,13 @@
       "online": 18,
       "in_voice": 8,
       "messages": 1
+    },
+    {
+      "time": "04.04 20:57",
+      "hour": 20,
+      "online": 18,
+      "in_voice": 8,
+      "messages": 0
     }
   ],
   "top_chatters": [],
