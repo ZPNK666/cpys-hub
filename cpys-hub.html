@@ -3123,7 +3123,11 @@ setInterval(loadReal,15000);
     ];
     el.innerHTML = players.map(p => `
       <div class="mc-pc">
-        <div class="mc-pc-av"><img src="${p.skin}" alt=""></div>
+        <div class="mc-pc-av">
+          <img crossorigin="anonymous" src="${p.skin}" alt="" 
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div style="display:none;width:32px;height:32px;background:var(--p);border:1px solid var(--b);color:var(--muted);align-items:center;justify-content:center;font-size:10px;">${(p.name[0]||'?').toUpperCase()}</div>
+        </div>
         <div class="mc-pc-info">
           <div class="mc-pc-name">${p.name}</div>
           <div class="mc-pc-sub"><span class="mc-pc-dot ${p.status==='Offline'?'off':'on'}"></span>${p.status}</div>
@@ -3914,11 +3918,16 @@ setInterval(loadReal,15000);
     if(!users.length){ el.innerHTML=''; return; }
     el.innerHTML=`<div style="color:var(--green);font-size:9px;margin-bottom:4px;letter-spacing:1px;">● ${users.length} ОНЛАЙН</div>`+
       users.slice(0,5).map(u=>{
-        const av=u.avatar
-          ?`<img src="${u.avatar}" style="width:18px;height:18px;border-radius:50%;object-fit:cover;flex-shrink:0;">`
-          :`<div style="width:18px;height:18px;border-radius:50%;border:1px solid ${u.color||'#4de6e6'};display:flex;align-items:center;justify-content:center;font-size:9px;color:${u.color||'#4de6e6'};background:${(u.color||'#4de6e6')}18;flex-shrink:0;">${esc((u.name||'?')[0].toUpperCase())}</div>`;
+        const col = u.color || '#4de6e6';
+        const avHtml = u.avatar ? 
+          `<img crossorigin="anonymous" src="${u.avatar}" 
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+                style="width:18px;height:18px;border-radius:50%;object-fit:cover;flex-shrink:0;">` +
+          `<div style="display:none;width:18px;height:18px;border-radius:50%;border:1px solid ${col};display:flex;align-items:center;justify-content:center;font-size:9px;color:${col};background:${col}18;flex-shrink:0;">${(u.name||'?')[0].toUpperCase()}</div>` :
+          `<div style="width:18px;height:18px;border-radius:50%;border:1px solid ${col};display:flex;align-items:center;justify-content:center;font-size:9px;color:${col};background:${col}18;flex-shrink:0;">${(u.name||'?')[0].toUpperCase()}</div>`;
+
         return `<div style="display:flex;align-items:center;gap:5px;padding:2px 0;overflow:hidden;">
-          ${av}
+          ${avHtml}
           <span style="font-size:11px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(u.name||'')}</span>
         </div>`;
       }).join('');
