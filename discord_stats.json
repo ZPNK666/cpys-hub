@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T13:29:07.203390+00:00",
+  "updated_at": "2026-04-04T16:57:53.323150+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -7,16 +7,16 @@
     "boosters_count": 0
   },
   "summary": {
-    "total_members": 43,
-    "online_count": 6,
-    "offline_count": 37,
-    "in_voice_count": 0,
-    "messages_today": 18,
+    "total_members": 46,
+    "online_count": 15,
+    "offline_count": 31,
+    "in_voice_count": 5,
+    "messages_today": 71,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 18,
+    "text": 71,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -24,6 +24,85 @@
     "files": 0
   },
   "online_members": [
+    {
+      "id": "1255232329362833409",
+      "name": "гойда кирпич",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "ОФИЧЕР СС",
+        "Агностик",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ec07556e9cf68deba234f3433f687671.png?size=1024",
+      "joined_at": "2026-03-23T23:29:27.114000+00:00",
+      "stats_today": {
+        "text": 3,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 3
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "834060139006394368",
+      "name": "ZPNK666",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "ОФИЧЕР СС",
+        "Сциентизм",
+        "iPhone",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
+      "joined_at": "2025-10-03T09:40:02.942000+00:00",
+      "stats_today": {
+        "text": 6,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 6
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1222900395647434864",
+      "name": "lamponyx321",
+      "status": "online",
+      "roles": [
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
+      "joined_at": "2025-10-03T14:17:20.491000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
     {
       "id": "993900146930753606",
       "name": "АУДИТОР",
@@ -47,17 +126,13 @@
       }
     },
     {
-      "id": "1396938275263877150",
-      "name": "spiik",
-      "status": "idle",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
-      "joined_at": "2026-03-23T14:02:15.357000+00:00",
+      "id": "1433504994824425640",
+      "name": "зелябобик",
+      "status": "online",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
+      "joined_at": "2026-03-24T10:19:41.726000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -99,27 +174,156 @@
       }
     },
     {
-      "id": "834060139006394368",
-      "name": "ZPNK666",
-      "status": "online",
+      "id": "1004865806154346568",
+      "name": "Камила (Королева Великобритании)",
+      "status": "idle",
       "roles": [
-        "у меня есть хент",
-        "ОФИЧЕР СС",
-        "Сциентизм",
-        "iPhone",
-        "мужчины"
+        "нету хента",
+        "Агностик",
+        "женщины"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
-      "joined_at": "2025-10-03T09:40:02.942000+00:00",
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1004865806154346568/c72ed760a1c1ad81ec1ec704316592f6.png?size=1024",
+      "joined_at": "2026-04-01T18:42:25.889000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1435315936226709546",
+      "name": "голубика",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1435315936226709546/849a587228975fe074f7a8a7f3a2939f.png?size=1024",
+      "joined_at": "2026-04-01T18:29:14.423000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1467393560549527838",
+      "name": "Жека",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1467393560549527838/003e01dd7c537d5ec459b5f8609f839f.png?size=1024",
+      "joined_at": "2026-03-29T14:09:47.776000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1462906498110849218",
+      "name": "duo titan",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1462906498110849218/a625dced36a17a7dc155dbc742bacf99.png?size=1024",
+      "joined_at": "2026-03-24T18:22:46.453000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1366113301221867725",
+      "name": "Я трактор выгоняю",
+      "status": "online",
+      "roles": [
+        "у меня есть хент",
+        "мужчины",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/e3bf14d46436dd8030969ce1a2849f7a.png?size=1024",
+      "joined_at": "2026-03-24T17:58:02.100000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1407789136965931088",
+      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ОФИЧЕР СС",
+        "Агностик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
+      "joined_at": "2025-10-11T10:24:47.750000+00:00",
+      "stats_today": {
+        "text": 7,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 7
       },
       "join_leave": {
         "joins": 0,
@@ -177,29 +381,55 @@
         "joins": 0,
         "leaves": 0
       }
-    }
-  ],
-  "offline_members": [
+    },
     {
-      "id": "1467393560549527838",
-      "name": "Жека",
-      "status": "offline",
+      "id": "1487560931432071249",
+      "name": "Карасик",
+      "status": "online",
       "roles": [
-        "нету хента",
-        "атеист",
-        "мужчины"
+        "у меня есть хент",
+        "провославный",
+        "женщины"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1467393560549527838/003e01dd7c537d5ec459b5f8609f839f.png?size=1024",
-      "joined_at": "2026-03-29T14:09:47.776000+00:00",
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1487560931432071249/486392ea4512b46a31d264013fea392f.png?size=1024",
+      "joined_at": "2026-04-04T16:55:03.328000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    }
+  ],
+  "offline_members": [
+    {
+      "id": "1396938275263877150",
+      "name": "spiik",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/61e93c23d60c8d1c438b89d1e292f540.png?size=1024",
+      "joined_at": "2026-03-23T14:02:15.357000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -212,6 +442,7 @@
       "status": "offline",
       "roles": [
         "нету хента",
+        "ОФИЧЕР СС",
         "атеист",
         "женщины"
       ],
@@ -233,17 +464,43 @@
       }
     },
     {
-      "id": "742426373540544592",
-      "name": "neox",
+      "id": "1211055468362072164",
+      "name": "2 квитень",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "католик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "stats_today": {
+        "text": 24,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 24
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1009475184090152961",
+      "name": "майонез",
       "status": "offline",
       "roles": [
         "у меня есть хент",
         "атеист",
-        "мужчины"
+        "женщины"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/742426373540544592/4834ee24a0dd2ca32899ed35f5202b7d.png?size=1024",
-      "joined_at": "2026-03-26T18:36:15.330000+00:00",
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
+      "joined_at": "2026-01-12T09:11:19.082000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -259,17 +516,17 @@
       }
     },
     {
-      "id": "1211055468362072164",
-      "name": "2 КВИТЕНЬ",
+      "id": "742426373540544592",
+      "name": "neox",
       "status": "offline",
       "roles": [
-        "нету хента",
-        "католик",
-        "женщины"
+        "у меня есть хент",
+        "атеист",
+        "мужчины"
       ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/89b701e6ded0e140af8739d0e19db7a3.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/742426373540544592/4834ee24a0dd2ca32899ed35f5202b7d.png?size=1024",
+      "joined_at": "2026-03-26T18:36:15.330000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -322,30 +579,6 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1451592083935592490/b3ca214729a78ba361b37d8e880ee88a.png?size=1024",
       "joined_at": "2026-02-25T10:14:05.604000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1222900395647434864",
-      "name": "lamponyx321",
-      "status": "offline",
-      "roles": [
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1222900395647434864/cc1556f6fa69f6687ca39c892b4e6e36.png?size=1024",
-      "joined_at": "2025-10-03T14:17:20.491000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -487,28 +720,6 @@
       }
     },
     {
-      "id": "1433504994824425640",
-      "name": "зелябобик",
-      "status": "offline",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1433504994824425640/6e77f4e51d6ba4ee4aa64d5570620dc1.png?size=1024",
-      "joined_at": "2026-03-24T10:19:41.726000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1157762358542876784",
       "name": "EVILcementsorbetOWO",
       "status": "offline",
@@ -517,13 +728,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
       "joined_at": "2026-03-24T17:15:48.003000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -583,32 +794,6 @@
       }
     },
     {
-      "id": "1004865806154346568",
-      "name": "Камила (Королева Великобритании)",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1004865806154346568/c72ed760a1c1ad81ec1ec704316592f6.png?size=1024",
-      "joined_at": "2026-04-01T18:42:25.889000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "961276531387297862",
       "name": "ЛОЛИ",
       "status": "offline",
@@ -621,13 +806,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/5cd5aa6d4043e3fa6d38f371ed86e001.png?size=1024",
       "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -685,32 +870,6 @@
       }
     },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "Агностик",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ec07556e9cf68deba234f3433f687671.png?size=1024",
-      "joined_at": "2026-03-23T23:29:27.114000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1264609602540929140",
       "name": "dark_soul",
       "status": "offline",
@@ -718,32 +877,6 @@
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
       "joined_at": "2026-03-24T10:19:44.199000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1435315936226709546",
-      "name": "голубика",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "провославный",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1435315936226709546/849a587228975fe074f7a8a7f3a2939f.png?size=1024",
-      "joined_at": "2026-04-01T18:29:14.423000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -837,32 +970,6 @@
       }
     },
     {
-      "id": "1009475184090152961",
-      "name": "майонез",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
-      "joined_at": "2026-01-12T09:11:19.082000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1488880571315650701",
       "name": "boamko",
       "status": "offline",
@@ -916,58 +1023,6 @@
       }
     },
     {
-      "id": "1462906498110849218",
-      "name": "duo titan",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1462906498110849218/a625dced36a17a7dc155dbc742bacf99.png?size=1024",
-      "joined_at": "2026-03-24T18:22:46.453000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1366113301221867725",
-      "name": "Мат",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "мужчины",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1366113301221867725/ed9849c185e3f9d8d7ac589d0c2d3d8a.png?size=1024",
-      "joined_at": "2026-03-24T17:58:02.100000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1425903022629847200",
       "name": "Жигуль в прайме",
       "status": "offline",
@@ -980,40 +1035,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/6ad0e269c263d03eacf2947b47f880f6.png?size=1024",
       "joined_at": "2026-03-10T11:19:30.910000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 1,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1407789136965931088",
-      "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ОФИЧЕР СС",
-        "Агностик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1407789136965931088/ceb319f2170a9f563a1e62ff02b53ede.png?size=1024",
-      "joined_at": "2025-10-11T10:24:47.750000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -1040,6 +1068,32 @@
         "gifs": 0,
         "files": 0,
         "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1390304716570755096",
+      "name": "АЛИСА",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "провославный",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1390304716570755096/eda27b8c3f405e5124518ead0a0fc5e7.png?size=1024",
+      "joined_at": "2026-04-04T13:26:25.548000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
       },
       "join_leave": {
         "joins": 0,
@@ -1093,17 +1147,17 @@
       }
     },
     {
-      "id": "1390304716570755096",
-      "name": "dertix_zxc ⚜",
+      "id": "1158002004199747685",
+      "name": "SayKomy",
       "status": "offline",
       "roles": [
-        "нету хента",
-        "провославный",
-        "женщины"
+        "у меня есть хент",
+        "Агностик",
+        "мужчины"
       ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1390304716570755096/eda27b8c3f405e5124518ead0a0fc5e7.png?size=1024",
-      "joined_at": "2026-04-04T13:26:25.548000+00:00",
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1158002004199747685/325e79b0beb4054727d766d3da4e1d26.png?size=1024",
+      "joined_at": "2026-04-04T15:04:26.147000+00:00",
       "stats_today": {
         "text": 1,
         "images": 0,
@@ -1117,14 +1171,46 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1490013878451441875",
+      "name": "LavakaSatyrnita",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1490013878451441875/1d729fc9ac7980984292dc251f416cd0.png?size=1024",
+      "joined_at": "2026-04-04T15:54:09.244000+00:00",
+      "stats_today": {
+        "text": 8,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 8
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 0,
-      "members": [],
+      "members_count": 5,
+      "members": [
+        "ZPNK666",
+        "SayKomy",
+        "гойда кирпич",
+        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
+        "#!Apr๑ell꒱"
+      ],
       "user_limit": 0
     },
     {
@@ -1240,186 +1326,186 @@
     }
   ],
   "role_distribution": {
+    "у меня есть хент": 22,
+    "атеист": 14,
+    "женщины": 25,
     "нету хента": 14,
-    "атеист": 13,
-    "мужчины": 14,
-    "женщины": 23,
-    "у меня есть хент": 19,
+    "ОФИЧЕР СС": 5,
+    "Агностик": 6,
+    "мужчины": 15,
     "католик": 5,
-    "провославный": 6,
-    "Агностик": 5,
     "Сциентизм": 3,
-    "ислам": 2,
-    "ОФИЧЕР СС": 3,
-    "iPhone": 2
+    "iPhone": 2,
+    "провославный": 7,
+    "ислам": 2
   },
   "hourly_history": [
     {
-      "time": "04.04 18:06",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
+      "time": "04.04 21:47",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 6,
       "messages": 0
     },
     {
-      "time": "04.04 18:06",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
+      "time": "04.04 21:47",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 6,
       "messages": 0
     },
     {
-      "time": "04.04 18:08",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:47",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 6,
       "messages": 0
     },
     {
-      "time": "04.04 18:08",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:47",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 6,
       "messages": 0
     },
     {
-      "time": "04.04 18:10",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:49",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:10",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:49",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:12",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:49",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:12",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:49",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:14",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 2,
+      "time": "04.04 21:51",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:14",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 2,
+      "time": "04.04 21:51",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:16",
-      "hour": 18,
-      "online": 8,
-      "in_voice": 3,
+      "time": "04.04 21:51",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:16",
-      "hour": 18,
-      "online": 8,
-      "in_voice": 3,
+      "time": "04.04 21:51",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:18",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 3,
+      "time": "04.04 21:53",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:18",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 3,
+      "time": "04.04 21:53",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:20",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 2,
+      "time": "04.04 21:53",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:20",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 2,
+      "time": "04.04 21:53",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:22",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:55",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
+      "messages": 3
+    },
+    {
+      "time": "04.04 21:55",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:23",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
+      "time": "04.04 21:55",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     },
     {
-      "time": "04.04 18:24",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:25",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:26",
-      "hour": 18,
-      "online": 8,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:27",
-      "hour": 18,
-      "online": 8,
-      "in_voice": 0,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:29",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 0,
+      "time": "04.04 21:55",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 1
     },
     {
-      "time": "04.04 18:29",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 0,
+      "time": "04.04 21:57",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 5,
+      "messages": 3
+    },
+    {
+      "time": "04.04 21:57",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "04.04 21:57",
+      "hour": 21,
+      "online": 14,
+      "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "04.04 21:57",
+      "hour": 21,
+      "online": 15,
+      "in_voice": 5,
       "messages": 0
     }
   ],
@@ -1831,9 +1917,99 @@
           "type": "server_start",
           "date": "27.03.2026",
           "time": "07:37"
+        },
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "06:47"
+        },
+        {
+          "type": "server_stop",
+          "date": "27.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "07:37"
+        },
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "06:47"
+        },
+        {
+          "type": "server_stop",
+          "date": "27.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_start",
+          "date": "27.03.2026",
+          "time": "07:37"
         }
       ],
       "26.03.2026": [
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "06:46"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "10:53"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "13:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "15:13"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "15:18"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "18:50"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "06:46"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "10:53"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "13:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "15:13"
+        },
+        {
+          "type": "server_start",
+          "date": "26.03.2026",
+          "time": "15:18"
+        },
+        {
+          "type": "server_stop",
+          "date": "26.03.2026",
+          "time": "18:50"
+        },
         {
           "type": "server_start",
           "date": "26.03.2026",
@@ -2035,6 +2211,126 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:39"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:44"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:52"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "10:50"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "14:19"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "14:25"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "15:41"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "15:55"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "17:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "20:08"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:34"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:39"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "07:44"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "07:52"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "10:50"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "14:19"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "14:25"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "15:41"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "15:55"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "16:27"
+        },
+        {
+          "type": "server_start",
+          "date": "25.03.2026",
+          "time": "17:21"
+        },
+        {
+          "type": "server_stop",
+          "date": "25.03.2026",
+          "time": "20:08"
         },
         {
           "type": "server_start",
