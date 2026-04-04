@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T16:06:46.771897+00:00",
+  "updated_at": "2026-04-04T16:08:07.951898+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -125,28 +125,6 @@
         "gifs": 0,
         "files": 0,
         "total": 4
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1418873225596895284",
-      "name": "Rudy",
-      "status": "online",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
-      "joined_at": "2026-03-26T15:18:39.046000+00:00",
-      "stats_today": {
-        "text": 11,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 11
       },
       "join_leave": {
         "joins": 0,
@@ -287,6 +265,32 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1467393560549527838/003e01dd7c537d5ec459b5f8609f839f.png?size=1024",
       "joined_at": "2026-03-29T14:09:47.776000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1286072101635100733",
+      "name": "спамтон НВО",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
+      "joined_at": "2026-04-02T19:39:32.734000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -613,6 +617,28 @@
       }
     },
     {
+      "id": "1418873225596895284",
+      "name": "Rudy",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1418873225596895284/63766e41fbd34b82df8e2ed43b4f6a53.png?size=1024",
+      "joined_at": "2026-03-26T15:18:39.046000+00:00",
+      "stats_today": {
+        "text": 11,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 11
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1155602435222552698",
       "name": "hatan",
       "status": "offline",
@@ -900,32 +926,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1160178094494203934/f819ba8e17e34ca99c54d5bf10194d64.png?size=1024",
       "joined_at": "2026-03-27T22:03:07.925000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1286072101635100733",
-      "name": "спамтон НВО",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1286072101635100733/4efd12849d50408f9c23ecf0b492dd16.png?size=1024",
-      "joined_at": "2026-04-02T19:39:32.734000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1321,13 +1321,6 @@
       "hour": 20,
       "online": 18,
       "in_voice": 7,
-      "messages": 1
-    },
-    {
-      "time": "04.04 20:55",
-      "hour": 20,
-      "online": 18,
-      "in_voice": 7,
       "messages": 0
     },
     {
@@ -1479,6 +1472,13 @@
     },
     {
       "time": "04.04 21:06",
+      "hour": 21,
+      "online": 16,
+      "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "04.04 21:08",
       "hour": 21,
       "online": 16,
       "in_voice": 7,
