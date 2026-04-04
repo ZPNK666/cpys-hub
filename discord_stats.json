@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T18:12:00.376545+00:00",
+  "updated_at": "2026-04-04T18:13:01.341712+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 46,
-    "online_count": 17,
-    "offline_count": 29,
+    "online_count": 18,
+    "offline_count": 28,
     "in_voice_count": 4,
     "messages_today": 90,
     "text_channels_count": 8,
@@ -446,6 +446,30 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
       "joined_at": "2026-03-24T18:42:56.281000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1168859596899766352",
+      "name": "Scorpio_mal2",
+      "status": "idle",
+      "roles": [
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
+      "joined_at": "2026-03-08T19:27:52.385000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1097,30 +1121,6 @@
       }
     },
     {
-      "id": "1168859596899766352",
-      "name": "Scorpio_mal2",
-      "status": "offline",
-      "roles": [
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1168859596899766352/ae22aa63d3e8b216dfd0b365b754f12d.png?size=1024",
-      "joined_at": "2026-03-08T19:27:52.385000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1158002004199747685",
       "name": "SayKomy",
       "status": "offline",
@@ -1347,13 +1347,6 @@
       "messages": 0
     },
     {
-      "time": "04.04 23:00",
-      "hour": 23,
-      "online": 16,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
       "time": "04.04 23:01",
       "hour": 23,
       "online": 17,
@@ -1504,6 +1497,13 @@
       "time": "04.04 23:12",
       "hour": 23,
       "online": 17,
+      "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "04.04 23:13",
+      "hour": 23,
+      "online": 18,
       "in_voice": 4,
       "messages": 0
     }
