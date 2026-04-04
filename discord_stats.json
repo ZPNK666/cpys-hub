@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T18:09:57.787329+00:00",
+  "updated_at": "2026-04-04T18:10:58.770791+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -11,12 +11,12 @@
     "online_count": 17,
     "offline_count": 29,
     "in_voice_count": 4,
-    "messages_today": 88,
+    "messages_today": 90,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 88,
+    "text": 90,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -92,13 +92,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 14,
+        "text": 16,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 14
+        "total": 16
       },
       "join_leave": {
         "joins": 0,
@@ -384,7 +384,7 @@
     {
       "id": "1462906498110849218",
       "name": "duo titan",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -1347,13 +1347,6 @@
       "messages": 0
     },
     {
-      "time": "04.04 22:58",
-      "hour": 22,
-      "online": 17,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
       "time": "04.04 22:59",
       "hour": 22,
       "online": 17,
@@ -1506,6 +1499,13 @@
       "online": 17,
       "in_voice": 4,
       "messages": 0
+    },
+    {
+      "time": "04.04 23:10",
+      "hour": 23,
+      "online": 17,
+      "in_voice": 4,
+      "messages": 2
     }
   ],
   "top_chatters": [],
