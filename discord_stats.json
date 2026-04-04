@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T17:10:10.790186+00:00",
+  "updated_at": "2026-04-04T17:11:43.519868+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -11,12 +11,12 @@
     "online_count": 21,
     "offline_count": 25,
     "in_voice_count": 5,
-    "messages_today": 74,
+    "messages_today": 80,
     "text_channels_count": 8,
     "voice_channels_count": 12
   },
   "media_today": {
-    "text": 74,
+    "text": 80,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -92,13 +92,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 7,
+        "text": 11,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 7
+        "total": 11
       },
       "join_leave": {
         "joins": 0,
@@ -208,13 +208,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1157762358542876784/577163a09ed7b6110e6dff8246416e4f.png?size=1024",
       "joined_at": "2026-03-24T17:15:48.003000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 3
       },
       "join_leave": {
         "joins": 0,
@@ -1207,9 +1207,9 @@
       "members": [
         "ZPNK666",
         "SayKomy",
-        "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
         "#!Apr๑ell꒱",
-        "Карасик"
+        "Карасик",
+        "EVILcementsorbetOWO"
       ],
       "user_limit": 0
     },
@@ -1340,13 +1340,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "04.04 21:59",
-      "hour": 21,
-      "online": 15,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "04.04 21:59",
       "hour": 21,
@@ -1507,6 +1500,13 @@
       "online": 21,
       "in_voice": 5,
       "messages": 1
+    },
+    {
+      "time": "04.04 22:11",
+      "hour": 22,
+      "online": 21,
+      "in_voice": 5,
+      "messages": 6
     }
   ],
   "top_chatters": [],
