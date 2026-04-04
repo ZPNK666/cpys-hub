@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T13:12:48.722304+00:00",
+  "updated_at": "2026-04-04T13:14:42.966205+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 42,
     "online_count": 7,
     "offline_count": 35,
-    "in_voice_count": 1,
+    "in_voice_count": 2,
     "messages_today": 17,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -77,13 +77,17 @@
       }
     },
     {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "status": "idle",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-24T10:19:44.199000+00:00",
+      "id": "961276531387297862",
+      "name": "ЛОЛИ",
+      "status": "dnd",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/5cd5aa6d4043e3fa6d38f371ed86e001.png?size=1024",
+      "joined_at": "2026-03-22T18:22:03.656000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -657,32 +661,6 @@
       }
     },
     {
-      "id": "961276531387297862",
-      "name": "ЛОЛИ",
-      "status": "offline",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/961276531387297862/5cd5aa6d4043e3fa6d38f371ed86e001.png?size=1024",
-      "joined_at": "2026-03-22T18:22:03.656000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1296770485421342731",
       "name": "Утка",
       "status": "offline",
@@ -744,6 +722,28 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/ec07556e9cf68deba234f3433f687671.png?size=1024",
       "joined_at": "2026-03-23T23:29:27.114000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-24T10:19:44.199000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1097,9 +1097,10 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 1,
+      "members_count": 2,
       "members": [
-        "ZPNK666"
+        "ZPNK666",
+        "ЛОЛИ"
       ],
       "user_limit": 0
     },
@@ -1234,168 +1235,168 @@
       "time": "04.04 17:50",
       "hour": 17,
       "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:52",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:52",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:54",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:54",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:56",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:56",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:58",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:58",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:00",
+      "hour": 18,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:00",
+      "hour": 18,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:02",
+      "hour": 18,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:02",
+      "hour": 18,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:04",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:04",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:06",
+      "hour": 18,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:06",
+      "hour": 18,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:08",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:08",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:10",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:10",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:12",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:12",
+      "hour": 18,
+      "online": 7,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:14",
+      "hour": 18,
+      "online": 7,
       "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:50",
-      "hour": 17,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:52",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:52",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:54",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:54",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:56",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:56",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:58",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:58",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:00",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:00",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:02",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:02",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:04",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:04",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:06",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:06",
-      "hour": 18,
-      "online": 6,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:08",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:08",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:10",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:10",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:12",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
-      "messages": 0
-    },
-    {
-      "time": "04.04 18:12",
-      "hour": 18,
-      "online": 7,
-      "in_voice": 1,
       "messages": 0
     }
   ],
