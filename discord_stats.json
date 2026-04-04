@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T18:14:03.096757+00:00",
+  "updated_at": "2026-04-04T18:15:03.933005+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 46,
-    "online_count": 18,
-    "offline_count": 28,
+    "online_count": 17,
+    "offline_count": 29,
     "in_voice_count": 4,
     "messages_today": 90,
     "text_channels_count": 8,
@@ -256,28 +256,6 @@
       }
     },
     {
-      "id": "1264609602540929140",
-      "name": "dark_soul",
-      "status": "online",
-      "roles": [],
-      "top_role": "member",
-      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
-      "joined_at": "2026-03-24T10:19:44.199000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1435315936226709546",
       "name": "голубика",
       "status": "idle",
@@ -463,7 +441,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "мужчины"
       ],
@@ -875,6 +853,28 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1248970731849777152/1fac300843a6f5cc18d36b1e485a3084.png?size=1024",
       "joined_at": "2026-03-12T16:22:34.089000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1264609602540929140",
+      "name": "dark_soul",
+      "status": "offline",
+      "roles": [],
+      "top_role": "member",
+      "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
+      "joined_at": "2026-03-24T10:19:44.199000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1347,13 +1347,6 @@
       "messages": 0
     },
     {
-      "time": "04.04 23:02",
-      "hour": 23,
-      "online": 16,
-      "in_voice": 4,
-      "messages": 0
-    },
-    {
       "time": "04.04 23:03",
       "hour": 23,
       "online": 16,
@@ -1504,6 +1497,13 @@
       "time": "04.04 23:14",
       "hour": 23,
       "online": 18,
+      "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "04.04 23:15",
+      "hour": 23,
+      "online": 17,
       "in_voice": 4,
       "messages": 0
     }
