@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T19:21:27.083043+00:00",
+  "updated_at": "2026-04-04T19:22:30.818964+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 46,
     "online_count": 18,
     "offline_count": 28,
-    "in_voice_count": 4,
+    "in_voice_count": 2,
     "messages_today": 0,
     "text_channels_count": 8,
     "voice_channels_count": 12
@@ -1207,11 +1207,9 @@
     {
       "id": "1485782920617791588",
       "name": "⋆ 𝓖𝑒𝑛𝑒𝑟𝑎𝑙 𝑣𝑜𝑖𝑐𝑒 𝑐ℎ𝑎𝑡-🔊",
-      "members_count": 4,
+      "members_count": 2,
       "members": [
-        "ZPNK666",
         "SayKomy",
-        "тунг тунг захур",
         "Жигуль в прайме"
       ],
       "user_limit": 0
@@ -1343,13 +1341,6 @@
     "ислам": 2
   },
   "hourly_history": [
-    {
-      "time": "05.04 00:10",
-      "hour": 0,
-      "online": 17,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "05.04 00:10",
       "hour": 0,
@@ -1509,6 +1500,13 @@
       "hour": 0,
       "online": 18,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "05.04 00:22",
+      "hour": 0,
+      "online": 18,
+      "in_voice": 2,
       "messages": 0
     }
   ],
