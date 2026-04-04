@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T12:54:25.940029+00:00",
+  "updated_at": "2026-04-04T13:00:34.956567+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -79,7 +79,7 @@
     {
       "id": "1462906498110849218",
       "name": "duo titan",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "мужчины",
@@ -1231,48 +1231,6 @@
   },
   "hourly_history": [
     {
-      "time": "04.04 17:31",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:31",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:33",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:33",
-      "hour": 17,
-      "online": 6,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:35",
-      "hour": 17,
-      "online": 7,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
-      "time": "04.04 17:35",
-      "hour": 17,
-      "online": 7,
-      "in_voice": 2,
-      "messages": 0
-    },
-    {
       "time": "04.04 17:37",
       "hour": 17,
       "online": 7,
@@ -1394,6 +1352,48 @@
     {
       "time": "04.04 17:54",
       "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:56",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:56",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:58",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 17:58",
+      "hour": 17,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:00",
+      "hour": 18,
+      "online": 6,
+      "in_voice": 1,
+      "messages": 0
+    },
+    {
+      "time": "04.04 18:00",
+      "hour": 18,
       "online": 6,
       "in_voice": 1,
       "messages": 0
