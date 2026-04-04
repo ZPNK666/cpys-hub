@@ -1317,6 +1317,16 @@ function sp(p,el,cls){
     }
 
     if (statusText) statusText.textContent = "ПРОВЕРКА ФАЙЛОВ...";
+    
+    // Новая диагностика: Проверка SharedArrayBuffer для Godot 4
+    const isIsolated = window.crossOriginIsolated;
+    const hasSAB = !!window.SharedArrayBuffer;
+    console.log("Security Check - Isolated:", isIsolated, "SAB:", hasSAB);
+    
+    if (statusText) {
+      statusText.innerHTML += `<br><span style="font-size:8px;color:${isIsolated?'var(--green)':'var(--red)'}">${isIsolated ? '🛡️ ИЗОЛЯЦИЯ: ОК' : '⚠️ ИЗОЛЯЦИЯ БЛОКИРОВАНА (Звук/Графика могут не работать)'}</span>`;
+    }
+
     // Скачиваем только первые 10 байт для проверки заголовка магии WASM
     fetch('./bk_v2.wasm', { headers: { 'Range': 'bytes=0-9' } })
     .then(async res => {
@@ -3887,7 +3897,10 @@ setInterval(loadReal,15000);
 
     bkUpdateStatsUI();
     // Engine start is now deferred to sp('rb') click for better user gesture handling
-    if (window.engine) window.engine.onProgress = updateStatus;
+    if (window.engine) {
+      window.engine.onProgress = updateStatus;
+      console.log("Godot Engine setup complete. Hardware check:", !!window.WebGL2RenderingContext);
+    }
   })();
 
   // ── Poll ──
