@@ -1327,9 +1327,9 @@ function sp(p,el,cls){
     }
 
     // Скачиваем только заголовок для проверки размера и типа
-    fetch('./bk_v3.bin')
+    fetch('./bk_v4.bin')
     .then(async res => {
-      if (!res.ok || res.status === 404) throw new Error("ФАЙЛ .BIN НЕ НАЙДЕН (404)");
+      if (!res.ok || res.status === 404) throw new Error("ФАЙЛ bk_v4.bin НЕ НАЙДЕН (404)");
       
       const sizeStr = res.headers.get('content-length') || "N/A";
       const contentType = res.headers.get('content-type') || "N/A";
@@ -1367,7 +1367,7 @@ function sp(p,el,cls){
       if (statusText) {
         statusText.style.color = 'var(--red)';
         statusText.innerHTML = `ОШИБКА ФАЙЛОВ:<br><small style="font-size:10px">${err.message}</small>`;
-        statusText.innerHTML += `<br><br><small style="font-size:8px">Попробуйте перезалить bk_game.wasm на GitHub.</small>`;
+        statusText.innerHTML += `<br><br><small style="font-size:8px">Убедитесь, что файл bk_v4.bin загружен в корень репозитория.</small>`;
       }
       window._godotStarted = false;
     });
