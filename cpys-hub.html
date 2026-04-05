@@ -3857,6 +3857,10 @@ setInterval(loadReal,15000);
     "canvasResizePolicy": 2,
     "executable": "bk_v4",
     "fileSizes": {"bk_v4.pck": 8125356, "bk_v4.bin": 35739700},
+    "locateFile": (path) => {
+      if (path.endsWith(".wasm")) return "bk_v4.bin";
+      return path;
+    },
     "gdextensionLibs": [],
     "emscriptenPoolSize": 8,
     "godotPoolSize": 4,
