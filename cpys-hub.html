@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="./bk_icon.png">
     <!-- COI SW is REQUIRED for some Godot feature stability even in single-threaded mode -->
     <script src="./coi-serviceworker.js" onerror="window._swError=true"></script>
-    <script src="./bk_v3.js" onerror="window._gameScriptError=true"></script>
+    <script src="./bk_v4.js" onerror="window._gameScriptError=true"></script>
     <title>C.P.Y.S Hub</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
@@ -3855,8 +3855,8 @@ setInterval(loadReal,15000);
   const GODOT_CONFIG = {
     "args": [],
     "canvasResizePolicy": 2,
-    "executable": "bk_v3",
-    "fileSizes": {"bk_v3.pck": 8125356, "bk_v3.bin": 35739700},
+    "executable": "bk_v4",
+    "fileSizes": {"bk_v4.pck": 8125356, "bk_v4.bin": 35739700},
     "gdextensionLibs": [],
     "emscriptenPoolSize": 8,
     "godotPoolSize": 4,
@@ -3872,7 +3872,7 @@ setInterval(loadReal,15000);
     window.addEventListener('load', function() {
       const statusText = document.querySelector('#bk-loading div');
       if (window._gameScriptError) {
-        if (statusText) statusText.innerHTML = `<span style="color:var(--red)">ФАЙЛ bk_game.js НЕ НАЙДЕН (404)</span><br><small>Проверьте, что вы загрузили его в корень GitHub.</small>`;
+        if (statusText) statusText.innerHTML = `<span style="color:var(--red)">ФАЙЛ bk_v4.js НЕ НАЙДЕН (404)</span><br><small>Проверьте, что вы загрузили его в корень GitHub.</small>`;
       } else {
          setTimeout(() => {
            if (typeof Engine === 'undefined' && statusText) {
