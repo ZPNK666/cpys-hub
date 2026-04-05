@@ -765,6 +765,47 @@ body.cursor-ds #cursor{
             </div>
           </div>
           <canvas id="canvas" style="width:100%;height:100%;display:block;outline:none;"></canvas>
+
+          <!-- ════ HUD / ИНВЕНТАРЬ (поверх canvas) ════ -->
+          <!-- Прицел -->
+          <div id="crosshair" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:10px;height:10px;border:2px solid rgba(255,255,255,0.5);z-index:50;pointer-events:none;"></div>
+          <!-- Название уровня -->
+          <div class="level-tag" id="level-name" style="position:absolute;top:20px;left:20px;color:#ffcc00;font-weight:bold;font-size:20px;text-shadow:2px 2px #000;z-index:50;pointer-events:none;font-family:'Segoe UI', sans-serif;">УРОВЕНЬ 0: ЛОББИ</div>
+
+          <!-- Нижний HUD с хотбаром -->
+          <div id="hud" style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);z-index:100;pointer-events:none;">
+            <div id="hotbar" style="display:flex;gap:5px;background:rgba(0,0,0,0.5);padding:5px;border:2px solid #fff;pointer-events:auto;">
+                <div class="slot active" data-idx="0" style="width:50px;height:50px;background:#8b8b8b;border:3px solid #ffcc00;box-shadow:inset -2px -2px #fff, inset 2px 2px #555;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;position:relative;"></div>
+                <div class="slot" data-idx="1" style="width:50px;height:50px;background:#8b8b8b;border:2px solid #373737;box-shadow:inset -2px -2px #fff, inset 2px 2px #555;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;position:relative;"></div>
+                <div class="slot" data-idx="2" style="width:50px;height:50px;background:#8b8b8b;border:2px solid #373737;box-shadow:inset -2px -2px #fff, inset 2px 2px #555;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;position:relative;"></div>
+                <div class="slot" data-idx="3" style="width:50px;height:50px;background:#8b8b8b;border:2px solid #373737;box-shadow:inset -2px -2px #fff, inset 2px 2px #555;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;position:relative;"></div>
+                <div class="slot" data-idx="4" style="width:50px;height:50px;background:#8b8b8b;border:2px solid #373737;box-shadow:inset -2px -2px #fff, inset 2px 2px #555;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;position:relative;"></div>
+            </div>
+          </div>
+
+          <!-- Инвентарь оверлей -->
+          <div id="inventory-overlay" style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);display:none;justify-content:center;align-items:center;z-index:500;">
+              <div class="inv-window" style="background:#c6c6c6;border:4px solid #555;padding:20px;box-shadow:inset -4px -4px #555, inset 4px 4px #fff;font-family:'Segoe UI', sans-serif;">
+                  <h2 style="color:#000;margin-bottom:10px;">ИНВЕНТАРЬ</h2>
+                  <div style="display:flex;">
+                      <div class="armor-slots" style="display:flex;flex-direction:column;gap:4px;margin-right:20px;">
+                          <div class="slot" id="armor-1" style="width:50px;height:50px;background:#8b8b8b;border:2px solid #373737;box-shadow:inset -2px -2px #fff, inset 2px 2px #555;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;position:relative;">🛡️</div>
+                          <div class="slot" id="armor-2" style="width:50px;height:50px;background:#8b8b8b;border:2px solid #373737;box-shadow:inset -2px -2px #fff, inset 2px 2px #555;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;position:relative;">🥋</div>
+                      </div>
+                      <div class="inv-grid" id="main-inv" style="display:grid;grid-template-columns:repeat(9, 50px);gap:4px;margin-top:10px;">
+                          <!-- Слоты будут заполняться скриптом игры -->
+                      </div>
+                  </div>
+                  <div id="craft-panel" style="margin-top:20px;border-top:2px solid #555;padding-top:10px;">
+                      <p style="color:#000;font-size:12px;">КРАФТ: [1🪵->4🟫] [4🟫->1🚪] [8🟫->1🛡️]</p>
+                      <div style="display:flex;gap:10px;margin-top:10px;">
+                          <button onclick="if(window.gameCraft) gameCraft('planks')" style="padding:4px 8px;cursor:pointer;">ДОСКИ</button>
+                          <button onclick="if(window.gameCraft) gameCraft('door')" style="padding:4px 8px;cursor:pointer;">ДВЕРЬ</button>
+                          <button onclick="if(window.gameCraft) gameCraft('armor')" style="padding:4px 8px;cursor:pointer;">БРОНЯ</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
 
         <!-- BACKROOMS SIDEBAR -->
@@ -1354,6 +1395,11 @@ function sp(p,el,cls){
         },
         onPrint: function(text) { console.log("Godot:", text); },
         onPrintError: function(text) { console.error("Godot:", text); }
+      }).then(() => {
+        const bkLoading = document.getElementById('bk-loading');
+        if (bkLoading) {
+          bkLoading.style.display = 'none';
+        }
       }).catch(err => {
         console.error("Engine start failed:", err);
         if (statusText) {
