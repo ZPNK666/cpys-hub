@@ -27,11 +27,26 @@ if (typeof window === 'undefined') {
             return;
         }
 
-        const request = (coepCredentialless && r.mode === "no-cors")
-            ? new Request(r, {
+        // ── GODOT WASM REDIRECT ──
+        // Redirect any .wasm request to bk_v4.bin (GitHub Pages compatible)
+        let fetchTarget = r;
+        if (r.url.endsWith(".wasm") || r.url.includes(".wasm?")) {
+            const newUrl = new URL(r.url);
+            newUrl.pathname = newUrl.pathname.replace(/[^/]+\.wasm$/, "bk_v4.bin");
+            fetchTarget = new Request(newUrl.toString(), {
+                method: r.method,
+                headers: r.headers,
+                mode: r.mode === "navigate" ? "same-origin" : r.mode,
+                credentials: r.credentials,
+                redirect: r.redirect,
+            });
+        }
+
+        const request = (coepCredentialless && fetchTarget.mode === "no-cors")
+            ? new Request(fetchTarget, {
                 credentials: "omit",
             })
-            : r;
+            : fetchTarget;
         event.respondWith(
             fetch(request)
                 .then((response) => {
