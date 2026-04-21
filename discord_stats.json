@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T15:08:25.869265+00:00",
+  "updated_at": "2026-04-21T15:10:32.111780+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 67,
     "online_count": 17,
     "offline_count": 50,
-    "in_voice_count": 5,
+    "in_voice_count": 4,
     "messages_today": 80,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -1786,7 +1786,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 5,
+      "members_count": 4,
       "members": [
         {
           "id": "834060139006394368",
@@ -1803,10 +1803,6 @@
         {
           "id": "1310660619300769925",
           "name": "ЗЕВИРКА"
-        },
-        {
-          "id": "1337899918853144717",
-          "name": "ШАУРМИСТ"
         }
       ]
     },
@@ -1954,13 +1950,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 19:20",
-      "hour": 19,
-      "online": 15,
-      "in_voice": 4,
-      "messages": 0
-    },
     {
       "time": "21.04 19:22",
       "hour": 19,
@@ -2120,6 +2109,13 @@
       "hour": 20,
       "online": 17,
       "in_voice": 5,
+      "messages": 0
+    },
+    {
+      "time": "21.04 20:10",
+      "hour": 20,
+      "online": 17,
+      "in_voice": 4,
       "messages": 0
     }
   ],
