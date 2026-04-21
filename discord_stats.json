@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T13:33:24.341622+00:00",
+  "updated_at": "2026-04-21T13:35:27.235154+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 67,
-    "online_count": 15,
-    "offline_count": 52,
+    "online_count": 16,
+    "offline_count": 51,
     "in_voice_count": 6,
-    "messages_today": 35,
+    "messages_today": 45,
     "text_channels_count": 6,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 35,
+    "text": 45,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -66,13 +66,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 3,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 3
       },
       "join_leave": {
         "joins": 0,
@@ -173,13 +173,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/cc041ffce8ad7bfba0ffadbe844920d7.png?size=1024",
       "joined_at": "2026-03-23T14:02:15.357000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 2,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 2
       },
       "join_leave": {
         "joins": 0,
@@ -273,6 +273,34 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/954400234191077447/c4a005e8b1eb2abb69b02e27f87e05ef.png?size=1024",
       "joined_at": "2026-04-05T18:37:21.543000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1255232329362833409",
+      "name": "кирпич шавуха",
+      "status": "idle",
+      "roles": [
+        "бребрята",
+        "у меня есть хент",
+        "ОФИЧЕР СС",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/2516f26c53180f63f638b2b50cb037bf.png?size=1024",
+      "joined_at": "2026-04-08T17:36:23.662000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1133,34 +1161,6 @@
       }
     },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич шавуха",
-      "status": "offline",
-      "roles": [
-        "бребрята",
-        "у меня есть хент",
-        "ОФИЧЕР СС",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/2516f26c53180f63f638b2b50cb037bf.png?size=1024",
-      "joined_at": "2026-04-08T17:36:23.662000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1264609602540929140",
       "name": "dark_soul",
       "status": "offline",
@@ -1173,13 +1173,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
       "joined_at": "2026-04-17T17:08:58.041000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 11,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 11
       },
       "join_leave": {
         "joins": 0,
@@ -1933,7 +1933,7 @@
       "name": "🧱┃кубическая-колония",
       "category": "✧ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  ✧",
       "position": 5,
-      "topic": "Server is offline | 7 unique players ever joined"
+      "topic": "0/10000 players online | 6 unique players ever joined | Server online for 0 minutes | Last update: Tue, 21. Apr 2026 18:34:59 YEKT"
     }
   ],
   "role_distribution": {
@@ -1954,13 +1954,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "05.04 02:19",
-      "hour": 2,
-      "online": 17,
-      "in_voice": 2,
-      "messages": 0
-    },
     {
       "time": "05.04 02:19",
       "hour": 2,
@@ -2121,22 +2114,22 @@
       "online": 15,
       "in_voice": 6,
       "messages": 6
+    },
+    {
+      "time": "21.04 18:35",
+      "hour": 18,
+      "online": 16,
+      "in_voice": 6,
+      "messages": 10
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
-    "server_started": "2026-03-27T07:37:31.662000",
+    "server_started": "2026-04-21T13:35:10.946000",
     "server_stopped": "2026-03-27T07:34:35.292000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "abobys94753",
-        "text": "ребят",
-        "date": "27.03.2026",
-        "time": "11:10"
-      },
       {
         "type": "chat",
         "player": "abobys94753",
@@ -2479,6 +2472,11 @@
         "text": "негры все",
         "date": "27.03.2026",
         "time": "11:58"
+      },
+      {
+        "type": "server_start",
+        "date": "21.04.2026",
+        "time": "13:35"
       }
     ],
     "kills": {},
@@ -3410,6 +3408,13 @@
           "type": "server_stop",
           "date": "25.03.2026",
           "time": "20:08"
+        }
+      ],
+      "21.04.2026": [
+        {
+          "type": "server_start",
+          "date": "21.04.2026",
+          "time": "13:35"
         }
       ]
     }
