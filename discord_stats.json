@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T16:06:14.998957+00:00",
+  "updated_at": "2026-04-21T16:08:19.675103+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 67,
     "online_count": 17,
     "offline_count": 50,
-    "in_voice_count": 6,
+    "in_voice_count": 7,
     "messages_today": 86,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -1786,7 +1786,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 4,
+      "members_count": 5,
       "members": [
         {
           "id": "834060139006394368",
@@ -1803,6 +1803,10 @@
         {
           "id": "1079304592258510918",
           "name": "дедушка"
+        },
+        {
+          "id": "1255232329362833409",
+          "name": "кирпич шавуха"
         }
       ]
     },
@@ -1959,13 +1963,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 20:18",
-      "hour": 20,
-      "online": 17,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "21.04 20:20",
       "hour": 20,
@@ -2125,6 +2122,13 @@
       "hour": 21,
       "online": 17,
       "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "21.04 21:08",
+      "hour": 21,
+      "online": 17,
+      "in_voice": 7,
       "messages": 0
     }
   ],
