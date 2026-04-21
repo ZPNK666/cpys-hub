@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T17:09:06.463204+00:00",
+  "updated_at": "2026-04-21T17:11:11.919108+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -161,7 +161,7 @@
     {
       "id": "1411040080092725248",
       "name": "່vvv",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "Агностик",
@@ -502,7 +502,7 @@
     {
       "id": "1168859596899766352",
       "name": "Scorpio_mal2",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "мужчины"
       ],
@@ -1998,13 +1998,6 @@
   },
   "hourly_history": [
     {
-      "time": "21.04 21:20",
-      "hour": 21,
-      "online": 19,
-      "in_voice": 8,
-      "messages": 5
-    },
-    {
       "time": "21.04 21:22",
       "hour": 21,
       "online": 18,
@@ -2160,6 +2153,13 @@
     },
     {
       "time": "21.04 22:09",
+      "hour": 22,
+      "online": 21,
+      "in_voice": 9,
+      "messages": 0
+    },
+    {
+      "time": "21.04 22:11",
       "hour": 22,
       "online": 21,
       "in_voice": 9,
