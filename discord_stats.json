@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:16:32.954488+00:00",
+  "updated_at": "2026-04-21T14:18:35.706905+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -161,7 +161,7 @@
     {
       "id": "1396938275263877150",
       "name": "лучок",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "бребрята",
         "КФС",
@@ -241,7 +241,7 @@
     {
       "id": "1448678219405328464",
       "name": "𝗗𝗰.𝗛𝗮𝗿𝗹𝘆 𝗦𝗮𝘆𝘄𝗲𝗿",
-      "status": "online",
+      "status": "idle",
       "roles": [],
       "top_role": "member",
       "avatar": "https://cdn.discordapp.com/avatars/1448678219405328464/9a73eedc51ee61ad11d4916fbafd2a8e.png?size=1024",
@@ -1925,7 +1925,7 @@
       "name": "🧱┃кубическая-колония",
       "category": "✧ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  ✧",
       "position": 5,
-      "topic": "2/10000 players online | 6 unique players ever joined | Server online for 10 minutes | Last update: Tue, 21. Apr 2026 19:11:00 YEKT"
+      "topic": "Server is offline | 6 unique players ever joined"
     }
   ],
   "role_distribution": {
@@ -1946,13 +1946,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 18:29",
-      "hour": 18,
-      "online": 14,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "21.04 18:31",
       "hour": 18,
@@ -2113,22 +2106,22 @@
       "online": 17,
       "in_voice": 4,
       "messages": 0
+    },
+    {
+      "time": "21.04 19:18",
+      "hour": 19,
+      "online": 17,
+      "in_voice": 4,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
     "server_started": "2026-04-21T14:01:15.230000",
-    "server_stopped": "2026-03-27T07:34:35.292000",
+    "server_stopped": "2026-04-21T14:18:04.894000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "abobys94753",
-        "text": "разблокали?",
-        "date": "27.03.2026",
-        "time": "11:13"
-      },
       {
         "type": "chat",
         "player": "abobys94753",
@@ -2467,6 +2460,11 @@
         "type": "server_start",
         "date": "21.04.2026",
         "time": "14:01"
+      },
+      {
+        "type": "server_stop",
+        "date": "21.04.2026",
+        "time": "14:18"
       }
     ],
     "kills": {},
@@ -3410,6 +3408,11 @@
           "type": "server_start",
           "date": "21.04.2026",
           "time": "14:01"
+        },
+        {
+          "type": "server_stop",
+          "date": "21.04.2026",
+          "time": "14:18"
         }
       ]
     }
