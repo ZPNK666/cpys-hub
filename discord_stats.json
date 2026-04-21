@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:43:40.176861+00:00",
+  "updated_at": "2026-04-21T14:45:44.097638+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 67,
-    "online_count": 17,
-    "offline_count": 50,
+    "online_count": 16,
+    "offline_count": 51,
     "in_voice_count": 3,
     "messages_today": 67,
     "text_channels_count": 6,
@@ -161,7 +161,7 @@
     {
       "id": "1396938275263877150",
       "name": "лучок",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "бребрята",
         "КФС",
@@ -215,7 +215,7 @@
     {
       "id": "1264222387214483562",
       "name": "GOJO",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "ислам",
@@ -299,32 +299,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/954400234191077447/c4a005e8b1eb2abb69b02e27f87e05ef.png?size=1024",
       "joined_at": "2026-04-05T18:37:21.543000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1009475184090152961",
-      "name": "майонез",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
-      "joined_at": "2026-01-12T09:11:19.082000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -446,7 +420,7 @@
     {
       "id": "1465225825501712520",
       "name": "Sigma arbus",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "нету хента",
         "ислам",
@@ -1322,6 +1296,32 @@
       }
     },
     {
+      "id": "1009475184090152961",
+      "name": "майонез",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1009475184090152961/96a65d278a535898927bd59de3d1ec5d.png?size=1024",
+      "joined_at": "2026-01-12T09:11:19.082000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "964545218454122577",
       "name": "ебырь твоей мамки",
       "status": "offline",
@@ -1947,13 +1947,6 @@
   },
   "hourly_history": [
     {
-      "time": "21.04 18:55",
-      "hour": 18,
-      "online": 16,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "21.04 18:58",
       "hour": 18,
       "online": 15,
@@ -2111,6 +2104,13 @@
       "time": "21.04 19:43",
       "hour": 19,
       "online": 17,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "21.04 19:45",
+      "hour": 19,
+      "online": 16,
       "in_voice": 3,
       "messages": 0
     }
