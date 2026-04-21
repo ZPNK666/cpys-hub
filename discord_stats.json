@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T16:39:43.840798+00:00",
+  "updated_at": "2026-04-21T16:41:53.280384+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 68,
-    "online_count": 18,
-    "offline_count": 50,
-    "in_voice_count": 8,
-    "messages_today": 103,
+    "online_count": 17,
+    "offline_count": 51,
+    "in_voice_count": 9,
+    "messages_today": 107,
     "text_channels_count": 6,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 103,
+    "text": 107,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -31,7 +31,7 @@
       "roles": [
         "КФС",
         "у меня есть хент",
-        "ОФИЧЕР СС",
+        "Высший совет",
         "Сциентизм",
         "iPhone",
         "мужчины"
@@ -244,7 +244,7 @@
       "roles": [
         "бребрята",
         "у меня есть хент",
-        "ОФИЧЕР СС",
+        "Высший совет",
         "провославный",
         "мужчины"
       ],
@@ -350,7 +350,7 @@
       "roles": [
         "бребрята",
         "нету хента",
-        "ОФИЧЕР СС",
+        "Высший совет",
         "атеист",
         "женщины"
       ],
@@ -358,13 +358,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/ae08b6d66b18d74b1d5a86cb7471a318.png?size=1024",
       "joined_at": "2026-04-03T12:29:43.474000+00:00",
       "stats_today": {
-        "text": 6,
+        "text": 10,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 10
       },
       "join_leave": {
         "joins": 0,
@@ -445,32 +445,6 @@
         "gifs": 0,
         "files": 0,
         "total": 2
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1475436094269948006",
-      "name": "МАЛИНА",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1475436094269948006/a74d77d311927d81192f83a367197fef.png?size=1024",
-      "joined_at": "2026-04-21T13:31:30.896000+00:00",
-      "stats_today": {
-        "text": 6,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 6
       },
       "join_leave": {
         "joins": 0,
@@ -973,7 +947,7 @@
       "roles": [
         "нету хента",
         "у меня есть хент",
-        "ОФИЧЕР СС",
+        "Высший совет",
         "атеист",
         "мужчины"
       ],
@@ -1514,7 +1488,7 @@
       "roles": [
         "КФС",
         "нету хента",
-        "ОФИЧЕР СС",
+        "Высший совет",
         "ислам",
         "мужчины"
       ],
@@ -1540,7 +1514,7 @@
       "name": "💋Ангел💋",
       "status": "offline",
       "roles": [
-        "ОФИЧЕР СС",
+        "Высший совет",
         "iPhone",
         "католик",
         "женщины"
@@ -1620,7 +1594,7 @@
       "status": "offline",
       "roles": [
         "нету хента",
-        "ОФИЧЕР СС",
+        "Высший совет",
         "Агностик",
         "женщины"
       ],
@@ -1794,6 +1768,32 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1475436094269948006",
+      "name": "МАЛИНА",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "провославный",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1475436094269948006/a74d77d311927d81192f83a367197fef.png?size=1024",
+      "joined_at": "2026-04-21T13:31:30.896000+00:00",
+      "stats_today": {
+        "text": 6,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 6
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
@@ -1812,7 +1812,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 6,
+      "members_count": 7,
       "members": [
         {
           "id": "834060139006394368",
@@ -1837,6 +1837,10 @@
         {
           "id": "1396607687365754883",
           "name": "#!Apr๑ell꒱"
+        },
+        {
+          "id": "1264222387214483562",
+          "name": "GOJO"
         }
       ]
     },
@@ -1984,7 +1988,7 @@
     "ислам": 9,
     "мужчины": 30,
     "КФС": 5,
-    "ОФИЧЕР СС": 7,
+    "Высший совет": 7,
     "Сциентизм": 5,
     "iPhone": 2,
     "опушеный": 1,
@@ -1993,13 +1997,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 20:51",
-      "hour": 20,
-      "online": 19,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "21.04 20:53",
       "hour": 20,
@@ -2160,6 +2157,13 @@
       "online": 18,
       "in_voice": 8,
       "messages": 3
+    },
+    {
+      "time": "21.04 21:41",
+      "hour": 21,
+      "online": 17,
+      "in_voice": 9,
+      "messages": 4
     }
   ],
   "top_chatters": [],
