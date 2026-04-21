@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T17:59:16.571119+00:00",
+  "updated_at": "2026-04-21T18:01:07.238843+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 68,
-    "online_count": 19,
-    "offline_count": 49,
+    "online_count": 20,
+    "offline_count": 48,
     "in_voice_count": 9,
     "messages_today": 114,
     "text_channels_count": 6,
@@ -146,6 +146,31 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/742426373540544592/4834ee24a0dd2ca32899ed35f5202b7d.png?size=1024",
       "joined_at": "2026-03-26T18:36:15.330000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1211055468362072164",
+      "name": "квитень🦈",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "католик"
+      ],
+      "top_role": "католик",
+      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/7bf6f9af887a9ec049ed258315a5a020.png?size=1024",
+      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -643,31 +668,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1337899918853144717/4f3404f7c82bdefeb17bda51ad01af5f.png?size=1024",
       "joined_at": "2026-04-20T18:49:39.007000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1211055468362072164",
-      "name": "квитень🦈",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "католик"
-      ],
-      "top_role": "католик",
-      "avatar": "https://cdn.discordapp.com/avatars/1211055468362072164/7bf6f9af887a9ec049ed258315a5a020.png?size=1024",
-      "joined_at": "2026-03-11T06:55:23.775000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -2002,13 +2002,6 @@
       "hour": 22,
       "online": 17,
       "in_voice": 8,
-      "messages": 1
-    },
-    {
-      "time": "21.04 22:36",
-      "hour": 22,
-      "online": 17,
-      "in_voice": 8,
       "messages": 0
     },
     {
@@ -2162,6 +2155,13 @@
       "time": "21.04 22:59",
       "hour": 22,
       "online": 19,
+      "in_voice": 9,
+      "messages": 0
+    },
+    {
+      "time": "21.04 23:01",
+      "hour": 23,
+      "online": 20,
       "in_voice": 9,
       "messages": 0
     }
