@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T15:41:34.937198+00:00",
+  "updated_at": "2026-04-21T15:43:38.209590+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 67,
     "online_count": 17,
     "offline_count": 50,
-    "in_voice_count": 7,
+    "in_voice_count": 5,
     "messages_today": 85,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -187,7 +187,7 @@
     {
       "id": "1433504994824425640",
       "name": "ЗЕЛЕБОБИК",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "Сциентизм",
@@ -1786,15 +1786,11 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 5,
+      "members_count": 3,
       "members": [
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
-        },
-        {
-          "id": "1435315936226709546",
-          "name": "ГОЛУБИКА"
         },
         {
           "id": "1310660619300769925",
@@ -1803,10 +1799,6 @@
         {
           "id": "1274357929415282780",
           "name": "БАНАН"
-        },
-        {
-          "id": "1004865806154346568",
-          "name": "камикадзе"
         }
       ]
     },
@@ -1963,13 +1955,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 19:53",
-      "hour": 19,
-      "online": 17,
-      "in_voice": 5,
-      "messages": 4
-    },
     {
       "time": "21.04 19:56",
       "hour": 19,
@@ -2129,6 +2114,13 @@
       "hour": 20,
       "online": 17,
       "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "21.04 20:43",
+      "hour": 20,
+      "online": 17,
+      "in_voice": 5,
       "messages": 0
     }
   ],
