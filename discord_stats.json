@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T18:55:14.475831+00:00",
+  "updated_at": "2026-04-21T18:56:57.600435+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 68,
-    "online_count": 15,
-    "offline_count": 53,
+    "online_count": 13,
+    "offline_count": 55,
     "in_voice_count": 6,
-    "messages_today": 128,
+    "messages_today": 131,
     "text_channels_count": 6,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 128,
+    "text": 131,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -213,33 +213,6 @@
       }
     },
     {
-      "id": "954400234191077447",
-      "name": "Jonny",
-      "status": "dnd",
-      "roles": [
-        "бребрята",
-        "КФС",
-        "у меня есть хент",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/954400234191077447/c4a005e8b1eb2abb69b02e27f87e05ef.png?size=1024",
-      "joined_at": "2026-04-05T18:37:21.543000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1435315936226709546",
       "name": "ГОЛУБИКА",
       "status": "idle",
@@ -344,32 +317,6 @@
       }
     },
     {
-      "id": "1420445349218357439",
-      "name": "Fox",
-      "status": "idle",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
-      "joined_at": "2026-03-24T18:42:56.281000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1149289620610228274",
       "name": "kiræxvoid",
       "status": "online",
@@ -434,13 +381,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/8130c62aeca9ae01c74d66faee08868a.png?size=1024",
       "joined_at": "2026-03-10T11:19:30.910000+00:00",
       "stats_today": {
-        "text": 52,
+        "text": 54,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 52
+        "total": 54
       },
       "join_leave": {
         "joins": 0,
@@ -540,13 +487,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1158002004199747685/cf599368703d92ad5e9aabc80d9abcef.png?size=1024",
       "joined_at": "2026-04-04T15:04:26.147000+00:00",
       "stats_today": {
-        "text": 7,
+        "text": 8,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 7
+        "total": 8
       },
       "join_leave": {
         "joins": 0,
@@ -1321,6 +1268,33 @@
       }
     },
     {
+      "id": "954400234191077447",
+      "name": "Jonny",
+      "status": "offline",
+      "roles": [
+        "бребрята",
+        "КФС",
+        "у меня есть хент",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/954400234191077447/c4a005e8b1eb2abb69b02e27f87e05ef.png?size=1024",
+      "joined_at": "2026-04-05T18:37:21.543000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1467393560549527838",
       "name": "Жека",
       "status": "offline",
@@ -1770,6 +1744,32 @@
       }
     },
     {
+      "id": "1420445349218357439",
+      "name": "Fox",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1420445349218357439/5476f0213a6618e622af7ddcc673d790.png?size=1024",
+      "joined_at": "2026-03-24T18:42:56.281000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1097085212053221448",
       "name": "#ИМЯ?",
       "status": "offline",
@@ -1993,13 +1993,6 @@
       "messages": 0
     },
     {
-      "time": "21.04 23:32",
-      "hour": 23,
-      "online": 17,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "21.04 23:34",
       "hour": 23,
       "online": 17,
@@ -2152,6 +2145,13 @@
       "online": 15,
       "in_voice": 6,
       "messages": 0
+    },
+    {
+      "time": "21.04 23:56",
+      "hour": 23,
+      "online": 13,
+      "in_voice": 6,
+      "messages": 3
     }
   ],
   "top_chatters": [],
