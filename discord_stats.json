@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:28:52.546460+00:00",
+  "updated_at": "2026-04-21T14:30:55.377515+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -159,27 +159,27 @@
       }
     },
     {
-      "id": "993900146930753606",
-      "name": "Аудитор",
-      "status": "dnd",
+      "id": "1396938275263877150",
+      "name": "лучок",
+      "status": "online",
       "roles": [
-        "нету хента",
+        "бребрята",
+        "КФС",
         "у меня есть хент",
-        "ОФИЧЕР СС",
         "атеист",
-        "мужчины"
+        "женщины"
       ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dc30162016de3235bf7ad8cdda5a4083.png?size=1024",
-      "joined_at": "2026-04-08T13:29:37.380000+00:00",
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/a_6f795b9a6ad0eb5a80c241898575d661.gif?size=1024",
+      "joined_at": "2026-03-23T14:02:15.357000+00:00",
       "stats_today": {
-        "text": 0,
+        "text": 4,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 0
+        "total": 4
       },
       "join_leave": {
         "joins": 0,
@@ -215,7 +215,7 @@
     {
       "id": "1264222387214483562",
       "name": "GOJO",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "ислам",
@@ -318,7 +318,7 @@
     {
       "id": "1009475184090152961",
       "name": "майонез",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -935,6 +935,34 @@
       }
     },
     {
+      "id": "993900146930753606",
+      "name": "Аудитор",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "у меня есть хент",
+        "ОФИЧЕР СС",
+        "атеист",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/993900146930753606/dc30162016de3235bf7ad8cdda5a4083.png?size=1024",
+      "joined_at": "2026-04-08T13:29:37.380000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1468559274266591314",
       "name": "Dasha",
       "status": "offline",
@@ -954,34 +982,6 @@
         "gifs": 0,
         "files": 0,
         "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1396938275263877150",
-      "name": "лучок",
-      "status": "offline",
-      "roles": [
-        "бребрята",
-        "КФС",
-        "у меня есть хент",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/a_6f795b9a6ad0eb5a80c241898575d661.gif?size=1024",
-      "joined_at": "2026-03-23T14:02:15.357000+00:00",
-      "stats_today": {
-        "text": 4,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 4
       },
       "join_leave": {
         "joins": 0,
@@ -1955,13 +1955,6 @@
   },
   "hourly_history": [
     {
-      "time": "21.04 18:41",
-      "hour": 18,
-      "online": 18,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "21.04 18:43",
       "hour": 18,
       "online": 17,
@@ -2121,6 +2114,13 @@
       "online": 17,
       "in_voice": 5,
       "messages": 1
+    },
+    {
+      "time": "21.04 19:30",
+      "hour": 19,
+      "online": 17,
+      "in_voice": 5,
+      "messages": 0
     }
   ],
   "top_chatters": [],
