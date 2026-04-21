@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T13:53:56.599586+00:00",
+  "updated_at": "2026-04-21T13:55:59.963049+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -294,7 +294,7 @@
     {
       "id": "1255232329362833409",
       "name": "кирпич шавуха",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "бребрята",
         "у меня есть хент",
@@ -348,7 +348,7 @@
     {
       "id": "1104678557780803604",
       "name": "qwezxqhx",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "провославный",
@@ -1933,7 +1933,7 @@
       "name": "🧱┃кубическая-колония",
       "category": "✧ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  ✧",
       "position": 5,
-      "topic": "1/10000 players online | 6 unique players ever joined | Server online for 10 minutes | Last update: Tue, 21. Apr 2026 18:44:59 YEKT"
+      "topic": "2/10000 players online | 6 unique players ever joined | Server online for 20 minutes | Last update: Tue, 21. Apr 2026 18:54:59 YEKT"
     }
   ],
   "role_distribution": {
@@ -1954,13 +1954,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "05.04 02:24",
-      "hour": 2,
-      "online": 17,
-      "in_voice": 2,
-      "messages": 0
-    },
     {
       "time": "05.04 02:25",
       "hour": 2,
@@ -2117,6 +2110,13 @@
     },
     {
       "time": "21.04 18:53",
+      "hour": 18,
+      "online": 16,
+      "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "21.04 18:55",
       "hour": 18,
       "online": 16,
       "in_voice": 6,
