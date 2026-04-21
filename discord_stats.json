@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T18:59:44.802827+00:00",
+  "updated_at": "2026-04-21T19:01:04.852117+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -11,12 +11,12 @@
     "online_count": 14,
     "offline_count": 54,
     "in_voice_count": 6,
-    "messages_today": 132,
+    "messages_today": 0,
     "text_channels_count": 6,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 132,
+    "text": 0,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -37,13 +37,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1465225825501712520/455ab700dd945ac228ea4a49dc173b94.png?size=1024",
       "joined_at": "2026-04-21T13:31:28.914000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -94,13 +94,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 19,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 19
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -173,13 +173,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1264222387214483562/6f8e310b3fcdf6abe0baec9b7f10ea57.png?size=1024",
       "joined_at": "2026-04-01T17:22:19.805000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -252,13 +252,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1435315936226709546/d31694ffddd5e70b1b4affb3819da7dc.png?size=1024",
       "joined_at": "2026-04-01T18:29:14.423000+00:00",
       "stats_today": {
-        "text": 3,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 3
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -408,13 +408,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/8130c62aeca9ae01c74d66faee08868a.png?size=1024",
       "joined_at": "2026-03-10T11:19:30.910000+00:00",
       "stats_today": {
-        "text": 55,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 55
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -434,13 +434,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1310660619300769925/cce01164262b3aa89bdd2a83dff8f5c4.png?size=1024",
       "joined_at": "2026-04-20T17:39:51.226000+00:00",
       "stats_today": {
-        "text": 1,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 1
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -462,13 +462,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1274357929415282780/14fc6980477ac83f680ba84c6bafac78.png?size=1024",
       "joined_at": "2026-04-13T16:36:55.185000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -488,13 +488,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1264609602540929140/68df1422c81628ac57133b547cbdfb6c.png?size=1024",
       "joined_at": "2026-04-17T17:08:58.041000+00:00",
       "stats_today": {
-        "text": 11,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 11
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -514,13 +514,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1158002004199747685/cf599368703d92ad5e9aabc80d9abcef.png?size=1024",
       "joined_at": "2026-04-04T15:04:26.147000+00:00",
       "stats_today": {
-        "text": 8,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 8
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -643,13 +643,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1475436094269948006/a74d77d311927d81192f83a367197fef.png?size=1024",
       "joined_at": "2026-04-21T13:31:30.896000+00:00",
       "stats_today": {
-        "text": 6,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -1005,13 +1005,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396938275263877150/a_6f795b9a6ad0eb5a80c241898575d661.gif?size=1024",
       "joined_at": "2026-03-23T14:02:15.357000+00:00",
       "stats_today": {
-        "text": 4,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 4
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -1105,13 +1105,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1463157678883995673/11b9a831e976ae4012a7fdbc835dac7e.png?size=1024",
       "joined_at": "2026-04-21T16:17:28.878000+00:00",
       "stats_today": {
-        "text": 6,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 6
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -1257,13 +1257,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1296770485421342731/01b8fd3c2da27e31ce93533d555630f7.png?size=1024",
       "joined_at": "2026-04-17T18:43:00.078000+00:00",
       "stats_today": {
-        "text": 2,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 2
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -1625,13 +1625,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/4140b3d8257fd3b55f1c1749ecd72ff8.png?size=1024",
       "joined_at": "2026-04-03T12:29:43.474000+00:00",
       "stats_today": {
-        "text": 12,
+        "text": 0,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 12
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -1993,13 +1993,6 @@
       "messages": 0
     },
     {
-      "time": "21.04 23:36",
-      "hour": 23,
-      "online": 16,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "21.04 23:38",
       "hour": 23,
       "online": 16,
@@ -2149,6 +2142,13 @@
     {
       "time": "21.04 23:59",
       "hour": 23,
+      "online": 14,
+      "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "22.04 00:01",
+      "hour": 0,
       "online": 14,
       "in_voice": 6,
       "messages": 0
