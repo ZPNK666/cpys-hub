@@ -734,6 +734,12 @@ body.cursor-ds #cursor{
         <!-- Tooltip -->
         <div id="chart-tooltip" style="position:fixed;display:none;background:#0b1520;border:1px solid var(--cyan);padding:10px 14px;z-index:9999;pointer-events:none;font-size:12px;min-width:170px;box-shadow:0 4px 20px rgba(0,0,0,0.7);"></div>
 
+        <!-- Текстовые каналы -->
+        <div class="pnl" style="margin-bottom:6px;">
+          <div class="ph">💬 ТЕКСТОВЫЕ КАНАЛЫ <span id="ds-tcl-count" style="color:var(--muted);font-size:9px"></span></div>
+          <div class="pbd" id="ds-tcl" style="font-size:13px;"></div>
+        </div>
+
         <!-- Голосовые каналы -->
         <div class="pnl">
           <div class="ph">🔊 ГОЛОСОВЫЕ КАНАЛЫ</div>
@@ -3018,6 +3024,40 @@ async function loadReal(){
       </div>`;
     }).join('');
 
+    // --- ТЕКСТОВЫЕ КАНАЛЫ ---
+    const tclEl = document.getElementById('ds-tcl');
+    const tclCount = document.getElementById('ds-tcl-count');
+    if (tclEl) {
+      const tChannels = d.text_channels || [];
+      if (tclCount) tclCount.textContent = tChannels.length ? `(${tChannels.length})` : '';
+      if (!tChannels.length) {
+        tclEl.innerHTML = '<div style="color:var(--muted);padding:10px;font-size:13px">Нет данных</div>';
+      } else {
+        // Группируем по категории
+        const cats = {};
+        tChannels.forEach(ch => {
+          const cat = ch.category || 'Без категории';
+          if (!cats[cat]) cats[cat] = [];
+          cats[cat].push(ch);
+        });
+        tclEl.innerHTML = Object.entries(cats).map(([cat, chs]) => `
+          <div style="margin-bottom:8px;">
+            <div style="font-size:8px;color:var(--muted);font-family:'Press Start 2P',monospace;
+              margin-bottom:4px;padding:3px 0;border-bottom:1px solid var(--b);">
+              📁 ${escHtml(cat.toUpperCase())}
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:3px;padding-top:3px;">
+              ${chs.sort((a,b)=>(a.position||0)-(b.position||0)).map(ch => `
+                <span style="font-size:12px;padding:2px 7px;background:#04040f;
+                  border:1px solid #1a3a5a;color:var(--blue);display:inline-block;"
+                  title="${escHtml(ch.topic||'')}">#${escHtml(ch.name)}</span>
+              `).join('')}
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
     // --- ГОЛОСОВЫЕ КАНАЛЫ с кликабельными участниками ---
     const allMembersMap={};
     [...(d.online_members||[]),...(d.offline_members||[])].forEach(m=>{
@@ -3057,7 +3097,7 @@ async function loadReal(){
         :`<span style="color:var(--muted);font-size:11px">пусто</span>`;
       return `<div style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--b);">
         <div style="color:var(--blue);font-family:'Press Start 2P',monospace;font-size:7px;margin-bottom:5px;">
-          🔊 ${vc.name} <span style="color:var(--muted)">(${(vc.members||[]).length})</span>
+          🔊 ${vc.name} <span style="color:var(--muted)">(${(vc.members||[]).length})</span>${vc.category?`<span style="color:var(--muted);margin-left:6px;font-size:6px;">📁 ${escHtml(vc.category)}</span>`:''}
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:4px;">${membersHtml}</div>
       </div>`;
