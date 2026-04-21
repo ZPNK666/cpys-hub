@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T17:32:24.629226+00:00",
+  "updated_at": "2026-04-21T17:34:14.570077+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 68,
-    "online_count": 18,
-    "offline_count": 50,
-    "in_voice_count": 7,
+    "online_count": 19,
+    "offline_count": 49,
+    "in_voice_count": 8,
     "messages_today": 112,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -215,6 +215,32 @@
       }
     },
     {
+      "id": "1155602435222552698",
+      "name": "hatan",
+      "status": "dnd",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/fbcb06ed545d5c02df455c8772dc2b07.png?size=1024",
+      "joined_at": "2026-03-23T14:10:42.424000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1411040080092725248",
       "name": "່vvv",
       "status": "online",
@@ -269,7 +295,7 @@
     {
       "id": "1463157678883995673",
       "name": "☢️🎲Smitzaza56783🎲☢️",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ислам",
@@ -898,32 +924,6 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1248993668916969523/fac98ce7c849e5e18d3beee957bc6a4d.png?size=1024",
       "joined_at": "2026-04-15T15:45:41.277000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1155602435222552698",
-      "name": "hatan",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1155602435222552698/fbcb06ed545d5c02df455c8772dc2b07.png?size=1024",
-      "joined_at": "2026-03-23T14:10:42.424000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1812,7 +1812,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 3,
+      "members_count": 4,
       "members": [
         {
           "id": "1264609602540929140",
@@ -1825,6 +1825,10 @@
         {
           "id": "1465225825501712520",
           "name": "АРБУЗ"
+        },
+        {
+          "id": "1264222387214483562",
+          "name": "GOJO"
         }
       ]
     },
@@ -1991,13 +1995,6 @@
   },
   "hourly_history": [
     {
-      "time": "21.04 21:58",
-      "hour": 21,
-      "online": 19,
-      "in_voice": 8,
-      "messages": 0
-    },
-    {
       "time": "21.04 22:00",
       "hour": 22,
       "online": 18,
@@ -2156,6 +2153,13 @@
       "hour": 22,
       "online": 18,
       "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "21.04 22:34",
+      "hour": 22,
+      "online": 19,
+      "in_voice": 8,
       "messages": 0
     }
   ],
