@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:39:33.687683+00:00",
+  "updated_at": "2026-04-21T14:41:37.257186+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 67,
     "online_count": 18,
     "offline_count": 49,
-    "in_voice_count": 4,
+    "in_voice_count": 3,
     "messages_today": 67,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -344,7 +344,7 @@
     {
       "id": "1009475184090152961",
       "name": "майонез",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "у меня есть хент",
         "атеист",
@@ -1786,7 +1786,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 4,
+      "members_count": 3,
       "members": [
         {
           "id": "834060139006394368",
@@ -1799,10 +1799,6 @@
         {
           "id": "1433504994824425640",
           "name": "ЗЕЛЕБОБИК"
-        },
-        {
-          "id": "1009475184090152961",
-          "name": "майонез"
         }
       ]
     },
@@ -1950,13 +1946,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 18:51",
-      "hour": 18,
-      "online": 16,
-      "in_voice": 7,
-      "messages": 1
-    },
     {
       "time": "21.04 18:53",
       "hour": 18,
@@ -2116,6 +2105,13 @@
       "hour": 19,
       "online": 18,
       "in_voice": 4,
+      "messages": 0
+    },
+    {
+      "time": "21.04 19:41",
+      "hour": 19,
+      "online": 18,
+      "in_voice": 3,
       "messages": 0
     }
   ],
