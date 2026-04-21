@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T18:53:09.507235+00:00",
+  "updated_at": "2026-04-21T18:54:53.412378+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 68,
-    "online_count": 16,
-    "offline_count": 52,
+    "online_count": 15,
+    "offline_count": 53,
     "in_voice_count": 6,
     "messages_today": 128,
     "text_channels_count": 6,
@@ -146,32 +146,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1313463266617593949/40f6998ebb64391425ee48e94eacf132.png?size=1024",
       "joined_at": "2026-04-19T19:28:16.048000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1411040080092725248",
-      "name": "່vvv",
-      "status": "idle",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1411040080092725248/9af32859302e35ea3e2b6a282a1993b6.png?size=1024",
-      "joined_at": "2026-04-01T11:44:45.182000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -372,7 +346,7 @@
     {
       "id": "1420445349218357439",
       "name": "Fox",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "Агностик",
@@ -948,6 +922,32 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1444585534646255648/5445ffd7ffb201a98393cbdf684ea4b1.png?size=1024",
       "joined_at": "2026-04-12T14:36:38.297000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1411040080092725248",
+      "name": "່vvv",
+      "status": "offline",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1411040080092725248/9af32859302e35ea3e2b6a282a1993b6.png?size=1024",
+      "joined_at": "2026-04-01T11:44:45.182000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1993,13 +1993,6 @@
       "messages": 0
     },
     {
-      "time": "21.04 23:30",
-      "hour": 23,
-      "online": 17,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "21.04 23:32",
       "hour": 23,
       "online": 17,
@@ -2150,6 +2143,13 @@
       "time": "21.04 23:53",
       "hour": 23,
       "online": 16,
+      "in_voice": 6,
+      "messages": 0
+    },
+    {
+      "time": "21.04 23:54",
+      "hour": 23,
+      "online": 15,
       "in_voice": 6,
       "messages": 0
     }
