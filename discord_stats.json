@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T15:29:06.323301+00:00",
+  "updated_at": "2026-04-21T15:31:09.427509+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 67,
-    "online_count": 16,
-    "offline_count": 51,
+    "online_count": 17,
+    "offline_count": 50,
     "in_voice_count": 7,
     "messages_today": 85,
     "text_channels_count": 6,
@@ -144,6 +144,32 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1310660619300769925/cce01164262b3aa89bdd2a83dff8f5c4.png?size=1024",
       "joined_at": "2026-04-20T17:39:51.226000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1411040080092725248",
+      "name": "່vvv",
+      "status": "online",
+      "roles": [
+        "нету хента",
+        "Агностик",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1411040080092725248/9af32859302e35ea3e2b6a282a1993b6.png?size=1024",
+      "joined_at": "2026-04-01T11:44:45.182000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -846,32 +872,6 @@
       "top_role": "мужчины",
       "avatar": "https://cdn.discordapp.com/avatars/1444585534646255648/5445ffd7ffb201a98393cbdf684ea4b1.png?size=1024",
       "joined_at": "2026-04-12T14:36:38.297000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1411040080092725248",
-      "name": "່vvv",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "Агностик",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1411040080092725248/9af32859302e35ea3e2b6a282a1993b6.png?size=1024",
-      "joined_at": "2026-04-01T11:44:45.182000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1942,7 +1942,7 @@
       "name": "🧱┃кубическая-колония",
       "category": "✧ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  ✧",
       "position": 5,
-      "topic": "0/10000 players online | 6 unique players ever joined | Server online for 0 minutes | Last update: Tue, 21. Apr 2026 20:21:59 YEKT"
+      "topic": "Server is offline | 8 unique players ever joined"
     }
   ],
   "role_distribution": {
@@ -1963,13 +1963,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 19:41",
-      "hour": 19,
-      "online": 18,
-      "in_voice": 3,
-      "messages": 0
-    },
     {
       "time": "21.04 19:43",
       "hour": 19,
@@ -2130,22 +2123,22 @@
       "online": 16,
       "in_voice": 7,
       "messages": 0
+    },
+    {
+      "time": "21.04 20:31",
+      "hour": 20,
+      "online": 17,
+      "in_voice": 7,
+      "messages": 0
     }
   ],
   "top_chatters": [],
   "recent_join_leave": [],
   "minecraft": {
     "server_started": "2026-04-21T15:22:10.200000",
-    "server_stopped": "2026-04-21T14:18:04.894000",
+    "server_stopped": "2026-04-21T15:30:42.819000",
     "top_killers": [],
     "recent_events": [
-      {
-        "type": "chat",
-        "player": "abobys94753",
-        "text": "понял",
-        "date": "27.03.2026",
-        "time": "11:18"
-      },
       {
         "type": "chat",
         "player": "abobys94753",
@@ -2480,6 +2473,11 @@
         "type": "server_start",
         "date": "21.04.2026",
         "time": "15:22"
+      },
+      {
+        "type": "server_stop",
+        "date": "21.04.2026",
+        "time": "15:30"
       }
     ],
     "kills": {},
@@ -3433,6 +3431,11 @@
           "type": "server_start",
           "date": "21.04.2026",
           "time": "15:22"
+        },
+        {
+          "type": "server_stop",
+          "date": "21.04.2026",
+          "time": "15:30"
         }
       ]
     }
