@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:22:43.173360+00:00",
+  "updated_at": "2026-04-21T14:24:46.256530+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -260,6 +260,34 @@
       }
     },
     {
+      "id": "1255232329362833409",
+      "name": "кирпич шавуха",
+      "status": "online",
+      "roles": [
+        "бребрята",
+        "у меня есть хент",
+        "ОФИЧЕР СС",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/2516f26c53180f63f638b2b50cb037bf.png?size=1024",
+      "joined_at": "2026-04-08T17:36:23.662000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1009475184090152961",
       "name": "майонез",
       "status": "online",
@@ -405,32 +433,6 @@
         "gifs": 0,
         "files": 0,
         "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
-      "id": "1475436094269948006",
-      "name": "tenacious_quail_89142",
-      "status": "online",
-      "roles": [
-        "у меня есть хент",
-        "провославный",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1475436094269948006/a74d77d311927d81192f83a367197fef.png?size=1024",
-      "joined_at": "2026-04-21T13:31:30.896000+00:00",
-      "stats_today": {
-        "text": 5,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 5
       },
       "join_leave": {
         "joins": 0,
@@ -1185,34 +1187,6 @@
       }
     },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич шавуха",
-      "status": "offline",
-      "roles": [
-        "бребрята",
-        "у меня есть хент",
-        "ОФИЧЕР СС",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/2516f26c53180f63f638b2b50cb037bf.png?size=1024",
-      "joined_at": "2026-04-08T17:36:23.662000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1264609602540929140",
       "name": "dark_soul",
       "status": "offline",
@@ -1764,6 +1738,32 @@
         "joins": 0,
         "leaves": 0
       }
+    },
+    {
+      "id": "1475436094269948006",
+      "name": "tenacious_quail_89142",
+      "status": "offline",
+      "roles": [
+        "у меня есть хент",
+        "провославный",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1475436094269948006/a74d77d311927d81192f83a367197fef.png?size=1024",
+      "joined_at": "2026-04-21T13:31:30.896000+00:00",
+      "stats_today": {
+        "text": 5,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 5
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
     }
   ],
   "voice_channels": [
@@ -1951,13 +1951,6 @@
   },
   "hourly_history": [
     {
-      "time": "21.04 18:35",
-      "hour": 18,
-      "online": 16,
-      "in_voice": 6,
-      "messages": 10
-    },
-    {
       "time": "21.04 18:37",
       "hour": 18,
       "online": 17,
@@ -2117,6 +2110,13 @@
       "online": 16,
       "in_voice": 5,
       "messages": 3
+    },
+    {
+      "time": "21.04 19:24",
+      "hour": 19,
+      "online": 16,
+      "in_voice": 5,
+      "messages": 0
     }
   ],
   "top_chatters": [],
