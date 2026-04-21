@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T18:26:10.488476+00:00",
+  "updated_at": "2026-04-21T18:28:03.958617+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,15 +8,15 @@
   },
   "summary": {
     "total_members": 68,
-    "online_count": 16,
-    "offline_count": 52,
+    "online_count": 17,
+    "offline_count": 51,
     "in_voice_count": 6,
-    "messages_today": 116,
+    "messages_today": 118,
     "text_channels_count": 6,
     "voice_channels_count": 11
   },
   "media_today": {
-    "text": 116,
+    "text": 118,
     "images": 0,
     "gifs": 0,
     "stickers": 0,
@@ -94,13 +94,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/834060139006394368/5e2c210213fc901e0ac660e514820eb7.png?size=1024",
       "joined_at": "2025-10-03T09:40:02.942000+00:00",
       "stats_today": {
-        "text": 17,
+        "text": 18,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 17
+        "total": 18
       },
       "join_leave": {
         "joins": 0,
@@ -232,6 +232,32 @@
         "gifs": 0,
         "files": 0,
         "total": 1
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1004865806154346568",
+      "name": "камикадзе",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1004865806154346568/4dec8cebc9d8686dbca2b0e1f7befef5.png?size=1024",
+      "joined_at": "2026-04-01T18:42:25.889000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
       },
       "join_leave": {
         "joins": 0,
@@ -460,13 +486,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/1425903022629847200/8130c62aeca9ae01c74d66faee08868a.png?size=1024",
       "joined_at": "2026-03-10T11:19:30.910000+00:00",
       "stats_today": {
-        "text": 46,
+        "text": 47,
         "images": 0,
         "voice": 0,
         "stickers": 0,
         "gifs": 0,
         "files": 0,
-        "total": 46
+        "total": 47
       },
       "join_leave": {
         "joins": 0,
@@ -1193,32 +1219,6 @@
       }
     },
     {
-      "id": "1004865806154346568",
-      "name": "камикадзе",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1004865806154346568/4dec8cebc9d8686dbca2b0e1f7befef5.png?size=1024",
-      "joined_at": "2026-04-01T18:42:25.889000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1487560931432071249",
       "name": "Карасик",
       "status": "offline",
@@ -1812,7 +1812,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 4,
+      "members_count": 5,
       "members": [
         {
           "id": "1255232329362833409",
@@ -1829,6 +1829,10 @@
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
+        },
+        {
+          "id": "1158002004199747685",
+          "name": "ФРАНЦУЗ"
         }
       ]
     },
@@ -1865,15 +1869,11 @@
       "category": "Голосовые каналы",
       "position": 5,
       "user_limit": 3,
-      "members_count": 2,
+      "members_count": 1,
       "members": [
         {
           "id": "1425903022629847200",
           "name": "Тузик"
-        },
-        {
-          "id": "1158002004199747685",
-          "name": "ФРАНЦУЗ"
         }
       ]
     },
@@ -1985,13 +1985,6 @@
     "Агностик": 7
   },
   "hourly_history": [
-    {
-      "time": "21.04 23:03",
-      "hour": 23,
-      "online": 19,
-      "in_voice": 9,
-      "messages": 0
-    },
     {
       "time": "21.04 23:03",
       "hour": 23,
@@ -2152,6 +2145,13 @@
       "online": 16,
       "in_voice": 6,
       "messages": 0
+    },
+    {
+      "time": "21.04 23:28",
+      "hour": 23,
+      "online": 17,
+      "in_voice": 6,
+      "messages": 2
     }
   ],
   "top_chatters": [],
