@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:37:07.883809+00:00",
+  "updated_at": "2026-04-21T14:39:33.687683+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -161,7 +161,7 @@
     {
       "id": "1396938275263877150",
       "name": "лучок",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "бребрята",
         "КФС",
@@ -1951,13 +1951,6 @@
   },
   "hourly_history": [
     {
-      "time": "21.04 18:49",
-      "hour": 18,
-      "online": 18,
-      "in_voice": 7,
-      "messages": 4
-    },
-    {
       "time": "21.04 18:51",
       "hour": 18,
       "online": 16,
@@ -2117,6 +2110,13 @@
       "online": 18,
       "in_voice": 4,
       "messages": 1
+    },
+    {
+      "time": "21.04 19:39",
+      "hour": 19,
+      "online": 18,
+      "in_voice": 4,
+      "messages": 0
     }
   ],
   "top_chatters": [],
