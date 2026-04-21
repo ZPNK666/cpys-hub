@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T17:24:10.748073+00:00",
+  "updated_at": "2026-04-21T17:26:01.070478+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 68,
     "online_count": 18,
     "offline_count": 50,
-    "in_voice_count": 8,
+    "in_voice_count": 9,
     "messages_today": 112,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -269,7 +269,7 @@
     {
       "id": "1463157678883995673",
       "name": "☢️🎲Smitzaza56783🎲☢️",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "нету хента",
         "ислам",
@@ -1812,7 +1812,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 6,
+      "members_count": 7,
       "members": [
         {
           "id": "834060139006394368",
@@ -1837,6 +1837,10 @@
         {
           "id": "1465225825501712520",
           "name": "АРБУЗ"
+        },
+        {
+          "id": "1463157678883995673",
+          "name": "☢️🎲Smitzaza56783🎲☢️"
         }
       ]
     },
@@ -1993,13 +1997,6 @@
     "Агностик": 7
   },
   "hourly_history": [
-    {
-      "time": "21.04 21:41",
-      "hour": 21,
-      "online": 17,
-      "in_voice": 9,
-      "messages": 4
-    },
     {
       "time": "21.04 21:43",
       "hour": 21,
@@ -2159,6 +2156,13 @@
       "hour": 22,
       "online": 18,
       "in_voice": 8,
+      "messages": 0
+    },
+    {
+      "time": "21.04 22:26",
+      "hour": 22,
+      "online": 18,
+      "in_voice": 9,
       "messages": 0
     }
   ],
