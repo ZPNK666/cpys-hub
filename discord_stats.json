@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T16:33:16.692904+00:00",
+  "updated_at": "2026-04-21T16:35:24.983498+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "total_members": 68,
-    "online_count": 17,
-    "offline_count": 51,
-    "in_voice_count": 7,
+    "online_count": 19,
+    "offline_count": 49,
+    "in_voice_count": 8,
     "messages_today": 97,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -344,6 +344,34 @@
       }
     },
     {
+      "id": "1396607687365754883",
+      "name": "#!Apr๑ell꒱",
+      "status": "online",
+      "roles": [
+        "бребрята",
+        "нету хента",
+        "ОФИЧЕР СС",
+        "атеист",
+        "женщины"
+      ],
+      "top_role": "женщины",
+      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/ae08b6d66b18d74b1d5a86cb7471a318.png?size=1024",
+      "joined_at": "2026-04-03T12:29:43.474000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1420445349218357439",
       "name": "Fox",
       "status": "online",
@@ -424,6 +452,32 @@
       }
     },
     {
+      "id": "1465225825501712520",
+      "name": "Sigma arbus",
+      "status": "idle",
+      "roles": [
+        "нету хента",
+        "ислам",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1465225825501712520/455ab700dd945ac228ea4a49dc173b94.png?size=1024",
+      "joined_at": "2026-04-21T13:31:28.914000+00:00",
+      "stats_today": {
+        "text": 1,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 1
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
       "id": "1475436094269948006",
       "name": "МАЛИНА",
       "status": "online",
@@ -452,7 +506,7 @@
     {
       "id": "1463157678883995673",
       "name": "☢️🎲Smitzaza56783🎲☢️",
-      "status": "idle",
+      "status": "online",
       "roles": [
         "нету хента",
         "ислам",
@@ -1587,34 +1641,6 @@
       }
     },
     {
-      "id": "1396607687365754883",
-      "name": "#!Apr๑ell꒱",
-      "status": "offline",
-      "roles": [
-        "бребрята",
-        "нету хента",
-        "ОФИЧЕР СС",
-        "атеист",
-        "женщины"
-      ],
-      "top_role": "женщины",
-      "avatar": "https://cdn.discordapp.com/avatars/1396607687365754883/ae08b6d66b18d74b1d5a86cb7471a318.png?size=1024",
-      "joined_at": "2026-04-03T12:29:43.474000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1407789136965931088",
       "name": "⋆. 𐙚˚࿔✨𐌏ρ᥊϶ᥔ¿🔮𝜗𝜚˚⋆",
       "status": "offline",
@@ -1768,32 +1794,6 @@
         "joins": 0,
         "leaves": 0
       }
-    },
-    {
-      "id": "1465225825501712520",
-      "name": "Sigma arbus",
-      "status": "offline",
-      "roles": [
-        "нету хента",
-        "ислам",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1465225825501712520/455ab700dd945ac228ea4a49dc173b94.png?size=1024",
-      "joined_at": "2026-04-21T13:31:28.914000+00:00",
-      "stats_today": {
-        "text": 1,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 1
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
     }
   ],
   "voice_channels": [
@@ -1812,7 +1812,7 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 5,
+      "members_count": 6,
       "members": [
         {
           "id": "834060139006394368",
@@ -1833,6 +1833,10 @@
         {
           "id": "1255232329362833409",
           "name": "кирпич шавуха"
+        },
+        {
+          "id": "1396607687365754883",
+          "name": "#!Apr๑ell꒱"
         }
       ]
     },
@@ -1989,13 +1993,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 20:45",
-      "hour": 20,
-      "online": 16,
-      "in_voice": 5,
-      "messages": 0
-    },
     {
       "time": "21.04 20:47",
       "hour": 20,
@@ -2155,6 +2152,13 @@
       "hour": 21,
       "online": 17,
       "in_voice": 7,
+      "messages": 0
+    },
+    {
+      "time": "21.04 21:35",
+      "hour": 21,
+      "online": 19,
+      "in_voice": 8,
       "messages": 0
     }
   ],
