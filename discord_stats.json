@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:02:11.030372+00:00",
+  "updated_at": "2026-04-21T14:04:14.531615+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -10,7 +10,7 @@
     "total_members": 67,
     "online_count": 15,
     "offline_count": 52,
-    "in_voice_count": 7,
+    "in_voice_count": 4,
     "messages_today": 60,
     "text_channels_count": 6,
     "voice_channels_count": 11
@@ -1782,23 +1782,15 @@
       "category": "Голосовые каналы",
       "position": 1,
       "user_limit": 0,
-      "members_count": 7,
+      "members_count": 4,
       "members": [
         {
           "id": "834060139006394368",
           "name": "ZPNK666"
         },
         {
-          "id": "1360611987306057961",
-          "name": "Дубик"
-        },
-        {
           "id": "1435315936226709546",
           "name": "голубика"
-        },
-        {
-          "id": "1396938275263877150",
-          "name": "лучок"
         },
         {
           "id": "1433504994824425640",
@@ -1807,10 +1799,6 @@
         {
           "id": "1009475184090152961",
           "name": "майонез"
-        },
-        {
-          "id": "1425903022629847200",
-          "name": "Тузик"
         }
       ]
     },
@@ -1958,13 +1946,6 @@
     "бребрята": 6
   },
   "hourly_history": [
-    {
-      "time": "21.04 18:14",
-      "hour": 18,
-      "online": 14,
-      "in_voice": 4,
-      "messages": 0
-    },
     {
       "time": "21.04 18:16",
       "hour": 18,
@@ -2125,6 +2106,13 @@
       "online": 15,
       "in_voice": 7,
       "messages": 2
+    },
+    {
+      "time": "21.04 19:04",
+      "hour": 19,
+      "online": 15,
+      "in_voice": 4,
+      "messages": 0
     }
   ],
   "top_chatters": [],
