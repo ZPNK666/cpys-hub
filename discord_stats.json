@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T14:41:37.257186+00:00",
+  "updated_at": "2026-04-21T14:43:40.176861+00:00",
   "guild": {
     "id": "1423605509789061211",
     "name": "C.P.Y.S.hub",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "total_members": 67,
-    "online_count": 18,
-    "offline_count": 49,
+    "online_count": 17,
+    "offline_count": 50,
     "in_voice_count": 3,
     "messages_today": 67,
     "text_channels_count": 6,
@@ -161,7 +161,7 @@
     {
       "id": "1396938275263877150",
       "name": "лучок",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "бребрята",
         "КФС",
@@ -314,34 +314,6 @@
       }
     },
     {
-      "id": "1255232329362833409",
-      "name": "кирпич шавуха",
-      "status": "idle",
-      "roles": [
-        "бребрята",
-        "у меня есть хент",
-        "ОФИЧЕР СС",
-        "провославный",
-        "мужчины"
-      ],
-      "top_role": "мужчины",
-      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/2516f26c53180f63f638b2b50cb037bf.png?size=1024",
-      "joined_at": "2026-04-08T17:36:23.662000+00:00",
-      "stats_today": {
-        "text": 0,
-        "images": 0,
-        "voice": 0,
-        "stickers": 0,
-        "gifs": 0,
-        "files": 0,
-        "total": 0
-      },
-      "join_leave": {
-        "joins": 0,
-        "leaves": 0
-      }
-    },
-    {
       "id": "1009475184090152961",
       "name": "майонез",
       "status": "online",
@@ -474,7 +446,7 @@
     {
       "id": "1465225825501712520",
       "name": "Sigma arbus",
-      "status": "online",
+      "status": "idle",
       "roles": [
         "нету хента",
         "ислам",
@@ -1176,6 +1148,34 @@
       "top_role": "женщины",
       "avatar": "https://cdn.discordapp.com/avatars/1248970731849777152/1fac300843a6f5cc18d36b1e485a3084.png?size=1024",
       "joined_at": "2026-03-12T16:22:34.089000+00:00",
+      "stats_today": {
+        "text": 0,
+        "images": 0,
+        "voice": 0,
+        "stickers": 0,
+        "gifs": 0,
+        "files": 0,
+        "total": 0
+      },
+      "join_leave": {
+        "joins": 0,
+        "leaves": 0
+      }
+    },
+    {
+      "id": "1255232329362833409",
+      "name": "кирпич шавуха",
+      "status": "offline",
+      "roles": [
+        "бребрята",
+        "у меня есть хент",
+        "ОФИЧЕР СС",
+        "провославный",
+        "мужчины"
+      ],
+      "top_role": "мужчины",
+      "avatar": "https://cdn.discordapp.com/avatars/1255232329362833409/2516f26c53180f63f638b2b50cb037bf.png?size=1024",
+      "joined_at": "2026-04-08T17:36:23.662000+00:00",
       "stats_today": {
         "text": 0,
         "images": 0,
@@ -1947,13 +1947,6 @@
   },
   "hourly_history": [
     {
-      "time": "21.04 18:53",
-      "hour": 18,
-      "online": 16,
-      "in_voice": 6,
-      "messages": 0
-    },
-    {
       "time": "21.04 18:55",
       "hour": 18,
       "online": 16,
@@ -2111,6 +2104,13 @@
       "time": "21.04 19:41",
       "hour": 19,
       "online": 18,
+      "in_voice": 3,
+      "messages": 0
+    },
+    {
+      "time": "21.04 19:43",
+      "hour": 19,
+      "online": 17,
       "in_voice": 3,
       "messages": 0
     }
